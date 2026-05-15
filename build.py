@@ -199,6 +199,35 @@ def render_combined_section(hormozi, garyvee, factcheck):
 </section>'''
 
 
+# Slideshow config — one entry per produced idea
+# Currently only P2-A3 has voice variants; others are placeholders pending generation
+SLIDES = [
+    {
+        'id': 'P2-A3',
+        'title': 'Bank wire vs WorldFirst on the same $50K payment',
+        'pillar': 'P2',
+        'topic': '02',
+        'format_spec': 'Short-form 60s · comparison',
+        'has_data': True,
+    },
+    {
+        'id': 'P1-A8',
+        'title': 'The 3-letter code that decides if your wire is same-day',
+        'pillar': 'P1',
+        'topic': '01',
+        'format_spec': 'Short-form 60s · bilingual · curiosity-led',
+        'has_data': False,
+    },
+    {
+        'id': 'P2-A18',
+        'title': 'Personal vs business FX rate: the spread',
+        'pillar': 'P2',
+        'topic': '04',
+        'format_spec': 'Short-form 60s · reframe',
+        'has_data': False,
+    },
+]
+
 hormozi = load_skill('hormozi.json')
 garyvee = load_skill('garyvee.json')
 factcheck = load_factcheck()
@@ -210,6 +239,9 @@ if garyvee: total_scripts += len(garyvee.get('scripts', []))
 pending_banner = ''
 if total_scripts < 10:
     pending_banner = f'<div class="pending-banner"><strong>Producing…</strong> {total_scripts} of 10 scripts ready. Page rebuilds as each agent lands.</div>'
+
+import json as _json_mod
+json_slide_meta = _json_mod.dumps([{'id': s['id'], 'title': s['title']} for s in SLIDES])
 
 
 HTML_PAGE = f'''<!DOCTYPE html>
@@ -245,6 +277,35 @@ html, body {{ background: var(--bg); color: var(--ink);
   font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }}
 
 .wrap {{ max-width: 1400px; margin: 0 auto; padding: 50px 50px 220px; }}
+
+/* Slideshow nav */
+.slide-nav {{ position: sticky; top: 0; z-index: 50; background: var(--bg);
+  display: grid; grid-template-columns: 48px 1fr 48px; gap: 14px; align-items: center;
+  padding: 14px 20px; border: 1px solid var(--line); border-radius: 100px;
+  margin: 20px 0 32px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }}
+.nav-btn {{ width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line);
+  background: var(--bg); color: var(--ink); font-size: 18px; cursor: pointer;
+  transition: all 0.15s; display: flex; align-items: center; justify-content: center; }}
+.nav-btn:hover:not(:disabled) {{ background: var(--ink); color: #fff; border-color: var(--ink); }}
+.nav-btn:disabled {{ opacity: 0.3; cursor: not-allowed; }}
+.slide-info {{ display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; justify-content: center; }}
+.slide-counter {{ font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600;
+  padding: 4px 10px; border: 1px solid var(--line); border-radius: 100px; }}
+.slide-id {{ font-family: var(--mono); font-size: 13px; font-weight: 700;
+  letter-spacing: 0.04em; color: var(--ink); }}
+.slide-title {{ font-size: 14px; color: var(--ink-soft); font-weight: 500; }}
+
+.slide-meta {{ display: flex; gap: 14px; flex-wrap: wrap;
+  font-family: var(--mono); font-size: 11px; color: var(--ink-mute);
+  letter-spacing: 0.04em; margin-bottom: 24px; padding-bottom: 16px;
+  border-bottom: 1px solid var(--line-soft); }}
+
+.slide-pending {{ padding: 40px 30px; border: 1px dashed var(--line); border-radius: 8px;
+  background: var(--tint); text-align: center; }}
+.slide-pending strong {{ display: block; font-size: 15px; margin-bottom: 8px; color: var(--ink); }}
+.slide-pending p {{ font-size: 13px; color: var(--ink-soft); max-width: 520px;
+  margin: 0 auto; line-height: 1.55; }}
 
 .hero {{ padding-bottom: 28px; border-bottom: 1px solid var(--line); margin-bottom: 40px; }}
 .kicker {{ font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em;
@@ -400,13 +461,33 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 <div class="wrap">
 
 <div class="hero">
-  <div class="kicker">Sparkloop · Voice Iterate · P2-A3 angle</div>
-  <h1>Original Hormozi & Gary Vee → brand-polish iterations + fact-check</h1>
-  <p class="lede">5 pure-original Hormozi + 5 pure-original Gary Vee on the $50K wire angle. Each pure original gets a surgical brand-polish iteration (left column = pure, right column = iterated with strikethrough on what's removed and highlight on what's added). Value density and founder cadence preserved. American gym-bro CTA + verbs dialled down. Plus: a fact-check engine — what would a skeptical Malaysian SMB push back on, and how likely is it.</p>
-  {pending_banner}
+  <div class="kicker">Sparkloop · /spark_script · per-idea slideshow</div>
+  <h1>Pick one voice per produced idea</h1>
+  <p class="lede">Each produced idea from /spark_produce becomes a slide. Inside the slide: 10 voice variants (Hormozi PAS ×5 + Gary Vee ×5, each with brand-polish iteration showing surgical strikethrough + insertion), Claude rating, Heat metric, and severity-tagged skeptic comments. Pick one variant per slide. Last pick wraps Sparkloop.</p>
 </div>
 
-{render_combined_section(hormozi, garyvee, factcheck)}
+<!-- Slideshow nav -->
+<div class="slide-nav">
+  <button class="nav-btn" id="prevBtn" title="Previous idea (←)">←</button>
+  <div class="slide-info">
+    <span class="slide-counter" id="slideCounter">Idea 1 of {len(SLIDES)}</span>
+    <span class="slide-id" id="slideId">{esc(SLIDES[0]['id'])}</span>
+    <span class="slide-title" id="slideTitle">{esc(SLIDES[0]['title'])}</span>
+  </div>
+  <button class="nav-btn" id="nextBtn" title="Next idea (→)">→</button>
+</div>
+
+<div class="slides-container">
+  {chr(10).join(
+    f'<div class="slide" data-slide-id="{esc(s["id"])}" data-slide-idx="{i}" style="display:{ "block" if i == 0 else "none"};">'
+    + (
+        f'<div class="slide-meta"><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span></div>'
+        + (render_combined_section(hormozi, garyvee, factcheck) if s['has_data'] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Fire /spark_script agents to populate this slide. Currently only the reference slide ({SLIDES[0]["id"]}) has full voice variant data. The slideshow structure is ready — data fills in slide-by-slide as generation runs.</p></div>')
+    )
+    + '</div>'
+    for i, s in enumerate(SLIDES)
+  )}
+</div>
 
 </div>
 
@@ -503,6 +584,46 @@ document.getElementById('btnCopy').addEventListener('click', async () => {{
   }} catch (e) {{ console.error(e); }}
 }});
 updatePanel();
+
+// ========== SLIDESHOW NAVIGATION ==========
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
+let currentSlide = 0;
+
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const slideCounter = document.getElementById('slideCounter');
+const slideIdEl = document.getElementById('slideId');
+const slideTitleEl = document.getElementById('slideTitle');
+
+const SLIDE_META = {json_slide_meta};
+
+function showSlide(idx) {{
+  if (idx < 0 || idx >= totalSlides) return;
+  slides.forEach((s, i) => {{ s.style.display = i === idx ? 'block' : 'none'; }});
+  currentSlide = idx;
+  slideCounter.textContent = `Idea ${{idx + 1}} of ${{totalSlides}}`;
+  const meta = SLIDE_META[idx];
+  if (meta) {{
+    slideIdEl.textContent = meta.id;
+    slideTitleEl.textContent = meta.title;
+  }}
+  prevBtn.disabled = idx === 0;
+  nextBtn.disabled = idx === totalSlides - 1;
+  window.scrollTo({{top: 0, behavior: 'smooth'}});
+}}
+
+prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
+nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
+
+document.addEventListener('keydown', (e) => {{
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+  if (e.key === 'ArrowLeft') {{ e.preventDefault(); showSlide(currentSlide - 1); }}
+  if (e.key === 'ArrowRight') {{ e.preventDefault(); showSlide(currentSlide + 1); }}
+}});
+
+showSlide(0);
+
 </script>
 </body>
 </html>
