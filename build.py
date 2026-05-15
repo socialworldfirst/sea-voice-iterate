@@ -70,50 +70,57 @@ RATINGS = {
 }
 
 
-def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, factcheck=None, rating=None):
+def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None):
     diff_html = render_diff(diff_markup) if diff_markup else esc(iterated_vo)
 
-    rating_block = ''
+    heat_pill = ''
+    fc_note_text = ''
+    if factcheck:
+        heat = factcheck.get('red_flag', 'Low')
+        heat_class = f"heat-{heat.lower()}"
+        heat_pill = f'<span class="heat-pill {heat_class}" title="{esc(factcheck.get(\"analysis\", \"\"))}"><span class="hl">Heat</span><span class="hv">{esc(heat)}</span></span>'
+        fc_note_text = factcheck.get('analysis', '')
+
+    rating_row = ''
     if rating:
-        rating_block = f'''
-  <div class="rating-block">
-    <div class="block-label">Claude's rating</div>
+        rating_row = f'''
     <div class="rating-row">
       <span class="rp social"><span class="rl">Soc</span><span class="rv">{rating.get('social', '-')}</span></span>
       <span class="rp audience"><span class="rl">Aud</span><span class="rv">{rating.get('audience', '-')}</span></span>
       <span class="rp sales"><span class="rl">Sales</span><span class="rv">{rating.get('sales', '-')}</span></span>
-      <span class="overall">{rating.get('overall', '-')}</span>
+      <span class="overall"><span class="rl">Overall</span><span class="rv">{rating.get('overall', '-')}</span></span>
+      {heat_pill}
     </div>
-    <p class="rating-note">{esc(rating.get('note', ''))}</p>
-  </div>'''
+    <p class="rating-note">{esc(rating.get('note', ''))}</p>'''
 
     factcheck_block = ''
     if factcheck:
-        red_flag = factcheck.get('red_flag', 'Low')
-        flag_class = f"flag-{red_flag.lower()}"
         comments = factcheck.get('skeptic_comments', [])
         comments_html = '\n'.join(f'<li>{esc(c)}</li>' for c in comments)
         factcheck_block = f'''
   <div class="factcheck-block">
     <div class="fc-head">
-      <span class="block-label">Fact-check / skeptic test</span>
-      <span class="flag-pill {flag_class}">Red flag · {esc(red_flag)}</span>
+      <span class="block-label">Skeptic test · what a Malaysian SMB might push back on</span>
     </div>
-    <p class="fc-note">{esc(factcheck.get('analysis', ''))}</p>
+    <p class="fc-note">{esc(fc_note_text)}</p>
     <div class="skeptic-comments">
-      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
       <ul>{comments_html}</ul>
     </div>
   </div>'''
+
+    rank_chip = f'<span class="rank-chip">#{rank}</span>' if rank else ''
 
     return f'''
 <article class="script-card" data-script-id="{esc(script_id)}">
   <header class="script-head">
     <div class="script-row">
+      {rank_chip}
       <span class="script-id">{esc(script_id)}</span>
+      <span class="skill-tag">{esc(skill_name)}</span>
       <span class="word-count">{len(iterated_vo.split())} words</span>
     </div>
     <p class="script-subtitle">{esc(subtitle)}</p>
+    {rating_row}
   </header>
 
   <div class="cols">
@@ -143,9 +150,23 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, fa
 </article>'''
 
 
-def render_skill_section(skill_data, factcheck):
-    if not skill_data:
-        return f'<section class="skill-section pending"><h2>Pending…</h2><p>Agent still producing scripts.</p></section>'
+def render_combined_section(hormozi, garyvee, factcheck):
+    """Merge all scripts, sort by Claude overall desc, render single list."""
+    all_scripts = []
+    if hormozi:
+        for s in hormozi.get('scripts', []):
+            all_scripts.append((s, hormozi['skill']))
+    if garyvee:
+        for s in garyvee.get('scripts', []):
+            all_scripts.append((s, garyvee['skill']))
+
+    def overall_score(item):
+        s, _ = item
+        r = RATINGS.get(s['id'])
+        return r['overall'] if r else 0
+
+    all_scripts.sort(key=overall_score, reverse=True)
+
     scripts_html = '\n'.join(
         render_script(
             s['id'],
@@ -153,17 +174,15 @@ def render_skill_section(skill_data, factcheck):
             s.get('original_vo', ''),
             s.get('iterated_vo', ''),
             s.get('diff_markup', ''),
-            factcheck.get(s['id']),
-            RATINGS.get(s['id']),
+            skill_name=skill,
+            factcheck=factcheck.get(s['id']),
+            rating=RATINGS.get(s['id']),
+            rank=i + 1,
         )
-        for s in skill_data.get('scripts', [])
+        for i, (s, skill) in enumerate(all_scripts)
     )
     return f'''
-<section class="skill-section" id="{esc(skill_data['skill'].lower().replace(' ', '-'))}">
-  <header class="skill-head">
-    <h2>{esc(skill_data['skill'])}</h2>
-    <p class="skill-blurb">5 pure originals · each with a brand-polish iteration showing surgical edits</p>
-  </header>
+<section class="combined-section">
   <div class="scripts-stack">
     {scripts_html}
   </div>
@@ -236,11 +255,30 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   background: var(--bg); transition: border-color 0.15s, box-shadow 0.15s; }}
 .script-card.winner {{ border-color: var(--pick); box-shadow: 0 0 0 2px rgba(10,109,47,0.1); }}
 
-.script-head {{ padding: 14px 22px 12px; background: var(--tint); border-bottom: 1px solid var(--line-soft); }}
-.script-row {{ display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }}
+.script-head {{ padding: 16px 22px 14px; background: var(--tint); border-bottom: 1px solid var(--line-soft); }}
+.script-row {{ display: flex; gap: 10px; align-items: baseline; margin-bottom: 4px; flex-wrap: wrap; }}
+.rank-chip {{ font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--pick);
+  padding: 2px 8px; border: 1px solid var(--pick); border-radius: 100px; letter-spacing: 0.04em; }}
 .script-id {{ font-family: var(--mono); font-size: 14px; font-weight: 700; letter-spacing: 0.06em; }}
-.word-count {{ font-family: var(--mono); font-size: 11px; color: var(--ink-mute); }}
-.script-subtitle {{ font-size: 13px; color: var(--ink-soft); font-style: italic; }}
+.skill-tag {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute); padding: 2px 8px;
+  border: 1px solid var(--line); border-radius: 100px; }}
+.word-count {{ font-family: var(--mono); font-size: 11px; color: var(--ink-mute); margin-left: auto; }}
+.script-subtitle {{ font-size: 13px; color: var(--ink-soft); font-style: italic; margin-bottom: 12px; }}
+
+/* Inline rating row in header */
+.script-head .rating-row {{ display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; margin: 0; }}
+.script-head .rating-note {{ font-size: 12px; color: var(--ink-soft); font-style: italic; line-height: 1.5; margin-top: 8px; padding: 0; }}
+
+/* Heat pill */
+.heat-pill {{ display: inline-flex; align-items: baseline; gap: 4px; padding: 2px 8px;
+  border-radius: 100px; font-family: var(--mono); font-weight: 600;
+  border: 1px solid currentColor; margin-left: 4px; cursor: help; }}
+.heat-pill .hl {{ font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.8; }}
+.heat-pill .hv {{ font-size: 10px; }}
+.heat-low {{ color: var(--flag-low); background: rgba(110,110,115,0.06); }}
+.heat-medium {{ color: var(--flag-medium); background: rgba(148,97,0,0.08); }}
+.heat-high {{ color: var(--flag-high); background: rgba(176,48,96,0.08); }}
 
 .cols {{ display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-bottom: 1px solid var(--line-soft); }}
 .col {{ padding: 18px 22px; }}
@@ -261,8 +299,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .diff-del {{ text-decoration: line-through; color: var(--del); background: rgba(176,48,96,0.08); padding: 0 2px; border-radius: 2px; }}
 .diff-ins {{ color: var(--ins); background: rgba(10,109,47,0.12); padding: 0 2px; border-radius: 2px; font-weight: 500; }}
 
-.rating-block {{ padding: 14px 22px; border-bottom: 1px solid var(--line-soft); background: rgba(26,109,204,0.03); }}
-.rating-row {{ display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px; }}
+/* Rating chips (used inline in header now) */
 .rp {{ display: inline-flex; align-items: baseline; gap: 3px; padding: 2px 7px;
   border-radius: 100px; font-family: var(--mono); font-weight: 600; }}
 .rp .rl {{ font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; }}
@@ -270,20 +307,15 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .rp.social {{ background: rgba(26,109,204,0.13); color: var(--social); }}
 .rp.audience {{ background: rgba(148,97,0,0.13); color: var(--audience); }}
 .rp.sales {{ background: rgba(176,48,96,0.13); color: var(--product); }}
-.overall {{ font-family: var(--mono); font-size: 14px; font-weight: 700;
-  margin-left: 6px; padding-left: 8px; border-left: 1px solid var(--line); color: var(--ink); }}
-.rating-note {{ font-size: 12px; color: var(--ink-soft); font-style: italic; line-height: 1.5; }}
+.overall {{ display: inline-flex; align-items: baseline; gap: 4px; padding: 2px 8px;
+  margin-left: 4px; padding-left: 10px; border-left: 1px solid var(--line);
+  font-family: var(--mono); font-weight: 700; color: var(--ink); }}
+.overall .rl {{ font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute); font-weight: 600; }}
+.overall .rv {{ font-size: 13px; }}
 
 .factcheck-block {{ padding: 14px 22px; border-bottom: 1px solid var(--line-soft);
   background: rgba(176,48,96,0.03); }}
-.fc-head {{ display: flex; justify-content: space-between; align-items: center;
-  margin-bottom: 8px; flex-wrap: wrap; gap: 8px; }}
-.flag-pill {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em;
-  text-transform: uppercase; padding: 3px 9px; border-radius: 100px;
-  border: 1px solid currentColor; font-weight: 600; }}
-.flag-low {{ color: var(--flag-low); }}
-.flag-medium {{ color: var(--flag-medium); }}
-.flag-high {{ color: var(--flag-high); background: rgba(176,48,96,0.06); }}
+.fc-head {{ margin-bottom: 8px; }}
 .fc-note {{ font-size: 12.5px; color: var(--ink-soft); line-height: 1.55; margin-bottom: 10px; font-style: italic; }}
 .skeptic-comments {{ margin-top: 8px; }}
 .sc-label {{ font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
@@ -354,8 +386,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   {pending_banner}
 </div>
 
-{render_skill_section(hormozi, factcheck)}
-{render_skill_section(garyvee, factcheck)}
+{render_combined_section(hormozi, garyvee, factcheck)}
 
 </div>
 
