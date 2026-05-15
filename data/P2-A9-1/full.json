@@ -1,0 +1,347 @@
+{
+  "angle_id": "P2-A9-1",
+  "title": "What 'we'll give you a good rate' actually means",
+  "card_id": "P2-A9",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Phrase-decode classic PAS",
+        "original_vo": "Listen. When your bank tells you we'll give you a good rate, they mean good for them. Here's the math. 10am Tuesday. Real interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank quotes you 7.05. That looks fine. It's not. The gap is 2.4 percent. On a 10K wire that's 240 dollars gone. On 100K it's 2,400. Same percent. Scales with every wire you send. You never see it on a statement because it's baked into the rate itself. Banks compete on the word good. You should compete on the actual number. Stop. Open XE.com or just Google USD to CNY before you confirm the wire. If your quote is more than half a percent off, you're paying a silent margin. Period. WorldFirst quotes near the interbank rate so the number you see is the number you pay. Search WorldFirst. Period.",
+        "iterated_vo": "When your bank tells you we'll give you a good rate, they mean good for them. Here's the math. 10am Tuesday. Real interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank quotes you 7.05. That looks fine. It's not. The gap is 2.4 percent. On a 10K wire that's 240 dollars gone. On 100K it's 2,400. Same percent. Scales with every wire you send. You never see it on a statement because it's baked into the rate itself. Banks compete on the word good. You should compete on the actual number. Open XE.com or just Google USD to CNY before you confirm the wire. If your quote is more than half a percent off, you're paying a silent margin. WorldFirst quotes near the interbank rate so the number you see is the number you pay. Worth a look. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>When your bank tells you we'll give you a good rate, they mean good for them. Here's the math. 10am Tuesday. Real interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank quotes you 7.05. That looks fine. It's not. The gap is 2.4 percent. On a 10K wire that's 240 dollars gone. On 100K it's 2,400. Same percent. Scales with every wire you send. You never see it on a statement because it's baked into the rate itself. Banks compete on the word good. You should compete on the actual number. <del>Stop. </del>Open XE.com or just Google USD to CNY before you confirm the wire. If your quote is more than half a percent off, you're paying a silent margin. <del>Period. </del>WorldFirst quotes near the interbank rate so the number you see is the number you pay. <ins>Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Word-for-word translation reveal",
+        "original_vo": "Let me translate what your bank actually said. We'll give you a good rate. Translation. We'll give you a rate that sounds good next to the rate we'd give a tourist. 10am check. Interbank USD-CNY, the rate banks use with each other, sitting at 7.22. Bank quote on your wire. 7.05. The word good is doing 2.4 percent of heavy lifting. On a 50K supplier payment that's 1,200 dollars your bank kept and never line-itemed. Stop accepting adjectives. Start asking for the number. Ask your bank, what's your USD-CNY rate today, then open Google and compare. Half a percent off is normal. Two percent off is them charging you for the word good. WorldFirst gives you near-interbank rates with no adjective games. Search WorldFirst. Period.",
+        "iterated_vo": "Let me translate what your bank actually said. We'll give you a good rate. Translation. We'll give you a rate that sounds good next to the rate we'd give a tourist. 10am check. Interbank USD-CNY, the rate banks use with each other, sitting at 7.22. Bank quote on your wire. 7.05. The word good is doing 2.4 percent of heavy lifting. On a 50K supplier payment that's 1,200 dollars your bank kept and never line-itemed. Start asking for the number instead of the adjective. Ask your bank, what's your USD-CNY rate today, then open Google and compare. Half a percent off is normal. Two percent off is them charging you for the word good. WorldFirst gives you near-interbank rates with no adjective games. Search WorldFirst.",
+        "diff_markup": "Let me translate what your bank actually said. We'll give you a good rate. Translation. We'll give you a rate that sounds good next to the rate we'd give a tourist. 10am check. Interbank USD-CNY, the rate banks use with each other, sitting at 7.22. Bank quote on your wire. 7.05. The word good is doing 2.4 percent of heavy lifting. On a 50K supplier payment that's 1,200 dollars your bank kept and never line-itemed. <del>Stop accepting adjectives. Start asking for the number</del><ins>Start asking for the number instead of the adjective</ins>. Ask your bank, what's your USD-CNY rate today, then open Google and compare. Half a percent off is normal. Two percent off is them charging you for the word good. WorldFirst gives you near-interbank rates with no adjective games. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation around the marketing word",
+        "original_vo": "The word good in we'll give you a good rate is the most expensive word in banking. Here's why. Tuesday 10am. Interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank's good rate. 7.05. That gap is 2.4 percent. On a 10K wire, 240 dollars. 100K, 2,400. Now do the math across a year of supplier wires. The word good cost you a hire. The word good cost you your Q3 inventory buffer. The word good cost you the margin you needed to compete on price. Banks weaponize the word good because business owners don't check. Stop letting an adjective decide your P&L. Open XE.com. Compare. Demand the number not the word. WorldFirst quotes near-interbank with the rate visible before you confirm. Search WorldFirst. Period.",
+        "iterated_vo": "The word good in we'll give you a good rate is the most expensive word in banking. Here's why. Tuesday 10am. Interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank's good rate. 7.05. That gap is 2.4 percent. On a 10K wire, 240 dollars. 100K, 2,400. Now do the math across a year of supplier wires. The word good cost you a hire. The word good cost you your Q3 inventory buffer. The word good cost you the margin you needed to compete on price. Banks lean on the word good because business owners don't check. Open XE.com. Compare. Ask for the number not the word. WorldFirst quotes near-interbank with the rate visible before you confirm. Search WorldFirst.",
+        "diff_markup": "The word good in we'll give you a good rate is the most expensive word in banking. Here's why. Tuesday 10am. Interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank's good rate. 7.05. That gap is 2.4 percent. On a 10K wire, 240 dollars. 100K, 2,400. Now do the math across a year of supplier wires. The word good cost you a hire. The word good cost you your Q3 inventory buffer. The word good cost you the margin you needed to compete on price. Banks <del>weaponize</del><ins>lean on</ins> the word good because business owners don't check. <del>Stop letting an adjective decide your P&L. </del>Open XE.com. Compare. <del>Demand</del><ins>Ask for</ins> the number not the word. WorldFirst quotes near-interbank with the rate visible before you confirm. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism reveal, no accusation",
+        "original_vo": "Here's what most business owners don't realize about the phrase good rate. Good is not a rate. It's a relative word. Good compared to what. Here's the answer your bank hopes you never ask. Tuesday 10am. Real interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank's good rate. 7.05. The gap is 2.4 percent. On every wire. Buried in the exchange rate itself, never a line item on the statement. So when the bank says good, they mean better than what they could legally charge a tourist. Not better than the real cost. Better than the worst case. The fix is one tab. XE.com. Google. Wise mid-market quote. All free. All real-time. Compare before you confirm. WorldFirst publishes rates near interbank so good actually means good. Search WorldFirst. Period.",
+        "iterated_vo": "Here's what most business owners don't realize about the phrase good rate. Good is not a rate. It's a relative word. Good compared to what. Here's the answer your bank hopes you never ask. Tuesday 10am. Real interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank's good rate. 7.05. The gap is 2.4 percent. On every wire. Buried in the exchange rate itself, never a line item on the statement. So when the bank says good, they mean better than what they could charge a tourist. Not better than the real cost. Better than the worst case. The fix is one tab. XE.com. Google. Wise mid-market quote. All free. All real-time. Compare before you confirm. WorldFirst publishes rates near interbank so good actually means good. Search WorldFirst.",
+        "diff_markup": "Here's what most business owners don't realize about the phrase good rate. Good is not a rate. It's a relative word. Good compared to what. Here's the answer your bank hopes you never ask. Tuesday 10am. Real interbank USD-CNY, the rate banks use with each other, is 7.22. Your bank's good rate. 7.05. The gap is 2.4 percent. On every wire. Buried in the exchange rate itself, never a line item on the statement. So when the bank says good, they mean better than what they could <del>legally </del>charge a tourist. Not better than the real cost. Better than the worst case. The fix is one tab. XE.com. Google. Wise mid-market quote. All free. All real-time. Compare before you confirm. WorldFirst publishes rates near interbank so good actually means good. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Two-column reveal + verify-yourself",
+        "original_vo": "If your relationship manager said we'll give you a good rate, you need this. Here's the test. Two columns. Left column. What the bank quoted you. Say 7.05 USD to CNY on a wire to your supplier. Right column. What the rate actually was at that minute. Real interbank, the rate banks use with each other. 7.22. The gap is 2.4 percent. On 10K, you paid 240 hidden. On 50K, 1,200 hidden. On 100K, 2,400 hidden. None of it shows up as a fee. You don't need a treasury team. You need one browser tab. XE.com or Google USD to CNY. Compare before you confirm. If your bank's rate is more than half a percent off the real one, the word good is doing the lying. WorldFirst quotes near-interbank with the live rate shown before confirmation. Search WorldFirst. Period.",
+        "iterated_vo": "If your relationship manager said we'll give you a good rate, you need this. Here's the test. Two columns. Left column. What the bank quoted you. Say 7.05 USD to CNY on a wire to your supplier. Right column. What the rate actually was at that minute. Real interbank, the rate banks use with each other. 7.22. The gap is 2.4 percent. On 10K, you paid 240 hidden. On 50K, 1,200 hidden. On 100K, 2,400 hidden. None of it shows up as a fee. You don't need a treasury team. You need one browser tab. XE.com or Google USD to CNY. Compare before you confirm. If your bank's rate is more than half a percent off the real one, the word good is doing the work. WorldFirst quotes near-interbank with the live rate shown before confirmation. Search WorldFirst.",
+        "diff_markup": "If your relationship manager said we'll give you a good rate, you need this. Here's the test. Two columns. Left column. What the bank quoted you. Say 7.05 USD to CNY on a wire to your supplier. Right column. What the rate actually was at that minute. Real interbank, the rate banks use with each other. 7.22. The gap is 2.4 percent. On 10K, you paid 240 hidden. On 50K, 1,200 hidden. On 100K, 2,400 hidden. None of it shows up as a fee. You don't need a treasury team. You need one browser tab. XE.com or Google USD to CNY. Compare before you confirm. If your bank's rate is more than half a percent off the real one, the word good is doing the <del>lying</del><ins>work</ins>. WorldFirst quotes near-interbank with the live rate shown before confirmation. Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Opinion-led phrase callout",
+        "original_vo": "Stop. Real talk for any business owner sending money to Chinese suppliers. When your bank says we'll give you a good rate, that is marketing. It is not a number. Here's what good actually meant on a real wire last Tuesday. Real interbank USD-CNY, the rate banks use with each other, was 7.22. The bank quoted my friend 7.05 on a 50K wire. The word good cost him 1,200 dollars. Buried in the rate. No line item. Listen. Adjectives are not rates. Numbers are rates. Next time, ask for the number. Compare it to Google. WorldFirst gives you near-interbank quotes with the actual number shown. Search WorldFirst. Now.",
+        "iterated_vo": "For any business owner sending money to Chinese suppliers. When your bank says we'll give you a good rate, that is marketing. It is not a number. Here's what good actually meant on a real wire last Tuesday. Real interbank USD-CNY, the rate banks use with each other, was 7.22. The bank quoted my friend 7.05 on a 50K wire. The word good cost him 1,200 dollars. Buried in the rate. No line item. Adjectives are not rates. Numbers are rates. Next time, ask for the number. Compare it to Google. WorldFirst gives you near-interbank quotes with the actual number shown. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for any</del><ins>For any</ins> business owner sending money to Chinese suppliers. When your bank says we'll give you a good rate, that is marketing. It is not a number. Here's what good actually meant on a real wire last Tuesday. Real interbank USD-CNY, the rate banks use with each other, was 7.22. The bank quoted my friend 7.05 on a 50K wire. The word good cost him 1,200 dollars. Buried in the rate. No line item. <del>Listen. </del>Adjectives are not rates. Numbers are rates. Next time, ask for the number. Compare it to Google. WorldFirst gives you near-interbank quotes with the actual number shown. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth",
+        "original_vo": "I'll say it. Good rate is the most successful piece of marketing the banks ever ran. Because good is comparative and they get to pick what it's compared to. You send a wire to your supplier in China. Bank says good rate. You feel taken care of. Meanwhile the real interbank rate, the rate banks use with each other, is sitting 2 to 3 percent better than what they just quoted you. On 50K, that's a thousand dollars or more, gone in one click. You'll never see it because the margin lives inside the rate, not on the statement. The fix is so simple. Google USD to CNY before you confirm. If you're more than half a percent off, you're paying for the word good. WorldFirst publishes rates near interbank. Numbers, not adjectives. Search WorldFirst.",
+        "iterated_vo": "Good rate is the most successful piece of marketing the banks ever ran. Because good is comparative and they get to pick what it's compared to. You send a wire to your supplier in China. Bank says good rate. You feel taken care of. Meanwhile the real interbank rate, the rate banks use with each other, is sitting 2 to 3 percent better than what they just quoted you. On 50K, that's a thousand dollars or more, gone in one click. You'll never see it because the margin lives inside the rate, not on the statement. The fix is simple. Google USD to CNY before you confirm. If you're more than half a percent off, you're paying for the word good. WorldFirst publishes rates near interbank. Numbers, not adjectives. Search WorldFirst.",
+        "diff_markup": "<del>I'll say it. </del>Good rate is the most successful piece of marketing the banks ever ran. Because good is comparative and they get to pick what it's compared to. You send a wire to your supplier in China. Bank says good rate. You feel taken care of. Meanwhile the real interbank rate, the rate banks use with each other, is sitting 2 to 3 percent better than what they just quoted you. On 50K, that's a thousand dollars or more, gone in one click. You'll never see it because the margin lives inside the rate, not on the statement. The fix is <del>so </del>simple. Google USD to CNY before you confirm. If you're more than half a percent off, you're paying for the word good. WorldFirst publishes rates near interbank. Numbers, not adjectives. Search WorldFirst."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop accepting adjectives reframe",
+        "original_vo": "Stop accepting adjectives from your bank. I'm serious. Good rate. Best rate. Preferred rate. Special rate. None of those are numbers. None of those tell you what your supplier actually receives in China. Here's what one looked like last week. Interbank USD-CNY, the rate banks use with each other, 7.22. Bank's good rate to a business owner I know, 7.05. Gap, 2.4 percent. On his 80K wire, that's almost 2K vanishing into the rate. You wouldn't sign a contract with the word good as a price. Don't accept it on a wire either. Ask for the number. Compare to Google. WorldFirst quotes near-interbank with the number shown before you confirm. Search WorldFirst. Now.",
+        "iterated_vo": "Your bank is selling you adjectives. Good rate. Best rate. Preferred rate. Special rate. None of those are numbers. None of those tell you what your supplier actually receives in China. Here's what one looked like last week. Interbank USD-CNY, the rate banks use with each other, 7.22. Bank's good rate to a business owner I know, 7.05. Gap, 2.4 percent. On his 80K wire, that's almost 2K vanishing into the rate. You wouldn't sign a contract with the word good as a price. Don't accept it on a wire either. Ask for the number. Compare to Google. WorldFirst quotes near-interbank with the number shown before you confirm. Search WorldFirst.",
+        "diff_markup": "<del>Stop accepting adjectives from your bank. I'm serious</del><ins>Your bank is selling you adjectives</ins>. Good rate. Best rate. Preferred rate. Special rate. None of those are numbers. None of those tell you what your supplier actually receives in China. Here's what one looked like last week. Interbank USD-CNY, the rate banks use with each other, 7.22. Bank's good rate to a business owner I know, 7.05. Gap, 2.4 percent. On his 80K wire, that's almost 2K vanishing into the rate. You wouldn't sign a contract with the word good as a price. Don't accept it on a wire either. Ask for the number. Compare to Google. WorldFirst quotes near-interbank with the number shown before you confirm. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody tells / conspiratorial",
+        "original_vo": "Here's the truth nobody is telling business owners about the phrase good rate. It's a trick of comparison. Banks compare your rate to a worse rate they could have given you and call it good. They don't compare it to the real interbank rate, the rate banks use with each other. On a typical day, that gap is 2 percent. Sometimes more. On 50K, that's 1,000 to 1,500 dollars. Per wire. Never on the statement. The word good is doing all the work. Pull up Google. Search USD to CNY. Look at the number. Then look at your bank's quote. The gap is what good was hiding. WorldFirst quotes near interbank. Adjective free. Search WorldFirst.",
+        "iterated_vo": "Here's something nobody is telling business owners about the phrase good rate. It's a trick of comparison. Banks compare your rate to a worse rate they could have given you and call it good. They don't compare it to the real interbank rate, the rate banks use with each other. On a typical day, that gap is 2 percent. Sometimes more. On 50K, that's 1,000 to 1,500 dollars. Per wire. Never on the statement. The word good is doing all the work. Pull up Google. Search USD to CNY. Look at the number. Then look at your bank's quote. The gap is what good was hiding. WorldFirst quotes near interbank. Numbers, not adjectives. Search WorldFirst.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody is telling business owners about the phrase good rate. It's a trick of comparison. Banks compare your rate to a worse rate they could have given you and call it good. They don't compare it to the real interbank rate, the rate banks use with each other. On a typical day, that gap is 2 percent. Sometimes more. On 50K, that's 1,000 to 1,500 dollars. Per wire. Never on the statement. The word good is doing all the work. Pull up Google. Search USD to CNY. Look at the number. Then look at your bank's quote. The gap is what good was hiding. WorldFirst quotes near interbank. <del>Adjective free</del><ins>Numbers, not adjectives</ins>. Search WorldFirst."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Personal energy + verify-it-yourself",
+        "original_vo": "Real talk for any business owner who has ever heard their bank say we'll give you a good rate. I see this every week. The relationship manager calls. They use the word good. The business owner feels valued. The wire goes out. The supplier gets less than expected. And nobody connects the dots. The dots are this. Good is not a rate. It's a feeling. The actual rate, the real interbank rate that banks use with each other, you can pull up on Google in 5 seconds. Search USD to CNY. Compare. If your bank is 2 percent off, the word good cost you 2 percent of every wire you sent this year. That's real money. Stop trusting the adjective. Trust the number. WorldFirst gives you the number. Search WorldFirst. Now.",
+        "iterated_vo": "For any business owner who has ever heard their bank say we'll give you a good rate. This happens every week. The relationship manager calls. They use the word good. The business owner feels valued. The wire goes out. The supplier gets less than expected. And nobody connects the dots. The dots are this. Good is not a rate. It's a feeling. The actual rate, the real interbank rate that banks use with each other, you can pull up on Google in 5 seconds. Search USD to CNY. Compare. If your bank is 2 percent off, the word good cost you 2 percent of every wire you sent this year. That's real money. Trust the number, not the adjective. WorldFirst gives you the number. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for any</del><ins>For any</ins> business owner who has ever heard their bank say we'll give you a good rate. <del>I see this</del><ins>This happens</ins> every week. The relationship manager calls. They use the word good. The business owner feels valued. The wire goes out. The supplier gets less than expected. And nobody connects the dots. The dots are this. Good is not a rate. It's a feeling. The actual rate, the real interbank rate that banks use with each other, you can pull up on Google in 5 seconds. Search USD to CNY. Compare. If your bank is 2 percent off, the word good cost you 2 percent of every wire you sent this year. That's real money. <del>Stop trusting the adjective. Trust the number</del><ins>Trust the number, not the adjective</ins>. WorldFirst gives you the number. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core teaching (the word 'good' is unverifiable until compared to interbank) is genuinely useful and defensible. The specific 7.22 vs 7.05 example is presented as if it's a single observed moment, which is fair as illustration. Main red flag is the universal-feeling 2.4 percent presented as a typical case, when actual spreads vary by bank, currency pair, wire size, and tier. 'Number you see is the number you pay' on WF side slightly overstates because CN-side receiving fees can still apply. The 'half a percent off' threshold is a reasonable heuristic but is presented as a hard rule.",
+      "skeptic_comments": [
+        {
+          "text": "7.22 vs 7.05? One snapshot only what. CNY rate move every minute lah.",
+          "severity": "high"
+        },
+        {
+          "text": "Half a percent threshold, who set this rule? Sound made up.",
+          "severity": "mid"
+        },
+        {
+          "text": "My Maybank quote not so bad. Maybe US bank different.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Got Malaysia license or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad. Show me real screenshot side by side la.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "Medium",
+      "analysis": "The translation framing (good rate = good compared to tourist rate) is clever but slightly snarky and could put a banking-defensive viewer on edge. The 7.22 vs 7.05 single-moment example is consistent with PH1. 'No adjective games' on WF side is a fair brand promise but reads as marketing. 'Half a percent normal, two percent is them charging you' is again a heuristic presented as if it's universal. The core mechanism teaching is sound.",
+      "skeptic_comments": [
+        {
+          "text": "Tourist rate? Cmon now, business wire not same as money changer lah.",
+          "severity": "high"
+        },
+        {
+          "text": "1,200 on 50K, ok the math works. But once-off example or always?",
+          "severity": "mid"
+        },
+        {
+          "text": "Half a percent normal, two percent bad. Where got rule like this?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst no adjective game, sure or not? Read your own marketing first.",
+          "severity": "mid"
+        },
+        {
+          "text": "What's your fee model then? Free? Hidden somewhere also?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "The compounding consequences (cost you a hire, your Q3 inventory buffer, your competing margin) are dramatic extrapolations from a single 2.4 percent figure. Most SMBs will see this as stretched. 'Banks lean on the word good because business owners don't check' is slightly accusatory of the audience. The 7.22 vs 7.05 example is fine, but stacking it into 'a year of supplier wires' without specifying volume is the same compounding risk as PH2 in the reference set. Most defensible part is the verify-yourself instruction.",
+      "skeptic_comments": [
+        {
+          "text": "Cost me a hire? Bro you don't know my volume. Maybe I do 2 wires a year.",
+          "severity": "high"
+        },
+        {
+          "text": "Business owners don't check, ok so you call us lazy? Thanks.",
+          "severity": "high"
+        },
+        {
+          "text": "Where 2.4% come from consistently? My bank not so bad.",
+          "severity": "high"
+        },
+        {
+          "text": "Q3 inventory buffer? Sound like consultant talk. Just show real rate la.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need license check first.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Cleanest of the Hormozi set. The 'good compared to what' question is genuinely useful pedagogy. The 7.22 vs 7.05 example is bounded as illustration not universal claim. Spelling out interbank ('the rate banks use with each other') and listing free verification tools (XE.com, Google, Wise mid-market) is concrete and actionable. 'Better than what they could charge a tourist' is mild snark but defensible because banks do tier rates. Main red flag is still that 2.4 percent reads as typical when it's just one example.",
+      "skeptic_comments": [
+        {
+          "text": "Good compared to what, ya this question actually useful.",
+          "severity": "low"
+        },
+        {
+          "text": "XE Google Wise, ok concrete. I can verify. Fair enough.",
+          "severity": "low"
+        },
+        {
+          "text": "Tourist rate comparison, my BNM regulated bank not the same lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Still want to know who WorldFirst is. License? Parent company?",
+          "severity": "high"
+        },
+        {
+          "text": "2.4% on this one example. What about other days when bank rate is closer?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Low",
+      "analysis": "The two-column test is the cleanest teaching device in the Hormozi set. Concrete amounts at 10K, 50K, 100K let the viewer find their own size. 'One browser tab' is honest minimum-friction framing. 'Half a percent off' threshold is again a heuristic but here it's labeled as rule of thumb, not law. 'The word good is doing the work' is softer than 'doing the lying' (which was the original) and lands without insulting bank or viewer. Most defensible script in the Hormozi set.",
+      "skeptic_comments": [
+        {
+          "text": "Two column test ok I can do this. Practical advice for once.",
+          "severity": "low"
+        },
+        {
+          "text": "Half percent threshold still feel made up but at least sound reasonable.",
+          "severity": "low"
+        },
+        {
+          "text": "Live rate shown before confirmation, sure WorldFirst do this?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Never hear before in KL.",
+          "severity": "high"
+        },
+        {
+          "text": "Compare before confirm, ok useful tip even if I don't switch.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "'Adjectives are not rates' is clean Gary Vee opinion landing. The single 7.22 vs 7.05 example with the friend story personalizes it. 'No line item' is technically accurate and a legitimate teaching point. Main risk is the friend anecdote is unverifiable, and 'good cost him 1,200 dollars' is one example presented to imply norm. WF claim 'actual number shown' is a brand promise that a skeptic will want to test.",
+      "skeptic_comments": [
+        {
+          "text": "Your friend, sure or just a made up example?",
+          "severity": "mid"
+        },
+        {
+          "text": "Adjective not rate, fine. But all banks use marketing words lah, normal.",
+          "severity": "low"
+        },
+        {
+          "text": "1,200 on 50K once, but my bank maybe charge 500. Different.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need to research first.",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad. Got real customer testimonial from SE Asia SME?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "'Most successful piece of marketing the banks ever ran' is opinion framed as opinion, defensible Gary Vee voice. The '2 to 3 percent' range is more honest than a single 2.4 percent figure and shows it varies. 'Margin lives inside the rate, not on the statement' is accurate. 'Half a percent off' threshold again presented without source. WF claim 'numbers not adjectives' is clean brand positioning that doesn't overstate function.",
+      "skeptic_comments": [
+        {
+          "text": "Most successful marketing, fair opinion. Bit dramatic but ok.",
+          "severity": "low"
+        },
+        {
+          "text": "2 to 3 percent range, better than fixed number. But still got source?",
+          "severity": "mid"
+        },
+        {
+          "text": "Half percent threshold rule, where from? Sound arbitrary.",
+          "severity": "mid"
+        },
+        {
+          "text": "Margin in rate not statement, ya this part true actually.",
+          "severity": "low"
+        },
+        {
+          "text": "Who is WorldFirst? Got license in Malaysia or just online thing?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "'Selling you adjectives' as opener is clean reframe and lands the phrase-decode angle. Listing 'good rate, best rate, preferred rate, special rate' is genuine and useful pattern recognition. The 80K example differs from prior 50K which adds variety but the 2.4 percent is again consistent across scripts which a binge-watcher could question. Wouldn't sign a contract with adjective as price is a strong analogy that a skeptic might accept.",
+      "skeptic_comments": [
+        {
+          "text": "Best rate preferred rate special rate, ya banks do use these. Pattern is real.",
+          "severity": "low"
+        },
+        {
+          "text": "80K wire example, who you know that sends 80K? Big SME already.",
+          "severity": "mid"
+        },
+        {
+          "text": "Contract with adjective as price analogy, ok this one land.",
+          "severity": "low"
+        },
+        {
+          "text": "2.4% again, every script same number. You only got one data point?",
+          "severity": "high"
+        },
+        {
+          "text": "Show me WorldFirst's actual rate vs my Maybank. Side by side.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Trick of comparison' is sharp framing. The teaching that banks compare to worse-internal-rate not real interbank is genuinely useful and largely accurate. '2 percent typical, sometimes more' is honest range. '1,000 to 1,500 dollars per wire' on 50K aligns with the 2-3 percent range, internally consistent. 'Never on the statement' is technically accurate. Main risk is the 'trick' framing is mildly accusatory and a skeptic may push back.",
+      "skeptic_comments": [
+        {
+          "text": "Trick of comparison, ok this actually a good way to frame it.",
+          "severity": "low"
+        },
+        {
+          "text": "2% typical, source please? Or your opinion only?",
+          "severity": "high"
+        },
+        {
+          "text": "1000 to 1500 on 50K. Math checks out. But every bank like this?",
+          "severity": "mid"
+        },
+        {
+          "text": "Never on statement, ya FX margin baked in rate. This part true.",
+          "severity": "low"
+        },
+        {
+          "text": "Who is WorldFirst? Need license proof before I move money.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Low",
+      "analysis": "Most defensible script in the Gary Vee set. The RM-calls-you scenario is recognizable to any importer. 'Good is not a rate, it's a feeling' is clean opinion landing that doesn't claim a number. The 'every week' framing is softened to 'this happens' which removes the I-see-this overreach. Verify-yourself instruction (Google USD to CNY, 5 seconds) is concrete and free. No specific dollar amount claimed, only a 2 percent illustration. Light on numbers means light on red flag risk.",
+      "skeptic_comments": [
+        {
+          "text": "RM call use word good, ya this part very real. Happens to me also.",
+          "severity": "low"
+        },
+        {
+          "text": "Good is a feeling not a rate, ok decent line.",
+          "severity": "low"
+        },
+        {
+          "text": "2 percent of every wire this year, big assumption on volume.",
+          "severity": "mid"
+        },
+        {
+          "text": "Google 5 seconds, fair enough. I can do this myself.",
+          "severity": "low"
+        },
+        {
+          "text": "Who is WorldFirst? Got branch in Malaysia or only app?",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}

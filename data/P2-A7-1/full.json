@@ -1,0 +1,347 @@
+{
+  "angle_id": "P2-A7-1",
+  "title": "The 4% you'll never get back",
+  "card_id": "P2-A7",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener with annual leak math",
+        "original_vo": "Listen. If you're a business owner sourcing from China, your bank is taking 4% of your annual budget. Every year. Here's the math. You spend 500K a year on Chinese suppliers. Your bank charges a 4% exchange rate margin. That's 20,000 dollars. Gone. Not on a fee line. Not on a statement. Baked into the rate so you never see it. Now run it over three years. That's 60,000 dollars your bank kept that should have stayed in your business. Stop. You can't negotiate this with your supplier. The supplier never saw that money. Your bank took it before the wire even left. The fix is not a harder PI negotiation. The fix is switching the wire rail. WorldFirst runs at 0.3 to 0.5%. Same 500K. Same suppliers. The leak drops to 2,000 dollars a year. You just got 18K back. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner sourcing from China, your bank is taking 4% of your annual budget. Every year. Here's the math. You spend 500K a year on Chinese suppliers. Your bank charges a 4% exchange rate margin. That's 20,000 dollars. Gone. Not on a fee line. Not on a statement. Baked into the rate so you never see it. Now run it over three years. That's 60,000 dollars your bank kept that should have stayed in your business. You can't negotiate this with your supplier. The supplier never saw that money. Your bank took it before the wire even left. The fix is not a harder PI negotiation. The fix is switching the wire rail. WorldFirst runs at 0.3 to 0.5%. Same 500K. Same suppliers. The leak drops to roughly 2,000 dollars a year. You just got 18K back. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner sourcing from China, your bank is taking 4% of your annual budget. Every year. Here's the math. You spend 500K a year on Chinese suppliers. Your bank charges a 4% exchange rate margin. That's 20,000 dollars. Gone. Not on a fee line. Not on a statement. Baked into the rate so you never see it. Now run it over three years. That's 60,000 dollars your bank kept that should have stayed in your business. <del>Stop. </del>You can't negotiate this with your supplier. The supplier never saw that money. Your bank took it before the wire even left. The fix is not a harder PI negotiation. The fix is switching the wire rail. WorldFirst runs at 0.3 to 0.5%. Same 500K. Same suppliers. The leak drops to <ins>roughly </ins>2,000 dollars a year. You just got 18K back. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold-open + compounding budget math",
+        "original_vo": "Watch this. Your sourcing budget shrinks 4% every year and you don't even feel it. 500K to Chinese suppliers? Your bank quietly kept 20,000 dollars. Year two, your business grows 10%. You spend 550K. The leak grows with you. That's 22,000 gone. Year three, 605K spent, 24,200 leaked. Add it up. 66,200 dollars in three years. Not a fee. Not a charge. Just the exchange rate margin baked into every wire. And here's what kills me. You can't fix this by negotiating with your supplier. They never touched that money. Your bank took it on the conversion. The only fix is the rail itself. WorldFirst runs 0.3 to 0.5% all-in. Same suppliers. Same wires. Same supplier-side amount. Your annual leak goes from 20K to under 3K. Stop. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. Your sourcing budget shrinks 4% every year and you don't even feel it. 500K to Chinese suppliers? Your bank quietly kept 20,000 dollars. Year two, your business grows 10%. You spend 550K. The leak grows with you. That's 22,000 gone. Year three, 605K spent, 24,200 leaked. Add it up. 66,200 dollars in three years. Not a fee. Not a charge. Just the exchange rate margin baked into every wire. And here's the part that hurts. You can't fix this by negotiating with your supplier. They never touched that money. Your bank took it on the conversion. The only fix is the rail itself. WorldFirst runs 0.3 to 0.5% all-in. Same suppliers. Same wires. Your annual leak goes from 20K to under 3K. Search WorldFirst.",
+        "diff_markup": "Watch this. Your sourcing budget shrinks 4% every year and you don't even feel it. 500K to Chinese suppliers? Your bank quietly kept 20,000 dollars. Year two, your business grows 10%. You spend 550K. The leak grows with you. That's 22,000 gone. Year three, 605K spent, 24,200 leaked. Add it up. 66,200 dollars in three years. Not a fee. Not a charge. Just the exchange rate margin baked into every wire. And here's <del>what kills me</del><ins>the part that hurts</ins>. You can't fix this by negotiating with your supplier. They never touched that money. Your bank took it on the conversion. The only fix is the rail itself. WorldFirst runs 0.3 to 0.5% all-in. Same suppliers. Same wires. <del>Same supplier-side amount. </del>Your annual leak goes from 20K to under 3K. <del>Stop. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener with reframe",
+        "original_vo": "Your bank took 20,000 dollars from you this year and you said thank you. Here's how. You spent 500K sourcing from China. Every wire carried a 4% margin in the exchange rate. 20K total. No fee line. No invoice. Buried in the conversion. You won't find it on a statement because banks don't itemize it. Most business owners think they're losing money to bad supplier deals. Wrong. The supplier never saw that 4%. Your bank pocketed it before the money left your country. You tried negotiating MOQ. You tried squeezing the PI. You're chasing pennies on a unit price while your bank takes 4% of the whole budget. WorldFirst is 0.3 to 0.5%. Same wires. Same suppliers. The 4% goes back into your inventory budget. Or your hire. Or your runway. Stop signing off on this. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank took 20,000 dollars from you this year and you didn't even notice. Here's how. You spent 500K sourcing from China. Every wire carried a 4% margin in the exchange rate. 20K total. No fee line. No invoice. Buried in the conversion. You won't find it on a statement because banks don't itemize it. Most business owners think they're losing money to bad supplier deals. Wrong. The supplier never saw that 4%. Your bank kept it before the money left your country. You tried negotiating MOQ. You tried squeezing the PI. You're chasing pennies on a unit price while your bank takes 4% of the whole budget. WorldFirst runs 0.3 to 0.5%. Same wires. Same suppliers. The 4% goes back into your inventory budget. Or your hire. Or your runway. Search WorldFirst.",
+        "diff_markup": "Your bank took 20,000 dollars from you this year and you <del>said thank you</del><ins>didn't even notice</ins>. Here's how. You spent 500K sourcing from China. Every wire carried a 4% margin in the exchange rate. 20K total. No fee line. No invoice. Buried in the conversion. You won't find it on a statement because banks don't itemize it. Most business owners think they're losing money to bad supplier deals. Wrong. The supplier never saw that 4%. Your bank <del>pocketed</del><ins>kept</ins> it before the money left your country. You tried negotiating MOQ. You tried squeezing the PI. You're chasing pennies on a unit price while your bank takes 4% of the whole budget. WorldFirst <del>is</del><ins>runs</ins> 0.3 to 0.5%. Same wires. Same suppliers. The 4% goes back into your inventory budget. Or your hire. Or your runway. <del>Stop signing off on this. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners miss when they source from China. You're negotiating with the wrong person. You spend three weeks pushing your supplier on unit price. You shave 2% off the PI. You feel great. Meanwhile, your bank is taking 4% of every wire through the exchange rate margin. On 500K of annual sourcing, that's 20,000 dollars. Twice what you saved negotiating. And it compounds. Year two, your budget grows 10%, the leak grows with it. 22K. Year three, 24K. Total three-year leak: 66K. The supplier never touched that money. It vanished into the conversion before the wire crossed the border. Stop. The supplier is not the leak. The rail is the leak. WorldFirst sits at 0.3 to 0.5%. Same wires, same suppliers, 17K of that 20K stays in your business. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners miss when they source from China. You're negotiating with the wrong person. You spend three weeks pushing your supplier on unit price. You shave 2% off the PI. You feel great. Meanwhile, your bank is taking 4% of every wire through the exchange rate margin. On 500K of annual sourcing, that's 20,000 dollars. Twice what you saved negotiating. And it compounds. Year two, your budget grows 10%, the leak grows with it. 22K. Year three, 24K. Total three-year leak: 66K. The supplier never touched that money. It vanished into the conversion before the wire crossed the border. The supplier is not the leak. The rail is the leak. WorldFirst sits at 0.3 to 0.5%. Same wires, same suppliers, 17K of that 20K stays in your business. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners miss when they source from China. You're negotiating with the wrong person. You spend three weeks pushing your supplier on unit price. You shave 2% off the PI. You feel great. Meanwhile, your bank is taking 4% of every wire through the exchange rate margin. On 500K of annual sourcing, that's 20,000 dollars. Twice what you saved negotiating. And it compounds. Year two, your budget grows 10%, the leak grows with it. 22K. Year three, 24K. Total three-year leak: 66K. The supplier never touched that money. It vanished into the conversion before the wire crossed the border. <del>Stop. </del>The supplier is not the leak. The rail is the leak. WorldFirst sits at 0.3 to 0.5%. Same wires, same suppliers, 17K of that 20K stays in your business. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you source from China, you need to hear this. Real talk. Your sourcing budget is leaking 4% a year and you're looking in the wrong place to plug it. Three things are happening every wire. One. Your bank quotes you a USD-CNY rate. You accept it. That rate is 4% worse than the live market rate. Two. The 4% gets baked into the conversion. No fee line, no statement, nothing to alert you. Three. On 500K of annual sourcing, that's 20,000 dollars that left your business and never reached your supplier. You can negotiate harder with the factory all day. The 4% is not on the supplier side. It's on the bank side. WorldFirst runs the same wires at 0.3 to 0.5%. The leak shrinks from 20K to under 3K. You don't get the years back. But you can stop year four right now. Search WorldFirst. Period.",
+        "iterated_vo": "If you source from China, you need to hear this. Your sourcing budget is leaking 4% a year and you're looking in the wrong place to plug it. Three things are happening every wire. One. Your bank quotes you a USD-CNY rate. You accept it. That rate is 4% worse than the live market rate. Two. The 4% gets baked into the conversion. No fee line, no statement, nothing to alert you. Three. On 500K of annual sourcing, that's 20,000 dollars that left your business and never reached your supplier. You can negotiate harder with the factory all day. The 4% is not on the supplier side. It's on the bank side. WorldFirst runs the same wires at 0.3 to 0.5%. The leak shrinks from 20K to under 3K. You can't get the past years back. You can stop year four right now. Search WorldFirst.",
+        "diff_markup": "If you source from China, you need to hear this. <del>Real talk. </del>Your sourcing budget is leaking 4% a year and you're looking in the wrong place to plug it. Three things are happening every wire. One. Your bank quotes you a USD-CNY rate. You accept it. That rate is 4% worse than the live market rate. Two. The 4% gets baked into the conversion. No fee line, no statement, nothing to alert you. Three. On 500K of annual sourcing, that's 20,000 dollars that left your business and never reached your supplier. You can negotiate harder with the factory all day. The 4% is not on the supplier side. It's on the bank side. WorldFirst runs the same wires at 0.3 to 0.5%. The leak shrinks from 20K to under 3K. You <del>don't</del><ins>can't</ins> get the <ins>past </ins>years back. <del>But you</del><ins>You</ins> can stop year four right now. Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner sourcing from China. Your sourcing budget shrinks 4% every year and you can't see it. 500K spend? Your bank quietly kept 20,000 dollars in the exchange rate margin. You'll never find it on a statement. It's baked into the conversion. And here's the part that gets me. You're negotiating MOQ with the supplier. You're squeezing unit price. You're chasing 1% on the PI. Meanwhile your bank is taking 4% of the whole budget. Wrong fight. Wrong opponent. WorldFirst runs the same wires at 0.3 to 0.5%. Same suppliers, same orders, the 4% stays in your pocket. Stop letting your bank quietly take a chunk of your budget every year. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. Your sourcing budget shrinks 4% every year and you can't see it. 500K spend? Your bank quietly kept 20,000 dollars in the exchange rate margin. You'll never find it on a statement. It's baked into the conversion. And here's the part most people miss. You're negotiating MOQ with the supplier. You're squeezing unit price. You're chasing 1% on the PI. Meanwhile your bank is taking 4% of the whole budget. Wrong fight. Wrong opponent. WorldFirst runs the same wires at 0.3 to 0.5%. Same suppliers, same orders, the 4% stays in your pocket. Worth a look if your bank is quietly taking a chunk of your budget every year. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner sourcing from China. Your sourcing budget shrinks 4% every year and you can't see it. 500K spend? Your bank quietly kept 20,000 dollars in the exchange rate margin. You'll never find it on a statement. It's baked into the conversion. And here's the part <del>that gets me</del><ins>most people miss</ins>. You're negotiating MOQ with the supplier. You're squeezing unit price. You're chasing 1% on the PI. Meanwhile your bank is taking 4% of the whole budget. Wrong fight. Wrong opponent. WorldFirst runs the same wires at 0.3 to 0.5%. Same suppliers, same orders, the 4% stays in your pocket. <del>Stop letting your bank quietly take</del><ins>Worth a look if your bank is quietly taking</ins> a chunk of your budget every year. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "Opinion-as-truth + compound math",
+        "original_vo": "I'll say it. The most expensive vendor in your business is the bank that processes your supplier wires and you've never thought about it that way. 500K of sourcing a year. 4% margin baked into the rate. 20K gone. Year two, your business grows, 22K gone. Year three, 24K. That's 66K over three years. That's a hire. That's a warehouse rack. That's your margin compression. And here's the part nobody talks about. You can't see it. It's not on the statement. It's not on the wire confirmation. It's baked into the rate your bank gave you on the conversion. WorldFirst runs at 0.3 to 0.5%. Same money, same suppliers, the 66K stays in your business. Period.",
+        "iterated_vo": "The most expensive vendor in your business is the bank that processes your supplier wires and you've never thought about it that way. 500K of sourcing a year. 4% margin baked into the rate. 20K gone. Year two, your business grows, 22K gone. Year three, 24K. That's 66K over three years. That's a hire. That's a warehouse rack. That's your margin compression. And here's the part nobody talks about. You can't see it. It's not on the statement. It's not on the wire confirmation. It's baked into the rate your bank gave you on the conversion. WorldFirst runs at 0.3 to 0.5%. Same money, same suppliers, the 66K stays in your business.",
+        "diff_markup": "<del>I'll say it. </del>The most expensive vendor in your business is the bank that processes your supplier wires and you've never thought about it that way. 500K of sourcing a year. 4% margin baked into the rate. 20K gone. Year two, your business grows, 22K gone. Year three, 24K. That's 66K over three years. That's a hire. That's a warehouse rack. That's your margin compression. And here's the part nobody talks about. You can't see it. It's not on the statement. It's not on the wire confirmation. It's baked into the rate your bank gave you on the conversion. WorldFirst runs at 0.3 to 0.5%. Same money, same suppliers, the 66K stays in your business<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Wrong-fight reframe",
+        "original_vo": "Stop negotiating with your supplier and start negotiating with your bank. I'm serious. You spent three weeks last quarter pushing your factory for a 2% price drop on a unit. You felt smart. Meanwhile your bank took 4% of every wire to that factory and you didn't blink. 500K of annual sourcing. 20,000 dollars in margin. Gone. Not in the supplier's pocket. In the bank's pocket. You're fighting the wrong fight. The factory is not your leak. The rail is your leak. WorldFirst sits at 0.3 to 0.5% on the same wires to the same factories. The 4% comes home. Run your numbers. If you spent more than 250K on Chinese suppliers last year, this is the highest-ROI hour you'll have this month. Search WorldFirst. Now.",
+        "iterated_vo": "Try negotiating with your bank instead of your supplier this quarter. You spent three weeks last quarter pushing your factory for a 2% price drop on a unit. You felt smart. Meanwhile your bank took 4% of every wire to that factory and you didn't blink. 500K of annual sourcing. 20,000 dollars in margin. Gone. Not in the supplier's pocket. In the bank's pocket. You're fighting the wrong fight. The factory is not your leak. The rail is your leak. WorldFirst sits at 0.3 to 0.5% on the same wires to the same factories. The 4% comes home. Run your numbers. If you spent more than 250K on Chinese suppliers last year, this is the highest-ROI hour you'll have this month. Search WorldFirst.",
+        "diff_markup": "<del>Stop negotiating with your supplier and start negotiating</del><ins>Try negotiating</ins> with your bank<ins> instead of your supplier this quarter</ins>. <del>I'm serious. </del>You spent three weeks last quarter pushing your factory for a 2% price drop on a unit. You felt smart. Meanwhile your bank took 4% of every wire to that factory and you didn't blink. 500K of annual sourcing. 20,000 dollars in margin. Gone. Not in the supplier's pocket. In the bank's pocket. You're fighting the wrong fight. The factory is not your leak. The rail is your leak. WorldFirst sits at 0.3 to 0.5% on the same wires to the same factories. The 4% comes home. Run your numbers. If you spent more than 250K on Chinese suppliers last year, this is the highest-ROI hour you'll have this month. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling business owners about international wires. Your bank's biggest revenue line on your account is not your wire fee. It's your exchange rate. They quote you USD-CNY at a rate 4% worse than the real market rate. On 500K of sourcing, that's 20K a year. Compound it. Three years, 66K. Five years, over 110K. Silent. No statement entry. No annual summary. You'll never see it because it's not a fee, it's a margin. And the worst part. You can't fix this by negotiating with your supplier. They never had the money. Your bank took it on the conversion. WorldFirst doesn't play this game. 0.3 to 0.5% on the same wires. The rate you see is close to the rate banks use with each other. That's the difference. Period.",
+        "iterated_vo": "Here's something nobody's telling business owners about international wires. Your bank's biggest revenue line on your account is not your wire fee. It's your exchange rate. They quote you USD-CNY at a rate 4% worse than the real market rate. On 500K of sourcing, that's 20K a year. Compound it. Three years, 66K. Five years, over 110K. Quiet. No statement entry. No annual summary. You'll never see it because it's not a fee, it's a margin. And the part most business owners miss. You can't fix this by negotiating with your supplier. They never had the money. Your bank took it on the conversion. WorldFirst is built differently. 0.3 to 0.5% on the same wires. The rate you see is close to the rate banks use with each other. That's the difference.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling business owners about international wires. Your bank's biggest revenue line on your account is not your wire fee. It's your exchange rate. They quote you USD-CNY at a rate 4% worse than the real market rate. On 500K of sourcing, that's 20K a year. Compound it. Three years, 66K. Five years, over 110K. <del>Silent</del><ins>Quiet</ins>. No statement entry. No annual summary. You'll never see it because it's not a fee, it's a margin. And the <del>worst part</del><ins>part most business owners miss</ins>. You can't fix this by negotiating with your supplier. They never had the money. Your bank took it on the conversion. WorldFirst <del>doesn't play this game</del><ins>is built differently</ins>. 0.3 to 0.5% on the same wires. The rate you see is close to the rate banks use with each other. That's the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + frustration escalation",
+        "original_vo": "Real talk for every business owner sourcing from China. You're working harder every year and somehow keeping less. You added two new SKUs. You doubled marketing. You found a better factory. And your gross margin still went down. You know what nobody told you? Your bank takes 4% of your sourcing budget every year and the bigger you grow, the bigger they take. 500K spend, 20K to the bank. Scale to 1M, 40K to the bank. You're literally subsidising their growth with yours. Meanwhile you're losing sleep over a 50 cent unit price. Stop. The leak is the rail, not the factory. WorldFirst sits at 0.3 to 0.5% on the same wires. The 4% stops bleeding. Your scale starts compounding for you instead of for the bank. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. You're working harder every year and somehow keeping less. You added two new SKUs. You doubled marketing. You found a better factory. And your gross margin still went down. You know what nobody told you? Your bank takes 4% of your sourcing budget every year and the bigger you grow, the bigger they take. 500K spend, 20K to the bank. Scale to 1M, 40K to the bank. You're effectively subsidising their growth with yours. Meanwhile you're losing sleep over a 50 cent unit price. The leak is the rail, not the factory. WorldFirst sits at 0.3 to 0.5% on the same wires. The 4% stops bleeding. Your scale starts compounding for you instead of for the bank. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China. You're working harder every year and somehow keeping less. You added two new SKUs. You doubled marketing. You found a better factory. And your gross margin still went down. You know what nobody told you? Your bank takes 4% of your sourcing budget every year and the bigger you grow, the bigger they take. 500K spend, 20K to the bank. Scale to 1M, 40K to the bank. You're <del>literally</del><ins>effectively</ins> subsidising their growth with yours. Meanwhile you're losing sleep over a 50 cent unit price. <del>Stop. </del>The leak is the rail, not the factory. WorldFirst sits at 0.3 to 0.5% on the same wires. The 4% stops bleeding. Your scale starts compounding for you instead of for the bank. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "The 4% margin figure is positioned as universal when card findings flag it as 'high-end SEA bank' not typical. Most Malaysian importers will not recognise their own bank at 4%, weakening trust on the first line. The 20K and 60K numbers are arithmetically correct off the 500K base but inherit the 4% assumption. 'Supplier never saw that money' framing is technically true and defensible. WorldFirst 0.3 to 0.5% claim is consistent with card findings. 'Search WorldFirst' close is brand-safe.",
+      "skeptic_comments": [
+        {
+          "text": "4% on my Maybank? Don't think so leh. Maybe 1 to 2% only.",
+          "severity": "high"
+        },
+        {
+          "text": "500K a year on suppliers, I wish lah. Small SME got nowhere near that.",
+          "severity": "mid"
+        },
+        {
+          "text": "Where this 4% from? Source please. Not just say.",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad. Show real rate comparison la, screenshot kind.",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? Got BNM license or not?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "Compound growth math (66.2K over three years on 10% annual budget growth) is the highest-risk claim. Multiple assumptions stacked: that bank margin stays at 4%, that budget grows exactly 10% a year, that the business owner doesn't renegotiate or switch banks across three years. The 10% growth assumption is also a happy-path scenario, not all SMBs grow 10% YoY. 'Your annual leak goes from 20K to under 3K' is internally consistent (4% to 0.5% on 550K avg). Stacked claims make this script most likely to trigger skeptic pushback on the math.",
+      "skeptic_comments": [
+        {
+          "text": "Three years compound assume my business grow 10% every year. Got that easy meh.",
+          "severity": "high"
+        },
+        {
+          "text": "66K over 3 years? Where the 4% assumption come from. CIMB charge me less.",
+          "severity": "high"
+        },
+        {
+          "text": "If I really grow 10% a year I won't care about 4% lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Same suppliers same wires sound too clean. CN bank also got their own cut sometimes.",
+          "severity": "mid"
+        },
+        {
+          "text": "Show me one screenshot of WorldFirst rate vs my bank's rate. Then I believe.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "'Took 20,000 dollars from you' is strong framing for what is technically a disclosed FX margin, but defensible as opinion. 'You tried negotiating MOQ. You tried squeezing the PI.' is relatable and grounded. The 'supplier never saw that 4%' reframe is the strongest part of the script and is technically accurate. Main red flag is again the universal 4% number and 'before the money left your country' which is a slight oversimplification because conversion timing varies by rail and bank. The reframe lands harder than the math.",
+      "skeptic_comments": [
+        {
+          "text": "Didn't even notice? Bro of course I noticed my supplier got less. Just thought it was fees.",
+          "severity": "low"
+        },
+        {
+          "text": "4% is high-end lah. Average importer probably 1.5 to 2.5%.",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier never saw the money, ok that part actually clear my doubt. Fair point.",
+          "severity": "low"
+        },
+        {
+          "text": "Banks don't itemize FX margin? They do in fine print. Just nobody reads.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? First time hearing. Got Malaysia license?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Cleanest mechanism explanation in the Hormozi set. The 'negotiating with the wrong person' reframe is psychologically strong and matches a real importer frustration. The 2% PI vs 4% bank comparison is illustrative and lands well. The 17K of 20K stays in business math (4% to 0.3%) is internally consistent. Main risk remains the universal 4% figure presented without qualifier. 'Vanished into the conversion before the wire crossed the border' is slightly poetic but defensible. Three-year 66K compound assumes constant 10% growth which is the same risk as PH2.",
+      "skeptic_comments": [
+        {
+          "text": "Wrong person to negotiate with, ok this point actually hit. Never thought of it that way.",
+          "severity": "low"
+        },
+        {
+          "text": "4% every wire? My bank not so bad. Where's the data from?",
+          "severity": "high"
+        },
+        {
+          "text": "Compound assume 10% YoY growth. Lots of SMEs flat or down 2025.",
+          "severity": "mid"
+        },
+        {
+          "text": "17K of 20K stays in business. So WorldFirst still take 3K. Got monthly fee?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need to check if regulated here first.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The three-things-happening structure is clean and educational. 'Looking in the wrong place to plug it' frames the misdiagnosis well. 'You can't get the past years back. You can stop year four right now' is a sharp close. The 4% rate-vs-mid-market description is technically accurate framing. Main red flag is the universal 4% and the assumption that 100% of the 20K leak gets eliminated, when WorldFirst still has a 0.3 to 0.5% margin. The math (20K to under 3K) is consistent but the close implies more recovery than is real.",
+      "skeptic_comments": [
+        {
+          "text": "Year four stop right now sound nice but you assume I switch all my wires. Got annual contract with my bank.",
+          "severity": "mid"
+        },
+        {
+          "text": "4% worse than live market rate? Where you get the live market rate from. Reuters?",
+          "severity": "high"
+        },
+        {
+          "text": "Under 3K leak. Means WorldFirst still got margin. Just smaller. Fine but say it lah.",
+          "severity": "low"
+        },
+        {
+          "text": "Three things every wire is a clean breakdown. I like this one.",
+          "severity": "low"
+        },
+        {
+          "text": "Who is WorldFirst? Sound American. Got SEA support?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Same core math as Hormozi (4%, 20K, 500K) so inherits same defensibility profile. The 'wrong fight wrong opponent' reframe is the strongest beat and is psychologically true. Softer brand close ('worth a look') reduces ad feel. The 1% MOQ negotiation vs 4% bank margin comparison is illustrative. Main risk is still universal 4% figure. 'The 4% stays in your pocket' overstates because WorldFirst still has 0.3 to 0.5% margin so really it's 3.5% to 3.7% that stays in pocket.",
+      "skeptic_comments": [
+        {
+          "text": "Wrong fight wrong opponent. Ok that part true. Never thought to fight with my bank.",
+          "severity": "low"
+        },
+        {
+          "text": "4% on every wire? Where the number from? My bank not so bad.",
+          "severity": "high"
+        },
+        {
+          "text": "500K sourcing a year, that's big SME. Small importer like me, maybe 80K to 150K.",
+          "severity": "mid"
+        },
+        {
+          "text": "4% stays in my pocket? But WorldFirst also take some right. Not free.",
+          "severity": "mid"
+        },
+        {
+          "text": "Worth a look feel less pushy than the others. But still want to see real rate.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "'Most expensive vendor is the bank' is an opinion claim with real teeth, framed as observation not fact. Compound growth math (66K over three years) carries same risk as PH2. 'That's a hire. That's a warehouse rack. That's your margin compression' is strong emotional ladder but doesn't overreach. 'You can't see it. It's not on the statement.' is largely true. Cleaner ending without 'Period' or call to action could be confusing but is intentional Gary Vee style. Strong overall, mid risk on the compound math.",
+      "skeptic_comments": [
+        {
+          "text": "Most expensive vendor is the bank. Damn, that hit. But got proof?",
+          "severity": "low"
+        },
+        {
+          "text": "10% growth assumption again. My business flat this year actually.",
+          "severity": "mid"
+        },
+        {
+          "text": "Where this 4% from? Different banks charge differently lah.",
+          "severity": "high"
+        },
+        {
+          "text": "Hire, warehouse rack, ok inspiration but I want numbers comparison please.",
+          "severity": "mid"
+        },
+        {
+          "text": "No call to action at the end? Where I go to check WorldFirst?",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'try negotiating with your bank instead of supplier' frame is the standout angle in the set. It connects to a real importer behaviour (over-investing time in supplier negotiation while ignoring bank margin) and is psychologically defensible. 'You're fighting the wrong fight' is opinion not claim. '250K threshold' adds specificity. Main red flag is again universal 4% and 'on the same wires to the same factories' which slightly overstates because rail differences exist. Internal logic holds.",
+      "skeptic_comments": [
+        {
+          "text": "Negotiating with my bank, never tried that. They got dedicated relationship manager actually.",
+          "severity": "low"
+        },
+        {
+          "text": "250K threshold ok that's helpful framing. I'm above that.",
+          "severity": "low"
+        },
+        {
+          "text": "Same wires same factories on WorldFirst? Sure or not. Got different rail right.",
+          "severity": "mid"
+        },
+        {
+          "text": "4% margin everywhere lah. CIMB charge me about 1.5%.",
+          "severity": "high"
+        },
+        {
+          "text": "Highest ROI hour this month, bit hyperbolic but I get the point.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Bank's biggest revenue line on your account is your exchange rate' is bold and arguably true for SME accounts, defensible as opinion. The 5-year 110K compound is the highest-stakes claim in the script and assumes constant 4% margin plus constant 10% growth. 'They never had the money' supplier reframe is the strongest and most defensible part. 'Rate banks use with each other' is technically interbank rate which WorldFirst doesn't actually give, but 'close to' was added in iteration which softens it correctly.",
+      "skeptic_comments": [
+        {
+          "text": "110K over 5 years assume too many things. Cooked numbers.",
+          "severity": "high"
+        },
+        {
+          "text": "Biggest revenue line on my account is the rate. Damn never thought about that.",
+          "severity": "low"
+        },
+        {
+          "text": "Close to the rate banks use with each other. Soft hedge. Means they still take a cut lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier never had the money, technically true. Good reframe.",
+          "severity": "low"
+        },
+        {
+          "text": "Who is WorldFirst? Need to research. SEA team?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Low",
+      "analysis": "Cleanest script in the set. The 'working harder every year and keeping less' opener taps a real SME pain that's hard to argue with. The 'bigger you grow, the bigger they take' scaling beat is mathematically correct and emotionally resonant. 'Subsidising their growth with yours' is sharp opinion. Soft on specific defensible numbers (no compound, no 3-year extrapolation, just one 500K scenario and one 1M scenario). 'Effectively' was good iteration softening 'literally'. Most defensible script in the angle.",
+      "skeptic_comments": [
+        {
+          "text": "Working harder every year keeping less. Yes lah. Story of my 2025.",
+          "severity": "low"
+        },
+        {
+          "text": "Bigger you grow bigger they take. Ya this part makes sense.",
+          "severity": "low"
+        },
+        {
+          "text": "4% on every wire still high-end. Smaller importers might be 1.5 to 2%.",
+          "severity": "mid"
+        },
+        {
+          "text": "Subsidising their growth with mine. Damn ok this hits.",
+          "severity": "low"
+        },
+        {
+          "text": "Who is WorldFirst? Got Malaysia office? Need to verify.",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}
