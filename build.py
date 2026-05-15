@@ -97,7 +97,17 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     factcheck_block = ''
     if factcheck:
         comments = factcheck.get('skeptic_comments', [])
-        comments_html = '\n'.join(f'<li>{esc(c)}</li>' for c in comments)
+        comment_items = []
+        for c in comments:
+            # Handle both old string format and new {text, severity} format
+            if isinstance(c, str):
+                text = c
+                severity = 'mid'
+            else:
+                text = c.get('text', '')
+                severity = c.get('severity', 'mid')
+            comment_items.append(f'<li class="sc-{severity}"><span class="sc-mark"></span><span class="sc-text">{esc(text)}</span></li>')
+        comments_html = '\n'.join(comment_items)
         factcheck_block = f'''
   <div class="factcheck-block">
     <div class="fc-head">
@@ -321,9 +331,19 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .sc-label {{ font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--ink-mute); margin-bottom: 6px; font-weight: 600; }}
 .skeptic-comments ul {{ list-style: none; padding-left: 0; }}
-.skeptic-comments li {{ font-size: 13px; line-height: 1.5; color: var(--ink);
-  padding: 6px 12px; border-left: 2px solid var(--flag-medium); background: rgba(0,0,0,0.018);
-  border-radius: 0 4px 4px 0; margin-bottom: 4px; font-style: italic; }}
+.skeptic-comments li {{ font-size: 13px; line-height: 1.5;
+  padding: 7px 12px 7px 14px; border-left: 3px solid; background: rgba(0,0,0,0.018);
+  border-radius: 0 4px 4px 0; margin-bottom: 4px; font-style: italic;
+  display: grid; grid-template-columns: 14px 1fr; gap: 8px; align-items: start; }}
+.sc-mark {{ width: 8px; height: 8px; border-radius: 50%; margin-top: 6px; }}
+.sc-text {{ }}
+.skeptic-comments li.sc-high {{ border-left-color: var(--flag-high); background: rgba(176,48,96,0.06); color: var(--ink); }}
+.skeptic-comments li.sc-high .sc-mark {{ background: var(--flag-high); }}
+.skeptic-comments li.sc-high .sc-text {{ color: var(--ink); font-weight: 500; }}
+.skeptic-comments li.sc-mid {{ border-left-color: var(--flag-medium); color: var(--ink-soft); }}
+.skeptic-comments li.sc-mid .sc-mark {{ background: var(--flag-medium); opacity: 0.6; }}
+.skeptic-comments li.sc-low {{ border-left-color: var(--line); color: var(--ink-mute); }}
+.skeptic-comments li.sc-low .sc-mark {{ background: var(--ink-mute); opacity: 0.4; }}
 
 .actions {{ padding: 14px 22px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }}
 .winner-radio {{ position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 12px; color: var(--ink-soft); font-family: var(--mono); letter-spacing: 0.04em; }}

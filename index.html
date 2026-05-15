@@ -117,9 +117,19 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 .sc-label { font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--ink-mute); margin-bottom: 6px; font-weight: 600; }
 .skeptic-comments ul { list-style: none; padding-left: 0; }
-.skeptic-comments li { font-size: 13px; line-height: 1.5; color: var(--ink);
-  padding: 6px 12px; border-left: 2px solid var(--flag-medium); background: rgba(0,0,0,0.018);
-  border-radius: 0 4px 4px 0; margin-bottom: 4px; font-style: italic; }
+.skeptic-comments li { font-size: 13px; line-height: 1.5;
+  padding: 7px 12px 7px 14px; border-left: 3px solid; background: rgba(0,0,0,0.018);
+  border-radius: 0 4px 4px 0; margin-bottom: 4px; font-style: italic;
+  display: grid; grid-template-columns: 14px 1fr; gap: 8px; align-items: start; }
+.sc-mark { width: 8px; height: 8px; border-radius: 50%; margin-top: 6px; }
+.sc-text { }
+.skeptic-comments li.sc-high { border-left-color: var(--flag-high); background: rgba(176,48,96,0.06); color: var(--ink); }
+.skeptic-comments li.sc-high .sc-mark { background: var(--flag-high); }
+.skeptic-comments li.sc-high .sc-text { color: var(--ink); font-weight: 500; }
+.skeptic-comments li.sc-mid { border-left-color: var(--flag-medium); color: var(--ink-soft); }
+.skeptic-comments li.sc-mid .sc-mark { background: var(--flag-medium); opacity: 0.6; }
+.skeptic-comments li.sc-low { border-left-color: var(--line); color: var(--ink-mute); }
+.skeptic-comments li.sc-low .sc-mark { background: var(--ink-mute); opacity: 0.4; }
 
 .actions { padding: 14px 22px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 .winner-radio { position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 12px; color: var(--ink-soft); font-family: var(--mono); letter-spacing: 0.04em; }
@@ -224,11 +234,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">The compounding math (144K over 5 years) is the highest-risk claim in the set. It assumes the 2.5% margin holds constant on every wire, twice a month, for 60 months, which is an extrapolation no SMB will accept at face value. &#x27;Your kid&#x27;s college fund&#x27; is emotive framing on top of an unverifiable extrapolation. &#x27;Every wire. Every month. Every year.&#x27; is an absolute that a skeptic will pick apart.</p>
     <div class="skeptic-comments">
-      <ul><li>144K over 5 years? Bro you assume my bank never give better rate, never negotiate.</li>
-<li>I don&#x27;t wire 50K twice a month every month for 5 years lah. Numbers feel cooked.</li>
-<li>Kid college fund? Cmon now you trying too hard.</li>
-<li>Where the 2.5% from? Show me actual rate vs mid-market please.</li>
-<li>Sounds like ad. Got testimonial from real SME or just math?</li></ul>
+      <ul><li class="sc-high"><span class="sc-mark"></span><span class="sc-text">144K over 5 years? Bro you assume my bank never give better rate, never negotiate.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">I don&#x27;t wire 50K twice a month every month for 5 years lah. Numbers feel cooked.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Kid college fund? Cmon now you trying too hard.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Where the 2.5% from? Show me actual rate vs mid-market please.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Sounds like ad. Got testimonial from real SME or just math?</span></li></ul>
     </div>
   </div>
 
@@ -282,11 +292,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">Cleanest script in the set. The &#x27;call the bank, they blame intermediary, intermediary blames receiving&#x27; beat is a real and well-known pain point that any importer who&#x27;s been stuck on that call will immediately recognize as true. Soft on specific numbers (no 2.5%, no 1,200, no compound math). &#x27;Your margin is bleeding&#x27; is metaphor not claim. &#x27;This happens every week. Every single week.&#x27; is the only overreach. Most defensible script.</p>
     <div class="skeptic-comments">
-      <ul><li>Ya the blame game is real. Bank, intermediary, receiving all pointing finger.</li>
-<li>Every week? Bit much. Maybe every few months.</li>
-<li>Supplier starts and I sleep, nice line but show me how WorldFirst do it lah.</li>
-<li>Who is WorldFirst? Got Malaysia license?</li>
-<li>Ok this one feel less ad than others. Still want proof.</li></ul>
+      <ul><li class="sc-low"><span class="sc-mark"></span><span class="sc-text">Ya the blame game is real. Bank, intermediary, receiving all pointing finger.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Every week? Bit much. Maybe every few months.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Supplier starts and I sleep, nice line but show me how WorldFirst do it lah.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Who is WorldFirst? Got Malaysia license?</span></li>
+<li class="sc-low"><span class="sc-mark"></span><span class="sc-text">Ok this one feel less ad than others. Still want proof.</span></li></ul>
     </div>
   </div>
 
@@ -340,11 +350,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">Core mechanism (FX margin baked into rate, intermediary fees, supplier delays) is real and defensible, but &#x27;2.5%&#x27; is presented as universal when it&#x27;s a typical-case figure that varies by bank and currency pair. The &#x27;supplier won&#x27;t start production&#x27; beat is a real but situational scenario, framed as inevitable. &#x27;Supplier gets the full amount&#x27; on WF side is also a slight overreach because receiving bank fees on the CN side can still apply.</p>
     <div class="skeptic-comments">
-      <ul><li>Where this 2.5% come from? My Maybank not so high lah.</li>
-<li>My supplier never refuse production over small short amount. We just top up next week.</li>
-<li>Who is WorldFirst? Never hear before. Got license or not?</li>
-<li>Sound like ad. Show me real rate comparison la, not just numbers.</li>
-<li>Same day to China? My bank also say same day. What&#x27;s different?</li></ul>
+      <ul><li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Where this 2.5% come from? My Maybank not so high lah.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">My supplier never refuse production over small short amount. We just top up next week.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Who is WorldFirst? Never hear before. Got license or not?</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Sound like ad. Show me real rate comparison la, not just numbers.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Same day to China? My bank also say same day. What&#x27;s different?</span></li></ul>
     </div>
   </div>
 
@@ -398,11 +408,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">&#x27;Pocketed&#x27; is softer than &#x27;stole&#x27; but still implies wrongdoing or theft, which a skeptic with banking knowledge will challenge because FX margins are disclosed in T&amp;Cs even if buried. &#x27;Banks have been doing this for decades&#x27; is sweeping. &#x27;Send 50K, supplier gets 50K&#x27; on WF side overstates because correspondent/CN receiving bank fees can still trim small amounts. &#x27;Business owners don&#x27;t read the rate&#x27; is also a slight insult that could put audience on defensive.</p>
     <div class="skeptic-comments">
-      <ul><li>Pocketed? They disclose in fine print what. Not theft if I sign.</li>
-<li>Send 50K supplier get exactly 50K? Sure or not? CN bank also sometimes charge.</li>
-<li>You call me stupid for not reading the rate? Ok thanks for the ad.</li>
-<li>Got proof on the 2.5%? My bank charge me less.</li>
-<li>Banks doing this for decades but WorldFirst only how many years old?</li></ul>
+      <ul><li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Pocketed? They disclose in fine print what. Not theft if I sign.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Send 50K supplier get exactly 50K? Sure or not? CN bank also sometimes charge.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">You call me stupid for not reading the rate? Ok thanks for the ad.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Got proof on the 2.5%? My bank charge me less.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Banks doing this for decades but WorldFirst only how many years old?</span></li></ul>
     </div>
   </div>
 
@@ -456,11 +466,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">The three-things-stack format is clean and educational. The 200-300 intermediary fee range is more honest than a single number. Main red flag is the cascade of consequences (lost week, lost order, lost reputation with that supplier) which feels stacked for drama. Most SMBs won&#x27;t lose a supplier relationship over one short payment, they&#x27;ll just top up. &#x27;Supplier gets 50K&#x27; on WF side has the same slight overreach issue.</p>
     <div class="skeptic-comments">
-      <ul><li>Lost reputation with supplier over one short wire? Bit dramatic.</li>
-<li>Where the 2.5% number from? My HLB not so bad.</li>
-<li>Intermediary 200-300 ok that&#x27;s fair. But still want to see real screenshot.</li>
-<li>Production starts today? Even if money lands, supplier still got their schedule.</li>
-<li>Worth a look ok but who is WorldFirst leh. Ant Group? Trust them or not?</li></ul>
+      <ul><li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Lost reputation with supplier over one short wire? Bit dramatic.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Where the 2.5% number from? My HLB not so bad.</span></li>
+<li class="sc-low"><span class="sc-mark"></span><span class="sc-text">Intermediary 200-300 ok that&#x27;s fair. But still want to see real screenshot.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Production starts today? Even if money lands, supplier still got their schedule.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Worth a look ok but who is WorldFirst leh. Ant Group? Trust them or not?</span></li></ul>
     </div>
   </div>
 
@@ -514,11 +524,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">&#x27;Your bank is the most expensive part of your supply chain&#x27; is a bold opinion claim, but framed as opinion (&#x27;nobody talks about it&#x27;) rather than fact, which is defensible Gary Vee voice. Math is cleaner here (10 payments = 20K, 50 payments = 100K) and more honest than the 5-year compound. Still relies on the universal 2.5% figure. &#x27;You&#x27;ll never see it on a statement&#x27; is largely true and defensible.</p>
     <div class="skeptic-comments">
-      <ul><li>Most expensive part of supply chain? Shipping cost me way more lah.</li>
-<li>50 wires a year for one SME? That&#x27;s big company already.</li>
-<li>2.5% always? My CIMB rate not so bad.</li>
-<li>Where WorldFirst money come from then? They give better rate for free?</li>
-<li>Show real rate comparison please, not just say.</li></ul>
+      <ul><li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Most expensive part of supply chain? Shipping cost me way more lah.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">50 wires a year for one SME? That&#x27;s big company already.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">2.5% always? My CIMB rate not so bad.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Where WorldFirst money come from then? They give better rate for free?</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Show real rate comparison please, not just say.</span></li></ul>
     </div>
   </div>
 
@@ -572,11 +582,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">Cleanest of the Hormozi set. Mechanism explanation is technically accurate (FX spread vs wire fee distinction is real and underappreciated). &#x27;Banks make billions&#x27; is generic enough to be defensible. Main risk is still the universal 2.5% figure presented without &#x27;up to&#x27; or &#x27;typically&#x27; qualifier, and &#x27;full amount lands same-day&#x27; is a slight overstatement that ignores CN-side processing. Most skeptics will accept the core teaching though.</p>
     <div class="skeptic-comments">
-      <ul><li>Ok the fee vs rate thing actually make sense. But 2.5% always?</li>
-<li>My bank rate not that bad lah. Maybe US bank different.</li>
-<li>Full amount same day? CN bank also got their own charges sometimes.</li>
-<li>Banks make billions, fine. But how WorldFirst make money then? Free?</li>
-<li>Who regulate WorldFirst in Malaysia?</li></ul>
+      <ul><li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Ok the fee vs rate thing actually make sense. But 2.5% always?</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">My bank rate not that bad lah. Maybe US bank different.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Full amount same day? CN bank also got their own charges sometimes.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Banks make billions, fine. But how WorldFirst make money then? Free?</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Who regulate WorldFirst in Malaysia?</span></li></ul>
     </div>
   </div>
 
@@ -630,11 +640,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">Same core math as Hormozi set (2.5% margin, $1,200, supplier delay) so inherits same defensibility profile. The softer &#x27;worth knowing&#x27; close reduces red flag vs harder Hormozi versions. Main risk is still 2.5% presented without qualifier and the supplier-won&#x27;t-start framing as universal. &#x27;No mystery fees&#x27; on WF side is a marketing claim that a skeptic could test.</p>
     <div class="skeptic-comments">
-      <ul><li>Why my bank rate not 2.5%? Got source for this number?</li>
-<li>Sound like ad. Show me real example with screenshot.</li>
-<li>My supplier wait for full amount lah, true. But one week loss? Maybe one day.</li>
-<li>Who is WorldFirst? First time hearing.</li>
-<li>No mystery fees, sure or not? Got monthly subscription? Min top up?</li></ul>
+      <ul><li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Why my bank rate not 2.5%? Got source for this number?</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Sound like ad. Show me real example with screenshot.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">My supplier wait for full amount lah, true. But one week loss? Maybe one day.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Who is WorldFirst? First time hearing.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">No mystery fees, sure or not? Got monthly subscription? Min top up?</span></li></ul>
     </div>
   </div>
 
@@ -688,11 +698,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">The hammer/wood metaphor is defensible framing. Combining the 1,200 FX margin AND 800 intermediary fees adds up to 2K total = exactly $48K supplier received, which is internally consistent. Main red flag is the 800 intermediary figure is plausible but presented as universal when intermediary bank fees vary widely. &#x27;Won&#x27;t start production&#x27; framed as inevitable. &#x27;Supplier starts that day&#x27; on WF side is a confident claim.</p>
     <div class="skeptic-comments">
-      <ul><li>800 intermediary fee on a 50K wire? That&#x27;s high. Mine more like 30 to 50 USD.</li>
-<li>Hammer wood analogy ok but show me the actual product first.</li>
-<li>Supplier starts day money lands? Supplier got their own queue too.</li>
-<li>Where WorldFirst regulated? PayNet? BNM? Or some offshore thing?</li>
-<li>Sound nice but I trust bank more lah. Got branch, got person to call.</li></ul>
+      <ul><li class="sc-high"><span class="sc-mark"></span><span class="sc-text">800 intermediary fee on a 50K wire? That&#x27;s high. Mine more like 30 to 50 USD.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Hammer wood analogy ok but show me the actual product first.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Supplier starts day money lands? Supplier got their own queue too.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Where WorldFirst regulated? PayNet? BNM? Or some offshore thing?</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Sound nice but I trust bank more lah. Got branch, got person to call.</span></li></ul>
     </div>
   </div>
 
@@ -746,11 +756,11 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
     </div>
     <p class="fc-note">&#x27;Truth nobody&#x27;s telling you&#x27; was softened to &#x27;something nobody&#x27;s telling you&#x27; which lowers the conspiratorial tone, good. &#x27;This is how it works. Every single time.&#x27; is an absolute that a skeptic with one positive bank experience can disprove. The fee vs rate teaching is genuine and useful. &#x27;The rate you see is the rate you get&#x27; is a clean WF claim but a skeptic will want to see proof.</p>
     <div class="skeptic-comments">
-      <ul><li>Every single time? I send last month and supplier got within 50 USD of quoted.</li>
-<li>Bank don&#x27;t make money on wire fee, make money on rate. Ok this part true actually.</li>
-<li>2.5% worse than real rate, where you get this? Bloomberg?</li>
-<li>Rate you see is rate you get, prove it la. Show live quote.</li>
-<li>Who is WorldFirst? Need to research first.</li></ul>
+      <ul><li class="sc-high"><span class="sc-mark"></span><span class="sc-text">Every single time? I send last month and supplier got within 50 USD of quoted.</span></li>
+<li class="sc-low"><span class="sc-mark"></span><span class="sc-text">Bank don&#x27;t make money on wire fee, make money on rate. Ok this part true actually.</span></li>
+<li class="sc-high"><span class="sc-mark"></span><span class="sc-text">2.5% worse than real rate, where you get this? Bloomberg?</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Rate you see is rate you get, prove it la. Show live quote.</span></li>
+<li class="sc-mid"><span class="sc-mark"></span><span class="sc-text">Who is WorldFirst? Need to research first.</span></li></ul>
     </div>
   </div>
 
