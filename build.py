@@ -135,7 +135,6 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     </div>
   </div>
 
-  {rating_block}
   {factcheck_block}
 
   <div class="actions">
