@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>SEA Voice Iterate — original → polish + fact check</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --ink: #1d1d1f;
+  --ink-soft: #424245;
+  --ink-mute: #6e6e73;
+  --line: #d2d2d7;
+  --line-soft: #e8e8ed;
+  --tint: #f5f5f7;
+  --pick: #0a6d2f;
+  --del: #b03060;
+  --ins: #0a6d2f;
+  --flag-low: #6e6e73;
+  --flag-medium: #946100;
+  --flag-high: #b03060;
+  --social: #1a6dcc;
+  --audience: #946100;
+  --product: #b03060;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink);
+  font-family: -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif;
+  font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+
+.wrap { max-width: 1400px; margin: 0 auto; padding: 50px 50px 220px; }
+
+.hero { padding-bottom: 28px; border-bottom: 1px solid var(--line); margin-bottom: 40px; }
+.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ink-mute); margin-bottom: 12px; }
+h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 600; margin-bottom: 12px; }
+.lede { font-size: 16px; color: var(--ink-soft); max-width: 760px; line-height: 1.55; }
+.pending-banner { margin-top: 18px; padding: 12px 18px; border: 1px solid var(--line);
+  border-radius: 6px; background: var(--tint); font-size: 13px; color: var(--ink-soft); }
+
+.skill-section { margin-bottom: 60px; }
+.skill-head { padding-bottom: 14px; border-bottom: 1px solid var(--ink); margin-bottom: 26px; }
+.skill-head h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+.skill-blurb { font-size: 13px; color: var(--ink-soft); margin-top: 4px; font-style: italic; }
+
+.scripts-stack { display: flex; flex-direction: column; gap: 28px; }
+
+.script-card { border: 1px solid var(--line); border-radius: 10px; padding: 0; overflow: hidden;
+  background: var(--bg); transition: border-color 0.15s, box-shadow 0.15s; }
+.script-card.winner { border-color: var(--pick); box-shadow: 0 0 0 2px rgba(10,109,47,0.1); }
+
+.script-head { padding: 14px 22px 12px; background: var(--tint); border-bottom: 1px solid var(--line-soft); }
+.script-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.script-id { font-family: var(--mono); font-size: 14px; font-weight: 700; letter-spacing: 0.06em; }
+.word-count { font-family: var(--mono); font-size: 11px; color: var(--ink-mute); }
+.script-subtitle { font-size: 13px; color: var(--ink-soft); font-style: italic; }
+
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-bottom: 1px solid var(--line-soft); }
+.col { padding: 18px 22px; }
+.col.original { border-right: 1px solid var(--line-soft); background: rgba(0,0,0,0.012); }
+.col.iterated { background: rgba(10,109,47,0.025); }
+
+.block-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600; margin-bottom: 10px;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.legend { font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em;
+  text-transform: none; color: var(--ink-mute); }
+.legend .diff-del, .legend .diff-ins { padding: 0 4px; border-radius: 3px; }
+
+.vo { font-size: 14.5px; line-height: 1.65; color: var(--ink);
+  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+  letter-spacing: 0.005em; }
+.vo-original { color: var(--ink-soft); }
+.diff-del { text-decoration: line-through; color: var(--del); background: rgba(176,48,96,0.08); padding: 0 2px; border-radius: 2px; }
+.diff-ins { color: var(--ins); background: rgba(10,109,47,0.12); padding: 0 2px; border-radius: 2px; font-weight: 500; }
+
+.rating-block { padding: 14px 22px; border-bottom: 1px solid var(--line-soft); background: rgba(26,109,204,0.03); }
+.rating-row { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px; }
+.rp { display: inline-flex; align-items: baseline; gap: 3px; padding: 2px 7px;
+  border-radius: 100px; font-family: var(--mono); font-weight: 600; }
+.rp .rl { font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; }
+.rp .rv { font-size: 10px; }
+.rp.social { background: rgba(26,109,204,0.13); color: var(--social); }
+.rp.audience { background: rgba(148,97,0,0.13); color: var(--audience); }
+.rp.sales { background: rgba(176,48,96,0.13); color: var(--product); }
+.overall { font-family: var(--mono); font-size: 14px; font-weight: 700;
+  margin-left: 6px; padding-left: 8px; border-left: 1px solid var(--line); color: var(--ink); }
+.rating-note { font-size: 12px; color: var(--ink-soft); font-style: italic; line-height: 1.5; }
+
+.factcheck-block { padding: 14px 22px; border-bottom: 1px solid var(--line-soft);
+  background: rgba(176,48,96,0.03); }
+.fc-head { display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 8px; flex-wrap: wrap; gap: 8px; }
+.flag-pill { font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 3px 9px; border-radius: 100px;
+  border: 1px solid currentColor; font-weight: 600; }
+.flag-low { color: var(--flag-low); }
+.flag-medium { color: var(--flag-medium); }
+.flag-high { color: var(--flag-high); background: rgba(176,48,96,0.06); }
+.fc-note { font-size: 12.5px; color: var(--ink-soft); line-height: 1.55; margin-bottom: 10px; font-style: italic; }
+.skeptic-comments { margin-top: 8px; }
+.sc-label { font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute); margin-bottom: 6px; font-weight: 600; }
+.skeptic-comments ul { list-style: none; padding-left: 0; }
+.skeptic-comments li { font-size: 13px; line-height: 1.5; color: var(--ink);
+  padding: 6px 12px; border-left: 2px solid var(--flag-medium); background: rgba(0,0,0,0.018);
+  border-radius: 0 4px 4px 0; margin-bottom: 4px; font-style: italic; }
+
+.actions { padding: 14px 22px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.winner-radio { position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 12px; color: var(--ink-soft); font-family: var(--mono); letter-spacing: 0.04em; }
+.winner-radio input { position: absolute; opacity: 0; }
+.winner-mark { width: 18px; height: 18px; border: 2px solid var(--line); border-radius: 50%; background: var(--bg); position: relative; transition: all 0.15s; }
+.winner-radio input:checked ~ .winner-mark { border-color: var(--pick); }
+.winner-radio input:checked ~ .winner-mark::after { content: ''; display: block; width: 10px; height: 10px; border-radius: 50%; background: var(--pick); position: absolute; top: 2px; left: 2px; }
+.winner-radio input:checked ~ .winner-label { color: var(--pick); font-weight: 600; }
+.copy-btn { padding: 7px 14px; background: var(--bg); border: 1px solid var(--line); border-radius: 100px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-mute); cursor: pointer; }
+.copy-btn:hover { color: var(--ink); border-color: var(--ink); }
+.copy-btn.copied { background: var(--pick); color: #fff; border-color: var(--pick); }
+
+.script-comment { width: calc(100% - 44px); margin: 0 22px 18px; padding: 9px 12px;
+  border: 1px solid var(--line); border-radius: 6px; font-family: inherit; font-size: 13px;
+  line-height: 1.5; resize: vertical; min-height: 50px; background: var(--bg); }
+.script-comment:focus { outline: 1px solid var(--ink); border-color: var(--ink); }
+.script-comment::placeholder { color: rgba(0,0,0,0.32); }
+
+.bottom-panel { position: fixed; bottom: 0; left: 0; right: 0; background: var(--ink); color: #fff;
+  z-index: 100; box-shadow: 0 -2px 16px rgba(0,0,0,0.18); }
+.bottom-panel.collapsed .panel-body { display: none; }
+.panel-bar { display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 22px; cursor: pointer; gap: 12px; min-height: 56px; }
+.panel-count { font-size: 14px; font-weight: 500; }
+.panel-count .count-zero { color: #888; font-weight: 400; }
+.panel-toggle { font-family: var(--mono); font-size: 11px; color: #aaa;
+  text-transform: uppercase; letter-spacing: 0.05em; }
+.panel-body { padding: 6px 22px 18px; max-height: 60vh; overflow-y: auto; }
+.panel-label { display: block; font-family: var(--mono); font-size: 10px; color: #aaa;
+  text-transform: uppercase; letter-spacing: 0.06em; margin: 10px 0 6px; }
+.panel-prompt { width: 100%; min-height: 200px; padding: 14px;
+  border: 1px solid rgba(255,255,255,0.15); border-radius: 6px;
+  background: rgba(255,255,255,0.05); color: #fff; font-family: var(--mono);
+  font-size: 12px; line-height: 1.55; resize: vertical; white-space: pre-wrap; box-sizing: border-box; }
+.panel-actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.panel-btn { padding: 11px 18px; border-radius: 8px; font-size: 13px;
+  font-weight: 500; cursor: pointer; border: none; min-height: 44px; font-family: inherit; }
+.btn-copy { background: #fff; color: #111; }
+.btn-copy.copied { background: var(--pick); color: #fff; }
+
+@media (max-width: 1000px) {
+  .cols { grid-template-columns: 1fr; }
+  .col.original { border-right: none; border-bottom: 1px solid var(--line-soft); }
+}
+@media (max-width: 700px) {
+  .wrap { padding: 32px 18px 200px; }
+  h1 { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <div class="kicker">Sparkloop · Voice Iterate · P2-A3 angle</div>
+  <h1>Original Hormozi & Gary Vee → brand-polish iterations + fact-check</h1>
+  <p class="lede">5 pure-original Hormozi + 5 pure-original Gary Vee on the $50K wire angle. Each pure original gets a surgical brand-polish iteration (left column = pure, right column = iterated with strikethrough on what's removed and highlight on what's added). Value density and founder cadence preserved. American gym-bro CTA + verbs dialled down. Plus: a fact-check engine — what would a skeptical Malaysian SMB push back on, and how likely is it.</p>
+  
+</div>
+
+
+<section class="skill-section" id="alex-hormozi-pas">
+  <header class="skill-head">
+    <h2>Alex Hormozi PAS</h2>
+    <p class="skill-blurb">5 pure originals · each with a brand-polish iteration showing surgical edits</p>
+  </header>
+  <div class="scripts-stack">
+    
+<article class="script-card" data-script-id="PH1">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PH1</span>
+      <span class="word-count">139 words</span>
+    </div>
+    <p class="script-subtitle">Classic PAS opener</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Listen. If you&#x27;re a business owner wiring money to Chinese suppliers, your bank is robbing you. Here&#x27;s the math. You send 50K. Your supplier gets 48K. Where did the 2K go? Your bank took a 2.5% exchange rate margin. That&#x27;s 1,200 dollars gone before intermediary fees even hit. So now your supplier won&#x27;t start production. You lose a week. You lose your delivery window. You lose the next order. Stop. This is not a fee problem. This is a hidden margin problem. Banks bury it in the rate so you never see it. WorldFirst gives you near-interbank rates. The actual rate banks use with each other. Same 50K. Supplier gets the full amount. Same-day to Chinese accounts. If you&#x27;re paying suppliers in China and you&#x27;re still using a bank, you&#x27;re lighting money on fire. Period. Search WorldFirst. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated"><span class="diff-del">Listen. </span>If you&#x27;re a business owner wiring money to Chinese suppliers, your bank is <span class="diff-del">robbing you</span><span class="diff-ins">quietly taking from you</span>. Here&#x27;s the math. You send 50K. Your supplier gets 48K. Where did the 2K go? Your bank took a 2.5% exchange rate margin. That&#x27;s 1,200 dollars gone before intermediary fees even hit. So now your supplier won&#x27;t start production. You lose a week. You lose your delivery window. You lose the next order. <span class="diff-del">Stop. </span>This is not a fee problem. This is a hidden margin problem. Banks bury it in the rate so you never see it. WorldFirst gives you near-interbank rates. The actual rate banks use with each other. Same 50K. Supplier gets the full amount. Same-day to Chinese accounts. If you&#x27;re paying suppliers in China and you&#x27;re still using a bank, you&#x27;re lighting money on fire. <span class="diff-del">Period. </span><span class="diff-ins">Worth a look. </span>Search WorldFirst<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.2</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.0</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.3</span></span>
+      <span class="overall">4.2</span>
+    </div>
+    <p class="rating-note">&#x27;This is not a fee problem. This is a hidden margin problem.&#x27; is a strong reframe line. Clean PAS rhythm intact after polish.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">Core mechanism (FX margin baked into rate, intermediary fees, supplier delays) is real and defensible, but &#x27;2.5%&#x27; is presented as universal when it&#x27;s a typical-case figure that varies by bank and currency pair. The &#x27;supplier won&#x27;t start production&#x27; beat is a real but situational scenario, framed as inevitable. &#x27;Supplier gets the full amount&#x27; on WF side is also a slight overreach because receiving bank fees on the CN side can still apply.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Where this 2.5% come from? My Maybank not so high lah.</li>
+<li>My supplier never refuse production over small short amount. We just top up next week.</li>
+<li>Who is WorldFirst? Never hear before. Got license or not?</li>
+<li>Sound like ad. Show me real rate comparison la, not just numbers.</li>
+<li>Same day to China? My bank also say same day. What&#x27;s different?</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PH1">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="If you&#x27;re a business owner wiring money to Chinese suppliers, your bank is quietly taking from you. Here&#x27;s the math. You send 50K. Your supplier gets 48K. Where did the 2K go? Your bank took a 2.5% exchange rate margin. That&#x27;s 1,200 dollars gone before intermediary fees even hit. So now your supplier won&#x27;t start production. You lose a week. You lose your delivery window. You lose the next order. This is not a fee problem. This is a hidden margin problem. Banks bury it in the rate so you never see it. WorldFirst gives you near-interbank rates. The actual rate banks use with each other. Same 50K. Supplier gets the full amount. Same-day to Chinese accounts. If you&#x27;re paying suppliers in China and you&#x27;re still using a bank, you&#x27;re lighting money on fire. Worth a look. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PH1" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PH2">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PH2</span>
+      <span class="word-count">131 words</span>
+    </div>
+    <p class="script-subtitle">Cold open + compounding math</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Watch this. You wire 50K to your Chinese supplier. They receive 48K. You just lost 1,200 dollars and you didn&#x27;t even feel it. Now do that twice a month. That&#x27;s 2,400 a month. 28,800 a year. Over five years, your bank quietly took 144,000 dollars from your business. That&#x27;s a salary. That&#x27;s a warehouse. That&#x27;s your kid&#x27;s college fund. And it&#x27;s not a fee. It&#x27;s the exchange rate margin. 2.5% buried in the rate so you never see the line item. Plus intermediary fees. Plus the week of delay because your supplier won&#x27;t start production until the full amount lands. Listen. WorldFirst sends the same 50K at near-interbank rates. Same-day to Chinese accounts. The full amount lands. Supplier starts production. You keep the 1,200. Every wire. Every month. Every year. Search WorldFirst. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated">Watch this. You wire 50K to your Chinese supplier. They receive 48K. You just lost 1,200 dollars and you didn&#x27;t even feel it. Now do that twice a month. That&#x27;s 2,400 a month. 28,800 a year. Over five years, your bank quietly took 144,000 dollars from your business. That&#x27;s a salary. That&#x27;s a warehouse. That&#x27;s your kid&#x27;s college fund. And it&#x27;s not a fee. It&#x27;s the exchange rate margin. 2.5% buried in the rate so you never see the line item. Plus intermediary fees. Plus the week of delay because your supplier won&#x27;t start production until the full amount lands. <span class="diff-del">Listen. </span>WorldFirst sends the same 50K at near-interbank rates. Same-day to Chinese accounts. The full amount lands. Supplier starts production. You keep the 1,200. Every wire. Every month. Every year. Search WorldFirst<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.5</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.2</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.3</span></span>
+      <span class="overall">4.3</span>
+    </div>
+    <p class="rating-note">Compounding maths (1.2K → 28.8K/yr → 144K/5yr) lands hard. &#x27;A salary. A warehouse. Your kid&#x27;s college fund.&#x27; = concrete stakes.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-high">Red flag · High</span>
+    </div>
+    <p class="fc-note">The compounding math (144K over 5 years) is the highest-risk claim in the set. It assumes the 2.5% margin holds constant on every wire, twice a month, for 60 months, which is an extrapolation no SMB will accept at face value. &#x27;Your kid&#x27;s college fund&#x27; is emotive framing on top of an unverifiable extrapolation. &#x27;Every wire. Every month. Every year.&#x27; is an absolute that a skeptic will pick apart.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>144K over 5 years? Bro you assume my bank never give better rate, never negotiate.</li>
+<li>I don&#x27;t wire 50K twice a month every month for 5 years lah. Numbers feel cooked.</li>
+<li>Kid college fund? Cmon now you trying too hard.</li>
+<li>Where the 2.5% from? Show me actual rate vs mid-market please.</li>
+<li>Sounds like ad. Got testimonial from real SME or just math?</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PH2">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="Watch this. You wire 50K to your Chinese supplier. They receive 48K. You just lost 1,200 dollars and you didn&#x27;t even feel it. Now do that twice a month. That&#x27;s 2,400 a month. 28,800 a year. Over five years, your bank quietly took 144,000 dollars from your business. That&#x27;s a salary. That&#x27;s a warehouse. That&#x27;s your kid&#x27;s college fund. And it&#x27;s not a fee. It&#x27;s the exchange rate margin. 2.5% buried in the rate so you never see the line item. Plus intermediary fees. Plus the week of delay because your supplier won&#x27;t start production until the full amount lands. WorldFirst sends the same 50K at near-interbank rates. Same-day to Chinese accounts. The full amount lands. Supplier starts production. You keep the 1,200. Every wire. Every month. Every year. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PH2" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PH3">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PH3</span>
+      <span class="word-count">129 words</span>
+    </div>
+    <p class="script-subtitle">Accusation opener</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Your bank stole 1,200 dollars from you on your last wire to China and you signed off on it. Here&#x27;s how. You sent 50K. Supplier got 48K. You assumed the 2K was a fee. It wasn&#x27;t. It was a 2.5% margin your bank packed into the exchange rate. No line item. No receipt. No refund. Then intermediary banks took another bite. Then your supplier sat on their hands for a week because the amount was short and they refused to start production. You missed your delivery window. You ate the loss. I&#x27;ll say it. Banks have been doing this for decades because business owners don&#x27;t read the rate. WorldFirst is different. Near-interbank rates. Same rate the banks use with each other. Same-day to Chinese accounts. Send 50K, supplier gets 50K. Stop signing off on theft. Search WorldFirst. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated">Your bank <span class="diff-del">stole</span><span class="diff-ins">pocketed</span> 1,200 dollars from you on your last wire to China and you signed off on it. Here&#x27;s how. You sent 50K. Supplier got 48K. You assumed the 2K was a fee. It wasn&#x27;t. It was a 2.5% margin your bank packed into the exchange rate. No line item. No receipt. No refund. Then intermediary banks took another bite. Then your supplier sat on their hands for a week because the amount was short and they refused to start production. You missed your delivery window. You ate the loss. <span class="diff-del">I&#x27;ll say it. </span>Banks have been doing this for decades because business owners don&#x27;t read the rate. WorldFirst is different. Near-interbank rates. Same rate the banks use with each other. Same-day to Chinese accounts. Send 50K, supplier gets 50K. <span class="diff-del">Stop signing off on theft. </span>Search WorldFirst<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.4</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">3.9</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.3</span></span>
+      <span class="overall">4.2</span>
+    </div>
+    <p class="rating-note">Accusation opener is visceral. &#x27;You signed off on it&#x27; might still feel slightly attacking — close to the line for SEA register.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-high">Red flag · High</span>
+    </div>
+    <p class="fc-note">&#x27;Pocketed&#x27; is softer than &#x27;stole&#x27; but still implies wrongdoing or theft, which a skeptic with banking knowledge will challenge because FX margins are disclosed in T&amp;Cs even if buried. &#x27;Banks have been doing this for decades&#x27; is sweeping. &#x27;Send 50K, supplier gets 50K&#x27; on WF side overstates because correspondent/CN receiving bank fees can still trim small amounts. &#x27;Business owners don&#x27;t read the rate&#x27; is also a slight insult that could put audience on defensive.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Pocketed? They disclose in fine print what. Not theft if I sign.</li>
+<li>Send 50K supplier get exactly 50K? Sure or not? CN bank also sometimes charge.</li>
+<li>You call me stupid for not reading the rate? Ok thanks for the ad.</li>
+<li>Got proof on the 2.5%? My bank charge me less.</li>
+<li>Banks doing this for decades but WorldFirst only how many years old?</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PH3">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="Your bank pocketed 1,200 dollars from you on your last wire to China and you signed off on it. Here&#x27;s how. You sent 50K. Supplier got 48K. You assumed the 2K was a fee. It wasn&#x27;t. It was a 2.5% margin your bank packed into the exchange rate. No line item. No receipt. No refund. Then intermediary banks took another bite. Then your supplier sat on their hands for a week because the amount was short and they refused to start production. You missed your delivery window. You ate the loss. Banks have been doing this for decades because business owners don&#x27;t read the rate. WorldFirst is different. Near-interbank rates. Same rate the banks use with each other. Same-day to Chinese accounts. Send 50K, supplier gets 50K. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PH3" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PH4">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PH4</span>
+      <span class="word-count">139 words</span>
+    </div>
+    <p class="script-subtitle">Mechanism-first reveal</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Here&#x27;s the problem most business owners don&#x27;t realize when they pay Chinese suppliers. The fee is not the fee. You see a 25 dollar wire fee on the bank statement. You think that&#x27;s the cost. Wrong. The real cost is the exchange rate margin. Your bank doesn&#x27;t give you the actual USD to CNY rate. They mark it up 2.5%. On a 50K wire, that&#x27;s 1,200 dollars taken silently. You&#x27;ll never see it on a statement because it&#x27;s baked into the rate itself. Then intermediary banks shave another slice. Supplier receives 48K, refuses to start production, you eat a week of delay. This is how banks make billions off business owners who think they&#x27;re getting a fair deal. Stop. WorldFirst uses near-interbank rates. The rate banks use with each other. Same 50K. Full amount lands same-day in China. Period. Search WorldFirst. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated">Here&#x27;s the problem most business owners don&#x27;t realize when they pay Chinese suppliers. The fee is not the fee. You see a 25 dollar wire fee on the bank statement. You think that&#x27;s the cost. Wrong. The real cost is the exchange rate margin. Your bank doesn&#x27;t give you the actual USD to CNY rate. They mark it up 2.5%. On a 50K wire, that&#x27;s 1,200 dollars taken silently. You&#x27;ll never see it on a statement because it&#x27;s baked into the rate itself. Then intermediary banks shave another slice. Supplier receives 48K, refuses to start production, you eat a week of delay. This is how banks make billions off business owners who think they&#x27;re getting a fair deal. <span class="diff-del">Stop. </span>WorldFirst uses near-interbank rates. The rate banks use with each other. Same 50K. Full amount lands same-day in China. <span class="diff-del">Period. </span>Search WorldFirst<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.1</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.1</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.2</span></span>
+      <span class="overall">4.1</span>
+    </div>
+    <p class="rating-note">&#x27;The fee is not the fee&#x27; = sharp reframe. &#x27;Banks make billions&#x27; is a broad claim that could draw pushback.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">Cleanest of the Hormozi set. Mechanism explanation is technically accurate (FX spread vs wire fee distinction is real and underappreciated). &#x27;Banks make billions&#x27; is generic enough to be defensible. Main risk is still the universal 2.5% figure presented without &#x27;up to&#x27; or &#x27;typically&#x27; qualifier, and &#x27;full amount lands same-day&#x27; is a slight overstatement that ignores CN-side processing. Most skeptics will accept the core teaching though.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Ok the fee vs rate thing actually make sense. But 2.5% always?</li>
+<li>My bank rate not that bad lah. Maybe US bank different.</li>
+<li>Full amount same day? CN bank also got their own charges sometimes.</li>
+<li>Banks make billions, fine. But how WorldFirst make money then? Free?</li>
+<li>Who regulate WorldFirst in Malaysia?</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PH4">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="Here&#x27;s the problem most business owners don&#x27;t realize when they pay Chinese suppliers. The fee is not the fee. You see a 25 dollar wire fee on the bank statement. You think that&#x27;s the cost. Wrong. The real cost is the exchange rate margin. Your bank doesn&#x27;t give you the actual USD to CNY rate. They mark it up 2.5%. On a 50K wire, that&#x27;s 1,200 dollars taken silently. You&#x27;ll never see it on a statement because it&#x27;s baked into the rate itself. Then intermediary banks shave another slice. Supplier receives 48K, refuses to start production, you eat a week of delay. This is how banks make billions off business owners who think they&#x27;re getting a fair deal. WorldFirst uses near-interbank rates. The rate banks use with each other. Same 50K. Full amount lands same-day in China. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PH4" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PH5">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PH5</span>
+      <span class="word-count">133 words</span>
+    </div>
+    <p class="script-subtitle">Direct address + problem stack</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">If you wire money to China, you need to hear this. Real talk. Last time you sent 50K to a supplier, three things happened and you only saw one of them. One. Your bank charged you a wire fee. You saw that. Two. Your bank marked up the exchange rate 2.5% and pocketed 1,200 dollars silently. You didn&#x27;t see that. Three. Intermediary banks chipped away another 200 or 300 bucks. You didn&#x27;t see that either. Supplier received 48K instead of 50K. Refused to start production. You lost a week. You lost the order. You lost your reputation with that supplier. Stop wiring through banks for China payments. WorldFirst gives you near-interbank rates. The actual rate. Same-day delivery to Chinese accounts. Send 50K, supplier gets 50K, production starts today. If you&#x27;re a business owner paying China, you need WorldFirst. Period. Search WorldFirst. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated">If you wire money to China, you need to hear this. <span class="diff-del">Real talk. </span>Last time you sent 50K to a supplier, three things happened and you only saw one of them. One. Your bank charged you a wire fee. You saw that. Two. Your bank marked up the exchange rate 2.5% and pocketed 1,200 dollars silently. You didn&#x27;t see that. Three. Intermediary banks chipped away another 200 or 300 bucks. You didn&#x27;t see that either. Supplier received 48K instead of 50K. Refused to start production. You lost a week. You lost the order. You lost your reputation with that supplier. <span class="diff-del">Stop wiring through banks for China payments. </span>WorldFirst gives you near-interbank rates. The actual rate. Same-day delivery to Chinese accounts. Send 50K, supplier gets 50K, production starts today. If you&#x27;re a business owner paying China, <span class="diff-del">you need WorldFirst. Period. </span><span class="diff-ins">WorldFirst is worth a look. </span>Search WorldFirst<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.3</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.1</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.2</span></span>
+      <span class="overall">4.2</span>
+    </div>
+    <p class="rating-note">1-2-3 structural reveal works well. Listing what you saw vs didn&#x27;t see is clean teaching.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">The three-things-stack format is clean and educational. The 200-300 intermediary fee range is more honest than a single number. Main red flag is the cascade of consequences (lost week, lost order, lost reputation with that supplier) which feels stacked for drama. Most SMBs won&#x27;t lose a supplier relationship over one short payment, they&#x27;ll just top up. &#x27;Supplier gets 50K&#x27; on WF side has the same slight overreach issue.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Lost reputation with supplier over one short wire? Bit dramatic.</li>
+<li>Where the 2.5% number from? My HLB not so bad.</li>
+<li>Intermediary 200-300 ok that&#x27;s fair. But still want to see real screenshot.</li>
+<li>Production starts today? Even if money lands, supplier still got their schedule.</li>
+<li>Worth a look ok but who is WorldFirst leh. Ant Group? Trust them or not?</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PH5">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="If you wire money to China, you need to hear this. Last time you sent 50K to a supplier, three things happened and you only saw one of them. One. Your bank charged you a wire fee. You saw that. Two. Your bank marked up the exchange rate 2.5% and pocketed 1,200 dollars silently. You didn&#x27;t see that. Three. Intermediary banks chipped away another 200 or 300 bucks. You didn&#x27;t see that either. Supplier received 48K instead of 50K. Refused to start production. You lost a week. You lost the order. You lost your reputation with that supplier. WorldFirst gives you near-interbank rates. The actual rate. Same-day delivery to Chinese accounts. Send 50K, supplier gets 50K, production starts today. If you&#x27;re a business owner paying China, WorldFirst is worth a look. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PH5" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+  </div>
+</section>
+
+<section class="skill-section" id="gary-vee-opinion-led">
+  <header class="skill-head">
+    <h2>Gary Vee Opinion-led</h2>
+    <p class="skill-blurb">5 pure originals · each with a brand-polish iteration showing surgical edits</p>
+  </header>
+  <div class="scripts-stack">
+    
+<article class="script-card" data-script-id="PG1">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PG1</span>
+      <span class="word-count">113 words</span>
+    </div>
+    <p class="script-subtitle">Classic Stop / Real-talk opener</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Stop. Real talk for every business owner paying Chinese suppliers. You send $50,000 to your factory. Your supplier gets $48,000. Where did $2,000 go? Your bank&#x27;s hidden exchange rate margin ate $1,200. Intermediary fees took the rest. And here&#x27;s the kicker. Your supplier won&#x27;t start production until they see the full amount. So now you&#x27;re losing a week. Maybe two. While you&#x27;re scrambling to wire the difference. Listen. WorldFirst sends the same $50,000 at near-interbank rate. That&#x27;s the actual rate banks use with each other. Same day to Chinese bank accounts. No mystery fees. No supplier holding your order hostage. Stop letting your bank rob you on every payment. Search WorldFirst. Now.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated"><span class="diff-del">Stop. Real talk for every</span><span class="diff-ins">For every</span> business owner paying Chinese suppliers. You send $50,000 to your factory. Your supplier gets $48,000. Where did $2,000 go? Your bank&#x27;s hidden exchange rate margin <span class="diff-del">ate</span><span class="diff-ins">took</span> $1,200. Intermediary fees took the rest. And here&#x27;s the <span class="diff-del">kicker</span><span class="diff-ins">part most people miss</span>. Your supplier won&#x27;t start production until they see the full amount. So now you&#x27;re losing a week. Maybe two. While you&#x27;re scrambling to wire the difference. <span class="diff-del">Listen. </span>WorldFirst sends the same $50,000 at near-interbank rate. That&#x27;s the actual rate banks use with each other. Same day to Chinese bank accounts. No mystery fees. No supplier holding your order<span class="diff-del"> hostage</span>. <span class="diff-del">Stop letting your bank rob you</span><span class="diff-ins">Worth knowing if your bank is quietly taking from you</span> on every payment. Search WorldFirst<span class="diff-del">. Now</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.0</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.1</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.2</span></span>
+      <span class="overall">4.1</span>
+    </div>
+    <p class="rating-note">Lost some of the original Gary Vee punch after polish. Still works but feels closer to baseline.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">Same core math as Hormozi set (2.5% margin, $1,200, supplier delay) so inherits same defensibility profile. The softer &#x27;worth knowing&#x27; close reduces red flag vs harder Hormozi versions. Main risk is still 2.5% presented without qualifier and the supplier-won&#x27;t-start framing as universal. &#x27;No mystery fees&#x27; on WF side is a marketing claim that a skeptic could test.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Why my bank rate not 2.5%? Got source for this number?</li>
+<li>Sound like ad. Show me real example with screenshot.</li>
+<li>My supplier wait for full amount lah, true. But one week loss? Maybe one day.</li>
+<li>Who is WorldFirst? First time hearing.</li>
+<li>No mystery fees, sure or not? Got monthly subscription? Min top up?</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PG1">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="For every business owner paying Chinese suppliers. You send $50,000 to your factory. Your supplier gets $48,000. Where did $2,000 go? Your bank&#x27;s hidden exchange rate margin took $1,200. Intermediary fees took the rest. And here&#x27;s the part most people miss. Your supplier won&#x27;t start production until they see the full amount. So now you&#x27;re losing a week. Maybe two. While you&#x27;re scrambling to wire the difference. WorldFirst sends the same $50,000 at near-interbank rate. That&#x27;s the actual rate banks use with each other. Same day to Chinese bank accounts. No mystery fees. No supplier holding your order. Worth knowing if your bank is quietly taking from you on every payment. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PG1" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PG2">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PG2</span>
+      <span class="word-count">97 words</span>
+    </div>
+    <p class="script-subtitle">I&#x27;ll say it opinion-as-truth + compound math</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">I&#x27;ll say it. Your bank is the most expensive part of your supply chain and nobody talks about it. You wire $50,000 to your Chinese supplier. They get $48,000. That&#x27;s $2,000 gone. On one payment. Now run the math. Ten payments a year. That&#x27;s $20,000. Fifty payments. That&#x27;s $100,000. That&#x27;s a hire. That&#x27;s inventory. That&#x27;s your margin. And here&#x27;s what your bank won&#x27;t tell you. That 2.5% exchange rate margin is hidden in the rate. You&#x27;ll never see it on a statement. WorldFirst uses near-interbank rate. Same-day to Chinese accounts. The difference goes back into your business. Where it belongs. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated"><span class="diff-del">I&#x27;ll say it. </span>Your bank is the most expensive part of your supply chain and nobody talks about it. You wire $50,000 to your Chinese supplier. They get $48,000. That&#x27;s $2,000 gone. On one payment. Now run the math. Ten payments a year. That&#x27;s $20,000. Fifty payments. That&#x27;s $100,000. That&#x27;s a hire. That&#x27;s inventory. That&#x27;s your margin. And here&#x27;s what your bank won&#x27;t tell you. That 2.5% exchange rate margin is hidden in the rate. You&#x27;ll never see it on a statement. WorldFirst uses near-interbank rate. Same-day to Chinese accounts. The difference goes back into your business. Where it belongs<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.3</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.1</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.2</span></span>
+      <span class="overall">4.2</span>
+    </div>
+    <p class="rating-note">&#x27;Your bank is the most expensive part of your supply chain&#x27; is the sharpest single line in this batch. Tight at 97 words.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">&#x27;Your bank is the most expensive part of your supply chain&#x27; is a bold opinion claim, but framed as opinion (&#x27;nobody talks about it&#x27;) rather than fact, which is defensible Gary Vee voice. Math is cleaner here (10 payments = 20K, 50 payments = 100K) and more honest than the 5-year compound. Still relies on the universal 2.5% figure. &#x27;You&#x27;ll never see it on a statement&#x27; is largely true and defensible.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Most expensive part of supply chain? Shipping cost me way more lah.</li>
+<li>50 wires a year for one SME? That&#x27;s big company already.</li>
+<li>2.5% always? My CIMB rate not so bad.</li>
+<li>Where WorldFirst money come from then? They give better rate for free?</li>
+<li>Show real rate comparison please, not just say.</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PG2">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="Your bank is the most expensive part of your supply chain and nobody talks about it. You wire $50,000 to your Chinese supplier. They get $48,000. That&#x27;s $2,000 gone. On one payment. Now run the math. Ten payments a year. That&#x27;s $20,000. Fifty payments. That&#x27;s $100,000. That&#x27;s a hire. That&#x27;s inventory. That&#x27;s your margin. And here&#x27;s what your bank won&#x27;t tell you. That 2.5% exchange rate margin is hidden in the rate. You&#x27;ll never see it on a statement. WorldFirst uses near-interbank rate. Same-day to Chinese accounts. The difference goes back into your business. Where it belongs." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PG2" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PG3">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PG3</span>
+      <span class="word-count">100 words</span>
+    </div>
+    <p class="script-subtitle">Stop using your bank / right-tool reframe</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Stop using your bank to pay Chinese suppliers. I&#x27;m serious. Your bank is a tool. It&#x27;s the wrong tool. You wouldn&#x27;t use a hammer to cut wood. So why are you using a domestic bank to send international supplier payments? Here&#x27;s what happens. You send $50,000. Hidden 2.5% margin. That&#x27;s $1,200. Plus intermediary fees, another $800. Supplier gets $48,000. Refuses to start production. You lose a week. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese bank accounts. Full $50,000 lands. Supplier starts that day. Use the right tool for the job. Your margin depends on it. Search WorldFirst. Now.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated"><span class="diff-del">Stop using your bank to pay Chinese suppliers. I&#x27;m serious</span><span class="diff-ins">Your bank is not the right tool for paying Chinese suppliers</span>. Your bank is a tool. It&#x27;s the wrong tool. You wouldn&#x27;t use a hammer to cut wood. So why are you using a domestic bank to send international supplier payments? Here&#x27;s what happens. You send $50,000. Hidden 2.5% margin. That&#x27;s $1,200. Plus intermediary fees, another $800. Supplier gets $48,000. <span class="diff-del">Refuses to</span><span class="diff-ins">Won&#x27;t</span> start production. You lose a week. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese bank accounts. Full $50,000 lands. Supplier starts that day. Use the right tool for the job. Your margin depends on it. Search WorldFirst<span class="diff-del">. Now</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.0</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.2</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.2</span></span>
+      <span class="overall">4.1</span>
+    </div>
+    <p class="rating-note">Hammer/wood analogy is plain English and lands. &#x27;Use the right tool for the job&#x27; is generic but clean.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">The hammer/wood metaphor is defensible framing. Combining the 1,200 FX margin AND 800 intermediary fees adds up to 2K total = exactly $48K supplier received, which is internally consistent. Main red flag is the 800 intermediary figure is plausible but presented as universal when intermediary bank fees vary widely. &#x27;Won&#x27;t start production&#x27; framed as inevitable. &#x27;Supplier starts that day&#x27; on WF side is a confident claim.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>800 intermediary fee on a 50K wire? That&#x27;s high. Mine more like 30 to 50 USD.</li>
+<li>Hammer wood analogy ok but show me the actual product first.</li>
+<li>Supplier starts day money lands? Supplier got their own queue too.</li>
+<li>Where WorldFirst regulated? PayNet? BNM? Or some offshore thing?</li>
+<li>Sound nice but I trust bank more lah. Got branch, got person to call.</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PG3">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="Your bank is not the right tool for paying Chinese suppliers. Your bank is a tool. It&#x27;s the wrong tool. You wouldn&#x27;t use a hammer to cut wood. So why are you using a domestic bank to send international supplier payments? Here&#x27;s what happens. You send $50,000. Hidden 2.5% margin. That&#x27;s $1,200. Plus intermediary fees, another $800. Supplier gets $48,000. Won&#x27;t start production. You lose a week. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese bank accounts. Full $50,000 lands. Supplier starts that day. Use the right tool for the job. Your margin depends on it. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PG3" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PG4">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PG4</span>
+      <span class="word-count">105 words</span>
+    </div>
+    <p class="script-subtitle">Truth nobody&#x27;s telling you / conspiratorial</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Here&#x27;s the truth nobody&#x27;s telling you about international wires. Your bank doesn&#x27;t make money on the wire fee. They make money on the exchange rate. You send $50,000 to your Chinese supplier. The bank quotes you a rate that&#x27;s 2.5% worse than the real one. That&#x27;s $1,200 they pocket. Silently. Then intermediary banks take another $800 in fees that nobody warned you about. Supplier gets $48,000. Won&#x27;t start production. You lose a week of lead time. This is how it works. Every single time. WorldFirst doesn&#x27;t play this game. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. That&#x27;s the difference. Period.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated">Here&#x27;s <span class="diff-del">the truth</span><span class="diff-ins">something</span> nobody&#x27;s telling you about international wires. Your bank doesn&#x27;t make money on the wire fee. They make money on the exchange rate. You send $50,000 to your Chinese supplier. The bank quotes you a rate that&#x27;s 2.5% worse than the real one. That&#x27;s $1,200 they pocket. <span class="diff-del">Silently</span><span class="diff-ins">Quietly</span>. Then intermediary banks take another $800 in fees that nobody warned you about. Supplier gets $48,000. Won&#x27;t start production. You lose a week of lead time. This is how it works. Every single time. WorldFirst <span class="diff-del">doesn&#x27;t play this game</span><span class="diff-ins">is built differently</span>. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. That&#x27;s the difference<span class="diff-del">. Period</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.2</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.1</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.0</span></span>
+      <span class="overall">4.1</span>
+    </div>
+    <p class="rating-note">&#x27;Your bank doesn&#x27;t make money on the wire fee. They make money on the exchange rate.&#x27; = the kind of line a peer would quote. CTA soft — no explicit &#x27;Search WorldFirst&#x27;.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-medium">Red flag · Medium</span>
+    </div>
+    <p class="fc-note">&#x27;Truth nobody&#x27;s telling you&#x27; was softened to &#x27;something nobody&#x27;s telling you&#x27; which lowers the conspiratorial tone, good. &#x27;This is how it works. Every single time.&#x27; is an absolute that a skeptic with one positive bank experience can disprove. The fee vs rate teaching is genuine and useful. &#x27;The rate you see is the rate you get&#x27; is a clean WF claim but a skeptic will want to see proof.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Every single time? I send last month and supplier got within 50 USD of quoted.</li>
+<li>Bank don&#x27;t make money on wire fee, make money on rate. Ok this part true actually.</li>
+<li>2.5% worse than real rate, where you get this? Bloomberg?</li>
+<li>Rate you see is rate you get, prove it la. Show live quote.</li>
+<li>Who is WorldFirst? Need to research first.</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PG4">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="Here&#x27;s something nobody&#x27;s telling you about international wires. Your bank doesn&#x27;t make money on the wire fee. They make money on the exchange rate. You send $50,000 to your Chinese supplier. The bank quotes you a rate that&#x27;s 2.5% worse than the real one. That&#x27;s $1,200 they pocket. Quietly. Then intermediary banks take another $800 in fees that nobody warned you about. Supplier gets $48,000. Won&#x27;t start production. You lose a week of lead time. This is how it works. Every single time. WorldFirst is built differently. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. That&#x27;s the difference." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PG4" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+
+<article class="script-card" data-script-id="PG5">
+  <header class="script-head">
+    <div class="script-row">
+      <span class="script-id">PG5</span>
+      <span class="word-count">98 words</span>
+    </div>
+    <p class="script-subtitle">Real talk + escalating personal energy</p>
+  </header>
+
+  <div class="cols">
+    <div class="col original">
+      <div class="block-label">Pure original</div>
+      <p class="vo vo-original">Real talk for every business owner sourcing from China. You think your bank is helping you. They&#x27;re not. You wire $50,000 to your supplier. They get $48,000. You call the bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody takes responsibility. Meanwhile your supplier won&#x27;t start production. You&#x27;re losing days. Your customers are waiting. Your margin is bleeding. And you&#x27;re on the phone with a teller who has no idea what you&#x27;re talking about. I see this every week. Every single week. Stop. WorldFirst. Near-interbank rate. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts. You sleep. Search WorldFirst. Now.</p>
+    </div>
+    <div class="col iterated">
+      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
+      <p class="vo vo-iterated"><span class="diff-del">Real talk for every</span><span class="diff-ins">For every</span> business owner sourcing from China. You think your bank is helping you. They&#x27;re not. You wire $50,000 to your supplier. They get $48,000. You call the bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody takes responsibility. Meanwhile your supplier won&#x27;t start production. You&#x27;re losing days. Your customers are waiting. Your margin is bleeding. And you&#x27;re on the phone with a teller who has no idea what you&#x27;re talking about. <span class="diff-del">I see this</span><span class="diff-ins">This happens</span> every week. Every single week. <span class="diff-del">Stop. </span>WorldFirst. Near-interbank rate. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts. You sleep. Search WorldFirst<span class="diff-del">. Now</span>.</p>
+    </div>
+  </div>
+
+  
+  <div class="rating-block">
+    <div class="block-label">Claude's rating</div>
+    <div class="rating-row">
+      <span class="rp social"><span class="rl">Soc</span><span class="rv">4.4</span></span>
+      <span class="rp audience"><span class="rl">Aud</span><span class="rv">4.3</span></span>
+      <span class="rp sales"><span class="rl">Sales</span><span class="rv">4.2</span></span>
+      <span class="overall">4.3</span>
+    </div>
+    <p class="rating-note">Call-the-bank scenario is the most relatable in the batch. &#x27;You sleep&#x27; close is a strong payoff line.</p>
+  </div>
+  
+  <div class="factcheck-block">
+    <div class="fc-head">
+      <span class="block-label">Fact-check / skeptic test</span>
+      <span class="flag-pill flag-low">Red flag · Low</span>
+    </div>
+    <p class="fc-note">Cleanest script in the set. The &#x27;call the bank, they blame intermediary, intermediary blames receiving&#x27; beat is a real and well-known pain point that any importer who&#x27;s been stuck on that call will immediately recognize as true. Soft on specific numbers (no 2.5%, no 1,200, no compound math). &#x27;Your margin is bleeding&#x27; is metaphor not claim. &#x27;This happens every week. Every single week.&#x27; is the only overreach. Most defensible script.</p>
+    <div class="skeptic-comments">
+      <div class="sc-label">Skeptic Malaysian SMB might leave:</div>
+      <ul><li>Ya the blame game is real. Bank, intermediary, receiving all pointing finger.</li>
+<li>Every week? Bit much. Maybe every few months.</li>
+<li>Supplier starts and I sleep, nice line but show me how WorldFirst do it lah.</li>
+<li>Who is WorldFirst? Got Malaysia license?</li>
+<li>Ok this one feel less ad than others. Still want proof.</li></ul>
+    </div>
+  </div>
+
+  <div class="actions">
+    <label class="winner-radio">
+      <input type="radio" name="winner-pick" class="wr" data-vid="PG5">
+      <span class="winner-mark"></span>
+      <span class="winner-label">Best overall</span>
+    </label>
+    <button class="copy-btn" data-vo="For every business owner sourcing from China. You think your bank is helping you. They&#x27;re not. You wire $50,000 to your supplier. They get $48,000. You call the bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody takes responsibility. Meanwhile your supplier won&#x27;t start production. You&#x27;re losing days. Your customers are waiting. Your margin is bleeding. And you&#x27;re on the phone with a teller who has no idea what you&#x27;re talking about. This happens every week. Every single week. WorldFirst. Near-interbank rate. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts. You sleep. Search WorldFirst." type="button">Copy polished</button>
+  </div>
+
+  <textarea class="script-comment" data-vid="PG5" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+</article>
+  </div>
+</section>
+
+</div>
+
+<div class="bottom-panel collapsed" id="panel">
+  <div class="panel-bar" id="panelBar">
+    <div class="panel-count" id="panelCount"><span class="count-zero">0 picked · 0 comments</span></div>
+    <div class="panel-toggle" id="panelToggle">expand ↑</div>
+  </div>
+  <div class="panel-body">
+    <span class="panel-label">Voice iterate paste-back</span>
+    <textarea class="panel-prompt" id="panelPrompt" readonly></textarea>
+    <div class="panel-actions">
+      <button class="panel-btn btn-copy" id="btnCopy">Copy prompt</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const STORAGE_KEY = 'sea_voice_iterate_v1';
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"winner":null,"comments":{}}'); }
+  catch (e) { return {winner: null, comments: {}}; }
+}
+function saveState(s) { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
+let state = loadState();
+if (!state.comments) state.comments = {};
+
+document.querySelectorAll('.wr').forEach(rb => {
+  const vid = rb.getAttribute('data-vid');
+  if (state.winner === vid) { rb.checked = true; rb.closest('.script-card').classList.add('winner'); }
+});
+document.querySelectorAll('.script-comment').forEach(ta => {
+  const vid = ta.getAttribute('data-vid');
+  if (state.comments[vid]) ta.value = state.comments[vid];
+});
+
+document.querySelectorAll('.wr').forEach(rb => {
+  rb.addEventListener('change', () => {
+    const vid = rb.getAttribute('data-vid');
+    state.winner = vid;
+    document.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
+    rb.closest('.script-card').classList.add('winner');
+    saveState(state); updatePanel();
+  });
+});
+document.querySelectorAll('.script-comment').forEach(ta => {
+  ta.addEventListener('input', () => {
+    const vid = ta.getAttribute('data-vid');
+    if (ta.value.trim()) state.comments[vid] = ta.value; else delete state.comments[vid];
+    saveState(state); updatePanel();
+  });
+});
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', async (e) => {
+    e.stopPropagation();
+    const vo = btn.getAttribute('data-vo');
+    try { await navigator.clipboard.writeText(vo); btn.textContent = 'Copied'; btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy polished'; btn.classList.remove('copied'); }, 1500);
+    } catch (e) { console.error(e); }
+  });
+});
+
+function buildPrompt() {
+  const lines = ['== SEA Voice Iterate paste-back =='];
+  lines.push('');
+  if (state.winner) { lines.push(`WINNER: ${state.winner}`); } else { lines.push('WINNER: (none)'); }
+  const commentEntries = Object.entries(state.comments).filter(([k, v]) => (v || '').trim());
+  lines.push('');
+  lines.push(`COMMENTS (${commentEntries.length}):`);
+  if (commentEntries.length === 0) lines.push('  (none)');
+  commentEntries.forEach(([vid, c]) => { lines.push(`  ${vid}: "${c.trim()}"`); });
+  lines.push('');
+  lines.push('Action: scale the winner voice + comment notes to other angles in this batch.');
+  return lines.join('\n');
+}
+function updatePanel() {
+  const w = state.winner ? 1 : 0;
+  const c = Object.values(state.comments).filter(v => (v || '').trim()).length;
+  const ctx = document.getElementById('panelCount');
+  if (w === 0 && c === 0) { ctx.innerHTML = '<span class="count-zero">0 picked · 0 comments</span>'; }
+  else { ctx.textContent = `${w} picked · ${c} comments`; }
+  document.getElementById('panelPrompt').value = buildPrompt();
+}
+const panel = document.getElementById('panel');
+document.getElementById('panelBar').addEventListener('click', () => {
+  panel.classList.toggle('collapsed');
+  document.getElementById('panelToggle').textContent = panel.classList.contains('collapsed') ? 'expand ↑' : 'collapse ↓';
+});
+document.getElementById('btnCopy').addEventListener('click', async () => {
+  const text = document.getElementById('panelPrompt').value;
+  try { await navigator.clipboard.writeText(text); const btn = document.getElementById('btnCopy');
+    btn.textContent = 'Copied'; btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy prompt'; btn.classList.remove('copied'); }, 1500);
+  } catch (e) { console.error(e); }
+});
+updatePanel();
+</script>
+</body>
+</html>
