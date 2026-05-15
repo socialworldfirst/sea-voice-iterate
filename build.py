@@ -78,7 +78,8 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     if factcheck:
         heat = factcheck.get('red_flag', 'Low')
         heat_class = f"heat-{heat.lower()}"
-        heat_pill = f'<span class="heat-pill {heat_class}" title="{esc(factcheck.get(\"analysis\", \"\"))}"><span class="hl">Heat</span><span class="hv">{esc(heat)}</span></span>'
+        heat_tooltip = esc(factcheck.get('analysis', ''))
+        heat_pill = f'<span class="heat-pill {heat_class}" title="{heat_tooltip}"><span class="hl">Heat</span><span class="hv">{esc(heat)}</span></span>'
         fc_note_text = factcheck.get('analysis', '')
 
     rating_row = ''
