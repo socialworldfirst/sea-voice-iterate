@@ -1,0 +1,197 @@
+{
+  "angle_id": "P1-A6-3",
+  "title": "The math on USD vs CNY for a $20,000 supplier payment",
+  "card_id": "P1-A6",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner paying Chinese suppliers in USD, you are leaving 280 dollars on the table every single order. Here's the math on a 20,000 dollar payment. Your bank converts your local currency to USD. That's a 1% margin. 200 dollars gone. Your supplier's Chinese bank then converts that USD to CNY. Another 0.5%. 100 dollars gone. SWIFT and intermediary fees, another 60 dollars. Total leakage, 360 dollars. Plus 4 days of waiting. Now pay the same 20K in CNY directly. One conversion at 0.4%. That's 80 dollars total. Settles same day. The difference is 280 dollars on one order. Run 12 orders a year and that's 3,360 dollars. Stop. This is not a fee problem. This is a routing problem. WorldFirst sends CNY direct to Chinese suppliers same-day. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner paying Chinese suppliers in USD, you are leaving 280 dollars on the table every single order. Here's the math on a 20,000 dollar payment. Your bank converts your local currency to USD. That's a 1% margin. 200 dollars gone. Your supplier's Chinese bank then converts that USD to CNY. Another 0.5%. 100 dollars gone. SWIFT and intermediary fees, another 60 dollars. Total leakage, 360 dollars. Plus 4 days of waiting. Now pay the same 20K in CNY directly. One conversion at 0.4%. That's 80 dollars total. Settles same day. The difference is 280 dollars on one order. Run 12 orders a year and that's 3,360 dollars. This is not a fee problem. This is a routing problem. WorldFirst sends CNY direct to Chinese suppliers same-day. Worth a look. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner paying Chinese suppliers in USD, you are leaving 280 dollars on the table every single order. Here's the math on a 20,000 dollar payment. Your bank converts your local currency to USD. That's a 1% margin. 200 dollars gone. Your supplier's Chinese bank then converts that USD to CNY. Another 0.5%. 100 dollars gone. SWIFT and intermediary fees, another 60 dollars. Total leakage, 360 dollars. Plus 4 days of waiting. Now pay the same 20K in CNY directly. One conversion at 0.4%. That's 80 dollars total. Settles same day. The difference is 280 dollars on one order. Run 12 orders a year and that's 3,360 dollars. <del>Stop. </del>This is not a fee problem. This is a routing problem. WorldFirst sends CNY direct to Chinese suppliers same-day. <ins>Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. 20,000 dollar order to your Chinese supplier paid in USD. Your bank takes 200 on the first conversion. Their bank takes 100 on the second. SWIFT chain takes 60. You just lost 360 dollars and you didn't see a single line item. Now do it again next month. And the month after. 12 orders a year, that's 4,320 dollars to the banks. Run that for 5 years. 21,600 dollars. That's a salary. That's inventory. That's a warehouse. And it's not a wire fee. It's two FX margins stacked on a route that nobody told you was optional. Pay in CNY direct. One conversion. 80 dollars total. Same-day. Listen. WorldFirst sends CNY direct via dedicated rails. 0.3 to 0.5% all-in. You keep the 280 every order. Every month. Every year. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. 20,000 dollar order to your Chinese supplier paid in USD. Your bank takes 200 on the first conversion. Their bank takes 100 on the second. SWIFT chain takes 60. You just lost 360 dollars and you didn't see a single line item. Now do it again next month. And the month after. 12 orders a year, that's 4,320 dollars to the banks. Run that for 5 years. 21,600 dollars. That's a salary. That's inventory. That's a warehouse. And it's not a wire fee. It's two FX margins stacked on a route that nobody told you was optional. Pay in CNY direct. One conversion. 80 dollars total. Same-day. WorldFirst sends CNY direct via dedicated rails. 0.3 to 0.5% all-in. You keep the 280 every order. Every month. Every year. Search WorldFirst.",
+        "diff_markup": "Watch this. 20,000 dollar order to your Chinese supplier paid in USD. Your bank takes 200 on the first conversion. Their bank takes 100 on the second. SWIFT chain takes 60. You just lost 360 dollars and you didn't see a single line item. Now do it again next month. And the month after. 12 orders a year, that's 4,320 dollars to the banks. Run that for 5 years. 21,600 dollars. That's a salary. That's inventory. That's a warehouse. And it's not a wire fee. It's two FX margins stacked on a route that nobody told you was optional. Pay in CNY direct. One conversion. 80 dollars total. Same-day. <del>Listen. </del>WorldFirst sends CNY direct via dedicated rails. 0.3 to 0.5% all-in. You keep the 280 every order. Every month. Every year. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank stole 280 dollars from you on your last 20K order to China and you handed them the keys. Here's how. You wired in USD. Your bank converted your local currency to USD at a 1% margin. 200 dollars gone before the wire even left. The USD then crossed SWIFT, 60 dollars in intermediary fees. Lands at your supplier's bank. Their bank converts USD to CNY at a 0.5% margin. Another 100 dollars gone. Total bill, 360 dollars on a 20K order. No line item. No receipt. No notification. Now run it the right way. Pay in CNY direct. One conversion, 80 dollars total, same day. I'll say it. Banks built this two-step route because it pays them twice. WorldFirst pays in CNY direct via dedicated rails. Stop signing off on the double dip. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank pocketed 280 dollars from you on your last 20K order to China and you handed them the keys. Here's how. You wired in USD. Your bank converted your local currency to USD at a 1% margin. 200 dollars gone before the wire even left. The USD then crossed SWIFT, 60 dollars in intermediary fees. Lands at your supplier's bank. Their bank converts USD to CNY at a 0.5% margin. Another 100 dollars gone. Total bill, 360 dollars on a 20K order. No line item. No receipt. No notification. Now run it the right way. Pay in CNY direct. One conversion, 80 dollars total, same day. Banks built this two-step route because it pays them twice. WorldFirst pays in CNY direct via dedicated rails. Search WorldFirst.",
+        "diff_markup": "Your bank <del>stole</del><ins>pocketed</ins> 280 dollars from you on your last 20K order to China and you handed them the keys. Here's how. You wired in USD. Your bank converted your local currency to USD at a 1% margin. 200 dollars gone before the wire even left. The USD then crossed SWIFT, 60 dollars in intermediary fees. Lands at your supplier's bank. Their bank converts USD to CNY at a 0.5% margin. Another 100 dollars gone. Total bill, 360 dollars on a 20K order. No line item. No receipt. No notification. Now run it the right way. Pay in CNY direct. One conversion, 80 dollars total, same day. <del>I'll say it. </del>Banks built this two-step route because it pays them twice. WorldFirst pays in CNY direct via dedicated rails. <del>Stop signing off on the double dip. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners don't realize when they pay Chinese suppliers in USD. The wire isn't one conversion. It's two. You see a 20,000 dollar invoice. You think one wire, one cost. Wrong. Conversion one. Your bank turns your local currency into USD at a 1% margin. 200 dollars taken silently, no line item. Conversion two. Your supplier's Chinese bank turns that USD into CNY at a 0.5% margin. Another 100 dollars taken on their side. Add SWIFT intermediary fees, 60 dollars. Total stack, 360 dollars on a 20K order and 4 days of clearing. Pay the same 20K in CNY direct, one conversion at 0.4%, 80 dollars all-in, same day. Stop. This is how banks make billions on a route they kept quiet about. WorldFirst sends CNY direct to Chinese supplier accounts. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners don't realize when they pay Chinese suppliers in USD. The wire isn't one conversion. It's two. You see a 20,000 dollar invoice. You think one wire, one cost. Wrong. Conversion one. Your bank turns your local currency into USD at a 1% margin. 200 dollars taken silently, no line item. Conversion two. Your supplier's Chinese bank turns that USD into CNY at a 0.5% margin. Another 100 dollars taken on their side. Add SWIFT intermediary fees, 60 dollars. Total stack, 360 dollars on a 20K order and 4 days of clearing. Pay the same 20K in CNY direct, one conversion at 0.4%, 80 dollars all-in, same day. This is how banks earn quietly on a route they don't explain. WorldFirst sends CNY direct to Chinese supplier accounts. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners don't realize when they pay Chinese suppliers in USD. The wire isn't one conversion. It's two. You see a 20,000 dollar invoice. You think one wire, one cost. Wrong. Conversion one. Your bank turns your local currency into USD at a 1% margin. 200 dollars taken silently, no line item. Conversion two. Your supplier's Chinese bank turns that USD into CNY at a 0.5% margin. Another 100 dollars taken on their side. Add SWIFT intermediary fees, 60 dollars. Total stack, 360 dollars on a 20K order and 4 days of clearing. Pay the same 20K in CNY direct, one conversion at 0.4%, 80 dollars all-in, same day. <del>Stop. </del>This is how banks <del>make billions</del><ins>earn quietly</ins> on a route they <del>kept quiet about</del><ins>don't explain</ins>. WorldFirst sends CNY direct to Chinese supplier accounts. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you pay Chinese suppliers in USD, you need to hear this. Real talk. Your last 20,000 dollar order had four hidden costs and you only saw zero of them. One. Your bank converted local to USD at a 1% margin. 200 dollars gone. Two. SWIFT and intermediary banks took 60 dollars in transit. Three. Your supplier's bank converted USD to CNY at a 0.5% margin. Another 100 dollars gone. Four. The wire took 4 days to clear, your supplier delayed your slot. Total invisible bill, 360 dollars on one order. Pay in CNY direct instead. One conversion, 80 dollars, same day. Stop wiring USD to China when CNY is the actual destination. WorldFirst sends CNY direct via dedicated rails. If you're a business owner running orders to China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you pay Chinese suppliers in USD, you need to hear this. Your last 20,000 dollar order had four hidden costs and you only saw zero of them. One. Your bank converted local to USD at a 1% margin. 200 dollars gone. Two. SWIFT and intermediary banks took 60 dollars in transit. Three. Your supplier's bank converted USD to CNY at a 0.5% margin. Another 100 dollars gone. Four. The wire took 4 days to clear, your supplier delayed your slot. Total invisible bill, 360 dollars on one order. Pay in CNY direct instead. One conversion, 80 dollars, same day. WorldFirst sends CNY direct via dedicated rails. If you're a business owner running orders to China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you pay Chinese suppliers in USD, you need to hear this. <del>Real talk. </del>Your last 20,000 dollar order had four hidden costs and you only saw zero of them. One. Your bank converted local to USD at a 1% margin. 200 dollars gone. Two. SWIFT and intermediary banks took 60 dollars in transit. Three. Your supplier's bank converted USD to CNY at a 0.5% margin. Another 100 dollars gone. Four. The wire took 4 days to clear, your supplier delayed your slot. Total invisible bill, 360 dollars on one order. Pay in CNY direct instead. One conversion, 80 dollars, same day. <del>Stop wiring USD to China when CNY is the actual destination. </del>WorldFirst sends CNY direct via dedicated rails. If you're a business owner running orders to China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying Chinese suppliers. You wire 20,000 dollars in USD. Your supplier's account sees something smaller. Two conversions happened and nobody told you. Your bank turned your local currency into USD at 1% margin. 200 dollars. Then their bank turned the USD into CNY at 0.5%. Another 100 dollars. Add 60 in SWIFT fees. 360 dollars vanished on a single 20K order. Now multiply by 12 orders a year. 4,320 dollars sitting in a bank's pocket. Listen. Pay in CNY direct and the math collapses. One conversion. 80 dollars. Same day. WorldFirst sends CNY direct to Chinese accounts via dedicated rails. Stop letting two banks split your money on every order. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers. You wire 20,000 dollars in USD. Your supplier's account sees something smaller. Two conversions happened and nobody told you. Your bank turned your local currency into USD at 1% margin. 200 dollars. Then their bank turned the USD into CNY at 0.5%. Another 100 dollars. Add 60 in SWIFT fees. 360 dollars vanished on a single 20K order. Now multiply by 12 orders a year. 4,320 dollars sitting in a bank's pocket. Pay in CNY direct and the math collapses. One conversion. 80 dollars. Same day. WorldFirst sends CNY direct to Chinese accounts via dedicated rails. Worth knowing if two banks have been splitting your money on every order. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers. You wire 20,000 dollars in USD. Your supplier's account sees something smaller. Two conversions happened and nobody told you. Your bank turned your local currency into USD at 1% margin. 200 dollars. Then their bank turned the USD into CNY at 0.5%. Another 100 dollars. Add 60 in SWIFT fees. 360 dollars vanished on a single 20K order. Now multiply by 12 orders a year. 4,320 dollars sitting in a bank's pocket. <del>Listen. </del>Pay in CNY direct and the math collapses. One conversion. 80 dollars. Same day. WorldFirst sends CNY direct to Chinese accounts via dedicated rails. <del>Stop letting two banks split your money on every order</del><ins>Worth knowing if two banks have been splitting your money on every order</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it + compound math",
+        "original_vo": "I'll say it. The most expensive line item in your sourcing budget is one you've never seen on a statement. 20K order to China in USD. Two banks. Two FX margins. 1% on the way out, 0.5% on the way in. 300 dollars before SWIFT fees. 360 with them. Now run the math. 12 orders a year, 4,320 dollars. Three years, almost 13,000. Five years, 21,600 dollars. That's a hire. That's three months of warehouse rent. That's a working capital cushion. And it's not a fee. It's a routing choice. Pay in CNY direct, 80 dollars total, one conversion, same day. WorldFirst sends CNY direct. The 280 dollars you save per order goes back into your business. Where it belongs. Period.",
+        "iterated_vo": "The most expensive line item in your sourcing budget is one you've never seen on a statement. 20K order to China in USD. Two banks. Two FX margins. 1% on the way out, 0.5% on the way in. 300 dollars before SWIFT fees. 360 with them. Now run the math. 12 orders a year, 4,320 dollars. Three years, almost 13,000. Five years, 21,600 dollars. That's a hire. That's three months of warehouse rent. That's a working capital cushion. And it's not a fee. It's a routing choice. Pay in CNY direct, 80 dollars total, one conversion, same day. WorldFirst sends CNY direct. The 280 dollars you save per order goes back into your business. Where it belongs.",
+        "diff_markup": "<del>I'll say it. </del>The most expensive line item in your sourcing budget is one you've never seen on a statement. 20K order to China in USD. Two banks. Two FX margins. 1% on the way out, 0.5% on the way in. 300 dollars before SWIFT fees. 360 with them. Now run the math. 12 orders a year, 4,320 dollars. Three years, almost 13,000. Five years, 21,600 dollars. That's a hire. That's three months of warehouse rent. That's a working capital cushion. And it's not a fee. It's a routing choice. Pay in CNY direct, 80 dollars total, one conversion, same day. WorldFirst sends CNY direct. The 280 dollars you save per order goes back into your business. Where it belongs<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using USD / right-rail reframe",
+        "original_vo": "Stop paying your Chinese supplier in USD. I'm serious. USD is a tool. It's the wrong tool for a payment that ends in a CNY account. You wouldn't pay your London landlord in yen. So why are you paying your Shenzhen supplier in USD? Here's what happens. Your bank converts local to USD at 1% margin. 200 dollars on a 20K order. SWIFT chain takes 60. Supplier's bank converts USD to CNY at 0.5%. Another 100. Total leakage, 360. Plus 4 days of clearing. Pay in CNY direct. One conversion. 80 dollars. Same day. WorldFirst is built for this. Dedicated CNY rails. Same-day to Chinese accounts. Use the right rail for the destination. Your margin depends on it. Search WorldFirst. Now.",
+        "iterated_vo": "Paying your Chinese supplier in USD is the wrong tool for the job. USD is a tool. It's the wrong tool for a payment that ends in a CNY account. You wouldn't pay your London landlord in yen. So why are you paying your Shenzhen supplier in USD? Here's what happens. Your bank converts local to USD at 1% margin. 200 dollars on a 20K order. SWIFT chain takes 60. Supplier's bank converts USD to CNY at 0.5%. Another 100. Total leakage, 360. Plus 4 days of clearing. Pay in CNY direct. One conversion. 80 dollars. Same day. WorldFirst is built for this. Dedicated CNY rails. Same-day to Chinese accounts. Use the right rail for the destination. Your margin depends on it. Search WorldFirst.",
+        "diff_markup": "<del>Stop paying your Chinese supplier in USD. I'm serious</del><ins>Paying your Chinese supplier in USD is the wrong tool for the job</ins>. USD is a tool. It's the wrong tool for a payment that ends in a CNY account. You wouldn't pay your London landlord in yen. So why are you paying your Shenzhen supplier in USD? Here's what happens. Your bank converts local to USD at 1% margin. 200 dollars on a 20K order. SWIFT chain takes 60. Supplier's bank converts USD to CNY at 0.5%. Another 100. Total leakage, 360. Plus 4 days of clearing. Pay in CNY direct. One conversion. 80 dollars. Same day. WorldFirst is built for this. Dedicated CNY rails. Same-day to Chinese accounts. Use the right rail for the destination. Your margin depends on it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about USD payments to China. They route through two banks that both make money on the conversion. Your 20K order in USD. Bank one, your side, marks the local-to-USD rate 1% off the real one. 200 dollars. Silently. SWIFT chain shaves 60 in transit. Bank two, supplier's side, marks the USD-to-CNY rate 0.5% off. Another 100 dollars. The order arrives 4 days later, 360 dollars lighter. This is how it works on every USD wire to China. Every single time. WorldFirst doesn't play this game. CNY direct, one conversion, 0.3 to 0.5% all-in, same day. The 280 dollars you save per order is the difference. Period.",
+        "iterated_vo": "Here's something nobody's telling you about USD payments to China. They route through two banks that both make money on the conversion. Your 20K order in USD. Bank one, your side, marks the local-to-USD rate 1% off the real one. 200 dollars. Quietly. SWIFT chain shaves 60 in transit. Bank two, supplier's side, marks the USD-to-CNY rate 0.5% off. Another 100 dollars. The order arrives 4 days later, 360 dollars lighter. This is how it works on every USD wire to China. Every single time. WorldFirst is built differently. CNY direct, one conversion, 0.3 to 0.5% all-in, same day. The 280 dollars you save per order is the difference.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about USD payments to China. They route through two banks that both make money on the conversion. Your 20K order in USD. Bank one, your side, marks the local-to-USD rate 1% off the real one. 200 dollars. <del>Silently</del><ins>Quietly</ins>. SWIFT chain shaves 60 in transit. Bank two, supplier's side, marks the USD-to-CNY rate 0.5% off. Another 100 dollars. The order arrives 4 days later, 360 dollars lighter. This is how it works on every USD wire to China. Every single time. WorldFirst <del>doesn't play this game</del><ins>is built differently</ins>. CNY direct, one conversion, 0.3 to 0.5% all-in, same day. The 280 dollars you save per order is the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating energy",
+        "original_vo": "Real talk for every business owner running orders into China. You think USD is the safe currency. It's not. You wire 20,000 in USD. Your bank converts your local to USD, 200 gone. SWIFT chain, 60 gone. Supplier's bank converts USD to CNY, 100 gone. Order lands 4 days late, 360 dollars short on the math. You call your bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody owns it. Your supplier sees the short amount, pads the next quote 2 to 5% to cover the risk. Now you're paying twice. I see this every week. Every single week. Stop. WorldFirst. CNY direct, one conversion, 80 dollars, same day. The 280 per order stays with you. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner running orders into China. You think USD is the safe currency. It's not. You wire 20,000 in USD. Your bank converts your local to USD, 200 gone. SWIFT chain, 60 gone. Supplier's bank converts USD to CNY, 100 gone. Order lands 4 days late, 360 dollars short on the math. You call your bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody owns it. Your supplier sees the short amount, pads the next quote 2 to 5% to cover the risk. Now you're paying twice. This happens every week. Every single week. WorldFirst. CNY direct, one conversion, 80 dollars, same day. The 280 per order stays with you. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner running orders into China. You think USD is the safe currency. It's not. You wire 20,000 in USD. Your bank converts your local to USD, 200 gone. SWIFT chain, 60 gone. Supplier's bank converts USD to CNY, 100 gone. Order lands 4 days late, 360 dollars short on the math. You call your bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody owns it. Your supplier sees the short amount, pads the next quote 2 to 5% to cover the risk. Now you're paying twice. <del>I see this</del><ins>This happens</ins> every week. Every single week. <del>Stop. </del>WorldFirst. CNY direct, one conversion, 80 dollars, same day. The 280 per order stays with you. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core math (1% out-side FX, 0.5% in-side FX, ~$60 SWIFT, $80 CNY direct at 0.4%) sits inside the card's findings range and is defensible. The framing '12 orders a year = $3,360' assumes a constant order size and margin that doesn't hold for every business. 'Same-day to Chinese suppliers' is true for 80% of CNY direct payments per the source, not 100%. The 'not a fee, a routing problem' line is a clean reframe but reduces a stack of variables into one. Skeptics will challenge whether their own bank actually charges 1% (Maybank rates can be lower or higher depending on tier).",
+      "skeptic_comments": [
+        {"text": "1% margin on USD conversion? My Maybank business rate is closer to 0.6%. Numbers feel cherrypicked.", "severity": "high"},
+        {"text": "Who is WorldFirst? Never heard la, got MAS license or not?", "severity": "high"},
+        {"text": "My supplier accept USD no problem, never charge me extra on next PI.", "severity": "high"},
+        {"text": "Same-day to China sounds nice but how my supplier verify the CNY actually came from me?", "severity": "mid"},
+        {"text": "Show me the actual screenshot of the WorldFirst rate vs Maybank lah, not just say save 280.", "severity": "mid"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The 5-year extrapolation ($21,600) is the riskiest claim, the same compounding pattern that consistently triggers SMB pushback. It assumes 12 wires per year at exactly $20K, with constant 1.8% leakage and zero rate negotiation, for 60 months. 'A salary, inventory, a warehouse' is emotive layering on top of an unverifiable extrapolation. The 'route nobody told you was optional' is a defensible but slightly conspiratorial framing. Skeptics in SEA will instinctively reject the long-horizon math as 'cooked'.",
+      "skeptic_comments": [
+        {"text": "21,600 over 5 years? Bro you assume my volume never change, my rate never negotiate, my supplier never adjust. Fantasy math.", "severity": "high"},
+        {"text": "Two FX margins is real but my freight forwarder also charge in USD, you saying I should ditch them too?", "severity": "high"},
+        {"text": "WorldFirst rate 0.3-0.5% sounds too good. Where the catch? Subscription fee? Minimum monthly?", "severity": "high"},
+        {"text": "5-year compound math is what every fintech ad does. Show me your last 3 months rate vs my Maybank, that's the real test.", "severity": "mid"},
+        {"text": "If I'm in MY paying RMB direct, my supplier still need to receive RMB account, not all factories have one.", "severity": "low"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "The 'banks built this route because it pays them twice' line is the highest-risk framing in the set. It implies intent that is structurally true (banks do earn on both legs) but reads as accusatory. The polished 'pocketed' is softer than 'stole' but still adversarial. The math itself is grounded in the findings ($200+$100+$60 = $360 vs $80). Skeptics will resist the 'handed them the keys' victim framing and question why their own bank would deliberately route this way if alternatives existed.",
+      "skeptic_comments": [
+        {"text": "Saying banks 'pocketed' is harsh. They disclose FX rate on the wire confirm, just I don't read it.", "severity": "high"},
+        {"text": "If WorldFirst so much better, why my friend never mention? In SEA most people still use bank wa.", "severity": "high"},
+        {"text": "0.5% on the supplier-side conversion, you sure? My factory said the bank charge is like 100 RMB flat fee.", "severity": "high"},
+        {"text": "Sounds like every fintech ad. Tell me one thing WorldFirst CANNOT do that my bank can.", "severity": "mid"},
+        {"text": "How about regulatory? My company audit team needs SWIFT MT103, does WorldFirst give that?", "severity": "mid"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism-led framing is the safest of the five. The two-conversion explanation is well-grounded in the card findings and follows the actual mechanism. The 'how banks earn quietly' in the polished version is calmer than the original 'make billions on a route they kept quiet about'. Main risk is the implicit claim that supplier-side bank ALWAYS converts at 0.5%, which is the high end of the 0.3-0.8% range in the source. Some Chinese suppliers also have multi-currency accounts and don't always convert immediately.",
+      "skeptic_comments": [
+        {"text": "Supplier-side conversion at 0.5% is highest estimate la. Some Chinese banks like ICBC charge lower for big corp clients.", "severity": "high"},
+        {"text": "What if my supplier has USD account in HK? Then no second conversion, your math break.", "severity": "high"},
+        {"text": "WorldFirst send CNY direct via what? Need to know the rail before I trust the same-day claim.", "severity": "mid"},
+        {"text": "Two conversions is just how cross-border works lah, not a 'problem'. You make it sound like a scam.", "severity": "mid"},
+        {"text": "0.4% all-in for WorldFirst, that's the rate or the headline? Got transfer fee on top?", "severity": "low"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Four-item problem stack is grounded but slightly stretched. Item 4 ('supplier delayed your slot') is conditional, only happens if the supplier waits for full payment to start production, which the card doesn't explicitly tie to USD vs CNY (it's more about full amount vs short amount). The '4 days to clear' is accurate for SWIFT USD per the findings (3-5 days). 'You only saw zero of them' is a strong claim — most operators see SOME of these on wire confirmations even if they don't fully understand them. Skeptics will challenge the assumption that all four items apply to their setup.",
+      "skeptic_comments": [
+        {"text": "4 days clearing is the worst case. My HSBC USD wire usually 2-3 days, sometimes next day.", "severity": "high"},
+        {"text": "'Supplier delayed your slot' assumes my supplier ties production to payment landing. Mine starts on PI deposit confirm.", "severity": "high"},
+        {"text": "WorldFirst sounds like Wise or Airwallex. What makes it different for China specifically?", "severity": "mid"},
+        {"text": "I see the rate on my wire receipt though. 'Zero of them' is exaggerate.", "severity": "mid"},
+        {"text": "Can WorldFirst handle FX forward contracts? My finance team locks rate 90 days out for big orders.", "severity": "low"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Math is clean and matches findings. '12 orders a year = 4,320 dollars' is a fair extrapolation that stays within one year (less risky than PH2's 5-year stretch). 'Two banks splitting your money' is a strong but defensible framing — both banks do earn margin on the route. The polished version's 'worth knowing if' softens it from a Stop command to an observation, which works better for the Malaysian SMB skeptic who resists direct commands. Main weakness: doesn't address what happens for SEA business owners whose bank might not charge 1% on the local-to-USD leg.",
+      "skeptic_comments": [
+        {"text": "Two banks splitting? That's just how SWIFT works mah, not a scandal.", "severity": "high"},
+        {"text": "My bank charge me on the wire fee, the FX rate I can negotiate with relationship manager. Numbers not universal.", "severity": "high"},
+        {"text": "WorldFirst dedicated CNY rails... means MYbank? Alipay? Be specific la.", "severity": "mid"},
+        {"text": "Annual 4,320 only if I do 12 orders of exactly 20K. Most months I order 5K, some months 50K.", "severity": "mid"},
+        {"text": "Got 1688 supplier saying must pay via Alibaba Trade Assurance. WorldFirst work for that?", "severity": "low"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "Same compounding risk as PH2. The 5-year extrapolation ($21,600) requires constant volume, constant margin, no negotiation, no rate movement for 60 months. 'A hire, three months warehouse rent, working capital cushion' is emotive value-translation that works for engagement but invites the 'cooked numbers' pushback. 'Not a fee, a routing choice' is a clean reframe. 'Most expensive line item you've never seen on a statement' is a sharp Gary Vee opener that probably plays well, but the long-horizon math compounds skepticism.",
+      "skeptic_comments": [
+        {"text": "5-year 21,600 assumes I never change bank, never grow volume, never negotiate. Real life never that static.", "severity": "high"},
+        {"text": "Where the catch with WorldFirst? Subscription? Minimum balance? Inactive fee?", "severity": "high"},
+        {"text": "'Three months warehouse rent' is emotional manipulation la. Just show the rate comparison straight.", "severity": "high"},
+        {"text": "WorldFirst regulated in MY? My accountant won't approve a tool without local license.", "severity": "mid"},
+        {"text": "0.3-0.5% on WorldFirst, what's the actual mid-market spread? Wise also claim near-mid.", "severity": "mid"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "Reframe analogy (paying London landlord in yen) is intuitive and lands well for the math-fluent operator. The argument that USD is the wrong tool for a CNY-ending payment is structurally sound. However, the angle ignores that some Chinese suppliers explicitly prefer USD for export receipts (foreign trade settlement), and some have USD-denominated PIs locked at the quote stage. Saying 'USD is the wrong tool' is true on average but not universal. The polished open softens the 'Stop. I'm serious' into a calmer thesis which fits the brand-polish goal.",
+      "skeptic_comments": [
+        {"text": "Some suppliers QUOTE in USD and want USD because they hedge in USD. Not all factories want CNY.", "severity": "high"},
+        {"text": "London landlord yen analogy is cute but irrelevant. International trade has reasons for USD.", "severity": "high"},
+        {"text": "Same-day CNY via WorldFirst, but my supplier has a private bank account. Does it work for non-Big-4 banks in China?", "severity": "mid"},
+        {"text": "0.4% sounds great but I need to see the actual fee schedule before believing.", "severity": "mid"},
+        {"text": "If WorldFirst so much better why all big SEA companies still use bank wire?", "severity": "low"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "High",
+      "analysis": "Conspiratorial framing is the highest-risk variant. 'Truth nobody's telling you' implies hidden information, but the mechanism is publicly documented on every bank's wire confirmation (the applied rate is shown, even if not marketed against mid-market). 'Two banks that both make money on the conversion' is structurally true but reads as accusatory. The polished version's 'something nobody's telling you' is softer but still implies concealment. Skeptics on Maybank or HSBC will push back that the rates ARE shown, just not in a way that's compared to mid-market.",
+      "skeptic_comments": [
+        {"text": "'Nobody's telling you' is not true la. The applied rate is on every wire confirmation, I just have to compare to Google.", "severity": "high"},
+        {"text": "WorldFirst 'is built differently' how exactly? Tell me the rail, not just slogan.", "severity": "high"},
+        {"text": "Sounds like every neobank pitch. Wise, Airwallex, OFX, now WorldFirst. What's actually different?", "severity": "high"},
+        {"text": "0.3-0.5% all-in, is that just FX or includes transfer fee? Big difference.", "severity": "mid"},
+        {"text": "Conspiracy tone makes me trust less, not more. Just show me numbers side by side.", "severity": "mid"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "High",
+      "analysis": "The 'supplier pads quote 2-5% to cover risk, now you're paying twice' beat is well-supported by the card findings, but the call-the-bank narrative ('they blame the intermediary, intermediary blames receiving bank') is anecdotal and not in the source data. 'I see this every week' is unsubstantiated. The polished 'This happens every week' is slightly softer but still implies broad frequency without evidence. The 4-day delay is the high end of the 3-5 day window. Strong emotional escalation but the cumulative claim load is heavier than PH variants.",
+      "skeptic_comments": [
+        {"text": "'This happens every week' to who? You? You're not in my supply chain lah.", "severity": "high"},
+        {"text": "Supplier padding 2-5%, sure, but they pad for OTHER reasons too (RMB volatility, raw material). Not just USD.", "severity": "high"},
+        {"text": "Bank blame-game story is overdramatized. Most banks have decent support if you escalate.", "severity": "high"},
+        {"text": "WorldFirst same-day, 80 dollars, sounds too clean. Where's the small print?", "severity": "mid"},
+        {"text": "If I'm doing 20K orders weekly I probably have a corporate FX desk already. This is more for newer importers.", "severity": "low"}
+      ]
+    }
+  }
+}

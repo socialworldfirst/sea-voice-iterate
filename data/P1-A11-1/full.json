@@ -1,0 +1,197 @@
+{
+  "angle_id": "P1-A11-1",
+  "title": "3 places where your CNY can become USD",
+  "card_id": "P1-A11",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner sending CNY to your Chinese supplier, there are three places your CNY can quietly turn into USD before it ever lands. Place one. Your sender bank converts CNY to USD upfront because USD is cheaper for them to route. Place two. The correspondent bank in the middle holds only USD, so it converts again. Place three. Your supplier's receiving bank gets USD and converts back to CNY at their bank's rate. That's three conversion points. Three spreads. Three margins your bank never tells you about. Now your supplier is short. They're calling you asking why they got 47,000 dollars when you sent the equivalent of 50,000. Stop. WorldFirst sends CNY direct to Chinese bank accounts. One rate. Zero double conversion. Same-day. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner sending CNY to your Chinese supplier, there are three places your CNY can quietly turn into USD before it ever lands. Place one. Your sender bank converts CNY to USD upfront because USD is cheaper for them to route. Place two. The correspondent bank in the middle holds only USD, so it converts again. Place three. Your supplier's receiving bank gets USD and converts back to CNY at their bank's rate. That's three conversion points. Three spreads. Three margins your bank never tells you about. Now your supplier is short. They're calling you asking why they got 47,000 dollars when you sent the equivalent of 50,000. WorldFirst sends CNY direct to Chinese bank accounts. One rate. Zero double conversion. Same-day. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner sending CNY to your Chinese supplier, there are three places your CNY can quietly turn into USD before it ever lands. Place one. Your sender bank converts CNY to USD upfront because USD is cheaper for them to route. Place two. The correspondent bank in the middle holds only USD, so it converts again. Place three. Your supplier's receiving bank gets USD and converts back to CNY at their bank's rate. That's three conversion points. Three spreads. Three margins your bank never tells you about. Now your supplier is short. They're calling you asking why they got 47,000 dollars when you sent the equivalent of 50,000. <del>Stop. </del>WorldFirst sends CNY direct to Chinese bank accounts. One rate. Zero double conversion. Same-day. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You hit send on a CNY payment to your factory. By the time it lands, your CNY has been converted three different times. Once. Twice. Three times. Each conversion takes a 1% spread. Compound that. On a 50,000 dollar order, you just lost 1,500 dollars to invisible currency hops you didn't know existed. Do it twice a month. That's 36,000 a year. Over five years, your bank quietly took 180,000 from your business through conversion points you never saw. That's not a fee. That's the spread on three separate exchange rate hops. Sender bank. Correspondent. Beneficiary bank. Each one takes a bite. Listen. WorldFirst sends CNY direct. No intermediary conversion. No double conversion at the supplier's end. Same-day to Chinese accounts. Your supplier gets exactly what you sent. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You hit send on a CNY payment to your factory. By the time it lands, your CNY has been converted three different times. Once. Twice. Three times. Each conversion takes a 1% spread. Compound that. On a 50,000 dollar order, you just lost 1,500 dollars to invisible currency hops you didn't know existed. Do it twice a month. That's 36,000 a year. Over five years, your bank quietly took 180,000 from your business through conversion points you never saw. That's not a fee. That's the spread on three separate exchange rate hops. Sender bank. Correspondent. Beneficiary bank. Each one takes a bite. WorldFirst sends CNY direct. No intermediary conversion. No double conversion at the supplier's end. Same-day to Chinese accounts. Your supplier gets exactly what you sent. Search WorldFirst.",
+        "diff_markup": "Watch this. You hit send on a CNY payment to your factory. By the time it lands, your CNY has been converted three different times. Once. Twice. Three times. Each conversion takes a 1% spread. Compound that. On a 50,000 dollar order, you just lost 1,500 dollars to invisible currency hops you didn't know existed. Do it twice a month. That's 36,000 a year. Over five years, your bank quietly took 180,000 from your business through conversion points you never saw. That's not a fee. That's the spread on three separate exchange rate hops. Sender bank. Correspondent. Beneficiary bank. Each one takes a bite. <del>Listen. </del>WorldFirst sends CNY direct. No intermediary conversion. No double conversion at the supplier's end. Same-day to Chinese accounts. Your supplier gets exactly what you sent. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener + brutal specificity",
+        "original_vo": "Your bank stole 1,500 dollars from your last CNY payment to China and you have no idea where it went. Here's how. You sent CNY. Or so you thought. Your sender bank converted it to USD first because USD is what their pipes carry. That's one conversion. Spread one. Then it hit a correspondent bank in Hong Kong or New York. They only hold USD. They held it as USD. Sent it forward as USD. Then your supplier's bank in Shenzhen received USD. They converted it back to CNY at their rate. That's spread three. Three rate margins on one wire. Your supplier got 47,000 dollars worth of CNY instead of 50,000. They're short. They're asking questions. You eat the loss or you wire the difference. Stop signing off on this. WorldFirst sends CNY direct. One conversion. Or none, if you're holding CNY already. Same-day to Chinese bank accounts. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank pocketed 1,500 dollars from your last CNY payment to China and you have no idea where it went. Here's how. You sent CNY. Or so you thought. Your sender bank converted it to USD first because USD is what their pipes carry. That's one conversion. Spread one. Then it hit a correspondent bank in Hong Kong or New York. They only hold USD. They held it as USD. Sent it forward as USD. Then your supplier's bank in Shenzhen received USD. They converted it back to CNY at their rate. That's spread three. Three rate margins on one wire. Your supplier got 47,000 dollars worth of CNY instead of 50,000. They're short. They're asking questions. You eat the loss or you wire the difference. WorldFirst sends CNY direct. One conversion. Or none, if you're holding CNY already. Same-day to Chinese bank accounts. Search WorldFirst.",
+        "diff_markup": "Your bank <del>stole</del><ins>pocketed</ins> 1,500 dollars from your last CNY payment to China and you have no idea where it went. Here's how. You sent CNY. Or so you thought. Your sender bank converted it to USD first because USD is what their pipes carry. That's one conversion. Spread one. Then it hit a correspondent bank in Hong Kong or New York. They only hold USD. They held it as USD. Sent it forward as USD. Then your supplier's bank in Shenzhen received USD. They converted it back to CNY at their rate. That's spread three. Three rate margins on one wire. Your supplier got 47,000 dollars worth of CNY instead of 50,000. They're short. They're asking questions. You eat the loss or you wire the difference. <del>Stop signing off on this. </del>WorldFirst sends CNY direct. One conversion. Or none, if you're holding CNY already. Same-day to Chinese bank accounts. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners paying Chinese suppliers don't understand. You think you sent CNY. You didn't. Here's what actually happened. Step one. Your sender bank doesn't have a direct CNY rail. They convert your money to USD on day one. Step two. The correspondent bank in the middle, the one routing the wire, only carries USD. So the USD stays USD. Step three. Your supplier's bank receives USD and has to convert it to CNY locally because your supplier holds a CNY account. Three conversion points. Each one with a spread. Each one taking 0.5 to 1.5% silently. On 50,000 dollars, that's 1,500 dollars in invisible spread. Your supplier ends up holding USD they didn't ask for, or shorter CNY than expected. Stop. WorldFirst routes CNY directly to Chinese accounts. One rate. No middleman conversion. Same-day delivery. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners paying Chinese suppliers don't understand. You think you sent CNY. You didn't. Here's what actually happened. Step one. Your sender bank doesn't have a direct CNY rail. They convert your money to USD on day one. Step two. The correspondent bank in the middle, the one routing the wire, only carries USD. So the USD stays USD. Step three. Your supplier's bank receives USD and has to convert it to CNY locally because your supplier holds a CNY account. Three conversion points. Each one with a spread. Each one taking 0.5 to 1.5% silently. On 50,000 dollars, that's 1,500 dollars in invisible spread. Your supplier ends up holding USD they didn't ask for, or shorter CNY than expected. WorldFirst routes CNY directly to Chinese accounts. One rate. No middleman conversion. Same-day delivery. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners paying Chinese suppliers don't understand. You think you sent CNY. You didn't. Here's what actually happened. Step one. Your sender bank doesn't have a direct CNY rail. They convert your money to USD on day one. Step two. The correspondent bank in the middle, the one routing the wire, only carries USD. So the USD stays USD. Step three. Your supplier's bank receives USD and has to convert it to CNY locally because your supplier holds a CNY account. Three conversion points. Each one with a spread. Each one taking 0.5 to 1.5% silently. On 50,000 dollars, that's 1,500 dollars in invisible spread. Your supplier ends up holding USD they didn't ask for, or shorter CNY than expected. <del>Stop. </del>WorldFirst routes CNY directly to Chinese accounts. One rate. No middleman conversion. Same-day delivery. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire money to China, you need to hear this. Real talk. There are three places your CNY can become USD and you're paying a spread at every single one of them. One. Your sender bank converts to USD before sending because their rails carry USD, not CNY. You eat that spread. Two. The intermediary correspondent bank only holds USD. So if any CNY got through, it gets converted again here. You eat that spread. Three. Your supplier's bank receives USD and converts to CNY locally at their rate, not yours. You eat that spread too. Three spreads. One wire. Your supplier gets less than you sent. Or worse, they get USD and you find out later they paid their factory short. Stop sending payments through banks that don't carry CNY. WorldFirst sends CNY direct. Same-day to Chinese bank accounts. One rate. If you're paying suppliers in China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to China, you need to hear this. There are three places your CNY can become USD and you're paying a spread at every single one of them. One. Your sender bank converts to USD before sending because their rails carry USD, not CNY. You eat that spread. Two. The intermediary correspondent bank only holds USD. So if any CNY got through, it gets converted again here. You eat that spread. Three. Your supplier's bank receives USD and converts to CNY locally at their rate, not yours. You eat that spread too. Three spreads. One wire. Your supplier gets less than you sent. Or worse, they get USD and you find out later they paid their factory short. WorldFirst sends CNY direct. Same-day to Chinese bank accounts. One rate. If you're paying suppliers in China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you wire money to China, you need to hear this. <del>Real talk. </del>There are three places your CNY can become USD and you're paying a spread at every single one of them. One. Your sender bank converts to USD before sending because their rails carry USD, not CNY. You eat that spread. Two. The intermediary correspondent bank only holds USD. So if any CNY got through, it gets converted again here. You eat that spread. Three. Your supplier's bank receives USD and converts to CNY locally at their rate, not yours. You eat that spread too. Three spreads. One wire. Your supplier gets less than you sent. Or worse, they get USD and you find out later they paid their factory short. <del>Stop sending payments through banks that don't carry CNY. </del>WorldFirst sends CNY direct. Same-day to Chinese bank accounts. One rate. If you're paying suppliers in China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner sending CNY to China. You don't actually send CNY. You think you do. You don't. There are three places your money gets converted to USD on the way over. Your sender bank. The correspondent bank in the middle. Your supplier's receiving bank. Each one takes a spread. Each one eats your margin. By the time the money lands, your supplier is short or sitting on USD they didn't want. Listen. WorldFirst sends CNY directly. Same-day to Chinese accounts. One rate, no middleman conversion. Stop wasting money on currency hops nobody told you about. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sending CNY to China. You don't actually send CNY. You think you do. You don't. There are three places your money gets converted to USD on the way over. Your sender bank. The correspondent bank in the middle. Your supplier's receiving bank. Each one takes a spread. Each one eats your margin. By the time the money lands, your supplier is short or sitting on USD they didn't want. WorldFirst sends CNY directly. Same-day to Chinese accounts. One rate, no middleman conversion. Worth checking if your bank is putting your CNY through currency hops nobody told you about. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner sending CNY to China. You don't actually send CNY. You think you do. You don't. There are three places your money gets converted to USD on the way over. Your sender bank. The correspondent bank in the middle. Your supplier's receiving bank. Each one takes a spread. Each one eats your margin. By the time the money lands, your supplier is short or sitting on USD they didn't want. <del>Listen. </del>WorldFirst sends CNY directly. Same-day to Chinese accounts. One rate, no middleman conversion. <del>Stop wasting money on</del><ins>Worth checking if your bank is putting your CNY through</ins> currency hops nobody told you about. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. There's no such thing as a CNY wire from most banks. You think you're sending CNY. You're sending USD that gets converted to CNY somewhere down the line. And there are three places that can happen. Your sender bank. The correspondent. The supplier's bank. Each conversion point. Each spread. 1% here, 1% there, 0.5% at the end. That's 2.5% on every payment. On 50,000 dollars that's 1,250 gone. Per wire. Multiply that across a year. 30,000 dollars vanished into currency conversion you didn't know was happening. That's a hire. That's a container. That's your margin. WorldFirst carries CNY natively. Same-day to Chinese bank accounts. One conversion. Sometimes zero if you're holding CNY in the account already. The difference goes back into your business. Where it belongs. Period.",
+        "iterated_vo": "There's no such thing as a CNY wire from most banks. You think you're sending CNY. You're sending USD that gets converted to CNY somewhere down the line. And there are three places that can happen. Your sender bank. The correspondent. The supplier's bank. Each conversion point. Each spread. 1% here, 1% there, 0.5% at the end. That's 2.5% on every payment. On 50,000 dollars that's 1,250 gone. Per wire. Multiply that across a year. 30,000 dollars vanished into currency conversion you didn't know was happening. That's a hire. That's a container. That's your margin. WorldFirst carries CNY natively. Same-day to Chinese bank accounts. One conversion. Sometimes zero if you're holding CNY in the account already. The difference goes back into your business. Where it belongs.",
+        "diff_markup": "<del>I'll say it. </del>There's no such thing as a CNY wire from most banks. You think you're sending CNY. You're sending USD that gets converted to CNY somewhere down the line. And there are three places that can happen. Your sender bank. The correspondent. The supplier's bank. Each conversion point. Each spread. 1% here, 1% there, 0.5% at the end. That's 2.5% on every payment. On 50,000 dollars that's 1,250 gone. Per wire. Multiply that across a year. 30,000 dollars vanished into currency conversion you didn't know was happening. That's a hire. That's a container. That's your margin. WorldFirst carries CNY natively. Same-day to Chinese bank accounts. One conversion. Sometimes zero if you're holding CNY in the account already. The difference goes back into your business. Where it belongs<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tool reframe",
+        "original_vo": "Stop using your bank to send CNY. I'm serious. Your bank doesn't carry CNY rails. It carries USD rails. So when you ask it to send CNY, it doesn't send CNY. It sends USD and hopes a conversion happens somewhere down the line. Three somewheres, actually. Sender side conversion. Correspondent bank conversion. Beneficiary bank conversion. Each one a spread. Each one a cost. This is the wrong tool. You wouldn't use a fax machine to send a video. So stop using a USD-rail bank to send CNY. WorldFirst is built on CNY-direct rails. Same-day to Chinese bank accounts. Your supplier receives CNY. Not USD. Not double-converted. Use the right tool for the job. Your margin depends on it. Search WorldFirst. Now.",
+        "iterated_vo": "Your bank isn't the right tool for sending CNY. Your bank doesn't carry CNY rails. It carries USD rails. So when you ask it to send CNY, it doesn't send CNY. It sends USD and hopes a conversion happens somewhere down the line. Three somewheres, actually. Sender side conversion. Correspondent bank conversion. Beneficiary bank conversion. Each one a spread. Each one a cost. This is the wrong tool. You wouldn't use a fax machine to send a video. So a USD-rail bank isn't the right tool for sending CNY. WorldFirst is built on CNY-direct rails. Same-day to Chinese bank accounts. Your supplier receives CNY. Not USD. Not double-converted. Use the right tool for the job. Your margin depends on it. Search WorldFirst.",
+        "diff_markup": "<del>Stop using your bank to send CNY. I'm serious</del><ins>Your bank isn't the right tool for sending CNY</ins>. Your bank doesn't carry CNY rails. It carries USD rails. So when you ask it to send CNY, it doesn't send CNY. It sends USD and hopes a conversion happens somewhere down the line. Three somewheres, actually. Sender side conversion. Correspondent bank conversion. Beneficiary bank conversion. Each one a spread. Each one a cost. This is the wrong tool. You wouldn't use a fax machine to send a video. So <del>stop using a</del><ins>a</ins> USD-rail bank <del>to send CNY</del><ins>isn't the right tool for sending CNY</ins>. WorldFirst is built on CNY-direct rails. Same-day to Chinese bank accounts. Your supplier receives CNY. Not USD. Not double-converted. Use the right tool for the job. Your margin depends on it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about international wires to China. The conversion doesn't happen where you think it happens. You assume your bank converts CNY at the front and sends CNY across. Wrong. Three different banks can convert your money at three different points. Sender bank. Correspondent bank in the middle. Beneficiary bank at the end. Each one books its own rate. Each one takes its own spread. You'll never see this on a statement. You'll just notice your supplier got less than expected. Or worse, your supplier received USD and had to convert again at their own bank. Now there's a fourth conversion. Four spreads on one wire. This is how it actually works. Every single time. WorldFirst doesn't play this game. Direct CNY to Chinese accounts. Same-day. One rate. Period.",
+        "iterated_vo": "Here's something nobody's telling you about international wires to China. The conversion doesn't happen where you think it happens. You assume your bank converts CNY at the front and sends CNY across. Wrong. Three different banks can convert your money at three different points. Sender bank. Correspondent bank in the middle. Beneficiary bank at the end. Each one books its own rate. Each one takes its own spread. You'll never see this on a statement. You'll just notice your supplier got less than expected. Or worse, your supplier received USD and had to convert again at their own bank. Now there's a fourth conversion. Four spreads on one wire. This is how it actually works. Every single time. WorldFirst is built differently. Direct CNY to Chinese accounts. Same-day. One rate.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about international wires to China. The conversion doesn't happen where you think it happens. You assume your bank converts CNY at the front and sends CNY across. Wrong. Three different banks can convert your money at three different points. Sender bank. Correspondent bank in the middle. Beneficiary bank at the end. Each one books its own rate. Each one takes its own spread. You'll never see this on a statement. You'll just notice your supplier got less than expected. Or worse, your supplier received USD and had to convert again at their own bank. Now there's a fourth conversion. Four spreads on one wire. This is how it actually works. Every single time. WorldFirst <del>doesn't play this game</del><ins>is built differently</ins>. Direct CNY to Chinese accounts. Same-day. One rate<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner paying suppliers in China. You sent CNY last week. Your supplier called and said they got USD. You're confused. You called your bank. They said it was the correspondent. You called the correspondent. They said it was the receiving bank. The receiving bank said the sender bank should have sent CNY. Nobody can tell you where the conversion happened. Because it could have happened at any of three places. Sender bank converts CNY to USD upfront. Or correspondent never had CNY. Or receiving bank converted on arrival. Three possible conversion points. Three spreads. Zero transparency. I see this every single week. Stop guessing where your money got converted. WorldFirst sends CNY direct to Chinese bank accounts. Same-day. One rate. No phone-tag with three different banks. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying suppliers in China. You sent CNY last week. Your supplier called and said they got USD. You're confused. You called your bank. They said it was the correspondent. You called the correspondent. They said it was the receiving bank. The receiving bank said the sender bank should have sent CNY. Nobody can tell you where the conversion happened. Because it could have happened at any of three places. Sender bank converts CNY to USD upfront. Or correspondent never had CNY. Or receiving bank converted on arrival. Three possible conversion points. Three spreads. Zero transparency. This happens every single week. WorldFirst sends CNY direct to Chinese bank accounts. Same-day. One rate. No phone-tag with three different banks. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner paying suppliers in China. You sent CNY last week. Your supplier called and said they got USD. You're confused. You called your bank. They said it was the correspondent. You called the correspondent. They said it was the receiving bank. The receiving bank said the sender bank should have sent CNY. Nobody can tell you where the conversion happened. Because it could have happened at any of three places. Sender bank converts CNY to USD upfront. Or correspondent never had CNY. Or receiving bank converted on arrival. Three possible conversion points. Three spreads. Zero transparency. <del>I see this</del><ins>This happens</ins> every single week. <del>Stop guessing where your money got converted. </del>WorldFirst sends CNY direct to Chinese bank accounts. Same-day. One rate. No phone-tag with three different banks. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (three possible conversion points: sender, correspondent, beneficiary) is technically accurate and well-supported by SWIFT routing reality. The '47,000 instead of 50,000' figure is illustrative rather than a verified universal number, and 'WorldFirst sends CNY direct' is broadly true via CNAPS rails but glosses over that not every CNY corridor is the same. 'One rate. Zero double conversion.' is slightly absolute for the polished version.",
+      "skeptic_comments": [
+        {"text": "47k from 50k? Where this number come from lah. My bank not so bad.", "severity": "high"},
+        {"text": "Who is WorldFirst? Never see this brand in Malaysia. Got license here or not?", "severity": "high"},
+        {"text": "Sound like ad la. Where the proof of zero double conversion?", "severity": "high"},
+        {"text": "My supplier never complain about getting USD. Maybe this only happen to small businesses?", "severity": "mid"},
+        {"text": "Same day? Maybank also say same day but always next day. So how?", "severity": "mid"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The compounding math (1% three times = 1,500 on 50K, then 36K/year, 180K/5yr) is cooked. Spreads at each hop are variable and not always cumulative because some hops don't apply on every wire. The 180K-over-5-years number is hypothetical extrapolation presented as fact, which is the biggest trust risk. Mechanism is real but quantification overreaches.",
+      "skeptic_comments": [
+        {"text": "180k in 5 years? Show me proof la, not just calculator. My business not so big also.", "severity": "high"},
+        {"text": "Every conversion 1%? My bank told me only one conversion happen, not three. Confusing.", "severity": "high"},
+        {"text": "Got license in Malaysia or not? Wise can blocked me last time, dont want repeat.", "severity": "high"},
+        {"text": "Math too perfect lah, real world got weekend, public holiday, all kinds of delay.", "severity": "mid"},
+        {"text": "Sound smart but I scroll TikTok at 11pm not got time to verify. Just give me one comparison screenshot.", "severity": "mid"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "'Your bank pocketed 1,500 dollars' is presented as fact but it's a hypothetical figure. The specific city naming (Hong Kong, New York, Shenzhen) makes it feel concrete but it's also presumptive about routing. Saying 'WorldFirst sends CNY direct. Or none, if you're holding CNY already' is mostly true via multi-currency wallet logic but compresses several different product behaviours.",
+      "skeptic_comments": [
+        {"text": "Pocketed 1500? My last wire only short 200 ringgit. Number very different leh.", "severity": "high"},
+        {"text": "Hong Kong correspondent? My bank go via Singapore. So which is correct?", "severity": "high"},
+        {"text": "Never heard WorldFirst. Try Wise also got blocked, scared to try new one.", "severity": "high"},
+        {"text": "Spread three? My bank only show one rate on the slip. Where the other two come from?", "severity": "mid"},
+        {"text": "Asking questions also okay lah, my supplier and me always settle in next order.", "severity": "low"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism explanation is the most technically defensible of the set (sender bank lacking CNY rails, correspondent carrying only USD, beneficiary bank converting locally). '0.5 to 1.5%' is presented as a range which is more honest than a single fake number. 'WorldFirst routes CNY directly' is generally accurate. The weakest beat is the absolute 'no middleman conversion' which is mostly but not always true depending on the destination bank.",
+      "skeptic_comments": [
+        {"text": "Range better lah, 0.5 to 1.5%. But still where the proof?", "severity": "mid"},
+        {"text": "Sender bank no CNY rail? Maybank can send CNY ah, I thought.", "severity": "high"},
+        {"text": "Who regulate WorldFirst? Important question. Wise got license here, WF got or not?", "severity": "high"},
+        {"text": "Cobi or who is on this video also dont know, no face also weird.", "severity": "mid"},
+        {"text": "Okay this one make sense. But still want to see one screenshot comparison before I download.", "severity": "low"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Three-spread framing is consistent with reality. 'Worse, they get USD and you find out later they paid their factory short' is plausible but presented as common when it's a worst-case scenario. CTA softening 'WorldFirst is worth a look' is appropriately reserved. The script doesn't claim a specific dollar amount which reduces trust risk compared to PH2/PH3.",
+      "skeptic_comments": [
+        {"text": "Supplier paid factory short? Got real example or just scary story?", "severity": "high"},
+        {"text": "Three spreads concept okay but who is WorldFirst, never see in MY market.", "severity": "high"},
+        {"text": "I send small amount usually, like 5k USD. Worth using new platform for that?", "severity": "mid"},
+        {"text": "If WF really this good why my forwarder never recommend? They use what?", "severity": "mid"},
+        {"text": "Worth a look soft sell better. At least not pushing me to download right away.", "severity": "low"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism is real and the 'three places' framing matches the findings. 'You don't actually send CNY. You think you do. You don't.' is dramatic but defensible because most western banks do route through USD rails. The polished version's 'Worth checking if your bank is putting your CNY through currency hops' is honest and not overclaiming. No specific dollar figures, which lowers fact-risk.",
+      "skeptic_comments": [
+        {"text": "Eh, this one no numbers but still confusing. Three places where?", "severity": "mid"},
+        {"text": "Who is WorldFirst? First time hear in 5 years on TikTok.", "severity": "high"},
+        {"text": "Maybank told me they have CNY rail direct. So this video only for US bank?", "severity": "high"},
+        {"text": "One rate sound nice but how I know is interbank rate? Show comparison la.", "severity": "high"},
+        {"text": "Same-day to China account... my bank also say so. What makes WF different?", "severity": "mid"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "The 'no such thing as a CNY wire from most banks' opener is a strong overstatement (some banks do offer CNH direct corridors). The compound math 1+1+0.5=2.5%, then 1,250/wire, then 30K/year is presented as universal when it's a stacked hypothetical. 'Zero conversion if you're holding CNY already' is product-accurate but conflates wallet hold with wire send.",
+      "skeptic_comments": [
+        {"text": "No such thing as CNY wire from most banks? But OCBC give me CNH rate quote leh. Confused.", "severity": "high"},
+        {"text": "30k a year? My total payments not even 30k. Number not relate to my size.", "severity": "high"},
+        {"text": "WorldFirst carries CNY natively means what? They got China license?", "severity": "high"},
+        {"text": "Sound like ad copy lah. Where the real customer screenshot or testimonial?", "severity": "high"},
+        {"text": "Same complaint about bank but solution not clear. Just search WorldFirst? Then what?", "severity": "mid"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'right tool' analogy is rhetorical not fact-based, so lower fact-risk. 'Your bank doesn't carry CNY rails. It carries USD rails' is broadly true for many SEA banks but not universal (Maybank, OCBC, DBS do have CNH corridors). 'Built on CNY-direct rails' for WorldFirst is product-accurate. Weakest spot is the binary 'USD-rail vs CNY-rail' framing which is too clean for reality.",
+      "skeptic_comments": [
+        {"text": "Fax machine vs video, ok funny analogy. But my bank Maybank got CNH lah.", "severity": "high"},
+        {"text": "USD-rail bank, CNY-rail platform, sound technical. Where I verify which one my bank is?", "severity": "mid"},
+        {"text": "Who is WorldFirst? Three years I scroll TikTok, never see. Suddenly now? Sus.", "severity": "high"},
+        {"text": "Use right tool ok but I want price comparison not analogy. Show me one wire side by side.", "severity": "mid"},
+        {"text": "Margin depends on it true lah but how big is the difference really? Need real number.", "severity": "mid"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Three different banks can convert at three different points' is accurate. The 'fourth conversion' scenario (supplier receiving USD then converting again locally) is a real worst-case but framed as universal. 'You'll never see this on a statement' is mostly true for the FX margin component. 'WorldFirst is built differently. Direct CNY to Chinese accounts' is product-accurate. Overall the conspiratorial frame is the main trust risk because it makes the script sound like an ad.",
+      "skeptic_comments": [
+        {"text": "Fourth conversion? Now four already? Earlier video say three. Make up your mind.", "severity": "high"},
+        {"text": "Sound like ad with the 'every single time' line. Real talk got nuance la.", "severity": "high"},
+        {"text": "Who is WorldFirst? Got Malaysia license or not, that's the main question.", "severity": "high"},
+        {"text": "Conspiratorial tone make me suspicious. If real, where the news article reporting this?", "severity": "mid"},
+        {"text": "One rate is good but I want see the rate vs my Maybank rate. Just show la.", "severity": "mid"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "Low",
+      "analysis": "This is the lowest-risk script in the set. It describes a real scenario (banks blaming each other over routing-related FX surprises) which any SMB business owner can relate to without needing to verify hard numbers. No specific dollar figures, no compounded math claims. 'This happens every single week' is the only mild overstatement. CTA is appropriately direct without overclaiming.",
+      "skeptic_comments": [
+        {"text": "Eh this one I felt before, called my bank they really blame the other party. Relatable.", "severity": "low"},
+        {"text": "Who is WorldFirst tho. Never see them in Malaysia. Got physical office?", "severity": "high"},
+        {"text": "Every single week got people facing this? Sounds exaggerated but maybe.", "severity": "mid"},
+        {"text": "Same-day one rate, ok but my bank also got same-day option. Difference how big?", "severity": "mid"},
+        {"text": "No phone-tag part real lah. I waste 2 hours last month on this exact thing.", "severity": "low"}
+      ]
+    }
+  }
+}

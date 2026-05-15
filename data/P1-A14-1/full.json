@@ -1,0 +1,347 @@
+{
+  "angle_id": "P1-A14-1",
+  "title": "Three operators, same wire, three amounts",
+  "card_id": "P1-A14",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. Three business owners. Same day. Same Chinese supplier. Same 50K wire. Three different amounts arrived. Here's the deal. Business owner A used a major bank. Supplier got 49,250. Business owner B used a regional bank. Supplier got 49,700. Business owner C used a specialist provider. Supplier got 49,850. Same wire. 600 dollar spread. And all three of them paid the same line item. No fee. Stop. The wire fee is not the cost. The exchange rate is the cost. Banks hide a 1.5% margin in the rate so you never see the line. On 50K that's 750 dollars. Run that across 12 wires a year. You just gave your bank 9,000 dollars for nothing. Period. WorldFirst sits at 0.3% margin. Same wire. Supplier gets the full amount. Same day to Chinese accounts. Search WorldFirst. Period.",
+        "iterated_vo": "Three business owners. Same day. Same Chinese supplier. Same 50K wire. Three different amounts arrived. Here's the deal. Business owner A used a major bank. Supplier got 49,250. Business owner B used a regional bank. Supplier got 49,700. Business owner C used a specialist provider. Supplier got 49,850. Same wire. 600 dollar spread. And all three of them paid the same line item. No fee. The wire fee is not the cost. The exchange rate is the cost. Banks bake a 1.5% margin into the rate so you never see the line. On 50K that's 750 dollars. Run that across 12 wires a year. That's 9,000 dollars sitting in your bank's pocket. WorldFirst sits closer to 0.3% margin. Same wire. Supplier gets close to the full amount. Same day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>Three business owners. Same day. Same Chinese supplier. Same 50K wire. Three different amounts arrived. Here's the deal. Business owner A used a major bank. Supplier got 49,250. Business owner B used a regional bank. Supplier got 49,700. Business owner C used a specialist provider. Supplier got 49,850. Same wire. 600 dollar spread. And all three of them paid the same line item. No fee. <del>Stop. </del>The wire fee is not the cost. The exchange rate is the cost. Banks <del>hide</del><ins>bake</ins> a 1.5% margin <del>in</del><ins>into</ins> the rate so you never see the line. On 50K that's 750 dollars. Run that across 12 wires a year. <del>You just gave your bank</del><ins>That's</ins> 9,000 dollars <del>for nothing. Period.</del><ins>sitting in your bank's pocket.</ins> WorldFirst sits <ins>closer to </ins>0.3% margin. Same wire. Supplier gets <ins>close to </ins>the full amount. Same day to Chinese accounts. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. Three business owners sent 50K to the same Chinese supplier on the same day. Supplier received three different amounts. 49,250. 49,700. 49,850. A 600 dollar spread on identical wires. Now compound it. 12 wires a year at 50K each. 600 thousand dollars in sourcing volume. The business owner who used the bank lost 9,000 dollars. The business owner who used the specialist lost 1,800. That's a 7,200 dollar gap in one year. On the same business. Run it across three years. 21,600 dollars. That's an employee. That's a container of inventory. That's the next product line. And it's not a fee. It's the exchange rate margin. Banks bake 1 to 2% into the rate so you never see the line item. Listen. WorldFirst sits at 0.3% on the same wires. Same day to Chinese bank accounts. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. Three business owners sent 50K to the same Chinese supplier on the same day. Supplier received three different amounts. 49,250. 49,700. 49,850. A 600 dollar spread on identical wires. Now compound it. 12 wires a year at 50K each. 600 thousand dollars in sourcing volume. The business owner who used the bank lost around 9,000 dollars. The business owner who used the specialist lost around 1,800. That's a 7,200 dollar gap in one year. On the same business. Run it across three years. 21,600 dollars. That's an employee. That's a container of inventory. That's the next product line. And it's not a fee. It's the exchange rate margin. Banks bake 1 to 2% into the rate so you never see the line item. WorldFirst sits closer to 0.3% on the same wires. Same day to Chinese bank accounts. Search WorldFirst.",
+        "diff_markup": "Watch this. Three business owners sent 50K to the same Chinese supplier on the same day. Supplier received three different amounts. 49,250. 49,700. 49,850. A 600 dollar spread on identical wires. Now compound it. 12 wires a year at 50K each. 600 thousand dollars in sourcing volume. The business owner who used the bank lost <ins>around </ins>9,000 dollars. The business owner who used the specialist lost <ins>around </ins>1,800. That's a 7,200 dollar gap in one year. On the same business. Run it across three years. 21,600 dollars. That's an employee. That's a container of inventory. That's the next product line. And it's not a fee. It's the exchange rate margin. Banks bake 1 to 2% into the rate so you never see the line item. <del>Listen. </del>WorldFirst sits <ins>closer to </ins>0.3% on the same wires. Same day to Chinese bank accounts. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank stole 600 dollars from you on your last wire to China and you didn't even notice. Here's the proof. Three business owners. Same 50K wire. Same day. Same supplier. Three different amounts landed. The one who used the major bank got the worst rate. 49,250. The specialist provider customer got 49,850. Same wire. Same supplier. 600 dollar difference. All three of them looked at the receipt and saw the same thing. No fee. Wire fee waived. So they thought the wire was free. It wasn't. Your bank packs a 1.5% margin into the rate. You'll never see it on a statement. No receipt. No notification. No refund. I'll say it. This is how banks make their margin on every single cross-border wire to China. WorldFirst doesn't do this. 0.3% margin. Same day. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank quietly took 600 dollars from you on your last wire to China and you didn't even notice. Here's the proof. Three business owners. Same 50K wire. Same day. Same supplier. Three different amounts landed. The one who used the major bank got the worst rate. 49,250. The specialist provider customer got 49,850. Same wire. Same supplier. 600 dollar difference. All three of them looked at the receipt and saw the same thing. No fee. Wire fee waived. So they thought the wire was free. It wasn't. Your bank packs a 1.5% margin into the rate. You'll never see it on a statement. No receipt. No notification. No refund. This is how banks earn their margin on cross-border wires to China. WorldFirst is built differently. Around 0.3% margin. Same day. Search WorldFirst.",
+        "diff_markup": "Your bank <del>stole</del><ins>quietly took</ins> 600 dollars from you on your last wire to China and you didn't even notice. Here's the proof. Three business owners. Same 50K wire. Same day. Same supplier. Three different amounts landed. The one who used the major bank got the worst rate. 49,250. The specialist provider customer got 49,850. Same wire. Same supplier. 600 dollar difference. All three of them looked at the receipt and saw the same thing. No fee. Wire fee waived. So they thought the wire was free. It wasn't. Your bank packs a 1.5% margin into the rate. You'll never see it on a statement. No receipt. No notification. No refund. <del>I'll say it. </del>This is how banks <del>make</del><ins>earn</ins> their margin on <del>every single cross-border wire</del><ins>cross-border wires</ins> to China. WorldFirst <del>doesn't do this</del><ins>is built differently</ins>. <ins>Around </ins>0.3% margin. Same day. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners don't realize. Two wires to the same supplier on the same day can land at different amounts. Why? The exchange rate. Your bank picks the rate. They don't show you what they picked relative to the real market rate. They just show you the wire fee. Zero. Waived. Free. So you think the wire was free. Three business owners proved this last week. All sent 50K to the same Chinese factory. The bank customer's supplier got 49,250. The regional bank got 49,700. The specialist got 49,850. 600 dollar spread on identical wires. Same line item. Different reality. Stop assuming the fee line tells you the cost. The rate is the cost. WorldFirst sits at 0.3% margin on USD to CNY. Same day. Full amount lands. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the part most business owners don't realize. Two wires to the same supplier on the same day can land at different amounts. Why? The exchange rate. Your bank picks the rate. They don't show you what they picked relative to the real market rate. They just show you the wire fee. Zero. Waived. Free. So you think the wire was free. Three business owners proved this last week. All sent 50K to the same Chinese factory. The bank customer's supplier got 49,250. The regional bank got 49,700. The specialist got 49,850. 600 dollar spread on identical wires. Same line item. Different reality. The fee line is not the cost. The rate is the cost. WorldFirst sits closer to 0.3% margin on USD to CNY. Same day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "Here's the <del>problem</del><ins>part</ins> most business owners don't realize. Two wires to the same supplier on the same day can land at different amounts. Why? The exchange rate. Your bank picks the rate. They don't show you what they picked relative to the real market rate. They just show you the wire fee. Zero. Waived. Free. So you think the wire was free. Three business owners proved this last week. All sent 50K to the same Chinese factory. The bank customer's supplier got 49,250. The regional bank got 49,700. The specialist got 49,850. 600 dollar spread on identical wires. Same line item. Different reality. <del>Stop assuming the fee line tells you the cost</del><ins>The fee line is not the cost</ins>. The rate is the cost. WorldFirst sits <ins>closer to </ins>0.3% margin on USD to CNY. Same day <del>. Full amount lands. Period.</del><ins>to Chinese accounts.</ins> Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire money to Chinese suppliers, you need to hear this. Real talk. Three business owners ran the same wire last week and got three different outcomes. One. 50K wired through a major bank. Supplier got 49,250. Wire fee on the receipt: zero. Two. 50K wired through a regional bank. Supplier got 49,700. Wire fee on the receipt: zero. Three. 50K wired through a specialist provider. Supplier got 49,850. Wire fee on the receipt: zero. Three identical wires. 600 dollar spread. All paid no fee. Stop comparing wire fees. The wire fee is not the cost. The exchange rate is the cost. Your bank is paid by the rate margin you don't see. WorldFirst sits at 0.3% on USD to CNY. Same wire, full amount lands, same day to Chinese accounts. If you ship from China, you need to know this. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to Chinese suppliers, you need to hear this. Three business owners ran the same wire last week and got three different outcomes. One. 50K wired through a major bank. Supplier got 49,250. Wire fee on the receipt: zero. Two. 50K wired through a regional bank. Supplier got 49,700. Wire fee on the receipt: zero. Three. 50K wired through a specialist provider. Supplier got 49,850. Wire fee on the receipt: zero. Three identical wires. 600 dollar spread. All paid no fee. Wire fees are not the full cost. The exchange rate is. Your bank earns through the rate margin you don't see. WorldFirst sits closer to 0.3% on USD to CNY. Same wire, close to the full amount lands, same day to Chinese accounts. If you ship from China, this is worth knowing. Search WorldFirst.",
+        "diff_markup": "If you wire money to Chinese suppliers, you need to hear this. <del>Real talk. </del>Three business owners ran the same wire last week and got three different outcomes. One. 50K wired through a major bank. Supplier got 49,250. Wire fee on the receipt: zero. Two. 50K wired through a regional bank. Supplier got 49,700. Wire fee on the receipt: zero. Three. 50K wired through a specialist provider. Supplier got 49,850. Wire fee on the receipt: zero. Three identical wires. 600 dollar spread. All paid no fee. <del>Stop comparing wire fees. The wire fee is not the cost. The exchange rate is the cost</del><ins>Wire fees are not the full cost. The exchange rate is</ins>. Your bank <del>is paid by</del><ins>earns through</ins> the rate margin you don't see. WorldFirst sits <ins>closer to </ins>0.3% on USD to CNY. Same wire, <ins>close to </ins>the full amount lands, same day to Chinese accounts. If you ship from China, <del>you need to know this. Period</del><ins>this is worth knowing</ins>. Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner sourcing from China. Three of you sent 50K wires this morning. Same supplier. Same hour. Different amounts landed. One got 49,250. One got 49,700. One got 49,850. A 600 dollar gap on the same wire. Why? The rate. Your bank packs 1 to 2% margin into the exchange rate. The wire fee on your receipt says zero, so you think it cost you nothing. Wrong. The cost is the rate. Listen. WorldFirst sits at 0.3% margin on the same wire. Same day to Chinese bank accounts. The supplier gets the full amount. The receipt still says no fee. The difference is the 600 dollars stays in your business. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. Three of you sent 50K wires this morning. Same supplier. Same hour. Different amounts landed. One got 49,250. One got 49,700. One got 49,850. A 600 dollar gap on the same wire. Why? The rate. Your bank packs 1 to 2% margin into the exchange rate. The wire fee on your receipt says zero, so you think it cost you nothing. Worth a second look. The cost is the rate. WorldFirst sits closer to 0.3% margin on the same wire. Same day to Chinese bank accounts. The supplier gets close to the full amount. The receipt still says no fee. The difference is the 600 dollars stays in your business. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner sourcing from China. Three of you sent 50K wires this morning. Same supplier. Same hour. Different amounts landed. One got 49,250. One got 49,700. One got 49,850. A 600 dollar gap on the same wire. Why? The rate. Your bank packs 1 to 2% margin into the exchange rate. The wire fee on your receipt says zero, so you think it cost you nothing. <del>Wrong</del><ins>Worth a second look</ins>. The cost is the rate. <del>Listen. </del>WorldFirst sits <ins>closer to </ins>0.3% margin on the same wire. Same day to Chinese bank accounts. The supplier gets <ins>close to </ins>the full amount. The receipt still says no fee. The difference is the 600 dollars stays in your business. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. Your bank is the most expensive part of your China sourcing and nobody's putting it on a spreadsheet. Three business owners. Same 50K wire. Same supplier. Same day. The first got 49,250 landed. The third got 49,850. 600 dollar gap. Now compound it. 12 wires a year. That's 7,200 dollars gone to your bank's rate margin. Run a business that does 600K in sourcing and that 7,200 is just one factory. Add two more, you're at 20K a year. That's an employee you didn't hire because your bank silently took it. WorldFirst sits at 0.3% margin. Same wire, same supplier, same day to Chinese accounts. The difference shows up on your P&L. Period.",
+        "iterated_vo": "Your bank is the most expensive part of your China sourcing and nobody's putting it on a spreadsheet. Three business owners. Same 50K wire. Same supplier. Same day. The first got 49,250 landed. The third got 49,850. 600 dollar gap. Now compound it. 12 wires a year. That's 7,200 dollars going to your bank's rate margin. Run a business that does 600K in sourcing and that 7,200 is just one factory. Add two more, you're at 20K a year. That's an employee you didn't hire because your bank quietly took it. WorldFirst sits closer to 0.3% margin. Same wire, same supplier, same day to Chinese accounts. The difference shows up on your P&L.",
+        "diff_markup": "<del>I'll say it. </del>Your bank is the most expensive part of your China sourcing and nobody's putting it on a spreadsheet. Three business owners. Same 50K wire. Same supplier. Same day. The first got 49,250 landed. The third got 49,850. 600 dollar gap. Now compound it. 12 wires a year. That's 7,200 dollars <del>gone</del><ins>going</ins> to your bank's rate margin. Run a business that does 600K in sourcing and that 7,200 is just one factory. Add two more, you're at 20K a year. That's an employee you didn't hire because your bank <del>silently</del><ins>quietly</ins> took it. WorldFirst sits <ins>closer to </ins>0.3% margin. Same wire, same supplier, same day to Chinese accounts. The difference shows up on your P&L<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tool reframe",
+        "original_vo": "Stop using your bank for China supplier payments. I'm serious. Watch what happened last week. Three business owners. Same supplier. Same day. 50K each. The major bank customer's supplier got 49,250. The specialist customer's supplier got 49,850. 600 dollars on one wire. Same product. Same factory. Same currency. Different tool. Your domestic bank was built for domestic payments. Cross-border CNY is not its job. You wouldn't use a screwdriver to drive a nail. So why are you using a bank to wire to China? WorldFirst was built for this exact wire. 0.3% rate margin. Same day to Chinese bank accounts. Use the right tool. Search WorldFirst. Now.",
+        "iterated_vo": "Rethink using your bank for China supplier payments. Watch what happened last week. Three business owners. Same supplier. Same day. 50K each. The major bank customer's supplier got 49,250. The specialist customer's supplier got 49,850. 600 dollars on one wire. Same product. Same factory. Same currency. Different tool. Your domestic bank was built for domestic payments. Cross-border CNY is not its specialty. You wouldn't use a screwdriver to drive a nail. So why use a bank to wire to China? WorldFirst was built for this exact wire. Around 0.3% rate margin. Same day to Chinese bank accounts. Use the right tool. Search WorldFirst.",
+        "diff_markup": "<del>Stop using</del><ins>Rethink using</ins> your bank for China supplier payments. <del>I'm serious. </del>Watch what happened last week. Three business owners. Same supplier. Same day. 50K each. The major bank customer's supplier got 49,250. The specialist customer's supplier got 49,850. 600 dollars on one wire. Same product. Same factory. Same currency. Different tool. Your domestic bank was built for domestic payments. Cross-border CNY is not its <del>job</del><ins>specialty</ins>. You wouldn't use a screwdriver to drive a nail. So why <del>are you using</del><ins>use</ins> a bank to wire to China? WorldFirst was built for this exact wire. <ins>Around </ins>0.3% rate margin. Same day to Chinese bank accounts. Use the right tool. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about international wires. Three business owners sent 50K each to the same Chinese supplier yesterday. Three different amounts arrived. 49,250. 49,700. 49,850. Why? Banks don't make their money on the wire fee. They make it on the rate. They pick a rate. You can't see what they picked. You can't compare. You just see the receipt that says no fee, wire complete. Meanwhile they pocketed 1 to 2% of the wire in the rate margin. Silently. Every single wire. WorldFirst doesn't do that. 0.3% margin. The rate you see is close to the real rate. Same day to Chinese accounts. That's the difference. Period.",
+        "iterated_vo": "Here's something most people don't realise about international wires. Three business owners sent 50K each to the same Chinese supplier yesterday. Three different amounts arrived. 49,250. 49,700. 49,850. Why? Banks don't earn most of their money on the wire fee. They earn it on the rate. They pick a rate. You can't see what they picked. You can't compare. You just see the receipt that says no fee, wire complete. Meanwhile they took 1 to 2% of the wire in the rate margin. Quietly. Every single wire. WorldFirst is built differently. Around 0.3% margin. The rate you see is close to the real rate. Same day to Chinese accounts. That's the difference.",
+        "diff_markup": "Here's <del>the truth nobody's telling you</del><ins>something most people don't realise</ins> about international wires. Three business owners sent 50K each to the same Chinese supplier yesterday. Three different amounts arrived. 49,250. 49,700. 49,850. Why? Banks don't <del>make</del><ins>earn most of</ins> their money on the wire fee. They <del>make</del><ins>earn</ins> it on the rate. They pick a rate. You can't see what they picked. You can't compare. You just see the receipt that says no fee, wire complete. Meanwhile they <del>pocketed</del><ins>took</ins> 1 to 2% of the wire in the rate margin. <del>Silently</del><ins>Quietly</ins>. Every single wire. WorldFirst <del>doesn't do that</del><ins>is built differently</ins>. <ins>Around </ins>0.3% margin. The rate you see is close to the real rate. Same day to Chinese accounts. That's the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner paying Chinese suppliers. You think you and your friend are getting the same rate? You're not. Three business owners. Same 50K wire. Same supplier. Same day. Three different amounts. 49,250. 49,700. 49,850. The one who got the worst rate is paying for the bank's margin and doesn't even know it. The receipt says no fee. The wire went through. Everyone's happy on paper. Meanwhile you're 600 dollars down on one wire. 7,200 down on 12 wires a year. I see this every single week. Every week. Stop. WorldFirst. 0.3% rate margin. Same day to Chinese bank accounts. The supplier gets the full amount. Your margin stays your margin. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers. You think you and your friend are getting the same rate? You're not. Three business owners. Same 50K wire. Same supplier. Same day. Three different amounts. 49,250. 49,700. 49,850. The one who got the worst rate is paying for the bank's margin and doesn't even know it. The receipt says no fee. The wire went through. Everyone's happy on paper. Meanwhile you're 600 dollars down on one wire. 7,200 down on 12 wires a year. This happens every single week. Every week. WorldFirst. Around 0.3% rate margin. Same day to Chinese bank accounts. The supplier gets close to the full amount. Your margin stays your margin. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers. You think you and your friend are getting the same rate? You're not. Three business owners. Same 50K wire. Same supplier. Same day. Three different amounts. 49,250. 49,700. 49,850. The one who got the worst rate is paying for the bank's margin and doesn't even know it. The receipt says no fee. The wire went through. Everyone's happy on paper. Meanwhile you're 600 dollars down on one wire. 7,200 down on 12 wires a year. <del>I see this</del><ins>This happens</ins> every single week. Every week. <del>Stop. </del>WorldFirst. <ins>Around </ins>0.3% rate margin. Same day to Chinese bank accounts. The supplier gets <ins>close to </ins>the full amount. Your margin stays your margin. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "The three-supplier comparison anchored in the findings (49,250 / 49,700 / 49,850 on a 50K wire) is defensible because it's the card's own evidence. '1.5% margin = 750 on 50K' aligns with the findings range of 0.6 to 1.5% across providers. The '12 wires a year' compound is a generic average, not a verified scenario, and the WF '0.3% margin' / 'full amount lands' framing is a typical-case figure presented as universal. CN-side receiving bank fees can still apply and are not addressed.",
+      "skeptic_comments": [
+        {
+          "text": "Where this 1.5% number from? My RHB never break it down like this.",
+          "severity": "high"
+        },
+        {
+          "text": "12 wires a year? I send 3 a year only, this math don't apply to me.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst is what? Sound like crypto thing. Got license in Malaysia or not?",
+          "severity": "high"
+        },
+        {
+          "text": "If three guys really same wire same day, who showed you the receipts? Where's the proof.",
+          "severity": "high"
+        },
+        {
+          "text": "Bank still better lah, at least I can walk in branch when problem.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "Medium",
+      "analysis": "Compound math from 600 spread to 7,200 a year assumes consistent margin on every wire of the year, which is plausible but not guaranteed (rates fluctuate, some wires hit better correspondent paths). '21,600 over 3 years' is illustrative and frames it as a typical case. The supplier-end amounts are grounded in the card's findings but the 'employee / inventory / product line' translation is rhetorical. WF '0.3%' figure should ideally say 'around 0.3%' since it varies by pair.",
+      "skeptic_comments": [
+        {
+          "text": "Compound math sound nice but rate change every day, where got always 1.5%.",
+          "severity": "mid"
+        },
+        {
+          "text": "21,600 over 3 years is best case for the seller side of this story.",
+          "severity": "mid"
+        },
+        {
+          "text": "If WorldFirst really 0.3 percent, why bank can't match? Got hidden somewhere.",
+          "severity": "high"
+        },
+        {
+          "text": "I pay 50K once a year not 12 times, this not apply to small shop like me.",
+          "severity": "mid"
+        },
+        {
+          "text": "Container of inventory? Got receipt no? Show la.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "'Your bank stole / quietly took' is loaded language even after the iteration soften. Banks legally disclose FX margins in T&Cs, so 'stole' is contestable. The 600 dollar number and the three-band comparison are grounded in the findings. The 'no receipt, no notification, no refund' framing is accurate for most bank wire confirmations but stated absolutely. WF '0.3% margin' is presented as a static fact rather than a typical-case range.",
+      "skeptic_comments": [
+        {
+          "text": "Stole is heavy word la, my Maybank statement got rate clearly stated.",
+          "severity": "high"
+        },
+        {
+          "text": "If bank really stealing, where's the regulator? They got license one.",
+          "severity": "high"
+        },
+        {
+          "text": "Quietly took also got the rate on the receipt, you just never look.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst is which country company? Got MAS license or not?",
+          "severity": "high"
+        },
+        {
+          "text": "600 dollar on 50K wire is 1.2%, not 600 dollar on every wire la.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "This variant is the most defensible. Mechanism reveal (rate not fee is the cost) is fundamentally accurate. The three-amount comparison is the card's own evidence. The iterated VO removes 'Stop' and 'Period' and downgrades absolutist phrasing. 'Closer to 0.3% margin' is a more honest framing of WF's rate. Only soft flag is 'two wires same day can land at different amounts' is true but the three-business comparison is illustrative, not a documented case study.",
+      "skeptic_comments": [
+        {
+          "text": "Okay this make sense, but is this an actual story or made up example?",
+          "severity": "mid"
+        },
+        {
+          "text": "If rate is the real cost, where I see the real rate to compare?",
+          "severity": "low"
+        },
+        {
+          "text": "0.3% on USD to CNY, who confirm? Got screenshot?",
+          "severity": "mid"
+        },
+        {
+          "text": "Three business owner case study very convenient ah.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst is who? Never heard, then need verify lor.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Problem stack is well-grounded (three identical wires, three results, all receipts say zero fee). 'Wire fees are not the full cost' is accurate. 'Your bank earns through the rate margin you don't see' is true. WF 'closer to 0.3% margin' is honest. The 'Same wire, close to the full amount lands' line is iterated to acknowledge minor receiving-side variance. Mainly a structural script, low factual risk but compresses three real cases as a single narrative without sourcing.",
+      "skeptic_comments": [
+        {
+          "text": "All three got zero fee on receipt but rate was different, where do I see the rate then?",
+          "severity": "mid"
+        },
+        {
+          "text": "Where these three business owners from? VN? MY? SG? Pair matters.",
+          "severity": "mid"
+        },
+        {
+          "text": "Close to 0.3% means what, 0.5 or 0.3? Just say the number.",
+          "severity": "mid"
+        },
+        {
+          "text": "If you ship from China this is worth knowing, but I source from Vietnam, so irrelevant.",
+          "severity": "low"
+        },
+        {
+          "text": "WorldFirst what license they got in my country?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "The three-amount comparison is grounded in the card's findings. '1 to 2% margin' aligns with the findings (0.6 to 1.5%). 'The supplier gets close to the full amount' is appropriately hedged. The 600-dollar gap claim is presented as a typical scenario, which is fine. WF '0.3% margin' kept as 'closer to 0.3%' is honest. Generally defensible but the three-business setup is illustrative, not a documented case file.",
+      "skeptic_comments": [
+        {
+          "text": "Sent at same hour same supplier different amount, this happen in real life or just example?",
+          "severity": "mid"
+        },
+        {
+          "text": "1 to 2% in the rate, my bank statement got the rate written, you just dramatising.",
+          "severity": "mid"
+        },
+        {
+          "text": "Closer to 0.3, why no exact number?",
+          "severity": "low"
+        },
+        {
+          "text": "Friend got 600 more than me, that's me being slow, not bank stealing.",
+          "severity": "mid"
+        },
+        {
+          "text": "Never hear WorldFirst before, sound like overseas thing. Got Malaysia office?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "Compound math (600 x 12 = 7,200) is arithmetically clean but assumes 12 wires a year per business owner, which is a typical mid-size importer scenario not all SEA SMEs. 'Add two more factories you're at 20K' is rhetorical and presented as universal. The factual core (bank rate margin, supplier-end gap, WF closer to 0.3%) is grounded. The 'employee you didn't hire' line is rhetorical translation, fine for the format.",
+      "skeptic_comments": [
+        {
+          "text": "12 wires a year is for big shop, I do 4 a year. Maths different.",
+          "severity": "high"
+        },
+        {
+          "text": "If WorldFirst really 0.3 then everyone should switch why nobody talking about it?",
+          "severity": "mid"
+        },
+        {
+          "text": "20K a year employee, in which country bro. Not in Singapore.",
+          "severity": "mid"
+        },
+        {
+          "text": "Where does the rate margin number come from, source pls.",
+          "severity": "mid"
+        },
+        {
+          "text": "Same supplier same day three different amount, very dramatic. Got proof?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'wrong tool' framing is brand-safe and defensible. The three-band comparison is grounded. 'Cross-border CNY is not its specialty' is accurate for most consumer-grade SEA banks. WF 'around 0.3% rate margin' is honestly hedged. The screwdriver analogy is rhetorical. Soft flag is 'built for this exact wire' overstates WF as a single purpose-built tool when it's a broader multi-currency service.",
+      "skeptic_comments": [
+        {
+          "text": "Rethink using bank, then what about local payment? Still need bank what.",
+          "severity": "low"
+        },
+        {
+          "text": "Maybank do CNY wire fine la, where got built only for domestic.",
+          "severity": "mid"
+        },
+        {
+          "text": "Built for this exact wire sound like marketing line.",
+          "severity": "mid"
+        },
+        {
+          "text": "0.3% why need 'around', either is or isn't.",
+          "severity": "low"
+        },
+        {
+          "text": "WorldFirst safe ah? Got insurance like bank deposit?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "The mechanism explanation (banks earn through rate margin, not wire fee) is accurate. The three-amount comparison is grounded. 'Quietly took 1 to 2%' is hedged from 'pocketed' and aligns with findings. WF 'around 0.3%' is honest. The conspiratorial frame is softened in the iteration. Soft flag is the implication that banks deliberately hide the rate. They disclose it, just not next to a mid-market reference.",
+      "skeptic_comments": [
+        {
+          "text": "Banks earn through rate margin, true, but they also got compliance cost. Not pure profit.",
+          "severity": "mid"
+        },
+        {
+          "text": "Most people don't realise this, but it's literally on the wire confirmation.",
+          "severity": "mid"
+        },
+        {
+          "text": "Quietly took, the rate is on the receipt bro just compare it.",
+          "severity": "mid"
+        },
+        {
+          "text": "Three different amount on same wire same supplier same day, source?",
+          "severity": "high"
+        },
+        {
+          "text": "Built differently, like every fintech say. Need MAS or BNM license la.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "Personal-energy variant. The three-band comparison is grounded. 'You and your friend not getting the same rate' is true for most SEA importers using different banks. '600 down on one wire, 7,200 down on 12 wires' is arithmetic from the typical case. WF 'around 0.3%' is hedged honestly. The 'I see this every week' line is rhetorical, not from a verified dataset. Mainly a delivery-style risk, not factual.",
+      "skeptic_comments": [
+        {
+          "text": "This happen every week, where you see it. You work at bank or what.",
+          "severity": "high"
+        },
+        {
+          "text": "Friend pay different rate than me, sure, but it's the friend's bank not stealing from me la.",
+          "severity": "mid"
+        },
+        {
+          "text": "7,200 a year on 12 wires assumes I'm doing 12 wires. I do 5.",
+          "severity": "mid"
+        },
+        {
+          "text": "Around 0.3, sounds vague.",
+          "severity": "low"
+        },
+        {
+          "text": "WorldFirst is from where, who own them?",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}

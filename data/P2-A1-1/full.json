@@ -1,0 +1,347 @@
+{
+  "angle_id": "P2-A1-1",
+  "title": "How a 2% gap compounds over a year of sourcing",
+  "card_id": "P2-A1",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner wiring to Chinese suppliers, a 2% rate gap on one wire feels small. Here's why it's not. You wire $50,000. Twelve times a year. That's $600,000 of sourcing. Your bank quotes a rate 2% worse than the real one. That's $1,000 per wire. Times twelve. That's $12,000 a year. Gone. Not a fee. No line item. No receipt. It's the exchange rate margin baked into the rate so you never see it. Specialist FX rails sit at 0.3 to 0.5%. Your bank sits at 2 or more. Stop. That's not a small gap. That's a salary. That's inventory. That's your fourth-quarter margin. WorldFirst gives you specialist-rail rates and same-day delivery to Chinese accounts. Two percent looks small per wire. It's $12K a year on $600K of sourcing. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner wiring to Chinese suppliers, a 2% rate gap on one wire feels small. Here's why it's not. You wire $50,000. Twelve times a year. That's $600,000 of sourcing. Your bank quotes a rate 2% worse than the real one. That's $1,000 per wire. Times twelve. That's $12,000 a year. Gone. Not a fee. No line item. No receipt. It's the exchange rate margin baked into the rate so you never see it. Specialist FX rails sit at 0.3 to 0.5%. Your bank sits at 2 or more. That's not a small gap. That's a salary. That's inventory. That's your fourth-quarter margin. WorldFirst gives you specialist-rail rates and same-day delivery to Chinese accounts. Two percent looks small per wire. It's $12K a year on $600K of sourcing. Worth a look. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner wiring to Chinese suppliers, a 2% rate gap on one wire feels small. Here's why it's not. You wire $50,000. Twelve times a year. That's $600,000 of sourcing. Your bank quotes a rate 2% worse than the real one. That's $1,000 per wire. Times twelve. That's $12,000 a year. Gone. Not a fee. No line item. No receipt. It's the exchange rate margin baked into the rate so you never see it. Specialist FX rails sit at 0.3 to 0.5%. Your bank sits at 2 or more. <del>Stop. </del>That's not a small gap. That's a salary. That's inventory. That's your fourth-quarter margin. WorldFirst gives you specialist-rail rates and same-day delivery to Chinese accounts. Two percent looks small per wire. It's $12K a year on $600K of sourcing. <del>Period. </del><ins>Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. One wire, 2% rate gap, $1,000 quietly gone. You don't feel it. Now run twelve. That's $12,000 a year. On $600,000 of sourcing. Now run that for three years. $36,000. Five years. $60,000. Same supplier, same wires, same business. The only thing changing is what's left in your account. This isn't fees. It's the spread your bank packs into the FX rate. 2% on one wire feels like nothing. Compound it across the year. Compound it across the decade. That's a hire you didn't make. That's a container you couldn't fund. That's your runway. Specialist FX rails like WorldFirst run at 0.3 to 0.5%. Near-interbank rate. Same-day to Chinese accounts. Stop bleeding 2% per wire. Twelve times a year. Every year. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. One wire, 2% rate gap, $1,000 quietly gone. You don't feel it. Now run twelve. That's $12,000 a year. On $600,000 of sourcing. Now run that for three years. $36,000. Five years. $60,000. Same supplier, same wires, same business. The only thing changing is what's left in your account. This isn't fees. It's the spread your bank packs into the FX rate. 2% on one wire feels like nothing. Compound it across the year. Compound it across the decade. That's a hire you didn't make. That's a container you couldn't fund. That's your runway. Specialist FX rails like WorldFirst run at 0.3 to 0.5%. Near-interbank rate. Same-day to Chinese accounts. 2% per wire, twelve times a year, every year. Worth a look. Search WorldFirst.",
+        "diff_markup": "Watch this. One wire, 2% rate gap, $1,000 quietly gone. You don't feel it. Now run twelve. That's $12,000 a year. On $600,000 of sourcing. Now run that for three years. $36,000. Five years. $60,000. Same supplier, same wires, same business. The only thing changing is what's left in your account. This isn't fees. It's the spread your bank packs into the FX rate. 2% on one wire feels like nothing. Compound it across the year. Compound it across the decade. That's a hire you didn't make. That's a container you couldn't fund. That's your runway. Specialist FX rails like WorldFirst run at 0.3 to 0.5%. Near-interbank rate. Same-day to Chinese accounts. <del>Stop bleeding 2% per wire. Twelve times a year. Every year. Period. </del><ins>2% per wire, twelve times a year, every year. Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank skimmed $12,000 from your business this year and you signed every single wire. Here's how. Twelve wires to China at $50,000 each. Each one carried a 2% rate margin. That's $1,000 per wire. Quietly. No line item. No receipt. Just a worse rate than the real one, packed into the quote. You assumed wire fee was the cost. The wire fee is the decoy. The rate is the real cost. Banks have done this on supplier payments for decades because business owners look at fees not rates. I'll say it. If you're sourcing $600K a year and you're still wiring through your bank, you're funding their FX desk. WorldFirst is different. Specialist FX rail at 0.3 to 0.5%. Same-day to Chinese accounts. Stop signing off on the skim. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank quietly kept $12,000 from your business this year and you signed every single wire. Here's how. Twelve wires to China at $50,000 each. Each one carried a 2% rate margin. That's $1,000 per wire. Quietly. No line item. No receipt. Just a worse rate than the real one, packed into the quote. You assumed wire fee was the cost. The wire fee is the decoy. The rate is the real cost. Banks have done this on supplier payments for decades because business owners look at fees not rates. If you're sourcing $600K a year and you're still wiring through your bank, you're funding their FX desk. WorldFirst is different. Specialist FX rail at 0.3 to 0.5%. Same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "Your bank <del>skimmed</del><ins>quietly kept</ins> $12,000 from your business this year and you signed every single wire. Here's how. Twelve wires to China at $50,000 each. Each one carried a 2% rate margin. That's $1,000 per wire. Quietly. No line item. No receipt. Just a worse rate than the real one, packed into the quote. You assumed wire fee was the cost. The wire fee is the decoy. The rate is the real cost. Banks have done this on supplier payments for decades because business owners look at fees not rates. <del>I'll say it. </del>If you're sourcing $600K a year and you're still wiring through your bank, you're funding their FX desk. WorldFirst is different. Specialist FX rail at 0.3 to 0.5%. Same-day to Chinese accounts. <del>Stop signing off on the skim. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the mechanism most business owners miss when they pay Chinese suppliers. The wire fee isn't the cost. The rate is. Your bank doesn't quote you the actual USD to CNY rate. They quote a rate that's 2% worse. On a $50,000 wire, that's $1,000. Silent. No statement line. Now run twelve wires. $12,000 a year. On $600K of sourcing, that's 2% of your sourcing budget eaten by spread, every year. Specialist FX rails work differently. Near-interbank rate. 0.3 to 0.5% margin instead of 2%. The gap is 1.5 to 1.7 percentage points per wire. Multiply by twelve. That's the difference between a hire and not. A container and not. A bonus and not. WorldFirst runs on the specialist rail. Same-day to Chinese accounts. Stop. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the mechanism most business owners miss when they pay Chinese suppliers. The wire fee isn't the cost. The rate is. Your bank doesn't quote you the actual USD to CNY rate. They quote a rate that's 2% worse. On a $50,000 wire, that's $1,000. Silent. No statement line. Now run twelve wires. $12,000 a year. On $600K of sourcing, that's 2% of your sourcing budget eaten by spread, every year. Specialist FX rails work differently. Near-interbank rate. 0.3 to 0.5% margin instead of 2%. The gap is 1.5 to 1.7 percentage points per wire. Multiply by twelve. That's the difference between a hire and not. A container and not. A bonus and not. WorldFirst runs on the specialist rail. Same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "Here's the mechanism most business owners miss when they pay Chinese suppliers. The wire fee isn't the cost. The rate is. Your bank doesn't quote you the actual USD to CNY rate. They quote a rate that's 2% worse. On a $50,000 wire, that's $1,000. Silent. No statement line. Now run twelve wires. $12,000 a year. On $600K of sourcing, that's 2% of your sourcing budget eaten by spread, every year. Specialist FX rails work differently. Near-interbank rate. 0.3 to 0.5% margin instead of 2%. The gap is 1.5 to 1.7 percentage points per wire. Multiply by twelve. That's the difference between a hire and not. A container and not. A bonus and not. WorldFirst runs on the specialist rail. Same-day to Chinese accounts. <del>Stop. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire to China every month, you need to hear this. Three numbers, one year. Real talk. One. $50,000 per wire. That's a typical SMB order to a Chinese supplier. Two. Twelve wires a year. That's normal cadence for steady sourcing. Three. 2% rate margin. That's what your bank packs into every quote. Multiply. $1,000 per wire times twelve. $12,000 a year. On $600K of sourcing. Vanished into the spread. You never saw it because it never showed up as a fee. It showed up as a worse rate. And while that's happening, specialist FX rails sit at 0.3 to 0.5% on the same wire. The gap is 1.5 to 1.7 points per wire. Stop wiring through your bank for China. WorldFirst gives you specialist-rail rates. Same-day to Chinese accounts. If you're a business owner paying China, you need to look. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire to China every month, you need to hear this. Three numbers, one year. One. $50,000 per wire. That's a typical SMB order to a Chinese supplier. Two. Twelve wires a year. That's normal cadence for steady sourcing. Three. 2% rate margin. That's what your bank packs into every quote. Multiply. $1,000 per wire times twelve. $12,000 a year. On $600K of sourcing. Vanished into the spread. You never saw it because it never showed up as a fee. It showed up as a worse rate. And while that's happening, specialist FX rails sit at 0.3 to 0.5% on the same wire. The gap is 1.5 to 1.7 points per wire. WorldFirst gives you specialist-rail rates. Same-day to Chinese accounts. If you're a business owner paying China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you wire to China every month, you need to hear this. Three numbers, one year. <del>Real talk. </del>One. $50,000 per wire. That's a typical SMB order to a Chinese supplier. Two. Twelve wires a year. That's normal cadence for steady sourcing. Three. 2% rate margin. That's what your bank packs into every quote. Multiply. $1,000 per wire times twelve. $12,000 a year. On $600K of sourcing. Vanished into the spread. You never saw it because it never showed up as a fee. It showed up as a worse rate. And while that's happening, specialist FX rails sit at 0.3 to 0.5% on the same wire. The gap is 1.5 to 1.7 points per wire. <del>Stop wiring through your bank for China. </del>WorldFirst gives you specialist-rail rates. Same-day to Chinese accounts. If you're a business owner paying China, <del>you need to look. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner sourcing from China. A 2% rate gap on one wire is nothing. A 2% rate gap on twelve wires is $12,000. On $600K of annual sourcing. Gone. Into the spread. And nobody at your bank is going to point it out because it's not on a statement. It's in the rate itself. Listen. I'm not saying your bank is evil. I'm saying it's the wrong tool for paying Chinese suppliers. Specialist FX rails sit at 0.3 to 0.5%. Your bank sits at 2%. That gap is your margin. WorldFirst runs on the specialist rail. Near-interbank rate. Same-day to Chinese accounts. Stop letting your bank quietly take $12K a year on your sourcing. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. A 2% rate gap on one wire is nothing. A 2% rate gap on twelve wires is $12,000. On $600K of annual sourcing. Gone. Into the spread. And nobody at your bank is going to point it out because it's not on a statement. It's in the rate itself. I'm not saying your bank is bad. It's just the wrong tool for paying Chinese suppliers. Specialist FX rails sit at 0.3 to 0.5%. Your bank sits at 2%. That gap is your margin. WorldFirst runs on the specialist rail. Near-interbank rate. Same-day to Chinese accounts. Worth knowing if your bank is quietly taking $12K a year on your sourcing. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner sourcing from China. A 2% rate gap on one wire is nothing. A 2% rate gap on twelve wires is $12,000. On $600K of annual sourcing. Gone. Into the spread. And nobody at your bank is going to point it out because it's not on a statement. It's in the rate itself. <del>Listen. </del>I'm not saying your bank is <del>evil. I'm saying it's</del><ins>bad. It's just</ins> the wrong tool for paying Chinese suppliers. Specialist FX rails sit at 0.3 to 0.5%. Your bank sits at 2%. That gap is your margin. WorldFirst runs on the specialist rail. Near-interbank rate. Same-day to Chinese accounts. <del>Stop letting your bank</del><ins>Worth knowing if your bank is</ins> quietly <del>take</del><ins>taking</ins> $12K a year on your sourcing. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. The FX rate on your supplier wires is the most expensive line in your business that nobody is auditing. You wire $50,000 to your supplier. Your bank takes a 2% spread on the rate. $1,000. Twelve wires a year. $12,000. Three years. $36,000. Now flip it. Same wires, specialist FX rail at 0.5%. $250 per wire. $3,000 a year. The gap is $9,000 a year you're handing your bank because nobody told you the rate was the cost. That's not a fee problem. That's a tool problem. WorldFirst is built for this exact wire. Specialist rail. Near-interbank rate. Same-day to Chinese accounts. Your margin lives in the rate. Period.",
+        "iterated_vo": "The FX rate on your supplier wires is the most expensive line in your business that nobody is auditing. You wire $50,000 to your supplier. Your bank takes a 2% spread on the rate. $1,000. Twelve wires a year. $12,000. Three years. $36,000. Now flip it. Same wires, specialist FX rail at 0.5%. $250 per wire. $3,000 a year. The gap is $9,000 a year you're handing your bank because nobody told you the rate was the cost. That's not a fee problem. That's a tool problem. WorldFirst is built for this exact wire. Specialist rail. Near-interbank rate. Same-day to Chinese accounts. Your margin lives in the rate.",
+        "diff_markup": "<del>I'll say it. </del>The FX rate on your supplier wires is the most expensive line in your business that nobody is auditing. You wire $50,000 to your supplier. Your bank takes a 2% spread on the rate. $1,000. Twelve wires a year. $12,000. Three years. $36,000. Now flip it. Same wires, specialist FX rail at 0.5%. $250 per wire. $3,000 a year. The gap is $9,000 a year you're handing your bank because nobody told you the rate was the cost. That's not a fee problem. That's a tool problem. WorldFirst is built for this exact wire. Specialist rail. Near-interbank rate. Same-day to Chinese accounts. Your margin lives in the rate<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tool reframe",
+        "original_vo": "Stop using your bank to pay Chinese suppliers. I'm serious. Your bank is a fine tool for payroll. For utilities. For local transfers. It is the wrong tool for cross-border supplier payments. Here's why. Every wire to China carries a 2% rate margin. On twelve wires a year at $50,000 each, that's $12,000. On $600K of sourcing, that's your margin walking out the door. Specialist FX rails were built for this exact use case. 0.3 to 0.5% rate margin. Near-interbank rate. Same-day to Chinese accounts. The right tool for the job. WorldFirst is the right tool. Twelve wires a year. $12K back in your business instead of in your bank's FX desk. Use the right tool. Search WorldFirst. Now.",
+        "iterated_vo": "Your bank is not the right tool for paying Chinese suppliers. Your bank is a fine tool for payroll. For utilities. For local transfers. It is the wrong tool for cross-border supplier payments. Here's why. Every wire to China carries a 2% rate margin. On twelve wires a year at $50,000 each, that's $12,000. On $600K of sourcing, that's your margin walking out the door. Specialist FX rails were built for this exact use case. 0.3 to 0.5% rate margin. Near-interbank rate. Same-day to Chinese accounts. The right tool for the job. WorldFirst is the right tool. Twelve wires a year. $12K back in your business instead of in your bank's FX desk. Use the right tool. Search WorldFirst.",
+        "diff_markup": "<del>Stop using your bank to pay Chinese suppliers. I'm serious</del><ins>Your bank is not the right tool for paying Chinese suppliers</ins>. Your bank is a fine tool for payroll. For utilities. For local transfers. It is the wrong tool for cross-border supplier payments. Here's why. Every wire to China carries a 2% rate margin. On twelve wires a year at $50,000 each, that's $12,000. On $600K of sourcing, that's your margin walking out the door. Specialist FX rails were built for this exact use case. 0.3 to 0.5% rate margin. Near-interbank rate. Same-day to Chinese accounts. The right tool for the job. WorldFirst is the right tool. Twelve wires a year. $12K back in your business instead of in your bank's FX desk. Use the right tool. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about supplier payments. Your bank doesn't make money on the wire fee. They make money on the rate. You wire $50,000. The bank quotes a rate 2% worse than the real one. That's $1,000 per wire. Twelve wires a year. $12,000. Silently. Nobody sends you a notification that says you just lost $1,000 to the spread. It's just a worse rate, on every wire, every month, every year. The whole industry is built on you not auditing the rate. Specialist FX rails are at 0.3 to 0.5%. That's the gap. That's the game. WorldFirst doesn't play it. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. That's the difference. Period.",
+        "iterated_vo": "Here's something nobody's telling you about supplier payments. Your bank doesn't make money on the wire fee. They make money on the rate. You wire $50,000. The bank quotes a rate 2% worse than the real one. That's $1,000 per wire. Twelve wires a year. $12,000. Quietly. Nobody sends you a notification that says you just lost $1,000 to the spread. It's just a worse rate, on every wire, every month, every year. The whole industry runs on you not auditing the rate. Specialist FX rails are at 0.3 to 0.5%. That's the gap. WorldFirst is built differently. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. That's the difference.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about supplier payments. Your bank doesn't make money on the wire fee. They make money on the rate. You wire $50,000. The bank quotes a rate 2% worse than the real one. That's $1,000 per wire. Twelve wires a year. $12,000. <del>Silently</del><ins>Quietly</ins>. Nobody sends you a notification that says you just lost $1,000 to the spread. It's just a worse rate, on every wire, every month, every year. The whole industry <del>is built</del><ins>runs</ins> on you not auditing the rate. Specialist FX rails are at 0.3 to 0.5%. That's the gap. <del>That's the game. </del>WorldFirst <del>doesn't play it</del><ins>is built differently</ins>. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. That's the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner running sourcing out of China. The 2% rate gap is the thing you're not auditing. You'd renegotiate a supplier over a 2% price hike. You'd switch a 3PL over a 2% margin shift. But the 2% your bank takes on every wire? You don't even see it. Twelve wires a year. $50K each. $12,000 quietly absorbed. That's a hire. That's an extra container. That's your fourth-quarter bonus. And it's recurring. Every year. Stop. Audit the rate. Compare your bank to a specialist FX rail at 0.3 to 0.5%. WorldFirst runs that rail. Near-interbank rate. Same-day to Chinese accounts. The 2% you stopped seeing is the 2% you can get back. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner running sourcing out of China. The 2% rate gap is the thing you're not auditing. You'd renegotiate a supplier over a 2% price hike. You'd switch a 3PL over a 2% margin shift. But the 2% your bank takes on every wire? You don't even see it. Twelve wires a year. $50K each. $12,000 quietly absorbed. That's a hire. That's an extra container. That's your fourth-quarter bonus. And it's recurring. Every year. Audit the rate. Compare your bank to a specialist FX rail at 0.3 to 0.5%. WorldFirst runs that rail. Near-interbank rate. Same-day to Chinese accounts. The 2% you stopped seeing is the 2% you can get back. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner running sourcing out of China. The 2% rate gap is the thing you're not auditing. You'd renegotiate a supplier over a 2% price hike. You'd switch a 3PL over a 2% margin shift. But the 2% your bank takes on every wire? You don't even see it. Twelve wires a year. $50K each. $12,000 quietly absorbed. That's a hire. That's an extra container. That's your fourth-quarter bonus. And it's recurring. Every year. <del>Stop. </del>Audit the rate. Compare your bank to a specialist FX rail at 0.3 to 0.5%. WorldFirst runs that rail. Near-interbank rate. Same-day to Chinese accounts. The 2% you stopped seeing is the 2% you can get back. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (2% FX rate margin baked into bank quote vs specialist FX rails at 0.3 to 0.5%) is real and well-supported by findings. The $1,000 per wire and $12,000 annual figures arithmetically check out for a $50K wire at exactly 2%. Main risk is presenting 2% as universal when it varies by bank, currency pair, and corridor. A Maybank user in Malaysia paying CNY may see different margins than a US bank wiring USD to CNY. 'Salary/inventory/fourth-quarter margin' is emotive but defensible.",
+      "skeptic_comments": [
+        {
+          "text": "2% on every wire? My Maybank not so high lah. Where the number from?",
+          "severity": "high"
+        },
+        {
+          "text": "I don't do 12 wires a year. Maybe 4 or 5. Numbers feel inflated.",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? Never hear before. Got license Malaysia?",
+          "severity": "high"
+        },
+        {
+          "text": "Specialist rail 0.3-0.5%? Show me real rate screenshot, not just claim.",
+          "severity": "mid"
+        },
+        {
+          "text": "Same day to China? My bank also say same day. Then what's different?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "5-year extrapolation ($60K) is the riskiest claim. Assumes 2% margin holds constant on every wire, $50K per wire, 12 wires a year, for 60 months without any rate improvement, renegotiation, or wire-volume change. No SMB will accept that at face value. 'Runway/hire/container' is heavy emotive stacking on top of an unverifiable compound. The core 1-year math ($12K) is defensible; the multi-year compound is where the audit risk lives.",
+      "skeptic_comments": [
+        {
+          "text": "5 years $60K? You assume my bank never improve, never negotiate. Not real.",
+          "severity": "high"
+        },
+        {
+          "text": "Compound across the decade? Bro I might not even use same bank in 10 years.",
+          "severity": "high"
+        },
+        {
+          "text": "Where the 2% come from? My HLB cheaper than that.",
+          "severity": "high"
+        },
+        {
+          "text": "Runway, hire, container. Sound like script, not real.",
+          "severity": "mid"
+        },
+        {
+          "text": "0.3-0.5% on specialist rail, plus how much fee leh? Got hidden.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "'Skimmed' softened to 'quietly kept' reduces but doesn't eliminate the implied wrongdoing. Banks disclose FX margin in T&Cs even if buried, so 'funding their FX desk' framing is opinion not fact. 'Decades' is a sweeping claim. 'Business owners look at fees not rates' is a slight insult that puts the audience on defensive. Core math is defensible. Tone is the red flag, not the numbers.",
+      "skeptic_comments": [
+        {
+          "text": "Quietly kept? They disclose in T&C what. Not theft if I sign.",
+          "severity": "high"
+        },
+        {
+          "text": "Funding their FX desk? Cmon now you trying too hard.",
+          "severity": "high"
+        },
+        {
+          "text": "You call me stupid for not reading rate? Thanks for the ad.",
+          "severity": "high"
+        },
+        {
+          "text": "Got proof on 2%? Show me actual mid-market vs bank quote.",
+          "severity": "high"
+        },
+        {
+          "text": "Banks doing this for decades, but WorldFirst how many years old?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Cleanest of the Hormozi set. Mechanism explanation (fee vs rate distinction, baked-in spread) is technically accurate and well-supported by findings. 'Gap is 1.5 to 1.7 percentage points per wire' is the exact range from the source findings, which is good. Main red flag is still 2% universalised without 'typically' qualifier and the comparison framing as if every bank charges 2% and every specialist charges 0.3-0.5%. Some banks beat 2%; some specialists charge more.",
+      "skeptic_comments": [
+        {
+          "text": "Ok the fee vs rate thing makes sense. But 2% always? Not always.",
+          "severity": "mid"
+        },
+        {
+          "text": "My bank rate not that bad. Maybe US bank different.",
+          "severity": "mid"
+        },
+        {
+          "text": "1.5 to 1.7 points sounds right. But WorldFirst's specialist rate is what exactly?",
+          "severity": "mid"
+        },
+        {
+          "text": "If banks make billions, how WorldFirst make money? Free?",
+          "severity": "high"
+        },
+        {
+          "text": "Who regulate WorldFirst in Malaysia leh?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Three-numbers-stack format is clean and educational. $50K x 12 x 2% = $12K is arithmetically airtight. 'Typical SMB order' and 'normal cadence' qualifiers are honest hedges. Main risk is still the 2% universal assumption. The 'you need to look' close is restrained and defensible. Overall low drama, high math accuracy. The only real audit point is the 2% number itself.",
+      "skeptic_comments": [
+        {
+          "text": "12 wires a year typical? I do more like 6. Half the number.",
+          "severity": "mid"
+        },
+        {
+          "text": "2% rate margin always? Got source la, my bank lower.",
+          "severity": "high"
+        },
+        {
+          "text": "Worth a look ok but who is WorldFirst leh. Ant Group? Trust them or not?",
+          "severity": "high"
+        },
+        {
+          "text": "0.3 to 0.5% on specialist rail, plus monthly fee? Got hidden cost?",
+          "severity": "mid"
+        },
+        {
+          "text": "Math checks out but feels like ad. Real customer story would help.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Soft positioning of bank as 'wrong tool' rather than 'evil' is defensible. Core math (2% x 12 wires x $50K = $12K) is arithmetically clean. 'Not on a statement, in the rate itself' is technically accurate and educational. The 'gap is your margin' framing is opinion but defensible. Main risk remains the universal 2% figure without qualifier and the implicit assumption that every SMB does exactly 12 wires of $50K.",
+      "skeptic_comments": [
+        {
+          "text": "Wrong tool ok, fair. But who is WorldFirst leh? Never heard.",
+          "severity": "high"
+        },
+        {
+          "text": "Why 2%? My bank not so high. Got source?",
+          "severity": "high"
+        },
+        {
+          "text": "0.3-0.5%, plus how much in fees? Subscription? Min wire?",
+          "severity": "mid"
+        },
+        {
+          "text": "12 wires of 50K? My pattern different. Smaller wires more often.",
+          "severity": "mid"
+        },
+        {
+          "text": "Sound like ad. Show me actual rate comparison.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "'Most expensive line nobody is auditing' is bold opinion framed as opinion ('nobody talks about it'), which is defensible Gary Vee voice. The flip math (specialist at 0.5% = $250 per wire = $3K a year, gap $9K) is fresh and arithmetically honest. Uses 0.5% rather than 0.3% which is more conservative. Main risk is still 2% universalised. 'Your margin lives in the rate' is a clean opinion-style close.",
+      "skeptic_comments": [
+        {
+          "text": "Most expensive line? Got rent, got payroll, got inventory leh. Dramatic.",
+          "severity": "mid"
+        },
+        {
+          "text": "$250 per wire on specialist rail, sure or not? Got fee on top?",
+          "severity": "mid"
+        },
+        {
+          "text": "Where 2% number from? Show me my bank's spread vs mid-market.",
+          "severity": "high"
+        },
+        {
+          "text": "Tool problem ok. But which specialist? WorldFirst is who?",
+          "severity": "high"
+        },
+        {
+          "text": "Compound 3 years $36K. You assume nothing change. Real life I switch around.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Low",
+      "analysis": "Cleanest of the Gary Vee set. The 'fine tool for payroll, wrong tool for supplier payments' framing is fair and non-accusatory. 'Built for this exact use case' is defensible. Math is the same defensible $12K figure. 'Your margin walking out the door' is opinion, framed as opinion. Lowest red flag because the tone is most neutral toward the bank while still making the comparison.",
+      "skeptic_comments": [
+        {
+          "text": "Right tool framing fair. But which specialist? Compare 3-4 options la.",
+          "severity": "mid"
+        },
+        {
+          "text": "2% on every wire to China? Where the number from? Show me.",
+          "severity": "high"
+        },
+        {
+          "text": "0.3-0.5%, then how much subscription fee for the account?",
+          "severity": "mid"
+        },
+        {
+          "text": "Same day to Chinese accounts, including 1688 supplier? Or only big bank?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst Ant Group ah? Trust or not?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Industry runs on you not auditing the rate' is opinion framed as opinion. 'Banks make money on the rate not the fee' is largely true and educational. 'Rate you see is the rate you get' on WorldFirst side is a marketing claim that a skeptic could test against the actual published rate. 'No notification' is true and a fair observation. Main red flag is still 2% universalised, and the slightly conspiratorial framing may put skeptical Malaysian SMBs on defensive.",
+      "skeptic_comments": [
+        {
+          "text": "Industry runs on me not auditing? Bit conspiracy.",
+          "severity": "mid"
+        },
+        {
+          "text": "Banks make money on rate, fair. But 2% always? Show me real spread.",
+          "severity": "high"
+        },
+        {
+          "text": "Rate you see is rate you get, sure? Got CN side bank fee or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad. Got testimonial from real SME?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Never seen any ad in Malaysia.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Low",
+      "analysis": "Strongest framing of the set: 'You'd renegotiate a supplier over 2%, you'd switch a 3PL over 2%, but the 2% your bank takes you don't see' is a sharp, accurate comparison that's hard to argue with. The recurring point ('every year') is honest. 'Audit the rate' is a fair ask. Math checks out. Main risk is still the 2% universalisation. Tone is more neutral than the harder versions, making this the lowest red flag of the Gary Vee set alongside PG3.",
+      "skeptic_comments": [
+        {
+          "text": "Fair point about renegotiating supplier 2% but not auditing bank. Hits home.",
+          "severity": "low"
+        },
+        {
+          "text": "Where 2% number from leh? Show me my Maybank vs specialist.",
+          "severity": "high"
+        },
+        {
+          "text": "12 wires of 50K. Some months no wire some months 3. Number not exact.",
+          "severity": "mid"
+        },
+        {
+          "text": "0.3-0.5% specialist, plus monthly account fee? FX margin all-in cost?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst Ant Group right? Bagus, but still want to see review.",
+          "severity": "mid"
+        }
+      ]
+    }
+  }
+}

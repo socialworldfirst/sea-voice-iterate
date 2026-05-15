@@ -1,0 +1,347 @@
+{
+  "angle_id": "P1-A13-1",
+  "title": "How banks charge you nothing and still keep $300",
+  "card_id": "P1-A13",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner wiring money to Chinese suppliers, your bank has two ways to charge you. One you see. One you don't. Here's the deal. The wire fee is visible. 25 bucks. 40 bucks. Whatever your bank charges. That's the number you stare at. The rate margin is invisible. 1 to 3 percent of the wire amount. Buried inside the FX rate itself. On a 10K wire at 3 percent, that's 300 dollars gone. No line item. No receipt. Nobody itemises it because they don't have to. Your confirmation literally says fee waived while the rate is 3 percent off Google's mid-market. Both facts coexist legally. Stop trusting the fee line. Start checking the rate. WorldFirst gives you near mid-market rates. Same rate Google shows you. If you're sending money to China and you're still reading the fee line, you're missing where the cost actually lives. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner wiring money to Chinese suppliers, your bank has two ways to charge you. One you see. One you don't. Here's the deal. The wire fee is visible. 25 bucks. 40 bucks. Whatever your bank charges. That's the number you stare at. The rate margin is invisible. 1 to 3 percent of the wire amount. Buried inside the FX rate itself. On a 10K wire at 3 percent, that's 300 dollars gone. No line item. No receipt. Nobody itemises it because they don't have to. Your confirmation says fee waived while the rate is 3 percent off Google's mid-market. Both facts coexist legally. Worth checking the rate, not just the fee line. WorldFirst gives you near mid-market rates. Same rate Google shows you. If you're sending money to China and you're still reading the fee line, you're missing where the cost actually lives. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner wiring money to Chinese suppliers, your bank has two ways to charge you. One you see. One you don't. Here's the deal. The wire fee is visible. 25 bucks. 40 bucks. Whatever your bank charges. That's the number you stare at. The rate margin is invisible. 1 to 3 percent of the wire amount. Buried inside the FX rate itself. On a 10K wire at 3 percent, that's 300 dollars gone. No line item. No receipt. Nobody itemises it because they don't have to. Your confirmation <del>literally </del>says fee waived while the rate is 3 percent off Google's mid-market. Both facts coexist legally. <del>Stop trusting the fee line. Start checking the rate</del><ins>Worth checking the rate, not just the fee line</ins>. WorldFirst gives you near mid-market rates. Same rate Google shows you. If you're sending money to China and you're still reading the fee line, you're missing where the cost actually lives. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You wire 10K to your Chinese supplier. The receipt says fee waived. You smile. You shouldn't. The rate on that wire was 3 percent off Google's mid-market rate. That's 300 dollars your bank just took. Not as a fee. As a margin. Buried inside the exchange rate. Now do that twice a month. 600 a month. 7,200 a year. Run a business that wires 30K a month for five years and your bank quietly pocketed 54,000 dollars from you. That's a forklift. That's a year of warehouse rent. That's a hire. And the kicker. 35 percent of business owners surveyed already call this their top frustration, and most still don't know it's 300 bucks per 10K. Listen. WorldFirst sends the same wire at near mid-market rates. No hidden margin baked into the rate. The 300 stays with you. Every wire. Every month. Every year. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You wire 10K to your Chinese supplier. The receipt says fee waived. You smile. You shouldn't. The rate on that wire was 3 percent off Google's mid-market rate. That's 300 dollars your bank just took. Not as a fee. As a margin. Buried inside the exchange rate. Now do that twice a month. 600 a month. 7,200 a year. Run a business that wires 30K a month for five years and your bank quietly took 54,000 dollars from you. That's a forklift. That's a year of warehouse rent. That's a hire. And the kicker. 35 percent of business owners surveyed already call this their top frustration, and most still don't know it's 300 bucks per 10K. WorldFirst sends the same wire at near mid-market rates. No hidden margin baked into the rate. The 300 stays with you. Every wire. Every month. Every year. Search WorldFirst.",
+        "diff_markup": "Watch this. You wire 10K to your Chinese supplier. The receipt says fee waived. You smile. You shouldn't. The rate on that wire was 3 percent off Google's mid-market rate. That's 300 dollars your bank just took. Not as a fee. As a margin. Buried inside the exchange rate. Now do that twice a month. 600 a month. 7,200 a year. Run a business that wires 30K a month for five years and your bank quietly <del>pocketed</del><ins>took</ins> 54,000 dollars from you. That's a forklift. That's a year of warehouse rent. That's a hire. And the kicker. 35 percent of business owners surveyed already call this their top frustration, and most still don't know it's 300 bucks per 10K. <del>Listen. </del>WorldFirst sends the same wire at near mid-market rates. No hidden margin baked into the rate. The 300 stays with you. Every wire. Every month. Every year. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank charged you 300 dollars on your last wire to China and the confirmation said fee waived. Here's how. You wired 10K. The fee column said zero. You felt clever. You missed it. The rate they applied was 3 percent off the real one. The one Google shows. 300 dollars pulled straight out of the rate, never landed as a line item, never refunded. Your bank gets to advertise no transfer fee and keep the money. Legal. Standard. Every business owner who only checks the fee column gets the same treatment. I'll say it. This isn't a glitch. This is the product. WorldFirst is different. Near mid-market rates. The same number Google shows when you search USD CNY. The 300 stays in your account. Stop reading the fee column. Read the rate. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank charged you 300 dollars on your last wire to China and the confirmation said fee waived. Here's how. You wired 10K. The fee column said zero. You felt clever. You missed it. The rate they applied was 3 percent off the real one. The one Google shows. 300 dollars pulled straight out of the rate, never landed as a line item, never refunded. Your bank gets to advertise no transfer fee and keep the money. Legal. Standard. Every business owner who only checks the fee column gets the same treatment. This isn't a glitch. This is the product. WorldFirst is different. Near mid-market rates. The same number Google shows when you search USD CNY. The 300 stays in your account. Worth reading the rate, not just the fee column. Search WorldFirst.",
+        "diff_markup": "Your bank charged you 300 dollars on your last wire to China and the confirmation said fee waived. Here's how. You wired 10K. The fee column said zero. You felt clever. You missed it. The rate they applied was 3 percent off the real one. The one Google shows. 300 dollars pulled straight out of the rate, never landed as a line item, never refunded. Your bank gets to advertise no transfer fee and keep the money. Legal. Standard. Every business owner who only checks the fee column gets the same treatment. <del>I'll say it. </del>This isn't a glitch. This is the product. WorldFirst is different. Near mid-market rates. The same number Google shows when you search USD CNY. The 300 stays in your account. <del>Stop reading the fee column. Read</del><ins>Worth reading</ins> the rate<ins>, not just the fee column</ins>. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners don't realise when they pay Chinese suppliers. The fee is not the cost. You see fee waived on the wire confirmation. You think the transfer was free. Wrong. Banks have two charging mechanisms running in parallel. Mechanism one is the visible wire fee. 25 to 40 bucks. Sometimes waived as a promo. Mechanism two is the FX rate margin. 1 to 3 percent of the wire amount, embedded in the exchange rate. Not a fee. A margin. Same money. Different label. On a 10K wire at 3 percent margin, that's 300 dollars. Same outcome as a 300 dollar fee. No itemisation. No disclosure. The two facts coexist legally. The bank waived the fee. The bank also kept 300 in the rate. Stop. WorldFirst skips the second mechanism. Near mid-market rates. The rate Google shows when you check USD CNY. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners don't realise when they pay Chinese suppliers. The fee is not the cost. You see fee waived on the wire confirmation. You think the transfer was free. Wrong. Banks have two charging mechanisms running in parallel. Mechanism one is the visible wire fee. 25 to 40 bucks. Sometimes waived as a promo. Mechanism two is the FX rate margin. 1 to 3 percent of the wire amount, embedded in the exchange rate. Not a fee. A margin. Same money. Different label. On a 10K wire at 3 percent margin, that's 300 dollars. Same outcome as a 300 dollar fee. No itemisation. No disclosure. The two facts coexist legally. The bank waived the fee. The bank also kept 300 in the rate. WorldFirst skips the second mechanism. Near mid-market rates. The rate Google shows when you check USD CNY. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners don't realise when they pay Chinese suppliers. The fee is not the cost. You see fee waived on the wire confirmation. You think the transfer was free. Wrong. Banks have two charging mechanisms running in parallel. Mechanism one is the visible wire fee. 25 to 40 bucks. Sometimes waived as a promo. Mechanism two is the FX rate margin. 1 to 3 percent of the wire amount, embedded in the exchange rate. Not a fee. A margin. Same money. Different label. On a 10K wire at 3 percent margin, that's 300 dollars. Same outcome as a 300 dollar fee. No itemisation. No disclosure. The two facts coexist legally. The bank waived the fee. The bank also kept 300 in the rate. <del>Stop. </del>WorldFirst skips the second mechanism. Near mid-market rates. The rate Google shows when you check USD CNY. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire money to China, you need to hear this. Real talk. Last time you sent 10K to a supplier, two things happened and you only checked one of them. One. Your bank waived the wire fee. You saw fee zero on the confirmation. Win. Two. Your bank quoted you a rate 3 percent off Google's mid-market rate and pocketed 300 dollars in the spread. You didn't see that anywhere. No line item. No receipt. The wire confirmation literally says fee waived next to a rate that just cost you 300 bucks. Both facts are legal. Both facts are normal. 35 percent of business owners say hidden fees are their top frustration, and most still only check the fee line. Stop checking the fee line. Start checking the rate. WorldFirst gives you near mid-market rates. The exact number Google shows. Same supplier. Same 10K. The 300 stays with you. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to China, you need to hear this. Last time you sent 10K to a supplier, two things happened and you only checked one of them. One. Your bank waived the wire fee. You saw fee zero on the confirmation. Win. Two. Your bank quoted you a rate 3 percent off Google's mid-market rate and pocketed 300 dollars in the spread. You didn't see that anywhere. No line item. No receipt. The wire confirmation says fee waived next to a rate that just cost you 300 bucks. Both facts are legal. Both facts are normal. 35 percent of business owners say hidden fees are their top frustration, and most still only check the fee line. Worth checking the rate, not just the fee line. WorldFirst gives you near mid-market rates. The exact number Google shows. Same supplier. Same 10K. The 300 stays with you. Search WorldFirst.",
+        "diff_markup": "If you wire money to China, you need to hear this. <del>Real talk. </del>Last time you sent 10K to a supplier, two things happened and you only checked one of them. One. Your bank waived the wire fee. You saw fee zero on the confirmation. Win. Two. Your bank quoted you a rate 3 percent off Google's mid-market rate and pocketed 300 dollars in the spread. You didn't see that anywhere. No line item. No receipt. The wire confirmation <del>literally </del>says fee waived next to a rate that just cost you 300 bucks. Both facts are legal. Both facts are normal. 35 percent of business owners say hidden fees are their top frustration, and most still only check the fee line. <del>Stop checking the fee line. Start checking the rate</del><ins>Worth checking the rate, not just the fee line</ins>. WorldFirst gives you near mid-market rates. The exact number Google shows. Same supplier. Same 10K. The 300 stays with you. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner wiring money to China. Your bank says no transfer fee. You smile. You move on. You just paid 300 bucks. Here's the deal. On a 10K wire, your bank marked up the FX rate by 3 percent. That's 300 dollars hidden inside the exchange rate. The fee column shows zero. The margin column doesn't exist on your confirmation. Both facts coexist. Legally. Standard practice. 35 percent of business owners already feel this and most still don't know the number is 300 per 10K. WorldFirst sends the same wire at near mid-market rates. The rate Google shows. No hidden margin baked into the rate. Stop trusting the fee line. The cost is in the rate. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner wiring money to China. Your bank says no transfer fee. You smile. You move on. You just paid 300 bucks. Here's the deal. On a 10K wire, your bank marked up the FX rate by 3 percent. That's 300 dollars hidden inside the exchange rate. The fee column shows zero. The margin column doesn't exist on your confirmation. Both facts coexist. Legally. Standard practice. 35 percent of business owners already feel this and most still don't know the number is 300 per 10K. WorldFirst sends the same wire at near mid-market rates. The rate Google shows. No hidden margin baked into the rate. Worth checking the rate, not just the fee line. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner wiring money to China. Your bank says no transfer fee. You smile. You move on. You just paid 300 bucks. Here's the deal. On a 10K wire, your bank marked up the FX rate by 3 percent. That's 300 dollars hidden inside the exchange rate. The fee column shows zero. The margin column doesn't exist on your confirmation. Both facts coexist. Legally. Standard practice. 35 percent of business owners already feel this and most still don't know the number is 300 per 10K. WorldFirst sends the same wire at near mid-market rates. The rate Google shows. No hidden margin baked into the rate. <del>Stop trusting the fee line. The cost is in the rate</del><ins>Worth checking the rate, not just the fee line</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. Your bank's most profitable product is the rate, not the fee. Watch the math. You wire 10K to your supplier in Shenzhen. The fee column says zero. The rate is 3 percent off Google's mid-market rate. That's 300 dollars they kept and never told you. One wire. Now run it. Two wires a month is 600. 7,200 a year. Over five years that's 36,000 dollars sitting in your bank's pocket. From one business. Pulled out of the FX rate. The fee line is the magic show. The rate is the trick. WorldFirst uses near mid-market rates. Same number Google shows. The 300 stays with you. Where it should be. Period.",
+        "iterated_vo": "Your bank's most profitable product is the rate, not the fee. Watch the math. You wire 10K to your supplier in Shenzhen. The fee column says zero. The rate is 3 percent off Google's mid-market rate. That's 300 dollars they kept and never told you. One wire. Now run it. Two wires a month is 600. 7,200 a year. Over five years that's 36,000 dollars sitting in your bank's pocket. From one business. Pulled out of the FX rate. The fee line is the magic show. The rate is the trick. WorldFirst uses near mid-market rates. Same number Google shows. The 300 stays with you. Where it should be.",
+        "diff_markup": "<del>I'll say it. </del>Your bank's most profitable product is the rate, not the fee. Watch the math. You wire 10K to your supplier in Shenzhen. The fee column says zero. The rate is 3 percent off Google's mid-market rate. That's 300 dollars they kept and never told you. One wire. Now run it. Two wires a month is 600. 7,200 a year. Over five years that's 36,000 dollars sitting in your bank's pocket. From one business. Pulled out of the FX rate. The fee line is the magic show. The rate is the trick. WorldFirst uses near mid-market rates. Same number Google shows. The 300 stays with you. Where it should be<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using fee column / right-tool reframe",
+        "original_vo": "Stop reading the fee column on your wire confirmation. I'm serious. The fee column is theatre. Banks waive the wire fee as a promo because the real money is somewhere else. The real money is in the FX rate. You send 10K to China. Confirmation says fee waived. You feel like you won. The rate they applied is 3 percent off Google's mid-market. That's 300 dollars they took without ever calling it a fee. Same outcome. Different column. Wrong tool for the job. WorldFirst is built for this. Near mid-market rates. The rate you see on Google. Same supplier. Same 10K. The 300 stays in your business. Use the right tool. Read the rate. Search WorldFirst. Now.",
+        "iterated_vo": "The fee column on your wire confirmation isn't where the cost lives. The fee column is theatre. Banks waive the wire fee as a promo because the real money is somewhere else. The real money is in the FX rate. You send 10K to China. Confirmation says fee waived. You feel like you won. The rate they applied is 3 percent off Google's mid-market. That's 300 dollars they took without ever calling it a fee. Same outcome. Different column. Wrong tool for the job. WorldFirst is built for this. Near mid-market rates. The rate you see on Google. Same supplier. Same 10K. The 300 stays in your business. Worth reading the rate, not just the fee column. Search WorldFirst.",
+        "diff_markup": "<del>Stop reading the fee column on your wire confirmation. I'm serious. </del><ins>The fee column on your wire confirmation isn't where the cost lives. </ins>The fee column is theatre. Banks waive the wire fee as a promo because the real money is somewhere else. The real money is in the FX rate. You send 10K to China. Confirmation says fee waived. You feel like you won. The rate they applied is 3 percent off Google's mid-market. That's 300 dollars they took without ever calling it a fee. Same outcome. Different column. Wrong tool for the job. WorldFirst is built for this. Near mid-market rates. The rate you see on Google. Same supplier. Same 10K. The 300 stays in your business. <del>Use the right tool. Read the rate</del><ins>Worth reading the rate, not just the fee column</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about cross-border wires. The fee line is decoration. The rate is the business. Your bank can advertise no transfer fee on the front of the brochure and quietly mark up the FX rate by 3 percent on the back end. Both facts are legal. Both facts coexist on the same confirmation. On a 10K wire, that 3 percent is 300 dollars. No line item. No notification. The wire receipt literally says fee waived next to a rate that just cost you 300 bucks. 35 percent of business owners say this is their top frustration. Most still don't know it's 300 per 10K. WorldFirst doesn't play this game. Near mid-market rates. The rate Google shows when you search USD CNY. Same wire. The 300 stays with you. That's the difference. Period.",
+        "iterated_vo": "Here's something nobody's telling you about cross-border wires. The fee line is decoration. The rate is the business. Your bank can advertise no transfer fee on the front of the brochure and quietly mark up the FX rate by 3 percent on the back end. Both facts are legal. Both facts coexist on the same confirmation. On a 10K wire, that 3 percent is 300 dollars. No line item. No notification. The wire receipt says fee waived next to a rate that just cost you 300 bucks. 35 percent of business owners say this is their top frustration. Most still don't know it's 300 per 10K. WorldFirst is built differently. Near mid-market rates. The rate Google shows when you search USD CNY. Same wire. The 300 stays with you. That's the difference.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about cross-border wires. The fee line is decoration. The rate is the business. Your bank can advertise no transfer fee on the front of the brochure and quietly mark up the FX rate by 3 percent on the back end. Both facts are legal. Both facts coexist on the same confirmation. On a 10K wire, that 3 percent is 300 dollars. No line item. No notification. The wire receipt <del>literally </del>says fee waived next to a rate that just cost you 300 bucks. 35 percent of business owners say this is their top frustration. Most still don't know it's 300 per 10K. WorldFirst <del>doesn't play this game</del><ins>is built differently</ins>. Near mid-market rates. The rate Google shows when you search USD CNY. Same wire. The 300 stays with you. That's the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sending money to China. Your bank is not your friend on this one. They send you a wire confirmation that says fee waived. You think they're doing you a favour. They're not. The 3 percent margin baked into the FX rate already covered the fee three times over. On a 10K wire that's 300 dollars. You call the bank. They show you the receipt. Fee waived. They're right. The money came out of the rate. They never have to call it a fee. Every wire. Same trick. I see it every week. Every single week. Stop. WorldFirst. Near mid-market rates. The rate Google shows. Same supplier. Same 10K. The 300 stays in your business. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sending money to China. Your bank is not your friend on this one. They send you a wire confirmation that says fee waived. You think they're doing you a favour. They're not. The 3 percent margin baked into the FX rate already covered the fee three times over. On a 10K wire that's 300 dollars. You call the bank. They show you the receipt. Fee waived. They're right. The money came out of the rate. They never have to call it a fee. Every wire. Same pattern. This happens every week. Every single week. WorldFirst. Near mid-market rates. The rate Google shows. Same supplier. Same 10K. The 300 stays in your business. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sending money to China. Your bank is not your friend on this one. They send you a wire confirmation that says fee waived. You think they're doing you a favour. They're not. The 3 percent margin baked into the FX rate already covered the fee three times over. On a 10K wire that's 300 dollars. You call the bank. They show you the receipt. Fee waived. They're right. The money came out of the rate. They never have to call it a fee. Every wire. Same <del>trick</del><ins>pattern</ins>. <del>I see it</del><ins>This happens</ins> every week. Every single week. <del>Stop. </del>WorldFirst. Near mid-market rates. The rate Google shows. Same supplier. Same 10K. The 300 stays in your business. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (fee column zero while FX rate carries a 1 to 3 percent margin) is accurate and matches published industry data including the Airwallex 35 percent figure and the Bancoli 3 percent / $300 per 10K case. The phrase 'both facts coexist legally' is true, but the implied universality of 3 percent is risky. Some banks run 1 to 1.5 percent on USD CNY for higher-volume SME clients, so 300 dollars is a worst-case rather than typical. 'Near mid-market rates' on the WF side is also softer than the implication that the full 300 always stays with you.",
+      "skeptic_comments": [
+        {
+          "text": "3 percent ah? My Maybank give me 1.2 only la, where you get 3 from?",
+          "severity": "high"
+        },
+        {
+          "text": "Bro every video say 300 dollars 300 dollars. Show me actual receipt comparison la.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst who? Never see them before, got Bank Negara license or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Google mid market also not the rate I get bro, even your WorldFirst sure got margin.",
+          "severity": "mid"
+        },
+        {
+          "text": "Ok so I save 300. Then customer support, app crash, transfer fail how?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The 5 year compounding extrapolation (54,000 over five years on 30K monthly volume) is the highest-risk claim in the set. It assumes the 3 percent margin holds constant on every wire for 60 straight months, which any SMB will see as theoretical. 'Forklift / warehouse rent / hire' are emotive anchors layered on top of an unverifiable extrapolation. The 35 percent Airwallex stat is real and well-sourced, but pairing it with the compound number makes the whole piece feel like a sales pitch dressed as a stat.",
+      "skeptic_comments": [
+        {
+          "text": "54K over 5 years? You assume bank never lower rate, never negotiate. Not reality bro.",
+          "severity": "high"
+        },
+        {
+          "text": "Wah forklift warehouse rent. Add more drama can or not.",
+          "severity": "high"
+        },
+        {
+          "text": "Twice a month 10K? Some month I send 50K, some month I send nothing. Math wrong.",
+          "severity": "high"
+        },
+        {
+          "text": "If 35% complain why my supplier never complain, only this video complain.",
+          "severity": "mid"
+        },
+        {
+          "text": "Where the Airwallex survey link? Numbers without source = ad.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "'Charged you 300 dollars' is borderline because it's technically true on a 10K wire at 3 percent margin, but the casual reader may interpret 'charged' as a fee, which it legally isn't (it's a rate spread). 'Legal. Standard.' is fair framing. 'This isn't a glitch, this is the product' is opinion presented as fact and is defensible but punchy. WF claim 'the 300 stays in your account' is overconfident because WF still carries its own margin, just smaller.",
+      "skeptic_comments": [
+        {
+          "text": "Accuse my bank like this got proof or not, kena sue you know.",
+          "severity": "high"
+        },
+        {
+          "text": "Fee waived = no fee la, where got problem. You also can choose another bank.",
+          "severity": "high"
+        },
+        {
+          "text": "Sound very angry. Why ah? You work for WorldFirst is it.",
+          "severity": "high"
+        },
+        {
+          "text": "Aiyo my CIMB I check rate every time. Not every operator is dumb la.",
+          "severity": "mid"
+        },
+        {
+          "text": "300 dollar on 10K. What about smaller wire like 2K 3K, also 300 ah?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "This is the cleanest of the five. Mechanism-led explanation, no compounding extrapolation, no accusation tone. 'Same money. Different label.' is accurate. 'Two facts coexist legally' is well-supported. The 1 to 3 percent range is correctly stated as a range rather than a fixed 3 percent. The WF claim 'skips the second mechanism' is slightly strong because WF still has a margin, but framing 'near mid-market' is correct.",
+      "skeptic_comments": [
+        {
+          "text": "Ok the mechanism explanation actually clear leh. But still ad.",
+          "severity": "mid"
+        },
+        {
+          "text": "Maybank also got promo no fee for first 3 wires. So what makes WF different.",
+          "severity": "mid"
+        },
+        {
+          "text": "Near mid market = also got margin. Just smaller. Say la, don't hide.",
+          "severity": "mid"
+        },
+        {
+          "text": "Why I never see this 'two mechanisms' on Maybank app. Show evidence.",
+          "severity": "high"
+        },
+        {
+          "text": "If both facts legal then WorldFirst also can do this when they grow big. Right?",
+          "severity": "low"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Structurally similar to PH1 but with a stronger personal call-out and an explicit Airwallex stat. The numbered breakdown (one, two) is grounded. 'Both facts are legal. Both facts are normal.' is well-calibrated. Risk is the framing 'the 300 stays with you' which over-claims WF benefit because WF still has a spread, just narrower. The 35 percent figure helps credibility but needs source on screen.",
+      "skeptic_comments": [
+        {
+          "text": "Where Airwallex got this 35% data? Need link la, otherwise I cannot trust.",
+          "severity": "high"
+        },
+        {
+          "text": "10K wire 300 dollar margin. My wire is 5K only. So what 150? Worth the switch?",
+          "severity": "high"
+        },
+        {
+          "text": "Same 10K different rate. But your WorldFirst rate also different from Google.",
+          "severity": "mid"
+        },
+        {
+          "text": "Brother who is your supplier. SME wire 10K not many lo, mostly 2K 3K.",
+          "severity": "mid"
+        },
+        {
+          "text": "Ok I check rate. But changing bank is whole new account, new admin, new approval.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism is sound, Airwallex 35 percent stat is real. The line 'standard practice' is accurate. Risk lives in the universal 3 percent assumption, which is a worst-case bank margin rather than typical for SEA. 'No hidden margin baked into the rate' is overstated because WF has a margin, just much smaller. Brand-polished version softens this slightly but the 300 number still gets blamed for being too neat.",
+      "skeptic_comments": [
+        {
+          "text": "3 percent like very high leh. My OCBC 0.8 only on small wire.",
+          "severity": "high"
+        },
+        {
+          "text": "Standard practice my foot. Banks compete on rate also la.",
+          "severity": "high"
+        },
+        {
+          "text": "35% frustrated. So 65% not. Maybe banks not that bad?",
+          "severity": "mid"
+        },
+        {
+          "text": "Mention WorldFirst zero hidden margin. Sure ah, you compare exact mid market?",
+          "severity": "mid"
+        },
+        {
+          "text": "Real talk what real talk, also reading script.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "Same compounding-math risk as PH2. 36K over 5 years on 10K twice a month is extrapolation that assumes the margin stays constant for 60 months. 'Magic show / trick' framing is strong opinion presented as fact, fair for Gary Vee voice but lands as bias to a skeptical viewer. Stat-free claims like 'pulled out of the FX rate' are technically correct but need supporting visual for credibility.",
+      "skeptic_comments": [
+        {
+          "text": "36K over 5 years on 10K twice a month? My business not so consistent la.",
+          "severity": "high"
+        },
+        {
+          "text": "Magic show trick. Drama level so high. This not journalism, this performance.",
+          "severity": "high"
+        },
+        {
+          "text": "If everyone losing 36K then HSBC sure already get sued long ago, right?",
+          "severity": "high"
+        },
+        {
+          "text": "Where the actual receipt screenshot of WorldFirst vs bank? Show me side by side.",
+          "severity": "mid"
+        },
+        {
+          "text": "Run the math but no math source. Take my word for it ah.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'fee column is theatre' framing is opinionated but defensible given that wire fees are routinely waived as promos while FX margins stay loaded. The 3 percent assumption again sits on the higher end. 'Same outcome, different column' is a fair analogy. WF claim 'the 300 stays in your business' over-claims, since WF margin still exists, just smaller. Brand version pulls the worst of the rhetoric back which is good.",
+      "skeptic_comments": [
+        {
+          "text": "Theatre word so dramatic. My bank also offer fixed rate when I ask leh.",
+          "severity": "high"
+        },
+        {
+          "text": "Where got 3 percent universal. Some banks 0.8 some banks 2. You pick highest.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst rate also not Google rate exactly. Don't hide your margin la.",
+          "severity": "mid"
+        },
+        {
+          "text": "Ok worth checking rate. Then how. Show me where to check on Maybank app.",
+          "severity": "mid"
+        },
+        {
+          "text": "Right tool wrong tool. Aiyo your script template very obvious.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "Strong conspiratorial frame with the 'fee line is decoration, rate is the business' line, which is opinion as truth. Mechanism is accurate. Airwallex 35 percent is well-cited. Risk is the 'both facts legal, both facts coexist on the same confirmation' framing might lead a skeptic to ask for receipt evidence on-screen. Brand-polished version softens to 'something nobody's telling you' which dials it down sensibly.",
+      "skeptic_comments": [
+        {
+          "text": "Decoration. Wah so confident. You actually worked at bank or just opinion?",
+          "severity": "high"
+        },
+        {
+          "text": "If bank really keep 300 silently MAS or BNM sure already pull license la.",
+          "severity": "high"
+        },
+        {
+          "text": "Show me one actual wire receipt with rate next to mid market. Then I believe.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst sure also got margin. Just smaller you say. Smaller by how much la.",
+          "severity": "mid"
+        },
+        {
+          "text": "Brother Google mid market not the rate any bank use, even WF can't give that.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "Frame is 'bank is not your friend' which is opinion but well-anchored to the mechanism. The repeated 'every wire, same pattern' is fair characterisation since this is industry standard practice, not a one-off. 'I see this every week' is replaced with 'this happens every week' in the brand version, which is sensible because the creator isn't actually a banker. WF claim is well-bounded. Decent piece overall, just needs the 3 percent caveat.",
+      "skeptic_comments": [
+        {
+          "text": "Bank not friend la, of course. But WorldFirst is friend? Also business.",
+          "severity": "high"
+        },
+        {
+          "text": "Margin covered fee 3 times over. Where got such clean number bro.",
+          "severity": "high"
+        },
+        {
+          "text": "Every week every single week. Dramatic. Just say it happens often, calm down.",
+          "severity": "mid"
+        },
+        {
+          "text": "Ok if I switch to WorldFirst, what about supplier on Alipay only, can transfer?",
+          "severity": "mid"
+        },
+        {
+          "text": "I check rate sometimes. Bank give negotiated rate when wire big. So 300 not always.",
+          "severity": "mid"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "angle_id": "P2-A18-1",
+  "title": "The rate you see isn't the rate that exists",
+  "card_id": "P2-A18",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. Open Google right now. Type THB to CNY. Whatever number it shows you, that rate does not exist for your wallet. That's the mid-market rate. It's the rate banks use among themselves. The rate you actually get is a different number, a worse number, and the difference is called the spread. On a personal tool, that spread is usually 2 to 4 percent. On a business platform, it's 0.3 to 1 percent. Same currency pair. Same day. Same minute. Two different rates. On a 20,000 dollar supplier wire, 2 percent is 400 dollars. 0.5 percent is 100 dollars. That's 300 dollars that disappeared inside the rate. No line item. No fee notification. Just a worse number than Google showed you. Stop. WorldFirst quotes business-tier rates direct to business owners. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Open Google right now. Type THB to CNY. Whatever number it shows you, that rate does not exist for your wallet. That's the mid-market rate. It's the rate banks use among themselves. The rate you actually get is a different number, a worse number, and the difference is called the spread. On a personal tool, that spread is usually 2 to 4 percent. On a business platform, it's 0.3 to 1 percent. Same currency pair. Same day. Same minute. Two different rates. On a 20,000 dollar supplier wire, 2 percent is 400 dollars. 0.5 percent is 100 dollars. That's 300 dollars that disappeared inside the rate. No line item. No fee notification. Just a worse number than Google showed you. WorldFirst quotes business-tier rates direct to business owners. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>Open Google right now. Type THB to CNY. Whatever number it shows you, that rate does not exist for your wallet. That's the mid-market rate. It's the rate banks use among themselves. The rate you actually get is a different number, a worse number, and the difference is called the spread. On a personal tool, that spread is usually 2 to 4 percent. On a business platform, it's 0.3 to 1 percent. Same currency pair. Same day. Same minute. Two different rates. On a 20,000 dollar supplier wire, 2 percent is 400 dollars. 0.5 percent is 100 dollars. That's 300 dollars that disappeared inside the rate. No line item. No fee notification. Just a worse number than Google showed you. <del>Stop. </del>WorldFirst quotes business-tier rates direct to business owners. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You're paying Chinese suppliers 50,000 dollars a month. You're using a personal-tier transfer tool because it was easy to set up. Your spread is around 1.5 percent above what a business platform charges. 1.5 percent of 50,000 is 750 dollars. Per month. 750 dollars. Multiply by twelve months. That's 9,000 dollars a year. Disappearing inside the rate. Never appearing on a single line item. Never showing up as a fee. Just a slightly worse exchange rate every single transfer for an entire year. Over three years, 27,000 dollars. Over five, 45,000. That's a whole hire. That's a container of stock. That's your margin on an entire product line. Stop. The fix is one tier change. Business-tier FX quotes on a business-tier platform. WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You're paying Chinese suppliers 50,000 dollars a month. You're using a personal-tier transfer tool because it was easy to set up. Your spread is around 1.5 percent above what a business platform charges. 1.5 percent of 50,000 is 750 dollars. Per month. 750 dollars. Multiply by twelve months. That's 9,000 dollars a year. Disappearing inside the rate. Never appearing on a single line item. Never showing up as a fee. Just a slightly worse exchange rate every single transfer for an entire year. Over three years, 27,000 dollars. Over five, 45,000. That's a whole hire. That's a container of stock. That's your margin on an entire product line. The fix is one tier change. Business-tier FX quotes on a business-tier platform. WorldFirst. Search WorldFirst.",
+        "diff_markup": "Watch this. You're paying Chinese suppliers 50,000 dollars a month. You're using a personal-tier transfer tool because it was easy to set up. Your spread is around 1.5 percent above what a business platform charges. 1.5 percent of 50,000 is 750 dollars. Per month. 750 dollars. Multiply by twelve months. That's 9,000 dollars a year. Disappearing inside the rate. Never appearing on a single line item. Never showing up as a fee. Just a slightly worse exchange rate every single transfer for an entire year. Over three years, 27,000 dollars. Over five, 45,000. That's a whole hire. That's a container of stock. That's your margin on an entire product line. <del>Stop. </del>The fix is one tier change. Business-tier FX quotes on a business-tier platform. WorldFirst. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener + brutal specificity",
+        "original_vo": "Your bank stole 300 dollars from your last supplier wire and you can't even find it on the receipt. Here's why. You sent 20,000 dollars to your factory in CNY. Your bank's app showed you a rate. You signed off. The wire went through. What you didn't see is that the rate they used was 2 percent worse than the mid-market rate Google would have shown you. 2 percent of 20,000 is 400 dollars. A business-tier platform on the same wire would have charged 0.5 percent. That's 100 dollars. The difference, 300 dollars, sat inside the spread. Not labelled. Not itemised. Not flagged. Just baked into the rate quote on screen. They didn't lie. They just quoted you the retail tier when you should have been on the business tier. Stop signing off on personal-tier wires for business volume. WorldFirst is built for business-tier spreads. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank pocketed 300 dollars from your last supplier wire and you can't even find it on the receipt. Here's why. You sent 20,000 dollars to your factory in CNY. Your bank's app showed you a rate. You signed off. The wire went through. What you didn't see is that the rate they used was 2 percent worse than the mid-market rate Google would have shown you. 2 percent of 20,000 is 400 dollars. A business-tier platform on the same wire would have charged 0.5 percent. That's 100 dollars. The difference, 300 dollars, sat inside the spread. Not labelled. Not itemised. Not flagged. Just baked into the rate quote on screen. They didn't lie. They just quoted you the retail tier when you should have been on the business tier. WorldFirst is built for business-tier spreads. Search WorldFirst.",
+        "diff_markup": "Your bank <del>stole</del><ins>pocketed</ins> 300 dollars from your last supplier wire and you can't even find it on the receipt. Here's why. You sent 20,000 dollars to your factory in CNY. Your bank's app showed you a rate. You signed off. The wire went through. What you didn't see is that the rate they used was 2 percent worse than the mid-market rate Google would have shown you. 2 percent of 20,000 is 400 dollars. A business-tier platform on the same wire would have charged 0.5 percent. That's 100 dollars. The difference, 300 dollars, sat inside the spread. Not labelled. Not itemised. Not flagged. Just baked into the rate quote on screen. They didn't lie. They just quoted you the retail tier when you should have been on the business tier. <del>Stop signing off on personal-tier wires for business volume. </del>WorldFirst is built for business-tier spreads. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the part of currency exchange most business owners don't understand. There are actually two rates running in parallel at the same moment. Rate one. The mid-market rate. The rate banks quote to each other when they trade currency wholesale. That's the rate Google shows you. Rate two. The retail rate. The rate quoted to anyone outside the wholesale system. That includes you. The retail rate already has a margin baked into it. On personal-tier products that margin is 2 to 4 percent. On business-tier products it's 0.3 to 1 percent. Same currency pair. Same exact second. Two different prices depending on which tier you're on. The retail margin is called the spread. It's how providers make money on FX. They quote you a slightly worse rate than what they're actually paying. Stop accepting retail-tier spreads on business volume. WorldFirst quotes business-tier on every transfer. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the part of currency exchange most business owners don't understand. There are actually two rates running in parallel at the same moment. Rate one. The mid-market rate. The rate banks quote to each other when they trade currency wholesale. That's the rate Google shows you. Rate two. The retail rate. The rate quoted to anyone outside the wholesale system. That includes you. The retail rate already has a margin baked into it. On personal-tier products that margin is 2 to 4 percent. On business-tier products it's 0.3 to 1 percent. Same currency pair. Same exact second. Two different prices depending on which tier you're on. The retail margin is called the spread. It's how providers make money on FX. They quote you a slightly worse rate than what they're actually paying. WorldFirst quotes business-tier on every transfer. Search WorldFirst.",
+        "diff_markup": "Here's the part of currency exchange most business owners don't understand. There are actually two rates running in parallel at the same moment. Rate one. The mid-market rate. The rate banks quote to each other when they trade currency wholesale. That's the rate Google shows you. Rate two. The retail rate. The rate quoted to anyone outside the wholesale system. That includes you. The retail rate already has a margin baked into it. On personal-tier products that margin is 2 to 4 percent. On business-tier products it's 0.3 to 1 percent. Same currency pair. Same exact second. Two different prices depending on which tier you're on. The retail margin is called the spread. It's how providers make money on FX. They quote you a slightly worse rate than what they're actually paying. <del>Stop accepting retail-tier spreads on business volume. </del>WorldFirst quotes business-tier on every transfer. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you pay Chinese suppliers, you need to hear this. Real talk. The rate on Google is not the rate you get. The rate on your bank's app is not the rate you get either. There are two FX rates running side by side every minute of every day. The mid-market rate, which banks trade among themselves. And the retail rate, which is what gets quoted to you. The retail rate has a margin built in. On personal tier, 2 to 4 percent. On business tier, 0.3 to 1 percent. That gap is the spread. It's never a line item. Never a fee notification. Just a slightly worse number than what Google showed you. On a 20,000 dollar supplier wire that gap is 300 dollars. On 50,000 a month for a year, it's 9,000 dollars. Stop running business volume through personal-tier spreads. WorldFirst quotes business-tier rates by default. If you pay suppliers in China, WorldFirst is worth checking. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you pay Chinese suppliers, you need to hear this. The rate on Google is not the rate you get. The rate on your bank's app is not the rate you get either. There are two FX rates running side by side every minute of every day. The mid-market rate, which banks trade among themselves. And the retail rate, which is what gets quoted to you. The retail rate has a margin built in. On personal tier, 2 to 4 percent. On business tier, 0.3 to 1 percent. That gap is the spread. It's never a line item. Never a fee notification. Just a slightly worse number than what Google showed you. On a 20,000 dollar supplier wire that gap is 300 dollars. On 50,000 a month for a year, it's 9,000 dollars. WorldFirst quotes business-tier rates by default. If you pay suppliers in China, WorldFirst is worth checking. Search WorldFirst.",
+        "diff_markup": "If you pay Chinese suppliers, you need to hear this. <del>Real talk. </del>The rate on Google is not the rate you get. The rate on your bank's app is not the rate you get either. There are two FX rates running side by side every minute of every day. The mid-market rate, which banks trade among themselves. And the retail rate, which is what gets quoted to you. The retail rate has a margin built in. On personal tier, 2 to 4 percent. On business tier, 0.3 to 1 percent. That gap is the spread. It's never a line item. Never a fee notification. Just a slightly worse number than what Google showed you. On a 20,000 dollar supplier wire that gap is 300 dollars. On 50,000 a month for a year, it's 9,000 dollars. <del>Stop running business volume through personal-tier spreads. </del>WorldFirst quotes business-tier rates by default. If you pay suppliers in China, WorldFirst is worth checking. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying suppliers overseas. The rate you see on Google is not the rate you actually get. Google shows the mid-market rate. The rate banks trade among themselves. Your wallet sees a different rate. A retail rate. With a 2 to 4 percent margin already baked in. That margin is called the spread. It doesn't show up as a fee. It just shows up as a slightly worse number than Google quoted. Same currency pair. Same minute. Two different rates running in parallel. Listen. WorldFirst quotes business-tier spreads. The same pair you'd pay 2 percent for on a personal tool, you'd pay closer to 0.5 percent for on WorldFirst. On a 20,000 dollar wire that's a 300 dollar difference. On a single transfer. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying suppliers overseas. The rate you see on Google is not the rate you actually get. Google shows the mid-market rate. The rate banks trade among themselves. Your wallet sees a different rate. A retail rate. With a 2 to 4 percent margin already baked in. That margin is called the spread. It doesn't show up as a fee. It just shows up as a slightly worse number than Google quoted. Same currency pair. Same minute. Two different rates running in parallel. WorldFirst quotes business-tier spreads. The same pair you'd pay 2 percent for on a personal tool, you'd pay closer to 0.5 percent for on WorldFirst. On a 20,000 dollar wire that's a 300 dollar difference. On a single transfer. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying suppliers overseas. The rate you see on Google is not the rate you actually get. Google shows the mid-market rate. The rate banks trade among themselves. Your wallet sees a different rate. A retail rate. With a 2 to 4 percent margin already baked in. That margin is called the spread. It doesn't show up as a fee. It just shows up as a slightly worse number than Google quoted. Same currency pair. Same minute. Two different rates running in parallel. <del>Listen. </del>WorldFirst quotes business-tier spreads. The same pair you'd pay 2 percent for on a personal tool, you'd pay closer to 0.5 percent for on WorldFirst. On a 20,000 dollar wire that's a 300 dollar difference. On a single transfer. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. The exchange rate you see is not real for you. The rate on Google is the wholesale rate. The rate banks use when they trade with each other. You're not in that club. You see retail. Retail has a margin built in. On consumer transfer tools, that margin is 2 to 4 percent. On business-grade platforms, 0.3 to 1 percent. Same pair. Same second. Two different prices. If you're sending 50,000 a month to suppliers and you're on a consumer tool, you're eating roughly 1.5 percent more than a business tool would charge. 1.5 percent of 50,000 is 750. Per month. 9,000 a year. Disappearing inside the rate. Never showing up as a fee. WorldFirst quotes business-tier rates. That 9,000 a year goes back into your business. Where it belongs. Period.",
+        "iterated_vo": "The exchange rate you see is not real for you. The rate on Google is the wholesale rate. The rate banks use when they trade with each other. You're not in that club. You see retail. Retail has a margin built in. On consumer transfer tools, that margin is 2 to 4 percent. On business-grade platforms, 0.3 to 1 percent. Same pair. Same second. Two different prices. If you're sending 50,000 a month to suppliers and you're on a consumer tool, you're eating roughly 1.5 percent more than a business tool would charge. 1.5 percent of 50,000 is 750. Per month. 9,000 a year. Disappearing inside the rate. Never showing up as a fee. WorldFirst quotes business-tier rates. That 9,000 a year goes back into your business. Where it belongs.",
+        "diff_markup": "<del>I'll say it. </del>The exchange rate you see is not real for you. The rate on Google is the wholesale rate. The rate banks use when they trade with each other. You're not in that club. You see retail. Retail has a margin built in. On consumer transfer tools, that margin is 2 to 4 percent. On business-grade platforms, 0.3 to 1 percent. Same pair. Same second. Two different prices. If you're sending 50,000 a month to suppliers and you're on a consumer tool, you're eating roughly 1.5 percent more than a business tool would charge. 1.5 percent of 50,000 is 750. Per month. 9,000 a year. Disappearing inside the rate. Never showing up as a fee. WorldFirst quotes business-tier rates. That 9,000 a year goes back into your business. Where it belongs<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tier reframe",
+        "original_vo": "Stop running your business FX through your personal banking app. I'm serious. There are two rate tiers in the world of currency exchange. Retail and business. Retail is what your bank app quotes you. 2 to 4 percent above mid-market. Business is what wholesale traders see. 0.3 to 1 percent above mid-market. If you're a business owner paying suppliers and you're transferring through a personal-tier app, you're being quoted retail. Every single time. Same provider can quote you a business-tier rate if you're on the business account. Same currency, same minute, different price. This isn't a hidden fee. This is just the rate they default-quote you because of which tier you're on. Stop running business volume on a retail tier. WorldFirst is business-tier by default. Search WorldFirst. Now.",
+        "iterated_vo": "Personal banking apps are the wrong tier for business FX. There are two rate tiers in the world of currency exchange. Retail and business. Retail is what your bank app quotes you. 2 to 4 percent above mid-market. Business is what wholesale traders see. 0.3 to 1 percent above mid-market. If you're a business owner paying suppliers and you're transferring through a personal-tier app, you're being quoted retail. Every single time. Same provider can quote you a business-tier rate if you're on the business account. Same currency, same minute, different price. This isn't a hidden fee. This is just the rate they default-quote you because of which tier you're on. WorldFirst is business-tier by default. Search WorldFirst.",
+        "diff_markup": "<del>Stop running your business FX through your personal banking app. I'm serious</del><ins>Personal banking apps are the wrong tier for business FX</ins>. There are two rate tiers in the world of currency exchange. Retail and business. Retail is what your bank app quotes you. 2 to 4 percent above mid-market. Business is what wholesale traders see. 0.3 to 1 percent above mid-market. If you're a business owner paying suppliers and you're transferring through a personal-tier app, you're being quoted retail. Every single time. Same provider can quote you a business-tier rate if you're on the business account. Same currency, same minute, different price. This isn't a hidden fee. This is just the rate they default-quote you because of which tier you're on. <del>Stop running business volume on a retail tier. </del>WorldFirst is business-tier by default. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about exchange rates. There are two rates running at the same time. The one on Google. And the one in your wallet. They're never the same number. Google shows the mid-market rate. Banks use it among themselves when they trade currency wholesale. Your wallet shows a retail rate. A worse number. The gap between the two is called the spread. On a personal tool, that spread is 2 to 4 percent. On a business tool, 0.3 to 1 percent. You'll never see this difference labelled anywhere. It's not a fee. It's not a tax. It's just a different rate quote on the same currency pair at the exact same second. They're not lying to you. They're just not telling you there's a better tier. WorldFirst quotes business-tier rates by default. Period.",
+        "iterated_vo": "Here's something most business owners don't realise about exchange rates. There are two rates running at the same time. The one on Google. And the one in your wallet. They're never the same number. Google shows the mid-market rate. Banks use it among themselves when they trade currency wholesale. Your wallet shows a retail rate. A worse number. The gap between the two is called the spread. On a personal tool, that spread is 2 to 4 percent. On a business tool, 0.3 to 1 percent. You'll never see this difference labelled anywhere. It's not a fee. It's not a tax. It's just a different rate quote on the same currency pair at the exact same second. They're not lying to you. They're just not telling you there's a better tier. WorldFirst quotes business-tier rates by default.",
+        "diff_markup": "Here's <del>the truth nobody's telling you</del><ins>something most business owners don't realise</ins> about exchange rates. There are two rates running at the same time. The one on Google. And the one in your wallet. They're never the same number. Google shows the mid-market rate. Banks use it among themselves when they trade currency wholesale. Your wallet shows a retail rate. A worse number. The gap between the two is called the spread. On a personal tool, that spread is 2 to 4 percent. On a business tool, 0.3 to 1 percent. You'll never see this difference labelled anywhere. It's not a fee. It's not a tax. It's just a different rate quote on the same currency pair at the exact same second. They're not lying to you. They're just not telling you there's a better tier. WorldFirst quotes business-tier rates by default<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner who's ever stared at a transfer receipt and thought the math felt off. You're not crazy. The rate you saw on Google before you signed off, that's not the rate you got. The rate your bank app showed you, that already had a 2 to 4 percent margin baked in. You don't see that margin anywhere on the receipt. It's not a fee. It's not a charge. It's just a slightly worse rate quote than the one banks use among themselves. Run that 2 percent across a year of supplier payments. On 50,000 a month, the gap between a personal-tier spread and a business-tier spread is 9,000 dollars. Per year. Vanishing inside the rate quote. I see this every single week with business owners who didn't even know there was a second tier. Stop accepting retail spreads on business volume. WorldFirst quotes business-tier by default. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner who's ever stared at a transfer receipt and thought the math felt off. You're not wrong. The rate you saw on Google before you signed off, that's not the rate you got. The rate your bank app showed you, that already had a 2 to 4 percent margin baked in. You don't see that margin anywhere on the receipt. It's not a fee. It's not a charge. It's just a slightly worse rate quote than the one banks use among themselves. Run that 2 percent across a year of supplier payments. On 50,000 a month, the gap between a personal-tier spread and a business-tier spread is 9,000 dollars. Per year. Vanishing inside the rate quote. This happens every single week with business owners who didn't even know there was a second tier. WorldFirst quotes business-tier by default. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner who's ever stared at a transfer receipt and thought the math felt off. You're not <del>crazy</del><ins>wrong</ins>. The rate you saw on Google before you signed off, that's not the rate you got. The rate your bank app showed you, that already had a 2 to 4 percent margin baked in. You don't see that margin anywhere on the receipt. It's not a fee. It's not a charge. It's just a slightly worse rate quote than the one banks use among themselves. Run that 2 percent across a year of supplier payments. On 50,000 a month, the gap between a personal-tier spread and a business-tier spread is 9,000 dollars. Per year. Vanishing inside the rate quote. <del>I see this</del><ins>This happens</ins> every single week with business owners who didn't even know there was a second tier. <del>Stop accepting retail spreads on business volume. </del>WorldFirst quotes business-tier by default. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (mid-market vs retail rate, two tiers running in parallel) is technically accurate and matches the findings: 2-4% consumer spread, 0.3-1% business spread. The 'on 20K wire' math (400 vs 100 = 300 saved) is consistent with the findings note. Weakest beat is 'WorldFirst quotes business-tier rates direct to business owners' being slightly absolute; actual rate depends on volume tier and corridor. The 'rate does not exist for your wallet' line is rhetorically strong but technically right.",
+      "skeptic_comments": [
+        {"text": "300 dollars saved on 20k? My last wire from Maybank was not that bad lah, maybe 0.8% only.", "severity": "high"},
+        {"text": "Who is WorldFirst? Never see this brand in Malaysia ads or in my forwarder's recommendation.", "severity": "high"},
+        {"text": "Mid-market rate concept ok but where the proof the retail spread really 2-4%? Show one screenshot.", "severity": "high"},
+        {"text": "Business-tier rate, but how big my volume need to be? My monthly only 8k USD, qualify or not?", "severity": "mid"},
+        {"text": "Confusing lah, two rates same time, sound like a magic trick. Real or marketing?", "severity": "mid"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The compounding math (1.5% of 50K = 750/mo, then 9K/yr, then 27K/3yr, 45K/5yr) is presented as universal when it's a stacked hypothetical. The 1.5% gap is the midpoint of the spread range from the findings but treating it as flat-rate every transfer ignores corridor and volume variation. 'WorldFirst' as the fix is product-true but the magnitude of savings claim is the trust risk. 5-year extrapolation always smells like ad copy to a skeptical viewer.",
+      "skeptic_comments": [
+        {"text": "45k over 5 years? Math too perfect lah, my business not even sure to last 5 years.", "severity": "high"},
+        {"text": "1.5% gap every single transfer? My OCBC business account give me 0.7% on big wire. Where this 1.5% come from?", "severity": "high"},
+        {"text": "WorldFirst got Malaysia license or not? Important. Wise was blocked before, scared to switch again.", "severity": "high"},
+        {"text": "9k a year sound a lot but my supplier payments not that big also. Number not relate to my size.", "severity": "mid"},
+        {"text": "One hire? One container? Dramatic la. Just show me rate side by side.", "severity": "mid"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "'Your bank pocketed 300 dollars' framed as fact when it's a specific hypothetical wire. The 2% personal vs 0.5% business comparison is within the findings range but presenting them as the exact numbers any viewer paid creates trust risk if their real spread was different. 'They quoted you the retail tier when you should have been on the business tier' is fair commentary but assumes the viewer's bank actually has a business tier they qualify for.",
+      "skeptic_comments": [
+        {"text": "Pocketed 300? My last 20k wire only shown 0.6% spread, that's 120, not 300. Number very different.", "severity": "high"},
+        {"text": "Business tier on my bank requires minimum 100k monthly volume, I dont hit. So advice not for me?", "severity": "high"},
+        {"text": "Never heard WorldFirst before. Cobi or who present this? No face also weird.", "severity": "high"},
+        {"text": "Built for business-tier spreads, ok but what is the actual WorldFirst rate? Just give number la.", "severity": "mid"},
+        {"text": "Bank didnt lie they just quoted retail tier, fair point. But where the proof of WF being cheaper?", "severity": "mid"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "The strongest fact-check profile of the Hormozi set. Mechanism explanation (mid-market = wholesale rate banks use among themselves; retail = with margin built in) is correctly explained. Range presentation (2-4% personal, 0.3-1% business) honours the findings without overclaiming a single number. 'WorldFirst quotes business-tier on every transfer' is broadly product-accurate. No specific dollar figure means no single number to challenge.",
+      "skeptic_comments": [
+        {"text": "Two rates running parallel, ok now I understand. But how do I check what tier I'm on?", "severity": "mid"},
+        {"text": "Range 2-4% sound more honest than fixed 2%. Still want to see WF rate before I switch.", "severity": "low"},
+        {"text": "Who is WorldFirst tho. First time hear. Got Bank Negara license here in MY?", "severity": "high"},
+        {"text": "Wholesale rate concept never explained to me by my bank also. Useful info actually.", "severity": "low"},
+        {"text": "Business-tier on every transfer means what minimum? Need volume? Need company registration?", "severity": "mid"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Combines mechanism (two rates, the spread) with specific numbers ($300 on 20K, $9K/yr on 50K/mo) which is consistent with the findings. 'Worth checking' softens the CTA appropriately. Weakest beat is generalising the 2-4% / 0.3-1% to all banks and all corridors as if it applies to every Malaysian importer the same way. SEA bank rates vary considerably by corridor (CNH especially has wider spreads).",
+      "skeptic_comments": [
+        {"text": "9k a year on 50k a month, ok the math add up. But my monthly is 12k only, save how much for me?", "severity": "mid"},
+        {"text": "Worth checking is a softer ask, ok I respect. But still who is WorldFirst, never see in Malaysia.", "severity": "high"},
+        {"text": "Spread concept makes sense but my Maybank wire say 'no FX fee'. So got spread or not?", "severity": "high"},
+        {"text": "Two FX rates running side by side, this part useful actually. Wish my bank told me earlier.", "severity": "low"},
+        {"text": "Worth a look better than push-to-download. Less aggressive, more trustable.", "severity": "low"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism (mid-market vs retail, two rates parallel) is real and consistent with findings. 'Same currency pair. Same minute. Two different rates' is accurate. The 'same pair you'd pay 2% for on personal tool, 0.5% on WorldFirst' is illustrative but reasonable within the findings range. CTA is direct without compounding fictional savings over years. Trust risk is mainly the comparison claim against unnamed personal tools.",
+      "skeptic_comments": [
+        {"text": "2% to 0.5% sound dramatic but show me proof. Where the side-by-side screenshot?", "severity": "high"},
+        {"text": "Who is WorldFirst? Never see in Malaysia TikTok before. New player or what?", "severity": "high"},
+        {"text": "Mid-market rate concept ok but my Maybank app dont show me which one. So how I know?", "severity": "mid"},
+        {"text": "Personal vs business tier difference fair but my volume small, qualify for business or not?", "severity": "mid"},
+        {"text": "300 dollar on single transfer, this number not bad to attract attention.", "severity": "low"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "The compound claim (1.5% diff on 50K/mo = 750/mo = 9K/yr) is from the findings but presented as guaranteed savings every business owner will see. Reality is the gap varies by corridor and volume. 'You're not in that club' is rhetorically strong but presumptive about the viewer. 'WorldFirst quotes business-tier rates' is broadly accurate but conflates default-tier behaviour with personalised quote.",
+      "skeptic_comments": [
+        {"text": "9k a year guaranteed savings? Sound too good. Got case study or just calculator math?", "severity": "high"},
+        {"text": "Not in that club, who decide which club I'm in? My company is registered, why am I personal-tier?", "severity": "high"},
+        {"text": "WorldFirst quote business-tier by default means what? Even small business volume also business-tier?", "severity": "high"},
+        {"text": "1.5 percent gap on every transfer feel exaggerated. My OCBC quote 0.8% on bigger volume.", "severity": "high"},
+        {"text": "Where the money goes back in my business part, dramatic but real. 9k is real money.", "severity": "low"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The two-tier framing (retail vs business, with retail at 2-4% and business at 0.3-1%) maps to the findings. 'Same provider can quote you a business-tier rate if you're on the business account' is real and a useful insight. Weakness is the 'every single time' claim that personal-tier apps always quote retail; some apps do tier-step based on volume even on personal accounts.",
+      "skeptic_comments": [
+        {"text": "Two tier explanation actually useful. But how I move my account to business tier?", "severity": "mid"},
+        {"text": "Personal tier always retail, business tier always wholesale. Real or generalisation?", "severity": "high"},
+        {"text": "Who is WorldFirst? Got Malaysia license? Got physical office? Important.", "severity": "high"},
+        {"text": "Business-tier by default sound good but what minimum volume to qualify?", "severity": "mid"},
+        {"text": "Same provider different tier idea useful, didn't realise this before.", "severity": "low"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Two rates running at the same time' is technically correct. 'They're never the same number' is accurate. The 2-4% / 0.3-1% framing matches the findings. 'They're not lying, they're just not telling you' is fair commentary, not accusatory. No specific dollar figure reduces trust risk. The conspiratorial framing is the main risk factor for SMB importer audience because it can read as ad-y.",
+      "skeptic_comments": [
+        {"text": "Two rates same time, mid-market vs retail, makes sense actually. Useful concept.", "severity": "low"},
+        {"text": "Not lying just not telling you, fair framing. Not too accusatory.", "severity": "low"},
+        {"text": "WorldFirst by default business-tier means I dont need minimum volume?", "severity": "mid"},
+        {"text": "Who is WorldFirst tho. Never see in Malaysia. Need to check license.", "severity": "high"},
+        {"text": "Better tier exists, ok. But where the WF rate vs my Maybank rate? Just show la.", "severity": "mid"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "The 'math felt off' frame is highly relatable to SMB importers who actually have stared at receipts. 9K/yr on 50K/mo claim is from findings but still a hypothetical. 'Vanishing inside the rate quote' is accurate. 'Business owners who didn't even know there was a second tier' is fair commentary. Trust risk mainly from the 'every single week' line which is mild exaggeration.",
+      "skeptic_comments": [
+        {"text": "Stared at receipt and math felt off, this is real. Felt this before.", "severity": "low"},
+        {"text": "Second tier exists, useful idea. But how I qualify for business tier with small volume?", "severity": "mid"},
+        {"text": "Who is WorldFirst? Got license in Malaysia? Important question.", "severity": "high"},
+        {"text": "9k a year disappearing in rate quote, ok dramatic. But my volume smaller, save how much?", "severity": "mid"},
+        {"text": "Every single week, mild over-claim but the relatable frame work better than conspiracy tone.", "severity": "low"}
+      ]
+    }
+  }
+}

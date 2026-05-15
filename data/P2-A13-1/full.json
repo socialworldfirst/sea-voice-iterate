@@ -1,0 +1,347 @@
+{
+  "angle_id": "P2-A13-1",
+  "title": "What a $20K PayPal supplier payment actually costs",
+  "card_id": "P2-A13",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner paying Chinese suppliers through PayPal, you're getting destroyed and you don't even see it. Here's the math. You send 20K to your supplier. The receipt says 20K. The actual cost? Way higher. PayPal hits you with a 4.4% cross-border fee. That's 880 dollars gone. Then they take another 3.5% on the exchange rate. That's another 700 dollars. So your visible cost just hit 1,580. But it gets worse. Stop. Your supplier knows PayPal charges them on the receiving side too. So they pad your invoice 4 to 5%. That's another 800 dollars baked into the PI. Total damage on a 20K order? 2,380 dollars. Eleven percent gone. WorldFirst was built for this. Specialist rate. Direct CNY to Chinese accounts. Same supplier. Hundreds in fees, not thousands. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner paying Chinese suppliers through PayPal, the real cost is much higher than the receipt. Here's the math. You send 20K to your supplier. The receipt says 20K. The actual cost is way higher. PayPal hits you with a 4.4% cross-border fee. That's 880 dollars gone. Then they take another 3.5% on the exchange rate. That's another 700 dollars. So your visible cost just hit 1,580. But it gets worse. Your supplier knows PayPal charges them on the receiving side too. So they pad your invoice 4 to 5%. That's another 800 dollars baked into the PI. Total damage on a 20K order? 2,380 dollars. Eleven percent gone. WorldFirst was built for this. Specialist rate. Direct CNY to Chinese accounts. Same supplier. Hundreds in fees, not thousands. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner paying Chinese suppliers through PayPal, <del>you're getting destroyed and you don't even see it</del><ins>the real cost is much higher than the receipt</ins>. Here's the math. You send 20K to your supplier. The receipt says 20K. The actual cost<del>?</del><ins> is</ins> way higher. PayPal hits you with a 4.4% cross-border fee. That's 880 dollars gone. Then they take another 3.5% on the exchange rate. That's another 700 dollars. So your visible cost just hit 1,580. But it gets worse. <del>Stop. </del>Your supplier knows PayPal charges them on the receiving side too. So they pad your invoice 4 to 5%. That's another 800 dollars baked into the PI. Total damage on a 20K order? 2,380 dollars. Eleven percent gone. WorldFirst was built for this. Specialist rate. Direct CNY to Chinese accounts. Same supplier. Hundreds in fees, not thousands. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You pay your Chinese supplier 20K through PayPal once a month. The receipt says 20K. The real cost is closer to 22K. Why? 4.4% cross-border fee, that's 880 dollars. 3.5% FX margin, that's another 700. Plus a 4 to 5% supplier markup because they're absorbing PayPal's receiving fee. Add it up: 2,380 dollars per order. Now run it for a year. Twelve orders. That's 28,560 dollars handed to a payments app and a padded invoice line. Three years? Over 85,000 dollars. That's a hire. That's inventory. That's your kid's school fees. And it's not theft. It's just PayPal pricing built for retail volume, not 20K supplier payments. Listen. WorldFirst uses specialist FX rates and pays Chinese suppliers in CNY directly. Same 20K. The leak shrinks to hundreds, not thousands. Every order. Every year. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You pay your Chinese supplier 20K through PayPal once a month. The receipt says 20K. The real cost is closer to 22K. Why? 4.4% cross-border fee, that's 880 dollars. 3.5% FX margin, that's another 700. Plus a 4 to 5% supplier markup because they're absorbing PayPal's receiving fee. Add it up: 2,380 dollars per order. Now run it for a year. Twelve orders. That's 28,560 dollars handed to a payments app and a padded invoice line. Three years? Over 85,000 dollars. That's a hire. That's inventory. That's your kid's school fees. And it's not theft. It's just PayPal pricing built for retail volume, not 20K supplier payments. WorldFirst uses specialist FX rates and pays Chinese suppliers in CNY directly. Same 20K. The leak shrinks to hundreds, not thousands. Every order. Every year. Search WorldFirst.",
+        "diff_markup": "Watch this. You pay your Chinese supplier 20K through PayPal once a month. The receipt says 20K. The real cost is closer to 22K. Why? 4.4% cross-border fee, that's 880 dollars. 3.5% FX margin, that's another 700. Plus a 4 to 5% supplier markup because they're absorbing PayPal's receiving fee. Add it up: 2,380 dollars per order. Now run it for a year. Twelve orders. That's 28,560 dollars handed to a payments app and a padded invoice line. Three years? Over 85,000 dollars. That's a hire. That's inventory. That's your kid's school fees. And it's not theft. It's just PayPal pricing built for retail volume, not 20K supplier payments. <del>Listen. </del>WorldFirst uses specialist FX rates and pays Chinese suppliers in CNY directly. Same 20K. The leak shrinks to hundreds, not thousands. Every order. Every year. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Receipt-doesn't-match-reality opener",
+        "original_vo": "Your PayPal receipt is lying to you. Not technically. Just functionally. Here's how. You sent 20K to your Chinese supplier. The receipt confirmed 20K. Done deal, right? Wrong. PayPal took 4.4% off the top, 880 dollars, before the wire even moved. Then they marked up the exchange rate 3.5%, another 700 dollars gone, baked into the rate so it never shows as a fee. That's 1,580 dollars on a 20K order. And here's the part nobody warns you about. Your supplier sees PayPal coming and adds 4 to 5% to your invoice because they're eating a receiving fee on their end. So your actual cost lands closer to 22,380 dollars. The receipt said 20K. You paid 22K. Stop trusting receipts that hide the math. WorldFirst publishes the rate. Specialist FX. Direct CNY to Chinese banks. Search WorldFirst. Period.",
+        "iterated_vo": "Your PayPal receipt only tells part of the story. Not technically wrong. Just incomplete. Here's how. You sent 20K to your Chinese supplier. The receipt confirmed 20K. Done deal, right? Not quite. PayPal took 4.4% off the top, 880 dollars, before the wire even moved. Then they marked up the exchange rate 3.5%, another 700 dollars gone, baked into the rate so it never shows as a fee. That's 1,580 dollars on a 20K order. And here's the part nobody warns you about. Your supplier sees PayPal coming and adds 4 to 5% to your invoice because they're eating a receiving fee on their end. So your actual cost lands closer to 22,380 dollars. The receipt said 20K. You paid 22K. WorldFirst publishes the rate. Specialist FX. Direct CNY to Chinese banks. Search WorldFirst.",
+        "diff_markup": "Your PayPal receipt <del>is lying to you</del><ins>only tells part of the story</ins>. Not technically <ins>wrong</ins>. Just <del>functionally</del><ins>incomplete</ins>. Here's how. You sent 20K to your Chinese supplier. The receipt confirmed 20K. Done deal, right? <del>Wrong</del><ins>Not quite</ins>. PayPal took 4.4% off the top, 880 dollars, before the wire even moved. Then they marked up the exchange rate 3.5%, another 700 dollars gone, baked into the rate so it never shows as a fee. That's 1,580 dollars on a 20K order. And here's the part nobody warns you about. Your supplier sees PayPal coming and adds 4 to 5% to your invoice because they're eating a receiving fee on their end. So your actual cost lands closer to 22,380 dollars. The receipt said 20K. You paid 22K. <del>Stop trusting receipts that hide the math. </del>WorldFirst publishes the rate. Specialist FX. Direct CNY to Chinese banks. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners don't realize when they use PayPal for Chinese suppliers. The fee is not the fee. You see PayPal charged 4.4%, that's 880 dollars on a 20K order. You think that's the cost. Wrong. The exchange rate margin is the bigger bite. PayPal marks up USD to CNY by roughly 3.5%, hidden inside the rate. On 20K, that's another 700 dollars. Visible total: 1,580. Then the third layer. Your Chinese supplier knows PayPal charges them too. So they pad the PI 4 to 5%, around 800 dollars on a 20K quote. Three layers, one invoice. Real cost? 2,380 on a 20K order. PayPal is built for retail. Not 20K weekly supplier payments. Stop. WorldFirst is built for this exact use case. Specialist FX. Direct CNY rails. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners don't realize when they use PayPal for Chinese suppliers. The fee is not the fee. You see PayPal charged 4.4%, that's 880 dollars on a 20K order. You think that's the cost. Not quite. The exchange rate margin is the bigger bite. PayPal marks up USD to CNY by roughly 3.5%, hidden inside the rate. On 20K, that's another 700 dollars. Visible total: 1,580. Then the third layer. Your Chinese supplier knows PayPal charges them too. So they pad the PI 4 to 5%, around 800 dollars on a 20K quote. Three layers, one invoice. Real cost? 2,380 on a 20K order. PayPal is built for retail. Not 20K weekly supplier payments. WorldFirst is built for this exact use case. Specialist FX. Direct CNY rails. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners don't realize when they use PayPal for Chinese suppliers. The fee is not the fee. You see PayPal charged 4.4%, that's 880 dollars on a 20K order. You think that's the cost. <del>Wrong</del><ins>Not quite</ins>. The exchange rate margin is the bigger bite. PayPal marks up USD to CNY by roughly 3.5%, hidden inside the rate. On 20K, that's another 700 dollars. Visible total: 1,580. Then the third layer. Your Chinese supplier knows PayPal charges them too. So they pad the PI 4 to 5%, around 800 dollars on a 20K quote. Three layers, one invoice. Real cost? 2,380 on a 20K order. PayPal is built for retail. Not 20K weekly supplier payments. <del>Stop. </del>WorldFirst is built for this exact use case. Specialist FX. Direct CNY rails. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + three-layer problem stack",
+        "original_vo": "If you pay Chinese suppliers through PayPal, you need to hear this. Real talk. Last 20K order, three things happened and your receipt only showed one of them. One. PayPal charged a 4.4% cross-border fee. That's 880 dollars. You saw that. Two. PayPal marked up the USD to CNY exchange rate 3.5%. That's another 700 dollars, baked into the rate, never on a line item. You didn't see that. Three. Your supplier padded the PI 4 to 5% because they absorb a receiving fee on PayPal too. That's another 800 dollars hiding in your invoice. You didn't see that either. Total leakage on a 20K order? 2,380. Almost 12 percent. Stop paying retail prices for supplier-grade volume. WorldFirst is built for 20K orders to China. Specialist FX. Direct CNY to Chinese accounts. If you're a business owner paying China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you pay Chinese suppliers through PayPal, you need to hear this. Last 20K order, three things happened and your receipt only showed one of them. One. PayPal charged a 4.4% cross-border fee. That's 880 dollars. You saw that. Two. PayPal marked up the USD to CNY exchange rate 3.5%. That's another 700 dollars, baked into the rate, never on a line item. You didn't see that. Three. Your supplier padded the PI 4 to 5% because they absorb a receiving fee on PayPal too. That's another 800 dollars hiding in your invoice. You didn't see that either. Total leakage on a 20K order? 2,380. Almost 12 percent. WorldFirst is built for 20K orders to China. Specialist FX. Direct CNY to Chinese accounts. If you're a business owner paying China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you pay Chinese suppliers through PayPal, you need to hear this. <del>Real talk. </del>Last 20K order, three things happened and your receipt only showed one of them. One. PayPal charged a 4.4% cross-border fee. That's 880 dollars. You saw that. Two. PayPal marked up the USD to CNY exchange rate 3.5%. That's another 700 dollars, baked into the rate, never on a line item. You didn't see that. Three. Your supplier padded the PI 4 to 5% because they absorb a receiving fee on PayPal too. That's another 800 dollars hiding in your invoice. You didn't see that either. Total leakage on a 20K order? 2,380. Almost 12 percent. <del>Stop paying retail prices for supplier-grade volume. </del>WorldFirst is built for 20K orders to China. Specialist FX. Direct CNY to Chinese accounts. If you're a business owner paying China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying Chinese suppliers through PayPal. You sent $20,000 to your factory. PayPal says delivered. Cool. But here's what just happened. 4.4% cross-border fee, that's $880. FX margin on the rate, another $700. So far you're out $1,580 on a $20K order. And here's the kicker. Your supplier added 4 to 5% to the invoice because they're absorbing PayPal's receiving fee. That's another $800 baked in. Your $20K order really cost you $22,380. Listen. WorldFirst was built for supplier payments. Specialist FX. Direct CNY to Chinese banks. The math drops to hundreds, not thousands. Stop letting a retail app price your wholesale volume. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers through PayPal. You sent $20,000 to your factory. PayPal says delivered. Cool. But here's what just happened. 4.4% cross-border fee, that's $880. FX margin on the rate, another $700. So far you're out $1,580 on a $20K order. And here's the part most people miss. Your supplier added 4 to 5% to the invoice because they're absorbing PayPal's receiving fee. That's another $800 baked in. Your $20K order really cost you $22,380. WorldFirst was built for supplier payments. Specialist FX. Direct CNY to Chinese banks. The math drops to hundreds, not thousands. Worth knowing if your retail app is pricing your wholesale volume. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers through PayPal. You sent $20,000 to your factory. PayPal says delivered. Cool. But here's what just happened. 4.4% cross-border fee, that's $880. FX margin on the rate, another $700. So far you're out $1,580 on a $20K order. And here's the <del>kicker</del><ins>part most people miss</ins>. Your supplier added 4 to 5% to the invoice because they're absorbing PayPal's receiving fee. That's another $800 baked in. Your $20K order really cost you $22,380. <del>Listen. </del>WorldFirst was built for supplier payments. Specialist FX. Direct CNY to Chinese banks. The math drops to hundreds, not thousands. <del>Stop letting a retail app price your wholesale volume</del><ins>Worth knowing if your retail app is pricing your wholesale volume</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it / opinion-as-truth + compound math",
+        "original_vo": "I'll say it. PayPal is the most overpriced thing in your supply chain and nobody talks about it. You pay your Chinese supplier $20,000 through PayPal. Real cost? $2,380. That's on one order. Now run the math. One order a month. That's $28,560 a year. Three years, you're north of $85,000. That's a salary. That's inventory. That's your margin. And here's what nobody tells you. The 4.4% fee is just the visible part. The 3.5% FX margin is hidden in the rate. And your supplier added 4 to 5% to the PI because they're eating fees on their end too. WorldFirst uses specialist FX rates and pays Chinese suppliers in CNY directly. The money goes back into your business. Where it belongs. Period.",
+        "iterated_vo": "PayPal is the most overpriced thing in your supply chain and nobody talks about it. You pay your Chinese supplier $20,000 through PayPal. Real cost? $2,380. That's on one order. Now run the math. One order a month. That's $28,560 a year. Three years, you're north of $85,000. That's a salary. That's inventory. That's your margin. And here's what nobody tells you. The 4.4% fee is just the visible part. The 3.5% FX margin is hidden in the rate. And your supplier added 4 to 5% to the PI because they're eating fees on their end too. WorldFirst uses specialist FX rates and pays Chinese suppliers in CNY directly. The money goes back into your business. Where it belongs.",
+        "diff_markup": "<del>I'll say it. </del>PayPal is the most overpriced thing in your supply chain and nobody talks about it. You pay your Chinese supplier $20,000 through PayPal. Real cost? $2,380. That's on one order. Now run the math. One order a month. That's $28,560 a year. Three years, you're north of $85,000. That's a salary. That's inventory. That's your margin. And here's what nobody tells you. The 4.4% fee is just the visible part. The 3.5% FX margin is hidden in the rate. And your supplier added 4 to 5% to the PI because they're eating fees on their end too. WorldFirst uses specialist FX rates and pays Chinese suppliers in CNY directly. The money goes back into your business. Where it belongs<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Right tool for the job reframe",
+        "original_vo": "Stop using PayPal to pay Chinese suppliers. I'm serious. PayPal is a tool. It's the wrong tool. You wouldn't use a credit card to buy a house. So why are you using a retail payment app to send $20,000 to a factory? Here's what happens. You send $20K. 4.4% fee, $880. FX margin, $700. Supplier markup baked into the PI, another $800. Real cost? $22,380. That's $2,380 in leakage on every order. WorldFirst is built for this. Specialist FX. Direct CNY rails to Chinese bank accounts. Same $20K. Full amount lands. Supplier doesn't need to pad the PI. Use the right tool for the job. Your margin depends on it. Search WorldFirst. Now.",
+        "iterated_vo": "PayPal is not the right tool for paying Chinese suppliers. PayPal is a tool. It's the wrong tool. You wouldn't use a credit card to buy a house. So why are you using a retail payment app to send $20,000 to a factory? Here's what happens. You send $20K. 4.4% fee, $880. FX margin, $700. Supplier markup baked into the PI, another $800. Real cost? $22,380. That's $2,380 in leakage on every order. WorldFirst is built for this. Specialist FX. Direct CNY rails to Chinese bank accounts. Same $20K. Full amount lands. Supplier doesn't need to pad the PI. Use the right tool for the job. Your margin depends on it. Search WorldFirst.",
+        "diff_markup": "<del>Stop using PayPal to pay Chinese suppliers. I'm serious</del><ins>PayPal is not the right tool for paying Chinese suppliers</ins>. PayPal is a tool. It's the wrong tool. You wouldn't use a credit card to buy a house. So why are you using a retail payment app to send $20,000 to a factory? Here's what happens. You send $20K. 4.4% fee, $880. FX margin, $700. Supplier markup baked into the PI, another $800. Real cost? $22,380. That's $2,380 in leakage on every order. WorldFirst is built for this. Specialist FX. Direct CNY rails to Chinese bank accounts. Same $20K. Full amount lands. Supplier doesn't need to pad the PI. Use the right tool for the job. Your margin depends on it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about PayPal supplier payments. The receipt is not the cost. You send $20K to your Chinese factory. Receipt confirms $20K. Done? No. PayPal took 4.4% as a cross-border fee, that's $880, you saw that one. Then 3.5% FX margin on the conversion to CNY, another $700, you didn't see that. Then your supplier added 4 to 5% to the invoice because they're absorbing PayPal's receiving fee on their side. That's $800 hiding in your PI. Total damage on a $20K order? $2,380. Almost 12 percent. PayPal is brilliant for retail. It's the wrong tool for $20K supplier orders. WorldFirst is built differently. Specialist FX. Direct CNY to Chinese banks. The rate you see is the rate you get. That's the difference. Period.",
+        "iterated_vo": "Here's something nobody's telling you about PayPal supplier payments. The receipt is not the cost. You send $20K to your Chinese factory. Receipt confirms $20K. Done? Not quite. PayPal took 4.4% as a cross-border fee, that's $880, you saw that one. Then 3.5% FX margin on the conversion to CNY, another $700, you didn't see that. Then your supplier added 4 to 5% to the invoice because they're absorbing PayPal's receiving fee on their side. That's $800 hiding in your PI. Total damage on a $20K order? $2,380. Almost 12 percent. PayPal is brilliant for retail. It's the wrong tool for $20K supplier orders. WorldFirst is built differently. Specialist FX. Direct CNY to Chinese banks. The rate you see is the rate you get. That's the difference.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about PayPal supplier payments. The receipt is not the cost. You send $20K to your Chinese factory. Receipt confirms $20K. Done? <del>No</del><ins>Not quite</ins>. PayPal took 4.4% as a cross-border fee, that's $880, you saw that one. Then 3.5% FX margin on the conversion to CNY, another $700, you didn't see that. Then your supplier added 4 to 5% to the invoice because they're absorbing PayPal's receiving fee on their side. That's $800 hiding in your PI. Total damage on a $20K order? $2,380. Almost 12 percent. PayPal is brilliant for retail. It's the wrong tool for $20K supplier orders. WorldFirst is built differently. Specialist FX. Direct CNY to Chinese banks. The rate you see is the rate you get. That's the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sourcing from China with PayPal. You think PayPal is convenient. It is. It's also expensive. You send $20,000 to your supplier. PayPal takes $880 on the cross-border fee. Then $700 more on the FX margin nobody warned you about. Then your supplier hands you a PI with another 4 to 5% padded in because PayPal charges them too. By the time the goods ship, that $20K order cost you $22,380. Plus a 21-day fund hold on the supplier side that they price in next time. I see this every single week. SMEs paying retail prices for B2B volume because the app is familiar. Stop. WorldFirst. Specialist FX. Direct CNY to Chinese accounts. Full $20K lands. Supplier doesn't pad. You sleep. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China with PayPal. You think PayPal is convenient. It is. It's also expensive. You send $20,000 to your supplier. PayPal takes $880 on the cross-border fee. Then $700 more on the FX margin nobody warned you about. Then your supplier hands you a PI with another 4 to 5% padded in because PayPal charges them too. By the time the goods ship, that $20K order cost you $22,380. Plus a 21-day fund hold on the supplier side that they price in next time. This happens every single week. SMEs paying retail prices for B2B volume because the app is familiar. WorldFirst. Specialist FX. Direct CNY to Chinese accounts. Full $20K lands. Supplier doesn't pad. You sleep. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China with PayPal. You think PayPal is convenient. It is. It's also expensive. You send $20,000 to your supplier. PayPal takes $880 on the cross-border fee. Then $700 more on the FX margin nobody warned you about. Then your supplier hands you a PI with another 4 to 5% padded in because PayPal charges them too. By the time the goods ship, that $20K order cost you $22,380. Plus a 21-day fund hold on the supplier side that they price in next time. <del>I see this</del><ins>This happens</ins> every single week. SMEs paying retail prices for B2B volume because the app is familiar. <del>Stop. </del>WorldFirst. Specialist FX. Direct CNY to Chinese accounts. Full $20K lands. Supplier doesn't pad. You sleep. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core fee math (4.4% + 3.5% FX + 4-5% supplier markup) is defensible and grounded in source findings, but the total '$2,380 on $20K = 11%' is stacked aggressively and assumes the worst-case supplier markup applies universally. 'Eleven percent gone' is a sharp framing that a skeptic with lower historical fee experience will challenge. The 'WorldFirst hundreds in fees, not thousands' line is broadly accurate per source data but lacks a specific number, which weakens the contrast on follow-up.",
+      "skeptic_comments": [
+        {
+          "text": "My supplier never pad my PI for PayPal lah. Where this 4-5% from?",
+          "severity": "high"
+        },
+        {
+          "text": "PayPal fee for me is 3.9% not 4.4%. Numbers feel off.",
+          "severity": "mid"
+        },
+        {
+          "text": "Eleven percent? That's only if everything stacks worst case. Not always.",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? Never hear before. They got license in MY?",
+          "severity": "high"
+        },
+        {
+          "text": "Show me real rate comparison side by side la, not just claim.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The compounding extrapolation (one order a month for three years = $85K) is the highest-risk claim. It assumes constant order size, constant fee structure, constant supplier markup, and no negotiation across 36 months. 'Your kid's school fees' is emotive layered onto an unverifiable extrapolation. 'PayPal pricing built for retail, not 20K supplier payments' is defensible as a category statement but the math chain is shakier than the individual fee figures.",
+      "skeptic_comments": [
+        {
+          "text": "85K over 3 years? You assume I send 20K every month never stop. Cooked.",
+          "severity": "high"
+        },
+        {
+          "text": "My order size varies. Sometimes 5K sometimes 30K. This math doesn't reflect reality.",
+          "severity": "high"
+        },
+        {
+          "text": "Kid's school fees? Bro really pulling on heartstrings now.",
+          "severity": "mid"
+        },
+        {
+          "text": "PayPal got business rates that lower right? You picking retail tier to make it sound bad.",
+          "severity": "high"
+        },
+        {
+          "text": "Specialist FX rates means what exactly? Show me the actual WorldFirst rate.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "'Your PayPal receipt only tells part of the story' is softened from the original 'lying' and now stays factually accurate because PayPal's receipts do disclose fees in the breakdown, just not the FX margin or the supplier-side markup. The mechanism reveal is solid. Weakest spot is still the 4-5% supplier markup as universal, which depends entirely on the supplier's policy. 'WorldFirst publishes the rate' is true for the WF business product but not a specific number, so on follow-up a skeptic will want to see it.",
+      "skeptic_comments": [
+        {
+          "text": "Receipt also show fee la. PayPal not hiding it.",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier markup for PayPal not universal. Mine never charge me extra.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst publishes the rate - what rate today? Need to see number to compare.",
+          "severity": "mid"
+        },
+        {
+          "text": "FX margin 3.5%? Sometimes PayPal market rate not so bad you know.",
+          "severity": "mid"
+        },
+        {
+          "text": "Where can I find this WorldFirst? Got app or website? You assume I know.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism-first reveal is the strongest of the five because it teaches the actual three-layer structure rather than just rolling out a total number. Numbers (4.4% / 3.5% / 4-5%) align with source findings. Risk is still the supplier markup being framed as default behaviour. 'Built for retail, not 20K weekly supplier payments' is fair as a category framing because PayPal's published pricing tiers do confirm this. 'WorldFirst specialist FX, direct CNY rails' is accurate to source but vague on actual rate vs PayPal headline.",
+      "skeptic_comments": [
+        {
+          "text": "Three layers ok I follow. But 4-5% supplier pad - need proof. Not all do.",
+          "severity": "high"
+        },
+        {
+          "text": "PayPal got business merchant tier with 2.99%. You only show retail rate.",
+          "severity": "high"
+        },
+        {
+          "text": "Direct CNY rails sound nice. What's the actual margin WorldFirst takes?",
+          "severity": "high"
+        },
+        {
+          "text": "Built for retail. Then explain why so many SMEs still use it for B2B.",
+          "severity": "mid"
+        },
+        {
+          "text": "I'd switch but I don't know if WorldFirst supports my country MY.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The three-layer problem stack is structurally similar to PH4 but framed as 'you only saw one of them' which is sharper. The fee figures are solid. 'Almost 12 percent' on a $20K order is the bold number to defend and it does sit at the upper end of the range. The 'WorldFirst is worth a look' brand-search CTA is correctly softened. Weakest spot is still treating supplier markup as inevitable rather than situational. Risk also includes 'reputation with that supplier' which doesn't appear in this version but the 12% framing alone may push skeptics to push back on math composition.",
+      "skeptic_comments": [
+        {
+          "text": "12% leak? My PayPal cost feels more like 5-6% total. You're stacking worst case.",
+          "severity": "high"
+        },
+        {
+          "text": "If supplier really pads 4-5% why my Foshan guy never do? You're generalising.",
+          "severity": "high"
+        },
+        {
+          "text": "Three things I didn't see? Bro the fee is right there on the receipt, FX too sometimes.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst is worth a look ok but what license they got in SEA?",
+          "severity": "high"
+        },
+        {
+          "text": "Specialist FX, direct CNY rails - need to see the actual product, not just claim.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Numbers align with source data on the visible PayPal side. The supplier markup at 4-5% is the soft spot, as in the Hormozi set, because it relies on the source claim that 'some suppliers add 4-5%' generalised to a default. 'Retail app pricing wholesale volume' is the strongest category-framing line and survives challenge well because PayPal's own tier structure confirms it. 'Specialist FX, direct CNY to Chinese banks' is accurate to source on WF.",
+      "skeptic_comments": [
+        {
+          "text": "$2,380 on $20K? My last PayPal supplier payment cost much less.",
+          "severity": "high"
+        },
+        {
+          "text": "4-5% PI padding is hearsay. My supplier never tell me this is for PayPal.",
+          "severity": "high"
+        },
+        {
+          "text": "Retail app pricing wholesale volume - ok fair point but need real alternative comparison.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst sounds like another PayPal that just doesn't have brand yet.",
+          "severity": "mid"
+        },
+        {
+          "text": "Hundreds not thousands - show me a real screenshot lah, not just talk.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "Compounding to $85K over three years is the highest-risk frame in the Gary Vee set, same critique as PH2. Plus 'most overpriced thing in your supply chain' is a category-wide claim that a skeptic with Wise or Payoneer experience will dispute because bank wires and crypto rails can both be worse. The line 'hidden in the rate' is correct but applied to PayPal which does have FX disclosure on the conversion screen, even if buried.",
+      "skeptic_comments": [
+        {
+          "text": "85K over 3 years assume I pay every month never miss. Not real.",
+          "severity": "high"
+        },
+        {
+          "text": "Most overpriced? Got crypto fees worse, got banks worse. You exaggerating.",
+          "severity": "high"
+        },
+        {
+          "text": "PayPal does show the FX rate before I confirm. Not exactly hidden.",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier pads PI 4-5% for PayPal - is this every supplier? Mine don't.",
+          "severity": "high"
+        },
+        {
+          "text": "Where does the money go back into business? You skip the part where I have to migrate.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "Right-tool-for-the-job analogy is clean and survives challenge well. Math layers (880 + 700 + 800 = 2,380) are arithmetic-accurate. The weakest spot is the assumption that switching to WorldFirst means supplier won't pad the PI, which is true if WF settles in CNY directly but a skeptic may not know that mechanism. 'Use the right tool for the job, your margin depends on it' is a brand-safe close.",
+      "skeptic_comments": [
+        {
+          "text": "Credit card to buy house analogy - too dramatic. PayPal works fine for most.",
+          "severity": "mid"
+        },
+        {
+          "text": "If WF pays CNY direct, supplier still need to verify and clear. Same delay or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier don't pad PI for me. You assume my guy is greedy.",
+          "severity": "high"
+        },
+        {
+          "text": "Specialist FX what rate ah? Need the actual number to decide.",
+          "severity": "high"
+        },
+        {
+          "text": "Margin depends on it - ok but switching is also a cost. Time, paperwork, KYC.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "Three-layer truth structure is the same mechanism as PH4 but in Gary Vee voice. Strongest line is 'PayPal is brilliant for retail. It's the wrong tool for $20K supplier orders' which is defensible category framing. Weakest is still the supplier markup as universal. 'Rate you see is rate you get' is a soft claim that's directionally true for WF business but not exactly literal at the receipt level because there's still a small spread.",
+      "skeptic_comments": [
+        {
+          "text": "Rate you see is rate you get - so WorldFirst takes zero margin? Sure or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Brilliant for retail wrong tool for B2B - actually this part fair.",
+          "severity": "low"
+        },
+        {
+          "text": "Almost 12% only if supplier really adds 4-5%. Not standard for everyone.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst direct CNY to Chinese banks - they have license for SAFE compliance?",
+          "severity": "mid"
+        },
+        {
+          "text": "I can audit PayPal cost. How do I audit WorldFirst cost before I switch?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "Adds the 21-day fund hold detail from source findings which strengthens credibility on the supplier-side cost. 'Plus a 21-day fund hold on the supplier side that they price in next time' is exactly the kind of mechanism-grounded detail that survives a skeptic's poke. Risk remains the universal supplier markup framing. 'Supplier doesn't pad' on the WF side is a soft claim because some suppliers still pad regardless of rail, just for cushion.",
+      "skeptic_comments": [
+        {
+          "text": "21-day fund hold true for PayPal but mostly for new sellers right? Established suppliers maybe not.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier doesn't pad with WorldFirst - how you know? Maybe they pad regardless.",
+          "severity": "high"
+        },
+        {
+          "text": "$22,380 on $20K - this assume all worst case. My orders never hit this much.",
+          "severity": "high"
+        },
+        {
+          "text": "Convenient is expensive ok fair. But switching also has friction cost.",
+          "severity": "mid"
+        },
+        {
+          "text": "Specialist FX, direct CNY - I keep hearing this. Just show me the rate today.",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "angle_id": "P1-A9-1",
+  "title": "My bank says sent. My supplier says nothing. Both right.",
+  "card_id": "P1-A9",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. Your bank says the wire is sent. Your supplier says nothing arrived. Both are telling the truth. Here is how that's possible. When your bank says sent, they mean the wire left their system. They don't mean it landed. Between you and your supplier, there are correspondent banks. Sometimes three. Sometimes five. Each one holds the wire while they queue it, check it, and convert it. A conversion window alone is up to two working days. Add a CN bank holiday or an AML threshold hold and you're at four. So now your supplier is asking where the money is and you're staring at a bank app that says sent. You look like the problem. Stop. Track the wire by SWIFT reference, not by the word sent. WorldFirst pays directly to Chinese accounts in CNY same-day. No correspondent chain. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank says the wire is sent. Your supplier says nothing arrived. Both are telling the truth. Here is how that's possible. When your bank says sent, they mean the wire left their system. They don't mean it landed. Between you and your supplier, there are correspondent banks. Sometimes three. Sometimes five. Each one holds the wire while they queue it, check it, and convert it. A conversion window alone is up to two working days. Add a CN bank holiday or an AML threshold hold and you're at four. So now your supplier is asking where the money is and you're staring at a bank app that says sent. You look like the problem. Track the wire by SWIFT reference, not by the word sent. WorldFirst pays directly to Chinese accounts in CNY same-day. No correspondent chain. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>Your bank says the wire is sent. Your supplier says nothing arrived. Both are telling the truth. Here is how that's possible. When your bank says sent, they mean the wire left their system. They don't mean it landed. Between you and your supplier, there are correspondent banks. Sometimes three. Sometimes five. Each one holds the wire while they queue it, check it, and convert it. A conversion window alone is up to two working days. Add a CN bank holiday or an AML threshold hold and you're at four. So now your supplier is asking where the money is and you're staring at a bank app that says sent. You look like the problem. <del>Stop. </del>Track the wire by SWIFT reference, not by the word sent. WorldFirst pays directly to Chinese accounts in CNY same-day. No correspondent chain. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding stakes",
+        "original_vo": "Watch this. Your bank app shows sent. Your supplier's WhatsApp shows nothing. You haven't lost the money. You've lost the day. Then the week. Then the order. Because your supplier won't load raw materials until the CNY hits their account. So every hour the wire sits at an intermediary bank, your delivery date slips. Three intermediaries, two days of conversion windows, one AML hold above a threshold nobody told you about, plus a Friday public holiday in Shenzhen. That's a five-day silence. On a Q4 order, five days is your container. On a launch SKU, five days is your competitor beating you to the shelf. Listen. The wire isn't lost. The visibility is. WorldFirst removes the correspondent chain entirely. CNY straight to Chinese bank accounts, same-day, with a tracking reference your supplier can match. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. Your bank app shows sent. Your supplier's WhatsApp shows nothing. You haven't lost the money. You've lost the day. Then the week. Then the order. Because your supplier won't load raw materials until the CNY hits their account. So every hour the wire sits at an intermediary bank, your delivery date slips. Three intermediaries, two days of conversion windows, one AML hold above a threshold nobody told you about, plus a Friday public holiday in Shenzhen. That's a five-day silence. On a Q4 order, five days is your container. On a launch SKU, five days is your competitor beating you to the shelf. The wire isn't lost. The visibility is. WorldFirst removes the correspondent chain entirely. CNY straight to Chinese bank accounts, same-day, with a tracking reference your supplier can match. Search WorldFirst.",
+        "diff_markup": "Watch this. Your bank app shows sent. Your supplier's WhatsApp shows nothing. You haven't lost the money. You've lost the day. Then the week. Then the order. Because your supplier won't load raw materials until the CNY hits their account. So every hour the wire sits at an intermediary bank, your delivery date slips. Three intermediaries, two days of conversion windows, one AML hold above a threshold nobody told you about, plus a Friday public holiday in Shenzhen. That's a five-day silence. On a Q4 order, five days is your container. On a launch SKU, five days is your competitor beating you to the shelf. <del>Listen. </del>The wire isn't lost. The visibility is. WorldFirst removes the correspondent chain entirely. CNY straight to Chinese bank accounts, same-day, with a tracking reference your supplier can match. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank lied to you and you thanked them for it. They told you the wire was sent. They didn't tell you sent means left our system. Not landed in your supplier's account. Between sent and landed there can be three to five correspondent banks, each one holding your money while it queues for its slot. Add a currency conversion window of up to two working days. Add an AML threshold hold above a number nobody disclosed. Add a Chinese bank holiday you didn't know about. Now you're four days into silence. Your supplier won't start production. Your container ship date is moving. Your customer is asking. I'll say it. Banks call this normal because for them it is. For a business owner running a Q4, it's the difference between hitting your number and missing it. WorldFirst removes the correspondent chain. Direct CNY same-day to Chinese accounts. Stop accepting silence as service. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank told you the wire was sent. They didn't tell you sent means left our system. Not landed in your supplier's account. Between sent and landed there can be three to five correspondent banks, each one holding your money while it queues for its slot. Add a currency conversion window of up to two working days. Add an AML threshold hold above a number nobody disclosed. Add a Chinese bank holiday you didn't know about. Now you're four days into silence. Your supplier won't start production. Your container ship date is moving. Your customer is asking. Banks call this normal because for them it is. For a business owner running a Q4, it's the difference between hitting your number and missing it. WorldFirst removes the correspondent chain. Direct CNY same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "Your bank <del>lied to you and you thanked them for it. They</del><ins>told you the wire was sent. They didn't</ins> tell<del>ed</del> you <del>the wire was sent. They didn't tell you </del>sent means left our system. Not landed in your supplier's account. Between sent and landed there can be three to five correspondent banks, each one holding your money while it queues for its slot. Add a currency conversion window of up to two working days. Add an AML threshold hold above a number nobody disclosed. Add a Chinese bank holiday you didn't know about. Now you're four days into silence. Your supplier won't start production. Your container ship date is moving. Your customer is asking. <del>I'll say it. </del>Banks call this normal because for them it is. For a business owner running a Q4, it's the difference between hitting your number and missing it. WorldFirst removes the correspondent chain. Direct CNY same-day to Chinese accounts. <del>Stop accepting silence as service. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here is what most business owners don't understand about international wires. Sent is not a status. Sent is a sentence your bank uses to close the ticket. The actual wire is now somewhere inside a chain of correspondent banks. Two. Three. Sometimes five. Each one holds it while they check sanctions, queue it for cut-off, and convert the currency. Currency conversion alone can sit two working days. AML flags above unannounced thresholds add another day. A Chinese bank holiday adds another. So when your supplier says nothing has arrived, they're right. And when your bank says sent, they're also right. The problem isn't a lie. The problem is the word means two different things. Stop. WorldFirst pays Chinese accounts directly in CNY same-day. No correspondent banks between you and your supplier. One status. One number. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here is what most business owners don't understand about international wires. Sent is not a status. Sent is a sentence your bank uses to close the ticket. The actual wire is now somewhere inside a chain of correspondent banks. Two. Three. Sometimes five. Each one holds it while they check sanctions, queue it for cut-off, and convert the currency. Currency conversion alone can sit two working days. AML flags above unannounced thresholds add another day. A Chinese bank holiday adds another. So when your supplier says nothing has arrived, they're right. And when your bank says sent, they're also right. The problem isn't a lie. The problem is the word means two different things. WorldFirst pays Chinese accounts directly in CNY same-day. No correspondent banks between you and your supplier. One status. One number. Search WorldFirst.",
+        "diff_markup": "Here is what most business owners don't understand about international wires. Sent is not a status. Sent is a sentence your bank uses to close the ticket. The actual wire is now somewhere inside a chain of correspondent banks. Two. Three. Sometimes five. Each one holds it while they check sanctions, queue it for cut-off, and convert the currency. Currency conversion alone can sit two working days. AML flags above unannounced thresholds add another day. A Chinese bank holiday adds another. So when your supplier says nothing has arrived, they're right. And when your bank says sent, they're also right. The problem isn't a lie. The problem is the word means two different things. <del>Stop. </del>WorldFirst pays Chinese accounts directly in CNY same-day. No correspondent banks between you and your supplier. One status. One number. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire money to China, you need to hear this. Real talk. Last time your supplier said nothing arrived, four things happened and your bank only told you about one. One. The wire left your bank. They called this sent. Two. It hit a correspondent bank in a different timezone and queued for the next clearing cut-off. Three. The currency conversion sat in a window of up to two working days. Four. An AML check above an undisclosed threshold paused it for review. Your supplier sees zero. Your bank says sent. You look like the problem. You lose a week. You lose the order. Stop wiring through chains you can't track. WorldFirst pays direct to Chinese accounts in CNY same-day. One reference. One status. One person to ask. If you're a business owner paying China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to China, you need to hear this. Last time your supplier said nothing arrived, four things happened and your bank only told you about one. One. The wire left your bank. They called this sent. Two. It hit a correspondent bank in a different timezone and queued for the next clearing cut-off. Three. The currency conversion sat in a window of up to two working days. Four. An AML check above an undisclosed threshold paused it for review. Your supplier sees zero. Your bank says sent. You look like the problem. You lose a week. You lose the order. WorldFirst pays direct to Chinese accounts in CNY same-day. One reference. One status. One person to ask. If you're a business owner paying China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you wire money to China, you need to hear this. <del>Real talk. </del>Last time your supplier said nothing arrived, four things happened and your bank only told you about one. One. The wire left your bank. They called this sent. Two. It hit a correspondent bank in a different timezone and queued for the next clearing cut-off. Three. The currency conversion sat in a window of up to two working days. Four. An AML check above an undisclosed threshold paused it for review. Your supplier sees zero. Your bank says sent. You look like the problem. You lose a week. You lose the order. <del>Stop wiring through chains you can't track. </del>WorldFirst pays direct to Chinese accounts in CNY same-day. One reference. One status. One person to ask. If you're a business owner paying China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying Chinese suppliers. Your bank app says sent. Your supplier says nothing arrived. You think someone is lying. Nobody is. Sent means the wire left your bank. It doesn't mean it landed. Between those two words there's a chain of correspondent banks, a currency conversion that can take two working days, maybe an AML check above a threshold nobody warned you about, maybe a Chinese bank holiday you didn't see coming. So you spend the week stuck between a bank that's done with you and a supplier who won't start production. Listen. WorldFirst pays directly to Chinese bank accounts in CNY, same day, no correspondent chain. One status. One person to chase. Stop accepting silence as service. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers. Your bank app says sent. Your supplier says nothing arrived. You think someone is lying. Nobody is. Sent means the wire left your bank. It doesn't mean it landed. Between those two words there's a chain of correspondent banks, a currency conversion that can take two working days, maybe an AML check above a threshold nobody warned you about, maybe a Chinese bank holiday you didn't see coming. So you spend the week stuck between a bank that's done with you and a supplier who won't start production. WorldFirst pays directly to Chinese bank accounts in CNY, same day, no correspondent chain. One status. One person to chase. Worth knowing if your wires keep going silent. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers. Your bank app says sent. Your supplier says nothing arrived. You think someone is lying. Nobody is. Sent means the wire left your bank. It doesn't mean it landed. Between those two words there's a chain of correspondent banks, a currency conversion that can take two working days, maybe an AML check above a threshold nobody warned you about, maybe a Chinese bank holiday you didn't see coming. So you spend the week stuck between a bank that's done with you and a supplier who won't start production. <del>Listen. </del>WorldFirst pays directly to Chinese bank accounts in CNY, same day, no correspondent chain. One status. One person to chase. <del>Stop accepting silence as service</del><ins>Worth knowing if your wires keep going silent</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it / opinion-as-truth",
+        "original_vo": "I'll say it. The word sent is the most expensive word your bank uses and nobody warns you about it. You hit send. App says sent. Done, right? Wrong. Sent means the wire left their system. It does not mean it arrived. Between sent and arrived there are correspondent banks, conversion windows of up to two working days, AML holds nobody told you about, and the occasional CN bank holiday. So your supplier is staring at an empty account and you're staring at the word sent and a week disappears. WorldFirst is direct CNY to Chinese bank accounts, same-day, no chain. One status. The word arrived means arrived. That's the difference.",
+        "iterated_vo": "The word sent is the most expensive word your bank uses and nobody warns you about it. You hit send. App says sent. Done, right? Not quite. Sent means the wire left their system. It does not mean it arrived. Between sent and arrived there are correspondent banks, conversion windows of up to two working days, AML holds nobody told you about, and the occasional CN bank holiday. So your supplier is staring at an empty account and you're staring at the word sent and a week disappears. WorldFirst is direct CNY to Chinese bank accounts, same-day, no chain. One status. The word arrived means arrived. That's the difference.",
+        "diff_markup": "<del>I'll say it. </del>The word sent is the most expensive word your bank uses and nobody warns you about it. You hit send. App says sent. Done, right? <del>Wrong</del><ins>Not quite</ins>. Sent means the wire left their system. It does not mean it arrived. Between sent and arrived there are correspondent banks, conversion windows of up to two working days, AML holds nobody told you about, and the occasional CN bank holiday. So your supplier is staring at an empty account and you're staring at the word sent and a week disappears. WorldFirst is direct CNY to Chinese bank accounts, same-day, no chain. One status. The word arrived means arrived. That's the difference."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tool reframe",
+        "original_vo": "Stop using your bank app as a tracking tool. I'm serious. The bank app gives you one word. Sent. That word ends their job and starts yours. Now you have to chase three correspondent banks, a conversion desk, an AML team in a different country, and a public holiday calendar in Shenzhen. Meanwhile your supplier won't start production because nothing has landed. The bank app was built to tell their teller the wire left. It was not built to tell you when your supplier can start. Wrong tool. WorldFirst was built for the second job. Direct to Chinese accounts in CNY same-day. One reference. One status that means arrived. Use the right tool. Search WorldFirst. Now.",
+        "iterated_vo": "Your bank app is not a tracking tool. The bank app gives you one word. Sent. That word ends their job and starts yours. Now you have to chase three correspondent banks, a conversion desk, an AML team in a different country, and a public holiday calendar in Shenzhen. Meanwhile your supplier won't start production because nothing has landed. The bank app was built to tell their teller the wire left. It was not built to tell you when your supplier can start. Wrong tool. WorldFirst was built for the second job. Direct to Chinese accounts in CNY same-day. One reference. One status that means arrived. Use the right tool. Search WorldFirst.",
+        "diff_markup": "<del>Stop using your bank app as a tracking tool. I'm serious</del><ins>Your bank app is not a tracking tool</ins>. The bank app gives you one word. Sent. That word ends their job and starts yours. Now you have to chase three correspondent banks, a conversion desk, an AML team in a different country, and a public holiday calendar in Shenzhen. Meanwhile your supplier won't start production because nothing has landed. The bank app was built to tell their teller the wire left. It was not built to tell you when your supplier can start. Wrong tool. WorldFirst was built for the second job. Direct to Chinese accounts in CNY same-day. One reference. One status that means arrived. Use the right tool. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about international wires. Your bank's status doesn't mean what you think it means. Sent doesn't mean arrived. Sent means it left their system. After that, the wire enters a black box of correspondent banks, conversion windows, AML thresholds, and bank holidays in cities you've never been to. Your bank closes the ticket. You're left holding the line with your supplier. And nobody owns the gap. WorldFirst doesn't have a gap. CNY direct to Chinese accounts, same-day, one tracking reference your supplier can match against their account. Sent and arrived become the same word. Period.",
+        "iterated_vo": "Here's something nobody's telling you about international wires. Your bank's status doesn't mean what you think it means. Sent doesn't mean arrived. Sent means it left their system. After that, the wire enters a chain of correspondent banks, conversion windows, AML thresholds, and bank holidays in cities you've never been to. Your bank closes the ticket. You're left holding the line with your supplier. And nobody owns the gap. WorldFirst doesn't have that gap. CNY direct to Chinese accounts, same-day, one tracking reference your supplier can match against their account. Sent and arrived become the same word.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about international wires. Your bank's status doesn't mean what you think it means. Sent doesn't mean arrived. Sent means it left their system. After that, the wire enters a <del>black box</del><ins>chain</ins> of correspondent banks, conversion windows, AML thresholds, and bank holidays in cities you've never been to. Your bank closes the ticket. You're left holding the line with your supplier. And nobody owns the gap. WorldFirst doesn't have <del>a</del><ins>that</ins> gap. CNY direct to Chinese accounts, same-day, one tracking reference your supplier can match against their account. Sent and arrived become the same word<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sourcing from China. You wire $30K. Bank app says sent. Supplier says nothing. You call the bank. They blame the correspondent. The correspondent blames the receiving bank. The receiving bank says it's in conversion. Conversion says there's a holiday. Holiday says wait Monday. Monday says AML flagged it. AML says give us a reason. Meanwhile your supplier is asking every two hours. Your delivery slot is gone. Your customer is asking. And the bank app still says sent. I see this every single week. Stop. WorldFirst. CNY direct to Chinese accounts, same-day, one tracking reference. Supplier sees it land. You sleep. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. You wire $30K. Bank app says sent. Supplier says nothing. You call the bank. They blame the correspondent. The correspondent blames the receiving bank. The receiving bank says it's in conversion. Conversion says there's a holiday. Holiday says wait Monday. Monday says AML flagged it. AML says give us a reason. Meanwhile your supplier is asking every two hours. Your delivery slot is gone. Your customer is asking. And the bank app still says sent. This happens every single week. WorldFirst. CNY direct to Chinese accounts, same-day, one tracking reference. Supplier sees it land. You sleep. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China. You wire $30K. Bank app says sent. Supplier says nothing. You call the bank. They blame the correspondent. The correspondent blames the receiving bank. The receiving bank says it's in conversion. Conversion says there's a holiday. Holiday says wait Monday. Monday says AML flagged it. AML says give us a reason. Meanwhile your supplier is asking every two hours. Your delivery slot is gone. Your customer is asking. And the bank app still says sent. <del>I see this</del><ins>This happens</ins> every single week. <del>Stop. </del>WorldFirst. CNY direct to Chinese accounts, same-day, one tracking reference. Supplier sees it land. You sleep. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core teaching (sent = left bank's system, not arrived; correspondent chain causes silence) is technically accurate and defensible. 'Three to five correspondent banks' is at the high end of realistic ranges, two to three is more common for USD to CNY routes. 'Two working days for conversion' is plausible but presented as a near-universal worst case. 'No correspondent chain' on WF side is broadly correct for the CNY-direct rail but the literal experience can vary, and 'same-day' has caveats around cut-off times.",
+      "skeptic_comments": [
+        {
+          "text": "Three to five correspondent banks? My MBB wire usually one hop only lah.",
+          "severity": "high"
+        },
+        {
+          "text": "SWIFT reference can track? Most bank app don't even show it nicely.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst who? Never hear before. Got Bank Negara license?",
+          "severity": "high"
+        },
+        {
+          "text": "Same day to Chinese account? Got cut off time or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad. Show real screenshot of WorldFirst paying same day.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The cumulative five-day silence (three intermediaries + two-day conversion + AML hold + Friday holiday in Shenzhen) is a worst-case stack presented as routine, which a skeptic will challenge. 'Five days is your container' is dramatic and not universally true. The Q4/launch SKU framing is emotive on top of an extrapolated worst case. The 'tracking reference your supplier can match' is a real WF capability but framing makes it sound unique to WF when SWIFT-based tracking exists across rails, just less visible.",
+      "skeptic_comments": [
+        {
+          "text": "Five day silence stacking everything bad together? In real life most wire two to three days only.",
+          "severity": "high"
+        },
+        {
+          "text": "Five days lose container? You don't book ship that tight, you got buffer.",
+          "severity": "mid"
+        },
+        {
+          "text": "Sound like worst case story used as average. Got data on actual avg delay?",
+          "severity": "high"
+        },
+        {
+          "text": "Tracking reference, ok. SWIFT got tracking also. What's unique to WorldFirst?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need licence info before I trust 30K to them.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "Even with 'lied' removed, 'didn't tell you' carries an implication of withholding that a banking-savvy skeptic will challenge: 'sent' is standard SWIFT terminology, disclosed in T&Cs. 'Three to five correspondent banks' is the high end. 'Banks call this normal because for them it is' is opinion presented as fact. The Q4 / hit your number framing is defensible but stacks consequences. 'Direct CNY same-day' on WF side still has cut-off caveats not mentioned.",
+      "skeptic_comments": [
+        {
+          "text": "Didn't tell me? It's literally in the T&C lah. Not bank's fault I don't read.",
+          "severity": "high"
+        },
+        {
+          "text": "Three to five correspondent on a simple USD to CNY wire? Maybe two only normally.",
+          "severity": "high"
+        },
+        {
+          "text": "Hit my number, miss my number, ok dramatic. Real impact more like one delivery slip.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst same day, sure? Cut off time? Public holiday handle how?",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst leh. From which country. Got Bank Negara approval or not.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Cleanest of the Hormozi set. The teaching distinction (sent is a ticket-closer, not a status of arrival) is genuinely useful and broadly accurate. The cascade (correspondent chain + conversion + AML + holiday) is presented as factors rather than a single worst-case stack, which is fairer. 'No correspondent banks between you and your supplier' on WF side is correct for the direct CNY rail. 'One status. One number.' is product-marketing tight but defensible.",
+      "skeptic_comments": [
+        {
+          "text": "Sent is a ticket closer, ok that's a fair point. Never thought of it that way.",
+          "severity": "low"
+        },
+        {
+          "text": "But sent IS the actual SWIFT status lah, not just bank made up word.",
+          "severity": "mid"
+        },
+        {
+          "text": "No correspondent banks, sure? How WorldFirst do that exactly?",
+          "severity": "mid"
+        },
+        {
+          "text": "Same day every day or got cut off? Need to know lah.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst regulated where? BNM Malaysia? Or just offshore licence?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The four-things stack is structurally clean and educational. Each factor (correspondent queue, conversion window, AML threshold, bank only reports step one) is real and individually defensible. Main red flag is the implicit guarantee that all four happen on every wire, which is a worst-case framing. 'Undisclosed threshold' on AML is true but bordering on conspiratorial. 'One reference. One status. One person to ask.' on WF side is marketing-strong but defensible for the direct rail.",
+      "skeptic_comments": [
+        {
+          "text": "Four things every wire? Mostly only one or two happen lah, not all four.",
+          "severity": "mid"
+        },
+        {
+          "text": "AML threshold undisclosed, ok that's actually a fair point. Mine got held last year.",
+          "severity": "low"
+        },
+        {
+          "text": "Lose a week, lose the order, bit stacked. Most supplier wait few days.",
+          "severity": "mid"
+        },
+        {
+          "text": "One person to ask, who? Got Malaysia support? English speaker?",
+          "severity": "high"
+        },
+        {
+          "text": "Worth a look ok but who is WorldFirst leh. Ant Group? Trust them or not?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Soft Gary Vee voice carries the same core teaching (sent vs landed gap, correspondent chain, conversion, AML, holiday) without absolute claims. 'Worth knowing if your wires keep going silent' is a defensible CTA. The supplier-won't-start framing is presented as a maybe ('maybe an AML check', 'maybe a Chinese bank holiday') which is more honest than the Hormozi versions. 'One status. One person to chase.' is the riskiest WF claim because Malaysian SMBs will want to know who the actual person is.",
+      "skeptic_comments": [
+        {
+          "text": "Stuck between bank and supplier, yeah this is real. Happened to me last CNY.",
+          "severity": "low"
+        },
+        {
+          "text": "Maybe AML, maybe holiday. Ok but how often actually? Got real percentage?",
+          "severity": "mid"
+        },
+        {
+          "text": "One person to chase? Who? Got hotline? Got chat? Got English?",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst. From China? Australia? Where regulated?",
+          "severity": "high"
+        },
+        {
+          "text": "Soft pitch I like la. But still need to see actual product before trust.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "'The word sent is the most expensive word your bank uses' is opinion-framed which is appropriate for Gary Vee voice and defensible since the sent/arrived gap genuinely costs business owners time and orders. The teaching is accurate. 'Conversion windows of up to two working days' is on the high side but in range. 'The word arrived means arrived' on WF side is product-marketing tight but truthful for the direct CNY rail.",
+      "skeptic_comments": [
+        {
+          "text": "Most expensive word, that's clever line lah. But still need data behind it.",
+          "severity": "low"
+        },
+        {
+          "text": "Conversion two working days? Mostly one day for me. Where you get two?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst arrived means arrived, ok confident statement. Show me proof.",
+          "severity": "mid"
+        },
+        {
+          "text": "Cut off time how? What if I send Friday 5pm Malaysia time?",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst. First time hearing leh.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'wrong tool' framing is defensible. The bank-app-only-shows-one-word point is accurate and a real pain. Listing the chase steps (correspondent, conversion desk, AML team, holiday calendar) is honest about the operational mess. 'WorldFirst was built for the second job' is a clean positioning claim. Main red flag is 'one status that means arrived' is strong and a skeptic will want to verify it on a real wire, not just hear it.",
+      "skeptic_comments": [
+        {
+          "text": "Wrong tool framing is fair la. Bank app really only show sent.",
+          "severity": "low"
+        },
+        {
+          "text": "AML team in different country, ok dramatic. Usually one country only.",
+          "severity": "mid"
+        },
+        {
+          "text": "Built for the second job, marketing speak. What's the actual mechanism?",
+          "severity": "mid"
+        },
+        {
+          "text": "Status means arrived, sure? What if it's stuck on receiving CN side?",
+          "severity": "high"
+        },
+        {
+          "text": "Right tool yeah ok but is WorldFirst regulated in Malaysia or not?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Black box' softened to 'chain' lowers conspiratorial framing, good. The teaching (sent and arrived are different) is accurate. 'Cities you've never been to' is a defensible bit of color. 'Nobody owns the gap' is the strongest line and actually true: between bank's sent and supplier's received, there's no accountable party. 'WorldFirst doesn't have that gap' is a clean comparative claim that holds for the direct CNY rail.",
+      "skeptic_comments": [
+        {
+          "text": "Nobody owns the gap, ok that's a really good line. Felt this last time my wire delay.",
+          "severity": "low"
+        },
+        {
+          "text": "Don't have the gap, sure? CN bank also can hold what.",
+          "severity": "mid"
+        },
+        {
+          "text": "Cities I never been to, dramatic but I get it. Singapore intermediary is common.",
+          "severity": "low"
+        },
+        {
+          "text": "What if AML still happens on WorldFirst side? Same problem right?",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst. Where based. Where licence. Need answer.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "High",
+      "analysis": "The escalating chase chain (bank to correspondent to receiving bank to conversion to holiday to Monday to AML) is dramatic but each step is plausible. 'Every two hours' from supplier is emotive. 'Your delivery slot is gone' is a single beat treated as universal. 'Supplier sees it land' on WF side is a confident outcome that's defensible for the direct rail but skips cut-off and CN-side caveats. 'You sleep' is emotive close, fine for Gary Vee voice.",
+      "skeptic_comments": [
+        {
+          "text": "The blame chain is real, happened to me twice. Last CNY especially.",
+          "severity": "low"
+        },
+        {
+          "text": "Every two hours supplier asking, bit dramatic. Mine ask once a day.",
+          "severity": "mid"
+        },
+        {
+          "text": "Delivery slot gone in one week? Most ship dates got buffer la.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier sees it land same day, every time? What if their bank delay?",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst from where? Need to see Bank Negara before trust 30K.",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}

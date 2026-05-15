@@ -1,0 +1,347 @@
+{
+  "angle_id": "P1-A2-1",
+  "title": "The 3 paths your CNY takes to China (most operators only know one)",
+  "card_id": "P1-A2",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner paying Chinese suppliers, your CNY can take three different paths to get there and only one is same-day. Here's the deal. Path one. SWIFT through correspondent banks. Three to five business days. Multiple banks in the chain. Each one takes a fee, each one takes its time. Path two. CIPS, China's own clearing system. One to two days. Cleaner, but most banks abroad don't route through it directly. Path three. A dedicated CNY rail straight into the supplier's account. Same-day when set up right. Most business owners don't know which one their bank is using. So you wire on Monday and your supplier sees nothing until Friday. Production never starts. You eat the delay. Stop. Your wire confirmation tells you which path you're on. Read it. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner paying Chinese suppliers, your CNY can take three different paths to get there and only one is same-day. Here's the deal. Path one. SWIFT through correspondent banks. Three to five business days. Multiple banks in the chain. Each one takes a fee, each one takes its time. Path two. CIPS, China's own clearing system. One to two days. Cleaner, but most banks abroad don't route through it directly. Path three. A dedicated CNY rail straight into the supplier's account. Same-day when set up right. Most business owners don't know which one their bank is using. So you wire on Monday and your supplier sees nothing until Friday. Production never starts. You eat the delay. Your wire confirmation tells you which path you're on. Read it. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner paying Chinese suppliers, your CNY can take three different paths to get there and only one is same-day. Here's the deal. Path one. SWIFT through correspondent banks. Three to five business days. Multiple banks in the chain. Each one takes a fee, each one takes its time. Path two. CIPS, China's own clearing system. One to two days. Cleaner, but most banks abroad don't route through it directly. Path three. A dedicated CNY rail straight into the supplier's account. Same-day when set up right. Most business owners don't know which one their bank is using. So you wire on Monday and your supplier sees nothing until Friday. Production never starts. You eat the delay. <del>Stop. </del>Your wire confirmation tells you which path you're on. Read it. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You wire CNY to your supplier on Monday. They see nothing until Friday. That's four working days where production isn't moving. Now do that twelve times a year. That's forty-eight working days a year, almost ten weeks, gone. Why? Because your wire is on path one. SWIFT through correspondent banks. Three to five days, every single time. There are two other paths most business owners have never heard of. CIPS, one to two days. And a dedicated CNY rail, same-day. CIPS alone moved over twenty-four trillion in 2024, up forty-two percent in one year. This is real infrastructure. Most banks just don't tell you about it. Listen. The path you're on costs you weeks every year. Switch the path, get the weeks back. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You wire CNY to your supplier on Monday. They see nothing until Friday. That's four working days where production isn't moving. Now do that twelve times a year. That's forty-eight working days a year, almost ten weeks, gone. Why? Because your wire is on path one. SWIFT through correspondent banks. Three to five days, every single time. There are two other paths most business owners have never heard of. CIPS, one to two days. And a dedicated CNY rail, same-day. CIPS alone moved over twenty-four trillion in 2024, up forty-two percent in one year. This is real infrastructure. Most banks just don't tell you about it. The path you're on costs you weeks every year. Switch the path, get the weeks back. Search WorldFirst.",
+        "diff_markup": "Watch this. You wire CNY to your supplier on Monday. They see nothing until Friday. That's four working days where production isn't moving. Now do that twelve times a year. That's forty-eight working days a year, almost ten weeks, gone. Why? Because your wire is on path one. SWIFT through correspondent banks. Three to five days, every single time. There are two other paths most business owners have never heard of. CIPS, one to two days. And a dedicated CNY rail, same-day. CIPS alone moved over twenty-four trillion in 2024, up forty-two percent in one year. This is real infrastructure. Most banks just don't tell you about it. <del>Listen. </del>The path you're on costs you weeks every year. Switch the path, get the weeks back. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank picked the slowest path on purpose. Here's how I know. There are three ways your CNY can reach a Chinese supplier. SWIFT, three to five days. CIPS, one to two days. A dedicated CNY rail, same-day. Your bank is using SWIFT. Always. Because every other bank in the SWIFT chain takes a cut and your bank is one of them. Same-day routing doesn't have a chain, so there's nothing to skim. You think your bank just doesn't know better. They know. They picked it. So your supplier waits four days. Production stalls. You miss the delivery window. You eat the loss. I'll say it. The path is a choice. Your bank made the wrong one for you on purpose. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank picked the slowest path. Here's how I know. There are three ways your CNY can reach a Chinese supplier. SWIFT, three to five days. CIPS, one to two days. A dedicated CNY rail, same-day. Your bank is using SWIFT. Always. Because every other bank in the SWIFT chain takes a cut and your bank is one of them. Same-day routing doesn't have a chain, so there's nothing to skim. You think your bank just doesn't know better. They know. They picked it. So your supplier waits four days. Production stalls. You miss the delivery window. You eat the loss. The path is a choice. Your bank made one. You can make a different one. Search WorldFirst.",
+        "diff_markup": "Your bank picked the slowest path<del> on purpose</del>. Here's how I know. There are three ways your CNY can reach a Chinese supplier. SWIFT, three to five days. CIPS, one to two days. A dedicated CNY rail, same-day. Your bank is using SWIFT. Always. Because every other bank in the SWIFT chain takes a cut and your bank is one of them. Same-day routing doesn't have a chain, so there's nothing to skim. You think your bank just doesn't know better. They know. They picked it. So your supplier waits four days. Production stalls. You miss the delivery window. You eat the loss. <del>I'll say it. </del>The path is a choice. Your bank made <del>the wrong one for you on purpose. Period</del><ins>one. You can make a different one</ins>. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the part most business owners don't realize when they pay China. There isn't one wire. There are three. Three different mechanisms, three different speeds, three different costs. Mechanism one. SWIFT. A messaging network. Your money hops bank to bank to bank. Three to five days, every hop takes a fee. Mechanism two. CIPS. China's own clearing system. Direct settlement, one to two days, fewer hops, lower cost. Mechanism three. A dedicated CNY rail built into the receiving bank. Same-day. The money lands in the supplier's account the day you send it. Most banks default you to mechanism one because it's their default. They don't pick the fastest one for you. They pick the easiest one for them. Stop accepting the default. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the part most business owners don't realize when they pay China. There isn't one wire. There are three. Three different mechanisms, three different speeds, three different costs. Mechanism one. SWIFT. A messaging network. Your money hops bank to bank to bank. Three to five days, every hop takes a fee. Mechanism two. CIPS. China's own clearing system. Direct settlement, one to two days, fewer hops, lower cost. Mechanism three. A dedicated CNY rail built into the receiving bank. Same-day. The money lands in the supplier's account the day you send it. Most banks default you to mechanism one because it's their default. They don't pick the fastest one for you. They pick the easiest one for them. Worth knowing the difference. Search WorldFirst.",
+        "diff_markup": "Here's the part most business owners don't realize when they pay China. There isn't one wire. There are three. Three different mechanisms, three different speeds, three different costs. Mechanism one. SWIFT. A messaging network. Your money hops bank to bank to bank. Three to five days, every hop takes a fee. Mechanism two. CIPS. China's own clearing system. Direct settlement, one to two days, fewer hops, lower cost. Mechanism three. A dedicated CNY rail built into the receiving bank. Same-day. The money lands in the supplier's account the day you send it. Most banks default you to mechanism one because it's their default. They don't pick the fastest one for you. They pick the easiest one for them. <del>Stop accepting the default. Period</del><ins>Worth knowing the difference</ins>. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you pay suppliers in China, you need to hear this. Real talk. Your CNY can take three paths. Most business owners only know one. Path one. SWIFT through correspondent banks. Three to five days. Multiple hops. Multiple fees. The default at almost every bank. Path two. CIPS direct clearing. One to two days. Lower cost. Most banks abroad don't connect to it directly. Path three. A dedicated CNY rail. Same-day. Money lands the same business day. Almost no one uses it because almost no one knows it exists. So here's what happens. You wire Monday. Supplier sees nothing until Friday. Production stalls. Lead time blown. Customer waiting. Margin bleeding. All because you defaulted to path one. Stop. Pick the path. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you pay suppliers in China, you need to hear this. Your CNY can take three paths. Most business owners only know one. Path one. SWIFT through correspondent banks. Three to five days. Multiple hops. Multiple fees. The default at almost every bank. Path two. CIPS direct clearing. One to two days. Lower cost. Most banks abroad don't connect to it directly. Path three. A dedicated CNY rail. Same-day. Money lands the same business day. Almost no one uses it because almost no one knows it exists. So here's what happens. You wire Monday. Supplier sees nothing until Friday. Production stalls. Lead time blown. Customer waiting. Margin bleeding. All because you defaulted to path one. Pick the path yourself next time. Search WorldFirst.",
+        "diff_markup": "If you pay suppliers in China, you need to hear this. <del>Real talk. </del>Your CNY can take three paths. Most business owners only know one. Path one. SWIFT through correspondent banks. Three to five days. Multiple hops. Multiple fees. The default at almost every bank. Path two. CIPS direct clearing. One to two days. Lower cost. Most banks abroad don't connect to it directly. Path three. A dedicated CNY rail. Same-day. Money lands the same business day. Almost no one uses it because almost no one knows it exists. So here's what happens. You wire Monday. Supplier sees nothing until Friday. Production stalls. Lead time blown. Customer waiting. Margin bleeding. All because you defaulted to path one. <del>Stop. Pick the path. Period</del><ins>Pick the path yourself next time</ins>. Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying Chinese suppliers. You think there's one way to send CNY to China. There's three. Path one. SWIFT through correspondent banks. Three to five days. Path two. CIPS. China's own clearing system. One to two days. Path three. A dedicated CNY rail straight into the supplier's account. Same-day. Most banks abroad only use path one. They don't tell you the other two exist. So you wait. Your supplier waits. Your production waits. WorldFirst routes you onto the fastest available path. Same-day to Chinese accounts. The money lands the day you send it. Stop accepting the slow default. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers. You think there's one way to send CNY to China. There's three. Path one. SWIFT through correspondent banks. Three to five days. Path two. CIPS. China's own clearing system. One to two days. Path three. A dedicated CNY rail straight into the supplier's account. Same-day. Most banks abroad only use path one. They don't tell you the other two exist. So you wait. Your supplier waits. Your production waits. WorldFirst routes you onto the fastest available path. Same-day to Chinese accounts. The money lands the day you send it. Worth knowing your options. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers. You think there's one way to send CNY to China. There's three. Path one. SWIFT through correspondent banks. Three to five days. Path two. CIPS. China's own clearing system. One to two days. Path three. A dedicated CNY rail straight into the supplier's account. Same-day. Most banks abroad only use path one. They don't tell you the other two exist. So you wait. Your supplier waits. Your production waits. WorldFirst routes you onto the fastest available path. Same-day to Chinese accounts. The money lands the day you send it. <del>Stop accepting the slow default</del><ins>Worth knowing your options</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. The path your CNY takes to China is the most overlooked decision in your supply chain. You send a wire on Monday. Supplier sees it Friday. That's four days of dead time, on every single payment. Now compound it. Twelve payments a year, that's forty-eight working days lost. Two payments a month, that's a hundred days. A hundred days of production stalled, every year. Why? Because nobody told you there are three paths. SWIFT three to five days. CIPS one to two days. A dedicated CNY rail, same-day. CIPS alone settled over twenty-four trillion in 2024. Real infrastructure. Your bank just isn't routing you on it. WorldFirst does. The day you send is the day they receive. Period.",
+        "iterated_vo": "The path your CNY takes to China is the most overlooked decision in your supply chain. You send a wire on Monday. Supplier sees it Friday. That's four days of dead time, on every single payment. Now compound it. Twelve payments a year, that's forty-eight working days lost. Two payments a month, that's a hundred days. A hundred days of production stalled, every year. Why? Because nobody told you there are three paths. SWIFT three to five days. CIPS one to two days. A dedicated CNY rail, same-day. CIPS alone settled over twenty-four trillion in 2024. Real infrastructure. Your bank just isn't routing you on it. WorldFirst does. The day you send is the day they receive.",
+        "diff_markup": "<del>I'll say it. </del>The path your CNY takes to China is the most overlooked decision in your supply chain. You send a wire on Monday. Supplier sees it Friday. That's four days of dead time, on every single payment. Now compound it. Twelve payments a year, that's forty-eight working days lost. Two payments a month, that's a hundred days. A hundred days of production stalled, every year. Why? Because nobody told you there are three paths. SWIFT three to five days. CIPS one to two days. A dedicated CNY rail, same-day. CIPS alone settled over twenty-four trillion in 2024. Real infrastructure. Your bank just isn't routing you on it. WorldFirst does. The day you send is the day they receive<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tool reframe",
+        "original_vo": "Stop sending CNY through SWIFT. I'm serious. SWIFT is a tool. It's the wrong tool for China. SWIFT was built to move money between banks that don't have a direct relationship. So your money hops three, four banks before it lands. Three to five days. Multiple fees. That's not a payment, that's a relay race. China has its own clearing system called CIPS. One to two days, direct settlement. And there's a third path, a dedicated CNY rail, that lands same-day. You wouldn't drive cross-country when there's a flight. So why are you wiring CNY on the slowest route there is? WorldFirst picks the fast route for you. Same-day to Chinese accounts. Use the right tool. Search WorldFirst. Now.",
+        "iterated_vo": "SWIFT isn't the right tool for China. SWIFT is a tool. It's the wrong tool for China. SWIFT was built to move money between banks that don't have a direct relationship. So your money hops three, four banks before it lands. Three to five days. Multiple fees. That's not a payment, that's a relay race. China has its own clearing system called CIPS. One to two days, direct settlement. And there's a third path, a dedicated CNY rail, that lands same-day. You wouldn't drive cross-country when there's a flight. So why are you wiring CNY on the slowest route there is? WorldFirst picks the fast route for you. Same-day to Chinese accounts. Use the right tool. Search WorldFirst.",
+        "diff_markup": "<del>Stop sending CNY through SWIFT. I'm serious</del><ins>SWIFT isn't the right tool for China</ins>. SWIFT is a tool. It's the wrong tool for China. SWIFT was built to move money between banks that don't have a direct relationship. So your money hops three, four banks before it lands. Three to five days. Multiple fees. That's not a payment, that's a relay race. China has its own clearing system called CIPS. One to two days, direct settlement. And there's a third path, a dedicated CNY rail, that lands same-day. You wouldn't drive cross-country when there's a flight. So why are you wiring CNY on the slowest route there is? WorldFirst picks the fast route for you. Same-day to Chinese accounts. Use the right tool. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about paying China. There isn't one path. There's three. And your bank only uses the slowest one. Path one is SWIFT. Three to five days. Multiple banks in the chain, each one taking a fee. This is what your bank defaults you to. Path two is CIPS, China's own clearing system. One to two days. Cleaner. Cheaper. But it requires your bank to plug into China's rails, and most don't. Path three is a dedicated CNY rail straight into the supplier's bank. Same-day. The money lands the day you send it. The reason nobody talks about path two and three? They aren't the bank's default, and the default makes them money. WorldFirst is different. Period.",
+        "iterated_vo": "Here's something nobody's telling you about paying China. There isn't one path. There's three. And your bank only uses the slowest one. Path one is SWIFT. Three to five days. Multiple banks in the chain, each one taking a fee. This is what your bank defaults you to. Path two is CIPS, China's own clearing system. One to two days. Cleaner. Cheaper. But it requires your bank to plug into China's rails, and most don't. Path three is a dedicated CNY rail straight into the supplier's bank. Same-day. The money lands the day you send it. The reason nobody talks about path two and three? They aren't the default. WorldFirst is built around the faster ones.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about paying China. There isn't one path. There's three. And your bank only uses the slowest one. Path one is SWIFT. Three to five days. Multiple banks in the chain, each one taking a fee. This is what your bank defaults you to. Path two is CIPS, China's own clearing system. One to two days. Cleaner. Cheaper. But it requires your bank to plug into China's rails, and most don't. Path three is a dedicated CNY rail straight into the supplier's bank. Same-day. The money lands the day you send it. The reason nobody talks about path two and three? They aren't <del>the bank's default, and the default makes them money</del><ins>the default</ins>. WorldFirst is <del>different. Period</del><ins>built around the faster ones</ins>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sourcing from China. You wire on Monday. Supplier says nothing's arrived. Tuesday, nothing. Wednesday, nothing. Thursday, you call your bank. They say it's with the correspondent. You call the correspondent. They say it's with the next correspondent. By Friday it lands. Production starts Monday. You just lost a week. Why? Because your wire is on the longest path. SWIFT through three correspondent banks. There are two faster paths. CIPS, one to two days. A dedicated CNY rail, same-day. Same money. Same destination. Different rails. Stop letting your bank pick the slowest one. WorldFirst routes you on the fastest available rail. Same-day. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. You wire on Monday. Supplier says nothing's arrived. Tuesday, nothing. Wednesday, nothing. Thursday, you call your bank. They say it's with the correspondent. You call the correspondent. They say it's with the next correspondent. By Friday it lands. Production starts Monday. You just lost a week. Why? Because your wire is on the longest path. SWIFT through three correspondent banks. There are two faster paths. CIPS, one to two days. A dedicated CNY rail, same-day. Same money. Same destination. Different rails. Worth knowing which one your bank picked. WorldFirst routes you on the fastest available rail. Same-day. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China. You wire on Monday. Supplier says nothing's arrived. Tuesday, nothing. Wednesday, nothing. Thursday, you call your bank. They say it's with the correspondent. You call the correspondent. They say it's with the next correspondent. By Friday it lands. Production starts Monday. You just lost a week. Why? Because your wire is on the longest path. SWIFT through three correspondent banks. There are two faster paths. CIPS, one to two days. A dedicated CNY rail, same-day. Same money. Same destination. Different rails. <del>Stop letting your bank pick the slowest one</del><ins>Worth knowing which one your bank picked</ins>. WorldFirst routes you on the fastest available rail. Same-day. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (three distinct routing paths with different speeds) is real and defensible. SWIFT 3-5 day and CIPS 1-2 day timing windows align with published norms. 'Dedicated CNY rail same-day' is true conceptually but vague enough to feel like marketing without naming the specific rail. 'Monday to Friday' framing assumes worst-case SWIFT delay as universal which a skeptic with a fast bank can challenge. 'Production never starts' is also situational, framed as inevitable.",
+      "skeptic_comments": [
+        {
+          "text": "My Maybank wire to China take 2 days only, not 5 lah. Don't generalise.",
+          "severity": "high"
+        },
+        {
+          "text": "What is this 'dedicated CNY rail'? Got name or not? Sound vague.",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? Never heard. Got SC license in Malaysia?",
+          "severity": "high"
+        },
+        {
+          "text": "My supplier got cash flow, don't need full amount land before production.",
+          "severity": "mid"
+        },
+        {
+          "text": "Read wire confirmation? Most banks don't show routing detail one.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The '48 working days a year' and '10 weeks gone' extrapolation is the highest-risk claim. It assumes worst-case 4-day SWIFT delay on every single wire, which is statistically unlikely for any one operator. CIPS 24.47T 2024 figure is technically accurate per public China data but presented without source, which a numbers-savvy skeptic will challenge. 'Real infrastructure' phrasing is fine but the implied scale relevance to one SMB's wire is overstretched.",
+      "skeptic_comments": [
+        {
+          "text": "48 days lost a year? Assume my wire always 4 days. Most of mine 2 days lah.",
+          "severity": "high"
+        },
+        {
+          "text": "24 trillion? Where this number from? Show source bro.",
+          "severity": "high"
+        },
+        {
+          "text": "Even if CIPS exist, my bank still use SWIFT. So what to do?",
+          "severity": "mid"
+        },
+        {
+          "text": "Sound like ad. Show me real screenshot of same-day arrival.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst regulated where? First time hearing the name.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "'Your bank picked the slowest path on purpose' is an intent-attribution claim that's hard to defend. SWIFT is usually the default because of infrastructure relationships, not malice. 'Same-day routing doesn't have a chain' is broadly true but oversimplified, dedicated rails still have settlement steps. 'They picked it' frames bank behaviour as deliberate rather than systemic. A skeptic with banking background will tear this apart. Iterated version softened to 'picked one' which lowers the risk.",
+      "skeptic_comments": [
+        {
+          "text": "On purpose? You really think bank sit down and choose slow path to skim me?",
+          "severity": "high"
+        },
+        {
+          "text": "Conspiracy vibes. Banks just slow because old system, not because they evil.",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day routing also got cost what. Not free.",
+          "severity": "mid"
+        },
+        {
+          "text": "If WorldFirst so good why my friends in import biz never mention?",
+          "severity": "high"
+        },
+        {
+          "text": "Got proof on the chain fees? My wire fee always disclosed.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Cleanest of the Hormozi set. Teaching frame ('three mechanisms') is accurate and properly hedged ('most banks default'). No universal percentage claim, no extrapolated multi-year math, no intent attribution to banks. The 'easiest for them' line is borderline but framed as opinion. Same-day claim on path three is the only soft spot but it's stated conditionally enough to hold up. Most likely to pass a skeptic's first scan.",
+      "skeptic_comments": [
+        {
+          "text": "Ok this one make sense. Actually didn't know about CIPS before.",
+          "severity": "low"
+        },
+        {
+          "text": "Same-day land really? Or land in WorldFirst account first then takes another day?",
+          "severity": "mid"
+        },
+        {
+          "text": "Easiest for them, fine. But how WorldFirst make money then?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who regulate WorldFirst here? Got Malaysia license?",
+          "severity": "high"
+        },
+        {
+          "text": "Need to see actual rate and fee comparison vs my bank, not just speed.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Problem-stack format is clean. The 3-path teaching is consistent with grounding research. 'Customer waiting. Margin bleeding.' cascade is mildly dramatic for a one-wire delay but defensible for time-sensitive shipments. 'Almost no one uses it because almost no one knows it exists' is hyperbolic, plenty of corporate treasury teams know about CIPS. Most SMBs do default to path one, so the core point holds, just the absolutism is a soft spot.",
+      "skeptic_comments": [
+        {
+          "text": "Margin bleeding from one delayed wire? Bit dramatic la.",
+          "severity": "mid"
+        },
+        {
+          "text": "Almost no one knows? Big corp finance team all know CIPS lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Ok the 3 paths thing useful info. But how I pick path 3 specifically?",
+          "severity": "low"
+        },
+        {
+          "text": "WorldFirst Singapore right? They cover Malaysia accounts also?",
+          "severity": "high"
+        },
+        {
+          "text": "Show real timeline screenshot, then I believe.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Low",
+      "analysis": "Mirror of PH1's grounding but in Gary Vee voice. Same three-path teaching, properly framed. Softened 'worth knowing your options' close lowers product-overreach risk. Time windows (3-5, 1-2, same-day) are all reasonable. Main soft spot is 'they don't tell you the other two exist' which is a sweeping claim about bank behaviour, but framed as opinion. Defensible overall.",
+      "skeptic_comments": [
+        {
+          "text": "My bank actually mention SWIFT vs faster route before, just expensive.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst routes me on fastest? What if no fast route exist for my supplier's bank?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Got license to operate Malaysia?",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day mean same calendar day or business day?",
+          "severity": "low"
+        },
+        {
+          "text": "Three paths useful. But how WorldFirst handle compliance, AML check?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "The 100-days-lost-per-year extrapolation is the highest-risk claim. Two payments a month at 4-day delay each gives 96 days, not 100, and assumes worst-case delay on every payment, which won't hold for a fast bank. The 24 trillion CIPS figure is technically accurate but presented without citation. 'Most overlooked decision in your supply chain' is opinion-framed which is fair Gary Vee voice. 'Your bank isn't routing you on it' is broadly true.",
+      "skeptic_comments": [
+        {
+          "text": "100 days? You assume every wire 4 days delay. Mine usually 2.",
+          "severity": "high"
+        },
+        {
+          "text": "24 trillion in 2024, source please. Otherwise sound made up.",
+          "severity": "high"
+        },
+        {
+          "text": "Most overlooked decision? I always check fees, that's a decision la.",
+          "severity": "mid"
+        },
+        {
+          "text": "If CIPS so big why WorldFirst not a bank? How they access it?",
+          "severity": "mid"
+        },
+        {
+          "text": "Day you send is day they receive. Even at 11pm Friday? Sure ah?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "Right-tool reframe is clean and educational. 'SWIFT built to move money between banks without direct relationship' is technically accurate. 'Hops three, four banks' is upper-range but defensible for US-to-CN routes. The flight-vs-drive analogy lands. Main soft spot is 'WorldFirst picks the fast route for you' which is a product claim that depends on supplier's receiving bank being on the right rail, not always the case.",
+      "skeptic_comments": [
+        {
+          "text": "Cross-country vs flight analogy nice. But flight got security check also lah.",
+          "severity": "low"
+        },
+        {
+          "text": "What if my supplier's bank not on the fast rail? Still SWIFT?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst pick the fast route, but I still pay fee right? How much?",
+          "severity": "mid"
+        },
+        {
+          "text": "First time hearing WorldFirst, Got SC Malaysia license?",
+          "severity": "high"
+        },
+        {
+          "text": "SWIFT also got faster options now, gpi all that. Not always 5 days.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "High",
+      "analysis": "Conspiratorial framing ('truth nobody's telling you', 'the default makes them money') is high-risk because it attributes intent to banks. Bank fee structures are real but framing them as deliberate suppression of alternatives is hard to evidence. CIPS connection statement ('most banks don't connect to it directly') is broadly true for retail/SMB banks abroad but not for major commercial banks. Iterated version softens conspiracy tone, which lowers the score in the polished line.",
+      "skeptic_comments": [
+        {
+          "text": "Conspiracy vibe too strong. Banks just lazy, not evil.",
+          "severity": "high"
+        },
+        {
+          "text": "Path 2 path 3 not the default because mostly retail wires don't qualify, not coz of bank greed.",
+          "severity": "high"
+        },
+        {
+          "text": "If WorldFirst plug into CIPS directly, where the source? Show me press release.",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad with grudge against banks. Where my proof?",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst la. License? Backing? Don't want to send 100K to startup.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "The Monday-to-Friday wire chase scenario is realistic and resonant with anyone who's actually wired to China. Three-correspondent-bank chain is upper-range but plausible. 'Production starts Monday, you just lost a week' is dramatic but defensible for time-sensitive shipments. Main risk is universal framing of the bad-experience as everyone's experience. 'Fastest available rail, same-day' on WorldFirst side depends on supplier bank, not always achievable.",
+      "skeptic_comments": [
+        {
+          "text": "Monday to Friday chase, yes happened to me. Real talk.",
+          "severity": "low"
+        },
+        {
+          "text": "Three correspondent banks? My wires usually 1 or 2 max.",
+          "severity": "mid"
+        },
+        {
+          "text": "Production starts Monday, lost a week. Sometimes I just deposit early lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst same-day, but what if my supplier on tier 3 city bank? Still fast?",
+          "severity": "mid"
+        },
+        {
+          "text": "Need to see actual SC Malaysia license number before I trust.",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}

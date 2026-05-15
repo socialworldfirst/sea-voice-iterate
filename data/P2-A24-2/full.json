@@ -1,0 +1,347 @@
+{
+  "angle_id": "P2-A24-2",
+  "title": "The $12,000 wall on credit cards",
+  "card_id": "P2-A24",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener on the ceiling",
+        "original_vo": "Listen. If you're a business owner paying Chinese suppliers by credit card, you're about to hit a wall. The wall is 12,000 dollars. That's the per-order cap on Alibaba Trade Assurance card payments. One dollar over and your card is declined. Here's why this matters. 12K is roughly where samples stop and production starts. Below 12K, your card works. Above 12K, you're forced onto T/T wire. Same factory. Same product. Different rail. And most business owners learn this at the worst moment. Card declined. Supplier waiting. Production slot lost. Stop. Cards are a sample tool. For production orders over 12K you need a B2B rail. WorldFirst handles the T/T side. Same-day to Chinese accounts. Near-interbank rate. Use the right tool for the right size. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner paying Chinese suppliers by credit card, you're about to hit a wall. The wall is 12,000 dollars. That's the per-order cap on Alibaba Trade Assurance card payments. One dollar over and your card is declined. Here's why this matters. 12K is roughly where samples stop and production starts. Below 12K, your card works. Above 12K, you're forced onto T/T wire. Same factory. Same product. Different rail. And most business owners learn this at the worst moment. Card declined. Supplier waiting. Production slot lost. Cards are a sample tool. For production orders over 12K you need a B2B rail. WorldFirst handles the T/T side. Same-day to Chinese accounts. Near-interbank rate. Use the right tool for the right size. Worth a look. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner paying Chinese suppliers by credit card, you're about to hit a wall. The wall is 12,000 dollars. That's the per-order cap on Alibaba Trade Assurance card payments. One dollar over and your card is declined. Here's why this matters. 12K is roughly where samples stop and production starts. Below 12K, your card works. Above 12K, you're forced onto T/T wire. Same factory. Same product. Different rail. And most business owners learn this at the worst moment. Card declined. Supplier waiting. Production slot lost. <del>Stop. </del>Cards are a sample tool. For production orders over 12K you need a B2B rail. WorldFirst handles the T/T side. Same-day to Chinese accounts. Near-interbank rate. Use the right tool for the right size. <del>Period. </del><ins>Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + size threshold reveal",
+        "original_vo": "Watch this. You go to pay your factory 15K on Alibaba. You hit credit card. Declined. You try again. Declined. You think your card is the problem. It's not. The wall is 12,000 dollars per order. That's the cap on Trade Assurance card payments. Hard ceiling. Alibaba won't escrow more than that against a single supplier on a card because the chargeback risk is too big. So above 12K, you're forced onto T/T. Here's what business owners miss. 12K is exactly where samples become production. Cards live below the wall. Production lives above. And nobody tells you this until your supplier is sitting there waiting for the deposit. Stop hitting the wall. WorldFirst gives you the T/T rail you need above 12K. Same-day to China. Near-interbank rate. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You go to pay your factory 15K on Alibaba. You hit credit card. Declined. You try again. Declined. You think your card is the problem. It's not. The wall is 12,000 dollars per order. That's the cap on Trade Assurance card payments. Hard ceiling. Alibaba won't escrow more than that against a single supplier on a card because the chargeback risk is too big. So above 12K, you're forced onto T/T. Here's what business owners miss. 12K is exactly where samples become production. Cards live below the wall. Production lives above. And nobody tells you this until your supplier is sitting there waiting for the deposit. WorldFirst gives you the T/T rail you need above 12K. Same-day to China. Near-interbank rate. Search WorldFirst.",
+        "diff_markup": "Watch this. You go to pay your factory 15K on Alibaba. You hit credit card. Declined. You try again. Declined. You think your card is the problem. It's not. The wall is 12,000 dollars per order. That's the cap on Trade Assurance card payments. Hard ceiling. Alibaba won't escrow more than that against a single supplier on a card because the chargeback risk is too big. So above 12K, you're forced onto T/T. Here's what business owners miss. 12K is exactly where samples become production. Cards live below the wall. Production lives above. And nobody tells you this until your supplier is sitting there waiting for the deposit. <del>Stop hitting the wall. </del>WorldFirst gives you the T/T rail you need above 12K. Same-day to China. Near-interbank rate. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener on the missed ceiling",
+        "original_vo": "Alibaba just blocked your card and nobody warned you. Here's why. There is a hidden ceiling on Trade Assurance card payments. 12,000 dollars per order. Hard cap. You can have a 50K credit limit. You can have a 100K credit limit. Doesn't matter. The platform won't escrow more than 12K against one supplier on a card because the chargeback exposure is too big. So you tried to pay your 15K production deposit. Card declined. Supplier waiting. Production slot at risk. And you're scrambling to set up a T/T wire on a Friday afternoon. I'll say it. The card path was never meant for production. It was meant for samples. Cards below the wall, T/T above. WorldFirst is the T/T rail. Near-interbank rate. Same-day to Chinese accounts. Stop hitting the wall blind. Search WorldFirst. Period.",
+        "iterated_vo": "Alibaba just blocked your card and nobody warned you. Here's why. There is a ceiling on Trade Assurance card payments. 12,000 dollars per order. Hard cap. You can have a 50K credit limit. You can have a 100K credit limit. Doesn't matter. The platform won't escrow more than 12K against one supplier on a card because the chargeback exposure is too big. So you tried to pay your 15K production deposit. Card declined. Supplier waiting. Production slot at risk. And you're scrambling to set up a T/T wire on a Friday afternoon. The card path was never meant for production. It was meant for samples. Cards below the wall, T/T above. WorldFirst is the T/T rail. Near-interbank rate. Same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "Alibaba just blocked your card and nobody warned you. Here's why. There is a <del>hidden </del>ceiling on Trade Assurance card payments. 12,000 dollars per order. Hard cap. You can have a 50K credit limit. You can have a 100K credit limit. Doesn't matter. The platform won't escrow more than 12K against one supplier on a card because the chargeback exposure is too big. So you tried to pay your 15K production deposit. Card declined. Supplier waiting. Production slot at risk. And you're scrambling to set up a T/T wire on a Friday afternoon. <del>I'll say it. </del>The card path was never meant for production. It was meant for samples. Cards below the wall, T/T above. WorldFirst is the T/T rail. Near-interbank rate. Same-day to Chinese accounts. <del>Stop hitting the wall blind. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal of the chargeback math",
+        "original_vo": "Here's the problem most business owners don't understand about paying Chinese suppliers by card. The 12,000 dollar ceiling is not arbitrary. It is risk math. When you pay a supplier by card through Trade Assurance, Alibaba is the escrow holder. They are also liable if you charge back. On a 5K sample order, that risk is manageable. On a 50K production order, one chargeback wipes out the supplier's margin for the month. So the platform sets the ceiling at 12K. That number is roughly where samples stop and production starts. Cards live below the wall. T/T lives above. This is not a glitch. This is the design. Stop. If your orders are over 12K you need a B2B rail. WorldFirst handles T/T to Chinese accounts. Same-day. Near-interbank rate. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners don't understand about paying Chinese suppliers by card. The 12,000 dollar ceiling is not arbitrary. It is risk math. When you pay a supplier by card through Trade Assurance, Alibaba is the escrow holder. They are also liable if you charge back. On a 5K sample order, that risk is manageable. On a 50K production order, one chargeback wipes out the supplier's margin for the month. So the platform sets the ceiling at 12K. That number is roughly where samples stop and production starts. Cards live below the wall. T/T lives above. This is not a glitch. This is the design. If your orders are over 12K you need a B2B rail. WorldFirst handles T/T to Chinese accounts. Same-day. Near-interbank rate. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners don't understand about paying Chinese suppliers by card. The 12,000 dollar ceiling is not arbitrary. It is risk math. When you pay a supplier by card through Trade Assurance, Alibaba is the escrow holder. They are also liable if you charge back. On a 5K sample order, that risk is manageable. On a 50K production order, one chargeback wipes out the supplier's margin for the month. So the platform sets the ceiling at 12K. That number is roughly where samples stop and production starts. Cards live below the wall. T/T lives above. This is not a glitch. This is the design. <del>Stop. </del>If your orders are over 12K you need a B2B rail. WorldFirst handles T/T to Chinese accounts. Same-day. Near-interbank rate. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack at the ceiling",
+        "original_vo": "If you source from China, you need to hear this. Real talk. There is a 12,000 dollar wall on credit card payments to Chinese suppliers and you will hit it. Here is the stack. One. Sample order. 800 dollars. Card works. Two. Re-order. 4,000 dollars. Card works. Three. First production run. 18,000 dollars. Card declined. You did not change your card. You did not change your supplier. You crossed the wall. 12K per order on Trade Assurance. Hard cap. Above that, the chargeback risk is too big for the platform. So you are now on T/T. On a Friday. With no setup. Stop hitting the wall by accident. WorldFirst gives you a B2B rail ready before you need it. Same-day to China. Near-interbank rate. If you are a business owner crossing the 12K line, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you source from China, you need to hear this. There is a 12,000 dollar wall on credit card payments to Chinese suppliers and you will hit it. Here is the stack. One. Sample order. 800 dollars. Card works. Two. Re-order. 4,000 dollars. Card works. Three. First production run. 18,000 dollars. Card declined. You did not change your card. You did not change your supplier. You crossed the wall. 12K per order on Trade Assurance. Hard cap. Above that, the chargeback risk is too big for the platform. So you are now on T/T. On a Friday. With no setup. WorldFirst gives you a B2B rail ready before you need it. Same-day to China. Near-interbank rate. If you are a business owner crossing the 12K line, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you source from China, you need to hear this. <del>Real talk. </del>There is a 12,000 dollar wall on credit card payments to Chinese suppliers and you will hit it. Here is the stack. One. Sample order. 800 dollars. Card works. Two. Re-order. 4,000 dollars. Card works. Three. First production run. 18,000 dollars. Card declined. You did not change your card. You did not change your supplier. You crossed the wall. 12K per order on Trade Assurance. Hard cap. Above that, the chargeback risk is too big for the platform. So you are now on T/T. On a Friday. With no setup. <del>Stop hitting the wall by accident. </del>WorldFirst gives you a B2B rail ready before you need it. Same-day to China. Near-interbank rate. If you are a business owner crossing the 12K line, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener on the wall",
+        "original_vo": "Stop. Real talk for every business owner sourcing from China. There is a 12,000 dollar ceiling on Alibaba credit card payments and you probably don't know it exists. Per order. Hard cap. Doesn't matter if your card limit is 50K or 100K. The platform won't let you charge above 12K to one supplier on Trade Assurance. Why? Chargeback risk. They are the escrow holder, they take the hit if you dispute. So above 12K they push you onto T/T. Listen. This is the line where samples become production. Cards are a sample tool. Period. For production orders you need a B2B rail. WorldFirst is that rail. Same-day to Chinese accounts. Near-interbank rate. Stop hitting the wall in the middle of a deal. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. There is a 12,000 dollar ceiling on Alibaba credit card payments and you probably don't know it exists. Per order. Hard cap. Doesn't matter if your card limit is 50K or 100K. The platform won't let you charge above 12K to one supplier on Trade Assurance. Why? Chargeback risk. They are the escrow holder, they take the hit if you dispute. So above 12K they push you onto T/T. This is the line where samples become production. Cards are a sample tool. For production orders you need a B2B rail. WorldFirst is that rail. Same-day to Chinese accounts. Near-interbank rate. Worth knowing before you hit the wall in the middle of a deal. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner sourcing from China. There is a 12,000 dollar ceiling on Alibaba credit card payments and you probably don't know it exists. Per order. Hard cap. Doesn't matter if your card limit is 50K or 100K. The platform won't let you charge above 12K to one supplier on Trade Assurance. Why? Chargeback risk. They are the escrow holder, they take the hit if you dispute. So above 12K they push you onto T/T. <del>Listen. </del>This is the line where samples become production. Cards are a sample tool. <del>Period. </del>For production orders you need a B2B rail. WorldFirst is that rail. Same-day to Chinese accounts. Near-interbank rate. <del>Stop hitting the wall in the middle of a deal</del><ins>Worth knowing before you hit the wall in the middle of a deal</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth on cards as sample tools",
+        "original_vo": "I'll say it. Credit cards are a sample tool, not a production tool, and most business owners learn this the hard way. The wall is 12,000 dollars. Per order on Alibaba Trade Assurance. Above that, your card is declined. Below that, it works. So if your business is still small, samples and first orders, cards are fine. The moment your orders cross 12K, the rail changes. T/T. Bank wire. B2B. That's the real game. And nobody tells you the wall exists until you hit it. Look. Cards have a use. Chargeback protection on samples. 180-day window. Real value. But for production, you need WorldFirst. Same-day T/T to Chinese accounts. Near-interbank rate. Right tool. Right size. Period.",
+        "iterated_vo": "Credit cards are a sample tool, not a production tool, and most business owners learn this the hard way. The wall is 12,000 dollars. Per order on Alibaba Trade Assurance. Above that, your card is declined. Below that, it works. So if your business is still small, samples and first orders, cards are fine. The moment your orders cross 12K, the rail changes. T/T. Bank wire. B2B. That's the real game. And nobody tells you the wall exists until you hit it. Cards have a use. Chargeback protection on samples. 180-day window. Real value. But for production, you need a B2B rail. WorldFirst handles same-day T/T to Chinese accounts. Near-interbank rate. Right tool. Right size.",
+        "diff_markup": "<del>I'll say it. </del>Credit cards are a sample tool, not a production tool, and most business owners learn this the hard way. The wall is 12,000 dollars. Per order on Alibaba Trade Assurance. Above that, your card is declined. Below that, it works. So if your business is still small, samples and first orders, cards are fine. The moment your orders cross 12K, the rail changes. T/T. Bank wire. B2B. That's the real game. And nobody tells you the wall exists until you hit it. <del>Look. </del>Cards have a use. Chargeback protection on samples. 180-day window. Real value. But for production<del>, you need WorldFirst</del><ins>, you need a B2B rail</ins>. <del>Same-day T/T</del><ins>WorldFirst handles same-day T/T</ins> to Chinese accounts. Near-interbank rate. Right tool. Right size<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using cards / right-tool reframe at the ceiling",
+        "original_vo": "Stop trying to push credit cards past 12,000 dollars on Alibaba. I'm serious. Your card is a tool. It's the right tool for samples. It's the wrong tool for production. You wouldn't use a sample order to test a 50K production run. So why are you using a sample payment rail to send a production deposit? Here's what's happening. Trade Assurance caps card payments at 12K per order. Above that, declined. The platform built it that way because chargeback risk on a big order kills the supplier. WorldFirst is built for the production side. T/T. Same-day to Chinese bank accounts. Near-interbank rate. Cards below the wall. WorldFirst above. Use the right tool for the size. Search WorldFirst. Now.",
+        "iterated_vo": "Credit cards are not the right tool for paying Chinese suppliers above 12,000 dollars. Your card is a tool. It's the right tool for samples. It's the wrong tool for production. You wouldn't use a sample order to test a 50K production run. So why are you using a sample payment rail to send a production deposit? Here's what's happening. Trade Assurance caps card payments at 12K per order. Above that, declined. The platform built it that way because chargeback risk on a big order is too high for the supplier to absorb. WorldFirst is built for the production side. T/T. Same-day to Chinese bank accounts. Near-interbank rate. Cards below the wall. WorldFirst above. Use the right tool for the size. Search WorldFirst.",
+        "diff_markup": "<del>Stop trying to push credit cards past 12,000 dollars on Alibaba. I'm serious</del><ins>Credit cards are not the right tool for paying Chinese suppliers above 12,000 dollars</ins>. Your card is a tool. It's the right tool for samples. It's the wrong tool for production. You wouldn't use a sample order to test a 50K production run. So why are you using a sample payment rail to send a production deposit? Here's what's happening. Trade Assurance caps card payments at 12K per order. Above that, declined. The platform built it that way because chargeback risk on a big order <del>kills the supplier</del><ins>is too high for the supplier to absorb</ins>. WorldFirst is built for the production side. T/T. Same-day to Chinese bank accounts. Near-interbank rate. Cards below the wall. WorldFirst above. Use the right tool for the size. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / hidden ceiling angle",
+        "original_vo": "Here's the truth nobody's telling you about paying Chinese suppliers by card. There is a hidden ceiling. 12,000 dollars per order on Alibaba Trade Assurance. It is not on the homepage. It is not in the seller pitch. You find it at checkout when your card gets declined. Why is it there? Because Alibaba escrows the payment. They eat the chargeback if you dispute. On a sample, that risk is small. On a production run, it would wipe the supplier's margin for the month. So the wall is real and it sits exactly where samples become production. Cards below. T/T above. This is the design. Every single time. WorldFirst is the T/T side. Near-interbank rate. Same-day to Chinese accounts. Period.",
+        "iterated_vo": "Here's something nobody tells you about paying Chinese suppliers by card. There is a ceiling. 12,000 dollars per order on Alibaba Trade Assurance. It is not on the homepage. It is not in the seller pitch. You find it at checkout when your card gets declined. Why is it there? Because Alibaba escrows the payment. They are exposed to the chargeback if you dispute. On a sample, that risk is small. On a production run, it would wipe the supplier's margin for the month. So the wall is real and it sits exactly where samples become production. Cards below. T/T above. That's the design. WorldFirst is built for the T/T side. Near-interbank rate. Same-day to Chinese accounts.",
+        "diff_markup": "Here's <del>the truth nobody's telling</del><ins>something nobody tells</ins> you about paying Chinese suppliers by card. There is a <del>hidden </del>ceiling. 12,000 dollars per order on Alibaba Trade Assurance. It is not on the homepage. It is not in the seller pitch. You find it at checkout when your card gets declined. Why is it there? Because Alibaba escrows the payment. They <del>eat</del><ins>are exposed to</ins> the chargeback if you dispute. On a sample, that risk is small. On a production run, it would wipe the supplier's margin for the month. So the wall is real and it sits exactly where samples become production. Cards below. T/T above. <del>This is</del><ins>That's</ins> the design. <del>Every single time. </del>WorldFirst is <del>the </del><ins>built for the </ins>T/T side. Near-interbank rate. Same-day to Chinese accounts<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy at the wall",
+        "original_vo": "Real talk for every business owner doing first production runs in China. You're going to hit the wall. 12,000 dollars on a card. Trade Assurance cap. Per order. You'll have your sample. You'll have your re-order. Cards work. Then your factory quotes you 18K for the first real production batch. You go to pay. Card declined. You think it's your bank. It's not. It's Alibaba's ceiling. And now your supplier is waiting and you have no T/T setup. I see this every week. Every single week. The wall hits the same way. Same surprise. Same scramble. Stop. WorldFirst. Set up the T/T rail before you cross 12K. Same-day to Chinese accounts. Near-interbank rate. Don't hit the wall blind. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner doing first production runs in China. You're going to hit the wall. 12,000 dollars on a card. Trade Assurance cap. Per order. You'll have your sample. You'll have your re-order. Cards work. Then your factory quotes you 18K for the first real production batch. You go to pay. Card declined. You think it's your bank. It's not. It's Alibaba's ceiling. And now your supplier is waiting and you have no T/T setup. This happens every week. Every single week. The wall hits the same way. Same surprise. Same scramble. WorldFirst. Set up the T/T rail before you cross 12K. Same-day to Chinese accounts. Near-interbank rate. Worth knowing before you hit the wall. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner doing first production runs in China. You're going to hit the wall. 12,000 dollars on a card. Trade Assurance cap. Per order. You'll have your sample. You'll have your re-order. Cards work. Then your factory quotes you 18K for the first real production batch. You go to pay. Card declined. You think it's your bank. It's not. It's Alibaba's ceiling. And now your supplier is waiting and you have no T/T setup. <del>I see this</del><ins>This happens</ins> every week. Every single week. The wall hits the same way. Same surprise. Same scramble. <del>Stop. </del>WorldFirst. Set up the T/T rail before you cross 12K. Same-day to Chinese accounts. Near-interbank rate. <del>Don't hit the wall blind</del><ins>Worth knowing before you hit the wall</ins>. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (12K Trade Assurance per-order card cap, samples vs production split) is defensible and well-documented on Alibaba's side. 'One dollar over and your card is declined' is technically correct as a hard cap but skeptics may push on whether exceptions exist (split orders, etc). 'Most business owners learn this at the worst moment' is dramatized but plausible. 'Same-day to Chinese accounts' on WF side is largely true but CN-side processing can still trim time.",
+      "skeptic_comments": [
+        {
+          "text": "12K is per order or per supplier per month? Got confused before.",
+          "severity": "mid"
+        },
+        {
+          "text": "Can split into two 6K orders right? Why force T/T?",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? Never hear before. Got Malaysia license?",
+          "severity": "high"
+        },
+        {
+          "text": "Production slot lost is dramatic lah. My supplier wait few days, no big deal.",
+          "severity": "mid"
+        },
+        {
+          "text": "Same-day to China? My bank also say same-day. What's different?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "Medium",
+      "analysis": "The decline scenario is realistic and the 'cards live below the wall, production lives above' framing is accurate. 'Alibaba won't escrow more than that against a single supplier' is the right reason for the cap. Main risk is the implication that the wall hits suddenly with no warning, which a skeptic could push back on because Alibaba does display the limit at checkout. The 'sitting there waiting for the deposit' framing is plausible but overstated for many SMB-supplier relationships.",
+      "skeptic_comments": [
+        {
+          "text": "Alibaba show the cap at checkout right? Not really hidden.",
+          "severity": "high"
+        },
+        {
+          "text": "15K example feel cherry-picked. Most orders below 12K anyway.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier sitting waiting? They got other clients too lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst leh, what regulator?",
+          "severity": "high"
+        },
+        {
+          "text": "Near-interbank rate, show me the actual margin please.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "'Alibaba just blocked your card and nobody warned you' is dramatized because the cap is disclosed in T&Cs and visible at checkout, so a skeptic with experience will push back. The 12K cap reasoning (chargeback exposure too big) is mechanically correct. 'Friday afternoon scramble' is vivid and realistic. The 'card path was never meant for production' line is strong and defensible because it matches Alibaba's own positioning.",
+      "skeptic_comments": [
+        {
+          "text": "Nobody warned me? It's literally in the payment screen.",
+          "severity": "high"
+        },
+        {
+          "text": "100K credit limit doesn't matter for 12K cap, true. But platform side, not card side.",
+          "severity": "low"
+        },
+        {
+          "text": "Friday afternoon T/T scramble is real I'll give you that.",
+          "severity": "low"
+        },
+        {
+          "text": "WorldFirst T/T faster than my Maybank T/T? Need proof.",
+          "severity": "high"
+        },
+        {
+          "text": "What FX rate WorldFirst give exactly? Not just say near-interbank.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Cleanest Hormozi script. The risk-math explanation (Alibaba is escrow holder, chargeback exposure scales with order size) is technically correct and well-reasoned. 'On a 5K sample order, that risk is manageable. On a 50K production order, one chargeback wipes out the supplier's margin' is a defensible analogy. 'Cards live below the wall. T/T lives above' is now well-established. Most defensible script in the set. Only minor risk is presenting 12K as exactly the sample-to-production line for all categories.",
+      "skeptic_comments": [
+        {
+          "text": "Ok the chargeback escrow logic actually make sense. Didn't think of that.",
+          "severity": "low"
+        },
+        {
+          "text": "12K = sample/production line for all products? Mine is way higher.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst T/T, who regulate them in Malaysia?",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day claim, show me one customer screenshot please.",
+          "severity": "mid"
+        },
+        {
+          "text": "Near-interbank rate, what's the actual margin? 0.5%? 1%?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The escalation (800 sample, 4K re-order, 18K production declined) is clean storytelling but constructed for narrative effect. 'You crossed the wall' is a strong line. Main risk is the implied 'no setup' state for T/T at the moment of the decline, which a skeptic with established banking relationships could disagree with. 'Same-day to China. Near-interbank rate' on WF side is consistent with other scripts and inherits the same proof-requirement.",
+      "skeptic_comments": [
+        {
+          "text": "18K production order on first run, that's optimistic for most SMB.",
+          "severity": "mid"
+        },
+        {
+          "text": "No T/T setup? I have my bank already lah, just slower.",
+          "severity": "mid"
+        },
+        {
+          "text": "Worth a look ok softer than Hormozi usual style.",
+          "severity": "low"
+        },
+        {
+          "text": "Crossing the 12K line, who is WorldFirst? Need to research.",
+          "severity": "high"
+        },
+        {
+          "text": "Show real rate vs Maybank T/T please. Not just say cheaper.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Low",
+      "analysis": "Strong Gary Vee script. The 12K mechanism is laid out clearly with the right reasoning (chargeback risk to escrow holder). 'This is the line where samples become production' is the core insight and defensible. Softened close ('Worth knowing before you hit the wall') matches the brand-polish brief. Main residual risk is generic WF claims (same-day, near-interbank) that any skeptic will want proof on.",
+      "skeptic_comments": [
+        {
+          "text": "Cards a sample tool only? But Trade Assurance is more than just samples no?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Got license in Malaysia or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Near-interbank rate, what does that actually mean? Show numbers.",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day T/T, my CIMB also same-day sometimes. So what's different?",
+          "severity": "mid"
+        },
+        {
+          "text": "Worth knowing leh, fair enough. Not too pushy.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "Low",
+      "analysis": "Defensible because the cards-are-a-sample-tool claim is positioned as opinion and the chargeback protection point (180-day window) is genuine real value (not just sales). The 'samples and first orders, cards are fine' framing is honest. WF mention is positioned as production rail, not card replacement. Right tool right size close matches the brief. Minimal red flags.",
+      "skeptic_comments": [
+        {
+          "text": "Cards = sample tool only, opinion ok but feels limiting.",
+          "severity": "mid"
+        },
+        {
+          "text": "180-day chargeback window, this is real value actually. Thanks.",
+          "severity": "low"
+        },
+        {
+          "text": "B2B rail vs my bank, what's actually different? Speed? Rate?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst, never used before. Got reviews?",
+          "severity": "high"
+        },
+        {
+          "text": "Near-interbank rate, prove it. Compare to Maybank rate.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The right-tool framing is clean. 'Chargeback risk on a big order is too high for the supplier to absorb' was softened from the original 'kills the supplier' which removes one absolute. Sample-to-production analogy is consistent with Alibaba's actual positioning. Main risk is the 'cards below the wall, WorldFirst above' framing which is slightly self-aggrandizing since it positions WF as the only above-the-wall option when other B2B rails exist.",
+      "skeptic_comments": [
+        {
+          "text": "Cards below the wall, WorldFirst above? Other B2B rails also exist lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Hammer wood analogy nice but show product first.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier margin absorb, ok real concern. Not just sales talk.",
+          "severity": "low"
+        },
+        {
+          "text": "Who regulate WorldFirst in Malaysia? BNM?",
+          "severity": "high"
+        },
+        {
+          "text": "Right tool for the size, ok sensible angle. Will look up.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "Softened from 'truth nobody's telling you' to 'something nobody tells you' and removed 'every single time' absolute, which lowers the conspiratorial tone. The 'find it at checkout when your card gets declined' framing is dramatized because the cap is generally disclosed before the decline. The chargeback escrow exposure reasoning is technically correct. 'It would wipe the supplier's margin for the month' is plausible but situational.",
+      "skeptic_comments": [
+        {
+          "text": "Not on homepage, true. But it's in the help docs and at checkout.",
+          "severity": "mid"
+        },
+        {
+          "text": "Card declined at checkout, ya happened to me once. Annoying but not theft.",
+          "severity": "low"
+        },
+        {
+          "text": "Wipe supplier margin for the month, true for thin-margin factories.",
+          "severity": "low"
+        },
+        {
+          "text": "Built for T/T side ok, but how is WF different from PingPong or other?",
+          "severity": "high"
+        },
+        {
+          "text": "Near-interbank claim again, need proof. Show rate quote.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "The escalation narrative (sample, re-order, 18K production decline) is strong storytelling and feels like a real first-importer journey. 'You think it's your bank. It's not. It's Alibaba's ceiling' is a useful clarification. Main red flag is 'every single week' which is the only retained absolute and is hard to defend. 'Set up the T/T rail before you cross 12K' is good preventative advice and lands the WF mention cleanly.",
+      "skeptic_comments": [
+        {
+          "text": "Every single week? Bit much. Maybe every few months.",
+          "severity": "mid"
+        },
+        {
+          "text": "Sample to re-order to production journey, this is real for first importers.",
+          "severity": "low"
+        },
+        {
+          "text": "Set up T/T before 12K, fair advice. But still want to know WF vs alternatives.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need to research first before search.",
+          "severity": "high"
+        },
+        {
+          "text": "Worth knowing, ok this one feel less ad. Will check.",
+          "severity": "low"
+        }
+      ]
+    }
+  }
+}

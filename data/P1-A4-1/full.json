@@ -1,0 +1,347 @@
+{
+  "angle_id": "P1-A4-1",
+  "title": "Your supplier just asked for the $200 they did not get",
+  "card_id": "P1-A4",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you wire money to Chinese suppliers, your bank is robbing you in plain sight. Here's how. You send $50,000. Supplier WhatsApps you saying $49,800 landed. Where did the $200 go? Not a scam. Not a math error. Correspondent banks. SWIFT wires hop through 1 to 3 middle banks before they hit China. Each bank shaves $15 to $50 directly off the wire. Your bank never tells you. Supplier just sees a smaller number. Now they refuse to ship until you top up. You eat the $200. You eat the delay. You eat the next order too. Stop. The default code on your wire is SHA. SHA means the supplier eats every middle-bank cut. Change it to OUR and the supplier gets the full amount. Or skip SWIFT entirely. WorldFirst routes direct to China through MYbank. No middle banks. No deductions. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to Chinese suppliers, your bank may be quietly taking from you. Here's how. You send $50,000. Supplier WhatsApps you saying $49,800 landed. Where did the $200 go? Not a scam. Not a math error. Correspondent banks. SWIFT wires hop through 1 to 3 middle banks before they hit China. Each bank shaves $15 to $50 directly off the wire. Your bank never tells you. Supplier just sees a smaller number. Now they refuse to ship until you top up. You eat the $200. You eat the delay. You eat the next order too. The default code on your wire is SHA. SHA means the supplier eats every middle-bank cut. Change it to OUR and the supplier gets the full amount. Or skip SWIFT entirely. WorldFirst routes direct to China through MYbank. No middle banks. No deductions. Worth a look. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you wire money to Chinese suppliers, your bank <del>is robbing you in plain sight</del><ins>may be quietly taking from you</ins>. Here's how. You send $50,000. Supplier WhatsApps you saying $49,800 landed. Where did the $200 go? Not a scam. Not a math error. Correspondent banks. SWIFT wires hop through 1 to 3 middle banks before they hit China. Each bank shaves $15 to $50 directly off the wire. Your bank never tells you. Supplier just sees a smaller number. Now they refuse to ship until you top up. You eat the $200. You eat the delay. You eat the next order too. <del>Stop. </del>The default code on your wire is SHA. SHA means the supplier eats every middle-bank cut. Change it to OUR and the supplier gets the full amount. Or skip SWIFT entirely. WorldFirst routes direct to China through MYbank. No middle banks. No deductions. <del>Period. </del><ins>Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You wire $50,000 to your Chinese supplier. They get $49,800. You just lost $200 and your bank gave you zero warning. Now do that twice a month. That's $400 a month. $4,800 a year. Over five years, three middle banks quietly took $24,000 from your business. That's a hire. That's a trade show. That's three months of inventory. And here's the part that makes it worse. The supplier won't ship until the full amount lands. So now you wire another $200. Plus another wire fee. Plus another week of delay. Plus your customer is waiting. The cause is one default setting on your SWIFT MT103. Field 71A. Set to SHA. Stop. WorldFirst routes payments through MYbank straight to Chinese accounts. No SWIFT chain. No middle banks. No deductions. Same-day. The full amount lands. Every wire. Every month. Every year. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You wire $50,000 to your Chinese supplier. They get $49,800. You just lost $200 and your bank gave you zero warning. Now do that twice a month. That's $400 a month. $4,800 a year. Over five years, three middle banks quietly took $24,000 from your business. That's a hire. That's a trade show. That's three months of inventory. And here's the part that makes it worse. The supplier won't ship until the full amount lands. So now you wire another $200. Plus another wire fee. Plus another week of delay. Plus your customer is waiting. The cause is one default setting on your SWIFT MT103. Field 71A. Set to SHA. WorldFirst routes payments through MYbank straight to Chinese accounts. No SWIFT chain. No middle banks. No deductions. Same-day. The full amount lands. Every wire. Every month. Every year. Search WorldFirst.",
+        "diff_markup": "Watch this. You wire $50,000 to your Chinese supplier. They get $49,800. You just lost $200 and your bank gave you zero warning. Now do that twice a month. That's $400 a month. $4,800 a year. Over five years, three middle banks quietly took $24,000 from your business. That's a hire. That's a trade show. That's three months of inventory. And here's the part that makes it worse. The supplier won't ship until the full amount lands. So now you wire another $200. Plus another wire fee. Plus another week of delay. Plus your customer is waiting. The cause is one default setting on your SWIFT MT103. Field 71A. Set to SHA. <del>Stop. </del>WorldFirst routes payments through MYbank straight to Chinese accounts. No SWIFT chain. No middle banks. No deductions. Same-day. The full amount lands. Every wire. Every month. Every year. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Three banks you've never heard of just stole $200 from your last wire to China. Here's how. You wired $50,000. Your supplier received $49,800. You assumed the gap was a fee. It wasn't. SWIFT moves your money through a chain of correspondent banks. 1, 2, sometimes 3 of them sit between your bank and the supplier's bank. Each one is allowed to deduct $15 to $50 directly from the wire amount before it moves to the next hop. Your bank never disclosed it because the default SWIFT code on your wire, SHA, says the supplier eats those deductions. Not you. So your supplier got short, refused to start production, and you lost a week. I'll say it. Banks have been running this default for decades. WorldFirst is different. Direct rail through MYbank into Chinese accounts. No correspondent chain. No silent deductions. The number you send is the number that lands. Stop signing off on the SHA default. Search WorldFirst. Period.",
+        "iterated_vo": "Three banks you've never heard of just took $200 out of your last wire to China. Here's how. You wired $50,000. Your supplier received $49,800. You assumed the gap was a fee. It wasn't. SWIFT moves your money through a chain of correspondent banks. 1, 2, sometimes 3 of them sit between your bank and the supplier's bank. Each one is allowed to deduct $15 to $50 directly from the wire amount before it moves to the next hop. Your bank never disclosed it because the default SWIFT code on your wire, SHA, says the supplier eats those deductions. Not you. So your supplier got short, refused to start production, and you lost a week. Banks have been running this default for decades. WorldFirst is different. Direct rail through MYbank into Chinese accounts. No correspondent chain. No silent deductions. The number you send is the number that lands. Search WorldFirst.",
+        "diff_markup": "Three banks you've never heard of just <del>stole</del><ins>took</ins> $200 <del>from</del><ins>out of</ins> your last wire to China. Here's how. You wired $50,000. Your supplier received $49,800. You assumed the gap was a fee. It wasn't. SWIFT moves your money through a chain of correspondent banks. 1, 2, sometimes 3 of them sit between your bank and the supplier's bank. Each one is allowed to deduct $15 to $50 directly from the wire amount before it moves to the next hop. Your bank never disclosed it because the default SWIFT code on your wire, SHA, says the supplier eats those deductions. Not you. So your supplier got short, refused to start production, and you lost a week. <del>I'll say it. </del>Banks have been running this default for decades. WorldFirst is different. Direct rail through MYbank into Chinese accounts. No correspondent chain. No silent deductions. The number you send is the number that lands. <del>Stop signing off on the SHA default. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners don't realize when they wire money to China. SWIFT is not a payment network. It's a messaging network. SWIFT doesn't move your money. Real banks do. Real banks called correspondents sit between your bank and your supplier's bank. A US to China wire usually hits 1 to 3 of them. Each correspondent is allowed to deduct its own processing fee, usually $15 to $50, directly from the wire amount. Your bank never warns you because the default field on your SWIFT message, 71A, is set to SHA. SHA means the supplier eats the chain. So you send $50,000. Supplier gets $49,800. They refuse to ship. You eat a week. This is how the SWIFT default works. Stop. WorldFirst doesn't use the SWIFT chain for China payments. Direct MYbank routing. Same-day to Chinese accounts. Full amount lands. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners don't realize when they wire money to China. SWIFT is not a payment network. It's a messaging network. SWIFT doesn't move your money. Real banks do. Real banks called correspondents sit between your bank and your supplier's bank. A US to China wire usually hits 1 to 3 of them. Each correspondent is allowed to deduct its own processing fee, usually $15 to $50, directly from the wire amount. Your bank never warns you because the default field on your SWIFT message, 71A, is set to SHA. SHA means the supplier eats the chain. So you send $50,000. Supplier gets $49,800. They refuse to ship. You eat a week. This is how the SWIFT default works. WorldFirst doesn't use the SWIFT chain for China payments. Direct MYbank routing. Same-day to Chinese accounts. Full amount lands. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners don't realize when they wire money to China. SWIFT is not a payment network. It's a messaging network. SWIFT doesn't move your money. Real banks do. Real banks called correspondents sit between your bank and your supplier's bank. A US to China wire usually hits 1 to 3 of them. Each correspondent is allowed to deduct its own processing fee, usually $15 to $50, directly from the wire amount. Your bank never warns you because the default field on your SWIFT message, 71A, is set to SHA. SHA means the supplier eats the chain. So you send $50,000. Supplier gets $49,800. They refuse to ship. You eat a week. This is how the SWIFT default works. <del>Stop. </del>WorldFirst doesn't use the SWIFT chain for China payments. Direct MYbank routing. Same-day to Chinese accounts. Full amount lands. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire money to China, you need to hear this. Real talk. The last time you sent $50,000 to a supplier, four things happened and you saw zero of them. One. Your bank charged you a wire fee. Maybe $30. That you saw on the statement. Two. Correspondent bank A took $50 off the wire. You didn't see that. Three. Correspondent bank B took another $35. You didn't see that either. Four. Correspondent bank C took $80. Still invisible. Supplier received $49,835 instead of $50,000. WhatsApp ping. 'Short $165, please top up.' Now you wire another $200. Another fee. Another week. Your customer is waiting. Your supplier is annoyed. Your margin is bleeding. Stop wiring through SWIFT for China payments. WorldFirst routes direct to Chinese accounts through MYbank. No correspondent chain. Same-day. The number you send is the number that lands. If you're a business owner paying China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to China, you need to hear this. The last time you sent $50,000 to a supplier, four things happened and you saw zero of them. One. Your bank charged you a wire fee. Maybe $30. That you saw on the statement. Two. Correspondent bank A took $50 off the wire. You didn't see that. Three. Correspondent bank B took another $35. You didn't see that either. Four. Correspondent bank C took $80. Still invisible. Supplier received $49,835 instead of $50,000. WhatsApp ping. 'Short $165, please top up.' Now you wire another $200. Another fee. Another week. Your customer is waiting. Your supplier is annoyed. Your margin is bleeding. WorldFirst routes direct to Chinese accounts through MYbank. No correspondent chain. Same-day. The number you send is the number that lands. If you're a business owner paying China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you wire money to China, you need to hear this. <del>Real talk. </del>The last time you sent $50,000 to a supplier, four things happened and you saw zero of them. One. Your bank charged you a wire fee. Maybe $30. That you saw on the statement. Two. Correspondent bank A took $50 off the wire. You didn't see that. Three. Correspondent bank B took another $35. You didn't see that either. Four. Correspondent bank C took $80. Still invisible. Supplier received $49,835 instead of $50,000. WhatsApp ping. 'Short $165, please top up.' Now you wire another $200. Another fee. Another week. Your customer is waiting. Your supplier is annoyed. Your margin is bleeding. <del>Stop wiring through SWIFT for China payments. </del>WorldFirst routes direct to Chinese accounts through MYbank. No correspondent chain. Same-day. The number you send is the number that lands. If you're a business owner paying China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying Chinese suppliers. You wired $50,000. Supplier WhatsApps you saying $49,800 landed. You think the supplier is lying. You think your bank made a mistake. Neither. SWIFT wires hop through 1 to 3 correspondent banks before they reach China. Each one is allowed to deduct $15 to $50 directly off the wire. No notification. No line item. It's built into the default. Listen. Your supplier now refuses to ship until you top up. You lose a week. You lose the delivery. You lose the customer. WorldFirst skips the SWIFT chain entirely. Direct rail through MYbank to Chinese accounts. Same-day. The number you send is the number that lands. Stop letting middle banks take a slice of every payment. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers. You wired $50,000. Supplier WhatsApps you saying $49,800 landed. You think the supplier is lying. You think your bank made a mistake. Neither. SWIFT wires hop through 1 to 3 correspondent banks before they reach China. Each one is allowed to deduct $15 to $50 directly off the wire. No notification. No line item. It's built into the default. Your supplier now refuses to ship until you top up. You lose a week. You lose the delivery. You lose the customer. WorldFirst skips the SWIFT chain entirely. Direct rail through MYbank to Chinese accounts. Same-day. The number you send is the number that lands. Worth knowing if middle banks are taking a slice of every payment. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers. You wired $50,000. Supplier WhatsApps you saying $49,800 landed. You think the supplier is lying. You think your bank made a mistake. Neither. SWIFT wires hop through 1 to 3 correspondent banks before they reach China. Each one is allowed to deduct $15 to $50 directly off the wire. No notification. No line item. It's built into the default. <del>Listen. </del>Your supplier now refuses to ship until you top up. You lose a week. You lose the delivery. You lose the customer. WorldFirst skips the SWIFT chain entirely. Direct rail through MYbank to Chinese accounts. Same-day. The number you send is the number that lands. <del>Stop letting</del><ins>Worth knowing if</ins> middle banks <del>take</del><ins>are taking</ins> a slice of every payment. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. The most expensive part of your supply chain is the banks in the middle that you've never heard of. You wire $50,000 to your Chinese supplier. They get $49,800. That's $200 gone. One wire. Now run the math. 12 wires a year. That's $2,400. 24 wires. $4,800. Five years of that. $24,000. That's not a fee. That's correspondent banks deducting from the wire on the way through. SWIFT lets them. Your bank's default is SHA, which means the supplier eats every cut. So they short the order. You eat the gap. You eat the delay too. WorldFirst doesn't route through the SWIFT chain. Direct to Chinese accounts via MYbank. Same-day. Full amount lands. Period.",
+        "iterated_vo": "The most expensive part of your supply chain is the banks in the middle that you've never heard of. You wire $50,000 to your Chinese supplier. They get $49,800. That's $200 gone. One wire. Now run the math. 12 wires a year. That's $2,400. 24 wires. $4,800. Five years of that. $24,000. That's not a fee. That's correspondent banks deducting from the wire on the way through. SWIFT lets them. Your bank's default is SHA, which means the supplier eats every cut. So they short the order. You eat the gap. You eat the delay too. WorldFirst doesn't route through the SWIFT chain. Direct to Chinese accounts via MYbank. Same-day. Full amount lands.",
+        "diff_markup": "<del>I'll say it. </del>The most expensive part of your supply chain is the banks in the middle that you've never heard of. You wire $50,000 to your Chinese supplier. They get $49,800. That's $200 gone. One wire. Now run the math. 12 wires a year. That's $2,400. 24 wires. $4,800. Five years of that. $24,000. That's not a fee. That's correspondent banks deducting from the wire on the way through. SWIFT lets them. Your bank's default is SHA, which means the supplier eats every cut. So they short the order. You eat the gap. You eat the delay too. WorldFirst doesn't route through the SWIFT chain. Direct to Chinese accounts via MYbank. Same-day. Full amount lands<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using your bank / right-tool reframe",
+        "original_vo": "Stop using SWIFT for your China supplier payments. I'm serious. SWIFT is a tool. It's the wrong tool. You wouldn't use a fax machine to send a contract. So why are you using a 50-year-old messaging chain to send money to your factory? Here's what happens. You wire $50,000. Three correspondent banks each take $15 to $80 off the top. Supplier gets $49,800. Refuses to ship until the gap is topped up. You lose a week of lead time. WorldFirst is built for this. Direct MYbank rail. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts that day. Use the right tool. Your margin depends on it. Search WorldFirst. Now.",
+        "iterated_vo": "SWIFT is not the right tool for paying Chinese suppliers. SWIFT is a tool. It's the wrong tool. You wouldn't use a fax machine to send a contract. So why are you using a 50-year-old messaging chain to send money to your factory? Here's what happens. You wire $50,000. Three correspondent banks each take $15 to $80 off the top. Supplier gets $49,800. Won't ship until the gap is topped up. You lose a week of lead time. WorldFirst is built for this. Direct MYbank rail. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts that day. Use the right tool. Your margin depends on it. Search WorldFirst.",
+        "diff_markup": "<del>Stop using SWIFT for your China supplier payments. I'm serious</del><ins>SWIFT is not the right tool for paying Chinese suppliers</ins>. SWIFT is a tool. It's the wrong tool. You wouldn't use a fax machine to send a contract. So why are you using a 50-year-old messaging chain to send money to your factory? Here's what happens. You wire $50,000. Three correspondent banks each take $15 to $80 off the top. Supplier gets $49,800. <del>Refuses to ship until the gap is topped</del><ins>Won't ship until the gap is topped</ins> up. You lose a week of lead time. WorldFirst is built for this. Direct MYbank rail. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts that day. Use the right tool. Your margin depends on it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about international wires to China. SWIFT is not one bank moving your money. SWIFT is a chain of 2, 3, sometimes 4 banks passing the message along. Each one in the chain is allowed to take a cut off the wire amount before passing it on. Your bank's default setting, the SHA code on field 71A, says the supplier eats those cuts. Not you. So you send $50,000. Three middle banks take a slice. Supplier sees $49,800. Refuses to start production. You're now scrambling. The bank won't help because technically nothing went wrong. This is how it works. Every single time. WorldFirst doesn't play this game. Direct rail to Chinese accounts through MYbank. No correspondent chain. The rate you see, the amount you send, is what lands. Period.",
+        "iterated_vo": "Here's something nobody's telling you about international wires to China. SWIFT is not one bank moving your money. SWIFT is a chain of 2, 3, sometimes 4 banks passing the message along. Each one in the chain is allowed to take a cut off the wire amount before passing it on. Your bank's default setting, the SHA code on field 71A, says the supplier eats those cuts. Not you. So you send $50,000. Three middle banks take a slice. Supplier sees $49,800. Won't start production. You're now scrambling. The bank can't reverse it because technically nothing went wrong. This is how it works. Every single time. WorldFirst is built differently. Direct rail to Chinese accounts through MYbank. No correspondent chain. The amount you send is what lands.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about international wires to China. SWIFT is not one bank moving your money. SWIFT is a chain of 2, 3, sometimes 4 banks passing the message along. Each one in the chain is allowed to take a cut off the wire amount before passing it on. Your bank's default setting, the SHA code on field 71A, says the supplier eats those cuts. Not you. So you send $50,000. Three middle banks take a slice. Supplier sees $49,800. <del>Refuses to</del><ins>Won't</ins> start production. You're now scrambling. The bank <del>won't help</del><ins>can't reverse it</ins> because technically nothing went wrong. This is how it works. Every single time. WorldFirst <del>doesn't play this game</del><ins>is built differently</ins>. Direct rail to Chinese accounts through MYbank. No correspondent chain. <del>The rate you see, the amount you send, is what lands. Period</del><ins>The amount you send is what lands</ins>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sourcing from China. You think your bank is moving your money. They're not. They're just sending a message through SWIFT. Real correspondent banks in the middle are moving it. 1, 2, 3 of them. Each one takes a $15 to $50 cut. You wire $50,000, supplier sees $49,800. You call the bank. They blame the intermediary. The intermediary blames the receiving bank in China. Nobody takes responsibility. Meanwhile your supplier won't ship until the gap is topped up. You're losing days. Your customer is waiting. Your margin is bleeding. And you're on the phone with a teller who's never heard the word correspondent before. I see this every week. Every single week. Stop. WorldFirst. Direct rail to Chinese accounts. Same-day. Full $50,000 lands. Supplier ships. You sleep. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. You think your bank is moving your money. They're not. They're just sending a message through SWIFT. Real correspondent banks in the middle are moving it. 1, 2, 3 of them. Each one takes a $15 to $50 cut. You wire $50,000, supplier sees $49,800. You call the bank. They blame the intermediary. The intermediary blames the receiving bank in China. Nobody takes responsibility. Meanwhile your supplier won't ship until the gap is topped up. You're losing days. Your customer is waiting. Your margin is bleeding. And you're on the phone with a teller who's never heard the word correspondent before. This happens every week. Every single week. WorldFirst. Direct rail to Chinese accounts. Same-day. Full $50,000 lands. Supplier ships. You sleep. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China. You think your bank is moving your money. They're not. They're just sending a message through SWIFT. Real correspondent banks in the middle are moving it. 1, 2, 3 of them. Each one takes a $15 to $50 cut. You wire $50,000, supplier sees $49,800. You call the bank. They blame the intermediary. The intermediary blames the receiving bank in China. Nobody takes responsibility. Meanwhile your supplier won't ship until the gap is topped up. You're losing days. Your customer is waiting. Your margin is bleeding. And you're on the phone with a teller who's never heard the word correspondent before. <del>I see this</del><ins>This happens</ins> every week. Every single week. <del>Stop. </del>WorldFirst. Direct rail to Chinese accounts. Same-day. Full $50,000 lands. Supplier ships. You sleep. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism is real and defensible: correspondent banks do deduct $15-50 directly from SWIFT wires under the SHA default, and 1-3 hops is typical for US-China corridors. The 'supplier refuses to ship' beat is a real but situational scenario, framed as inevitable. The MYbank claim is accurate for WorldFirst's 1688 World Pay rail. Main soft spots: 'robbing you in plain sight' is strong language for what is actually a disclosed (if buried) industry default, and 'no deductions' on the WF side ignores any CN-side bank receiving fees that can still trim small amounts.",
+      "skeptic_comments": [
+        {
+          "text": "$50K wire one time only? Bro I never send that big lah. My orders maybe $5K.",
+          "severity": "mid"
+        },
+        {
+          "text": "SHA, OUR, what code? My bank app got no such thing meh.",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? Never hear before. Got Bank Negara license or not?",
+          "severity": "high"
+        },
+        {
+          "text": "My supplier always confirm full amount one. Maybe got better banker?",
+          "severity": "mid"
+        },
+        {
+          "text": "MYbank? That's Alipay one right? How they connect to my Maybank account?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The compounding math ($24K over 5 years) assumes $200 lost on every wire, twice a month, for 60 straight months. That's an extrapolation a skeptical SMB will dismiss. Real correspondent deductions vary by route, by amount, by bank, sometimes they're $0. The SWIFT 71A SHA reference is technically accurate. 'Three middle banks' is also an upper-bound. 'Three months of inventory' emotion stack is fine in isolation but compounds the credibility risk when sitting on top of an averaged-up loss number.",
+      "skeptic_comments": [
+        {
+          "text": "$24K over 5 years from $200? Sure or not. You assume every wire loss is $200, that's the max case.",
+          "severity": "high"
+        },
+        {
+          "text": "I don't wire $50K twice a month bro. Math don't apply to me.",
+          "severity": "high"
+        },
+        {
+          "text": "Three months of inventory? Mine $24K is more like one week of inventory. Numbers feel cherry-picked.",
+          "severity": "high"
+        },
+        {
+          "text": "Field 71A SHA? You expect me to log into SWIFT myself? My bank handle this lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Got example from real importer or just math? Show me proof.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "'Took $200 out of your wire' is softer than 'stole' but still implies wrongdoing or concealment, when in reality correspondent bank deductions are disclosed in T&Cs and standard SWIFT practice. 'Banks have been running this default for decades' is sweeping but technically accurate. 'The number you send is the number that lands' on WF side overstates because Chinese receiving banks can still apply small inbound fees on some account types. 'Three banks you've never heard of' is good narrative but a skeptic with banking literacy will challenge the framing.",
+      "skeptic_comments": [
+        {
+          "text": "Took? Banks disclose in fine print what. Not theft if I tick the box.",
+          "severity": "high"
+        },
+        {
+          "text": "Number you send equals number that lands? Sure or not? Chinese bank also got receiving fee meh.",
+          "severity": "high"
+        },
+        {
+          "text": "Banks been doing decades, WorldFirst only how many years? Why I trust new player?",
+          "severity": "high"
+        },
+        {
+          "text": "Three banks I never heard of? Show me the wire trace then. Don't just claim.",
+          "severity": "mid"
+        },
+        {
+          "text": "Ok so SHA bad. Why my bank not just default to OUR if it's better?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Medium",
+      "analysis": "Cleanest of the Hormozi set. The 'SWIFT is messaging not payment' distinction is technically accurate and underappreciated. Mechanism explanation (correspondent banks, $15-50 deductions, SHA default) checks out. Soft spots: 'A US to China wire usually hits 1 to 3' is true but the deduction amount varies wildly, and 'full amount lands' on WF side glosses over CN-side processing. Most skeptics will accept the teaching since the script earns its conclusion through mechanism rather than emotion.",
+      "skeptic_comments": [
+        {
+          "text": "Ok the SWIFT-is-messaging thing actually makes sense. But always 1 to 3? My direct wires to HSBC HK only one hop sometimes.",
+          "severity": "mid"
+        },
+        {
+          "text": "MYbank direct routing, is it legal for Malaysian SMB to use? Got AML clearance?",
+          "severity": "high"
+        },
+        {
+          "text": "Sounds like the SHA default is the real problem. Can I just call my bank and switch to OUR?",
+          "severity": "mid"
+        },
+        {
+          "text": "Same-day to China? Even my Wise transfer take 1 day sometimes lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Looks like ad but the mechanism part is solid. Need pricing comparison to be convinced.",
+          "severity": "low"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The breakdown ($30 wire fee + $50 + $35 + $80 = $195 short) is plausible and well-constructed. Specific numbers per correspondent ($50, $35, $80) earn the $165 supplier WhatsApp gap, which makes the story believable. Risks: the supplier WhatsApp script is staged, the 'three correspondents' is an upper bound (most wires hit 1-2), and 'the number you send is the number that lands' is the standard WF overreach. 'Your supplier is annoyed' is honest framing of real importer pain, which lands well.",
+      "skeptic_comments": [
+        {
+          "text": "$50 plus $35 plus $80? You picked the worst case. Most of my wires the short amount is like $20-30.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst, MYbank, why I never hear before? My fellow importer also never mention.",
+          "severity": "high"
+        },
+        {
+          "text": "Direct to Chinese accounts? Including my factory's CCB account? Or only some banks?",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day with no chain? What about SAFE compliance check on the China side?",
+          "severity": "high"
+        },
+        {
+          "text": "I just send extra $200 on every wire and call it done. Less hassle than switching providers.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Solid mechanism explanation. The 'supplier is lying or bank made a mistake' setup is true to how importers actually feel when this happens, which earns credibility. SHA default reference is technically accurate. Soft spots: 'no notification, no line item' is technically true but overstated since correspondent fees are disclosed in cross-border wire T&Cs even if not in real-time notifications. 'The number you send is the number that lands' on WF side ignores possible CN bank receiving fees. The mechanism beat is the script's strongest argument.",
+      "skeptic_comments": [
+        {
+          "text": "Yea I had this exact issue last month. Thought my supplier cheating me.",
+          "severity": "low"
+        },
+        {
+          "text": "SHA default, OUR option, why my Maybank never tell me about these?",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst skips SWIFT entirely? But for compliance reporting how?",
+          "severity": "high"
+        },
+        {
+          "text": "MYbank to Chinese accounts. So only works if supplier is on Alipay side?",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day claim. Got testimonial from real Malaysian importer? Not foreign one.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "The compound math ($200 x 24 wires x 5 years = $24K) sits on the same fragile assumption: every wire loses exactly $200. Real correspondent deductions vary, sometimes are $0 on common routes, sometimes higher on exotic ones. 'The most expensive part of your supply chain' is hyperbole, since freight, duty, and FX margin can all dwarf correspondent fees on a typical lane. SHA + 71A reference is accurate. Mechanism teaching is sound but the headline math overreaches.",
+      "skeptic_comments": [
+        {
+          "text": "Most expensive part of supply chain? Bro freight is more lah. By far.",
+          "severity": "high"
+        },
+        {
+          "text": "$200 every wire compound to $24K? Only if you assume worst case 24 wires a year of exactly $200 short. Cherry-picked.",
+          "severity": "high"
+        },
+        {
+          "text": "SHA default = supplier eats. Ok this part I learn something new actually.",
+          "severity": "low"
+        },
+        {
+          "text": "MYbank direct, no SWIFT chain. Need to see Bank Negara approval before I switch.",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst sound like Wise. Same thing or different?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "Fax machine analogy is fair and clarifies the SWIFT messaging-vs-rail distinction well. '50-year-old messaging chain' is accurate, SWIFT launched 1973. Correspondent $15-80 deduction range is in the realistic upper band. 'Full $50,000 lands' on WF side ignores CN-side receiving fees on certain account types. Overall the analogy carries the script and the mechanism is defensible.",
+      "skeptic_comments": [
+        {
+          "text": "Fax vs SWIFT analogy is actually clean. Helps me understand.",
+          "severity": "low"
+        },
+        {
+          "text": "$15 to $80? My last wire short only $35. So this range fits but worst case is rare la.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst direct MYbank rail. Got documentation? White paper or what?",
+          "severity": "high"
+        },
+        {
+          "text": "Same-day to Chinese accounts. Including weekends? Or just biz days?",
+          "severity": "mid"
+        },
+        {
+          "text": "Use the right tool, sure. But switching providers also got KYC headache. Effort vs payoff?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "The 'SWIFT is a chain of 2-4 banks' breakdown is accurate. Field 71A SHA reference is technically correct. 'Bank can't reverse it because technically nothing went wrong' is honest framing of how dispute resolution actually goes. Risks: 'the amount you send is what lands' on WF side overstates because CN-side bank fees can still apply, and 'three middle banks' is an upper bound. Mechanism is the strongest part of the script.",
+      "skeptic_comments": [
+        {
+          "text": "2 to 4 banks passing the message? So SWIFT is just a chat group basically lol.",
+          "severity": "low"
+        },
+        {
+          "text": "Bank can't reverse because nothing went wrong. That part rings true, happened to my cousin.",
+          "severity": "low"
+        },
+        {
+          "text": "Amount you send is what lands. Are you saying CN receiving bank don't charge at all?",
+          "severity": "high"
+        },
+        {
+          "text": "WorldFirst is built differently. How? Different license? Different network? Be specific.",
+          "severity": "mid"
+        },
+        {
+          "text": "Field 71A SHA, I need to call my bank to switch to OUR or it's in the app?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "Strongest narrative of the GaryVee set. The 'call the bank, they blame intermediary, intermediary blames CN bank, nobody takes responsibility' beat is real and resonates with anyone who's been through it. 'Teller has never heard the word correspondent' is honest. Correspondent $15-50 deduction range is accurate. Soft spots: 'this happens every week' is anecdotal claim without source, and 'full $50,000 lands' on WF side is the standard overreach. The personal-energy story carries the script even if individual claims are challengeable.",
+      "skeptic_comments": [
+        {
+          "text": "Call the bank, they blame intermediary, intermediary blame CN bank. Story of my life bro.",
+          "severity": "low"
+        },
+        {
+          "text": "Teller never heard of correspondent? Maybe try the priority banking line lah.",
+          "severity": "mid"
+        },
+        {
+          "text": "Direct rail to Chinese accounts. Including state banks like ICBC and Bank of China?",
+          "severity": "high"
+        },
+        {
+          "text": "Full $50,000 lands. Including covering the CN bank receiving fees too or not?",
+          "severity": "high"
+        },
+        {
+          "text": "Sleep at night? Sure. But also need to do KYC with WorldFirst first, that's also effort.",
+          "severity": "mid"
+        }
+      ]
+    }
+  }
+}

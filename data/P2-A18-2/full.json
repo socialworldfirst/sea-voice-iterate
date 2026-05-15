@@ -1,0 +1,197 @@
+{
+  "angle_id": "P2-A18-2",
+  "title": "Personal vs business FX: the same currency, two prices",
+  "card_id": "P2-A18",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener + category split",
+        "original_vo": "Listen. Same currency pair. Same day. Same supplier. Two different rates. Why. Because there is no such thing as one FX rate, that's foreign exchange, for a given pair. There's a personal-tier rate and a business-tier rate, and the gap between them is real money. Personal tier on most platforms runs 1.5 to 2 percent off the mid-market rate. Business tier runs 0.3 to 1 percent. That spread, the gap between those two, is 1.5 percent on a normal wire. On a 20,000 dollar supplier wire, that's 300 dollars. Per wire. Times four weeks if you're paying weekly. That's 1,200 dollars a month, sitting inside the rate, no fee line, no notification. Stop paying personal rates for business volume. WorldFirst offers business-tier FX on supplier payments. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Same currency pair. Same day. Same supplier. Two different rates. Why. Because there is no such thing as one FX rate, that's foreign exchange, for a given pair. There's a personal-tier rate and a business-tier rate, and the gap between them is real money. Personal tier on most platforms runs 1.5 to 2 percent off the mid-market rate. Business tier runs 0.3 to 1 percent. That spread, the gap between those two, is 1.5 percent on a normal wire. On a 20,000 dollar supplier wire, that's 300 dollars. Per wire. Times four weeks if you're paying weekly. That's 1,200 dollars a month, sitting inside the rate, no fee line, no notification. WorldFirst offers business-tier FX on supplier payments. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>Same currency pair. Same day. Same supplier. Two different rates. Why. Because there is no such thing as one FX rate, that's foreign exchange, for a given pair. There's a personal-tier rate and a business-tier rate, and the gap between them is real money. Personal tier on most platforms runs 1.5 to 2 percent off the mid-market rate. Business tier runs 0.3 to 1 percent. That spread, the gap between those two, is 1.5 percent on a normal wire. On a 20,000 dollar supplier wire, that's 300 dollars. Per wire. Times four weeks if you're paying weekly. That's 1,200 dollars a month, sitting inside the rate, no fee line, no notification. <del>Stop paying personal rates for business volume. </del>WorldFirst offers business-tier FX on supplier payments. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + brutal compounding math",
+        "original_vo": "Watch this. You open your bank app. You wire 20,000 dollars to your supplier. The rate looks fine. You hit send. What you didn't see is that you just paid the personal-tier rate on a business-tier wire. That's a 1.5 percent gap, hidden inside the FX rate, that's foreign exchange. 300 dollars. Gone. Now do it again next week. And the week after. And the one after that. By the end of the month, 1,200 dollars has quietly left your business and entered your bank's pocket. By the end of the year, 14,400 dollars. That's a container. That's a hire. That's your margin on a whole product line. The kicker. Same provider often sells a business tier at a third the spread. You just never asked. Stop. WorldFirst sits at business-tier FX margin. Same currency pair. Better price. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You open your bank app. You wire 20,000 dollars to your supplier. The rate looks fine. You hit send. What you didn't see is that you just paid the personal-tier rate on a business-tier wire. That's a 1.5 percent gap, hidden inside the FX rate, that's foreign exchange. 300 dollars. Gone. Now do it again next week. And the week after. And the one after that. By the end of the month, 1,200 dollars has quietly left your business and entered your bank's pocket. By the end of the year, 14,400 dollars. That's a container. That's a hire. That's your margin on a whole product line. The kicker. Same provider often sells a business tier at a third the spread. You just never asked. WorldFirst sits at business-tier FX margin. Same currency pair. Better price. Search WorldFirst.",
+        "diff_markup": "Watch this. You open your bank app. You wire 20,000 dollars to your supplier. The rate looks fine. You hit send. What you didn't see is that you just paid the personal-tier rate on a business-tier wire. That's a 1.5 percent gap, hidden inside the FX rate, that's foreign exchange. 300 dollars. Gone. Now do it again next week. And the week after. And the one after that. By the end of the month, 1,200 dollars has quietly left your business and entered your bank's pocket. By the end of the year, 14,400 dollars. That's a container. That's a hire. That's your margin on a whole product line. The kicker. Same provider often sells a business tier at a third the spread. You just never asked. <del>Stop. </del>WorldFirst sits at business-tier FX margin. Same currency pair. Better price. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener + invisible cost reveal",
+        "original_vo": "Your wallet is charging you 9,000 dollars a year and you can't even see it on a statement. Here's how. You're a business owner paying Chinese suppliers 50,000 dollars a month in CNY. You're using a payment app that gives you the personal-tier FX rate, that's foreign exchange. The personal tier sits 1.5 to 2 percent off the mid-market rate. The business tier on the exact same platform sits at 0.3 to 1 percent. The gap is 1.5 percent. On 50,000 dollars a month, that's 750 dollars. Times twelve months. 9,000 dollars. Per year. Disappearing inside the rate. No fee line. No notification. Nothing to complain to support about. Stop using personal rails for business volume. WorldFirst gives you business-tier FX on supplier payments from day one. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Your wallet is charging you 9,000 dollars a year and you can't even see it on a statement. Here's how. You're a business owner paying Chinese suppliers 50,000 dollars a month in CNY. You're using a payment app that gives you the personal-tier FX rate, that's foreign exchange. The personal tier sits 1.5 to 2 percent off the mid-market rate. The business tier on the exact same platform sits at 0.3 to 1 percent. The gap is 1.5 percent. On 50,000 dollars a month, that's 750 dollars. Times twelve months. 9,000 dollars. Per year. Disappearing inside the rate. No fee line. No notification. Nothing to complain to support about. WorldFirst gives you business-tier FX on supplier payments from day one. Search WorldFirst.",
+        "diff_markup": "Your wallet is charging you 9,000 dollars a year and you can't even see it on a statement. Here's how. You're a business owner paying Chinese suppliers 50,000 dollars a month in CNY. You're using a payment app that gives you the personal-tier FX rate, that's foreign exchange. The personal tier sits 1.5 to 2 percent off the mid-market rate. The business tier on the exact same platform sits at 0.3 to 1 percent. The gap is 1.5 percent. On 50,000 dollars a month, that's 750 dollars. Times twelve months. 9,000 dollars. Per year. Disappearing inside the rate. No fee line. No notification. Nothing to complain to support about. <del>Stop using personal rails for business volume. </del>WorldFirst gives you business-tier FX on supplier payments from day one. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first / two-tier reveal",
+        "original_vo": "Here's something most business owners paying suppliers in China don't know. The FX rate, that's foreign exchange, has two tiers. Personal tier. Business tier. Same provider. Same currency pair. Same day. Different prices. Why. Because providers price based on volume risk. A personal user wires a few hundred dollars to a relative. A business user wires tens of thousands to a supplier every week. The provider can hedge the business flow more cheaply, so they pass a tighter rate to business accounts. The retail tier you see on a consumer app is padded 1.5 to 2 percent off the mid-market rate. The business tier sits 0.3 to 1 percent off. On a 20,000 dollar supplier wire, that's 300 dollars sitting in the wrong account. Yours. Stop. WorldFirst is a business-tier FX rail for supplier payments. Search WorldFirst. Period.",
+        "iterated_vo": "Here's something most business owners paying suppliers in China don't know. The FX rate, that's foreign exchange, has two tiers. Personal tier. Business tier. Same provider. Same currency pair. Same day. Different prices. Why. Because providers price based on volume risk. A personal user wires a few hundred dollars to a relative. A business user wires tens of thousands to a supplier every week. The provider can hedge the business flow more cheaply, so they pass a tighter rate to business accounts. The retail tier you see on a consumer app is padded 1.5 to 2 percent off the mid-market rate. The business tier sits 0.3 to 1 percent off. On a 20,000 dollar supplier wire, that's 300 dollars sitting in the wrong account. Yours. WorldFirst is a business-tier FX rail for supplier payments. Search WorldFirst.",
+        "diff_markup": "Here's something most business owners paying suppliers in China don't know. The FX rate, that's foreign exchange, has two tiers. Personal tier. Business tier. Same provider. Same currency pair. Same day. Different prices. Why. Because providers price based on volume risk. A personal user wires a few hundred dollars to a relative. A business user wires tens of thousands to a supplier every week. The provider can hedge the business flow more cheaply, so they pass a tighter rate to business accounts. The retail tier you see on a consumer app is padded 1.5 to 2 percent off the mid-market rate. The business tier sits 0.3 to 1 percent off. On a 20,000 dollar supplier wire, that's 300 dollars sitting in the wrong account. Yours. <del>Stop. </del>WorldFirst is a business-tier FX rail for supplier payments. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + escalating problem stack",
+        "original_vo": "If you're paying Chinese suppliers from a personal-style payment app, you need to hear this. Real talk. You're paying retail FX, that's foreign exchange, on business volume. Personal-tier FX runs 1.5 to 2 percent off the mid-market rate. Business-tier FX on the exact same provider runs 0.3 to 1 percent. The gap is the spread. On 20,000 dollars, the gap is 300 dollars. On 50,000 dollars a month, the gap is 750 dollars. Over a year of weekly payments, the gap is 9,000 to 14,000 dollars. That's not a rounding error. That's a margin point. And the reason most business owners pay personal rates is simple. They opened a personal account when they started, they're now wiring 50,000 a month, and nobody told them to upgrade. Stop wiring business volume on personal rails. WorldFirst is a business FX account built for supplier payments. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're paying Chinese suppliers from a personal-style payment app, you need to hear this. You're paying retail FX, that's foreign exchange, on business volume. Personal-tier FX runs 1.5 to 2 percent off the mid-market rate. Business-tier FX on the exact same provider runs 0.3 to 1 percent. The gap is the spread. On 20,000 dollars, the gap is 300 dollars. On 50,000 dollars a month, the gap is 750 dollars. Over a year of weekly payments, the gap is 9,000 to 14,000 dollars. That's not a rounding error. That's a margin point. And the reason most business owners pay personal rates is simple. They opened a personal account when they started, they're now wiring 50,000 a month, and nobody told them to upgrade. WorldFirst is a business FX account built for supplier payments. Search WorldFirst.",
+        "diff_markup": "If you're paying Chinese suppliers from a personal-style payment app, you need to hear this. <del>Real talk. </del>You're paying retail FX, that's foreign exchange, on business volume. Personal-tier FX runs 1.5 to 2 percent off the mid-market rate. Business-tier FX on the exact same provider runs 0.3 to 1 percent. The gap is the spread. On 20,000 dollars, the gap is 300 dollars. On 50,000 dollars a month, the gap is 750 dollars. Over a year of weekly payments, the gap is 9,000 to 14,000 dollars. That's not a rounding error. That's a margin point. And the reason most business owners pay personal rates is simple. They opened a personal account when they started, they're now wiring 50,000 a month, and nobody told them to upgrade. <del>Stop wiring business volume on personal rails. </del>WorldFirst is a business FX account built for supplier payments. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop + category truth",
+        "original_vo": "Stop. Real talk for every business owner wiring CNY to China. The rate you're getting on your app is not the rate that exists. There's a personal-tier rate and a business-tier rate. Same currency pair, same day, two different prices. The platform isn't lying to you, they're just selling you the retail version of FX, that's foreign exchange. Personal tier sits 1.5 to 2 percent off the mid-market rate. Business tier sits 0.3 to 1 percent off. On a 20,000 dollar supplier wire, the gap is 300 bucks. Per wire. Listen. WorldFirst is built on business-tier FX for supplier payments. If you're paying suppliers weekly, the tier change pays for itself in one transfer. Stop overpaying for FX you didn't know was tiered. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner wiring CNY to China. The rate you're getting on your app is not the rate that exists. There's a personal-tier rate and a business-tier rate. Same currency pair, same day, two different prices. The platform isn't lying to you, they're just selling you the retail version of FX, that's foreign exchange. Personal tier sits 1.5 to 2 percent off the mid-market rate. Business tier sits 0.3 to 1 percent off. On a 20,000 dollar supplier wire, the gap is 300 bucks. Per wire. WorldFirst is built on business-tier FX for supplier payments. If you're paying suppliers weekly, the tier change can pay for itself in one transfer. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner wiring CNY to China. The rate you're getting on your app is not the rate that exists. There's a personal-tier rate and a business-tier rate. Same currency pair, same day, two different prices. The platform isn't lying to you, they're just selling you the retail version of FX, that's foreign exchange. Personal tier sits 1.5 to 2 percent off the mid-market rate. Business tier sits 0.3 to 1 percent off. On a 20,000 dollar supplier wire, the gap is 300 bucks. Per wire. <del>Listen. </del>WorldFirst is built on business-tier FX for supplier payments. If you're paying suppliers weekly, the tier change <del>pays</del><ins>can pay</ins> for itself in one transfer. <del>Stop overpaying for FX you didn't know was tiered. </del>Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it + same provider, two prices",
+        "original_vo": "I'll say it. The provider you're paying for FX, that's foreign exchange, sells the same currency pair at two different prices and nobody tells you that. There's a personal rate. There's a business rate. The personal rate is what you see in the app when you open a personal wallet. 1.5 to 2 percent off the mid-market rate. The business rate is what they offer when you upgrade. 0.3 to 1 percent off. Same platform. Same liquidity. Different price tag. Why. Because business users move volume and the provider can hedge it cheaper, so they pass a tighter rate. But they don't volunteer that information. You have to ask. Or you have to find a platform like WorldFirst that defaults to the business tier for supplier payments. On 50,000 dollars a month, the difference is 750 bucks. Times twelve. 9,000 dollars a year. That's not a small business expense. That's a hire. Period.",
+        "iterated_vo": "The provider you're paying for FX, that's foreign exchange, sells the same currency pair at two different prices and nobody tells you that. There's a personal rate. There's a business rate. The personal rate is what you see in the app when you open a personal wallet. 1.5 to 2 percent off the mid-market rate. The business rate is what they offer when you upgrade. 0.3 to 1 percent off. Same platform. Same liquidity. Different price tag. Why. Because business users move volume and the provider can hedge it cheaper, so they pass a tighter rate. But they don't volunteer that information. You have to ask. Or you have to find a platform like WorldFirst that defaults to the business tier for supplier payments. On 50,000 dollars a month, the difference is 750 bucks. Times twelve. 9,000 dollars a year. That's not a small business expense. That's a hire.",
+        "diff_markup": "<del>I'll say it. </del>The provider you're paying for FX, that's foreign exchange, sells the same currency pair at two different prices and nobody tells you that. There's a personal rate. There's a business rate. The personal rate is what you see in the app when you open a personal wallet. 1.5 to 2 percent off the mid-market rate. The business rate is what they offer when you upgrade. 0.3 to 1 percent off. Same platform. Same liquidity. Different price tag. Why. Because business users move volume and the provider can hedge it cheaper, so they pass a tighter rate. But they don't volunteer that information. You have to ask. Or you have to find a platform like WorldFirst that defaults to the business tier for supplier payments. On 50,000 dollars a month, the difference is 750 bucks. Times twelve. 9,000 dollars a year. That's not a small business expense. That's a hire<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using personal tools / right-tier reframe",
+        "original_vo": "Stop running business volume through a personal wallet. I'm serious. The wallet on your phone with your name on it is priced for sending your cousin 200 bucks. It is not priced for sending your factory 20,000 dollars a week. That's a different product, even though the app looks the same. The FX rate, that's foreign exchange, on the personal tier sits 1.5 to 2 percent off the mid-market rate. The business tier on the exact same provider sits 0.3 to 1 percent off. The platform isn't ripping you off, you're just using the wrong account type. You wouldn't use a personal Gmail for your business invoices. So stop using a personal FX wallet for your factory wires. WorldFirst is a business FX account from day one. Business-tier rates. Built for supplier payments. Use the right tool. Search WorldFirst. Now.",
+        "iterated_vo": "Business volume doesn't belong in a personal wallet. The wallet on your phone with your name on it is priced for sending your cousin 200 bucks. It is not priced for sending your factory 20,000 dollars a week. That's a different product, even though the app looks the same. The FX rate, that's foreign exchange, on the personal tier sits 1.5 to 2 percent off the mid-market rate. The business tier on the exact same provider sits 0.3 to 1 percent off. The platform isn't ripping you off, you're just using the wrong account type. You wouldn't use a personal Gmail for your business invoices. So a personal FX wallet isn't the right tool for factory wires. WorldFirst is a business FX account from day one. Business-tier rates. Built for supplier payments. Use the right tool. Search WorldFirst.",
+        "diff_markup": "<del>Stop running business volume through a personal wallet. I'm serious</del><ins>Business volume doesn't belong in a personal wallet</ins>. The wallet on your phone with your name on it is priced for sending your cousin 200 bucks. It is not priced for sending your factory 20,000 dollars a week. That's a different product, even though the app looks the same. The FX rate, that's foreign exchange, on the personal tier sits 1.5 to 2 percent off the mid-market rate. The business tier on the exact same provider sits 0.3 to 1 percent off. The platform isn't ripping you off, you're just using the wrong account type. You wouldn't use a personal Gmail for your business invoices. So <del>stop using a</del><ins>a</ins> personal FX wallet <del>for your factory wires</del><ins>isn't the right tool for factory wires</ins>. WorldFirst is a business FX account from day one. Business-tier rates. Built for supplier payments. Use the right tool. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / hidden tier",
+        "original_vo": "Here's the truth nobody's telling you about the FX rate on your wallet. That's foreign exchange. There isn't one rate. There are two. There's the personal rate the app shows you when you open it. And there's the business rate the same platform offers if you upgrade. Personal sits 1.5 to 2 percent off the mid-market rate. Business sits 0.3 to 1 percent off. Same provider. Same currency pair. Same day. Different price tag. The platform doesn't push the upgrade because the personal tier is where they make margin. You'll never see this gap on a statement. You'll just notice your supplier-end CNY came in lower than the rate you saw on Google. Multiply across a year of weekly wires. 9,000 to 14,000 dollars sitting in the personal-rate spread. WorldFirst isn't a personal wallet. It's business-tier FX for supplier payments. Period.",
+        "iterated_vo": "Here's something nobody's telling you about the FX rate on your wallet. That's foreign exchange. There isn't one rate. There are two. There's the personal rate the app shows you when you open it. And there's the business rate the same platform offers if you upgrade. Personal sits 1.5 to 2 percent off the mid-market rate. Business sits 0.3 to 1 percent off. Same provider. Same currency pair. Same day. Different price tag. The platform doesn't push the upgrade because the personal tier is where they make margin. You'll never see this gap on a statement. You'll just notice your supplier-end CNY came in lower than the rate you saw on Google. Multiply across a year of weekly wires. 9,000 to 14,000 dollars sitting in the personal-rate spread. WorldFirst is built as business-tier FX for supplier payments.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about the FX rate on your wallet. That's foreign exchange. There isn't one rate. There are two. There's the personal rate the app shows you when you open it. And there's the business rate the same platform offers if you upgrade. Personal sits 1.5 to 2 percent off the mid-market rate. Business sits 0.3 to 1 percent off. Same provider. Same currency pair. Same day. Different price tag. The platform doesn't push the upgrade because the personal tier is where they make margin. You'll never see this gap on a statement. You'll just notice your supplier-end CNY came in lower than the rate you saw on Google. Multiply across a year of weekly wires. 9,000 to 14,000 dollars sitting in the personal-rate spread. WorldFirst <del>isn't a personal wallet. It's</del><ins>is built as</ins> business-tier FX for supplier payments<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + relatable scenario",
+        "original_vo": "Real talk for every business owner paying suppliers in China. You opened a payment wallet five years ago when you were sending samples. 200 bucks here, 500 there. The rate looked fine. You never thought about it. Today you're wiring 20,000 dollars a week to the same factory. Same wallet. Same rate. Same percent off the mid-market rate. That's foreign exchange, mid-market means the rate banks use among themselves. Here's what changed without you noticing. You went from personal volume to business volume, but you stayed on the personal tier. 1.5 to 2 percent off the mid-market rate. The business tier on the same platform is 0.3 to 1 percent off. The gap is the cost of not upgrading. 300 dollars per wire on a 20,000 dollar payment. 9,000 to 14,000 a year if you wire weekly. Stop paying personal rates on business volume. WorldFirst is business-tier from day one. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying suppliers in China. You opened a payment wallet five years ago when you were sending samples. 200 bucks here, 500 there. The rate looked fine. You never thought about it. Today you're wiring 20,000 dollars a week to the same factory. Same wallet. Same rate. Same percent off the mid-market rate. That's foreign exchange, mid-market means the rate banks use among themselves. Here's what changed without you noticing. You went from personal volume to business volume, but you stayed on the personal tier. 1.5 to 2 percent off the mid-market rate. The business tier on the same platform is 0.3 to 1 percent off. The gap is the cost of not upgrading. 300 dollars per wire on a 20,000 dollar payment. 9,000 to 14,000 a year if you wire weekly. WorldFirst is business-tier from day one. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner paying suppliers in China. You opened a payment wallet five years ago when you were sending samples. 200 bucks here, 500 there. The rate looked fine. You never thought about it. Today you're wiring 20,000 dollars a week to the same factory. Same wallet. Same rate. Same percent off the mid-market rate. That's foreign exchange, mid-market means the rate banks use among themselves. Here's what changed without you noticing. You went from personal volume to business volume, but you stayed on the personal tier. 1.5 to 2 percent off the mid-market rate. The business tier on the same platform is 0.3 to 1 percent off. The gap is the cost of not upgrading. 300 dollars per wire on a 20,000 dollar payment. 9,000 to 14,000 a year if you wire weekly. <del>Stop paying personal rates on business volume. </del>WorldFirst is business-tier from day one. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core finding (personal tier 1.5-2% off mid-market vs business tier 0.3-1%) is directly grounded in the card findings. The 300-dollar-per-wire and 1,200/month figures are correctly derived from the 1.5% spread on a 20K weekly wire. 'WorldFirst offers business-tier FX' is product-accurate but understated, which is honest. Weakest spot is the absolute 'there is no such thing as one FX rate' opening which is rhetorically strong but technically the mid-market rate does exist as a reference, even if individuals can't transact at it.",
+      "skeptic_comments": [
+        {"text": "Personal vs business tier, ok but my bank account already business account. So no diff for me?", "severity": "high"},
+        {"text": "Who is WorldFirst? Never see in Malaysia. Got license or not?", "severity": "high"},
+        {"text": "1,200 a month sound a lot but my supplier pay only 5k a month. Number for big business only?", "severity": "mid"},
+        {"text": "Where the proof la, just one screenshot of two rate side by side. Hard to believe number alone.", "severity": "high"},
+        {"text": "Same currency two prices, ok understand. But how I check my current bank rate is personal or business tier?", "severity": "mid"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The 14,400/year extrapolation (1,200/month x 12) is mathematically clean from the card finding but presented as a near-universal outcome when it assumes consistent 20K weekly wires for 52 weeks. The 'a third the spread' claim (0.3% vs ~1.5% = roughly a fifth, not a third) is loose. 'You just never asked' is a fair behavioural observation but presented with too much certainty. WorldFirst sitting at business-tier FX margin is product-accurate.",
+      "skeptic_comments": [
+        {"text": "14k a year? My total wire not even 14k. Number too high for normal SMB lah.", "severity": "high"},
+        {"text": "A third the spread, but math say 0.3 vs 1.5 is one fifth. Number wrong already.", "severity": "high"},
+        {"text": "Sound like sales pitch with the container, hire, margin line. Where actual customer say this?", "severity": "mid"},
+        {"text": "Bank pocket 14k? Show me one bank statement la, then I believe.", "severity": "high"},
+        {"text": "WorldFirst sits at business tier, but what is the actual rate? Need real number not just claim.", "severity": "mid"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "The 9,000/year figure is correctly derived from the card finding (1.5% spread on 50K/month = 750/mo = 9K/yr) and is presented as a scenario, not universal truth, which is fine. The mechanism (same provider sells two tiers, same liquidity, different price) is accurate and matches the finding. 'No fee line, no notification' is real because FX margin is rate-baked, not itemised. Weakest beat is 'from day one' which implies WorldFirst onboards every user at the institutional rate which is broadly true for business accounts but glosses over verification steps.",
+      "skeptic_comments": [
+        {"text": "9k a year, ok number make sense if you wire 50k a month. But my volume not that high.", "severity": "mid"},
+        {"text": "From day one onboard at business rate? Got KYC requirement right? Cannot be that simple.", "severity": "high"},
+        {"text": "Who is WorldFirst, why I never see in TikTok before? Sudden push very suspicious.", "severity": "high"},
+        {"text": "No fee line no notification, yes this part real. My bank statement also dont show FX margin.", "severity": "low"},
+        {"text": "Charging me 9k disappeared inside rate, but I cant verify. Where the calculator or tool?", "severity": "high"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "This is the most factually defensible of the Hormozi set. The 'why' explanation (providers hedge business flow cheaper, pass tighter rate) is industry-accurate. Range framing (1.5-2% personal, 0.3-1% business) matches the card findings and avoids fake precision. 300 dollars on a 20K wire is correct math. 'WorldFirst is a business-tier FX rail for supplier payments' is product-accurate without overclaiming. Mechanism-first framing reduces the trust risk of pure scare numbers.",
+      "skeptic_comments": [
+        {"text": "Range explanation make sense lah. Volume-based pricing I get it. But still want one comparison screenshot.", "severity": "mid"},
+        {"text": "Why providers price like this section, useful. But WF licensed in MY or not?", "severity": "high"},
+        {"text": "300 on 20k, ok math correct. But minimum wire amount for business tier got threshold?", "severity": "mid"},
+        {"text": "Most owners don't know, hmm I think we know lah, just dont have alternative.", "severity": "mid"},
+        {"text": "Business-tier FX rail for supplier payments, what is the actual onboarding time? KYC how long?", "severity": "mid"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The 'opened a personal account when they started, never upgraded' framing is a fair behavioural observation. The 9,000 to 14,000 yearly range covers both the 20K weekly and 50K monthly scenarios from the findings, which is honest range-framing. 'Margin point' is real for SMB FX. Weakest spot is the implicit suggestion that all personal-app users are paying 1.5-2% above mid-market when some platforms (like specialist business apps) are tighter even on personal tier. 'WorldFirst is a business FX account built for supplier payments' is product-accurate.",
+      "skeptic_comments": [
+        {"text": "Margin point not rounding error, true lah. But cannot just say upgrade, need to know how.", "severity": "mid"},
+        {"text": "Nobody told me to upgrade, real complaint. My bank RM never mention this kind of thing.", "severity": "low"},
+        {"text": "9 to 14k range, finally honest range not single number. But still need verify on my own wires.", "severity": "mid"},
+        {"text": "Who is WorldFirst? Got Bank Negara license? This question always come back, no answer.", "severity": "high"},
+        {"text": "Built for supplier payments, sound nice but what about FX hedging or forward contract? Important for my volume.", "severity": "mid"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Low",
+      "analysis": "This is one of the lowest-risk scripts. The 'rate you see is not the rate that exists' frame is technically defensible because retail FX is genuinely tiered. 1.5-2% personal vs 0.3-1% business matches the findings. 300/wire on 20K is correct math. 'The tier change can pay for itself in one transfer' is appropriately softened in the iterated version (was 'pays' in original). No compound math overreach. CTA is direct without scare numbers.",
+      "skeptic_comments": [
+        {"text": "Tier change pay for itself in one transfer, ok this sound reasonable. But got onboarding fee or not?", "severity": "mid"},
+        {"text": "Who is WorldFirst? Real question every time. Got Malaysia office?", "severity": "high"},
+        {"text": "300 per wire, math check out. But my wires only 5-10k usually, so smaller difference.", "severity": "low"},
+        {"text": "Retail version of FX, good way to explain. But cannot verify which tier I currently on.", "severity": "mid"},
+        {"text": "Search WorldFirst, ok will check. But want to see one customer review first not just video.", "severity": "low"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "'Same provider, same liquidity, different price tag' is accurate. The 9,000/year math is correctly derived from 750/month x 12. 'You have to ask' is a behavioural truism that is mostly true for most banks. Weakest spot is 'they don't volunteer that information' which is presented as universal but some platforms do clearly market business tier upgrades. 'WorldFirst defaults to the business tier for supplier payments' is product-accurate.",
+      "skeptic_comments": [
+        {"text": "Sell same pair two prices, sound dishonest of bank. But maybe just standard industry practice?", "severity": "mid"},
+        {"text": "9k a year is a hire, ok dramatic. But how I verify on my own account first?", "severity": "high"},
+        {"text": "Who is WorldFirst? Three videos now mention them. Coordinated push? Sus.", "severity": "high"},
+        {"text": "Have to ask part true lah. My bank never tell me about business pricing tier.", "severity": "low"},
+        {"text": "Provider hedge cheaper for business flow, technical reason make sense. But still need proof of WF rate.", "severity": "mid"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'right tool' analogy (Gmail business vs personal) is rhetorical not fact-based, lower fact-risk. 1.5-2% personal vs 0.3-1% business matches findings. 'Not ripping you off, you're just using the wrong account type' is a balanced framing that doesn't villainise the provider, which is honest. Weakest beat is the implicit suggestion that every business owner has the option to upgrade with the same provider, which depends on the provider supporting business accounts.",
+      "skeptic_comments": [
+        {"text": "Gmail analogy clear lah. But my wallet maybe dont have business upgrade option, then how?", "severity": "mid"},
+        {"text": "WorldFirst business FX from day one, but minimum volume requirement got or not?", "severity": "mid"},
+        {"text": "Wrong account type framing good, not blaming bank. But still want to see real number.", "severity": "low"},
+        {"text": "Who is WorldFirst? Got Bank Negara approval? This always missing from these videos.", "severity": "high"},
+        {"text": "Use right tool, ok agree. But my freight forwarder also recommend MYR Maybank for ease.", "severity": "mid"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'There isn't one rate. There are two' is technically clean about tiering. The platform-doesn't-push-upgrade claim is largely true but a generalisation. 9,000 to 14,000 dollars range is correctly derived from the findings. 'You'll just notice your supplier-end CNY came in lower than the rate you saw on Google' is a real lived experience and a strong relatable beat. WorldFirst as business-tier FX for supplier payments is product-accurate.",
+      "skeptic_comments": [
+        {"text": "Supplier-end CNY come in lower than Google rate, real lah this happen to me last month.", "severity": "low"},
+        {"text": "Personal tier where they make margin, dramatic claim. Got insider source or just guess?", "severity": "mid"},
+        {"text": "Who is WorldFirst? Cannot keep asking but no answer in any of these videos.", "severity": "high"},
+        {"text": "9 to 14k range, ok wider window more honest. But still scary number for small biz.", "severity": "mid"},
+        {"text": "Built as business tier from day one, but onboarding time and KYC how long? Important.", "severity": "mid"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "Low",
+      "analysis": "This is the lowest-risk script in the set. The 'opened a wallet for samples, now using it for 20K wires' scenario is a real and relatable behavioural observation that doesn't require number-verification. Mid-market rate definition is spelled out, which builds trust. 1.5-2% vs 0.3-1% matches findings. 'The cost of not upgrading' is a clean reframe. 'WorldFirst is business-tier from day one' is product-accurate without overclaiming.",
+      "skeptic_comments": [
+        {"text": "Opened wallet for samples then never upgrade, exactly my story. Relatable.", "severity": "low"},
+        {"text": "Mid-market rate explanation in video itself, good. Most videos skip this.", "severity": "low"},
+        {"text": "Who is WorldFirst? Got Malaysia license? Always come back to this question.", "severity": "high"},
+        {"text": "Cost of not upgrading framing fair. But upgrading at my current bank also possible?", "severity": "mid"},
+        {"text": "300 per wire, 9 to 14k a year, math sound but want compare with my actual bank statement first.", "severity": "mid"}
+      ]
+    }
+  }
+}

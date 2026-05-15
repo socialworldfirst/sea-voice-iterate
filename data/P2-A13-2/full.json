@@ -1,0 +1,347 @@
+{
+  "angle_id": "P2-A13-2",
+  "title": "PayPal at $200 vs PayPal at $20K",
+  "card_id": "P2-A13",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner paying Chinese suppliers through PayPal, you're being charged like a tourist. Here's the math. PayPal at 200 dollars feels cheap. 4.4% is 9 bucks. You shrug. PayPal at 20 thousand is 880 dollars. Same app. Same button. Same brand. Different reality. And that's just the transaction fee. FX margin to CNY adds another 3.5%. That's 700 more. Now your supplier adds 4 to 5% to the PI because they're eating a receiving fee too. Your 20K payment just cost you over 2,300 dollars in real money. Stop. PayPal was built for buying t-shirts, not paying factories. WorldFirst is built for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. If you wouldn't hand a bank teller 880 dollars in cash, don't hand it to an app. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner paying Chinese suppliers through PayPal, you're being charged like a tourist. Here's the math. PayPal at 200 dollars feels cheap. 4.4% is 9 bucks. You shrug. PayPal at 20 thousand is 880 dollars. Same app. Same button. Same brand. Different reality. And that's just the transaction fee. FX margin to CNY adds another 3.5%. That's 700 more. Now your supplier adds 4 to 5% to the PI because they're eating a receiving fee too. Your 20K payment just cost you over 2,300 dollars in real money. PayPal was built for buying t-shirts, not paying factories. WorldFirst is built for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. If you wouldn't hand a bank teller 880 dollars in cash, don't hand it to an app. Worth a look. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner paying Chinese suppliers through PayPal, you're being charged like a tourist. Here's the math. PayPal at 200 dollars feels cheap. 4.4% is 9 bucks. You shrug. PayPal at 20 thousand is 880 dollars. Same app. Same button. Same brand. Different reality. And that's just the transaction fee. FX margin to CNY adds another 3.5%. That's 700 more. Now your supplier adds 4 to 5% to the PI because they're eating a receiving fee too. Your 20K payment just cost you over 2,300 dollars in real money. <del>Stop. </del>PayPal was built for buying t-shirts, not paying factories. WorldFirst is built for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. If you wouldn't hand a bank teller 880 dollars in cash, don't hand it to an app. <del>Period. </del><ins>Worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + scale-mismatch reveal",
+        "original_vo": "Watch this. PayPal at 200 dollars charges you 9 bucks. You don't even notice. PayPal at 20 thousand charges you 880 dollars. Same app. Same swipe. The product didn't change. The math did. Personal-volume apps are priced for personal volumes. When you scale up from buying a sweater to paying a factory, that percentage doesn't shrink. It grows with every zero. 4.4% on 200 is coffee money. 4.4% on 20K is a flight to Guangzhou. And we haven't even talked about FX. PayPal adds another 3.5% margin on the dollar-to-CNY conversion. That's 700 more dollars gone before your supplier sees a cent. Total cost: roughly 1,580 dollars on a 20K wire. Stop. WorldFirst is priced for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. The bigger the order, the more you save. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. PayPal at 200 dollars charges you 9 bucks. You don't even notice. PayPal at 20 thousand charges you 880 dollars. Same app. Same swipe. The product didn't change. The math did. Personal-volume apps are priced for personal volumes. When you scale up from buying a sweater to paying a factory, that percentage doesn't shrink. It grows with every zero. 4.4% on 200 is coffee money. 4.4% on 20K is a flight to Guangzhou. And we haven't even talked about FX. PayPal adds another 3.5% margin on the dollar-to-CNY conversion. That's 700 more dollars gone before your supplier sees a cent. Total cost: roughly 1,580 dollars on a 20K wire. WorldFirst is priced for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. The bigger the order, the more you save. Search WorldFirst.",
+        "diff_markup": "Watch this. PayPal at 200 dollars charges you 9 bucks. You don't even notice. PayPal at 20 thousand charges you 880 dollars. Same app. Same swipe. The product didn't change. The math did. Personal-volume apps are priced for personal volumes. When you scale up from buying a sweater to paying a factory, that percentage doesn't shrink. It grows with every zero. 4.4% on 200 is coffee money. 4.4% on 20K is a flight to Guangzhou. And we haven't even talked about FX. PayPal adds another 3.5% margin on the dollar-to-CNY conversion. That's 700 more dollars gone before your supplier sees a cent. Total cost: roughly 1,580 dollars on a 20K wire. <del>Stop. </del>WorldFirst is priced for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. The bigger the order, the more you save. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "PayPal charged you 880 dollars on your last supplier payment and you didn't blink. Here's why. At 200 bucks the fee feels invisible because the fixed-fee portion eats most of the pain. At 20 thousand the percentage takes over. 4.4% kicks in fully. That's 880 dollars on transaction fee alone. Then add 3.5% FX margin on the conversion to CNY. That's another 700. Then your supplier quietly adds 4 to 5% to the PI because PayPal charges them too. By the time the money lands, you've paid roughly 2,300 dollars to use an app that was designed to split a dinner bill. I'll say it. PayPal isn't a B2B tool. It's a consumer wallet. WorldFirst is the business rail. Near-interbank rates. No PI surcharge from suppliers. Same-day to Chinese accounts. Stop paying app-tier fees on business-tier orders. Search WorldFirst. Period.",
+        "iterated_vo": "PayPal charged you 880 dollars on your last supplier payment and you didn't blink. Here's why. At 200 bucks the fee feels invisible because the fixed-fee portion eats most of the pain. At 20 thousand the percentage takes over. 4.4% kicks in fully. That's 880 dollars on transaction fee alone. Then add 3.5% FX margin on the conversion to CNY. That's another 700. Then your supplier quietly adds 4 to 5% to the PI because PayPal charges them too. By the time the money lands, you've paid roughly 2,300 dollars to use an app that was designed to split a dinner bill. PayPal isn't a B2B tool. It's a consumer wallet. WorldFirst is the business rail. Near-interbank rates. No PI surcharge from suppliers. Same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "PayPal charged you 880 dollars on your last supplier payment and you didn't blink. Here's why. At 200 bucks the fee feels invisible because the fixed-fee portion eats most of the pain. At 20 thousand the percentage takes over. 4.4% kicks in fully. That's 880 dollars on transaction fee alone. Then add 3.5% FX margin on the conversion to CNY. That's another 700. Then your supplier quietly adds 4 to 5% to the PI because PayPal charges them too. By the time the money lands, you've paid roughly 2,300 dollars to use an app that was designed to split a dinner bill. <del>I'll say it. </del>PayPal isn't a B2B tool. It's a consumer wallet. WorldFirst is the business rail. Near-interbank rates. No PI surcharge from suppliers. Same-day to Chinese accounts. <del>Stop paying app-tier fees on business-tier orders. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the problem most business owners don't see when they scale a PayPal habit. The fee scales linearly. The pain doesn't. At 200 bucks, the percentage feels like nothing because it's wrapped inside a fixed-fee floor. At 20 thousand, the percentage is the whole story. 4.4% on 20K is 880 dollars. The app didn't get fancier. The app didn't add features. The app just multiplied the same number against a bigger payment. And on top of that, PayPal adds a 3 to 4% FX margin when you convert to CNY. That's another 600 to 800 dollars buried in the rate. So your 20K supplier payment actually costs you closer to 1,580. The mechanism is volume mismatch. PayPal was built for retail, not factory orders. Stop. WorldFirst is built for business volume. Near-interbank rates. Same-day to Chinese accounts. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the problem most business owners don't see when they scale a PayPal habit. The fee scales linearly. The pain doesn't. At 200 bucks, the percentage feels like nothing because it's wrapped inside a fixed-fee floor. At 20 thousand, the percentage is the whole story. 4.4% on 20K is 880 dollars. The app didn't get fancier. The app didn't add features. The app just multiplied the same number against a bigger payment. And on top of that, PayPal adds a 3 to 4% FX margin when you convert to CNY. That's another 600 to 800 dollars buried in the rate. So your 20K supplier payment actually costs you closer to 1,580. The mechanism is volume mismatch. PayPal was built for retail, not factory orders. WorldFirst is built for business volume. Near-interbank rates. Same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "Here's the problem most business owners don't see when they scale a PayPal habit. The fee scales linearly. The pain doesn't. At 200 bucks, the percentage feels like nothing because it's wrapped inside a fixed-fee floor. At 20 thousand, the percentage is the whole story. 4.4% on 20K is 880 dollars. The app didn't get fancier. The app didn't add features. The app just multiplied the same number against a bigger payment. And on top of that, PayPal adds a 3 to 4% FX margin when you convert to CNY. That's another 600 to 800 dollars buried in the rate. So your 20K supplier payment actually costs you closer to 1,580. The mechanism is volume mismatch. PayPal was built for retail, not factory orders. <del>Stop. </del>WorldFirst is built for business volume. Near-interbank rates. Same-day to Chinese accounts. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you pay Chinese suppliers through PayPal, you need to hear this. Real talk. Three things happen when you scale up and you only feel one of them. One. At 200 bucks you pay 9 dollars in fees and you barely notice. Two. At 20 thousand you pay 880 dollars in transaction fees and it feels like getting hit by a truck. Same app. Same percentage. Bigger number. Three. PayPal adds another 3.5% FX margin on the CNY conversion. That's 700 more. Plus your supplier quietly adds 4 to 5% to the PI because they're also paying PayPal a receiving fee. Your 20K supplier order just cost you roughly 2,300 dollars in real money, plus 21-day hold risk on the supplier side that they're pricing into your quote. Stop using consumer apps for business volumes. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge. If you're a business owner paying China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you pay Chinese suppliers through PayPal, you need to hear this. Three things happen when you scale up and you only feel one of them. One. At 200 bucks you pay 9 dollars in fees and you barely notice. Two. At 20 thousand you pay 880 dollars in transaction fees and it feels like getting hit by a truck. Same app. Same percentage. Bigger number. Three. PayPal adds another 3.5% FX margin on the CNY conversion. That's 700 more. Plus your supplier quietly adds 4 to 5% to the PI because they're also paying PayPal a receiving fee. Your 20K supplier order just cost you roughly 2,300 dollars in real money, plus 21-day hold risk on the supplier side that they're pricing into your quote. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge. If you're a business owner paying China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you pay Chinese suppliers through PayPal, you need to hear this. <del>Real talk. </del>Three things happen when you scale up and you only feel one of them. One. At 200 bucks you pay 9 dollars in fees and you barely notice. Two. At 20 thousand you pay 880 dollars in transaction fees and it feels like getting hit by a truck. Same app. Same percentage. Bigger number. Three. PayPal adds another 3.5% FX margin on the CNY conversion. That's 700 more. Plus your supplier quietly adds 4 to 5% to the PI because they're also paying PayPal a receiving fee. Your 20K supplier order just cost you roughly 2,300 dollars in real money, plus 21-day hold risk on the supplier side that they're pricing into your quote. <del>Stop using consumer apps for business volumes. </del>WorldFirst is built for this. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge. If you're a business owner paying China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner using PayPal to pay Chinese suppliers. PayPal at 200 bucks feels free. PayPal at 20K is 880 dollars in transaction fees alone. Plus 700 more in FX margin on the CNY conversion. Plus your supplier adds 4 to 5% to the PI because they get charged too. You're paying 2 grand to use an app built for splitting Uber rides. Listen. The product didn't change. The math did. Personal-volume apps are priced for personal volumes. When you cross into supplier territory, the percentage doesn't reward you. It punishes you. WorldFirst is built for business volume. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge. Stop letting an app charge you tourist prices on factory orders. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner using PayPal to pay Chinese suppliers. PayPal at 200 bucks feels free. PayPal at 20K is 880 dollars in transaction fees alone. Plus 700 more in FX margin on the CNY conversion. Plus your supplier adds 4 to 5% to the PI because they get charged too. You're paying 2 grand to use an app built for splitting Uber rides. The product didn't change. The math did. Personal-volume apps are priced for personal volumes. When you cross into supplier territory, the percentage doesn't reward you. It punishes you. WorldFirst is built for business volume. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge. Worth knowing if PayPal is quietly taking from you on every supplier order. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner using PayPal to pay Chinese suppliers. PayPal at 200 bucks feels free. PayPal at 20K is 880 dollars in transaction fees alone. Plus 700 more in FX margin on the CNY conversion. Plus your supplier adds 4 to 5% to the PI because they get charged too. You're paying 2 grand to use an app built for splitting Uber rides. <del>Listen. </del>The product didn't change. The math did. Personal-volume apps are priced for personal volumes. When you cross into supplier territory, the percentage doesn't reward you. It punishes you. WorldFirst is built for business volume. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge. <del>Stop letting an app charge you tourist prices on factory orders</del><ins>Worth knowing if PayPal is quietly taking from you on every supplier order</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. PayPal is the most expensive rail in your supply chain and nobody talks about it. PayPal at 200 dollars costs 9 bucks. Nobody cares. PayPal at 20K costs 880 dollars. Now you care. Now run the math. Once a month. That's 880 a month. 10K a year just on transaction fees, before FX. Add the 3.5% FX margin and you're at 1,580 per wire. Twelve wires a year. That's nearly 19 grand a year. Disappearing into an app you only signed up for because it was easy. That's a hire. That's inventory. That's your margin. PayPal won't tell you this because they make more money the bigger your orders get. WorldFirst uses near-interbank rate. Same-day to Chinese accounts. The percentage goes down, not up. Period.",
+        "iterated_vo": "PayPal is the most expensive rail in your supply chain and nobody talks about it. PayPal at 200 dollars costs 9 bucks. Nobody cares. PayPal at 20K costs 880 dollars. Now you care. Now run the math. Once a month. That's 880 a month. 10K a year just on transaction fees, before FX. Add the 3.5% FX margin and you're at 1,580 per wire. Twelve wires a year. That's nearly 19 grand a year. Disappearing into an app you only signed up for because it was easy. That's a hire. That's inventory. That's your margin. PayPal won't tell you this because they make more money the bigger your orders get. WorldFirst uses near-interbank rate. Same-day to Chinese accounts. The percentage goes down, not up.",
+        "diff_markup": "<del>I'll say it. </del>PayPal is the most expensive rail in your supply chain and nobody talks about it. PayPal at 200 dollars costs 9 bucks. Nobody cares. PayPal at 20K costs 880 dollars. Now you care. Now run the math. Once a month. That's 880 a month. 10K a year just on transaction fees, before FX. Add the 3.5% FX margin and you're at 1,580 per wire. Twelve wires a year. That's nearly 19 grand a year. Disappearing into an app you only signed up for because it was easy. That's a hire. That's inventory. That's your margin. PayPal won't tell you this because they make more money the bigger your orders get. WorldFirst uses near-interbank rate. Same-day to Chinese accounts. The percentage goes down, not up<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using PayPal / right-tool reframe",
+        "original_vo": "Stop using PayPal to pay Chinese suppliers. I'm serious. PayPal is a tool. It's the wrong tool. You wouldn't use a calculator app to do your taxes. So why are you using a consumer wallet to send factory-scale payments? Here's what happens. At 200 dollars you pay 9 bucks. Fine. At 20K you pay 880. Painful. Add 3.5% FX margin on the CNY conversion. Another 700. Now your supplier adds 4 to 5% to the PI because they're eating a receiving fee on their side. That's another 800 to 1000 baked into your invoice. Your 20K order really costs you 22 grand. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge from suppliers because they actually want to receive on this rail. Use the right tool for the job. Your margin depends on it. Search WorldFirst. Now.",
+        "iterated_vo": "PayPal is not the right tool for paying Chinese suppliers. PayPal is a tool. It's the wrong tool. You wouldn't use a calculator app to do your taxes. So why are you using a consumer wallet to send factory-scale payments? Here's what happens. At 200 dollars you pay 9 bucks. Fine. At 20K you pay 880. Painful. Add 3.5% FX margin on the CNY conversion. Another 700. Now your supplier adds 4 to 5% to the PI because they're eating a receiving fee on their side. That's another 800 to 1000 baked into your invoice. Your 20K order really costs you 22 grand. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge from suppliers because they actually want to receive on this rail. Use the right tool for the job. Your margin depends on it. Search WorldFirst.",
+        "diff_markup": "<del>Stop using PayPal to pay Chinese suppliers. I'm serious</del><ins>PayPal is not the right tool for paying Chinese suppliers</ins>. PayPal is a tool. It's the wrong tool. You wouldn't use a calculator app to do your taxes. So why are you using a consumer wallet to send factory-scale payments? Here's what happens. At 200 dollars you pay 9 bucks. Fine. At 20K you pay 880. Painful. Add 3.5% FX margin on the CNY conversion. Another 700. Now your supplier adds 4 to 5% to the PI because they're eating a receiving fee on their side. That's another 800 to 1000 baked into your invoice. Your 20K order really costs you 22 grand. WorldFirst is built for this. Near-interbank rate. Same-day to Chinese accounts. No PI surcharge from suppliers because they actually want to receive on this rail. Use the right tool for the job. Your margin depends on it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about PayPal. It's not the fixed fee that gets you. It's the percentage that doesn't shrink as you scale. At 200 dollars you pay 9 bucks. At 20K you pay 880. The app stayed the same. Your payment got bigger. PayPal got richer. Then there's the 3 to 4% FX margin on CNY conversion. That's 600 to 800 more. Silently baked into the rate. Then your supplier prices in their own PayPal receiving fee, quietly adding 4 to 5% to your PI. None of this is on a receipt. None of this is in the app. This is how it works. Every single time you scale up. PayPal doesn't change the percentage. So you better. WorldFirst is built for business-volume payments. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get. Period.",
+        "iterated_vo": "Here's something nobody's telling you about PayPal. It's not the fixed fee that gets you. It's the percentage that doesn't shrink as you scale. At 200 dollars you pay 9 bucks. At 20K you pay 880. The app stayed the same. Your payment got bigger. PayPal got richer. Then there's the 3 to 4% FX margin on CNY conversion. That's 600 to 800 more. Quietly baked into the rate. Then your supplier prices in their own PayPal receiving fee, quietly adding 4 to 5% to your PI. None of this is on a receipt. None of this is in the app. This is how it works. Every time you scale up. PayPal doesn't change the percentage. So you better. WorldFirst is built differently. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about PayPal. It's not the fixed fee that gets you. It's the percentage that doesn't shrink as you scale. At 200 dollars you pay 9 bucks. At 20K you pay 880. The app stayed the same. Your payment got bigger. PayPal got richer. Then there's the 3 to 4% FX margin on CNY conversion. That's 600 to 800 more. <del>Silently</del><ins>Quietly</ins> baked into the rate. Then your supplier prices in their own PayPal receiving fee, quietly adding 4 to 5% to your PI. None of this is on a receipt. None of this is in the app. This is how it works. Every <del>single </del>time you scale up. PayPal doesn't change the percentage. So you better. WorldFirst <del>is built for business-volume payments</del><ins>is built differently</ins>. Near-interbank rate. Same-day to Chinese accounts. The rate you see is the rate you get<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sourcing from China through PayPal. You think it's the easy option. It's not. You send 20K. Supplier sees the funds. Then PayPal puts a 21-day hold on the receiver side. Supplier won't start production because the money isn't fully released. You're calling PayPal. PayPal says it's policy. Supplier says they want T/T next time. Meanwhile you're paying 880 in fees and another 700 in FX margin. 1,580 dollars to send a payment that doesn't even fully arrive for three weeks. Your customers are waiting. Your inventory is late. Your margin is bleeding. And you're staring at a hold screen on an app built for refunding sneakers. I see this every week. Every single week. Stop. WorldFirst. Near-interbank rate. Same-day to Chinese accounts. No hold. Supplier starts. You sleep. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China through PayPal. You think it's the easy option. It's not. You send 20K. Supplier sees the funds. Then PayPal puts a 21-day hold on the receiver side. Supplier won't start production because the money isn't fully released. You're calling PayPal. PayPal says it's policy. Supplier says they want T/T next time. Meanwhile you're paying 880 in fees and another 700 in FX margin. 1,580 dollars to send a payment that doesn't even fully arrive for three weeks. Your customers are waiting. Your inventory is late. Your margin is bleeding. And you're staring at a hold screen on an app built for refunding sneakers. This happens every week. Every single week. WorldFirst. Near-interbank rate. Same-day to Chinese accounts. No hold. Supplier starts. You sleep. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China through PayPal. You think it's the easy option. It's not. You send 20K. Supplier sees the funds. Then PayPal puts a 21-day hold on the receiver side. Supplier won't start production because the money isn't fully released. You're calling PayPal. PayPal says it's policy. Supplier says they want T/T next time. Meanwhile you're paying 880 in fees and another 700 in FX margin. 1,580 dollars to send a payment that doesn't even fully arrive for three weeks. Your customers are waiting. Your inventory is late. Your margin is bleeding. And you're staring at a hold screen on an app built for refunding sneakers. <del>I see this</del><ins>This happens</ins> every week. Every single week. <del>Stop. </del>WorldFirst. Near-interbank rate. Same-day to Chinese accounts. No hold. Supplier starts. You sleep. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core math (4.4% on 20K = 880, 3.5% FX margin = 700, 4-5% PI surcharge) is supported by the findings array and is industry-typical for PayPal cross-border B2B. Main risk is the 'PI surcharge' framing as universal when in practice only some suppliers add it openly and others fold it into the quote invisibly. 'Tourist' framing is colorful but defensible. 'Built for t-shirts not factories' is generic enough to land. The cumulative 2,300 figure stacks three separate cost components, which a skeptic may challenge if they only see one of them on a statement.",
+      "skeptic_comments": [
+        {
+          "text": "4.4% sound high lah, my PayPal sometimes show lower fee.",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier add 4-5% to PI? My one just quote and that's it. How I know if hidden?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst leh, first time hearing.",
+          "severity": "high"
+        },
+        {
+          "text": "Sound like ad. Show real PayPal screenshot vs WorldFirst screenshot.",
+          "severity": "high"
+        },
+        {
+          "text": "Tourist prices ok funny but I just want to know got Malaysia license or not.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PH2": {
+      "red_flag": "Low",
+      "analysis": "Cleanest math in the Hormozi set. The scale-mismatch teaching (percentage stays the same, pain grows linearly) is genuinely educational and hard to dispute. 'Flight to Guangzhou' is a relatable visual. The 1,580 cumulative figure stacks fewer components than PH1 (transaction + FX only, no PI surcharge), making it more defensible. The 'we haven't even talked about FX' beat is honest sequencing. Main residual risk is the 3.5% FX margin presented as exact when it's a typical range.",
+      "skeptic_comments": [
+        {
+          "text": "Flight to Guangzhou ha ok funny. But 4.4% confirmed?",
+          "severity": "mid"
+        },
+        {
+          "text": "Percentage stay same pain grow ok this part actually make sense.",
+          "severity": "low"
+        },
+        {
+          "text": "FX margin 3.5% always? My PayPal show different number when I check.",
+          "severity": "high"
+        },
+        {
+          "text": "Bigger order more save? Show me actual WorldFirst rate at 20K vs PayPal please.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need to verify first.",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH3": {
+      "red_flag": "High",
+      "analysis": "The cumulative 2,300 dollar claim stacks three layers (880 transaction + 700 FX + ~700 supplier PI surcharge) which is technically supported by findings but lands as steep. 'Designed to split a dinner bill' is fun but reductive. 'PayPal isn't a B2B tool' is true in spirit but PayPal does have a B2B product (Business account) which a skeptic could point to. The 'didn't blink' opener accuses the viewer of inattention, which can put audience on defensive. Strong on findings, weaker on tone.",
+      "skeptic_comments": [
+        {
+          "text": "2,300 dollars on 20K? That's 11.5%. Sound exaggerated.",
+          "severity": "high"
+        },
+        {
+          "text": "PayPal got Business account what. Not just consumer wallet.",
+          "severity": "high"
+        },
+        {
+          "text": "Didn't blink? Bro I read my statement, I noticed.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier add 4-5% silently, how I check? Got way to verify?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Regulated by BNM or what?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Most defensible of the Hormozi set. The 'fee scales linearly, pain doesn't' framing is a clean teaching moment that doesn't rely on the most aggressive numbers. Uses a 3 to 4% range on FX (more honest than a single figure). Uses 'closer to 1,580' which signals an estimate rather than a precise claim. 'The app didn't get fancier' is a smart point most skeptics will accept. Volume mismatch is the right framing for the angle. Lowest dramatic flourish, highest credibility.",
+      "skeptic_comments": [
+        {
+          "text": "Fee scale linearly pain not, ok this teaching I can use.",
+          "severity": "low"
+        },
+        {
+          "text": "3 to 4% FX is more honest. At least give a range.",
+          "severity": "low"
+        },
+        {
+          "text": "1,580 on 20K is what 7.9%? Still feel high but ok if true.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst built for business volume, can verify? Got minimum?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who regulate WorldFirst in Malaysia?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PH5": {
+      "red_flag": "High",
+      "analysis": "Stacks the most claims of any PH script: 880 transaction + 700 FX + 4-5% supplier PI surcharge + 21-day hold pricing. The 21-day hold reference is supported by findings but adds a fifth claim that further compounds. 'Hit by a truck' is vivid but might feel exaggerated. 'You need WorldFirst' (in original) is hard-sell, softened in iteration to 'worth a look'. The total cost claim of 2,300+ requires the viewer to accept all four cost layers simultaneously, which is a tall order.",
+      "skeptic_comments": [
+        {
+          "text": "2,300 on 20K? That's saying 11.5% loss. Hard to believe without proof.",
+          "severity": "high"
+        },
+        {
+          "text": "21-day hold? Only on new accounts or risky transactions, not always.",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier price in 4-5% to PI, how I confirm? They never tell me.",
+          "severity": "mid"
+        },
+        {
+          "text": "Like ad lah. Real talk should mean real proof, not just numbers.",
+          "severity": "mid"
+        },
+        {
+          "text": "Worth a look ok but who is WorldFirst and got Malaysia license?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Same core math as Hormozi set (880 fee, 700 FX margin, 4-5% PI surcharge). The 'splitting Uber rides' frame is light and defensible. 'Percentage doesn't reward you, punishes you' is a smart structural observation about pricing tiers. Softer close ('worth knowing') reduces ad-feel. Main risk is still the cumulative 2K claim and the universal framing of the supplier PI surcharge. 'No PI surcharge' on WorldFirst side is a marketing claim that a skeptic would want to verify.",
+      "skeptic_comments": [
+        {
+          "text": "Uber rides analogy I get it. But how WorldFirst know supplier no surcharge?",
+          "severity": "mid"
+        },
+        {
+          "text": "Personal volume vs business volume, where the line? 5K? 10K?",
+          "severity": "mid"
+        },
+        {
+          "text": "Sound like ad. Real screenshot please.",
+          "severity": "high"
+        },
+        {
+          "text": "Who is WorldFirst? First time hearing.",
+          "severity": "high"
+        },
+        {
+          "text": "4-5% supplier add to PI, every single time? My supplier in Yiwu never add.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "'Most expensive rail in your supply chain' is bold and likely false against shipping/freight, which a skeptic will catch immediately. The 19K annual extrapolation assumes 12 monthly 20K wires, which is a strong assumption for the average SMB importer. 'PayPal makes more money the bigger your orders get' is a true mechanism but framed conspiratorially. The compounding annual math will draw the most challenge in this set.",
+      "skeptic_comments": [
+        {
+          "text": "Most expensive rail? Shipping cost me 5K per container minimum.",
+          "severity": "high"
+        },
+        {
+          "text": "12 wires of 20K a year? That's 240K sourcing. Big SME already.",
+          "severity": "high"
+        },
+        {
+          "text": "PayPal got richer? They making business by charging. Same as bank.",
+          "severity": "mid"
+        },
+        {
+          "text": "Where 4.4% confirmed? Show me PayPal fee schedule.",
+          "severity": "high"
+        },
+        {
+          "text": "Percentage goes down on WorldFirst? At what volume? Same rate at 200 and 20K?",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The calculator/taxes analogy works. Math is internally consistent (880 + 700 + 800-1000 surcharge = roughly 2,400 = the 22K total). 'No PI surcharge because suppliers actually want to receive on this rail' is a strong claim that a skeptic would want to verify, but it's not implausible because findings note suppliers reluctant to accept PayPal. 'Right tool for the job' is solid framing. Main risk is the supplier PI surcharge as universal.",
+      "skeptic_comments": [
+        {
+          "text": "Calculator vs taxes ok analogy fair. But show real WorldFirst rate first.",
+          "severity": "mid"
+        },
+        {
+          "text": "Supplier want to receive on WorldFirst rail? Why? Got source for this?",
+          "severity": "high"
+        },
+        {
+          "text": "22K real cost on 20K order? That's 10%+ which feels stacked.",
+          "severity": "high"
+        },
+        {
+          "text": "My supplier never quote me surcharge. Don't make assumption please.",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Got license in Malaysia?",
+          "severity": "high"
+        }
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "Softened from 'truth nobody's telling you' to 'something nobody's telling you' in iteration, reduces conspiratorial tone. The 'percentage that doesn't shrink as you scale' teaching is genuinely useful. The cascade of claims (transaction + FX + supplier surcharge) is technically supported but stacks. 'Every time you scale up. PayPal doesn't change the percentage' is largely accurate. 'The rate you see is the rate you get' on WF side is a marketing claim worth verifying.",
+      "skeptic_comments": [
+        {
+          "text": "Percentage doesn't shrink as you scale, ok this teaching point is fair.",
+          "severity": "low"
+        },
+        {
+          "text": "Quietly baked into the rate, true for FX margin. Industry standard practice.",
+          "severity": "low"
+        },
+        {
+          "text": "Supplier price in 4-5%? Some do some don't. Not universal.",
+          "severity": "mid"
+        },
+        {
+          "text": "Rate you see is rate you get on WorldFirst, prove with live screenshot.",
+          "severity": "mid"
+        },
+        {
+          "text": "Need to look up WorldFirst, never heard of them in Malaysia.",
+          "severity": "mid"
+        }
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "The 21-day hold pain point is supported by findings and is a real PayPal mechanism on receiver side, particularly for new/high-risk accounts. The 'supplier wants T/T next time' beat will resonate with anyone who's been there. Softens 'I see this every week' to 'this happens every week' which is more defensible. 'Hold screen on an app built for refunding sneakers' is sharp and on-brand. Main risk is the 21-day hold framed as universal when it's situational.",
+      "skeptic_comments": [
+        {
+          "text": "21-day hold not always lah. Mostly first transaction or risky pattern.",
+          "severity": "high"
+        },
+        {
+          "text": "Supplier want T/T next time, ya this is real. Happened to me before.",
+          "severity": "low"
+        },
+        {
+          "text": "Hold screen sneaker refund app, ok funny but ad-feel high.",
+          "severity": "mid"
+        },
+        {
+          "text": "WorldFirst no hold, sure or not? What if transaction flagged for review?",
+          "severity": "mid"
+        },
+        {
+          "text": "Who is WorldFirst? Need Malaysia license info please.",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}

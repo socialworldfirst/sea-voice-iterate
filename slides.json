@@ -1,0 +1,242 @@
+[
+  {
+    "slide_id": "P1-A11-1",
+    "card_id": "P1-A11",
+    "card_title": "Why your CNY payment sometimes arrives in USD",
+    "video_title": "3 places where your CNY can become USD",
+    "approach": "Mechanism-led",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "01"
+  },
+  {
+    "slide_id": "P1-A13-1",
+    "card_id": "P1-A13",
+    "card_title": "Bank says no fee. You still paid $300.",
+    "video_title": "How banks charge you nothing and still keep $300",
+    "approach": "Tutorial",
+    "format_spec": "Short-form 30s · bilingual",
+    "pillar": "P1",
+    "topic": "02"
+  },
+  {
+    "slide_id": "P1-A14-1",
+    "card_id": "P1-A14",
+    "card_title": "Three operators, same $50K wire, three different supplier-end amounts",
+    "video_title": "Three operators, same wire, three amounts",
+    "approach": "Comparison",
+    "format_spec": "Short-form 60s",
+    "pillar": "P1",
+    "topic": "02"
+  },
+  {
+    "slide_id": "P1-A2-1",
+    "card_id": "P1-A2",
+    "card_title": "3 ways CNY actually reaches your supplier",
+    "video_title": "The 3 paths your CNY takes to China (most operators only know one)",
+    "approach": "Curiosity-led",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "01"
+  },
+  {
+    "slide_id": "P1-A4-1",
+    "card_id": "P1-A4",
+    "card_title": "Your supplier asked you to pay the $200 they didn't receive",
+    "video_title": "Your supplier just asked for the $200 they did not get",
+    "approach": "Pain-led",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "06"
+  },
+  {
+    "slide_id": "P1-A4-2",
+    "card_id": "P1-A4",
+    "card_title": "Your supplier asked you to pay the $200 they didn't receive",
+    "video_title": "Why your wire arrived 3 days late and short $150",
+    "approach": "Pain-led",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "06"
+  },
+  {
+    "slide_id": "P1-A6-1",
+    "card_id": "P1-A6",
+    "card_title": "Why paying your supplier in CNY actually wins",
+    "video_title": "USD feels safer. It costs you 2% more.",
+    "approach": "Reframe",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "05"
+  },
+  {
+    "slide_id": "P1-A6-2",
+    "card_id": "P1-A6",
+    "card_title": "Why paying your supplier in CNY actually wins",
+    "video_title": "Why your supplier secretly wants CNY",
+    "approach": "Supplier-perspective",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "05"
+  },
+  {
+    "slide_id": "P1-A6-3",
+    "card_id": "P1-A6",
+    "card_title": "Why paying your supplier in CNY actually wins",
+    "video_title": "The math on USD vs CNY for a $20,000 supplier payment",
+    "approach": "Math-led",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "05"
+  },
+  {
+    "slide_id": "P1-A8-1",
+    "card_id": "P1-A8",
+    "card_title": "The 3-letter code that decides if your wire is same-day",
+    "video_title": "The 3-letter code on every China wire (most operators never see it)",
+    "approach": "Curiosity-led",
+    "format_spec": "Short-form 45s · bilingual",
+    "pillar": "P1",
+    "topic": "01"
+  },
+  {
+    "slide_id": "P1-A9-1",
+    "card_id": "P1-A9",
+    "card_title": "Supplier said wire didn't arrive. Bank says it did.",
+    "video_title": "My bank says sent. My supplier says nothing. Both right.",
+    "approach": "Pain-first",
+    "format_spec": "Short-form 60s · bilingual",
+    "pillar": "P1",
+    "topic": "01"
+  },
+  {
+    "slide_id": "P2-A1-1",
+    "card_id": "P2-A1",
+    "card_title": "How a 2% bank-to-rail gap compounds over a year",
+    "video_title": "How a 2% gap compounds over a year of sourcing",
+    "approach": "Math-led",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "02"
+  },
+  {
+    "slide_id": "P2-A1-2",
+    "card_id": "P2-A1",
+    "card_title": "How a 2% bank-to-rail gap compounds over a year",
+    "video_title": "$10,000 you lost this year and didn't know",
+    "approach": "Pain-led",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "02"
+  },
+  {
+    "slide_id": "P2-A13-1",
+    "card_id": "P2-A13",
+    "card_title": "How much PayPal actually costs you on a $20K supplier payment",
+    "video_title": "What a $20K PayPal supplier payment actually costs",
+    "approach": "Math-led",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A13-2",
+    "card_id": "P2-A13",
+    "card_title": "How much PayPal actually costs you on a $20K supplier payment",
+    "video_title": "PayPal at $200 vs PayPal at $20K",
+    "approach": "Comparison",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A14-1",
+    "card_id": "P2-A14",
+    "card_title": "Credit cards for international supplier payments: the gap",
+    "video_title": "Why your supplier said no to the card",
+    "approach": "Category",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A18-1",
+    "card_id": "P2-A18",
+    "card_title": "Personal vs business FX rate: the spread",
+    "video_title": "The rate you see isn't the rate that exists",
+    "approach": "Math-led",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A18-2",
+    "card_id": "P2-A18",
+    "card_title": "Personal vs business FX rate: the spread",
+    "video_title": "Personal vs business FX: the same currency, two prices",
+    "approach": "Comparison",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A24-1",
+    "card_id": "P2-A24",
+    "card_title": "When CAN you pay a Chinese supplier by card?",
+    "video_title": "When CAN you pay a Chinese supplier by card?",
+    "approach": "Tutorial",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A24-2",
+    "card_id": "P2-A24",
+    "card_title": "When CAN you pay a Chinese supplier by card?",
+    "video_title": "The $12,000 wall on credit cards",
+    "approach": "Math-led",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "04"
+  },
+  {
+    "slide_id": "P2-A3-1",
+    "card_id": "P2-A3",
+    "card_title": "Bank wire vs WorldFirst on the same $50K payment",
+    "video_title": "I sent $50K. My supplier got $48,500. Here is why.",
+    "approach": "Story",
+    "format_spec": "Short-form 60s comparison",
+    "pillar": "P2",
+    "topic": "03"
+  },
+  {
+    "slide_id": "P2-A7-1",
+    "card_id": "P2-A7",
+    "card_title": "Your sourcing budget shrinks 4% a year (silent compound)",
+    "video_title": "The 4% you'll never get back",
+    "approach": "Pain-led",
+    "format_spec": "Short-form 60s",
+    "pillar": "P2",
+    "topic": "02"
+  },
+  {
+    "slide_id": "P2-A8-1",
+    "card_id": "P2-A8",
+    "card_title": "How to read FX margin off your wire confirmation",
+    "video_title": "Find the hidden FX margin in 30 seconds",
+    "approach": "Tutorial",
+    "format_spec": "Short-form 60s tutorial",
+    "pillar": "P2",
+    "topic": "02"
+  },
+  {
+    "slide_id": "P2-A9-1",
+    "card_id": "P2-A9",
+    "card_title": "Good rate quoted vs real interbank rate",
+    "video_title": "What 'we'll give you a good rate' actually means",
+    "approach": "Curiosity-led",
+    "format_spec": "Short-form 45s",
+    "pillar": "P2",
+    "topic": "02"
+  }
+]

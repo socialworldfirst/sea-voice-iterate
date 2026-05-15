@@ -1,0 +1,197 @@
+{
+  "angle_id": "P1-A6-1",
+  "title": "USD feels safer. It costs you 2% more.",
+  "card_id": "P1-A6",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner paying Chinese suppliers in USD because it feels safer, you're paying 2% extra for that feeling. Here's the math. Your USD wire to a Chinese factory goes through two exchange rate conversions. Your bank takes 0.5 to 1.5% turning your local currency into USD. Your supplier's bank takes another 0.3 to 0.8% turning USD back into CNY. That stack is invisible because it's baked into the rate, not the fee line. On a 20,000 dollar order, you've quietly given up 160 to 460 dollars before anything ships. Then your supplier waits 7 to 10 days for the USD to clear. So next quote, they pad your USD price by 2 to 5% to cover the wait. Stop paying twice for the same feeling. WorldFirst pays your supplier in CNY directly. One conversion. 0.3 to 0.5% total. Same payment. Same destination. Half the cost. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner paying Chinese suppliers in USD because it feels safer, you're paying 2% extra for that feeling. Here's the math. Your USD wire to a Chinese factory goes through two exchange rate conversions. Your bank takes 0.5 to 1.5% turning your local currency into USD. Your supplier's bank takes another 0.3 to 0.8% turning USD back into CNY. That stack is invisible because it's baked into the rate, not the fee line. On a 20,000 dollar order, you've quietly given up 160 to 460 dollars before anything ships. Then your supplier waits 7 to 10 days for the USD to clear. So next quote, they pad your USD price by 2 to 5% to cover the wait. Worth knowing before the next PI lands. WorldFirst pays your supplier in CNY directly. One conversion. 0.3 to 0.5% total. Same payment. Same destination. Half the cost. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner paying Chinese suppliers in USD because it feels safer, you're paying 2% extra for that feeling. Here's the math. Your USD wire to a Chinese factory goes through two exchange rate conversions. Your bank takes 0.5 to 1.5% turning your local currency into USD. Your supplier's bank takes another 0.3 to 0.8% turning USD back into CNY. That stack is invisible because it's baked into the rate, not the fee line. On a 20,000 dollar order, you've quietly given up 160 to 460 dollars before anything ships. Then your supplier waits 7 to 10 days for the USD to clear. So next quote, they pad your USD price by 2 to 5% to cover the wait. <del>Stop paying twice for the same feeling. </del><ins>Worth knowing before the next PI lands. </ins>WorldFirst pays your supplier in CNY directly. One conversion. 0.3 to 0.5% total. Same payment. Same destination. Half the cost. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. You pay your Chinese supplier 20,000 dollars in USD because it feels safer. It just cost you 460 dollars extra and you didn't feel a thing. Here's why. Two conversions. Your bank does USD on the way out, 1.5% margin, 300 dollars. Supplier's bank does CNY on the way in, 0.8% margin, 160 dollars. Total leakage: 460 dollars. Now run that across the year. 12 orders. That's 5,500 dollars sitting inside someone else's spread. Run two years. 11,000. Run five. 27,500. That's a hire. That's a container. That's your kid's school fees. And it's not a fee line. It's the rate. Listen. WorldFirst sends CNY direct. One conversion. 0.3 to 0.5% total. 60 to 100 dollars on the same 20K order. The other 360 stays in your business. Every order. Every month. Every year. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. You pay your Chinese supplier 20,000 dollars in USD because it feels safer. It just cost you 460 dollars extra and you didn't feel a thing. Here's why. Two conversions. Your bank does USD on the way out, 1.5% margin, 300 dollars. Supplier's bank does CNY on the way in, 0.8% margin, 160 dollars. Total leakage: 460 dollars. Now run that across the year. 12 orders. That's 5,500 dollars sitting inside someone else's spread. Run two years. 11,000. Run five. 27,500. That's a hire. That's a container. That's your kid's school fees. And it's not a fee line. It's the rate. WorldFirst sends CNY direct. One conversion. 0.3 to 0.5% total. 60 to 100 dollars on the same 20K order. The other 360 stays in your business. Every order. Every month. Every year. Search WorldFirst.",
+        "diff_markup": "Watch this. You pay your Chinese supplier 20,000 dollars in USD because it feels safer. It just cost you 460 dollars extra and you didn't feel a thing. Here's why. Two conversions. Your bank does USD on the way out, 1.5% margin, 300 dollars. Supplier's bank does CNY on the way in, 0.8% margin, 160 dollars. Total leakage: 460 dollars. Now run that across the year. 12 orders. That's 5,500 dollars sitting inside someone else's spread. Run two years. 11,000. Run five. 27,500. That's a hire. That's a container. That's your kid's school fees. And it's not a fee line. It's the rate. <del>Listen. </del>WorldFirst sends CNY direct. One conversion. 0.3 to 0.5% total. 60 to 100 dollars on the same 20K order. The other 360 stays in your business. Every order. Every month. Every year. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "You think paying in USD protects you. It doesn't. It protects your bank. Here's the truth. Every USD wire to a Chinese supplier hits two banks taking exchange rate margin. Your bank, 0.5 to 1.5% on the way out. Their bank, 0.3 to 0.8% on the way back into CNY. You don't see either one because they're baked into the rate, not the fee. On a 20,000 dollar order that's up to 460 dollars gone before the goods even ship. Then your supplier waits a week for the USD to clear. Their cash flow tightens. So next PI they quote you 2 to 5% higher to cover the wait. You just paid extra twice. I'll say it. The dollar feels safer because it's familiar. It's not cheaper. It's not faster. It's just familiar. WorldFirst pays your supplier in CNY directly. One conversion. 0.3 to 0.5%. Same supplier. Same bank account. Lower cost. Search WorldFirst. Period.",
+        "iterated_vo": "You think paying in USD protects you. It doesn't. It protects your bank. Here's the situation. Every USD wire to a Chinese supplier hits two banks taking exchange rate margin. Your bank, 0.5 to 1.5% on the way out. Their bank, 0.3 to 0.8% on the way back into CNY. You don't see either one because they're baked into the rate, not the fee. On a 20,000 dollar order that's up to 460 dollars gone before the goods even ship. Then your supplier waits a week for the USD to clear. Their cash flow tightens. So next PI they quote you 2 to 5% higher to cover the wait. You just paid extra twice. The dollar feels safer because it's familiar. It's not cheaper. It's not faster. It's just familiar. WorldFirst pays your supplier in CNY directly. One conversion. 0.3 to 0.5%. Same supplier. Same bank account. Lower cost. Search WorldFirst.",
+        "diff_markup": "You think paying in USD protects you. It doesn't. It protects your bank. Here's the <del>truth</del><ins>situation</ins>. Every USD wire to a Chinese supplier hits two banks taking exchange rate margin. Your bank, 0.5 to 1.5% on the way out. Their bank, 0.3 to 0.8% on the way back into CNY. You don't see either one because they're baked into the rate, not the fee. On a 20,000 dollar order that's up to 460 dollars gone before the goods even ship. Then your supplier waits a week for the USD to clear. Their cash flow tightens. So next PI they quote you 2 to 5% higher to cover the wait. You just paid extra twice. <del>I'll say it. </del>The dollar feels safer because it's familiar. It's not cheaper. It's not faster. It's just familiar. WorldFirst pays your supplier in CNY directly. One conversion. 0.3 to 0.5%. Same supplier. Same bank account. Lower cost. Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the part most business owners miss about paying suppliers in USD. The USD price on the PI is not locked in. You see 20,000 USD and think that's the cost. Wrong. Two conversions happen. Your bank converts your local currency to USD at their card rate, not the rate on Google. That's 0.5 to 1.5% margin you never see. Then the wire lands in your supplier's Chinese bank. Chinese accounts hold CNY, not USD. So the receiving bank converts USD to CNY at their card rate. Another 0.3 to 0.8% margin. Stacked. Invisible. Baked into the rate, never the fee line. On a 20K order that's 160 to 460 dollars vanished into spread. Plus your supplier waits 7 to 10 days for clearance and SAFE compliance review. Stop. WorldFirst sends CNY direct over CIPS or MYbank rails. One conversion. 0.3 to 0.5% all-in. 80% land same-day. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the part most business owners miss about paying suppliers in USD. The USD price on the PI is not locked in. You see 20,000 USD and think that's the cost. Wrong. Two conversions happen. Your bank converts your local currency to USD at their card rate, not the rate on Google. That's 0.5 to 1.5% margin you never see. Then the wire lands in your supplier's Chinese bank. Chinese accounts hold CNY, not USD. So the receiving bank converts USD to CNY at their card rate. Another 0.3 to 0.8% margin. Stacked. Invisible. Baked into the rate, never the fee line. On a 20K order that's 160 to 460 dollars vanished into spread. Plus your supplier waits 7 to 10 days for clearance and SAFE compliance review. WorldFirst sends CNY direct over CIPS or MYbank rails. One conversion. 0.3 to 0.5% all-in. 80% land same-day. Search WorldFirst.",
+        "diff_markup": "Here's the part most business owners miss about paying suppliers in USD. The USD price on the PI is not locked in. You see 20,000 USD and think that's the cost. Wrong. Two conversions happen. Your bank converts your local currency to USD at their card rate, not the rate on Google. That's 0.5 to 1.5% margin you never see. Then the wire lands in your supplier's Chinese bank. Chinese accounts hold CNY, not USD. So the receiving bank converts USD to CNY at their card rate. Another 0.3 to 0.8% margin. Stacked. Invisible. Baked into the rate, never the fee line. On a 20K order that's 160 to 460 dollars vanished into spread. Plus your supplier waits 7 to 10 days for clearance and SAFE compliance review. <del>Stop. </del>WorldFirst sends CNY direct over CIPS or MYbank rails. One conversion. 0.3 to 0.5% all-in. 80% land same-day. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you pay Chinese suppliers in USD, you need to hear this. You think you're paying one cost. You're paying four. One. Your bank's USD conversion margin, 0.5 to 1.5%, hidden in the rate. Two. Your supplier's bank CNY conversion margin, 0.3 to 0.8%, hidden in their rate. Three. Their 7 to 10 day wait for the USD to clear, which costs them cash flow. Four. The 2 to 5% padding they bake into the next USD quote to cover that wait. Add it up on a 20,000 dollar order. 460 dollars in spread. 700 dollars in next-quote padding. 1,160 dollars on one purchase order. And the USD price never even moved on paper. Real talk. The dollar feels safer because it's the currency you think in. It is not the cheapest currency to send to China. WorldFirst pays your supplier in CNY directly. One conversion at 0.3 to 0.5%. Same supplier. Same bank account. Half the cost. Search WorldFirst. Period.",
+        "iterated_vo": "If you pay Chinese suppliers in USD, you need to hear this. You think you're paying one cost. You're paying four. One. Your bank's USD conversion margin, 0.5 to 1.5%, hidden in the rate. Two. Your supplier's bank CNY conversion margin, 0.3 to 0.8%, hidden in their rate. Three. Their 7 to 10 day wait for the USD to clear, which costs them cash flow. Four. The 2 to 5% padding they bake into the next USD quote to cover that wait. Add it up on a 20,000 dollar order. 460 dollars in spread. 700 dollars in next-quote padding. 1,160 dollars on one purchase order. And the USD price never even moved on paper. The dollar feels safer because it's the currency you think in. It is not the cheapest currency to send to China. WorldFirst pays your supplier in CNY directly. One conversion at 0.3 to 0.5%. Same supplier. Same bank account. Half the cost. Search WorldFirst.",
+        "diff_markup": "If you pay Chinese suppliers in USD, you need to hear this. You think you're paying one cost. You're paying four. One. Your bank's USD conversion margin, 0.5 to 1.5%, hidden in the rate. Two. Your supplier's bank CNY conversion margin, 0.3 to 0.8%, hidden in their rate. Three. Their 7 to 10 day wait for the USD to clear, which costs them cash flow. Four. The 2 to 5% padding they bake into the next USD quote to cover that wait. Add it up on a 20,000 dollar order. 460 dollars in spread. 700 dollars in next-quote padding. 1,160 dollars on one purchase order. And the USD price never even moved on paper. <del>Real talk. </del>The dollar feels safer because it's the currency you think in. It is not the cheapest currency to send to China. WorldFirst pays your supplier in CNY directly. One conversion at 0.3 to 0.5%. Same supplier. Same bank account. Half the cost. Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying Chinese suppliers in USD. You think USD is safer. It costs you 2% more. Every wire. Here's why. Two conversions stacked. Your bank, USD on the way out, 1% margin. Their bank, CNY on the way in, 0.5% margin. On a 20,000 dollar order that's 300 dollars gone. Quietly. Inside the rate. No fee line. Then your supplier waits a week for the USD to clear. Next quote, they pad it 2 to 5% to cover the wait. You just paid extra twice for the same order. Listen. WorldFirst sends CNY direct. One conversion. 0.3 to 0.5% total. Same supplier bank account. Same payment. Half the cost. The dollar isn't safer when you're sending it to a country that doesn't use it. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying Chinese suppliers in USD. You think USD is safer. It costs you 2% more. Every wire. Here's why. Two conversions stacked. Your bank, USD on the way out, 1% margin. Their bank, CNY on the way in, 0.5% margin. On a 20,000 dollar order that's 300 dollars gone. Quietly. Inside the rate. No fee line. Then your supplier waits a week for the USD to clear. Next quote, they pad it 2 to 5% to cover the wait. You just paid extra twice for the same order. WorldFirst sends CNY direct. One conversion. 0.3 to 0.5% total. Same supplier bank account. Same payment. Half the cost. The dollar isn't safer when you're sending it to a country that doesn't use it. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying Chinese suppliers in USD. You think USD is safer. It costs you 2% more. Every wire. Here's why. Two conversions stacked. Your bank, USD on the way out, 1% margin. Their bank, CNY on the way in, 0.5% margin. On a 20,000 dollar order that's 300 dollars gone. Quietly. Inside the rate. No fee line. Then your supplier waits a week for the USD to clear. Next quote, they pad it 2 to 5% to cover the wait. You just paid extra twice for the same order. <del>Listen. </del>WorldFirst sends CNY direct. One conversion. 0.3 to 0.5% total. Same supplier bank account. Same payment. Half the cost. The dollar isn't safer when you're sending it to a country that doesn't use it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. Paying Chinese suppliers in USD is the most expensive habit in your supply chain and nobody talks about it. You wire 20K in USD. Two banks take a slice of the rate. Yours, 1%. Theirs, 0.5%. That's 300 dollars on one order. Now run the math. 12 orders a year. That's 3,600. Two years. 7,200. Five years. 18,000. That's a salary. That's a container. That's product development. And here's what your bank won't tell you. Both margins are buried in the rate. You'll never see a line item. The USD price feels locked in, but it isn't. WorldFirst pays the supplier in CNY directly. One conversion. 0.3 to 0.5% total. Same supplier bank. Same payment. The difference goes back into your business. Period.",
+        "iterated_vo": "Paying Chinese suppliers in USD is the most expensive habit in your supply chain and nobody talks about it. You wire 20K in USD. Two banks take a slice of the rate. Yours, 1%. Theirs, 0.5%. That's 300 dollars on one order. Now run the math. 12 orders a year. That's 3,600. Two years. 7,200. Five years. 18,000. That's a salary. That's a container. That's product development. And here's what your bank won't tell you. Both margins are buried in the rate. You'll never see a line item. The USD price feels locked in, but it isn't. WorldFirst pays the supplier in CNY directly. One conversion. 0.3 to 0.5% total. Same supplier bank. Same payment. The difference goes back into your business.",
+        "diff_markup": "<del>I'll say it. </del>Paying Chinese suppliers in USD is the most expensive habit in your supply chain and nobody talks about it. You wire 20K in USD. Two banks take a slice of the rate. Yours, 1%. Theirs, 0.5%. That's 300 dollars on one order. Now run the math. 12 orders a year. That's 3,600. Two years. 7,200. Five years. 18,000. That's a salary. That's a container. That's product development. And here's what your bank won't tell you. Both margins are buried in the rate. You'll never see a line item. The USD price feels locked in, but it isn't. WorldFirst pays the supplier in CNY directly. One conversion. 0.3 to 0.5% total. Same supplier bank. Same payment. The difference goes back into your business<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using USD / right-currency reframe",
+        "original_vo": "Stop sending USD to Chinese suppliers. I'm serious. USD is a tool. It's the wrong tool for paying a country that runs on CNY. You wouldn't pay a Vietnam factory in baht. So why are you paying a Shenzhen factory in dollars? Here's what happens. Your bank converts your local currency to USD, 1% margin. Their bank converts USD to CNY, 0.5% margin. Two conversions on one payment. 300 dollars gone on a 20K order. Plus a 7 to 10 day wait for clearance. Plus a padded quote next time. WorldFirst is built for this. Pays the supplier in CNY directly over CIPS or MYbank rails. One conversion. 0.3 to 0.5%. Same bank account they already use. Use the currency the country uses. Your margin depends on it. Search WorldFirst. Now.",
+        "iterated_vo": "Sending USD to Chinese suppliers is the wrong default. USD is a tool. It's the wrong tool for paying a country that runs on CNY. You wouldn't pay a Vietnam factory in baht. So why are you paying a Shenzhen factory in dollars? Here's what happens. Your bank converts your local currency to USD, 1% margin. Their bank converts USD to CNY, 0.5% margin. Two conversions on one payment. 300 dollars gone on a 20K order. Plus a 7 to 10 day wait for clearance. Plus a padded quote next time. WorldFirst is built for this. Pays the supplier in CNY directly over CIPS or MYbank rails. One conversion. 0.3 to 0.5%. Same bank account they already use. Use the currency the country uses. Your margin depends on it. Search WorldFirst.",
+        "diff_markup": "<del>Stop sending USD to Chinese suppliers. I'm serious</del><ins>Sending USD to Chinese suppliers is the wrong default</ins>. USD is a tool. It's the wrong tool for paying a country that runs on CNY. You wouldn't pay a Vietnam factory in baht. So why are you paying a Shenzhen factory in dollars? Here's what happens. Your bank converts your local currency to USD, 1% margin. Their bank converts USD to CNY, 0.5% margin. Two conversions on one payment. 300 dollars gone on a 20K order. Plus a 7 to 10 day wait for clearance. Plus a padded quote next time. WorldFirst is built for this. Pays the supplier in CNY directly over CIPS or MYbank rails. One conversion. 0.3 to 0.5%. Same bank account they already use. Use the currency the country uses. Your margin depends on it. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about paying suppliers in USD. The dollar doesn't protect you. It just hides where the money goes. Your bank quotes USD. You think the price is locked. It isn't. They convert your local currency at their card rate, 1% margin. The USD lands at your supplier's Chinese bank. Chinese accounts hold CNY, not USD. So the receiving bank converts again, 0.5% margin. Two banks. Two spreads. Both invisible. On a 20K order, 300 dollars vanishes inside the rate. Then your supplier waits 7 to 10 days for the USD to clear, takes the currency risk, and pads the next quote to cover both. This is how it works on every USD wire to China. WorldFirst pays in CNY directly. One conversion. 0.3 to 0.5%. The rate you see is the rate the supplier gets. That's the difference. Period.",
+        "iterated_vo": "Here's something nobody's telling you about paying suppliers in USD. The dollar doesn't protect you. It just hides where the money goes. Your bank quotes USD. You think the price is locked. It isn't. They convert your local currency at their card rate, 1% margin. The USD lands at your supplier's Chinese bank. Chinese accounts hold CNY, not USD. So the receiving bank converts again, 0.5% margin. Two banks. Two spreads. Both invisible. On a 20K order, 300 dollars vanishes inside the rate. Then your supplier waits 7 to 10 days for the USD to clear, takes the currency risk, and pads the next quote to cover both. This is how it works on every USD wire to China. WorldFirst pays in CNY directly. One conversion. 0.3 to 0.5%. The rate you see is the rate the supplier gets. That's the difference.",
+        "diff_markup": "Here's <del>the truth</del><ins>something</ins> nobody's telling you about paying suppliers in USD. The dollar doesn't protect you. It just hides where the money goes. Your bank quotes USD. You think the price is locked. It isn't. They convert your local currency at their card rate, 1% margin. The USD lands at your supplier's Chinese bank. Chinese accounts hold CNY, not USD. So the receiving bank converts again, 0.5% margin. Two banks. Two spreads. Both invisible. On a 20K order, 300 dollars vanishes inside the rate. Then your supplier waits 7 to 10 days for the USD to clear, takes the currency risk, and pads the next quote to cover both. This is how it works on every USD wire to China. WorldFirst pays in CNY directly. One conversion. 0.3 to 0.5%. The rate you see is the rate the supplier gets. That's the difference<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner who quotes in USD because it feels professional. The dollar feels safer. It costs you 2% more. Every single order. You wire 20K USD to your Shenzhen factory. Your bank takes 1% on the conversion out. Their bank takes 0.5% on the conversion in. That's 300 dollars gone before the goods touch a container. Then your supplier waits a week for SAFE compliance. They take the currency risk while it sits. They pad the next quote 2 to 5% to cover the wait. You're paying for safety that exists in your head, not in your books. I see this every week. Every single week. Stop. WorldFirst pays the supplier in CNY directly. Same bank account. Same supplier. One conversion at 0.3 to 0.5%. Half the cost. Same-day in 80% of cases. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner who quotes in USD because it feels professional. The dollar feels safer. It costs you 2% more. Every single order. You wire 20K USD to your Shenzhen factory. Your bank takes 1% on the conversion out. Their bank takes 0.5% on the conversion in. That's 300 dollars gone before the goods touch a container. Then your supplier waits a week for SAFE compliance. They take the currency risk while it sits. They pad the next quote 2 to 5% to cover the wait. You're paying for safety that exists in your head, not in your books. This happens every week. Every single week. WorldFirst pays the supplier in CNY directly. Same bank account. Same supplier. One conversion at 0.3 to 0.5%. Half the cost. Same-day in 80% of cases. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner who quotes in USD because it feels professional. The dollar feels safer. It costs you 2% more. Every single order. You wire 20K USD to your Shenzhen factory. Your bank takes 1% on the conversion out. Their bank takes 0.5% on the conversion in. That's 300 dollars gone before the goods touch a container. Then your supplier waits a week for SAFE compliance. They take the currency risk while it sits. They pad the next quote 2 to 5% to cover the wait. You're paying for safety that exists in your head, not in your books. <del>I see this</del><ins>This happens</ins> every week. Every single week. <del>Stop. </del>WorldFirst pays the supplier in CNY directly. Same bank account. Same supplier. One conversion at 0.3 to 0.5%. Half the cost. Same-day in 80% of cases. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (two stacked FX margins on USD wire to China, supplier wait, padded next quote) is grounded in the card findings. The 0.5 to 1.5% sender-side and 0.3 to 0.8% receiver-side margins are typical-case ranges, defensible. The 'next quote padded 2 to 5%' is a real industry pattern but presented as universal when it's situational. 'Half the cost' is roughly accurate against the 0.8-2.3% USD stack vs 0.3-0.5% CNY route, but supplier-side bank fees on CNY receipt can still apply in edge cases. WorldFirst CNY-direct claim aligns with CIPS/MYbank rails described in findings.",
+      "skeptic_comments": [
+        {"text": "Where got 2%? My Maybank quote not so off lah.", "severity": "high"},
+        {"text": "My supplier always quote in USD only. Never offer CNY price.", "severity": "high"},
+        {"text": "Who is WorldFirst? Never hear before. Got MAS license?", "severity": "high"},
+        {"text": "Sounds like ad", "severity": "mid"},
+        {"text": "How they get same-day to china? Public holiday how?", "severity": "low"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "Medium",
+      "analysis": "Compounding math (460 per order x 12 = 5,500/yr) is internally consistent with the per-order figure. Assumes constant order size and frequency, which is a model not a fact. The hire/container/school-fees framing is rhetorical, not load-bearing. The 1.5% sender + 0.8% receiver high-end is real but cherry-picked at the upper bound. WorldFirst CNY-direct cost claim (60-100 on 20K at 0.3-0.5%) aligns with findings.",
+      "skeptic_comments": [
+        {"text": "460 sounds inflated. My BCA rate not that bad.", "severity": "high"},
+        {"text": "12 orders a year very different from my volume. I do 4.", "severity": "mid"},
+        {"text": "Container? bro it's a tiktok not a sales call", "severity": "mid"},
+        {"text": "But what if cny rate moves against me? Usd more predictable for me", "severity": "high"},
+        {"text": "Show me a real receipt", "severity": "mid"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "Accusation framing ('protects your bank, not you') is sharp but defensible because the bank is the structural beneficiary of FX margin. Two-conversion mechanism and the 2-5% padded-next-quote are both in findings. 'You just paid extra twice' is a fair summary. Risk: 'familiar, not cheaper, not faster' is accurate but USD is sometimes faster in practice for SEA banks without strong CNY rails, so 'not faster' is situational.",
+      "skeptic_comments": [
+        {"text": "Familiar IS protection when supplier disputes. Try arguing in CNY.", "severity": "high"},
+        {"text": "ok but invoice in usd is industry standard, can't just switch", "severity": "high"},
+        {"text": "this is one of those finance influencer ads right", "severity": "mid"},
+        {"text": "My accountant only knows usd. CNY books become a mess.", "severity": "mid"},
+        {"text": "0.3% sounds too good. What's the catch?", "severity": "mid"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Most mechanism-tight script in the pack. Card-rate vs Google-rate framing is accurate. SAFE compliance review on inbound USD to Chinese accounts is real. CIPS/MYbank claim with 80% same-day matches findings exactly. 'Half the cost' is defensible. Main minor stretch: '7 to 10 day wait' is the upper-bound supplier-side delay; many wires clear in 3 to 5 days in practice. Not a fact issue, just a typical-case framing presented as norm.",
+      "skeptic_comments": [
+        {"text": "SAFE review 7-10 days? My supplier never mentioned this delay.", "severity": "high"},
+        {"text": "CIPS MYbank what? sounds technical, just tell me what to do", "severity": "mid"},
+        {"text": "Got rate comparison vs Wise? Why WorldFirst?", "severity": "high"},
+        {"text": "How big is the company? Singapore got branch?", "severity": "mid"},
+        {"text": "Bookmark, will check later", "severity": "low"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Four-cost stack (sender margin, receiver margin, supplier wait, padded quote) is grounded in findings. Math (460 spread + 700 padding = 1,160 on 20K) is the upper bound, presented confidently. The 700 padding figure assumes 3.5% next-quote padding, which is the midpoint of 2-5% range. Defensible but additive presentation makes it feel guaranteed when 3 and 4 are next-order effects, not same-order. Closing claim 'half the cost' aligns with findings.",
+      "skeptic_comments": [
+        {"text": "1,160 on 20K is 5.8% — that's insane. Real number?", "severity": "high"},
+        {"text": "padding 700? my supplier doesn't pad like that", "severity": "high"},
+        {"text": "Four costs is alot to remember. tldr?", "severity": "mid"},
+        {"text": "Currency I think in matters for tax reporting btw", "severity": "mid"},
+        {"text": "Sounds plausible but I'm scrolling past, will think tmr", "severity": "low"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Low",
+      "analysis": "Most balanced script — uses mid-range numbers (1% + 0.5% = 1.5% stack on 20K = 300 dollars) which is closer to real-world average than upper-bound figures. Two-conversion + padded-quote mechanism is grounded. 'Dollar isn't safer when sending to a country that doesn't use it' is a clean reframe, defensible. WorldFirst CNY-direct claim aligns.",
+      "skeptic_comments": [
+        {"text": "300 on 20K — sounds about right actually", "severity": "low"},
+        {"text": "But china DOES accept usd, all my supplier quote in usd", "severity": "high"},
+        {"text": "WorldFirst safe ah? small company?", "severity": "high"},
+        {"text": "What about Wise? Same thing right?", "severity": "mid"},
+        {"text": "Save first will read later", "severity": "low"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "Compound math (300 x 12 = 3,600/yr, 18K over 5 years) is mathematically clean. Underlying assumption that volume and order size stay constant for 5 years is a model. 'USD price feels locked in but it isn't' references the PI-vs-settlement gap from findings. 'Most expensive habit' is rhetorical, defensible at scale.",
+      "skeptic_comments": [
+        {"text": "5 years of same volume is fantasy lah, business changes", "severity": "high"},
+        {"text": "Salary or container is just guilt trip", "severity": "mid"},
+        {"text": "Locked in not? Tell me more about that part", "severity": "low"},
+        {"text": "Does WorldFirst quote a forward rate? My CFO will ask.", "severity": "mid"},
+        {"text": "Why no one big brand uses this then?", "severity": "high"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "Vietnam-baht analogy is a strong rhetorical move but technically imperfect because Vietnam factories can and sometimes do accept USD as a stable peg currency, so the parallel isn't perfectly clean. Mechanism numbers (1% + 0.5%, 300 on 20K) are mid-range and defensible. CIPS/MYbank claim and same-bank-account-they-already-use are in findings. 'Wrong tool' framing is sharp.",
+      "skeptic_comments": [
+        {"text": "Vietnam factories do take USD actually, weak analogy", "severity": "high"},
+        {"text": "switching currency in PI means renegotiating contract. Not simple", "severity": "high"},
+        {"text": "Same bank account? You sure? My supplier got cny only account meh", "severity": "mid"},
+        {"text": "Sounds like an ad", "severity": "mid"},
+        {"text": "300 saved one time is not worth changing my whole workflow", "severity": "mid"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "Low",
+      "analysis": "Cleanest mechanism explanation in the GV pack. Card-rate, two conversions, supplier currency risk, padded next quote — all in findings. 'Rate you see is the rate the supplier gets' is roughly accurate for CNY-direct (still has 0.3-0.5% margin, but it's transparent). Risk: 'doesn't protect you, just hides where the money goes' is opinion presented as truth, fine for the GV voice.",
+      "skeptic_comments": [
+        {"text": "Card rate vs spot rate — ok this explains a lot", "severity": "low"},
+        {"text": "But cny price will move on me, who absorbs that risk now?", "severity": "high"},
+        {"text": "Receiving bank really convert again? Thought usd account also got", "severity": "mid"},
+        {"text": "What is the catch with WorldFirst seriously", "severity": "high"},
+        {"text": "Tagging my partner to watch", "severity": "low"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "'Safety that exists in your head, not in your books' is the sharpest reframe in the pack. Mechanism numbers (1% + 0.5%, 300 on 20K) are mid-range. SAFE compliance and currency-risk-while-it-sits are in findings. 'Same-day in 80% of cases' is verbatim from the card findings. Main risk: 'every week, every single week' is anecdotal escalation, not a fact, but it reads as voice rather than data so the red flag stays low-mid.",
+      "skeptic_comments": [
+        {"text": "Quote in usd is what my buyer wants. Not just supplier side.", "severity": "high"},
+        {"text": "80% same day — what about the other 20%?", "severity": "mid"},
+        {"text": "Currency risk shift to me — that's a real concern", "severity": "high"},
+        {"text": "Save", "severity": "low"},
+        {"text": "Need to check with my accountant first", "severity": "low"}
+      ]
+    }
+  }
+}

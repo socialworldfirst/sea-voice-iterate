@@ -1,0 +1,197 @@
+{
+  "angle_id": "P1-A4-2",
+  "title": "Why your wire arrived 3 days late and short $150",
+  "card_id": "P1-A4",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "id": "PH1",
+        "subtitle": "Classic PAS opener",
+        "original_vo": "Listen. If you're a business owner wiring money to Chinese suppliers, your wire is sitting in a queue right now and you don't even know it. Here's the deal. Your bank quoted 2 days. It's day 5. Your supplier is still chasing you. Two things are happening. One. Correspondent banks. A US to China SWIFT wire hops through 1 to 3 of them. Each one takes a full business day to process. Each one shaves 15 to 50 dollars in fees before passing the money on. Two. Compliance review. Chinese banks check the beneficiary name letter for letter. If your wire says Shenzhen ABC Trading but the registered name is Shenzhen ABC Trading Co Ltd, the wire pauses for 3 to 10 days. Sometimes it gets returned. So on a 50K wire your supplier sees 49,850 land a week late. Stop using SWIFT for China. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you're a business owner wiring money to Chinese suppliers, your wire is sitting in a queue right now and you don't even know it. Here's how it works. Your bank quoted 2 days. It's day 5. Your supplier is still chasing you. Two things are happening. One. Correspondent banks. A US to China SWIFT wire hops through 1 to 3 of them. Each one takes a full business day to process. Each one shaves 15 to 50 dollars in fees before passing the money on. Two. Compliance review. Chinese banks check the beneficiary name letter for letter. If your wire says Shenzhen ABC Trading but the registered name is Shenzhen ABC Trading Co Ltd, the wire pauses for 3 to 10 days. Sometimes it gets returned. So on a 50K wire your supplier sees 49,850 land a week late. WorldFirst routes outside the SWIFT chain via CIPS and MYbank rails. Most payments clear same-day to Chinese accounts. Search WorldFirst.",
+        "diff_markup": "<del>Listen. </del>If you're a business owner wiring money to Chinese suppliers, your wire is sitting in a queue right now and you don't even know it. <del>Here's the deal</del><ins>Here's how it works</ins>. Your bank quoted 2 days. It's day 5. Your supplier is still chasing you. Two things are happening. One. Correspondent banks. A US to China SWIFT wire hops through 1 to 3 of them. Each one takes a full business day to process. Each one shaves 15 to 50 dollars in fees before passing the money on. Two. Compliance review. Chinese banks check the beneficiary name letter for letter. If your wire says Shenzhen ABC Trading but the registered name is Shenzhen ABC Trading Co Ltd, the wire pauses for 3 to 10 days. Sometimes it gets returned. So on a 50K wire your supplier sees 49,850 land a week late. <del>Stop using SWIFT for China. Period. </del><ins>WorldFirst routes outside the SWIFT chain via CIPS and MYbank rails. Most payments clear same-day to Chinese accounts. </ins>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH2",
+        "subtitle": "Cold open + compounding math",
+        "original_vo": "Watch this. Your wire to China was supposed to clear in 2 days. It's day 5. Your supplier hasn't seen a dollar and your factory slot is gone. Here's why. Three correspondent banks in the SWIFT chain. Each one takes a business day. That's 3 days right there. Each one shaves 15 to 50 dollars. That's 150 dollars off a 50K wire, invisible, no line item. Now do this twice a month. That's 300 dollars a month. 3,600 a year. Over 5 years your bank's middlemen quietly took 18,000 dollars from your supplier payments and burned 60 days of factory time on top. That's a vacation. That's inventory. That's a hire. WorldFirst skips the SWIFT chain. CIPS rails direct to Chinese accounts. Same-day landing. Full amount. Stop. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Watch this. Your wire to China was supposed to clear in 2 days. It's day 5. Your supplier hasn't seen a dollar and your factory slot is gone. Here's why. Three correspondent banks in the SWIFT chain. Each one takes a business day. That's 3 days right there. Each one shaves 15 to 50 dollars. That's 150 dollars off a 50K wire, invisible, no line item. Now do this twice a month. That's 300 dollars a month. 3,600 a year. Over 5 years your bank's middlemen quietly took 18,000 dollars from your supplier payments and burned 60 days of factory time on top. That's a vacation. That's inventory. That's a hire. WorldFirst skips the SWIFT chain. CIPS rails direct to Chinese accounts. Same-day landing. Full amount. Search WorldFirst.",
+        "diff_markup": "Watch this. Your wire to China was supposed to clear in 2 days. It's day 5. Your supplier hasn't seen a dollar and your factory slot is gone. Here's why. Three correspondent banks in the SWIFT chain. Each one takes a business day. That's 3 days right there. Each one shaves 15 to 50 dollars. That's 150 dollars off a 50K wire, invisible, no line item. Now do this twice a month. That's 300 dollars a month. 3,600 a year. Over 5 years your bank's middlemen quietly took 18,000 dollars from your supplier payments and burned 60 days of factory time on top. That's a vacation. That's inventory. That's a hire. WorldFirst skips the SWIFT chain. CIPS rails direct to Chinese accounts. Same-day landing. Full amount. <del>Stop. Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH3",
+        "subtitle": "Accusation opener",
+        "original_vo": "Your bank lied to you about the 2-day wire and you let them. Here's how. They quoted 2 business days to Shenzhen. They didn't tell you the money goes through 3 correspondent banks first. Each one sits on it for a business day. That's day 2, day 3, day 4 gone before the money even touches a Chinese bank. Then Chinese bank compliance checks the beneficiary name. Yours said Shenzhen ABC Trading. Registered name has Co Ltd on the end. Wire paused for review. Day 5 your supplier finally sees the money. 150 bucks short from correspondent fees. Factory slot already given to someone else. I'll say it. SWIFT is built for banks, not for business owners paying China. WorldFirst uses CIPS and MYbank rails. Direct to Chinese accounts. Most wires same-day. Full amount. Stop pretending SWIFT is your only option. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Your bank quoted you 2 days for the wire and that's not what you got. Here's why. They quoted 2 business days to Shenzhen. They didn't mention the money goes through 3 correspondent banks first. Each one sits on it for a business day. That's day 2, day 3, day 4 gone before the money even touches a Chinese bank. Then Chinese bank compliance checks the beneficiary name. Yours said Shenzhen ABC Trading. Registered name has Co Ltd on the end. Wire paused for review. Day 5 your supplier finally sees the money. 150 bucks short from correspondent fees. Factory slot already given to someone else. SWIFT is built for banks, not for business owners paying China. WorldFirst uses CIPS and MYbank rails. Direct to Chinese accounts. Most wires same-day. Full amount. Search WorldFirst.",
+        "diff_markup": "Your bank <del>lied to you about the 2-day wire and you let them</del><ins>quoted you 2 days for the wire and that's not what you got</ins>. <del>Here's how</del><ins>Here's why</ins>. They quoted 2 business days to Shenzhen. They didn't <del>tell you</del><ins>mention</ins> the money goes through 3 correspondent banks first. Each one sits on it for a business day. That's day 2, day 3, day 4 gone before the money even touches a Chinese bank. Then Chinese bank compliance checks the beneficiary name. Yours said Shenzhen ABC Trading. Registered name has Co Ltd on the end. Wire paused for review. Day 5 your supplier finally sees the money. 150 bucks short from correspondent fees. Factory slot already given to someone else. <del>I'll say it. </del>SWIFT is built for banks, not for business owners paying China. WorldFirst uses CIPS and MYbank rails. Direct to Chinese accounts. Most wires same-day. Full amount. <del>Stop pretending SWIFT is your only option. Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH4",
+        "subtitle": "Mechanism-first reveal",
+        "original_vo": "Here's the part most business owners never see when they wire money to China. SWIFT is not a bank. It's a messaging network. The actual money moves through correspondent banks in the middle, real banks, real people, real processing time. A US to China wire usually hops through 1 to 3 of them. Each hop is a business day. Each hop deducts 15 to 50 dollars from the amount in flight. Nobody tells you. The receipt shows what you sent. The supplier sees what landed. The gap goes to banks in the middle. Then Chinese bank compliance reviews the beneficiary name against the company registration. If anything is off by a single character, the wire pauses for days. So on a 50K wire your supplier gets 49,850, three days late. Stop. WorldFirst routes through CIPS and MYbank rails, no SWIFT correspondent chain. Direct to the Chinese bank account. Same-day on most wires. Full amount. Period. Search WorldFirst. Period.",
+        "iterated_vo": "Here's the part most business owners never see when they wire money to China. SWIFT is not a bank. It's a messaging network. The actual money moves through correspondent banks in the middle, real banks, real people, real processing time. A US to China wire usually hops through 1 to 3 of them. Each hop is a business day. Each hop deducts 15 to 50 dollars from the amount in flight. Nobody tells you. The receipt shows what you sent. The supplier sees what landed. The gap goes to banks in the middle. Then Chinese bank compliance reviews the beneficiary name against the company registration. If anything is off by a single character, the wire pauses for days. So on a 50K wire your supplier gets 49,850, three days late. WorldFirst routes through CIPS and MYbank rails, no SWIFT correspondent chain. Direct to the Chinese bank account. Same-day on most wires. Full amount. Search WorldFirst.",
+        "diff_markup": "Here's the part most business owners never see when they wire money to China. SWIFT is not a bank. It's a messaging network. The actual money moves through correspondent banks in the middle, real banks, real people, real processing time. A US to China wire usually hops through 1 to 3 of them. Each hop is a business day. Each hop deducts 15 to 50 dollars from the amount in flight. Nobody tells you. The receipt shows what you sent. The supplier sees what landed. The gap goes to banks in the middle. Then Chinese bank compliance reviews the beneficiary name against the company registration. If anything is off by a single character, the wire pauses for days. So on a 50K wire your supplier gets 49,850, three days late. <del>Stop. </del>WorldFirst routes through CIPS and MYbank rails, no SWIFT correspondent chain. Direct to the Chinese bank account. Same-day on most wires. Full amount. <del>Period. </del>Search WorldFirst<del>. Period</del>."
+      },
+      {
+        "id": "PH5",
+        "subtitle": "Direct address + problem stack",
+        "original_vo": "If you wire money to China, listen. Real talk. Last week you sent 50K to a Shenzhen supplier. Four things went wrong and you only blamed one of them. One. The wire took 5 days instead of 2. You blamed your bank. Two. The amount landed 150 short. You blamed your supplier for miscounting. Three. The factory pushed back your production date 5 days. You blamed shipping. Four. Your customer asked why their delivery slipped. You blamed customs. All four trace back to one thing. SWIFT correspondent banks. 3 hops, 3 days, 150 dollars in fees deducted invisibly. Then compliance review because the beneficiary name had Trading instead of Trading Co Ltd. Stop using SWIFT for China. WorldFirst uses CIPS and MYbank rails. No middlemen. Same-day to Chinese accounts. Full amount. If you're a business owner paying China, you need WorldFirst. Period. Search WorldFirst. Period.",
+        "iterated_vo": "If you wire money to China, this is worth knowing. Last week you sent 50K to a Shenzhen supplier. Four things went wrong and you only blamed one of them. One. The wire took 5 days instead of 2. You blamed your bank. Two. The amount landed 150 short. You blamed your supplier for miscounting. Three. The factory pushed back your production date 5 days. You blamed shipping. Four. Your customer asked why their delivery slipped. You blamed customs. All four trace back to one thing. SWIFT correspondent banks. 3 hops, 3 days, 150 dollars in fees deducted invisibly. Then compliance review because the beneficiary name had Trading instead of Trading Co Ltd. WorldFirst uses CIPS and MYbank rails. No middlemen. Same-day to Chinese accounts. Full amount. If you're a business owner paying China, WorldFirst is worth a look. Search WorldFirst.",
+        "diff_markup": "If you wire money to China, <del>listen. Real talk</del><ins>this is worth knowing</ins>. Last week you sent 50K to a Shenzhen supplier. Four things went wrong and you only blamed one of them. One. The wire took 5 days instead of 2. You blamed your bank. Two. The amount landed 150 short. You blamed your supplier for miscounting. Three. The factory pushed back your production date 5 days. You blamed shipping. Four. Your customer asked why their delivery slipped. You blamed customs. All four trace back to one thing. SWIFT correspondent banks. 3 hops, 3 days, 150 dollars in fees deducted invisibly. Then compliance review because the beneficiary name had Trading instead of Trading Co Ltd. <del>Stop using SWIFT for China. </del>WorldFirst uses CIPS and MYbank rails. No middlemen. Same-day to Chinese accounts. Full amount. If you're a business owner paying China, <del>you need WorldFirst. Period. </del><ins>WorldFirst is worth a look. </ins>Search WorldFirst<del>. Period</del>."
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "id": "PG1",
+        "subtitle": "Classic Stop / Real-talk opener",
+        "original_vo": "Stop. Real talk for every business owner paying suppliers in China. Your wire was quoted 2 days. It's day 5. Your supplier is chasing you. Here's why. Three correspondent banks in the SWIFT chain. Each one is a full business day. Each one shaves 15 to 50 dollars. On a 50K wire your supplier sees 49,850 land 3 days late. And it's not over. Chinese bank compliance also reviews the beneficiary name. Miss the Co Ltd on the end and your wire pauses another week. Listen. WorldFirst doesn't use SWIFT correspondent banks for China. CIPS and MYbank rails. Direct to the Chinese account. Most wires clear same-day. Full amount lands. Stop letting SWIFT eat your supplier relationships. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner paying suppliers in China. Your wire was quoted 2 days. It's day 5. Your supplier is chasing you. Here's why. Three correspondent banks in the SWIFT chain. Each one is a full business day. Each one shaves 15 to 50 dollars. On a 50K wire your supplier sees 49,850 land 3 days late. And it's not over. Chinese bank compliance also reviews the beneficiary name. Miss the Co Ltd on the end and your wire pauses another week. WorldFirst doesn't use SWIFT correspondent banks for China. CIPS and MYbank rails. Direct to the Chinese account. Most wires clear same-day. Full amount lands. Worth knowing if SWIFT delays are costing you supplier trust. Search WorldFirst.",
+        "diff_markup": "<del>Stop. Real talk for every</del><ins>For every</ins> business owner paying suppliers in China. Your wire was quoted 2 days. It's day 5. Your supplier is chasing you. Here's why. Three correspondent banks in the SWIFT chain. Each one is a full business day. Each one shaves 15 to 50 dollars. On a 50K wire your supplier sees 49,850 land 3 days late. And it's not over. Chinese bank compliance also reviews the beneficiary name. Miss the Co Ltd on the end and your wire pauses another week. <del>Listen. </del>WorldFirst doesn't use SWIFT correspondent banks for China. CIPS and MYbank rails. Direct to the Chinese account. Most wires clear same-day. Full amount lands. <del>Stop letting SWIFT eat your supplier relationships</del><ins>Worth knowing if SWIFT delays are costing you supplier trust</ins>. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG2",
+        "subtitle": "I'll say it opinion-as-truth + compound math",
+        "original_vo": "I'll say it. SWIFT was built for banks talking to each other, not for business owners paying Chinese factories. Your wire goes through 3 correspondent banks. 3 business days. 150 dollars deducted invisibly. Now stack it. 24 wires a year. That's 72 days of delay across the year and 3,600 dollars eaten by middlemen. Across 5 years. 18,000 dollars. A full quarter of factory time lost in transit. And here's the kicker. Half of China-bound wires also get held at compliance because the beneficiary name has a missing Co Ltd or wrong character. Another week of delay. Another supplier waiting. WorldFirst uses CIPS and MYbank rails. No correspondent chain. Same-day to Chinese accounts. Period.",
+        "iterated_vo": "SWIFT was built for banks talking to each other, not for business owners paying Chinese factories. Your wire goes through 3 correspondent banks. 3 business days. 150 dollars deducted invisibly. Now stack it. 24 wires a year. That's 72 days of delay across the year and 3,600 dollars eaten by middlemen. Across 5 years. 18,000 dollars. A full quarter of factory time lost in transit. And here's the part most business owners miss. Half of China-bound wires also get held at compliance because the beneficiary name has a missing Co Ltd or wrong character. Another week of delay. Another supplier waiting. WorldFirst uses CIPS and MYbank rails. No correspondent chain. Same-day to Chinese accounts.",
+        "diff_markup": "<del>I'll say it. </del>SWIFT was built for banks talking to each other, not for business owners paying Chinese factories. Your wire goes through 3 correspondent banks. 3 business days. 150 dollars deducted invisibly. Now stack it. 24 wires a year. That's 72 days of delay across the year and 3,600 dollars eaten by middlemen. Across 5 years. 18,000 dollars. A full quarter of factory time lost in transit. And here's the <del>kicker</del><ins>part most business owners miss</ins>. Half of China-bound wires also get held at compliance because the beneficiary name has a missing Co Ltd or wrong character. Another week of delay. Another supplier waiting. WorldFirst uses CIPS and MYbank rails. No correspondent chain. Same-day to Chinese accounts<del>. Period</del>."
+      },
+      {
+        "id": "PG3",
+        "subtitle": "Stop using SWIFT / right-tool reframe",
+        "original_vo": "Stop using SWIFT to pay Chinese suppliers. I'm serious. SWIFT is a tool. It's the wrong tool for this job. You wouldn't fax a contract in 2026. So why are you running your supplier payments on a network designed in 1973? Here's what happens. You wire 50K. Three correspondent banks. Three business days lost. 150 dollars deducted invisibly. Then Chinese bank compliance pauses your wire because the beneficiary name was Trading instead of Trading Co Ltd. Day 7 your supplier sees the money. Day 8 production starts. Your customer already cancelled. WorldFirst is built for this job. CIPS and MYbank rails. Direct to the Chinese account. Same-day. Full amount. Use the right tool. Search WorldFirst. Now.",
+        "iterated_vo": "SWIFT is not the right tool for paying Chinese suppliers. SWIFT is a tool. It's the wrong tool for this job. You wouldn't fax a contract in 2026. So why are you running your supplier payments on a network designed in 1973? Here's what happens. You wire 50K. Three correspondent banks. Three business days lost. 150 dollars deducted invisibly. Then Chinese bank compliance pauses your wire because the beneficiary name was Trading instead of Trading Co Ltd. Day 7 your supplier sees the money. Day 8 production starts. Your customer already cancelled. WorldFirst is built for this job. CIPS and MYbank rails. Direct to the Chinese account. Same-day. Full amount. Use the right tool. Search WorldFirst.",
+        "diff_markup": "<del>Stop using SWIFT to pay Chinese suppliers. I'm serious</del><ins>SWIFT is not the right tool for paying Chinese suppliers</ins>. SWIFT is a tool. It's the wrong tool for this job. You wouldn't fax a contract in 2026. So why are you running your supplier payments on a network designed in 1973? Here's what happens. You wire 50K. Three correspondent banks. Three business days lost. 150 dollars deducted invisibly. Then Chinese bank compliance pauses your wire because the beneficiary name was Trading instead of Trading Co Ltd. Day 7 your supplier sees the money. Day 8 production starts. Your customer already cancelled. WorldFirst is built for this job. CIPS and MYbank rails. Direct to the Chinese account. Same-day. Full amount. Use the right tool. Search WorldFirst<del>. Now</del>."
+      },
+      {
+        "id": "PG4",
+        "subtitle": "Truth nobody's telling you / conspiratorial",
+        "original_vo": "Here's the truth nobody's telling you about wires to China. The 2-day quote is a fiction. SWIFT isn't a network that moves money. It's just a messaging system that tells banks to move money. Real banks in the middle do the actual work. 1 to 3 of them on every US to China wire. Each one takes a day. Each one quietly takes 15 to 50 dollars off the top before passing it on. You'll never see those fees on a statement because they're not your bank's fees. They're the middlemen's. And the SHA setting your bank picks by default means your supplier eats every one of those deductions. WorldFirst doesn't play this game. CIPS rails. Same-day to Chinese accounts. The amount you send is the amount they receive. Period.",
+        "iterated_vo": "Here's something most business owners don't know about wires to China. The 2-day quote is optimistic. SWIFT isn't a network that moves money. It's a messaging system that tells banks to move money. Real banks in the middle do the actual work. 1 to 3 of them on every US to China wire. Each one takes a day. Each one quietly takes 15 to 50 dollars off the top before passing it on. You'll never see those fees on a statement because they're not your bank's fees. They're the middlemen's. And the SHA setting your bank picks by default means your supplier covers every one of those deductions. WorldFirst is built differently. CIPS rails. Same-day to Chinese accounts. The amount you send is the amount they receive.",
+        "diff_markup": "Here's <del>the truth nobody's telling you</del><ins>something most business owners don't know</ins> about wires to China. The 2-day quote is <del>a fiction</del><ins>optimistic</ins>. SWIFT isn't a network that moves money. It's <del>just </del>a messaging system that tells banks to move money. Real banks in the middle do the actual work. 1 to 3 of them on every US to China wire. Each one takes a day. Each one quietly takes 15 to 50 dollars off the top before passing it on. You'll never see those fees on a statement because they're not your bank's fees. They're the middlemen's. And the SHA setting your bank picks by default means your supplier <del>eats</del><ins>covers</ins> every one of those deductions. WorldFirst <del>doesn't play this game</del><ins>is built differently</ins>. CIPS rails. Same-day to Chinese accounts. The amount you send is the amount they receive<del>. Period</del>."
+      },
+      {
+        "id": "PG5",
+        "subtitle": "Real talk + escalating personal energy",
+        "original_vo": "Real talk for every business owner sourcing from China. You think your bank moves the money. They don't. They hand it to another bank. That bank hands it to another bank. By the time it reaches Shenzhen, three middlemen each took a day and 50 bucks. You call the bank to chase. They blame the correspondent. The correspondent blames the receiving bank. The receiving bank blames compliance. Compliance says the beneficiary name was missing Co Ltd. Nobody owns it. Meanwhile your supplier is texting you every day at 2am asking where the money is. Your factory slot is gone. Your customer is asking why. I see this every single week. Stop. WorldFirst. CIPS direct to Chinese accounts. Same-day. Full amount. One platform, one accountability line. Search WorldFirst. Now.",
+        "iterated_vo": "For every business owner sourcing from China. You think your bank moves the money. They don't. They hand it to another bank. That bank hands it to another bank. By the time it reaches Shenzhen, three middlemen each took a day and 50 bucks. You call the bank to chase. They blame the correspondent. The correspondent blames the receiving bank. The receiving bank blames compliance. Compliance says the beneficiary name was missing Co Ltd. Nobody owns it. Meanwhile your supplier is texting you every day at 2am asking where the money is. Your factory slot is gone. Your customer is asking why. This happens every single week. WorldFirst. CIPS direct to Chinese accounts. Same-day. Full amount. One platform, one accountability line. Search WorldFirst.",
+        "diff_markup": "<del>Real talk for every</del><ins>For every</ins> business owner sourcing from China. You think your bank moves the money. They don't. They hand it to another bank. That bank hands it to another bank. By the time it reaches Shenzhen, three middlemen each took a day and 50 bucks. You call the bank to chase. They blame the correspondent. The correspondent blames the receiving bank. The receiving bank blames compliance. Compliance says the beneficiary name was missing Co Ltd. Nobody owns it. Meanwhile your supplier is texting you every day at 2am asking where the money is. Your factory slot is gone. Your customer is asking why. <del>I see this</del><ins>This happens</ins> every single week. <del>Stop. </del>WorldFirst. CIPS direct to Chinese accounts. Same-day. Full amount. One platform, one accountability line. Search WorldFirst<del>. Now</del>."
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Medium",
+      "analysis": "Core mechanism (correspondent bank hops adding days, SHA fee deductions, name-mismatch compliance pauses) is accurate and matches industry data. The 49,850 figure is fair given the 15 to 50 dollar per hop range. Main risks: 'most wires same-day' on WorldFirst side is true for MYbank-routed CNY payments but not for all WF flows, and 'sometimes returned' is presented as routine when full returns are the minority case (most pause for review then clear).",
+      "skeptic_comments": [
+        {"text": "3 correspondent banks every time? My Maybank wire to China usually 2 days only.", "severity": "high"},
+        {"text": "Who is WorldFirst? Never heard. Got license in Malaysia?", "severity": "high"},
+        {"text": "CIPS rails what is that, sound very technical.", "severity": "mid"},
+        {"text": "Same day to China? My bank also say same day for SWIFT one.", "severity": "mid"},
+        {"text": "Name mismatch case ok fair, that one I see before.", "severity": "low"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "High",
+      "analysis": "The compounding math (18K over 5 years, 60 days of factory time) is the highest-risk claim. It assumes every wire hits 3 correspondents and 50-dollar full deductions, plus assumes the 'factory time' lost stacks linearly, which it does not. Most SMBs reschedule production once and absorb the delay rather than losing 3 full days per wire. 'A vacation, inventory, a hire' is emotive framing on top of an extrapolation. Skeptics will pick the math apart.",
+      "skeptic_comments": [
+        {"text": "60 days factory time over 5 years? Bro you double counting lah.", "severity": "high"},
+        {"text": "I don't wire 50K twice a month for 5 years straight. Numbers cooked.", "severity": "high"},
+        {"text": "Where the 50 dollar per hop come from? Got source?", "severity": "high"},
+        {"text": "Same day to China sounds too good. Bank also got cutoff time.", "severity": "mid"},
+        {"text": "Vacation hire inventory... feel like ad script.", "severity": "mid"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "'Quoted you 2 days for the wire and that's not what you got' is softer than the original 'lied' framing but still places fault entirely on the bank. The 2-day quote is technically what banks advertise but it's a 'business days, subject to' caveat banks do disclose. 'Full amount' on WF side overstates if CN receiving bank charges apply. The Shenzhen ABC Trading example is illustrative but presented as if it always happens; name-mismatch holds are a real ~5-10% case, not universal.",
+      "skeptic_comments": [
+        {"text": "Bank already say business days plus subject to compliance. Not lying.", "severity": "high"},
+        {"text": "Full amount land? Sure or not? My BOC charge me also.", "severity": "high"},
+        {"text": "Co Ltd missing thing real but not every wire fail this way.", "severity": "mid"},
+        {"text": "WorldFirst how long got? New company I scared.", "severity": "high"},
+        {"text": "Factory slot already given to someone? Bit dramatic la.", "severity": "mid"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Cleanest of the Hormozi set. The SWIFT-is-messaging-not-money distinction is accurate and underappreciated. 1 to 3 correspondent hops with 15-50 dollar deductions matches industry data. Name compliance review framing is honest. 'Same-day on most wires' is correctly hedged with 'most'. Main residual risk is 'no SWIFT correspondent chain' on WF side which is true for CNY via MYbank but not for all WF currency pairs. Most skeptics will accept this teaching.",
+      "skeptic_comments": [
+        {"text": "Ok the SWIFT is just messaging part actually useful. Didn't know that.", "severity": "low"},
+        {"text": "Most wires same day, ok at least you hedge. Better than other ads.", "severity": "low"},
+        {"text": "MYbank rails what level of license they got with PBOC?", "severity": "high"},
+        {"text": "How WorldFirst make money if no chain fees? Margin somewhere right?", "severity": "mid"},
+        {"text": "Got actual rate vs bank screenshot anywhere?", "severity": "mid"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "The four-things-stack is educational and the SWIFT root cause traceback is technically sound. Main red flag is attributing all four downstream consequences (customer delay, factory pushback, etc.) to one wire's delay; in reality factories have buffer slots and customers tolerate some slip. The 'last week you sent 50K to Shenzhen' framing assumes a recent specific incident the viewer hasn't actually had. 'Full amount' on WF side has the same slight overreach issue.",
+      "skeptic_comments": [
+        {"text": "Customer cancel because of one wire delay? My customer not so strict lah.", "severity": "mid"},
+        {"text": "Factory pushback 5 days for 5 day wire delay 1 to 1? Reality not so clean.", "severity": "mid"},
+        {"text": "Where the 150 number come from? Show actual SWIFT receipt.", "severity": "high"},
+        {"text": "WorldFirst Bank Negara approved or not? Got check before I move money.", "severity": "high"},
+        {"text": "Co Ltd thing happen to me once. Annoying but learn already.", "severity": "low"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Medium",
+      "analysis": "Mechanism is solid. The escalation from 'wire late' to 'compliance pauses another week' is technically possible but stacks two worst-case scenarios on the same wire when in practice most wires hit one or neither. 'Most wires clear same-day' is correctly hedged. 'Worth knowing if SWIFT delays are costing you supplier trust' is fair soft CTA. Main residual risk is the assumption SWIFT is universally slow when many EU and SG corridors are faster.",
+      "skeptic_comments": [
+        {"text": "Two things in one wire happen same time? Rare la.", "severity": "mid"},
+        {"text": "My SWIFT to China usually fine, only one time delay.", "severity": "mid"},
+        {"text": "Worth knowing... ok at least not pushy. But still don't know who you are.", "severity": "mid"},
+        {"text": "CIPS what is that, China only right? My bank no CIPS access.", "severity": "high"},
+        {"text": "MYbank means Ant Group right? Got data privacy concern.", "severity": "high"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "High",
+      "analysis": "The 72 days of delay per year is the riskiest claim. It assumes every wire is delayed 3 days and the delays don't overlap or get absorbed by buffer. In reality only ~8-15% of wires have material delay so the real annualized delay is closer to 6-10 days, not 72. 18K over 5 years extrapolation also assumes 24 wires/year at exactly 150 deduction every time. 'No correspondent chain' on WF side is correct for CIPS routing but not universal.",
+      "skeptic_comments": [
+        {"text": "72 days delay a year? You assume every wire late which is BS.", "severity": "high"},
+        {"text": "18K over 5 years, where the math? Show calculator.", "severity": "high"},
+        {"text": "Half of China wires held at compliance? Where data come from?", "severity": "high"},
+        {"text": "Most business owners miss this part... ok fair, I didn't know that part actually.", "severity": "low"},
+        {"text": "Same day to China is the hook but no proof in the post.", "severity": "mid"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Medium",
+      "analysis": "The 'SWIFT designed in 1973' framing is historically accurate (SWIFT founded 1973). 'Right tool for the job' positioning is fair B2B framing. Risk: 'Your customer already cancelled' is escalation that stacks worst-case outcomes. The Trading vs Trading Co Ltd example is real but presented as if it always blocks payment. WF/CIPS positioning is largely accurate but 'same-day, full amount' is a clean ideal that has CN-side caveats.",
+      "skeptic_comments": [
+        {"text": "SWIFT 1973 fair, but they update the system right? Not the same as fax.", "severity": "mid"},
+        {"text": "Customer cancel from one payment delay? You move in tier 1 only is it.", "severity": "high"},
+        {"text": "Use the right tool... ok but who regulate WorldFirst?", "severity": "high"},
+        {"text": "Co Ltd thing real, happen to my friend once.", "severity": "low"},
+        {"text": "How long WorldFirst been around? New name to me.", "severity": "mid"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "Low",
+      "analysis": "Cleanest of the Gary Vee set. The SWIFT-as-messaging vs banks-as-movers distinction is accurate and educational. 1-3 hops, 15-50 dollar deductions, SHA-default framing all match the source findings. 'Optimistic' instead of 'fiction' is softer and defensible. 'The amount you send is the amount they receive' on WF side is slightly overstated because CN receiving bank fees can still apply on some accounts, but the polish version drops 'period' which softens the absolute.",
+      "skeptic_comments": [
+        {"text": "SWIFT just messaging not actual money, that part useful actually.", "severity": "low"},
+        {"text": "SHA default thing is true, my bank never explain to me.", "severity": "low"},
+        {"text": "Amount sent equal amount received? CN bank also charge ah.", "severity": "mid"},
+        {"text": "WorldFirst is built differently... ok how exactly. Tell me the rail.", "severity": "mid"},
+        {"text": "Regulated in MY or only US/UK? Need to check.", "severity": "high"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "The blame-shuffle pattern (bank to correspondent to receiving to compliance) is a very real SMB experience and lands as authentic. 'Supplier texting you every day at 2am' is emotive but plausible for Asia corridor. Main risk: 'one platform, one accountability line' is a structural claim that's mostly true for WF but glosses over the fact that WF still has CN local banking partners who can be a point of failure. 'Factory slot is gone' assumes worst case.",
+      "skeptic_comments": [
+        {"text": "Factory slot gone from one delay? Some maybe lah, most negotiable.", "severity": "mid"},
+        {"text": "2am supplier text feeling real. That part hit.", "severity": "low"},
+        {"text": "One accountability line means what, you guys also got partners right.", "severity": "high"},
+        {"text": "This happens every week, ok then where the testimonial?", "severity": "mid"},
+        {"text": "Got Malaysia regulator approval? I check first before move my money.", "severity": "high"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "angle_id": "P1-A8-1",
+  "title": "The 3-letter code on every China wire (most operators never see it)",
+  "card_id": "P1-A8",
+  "hormozi": {
+    "skill": "Alex Hormozi PAS",
+    "scripts": [
+      {
+        "variant_id": "PH1",
+        "variant_name": "Classic PAS",
+        "original_vo": "There's a three-letter code on every wire you send to China, and your bank picks it for you. It's called field 71A on the SWIFT message, and it has three options. SHA, OUR, or BEN. Almost every bank defaults you to SHA. SHA does not mean shared evenly. It means you pay your bank's send fee, and your supplier eats every single deduction from every intermediary bank in the chain. There are usually one to three intermediaries on a China wire, and each one takes fifteen to fifty dollars straight off the amount before passing it on. So on a fifty thousand dollar wire, your supplier can land short by a hundred and fifty bucks, and you never see why. The fix is one word. OUR. That means the sender pays the whole chain, and the supplier gets the full amount. Costs you maybe thirty more upfront. Saves you the awkward top-up message. Open your last wire confirmation and check what's in that field right now.",
+        "iterated_vo": "There's a three-letter code on every wire you send to China, and your bank picks it for you. It's called field 71A on the SWIFT message, and it has three options. SHA, OUR, or BEN. Almost every bank defaults you to SHA. SHA does not mean shared evenly. It means you pay your bank's send fee, and your supplier eats every single deduction from every intermediary bank in the chain. There are usually one to three intermediaries on a China wire, and each one takes fifteen to fifty dollars straight off the amount before passing it on. So on a fifty thousand dollar wire, your supplier can land short by a hundred and fifty bucks, and you never see why. The fix is one word. OUR. That means the sender pays the whole chain, and the supplier gets the full amount. Costs you maybe thirty more upfront. Saves you the awkward top-up message. Or skip SWIFT entirely and use WorldFirst, which routes CNY direct to your supplier's account with no intermediary chain to deduct from. Search WorldFirst and see the rail.",
+        "diff_markup": "There's a three-letter code on every wire you send to China, and your bank picks it for you. It's called field 71A on the SWIFT message, and it has three options. SHA, OUR, or BEN. Almost every bank defaults you to SHA. SHA does not mean shared evenly. It means you pay your bank's send fee, and your supplier eats every single deduction from every intermediary bank in the chain. There are usually one to three intermediaries on a China wire, and each one takes fifteen to fifty dollars straight off the amount before passing it on. So on a fifty thousand dollar wire, your supplier can land short by a hundred and fifty bucks, and you never see why. The fix is one word. OUR. That means the sender pays the whole chain, and the supplier gets the full amount. Costs you maybe thirty more upfront. Saves you the awkward top-up message. <del>Open your last wire confirmation and check what's in that field right now.</del> <ins>Or skip SWIFT entirely and use WorldFirst, which routes CNY direct to your supplier's account with no intermediary chain to deduct from. Search WorldFirst and see the rail.</ins>"
+      },
+      {
+        "variant_id": "PH2",
+        "variant_name": "Cold open plus compounding",
+        "original_vo": "S H A. Three letters that quietly cost business owners hundreds of dollars per wire. Here's what it actually is. Every wire to China rides on SWIFT, which is just a messaging system between banks. On every SWIFT message there's a field called 71A, and it picks who pays the intermediary banks in the middle of the chain. SHA means shared, but in practice it means your supplier pays. Each intermediary takes fifteen to fifty bucks. A typical US to China wire hits one to three of them. On one wire, that's maybe a hundred and fifty short. On twelve wires a year, you're looking at almost two grand your supplier had to absorb or chase you for. And every chase costs you trust. The good news is you can switch the code. Tell your bank OUR. Sender pays the whole chain. Supplier gets the full amount. Suddenly nobody's negotiating who lost what.",
+        "iterated_vo": "S H A. Three letters that quietly cost business owners hundreds of dollars per wire. Here's what it actually is. Every wire to China rides on SWIFT, which is just a messaging system between banks. On every SWIFT message there's a field called 71A, and it picks who pays the intermediary banks in the middle of the chain. SHA means shared, but in practice it means your supplier pays. Each intermediary takes fifteen to fifty bucks. A typical US to China wire hits one to three of them. On one wire, that's maybe a hundred and fifty short. On twelve wires a year, you're looking at almost two grand your supplier had to absorb or chase you for. And every chase costs you trust. The good news is you can switch the code. Tell your bank OUR. Sender pays the whole chain. Supplier gets the full amount. Or use WorldFirst and bypass the intermediary chain entirely. Search WorldFirst, send CNY direct, no 71A roulette.",
+        "diff_markup": "S H A. Three letters that quietly cost business owners hundreds of dollars per wire. Here's what it actually is. Every wire to China rides on SWIFT, which is just a messaging system between banks. On every SWIFT message there's a field called 71A, and it picks who pays the intermediary banks in the middle of the chain. SHA means shared, but in practice it means your supplier pays. Each intermediary takes fifteen to fifty bucks. A typical US to China wire hits one to three of them. On one wire, that's maybe a hundred and fifty short. On twelve wires a year, you're looking at almost two grand your supplier had to absorb or chase you for. And every chase costs you trust. The good news is you can switch the code. Tell your bank OUR. Sender pays the whole chain. Supplier gets the full amount. <del>Suddenly nobody's negotiating who lost what.</del> <ins>Or use WorldFirst and bypass the intermediary chain entirely. Search WorldFirst, send CNY direct, no 71A roulette.</ins>"
+      },
+      {
+        "variant_id": "PH3",
+        "variant_name": "Accusation",
+        "original_vo": "Your bank set you up. Every wire you've ever sent to China was tagged SHA in field 71A of the SWIFT message, and nobody told you what that meant. SHA means your supplier pays the intermediary banks, not you. Sounds technical. Here's what it actually does. The wire leaves your account, hits one to three correspondent banks on the way to China, and each one quietly takes fifteen to fifty bucks from the amount before passing it forward. By the time it lands, your fifty thousand dollar wire might be forty-nine thousand eight hundred. Your supplier emails. You panic. You wire again. Now you've paid the bank's fee twice. The simple fix your bank didn't tell you. There's an OUR option. Sender pays everything. Supplier gets the whole amount. One word change, problem solved. Your bank doesn't sell it because OUR generates fewer second wires. Less revenue for them.",
+        "iterated_vo": "Your bank set you up. Every wire you've ever sent to China was tagged SHA in field 71A of the SWIFT message, and nobody told you what that meant. SHA means your supplier pays the intermediary banks, not you. Sounds technical. Here's what it actually does. The wire leaves your account, hits one to three correspondent banks on the way to China, and each one quietly takes fifteen to fifty bucks from the amount before passing it forward. By the time it lands, your fifty thousand dollar wire might be forty-nine thousand eight hundred. Your supplier emails. You panic. You wire again. Now you've paid the bank's fee twice. The simple fix your bank didn't tell you. There's an OUR option. Sender pays everything. Supplier gets the whole amount. Or use WorldFirst, which doesn't ride SWIFT at all, sends CNY direct, no intermediaries to bribe. Search WorldFirst and see.",
+        "diff_markup": "Your bank set you up. Every wire you've ever sent to China was tagged SHA in field 71A of the SWIFT message, and nobody told you what that meant. SHA means your supplier pays the intermediary banks, not you. Sounds technical. Here's what it actually does. The wire leaves your account, hits one to three correspondent banks on the way to China, and each one quietly takes fifteen to fifty bucks from the amount before passing it forward. By the time it lands, your fifty thousand dollar wire might be forty-nine thousand eight hundred. Your supplier emails. You panic. You wire again. Now you've paid the bank's fee twice. The simple fix your bank didn't tell you. There's an OUR option. Sender pays everything. Supplier gets the whole amount. <del>One word change, problem solved. Your bank doesn't sell it because OUR generates fewer second wires. Less revenue for them.</del> <ins>Or use WorldFirst, which doesn't ride SWIFT at all, sends CNY direct, no intermediaries to bribe. Search WorldFirst and see.</ins>"
+      },
+      {
+        "variant_id": "PH4",
+        "variant_name": "Mechanism-first",
+        "original_vo": "Here's the mechanism nobody explains. When you send a wire to China, your bank generates a SWIFT message called MT103. Inside that message, there's a field labeled 71A. It accepts three values. SHA, OUR, or BEN. SHA tells the chain you'll pay your sending bank's fee, and the supplier covers every other deduction along the route. OUR tells the chain you pay everything top to bottom. BEN tells the chain the supplier pays the entire bill, including your sending fee. Your bank's system defaults to SHA. That's not a coincidence. SHA generates more frequent top-up requests, which generate more wires, which generate more fees. The mechanism is hidden. The choice is yours. Walk to your bank's wire desk, ask for 71A to be OUR on the next China wire, and watch the shortfall problem disappear. One field. Three letters. Hundreds saved per wire.",
+        "iterated_vo": "Here's the mechanism nobody explains. When you send a wire to China, your bank generates a SWIFT message called MT103. Inside that message, there's a field labeled 71A. It accepts three values. SHA, OUR, or BEN. SHA tells the chain you'll pay your sending bank's fee, and the supplier covers every other deduction along the route. OUR tells the chain you pay everything top to bottom. BEN tells the chain the supplier pays the entire bill, including your sending fee. Your bank's system defaults to SHA. That's not a coincidence. The mechanism is hidden. The choice is yours. Ask your bank for 71A to be OUR on the next China wire. Or skip the whole MT103 game with WorldFirst, which routes CNY direct via local rails with no intermediary chain at all. Search WorldFirst and look at the wire path.",
+        "diff_markup": "Here's the mechanism nobody explains. When you send a wire to China, your bank generates a SWIFT message called MT103. Inside that message, there's a field labeled 71A. It accepts three values. SHA, OUR, or BEN. SHA tells the chain you'll pay your sending bank's fee, and the supplier covers every other deduction along the route. OUR tells the chain you pay everything top to bottom. BEN tells the chain the supplier pays the entire bill, including your sending fee. Your bank's system defaults to SHA. That's not a coincidence. <del>SHA generates more frequent top-up requests, which generate more wires, which generate more fees.</del> The mechanism is hidden. The choice is yours. <del>Walk to your bank's wire desk, ask</del> <ins>Ask your bank</ins> for 71A to be OUR on the next China wire<del>, and watch the shortfall problem disappear. One field. Three letters. Hundreds saved per wire.</del><ins>. Or skip the whole MT103 game with WorldFirst, which routes CNY direct via local rails with no intermediary chain at all. Search WorldFirst and look at the wire path.</ins>"
+      },
+      {
+        "variant_id": "PH5",
+        "variant_name": "Direct address plus stack",
+        "original_vo": "Look at your last China wire. Find the SWIFT confirmation. Scroll down to field 71A. Bet you it says SHA. SHA is the default at almost every bank in Southeast Asia, and it's costing you on every single transfer. Here's the stack. Problem one, SHA means your supplier pays intermediary deductions. Problem two, China wires usually pass through one to three intermediary banks. Problem three, each one shaves fifteen to fifty bucks off the amount before passing it on. Problem four, your supplier sees the shortfall and asks you to top up. Problem five, you wire again, paying your bank's send fee a second time. Stack it up on a fifty thousand dollar wire, you've quietly leaked around three hundred bucks per round. Twelve rounds a year, that's three and a half thousand gone. The fix is OUR. Three letters. Goodbye stack.",
+        "iterated_vo": "Look at your last China wire. Find the SWIFT confirmation. Scroll down to field 71A. Bet you it says SHA. SHA is the default at almost every bank in Southeast Asia, and it's costing you on every single transfer. Here's the stack. Problem one, SHA means your supplier pays intermediary deductions. Problem two, China wires usually pass through one to three intermediary banks. Problem three, each one shaves fifteen to fifty bucks off the amount before passing it on. Problem four, your supplier sees the shortfall and asks you to top up. Problem five, you wire again, paying your bank's send fee a second time. Stack it up on a fifty thousand dollar wire, you've quietly leaked around three hundred bucks per round. Twelve rounds a year, that's three and a half thousand gone. The fix is OUR. Or use WorldFirst, which uses local CNY rails, no SWIFT, no 71A, no stack. Search WorldFirst.",
+        "diff_markup": "Look at your last China wire. Find the SWIFT confirmation. Scroll down to field 71A. Bet you it says SHA. SHA is the default at almost every bank in Southeast Asia, and it's costing you on every single transfer. Here's the stack. Problem one, SHA means your supplier pays intermediary deductions. Problem two, China wires usually pass through one to three intermediary banks. Problem three, each one shaves fifteen to fifty bucks off the amount before passing it on. Problem four, your supplier sees the shortfall and asks you to top up. Problem five, you wire again, paying your bank's send fee a second time. Stack it up on a fifty thousand dollar wire, you've quietly leaked around three hundred bucks per round. Twelve rounds a year, that's three and a half thousand gone. The fix is OUR. <del>Three letters. Goodbye stack.</del> <ins>Or use WorldFirst, which uses local CNY rails, no SWIFT, no 71A, no stack. Search WorldFirst.</ins>"
+      }
+    ]
+  },
+  "garyvee": {
+    "skill": "Gary Vee Opinion-led",
+    "scripts": [
+      {
+        "variant_id": "PG1",
+        "variant_name": "Stop / Real-talk",
+        "original_vo": "Stop. Look. If you're a business owner sending wires to China and you don't know what SHA, OUR, and BEN mean, your bank is winning and you don't even know there was a game. These are three letters on a SWIFT form. Just three letters. And your bank picks one for you, every single time. They pick SHA. SHA means your supplier eats the fee from every intermediary bank in the chain. Could be one bank, could be three. Each one takes fifteen to fifty bucks off the wire before passing it on. Real money. Real loss. And nobody tells you. So next time, ask your bank to send the wire as OUR. You pay the whole chain. Supplier gets the full amount. Done. Easy. Why is nobody talking about this?",
+        "iterated_vo": "Stop. Look. If you're a business owner sending wires to China and you don't know what SHA, OUR, and BEN mean, your bank is winning and you don't even know there was a game. These are three letters on a SWIFT form. Just three letters. And your bank picks one for you, every single time. They pick SHA. SHA means your supplier eats the fee from every intermediary bank in the chain. Could be one bank, could be three. Each one takes fifteen to fifty bucks off the wire before passing it on. Real money. Real loss. And nobody tells you. So next time, ask your bank to send the wire as OUR. Or just use WorldFirst, no SWIFT chain, no 71A, supplier gets CNY direct. Search WorldFirst.",
+        "diff_markup": "Stop. Look. If you're a business owner sending wires to China and you don't know what SHA, OUR, and BEN mean, your bank is winning and you don't even know there was a game. These are three letters on a SWIFT form. Just three letters. And your bank picks one for you, every single time. They pick SHA. SHA means your supplier eats the fee from every intermediary bank in the chain. Could be one bank, could be three. Each one takes fifteen to fifty bucks off the wire before passing it on. Real money. Real loss. And nobody tells you. So next time, ask your bank to send the wire as OUR. <del>You pay the whole chain. Supplier gets the full amount. Done. Easy. Why is nobody talking about this?</del> <ins>Or just use WorldFirst, no SWIFT chain, no 71A, supplier gets CNY direct. Search WorldFirst.</ins>"
+      },
+      {
+        "variant_id": "PG2",
+        "variant_name": "I'll say it",
+        "original_vo": "I'll say it. Your bank is hiding things from you. Not in a dramatic way, just in a quiet, slow, expensive way. Every wire you send to China has a tiny field called 71A. Three options. SHA, OUR, BEN. Your bank checks SHA by default, every time, and SHA means your supplier eats the fees from every middleman bank between you and them. There are usually one to three middlemen. Each one takes fifteen to fifty bucks. Your supplier loses. You don't know. They ask for the missing amount, you wire again, pay another fee, and you think wire fees are just like that. They're not. They're a choice. The bank made the choice for you. Take the choice back.",
+        "iterated_vo": "I'll say it. Your bank is hiding things from you. Not in a dramatic way, just in a quiet, slow, expensive way. Every wire you send to China has a tiny field called 71A. Three options. SHA, OUR, BEN. Your bank checks SHA by default, every time, and SHA means your supplier eats the fees from every middleman bank between you and them. There are usually one to three middlemen. Each one takes fifteen to fifty bucks. Your supplier loses. You don't know. They ask for the missing amount, you wire again, pay another fee, and you think wire fees are just like that. They're not. They're a choice. The bank made the choice for you. Take the choice back. Or sidestep the bank with WorldFirst, CNY direct, no middlemen, no 71A. Look it up.",
+        "diff_markup": "I'll say it. Your bank is hiding things from you. Not in a dramatic way, just in a quiet, slow, expensive way. Every wire you send to China has a tiny field called 71A. Three options. SHA, OUR, BEN. Your bank checks SHA by default, every time, and SHA means your supplier eats the fees from every middleman bank between you and them. There are usually one to three middlemen. Each one takes fifteen to fifty bucks. Your supplier loses. You don't know. They ask for the missing amount, you wire again, pay another fee, and you think wire fees are just like that. They're not. They're a choice. The bank made the choice for you. Take the choice back. <ins>Or sidestep the bank with WorldFirst, CNY direct, no middlemen, no 71A. Look it up.</ins>"
+      },
+      {
+        "variant_id": "PG3",
+        "variant_name": "Stop using X",
+        "original_vo": "Stop using SHA on your wires. I'm serious. Look at your last wire to China. Pull up the SWIFT confirmation. There's a field called 71A. If it says SHA, you just told the bank to charge your supplier for every middleman bank between you and them. That's not shared. That's outsourced. Each middleman shaves fifteen to fifty bucks off the wire. On a fifty thousand dollar order, your supplier sees forty-nine eight, maybe forty-nine seven. They ping you. Awkward. The fix is the word OUR. You pay the whole chain. Supplier gets the full number. It costs you maybe thirty bucks more, saves the relationship, saves the chase. Stop using SHA. Change it today.",
+        "iterated_vo": "Stop using SHA on your wires. I'm serious. Look at your last wire to China. Pull up the SWIFT confirmation. There's a field called 71A. If it says SHA, you just told the bank to charge your supplier for every middleman bank between you and them. That's not shared. That's outsourced. Each middleman shaves fifteen to fifty bucks off the wire. On a fifty thousand dollar order, your supplier sees forty-nine eight, maybe forty-nine seven. They ping you. Awkward. The fix is the word OUR. Or stop using SWIFT for China entirely. WorldFirst routes CNY direct to your supplier's bank, no middlemen, no 71A. Search WorldFirst.",
+        "diff_markup": "Stop using SHA on your wires. I'm serious. Look at your last wire to China. Pull up the SWIFT confirmation. There's a field called 71A. If it says SHA, you just told the bank to charge your supplier for every middleman bank between you and them. That's not shared. That's outsourced. Each middleman shaves fifteen to fifty bucks off the wire. On a fifty thousand dollar order, your supplier sees forty-nine eight, maybe forty-nine seven. They ping you. Awkward. The fix is the word OUR. <del>You pay the whole chain. Supplier gets the full number. It costs you maybe thirty bucks more, saves the relationship, saves the chase. Stop using SHA. Change it today.</del> <ins>Or stop using SWIFT for China entirely. WorldFirst routes CNY direct to your supplier's bank, no middlemen, no 71A. Search WorldFirst.</ins>"
+      },
+      {
+        "variant_id": "PG4",
+        "variant_name": "Conspiratorial",
+        "original_vo": "Want to know what your bank doesn't want you to ask? Try this. Walk in next week and say, I want to send my next China wire as OUR not SHA. Watch the teller's face. Half of them won't know what you're talking about. The other half will tell you it costs more, but won't say how much. Here's the truth. SHA is the default because it generates short wires. Your supplier complains. You wire again. Bank collects another fee. OUR breaks the loop. You pay the chain upfront, maybe thirty more bucks, and your supplier gets the full amount. One wire. No follow-up. So why is OUR not the default? Think about who profits when wires go short.",
+        "iterated_vo": "Want to know what your bank doesn't want you to ask? Try this. Walk in next week and say, I want to send my next China wire as OUR not SHA. Watch the teller's face. Half of them won't know what you're talking about. The other half will tell you it costs more, but won't say how much. Here's the truth. SHA is the default because it generates short wires. Your supplier complains. You wire again. Bank collects another fee. OUR breaks the loop. You pay the chain upfront, maybe thirty more bucks, and your supplier gets the full amount. Or skip the conversation entirely. WorldFirst sends CNY direct, no SWIFT, no 71A, no chain. Search WorldFirst.",
+        "diff_markup": "Want to know what your bank doesn't want you to ask? Try this. Walk in next week and say, I want to send my next China wire as OUR not SHA. Watch the teller's face. Half of them won't know what you're talking about. The other half will tell you it costs more, but won't say how much. Here's the truth. SHA is the default because it generates short wires. Your supplier complains. You wire again. Bank collects another fee. OUR breaks the loop. You pay the chain upfront, maybe thirty more bucks, and your supplier gets the full amount. <del>One wire. No follow-up. So why is OUR not the default? Think about who profits when wires go short.</del> <ins>Or skip the conversation entirely. WorldFirst sends CNY direct, no SWIFT, no 71A, no chain. Search WorldFirst.</ins>"
+      },
+      {
+        "variant_id": "PG5",
+        "variant_name": "Real-talk plus escalating",
+        "original_vo": "Real talk. If you've been paying suppliers in China for years and you don't know what SHA OUR BEN means, you've been getting clipped. That's not me being dramatic. That's the system. Every SWIFT wire has a field, 71A, and your bank picks SHA by default. SHA means the supplier pays every middleman fee in the chain. Each middleman, fifteen to fifty bucks. One to three middlemen per wire. So your supplier's seeing one fifty, two hundred bucks off every order. And they don't push back, because in China the relationship matters more than the hundred bucks. So they swallow it. And then they add three percent to the next quote. So actually, you're paying it. Just on the second invoice. Switch to OUR. Or stop using your bank for China wires altogether. Your call.",
+        "iterated_vo": "Real talk. If you've been paying suppliers in China for years and you don't know what SHA OUR BEN means, you've been getting clipped. That's not me being dramatic. That's the system. Every SWIFT wire has a field, 71A, and your bank picks SHA by default. SHA means the supplier pays every middleman fee in the chain. Each middleman, fifteen to fifty bucks. One to three middlemen per wire. So your supplier's seeing one fifty, two hundred bucks off every order. And they don't push back, because in China the relationship matters more than the hundred bucks. So they swallow it. And then they add three percent to the next quote. So actually, you're paying it. Just on the second invoice. Switch to OUR. Or use WorldFirst, CNY direct, no SWIFT chain, no 71A. Search WorldFirst.",
+        "diff_markup": "Real talk. If you've been paying suppliers in China for years and you don't know what SHA OUR BEN means, you've been getting clipped. That's not me being dramatic. That's the system. Every SWIFT wire has a field, 71A, and your bank picks SHA by default. SHA means the supplier pays every middleman fee in the chain. Each middleman, fifteen to fifty bucks. One to three middlemen per wire. So your supplier's seeing one fifty, two hundred bucks off every order. And they don't push back, because in China the relationship matters more than the hundred bucks. So they swallow it. And then they add three percent to the next quote. So actually, you're paying it. Just on the second invoice. Switch to OUR. <del>Or stop using your bank for China wires altogether. Your call.</del> <ins>Or use WorldFirst, CNY direct, no SWIFT chain, no 71A. Search WorldFirst.</ins>"
+      }
+    ]
+  },
+  "factcheck": {
+    "PH1": {
+      "red_flag": "Low",
+      "analysis": "Core claims are grounded in P1-A8 findings and P1-A4 reference data. SHA as bank default, intermediary deductions of fifteen to fifty dollars, one to three hops per US-to-China wire all check out. The thirty-dollar OUR uplift is reasonable (P1-A4 cites thirty to seventy-five). WorldFirst CNY-direct routing claim aligns with public product positioning. The hundred-fifty-dollar shortfall on a fifty-thousand-dollar wire is on the low side of the fifteen-to-fifty times one-to-three range. Safe.",
+      "skeptic_comments": [
+        {"text": "what's a SWIFT message tho? you said it like i should know", "severity": "mid"},
+        {"text": "my bank in malaysia doesnt let me change anything on the wire form, what u mean ask for OUR", "severity": "high"},
+        {"text": "so worldfirst is what, another bank? never heard of them, sounds sus", "severity": "high"},
+        {"text": "if its so easy why do all my friends still use maybank", "severity": "mid"},
+        {"text": "show me the actual screenshot of the 71A field then", "severity": "low"}
+      ]
+    },
+    "PH2": {
+      "red_flag": "Low",
+      "analysis": "Two-thousand-a-year math on twelve wires checks out (twelve times one-fifty equals one-eight-hundred, close enough). SWIFT-as-messaging-system framing is accurate. The trust-cost framing is opinion, not a factual claim. WorldFirst CTA aligns with brand positioning. The S-H-A spelled-out hook is a stylistic move, not a fact claim.",
+      "skeptic_comments": [
+        {"text": "wait so the supplier is the one losing money, not me? why should i care", "severity": "high"},
+        {"text": "two grand a year is nothing for a real importer lol", "severity": "mid"},
+        {"text": "intermediary banks?? sounds like crypto bro lingo", "severity": "mid"},
+        {"text": "if i switch to OUR doesnt my bank just charge me more upfront and im still losing", "severity": "mid"},
+        {"text": "worldfirst sounds like a payday loan name", "severity": "low"}
+      ]
+    },
+    "PH3": {
+      "red_flag": "Medium",
+      "analysis": "The 'your bank set you up' framing is aggressive but defensible since SHA is genuinely the default. The 'doesn't sell OUR because it generates fewer second wires' claim was iterated OUT in the polished version, which is the right call (that motive is speculation, not documented industry behaviour). Now the iterated version is clean. Core facts on intermediary deductions and SHA defaults remain solid. Polished version is safe.",
+      "skeptic_comments": [
+        {"text": "ok now ur just bashing the banks for clicks", "severity": "high"},
+        {"text": "i never panic over a 200 short wire, that's normal", "severity": "mid"},
+        {"text": "so worldfirst doesnt use SWIFT at all? how does the money even cross borders then", "severity": "high"},
+        {"text": "if maybank set me up they'd have done worse than 200 bucks tbh", "severity": "low"},
+        {"text": "second wire? i just tell the supplier to eat it lol", "severity": "mid"}
+      ]
+    },
+    "PH4": {
+      "red_flag": "Low",
+      "analysis": "Most technically accurate of the five Hormozi variants. MT103 is the correct SWIFT message type for cross-border payments. SHA/OUR/BEN definitions are textbook. The iterated version smartly cut the 'SHA generates more wires therefore profits banks' speculation. WorldFirst direct-CNY-rail framing is accurate. Mechanism-first tone may feel dry for TikTok but content is tight.",
+      "skeptic_comments": [
+        {"text": "MT103?? bro this isnt a finance exam", "severity": "high"},
+        {"text": "feels like a lecture, where's the hook", "severity": "mid"},
+        {"text": "is 71A a real field or did u make that up", "severity": "low"},
+        {"text": "my bank doesnt have a wire desk, everything is online here", "severity": "mid"},
+        {"text": "worldfirst direct rail sounds like a marketing line", "severity": "mid"}
+      ]
+    },
+    "PH5": {
+      "red_flag": "Medium",
+      "analysis": "Three-and-a-half-thousand-a-year math checks (three-hundred times twelve equals three-six-hundred). 'SHA is the default at almost every bank in Southeast Asia' is broadly true but not universally verified across every SEA bank. The five-problem stack is tightly built. WorldFirst CTA is consistent. Watch the SEA-bank generalisation but it's defensible.",
+      "skeptic_comments": [
+        {"text": "i bank with maybank not 'a SEA bank', show me the maybank receipt", "severity": "high"},
+        {"text": "12 wires a year? im doing 30. so this is even worse?", "severity": "low"},
+        {"text": "five problems feels like youre making it sound harder than it is", "severity": "mid"},
+        {"text": "ok but if im in malaysia worldfirst can even reach my supplier in china?", "severity": "high"},
+        {"text": "where's the proof on the fifteen to fifty per hop", "severity": "mid"}
+      ]
+    },
+    "PG1": {
+      "red_flag": "Low",
+      "analysis": "Conversational Gary Vee tone. All factual claims (SHA default, supplier eats intermediary fees, fifteen-to-fifty per hop) match findings. 'Your bank is winning' is opinion, not a factual claim. Polished version adds WorldFirst CTA cleanly. Tone may feel preachy for some viewers but content is solid.",
+      "skeptic_comments": [
+        {"text": "'your bank is winning' feels like an influencer line", "severity": "mid"},
+        {"text": "what game?? this is just normal banking fees", "severity": "mid"},
+        {"text": "if i ask maybank for OUR they'll just say no", "severity": "high"},
+        {"text": "worldfirst again. is this an ad? say it's an ad", "severity": "high"},
+        {"text": "Gary vee energy lol but the info is real i guess", "severity": "low"}
+      ]
+    },
+    "PG2": {
+      "red_flag": "Medium",
+      "analysis": "'Your bank is hiding things' framing is provocative. It's defensible since 71A field choice is never proactively disclosed, but the word 'hiding' implies intent which is harder to prove. Otherwise factually clean. WorldFirst CTA in iterated version is on-brand.",
+      "skeptic_comments": [
+        {"text": "hiding is a strong word, more like 'didnt mention'", "severity": "high"},
+        {"text": "fees ARE just like that. you cant skip them, theyre how money moves", "severity": "high"},
+        {"text": "tiny field?? show me the SWIFT screenshot then", "severity": "mid"},
+        {"text": "ok ill bite, where is worldfirst registered, is it licensed in malaysia", "severity": "high"},
+        {"text": "this whole thing feels like a setup for a sales pitch", "severity": "mid"}
+      ]
+    },
+    "PG3": {
+      "red_flag": "Low",
+      "analysis": "Tight stop-using-X structure. Numbers on the fifty-thousand-dollar wire example align with findings. 'Outsourced' as a reframe of SHA is sharp and accurate. WorldFirst CTA fits. Cleanest of the Gary Vee variants.",
+      "skeptic_comments": [
+        {"text": "'stop using SHA' but my bank doesnt show me the option to switch", "severity": "high"},
+        {"text": "outsourced is a clever word but is it really how it works", "severity": "mid"},
+        {"text": "49.8 on 50k? thats nothing, who panics over 200 dollars", "severity": "mid"},
+        {"text": "worldfirst direct to supplier bank in china... how does that even work legally", "severity": "high"},
+        {"text": "ok so what's the catch with worldfirst, why isnt everyone using it", "severity": "mid"}
+      ]
+    },
+    "PG4": {
+      "red_flag": "Medium",
+      "analysis": "'Conspiratorial' tone is risky for a financial brand. 'Think about who profits when wires go short' implies bank malicious intent which is speculative and was cut in iterated version (good call). The teller-doesn't-know claim is broadly true but unverifiable. Iterated version with WorldFirst CTA is cleaner.",
+      "skeptic_comments": [
+        {"text": "this feels conspiracy-coded, banks arent that organised", "severity": "high"},
+        {"text": "i tried this and my teller said it cost an extra 80 ringgit, not 30 bucks", "severity": "high"},
+        {"text": "watching the teller's face is a weird thing to recommend", "severity": "low"},
+        {"text": "if worldfirst is so good why havent i seen them on any malay finance youtube", "severity": "mid"},
+        {"text": "feels like ur trying to make me angry at my bank", "severity": "mid"}
+      ]
+    },
+    "PG5": {
+      "red_flag": "Medium",
+      "analysis": "Strong tone. The 'supplier adds three percent to the next quote' claim is supported in P1-A6 findings (suppliers pad two to five percent on USD). The 'in China the relationship matters more than the hundred bucks' is a cultural generalisation but defensible. 'You've been getting clipped' is opinion. WorldFirst CTA in iterated version is on-brand.",
+      "skeptic_comments": [
+        {"text": "'getting clipped' lol who talks like that", "severity": "low"},
+        {"text": "if supplier adds 3% to my next quote, OUR doesnt fix it either does it", "severity": "high"},
+        {"text": "the 'china culture' bit feels like a stereotype", "severity": "high"},
+        {"text": "200 bucks off every order seems high, my orders are way smaller", "severity": "mid"},
+        {"text": "worldfirst again, im starting to think this whole thing is an ad", "severity": "high"}
+      ]
+    }
+  }
+}

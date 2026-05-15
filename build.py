@@ -32,24 +32,31 @@ def render_diff(markup):
     return s
 
 
-def load_skill(filename):
-    path = os.path.join(DATA_DIR, filename)
-    if not os.path.exists(path):
-        return None
-    try:
-        return json.load(open(path))
-    except Exception:
-        return None
+def _normalize_script(s):
+    """Some agents used variant_id/variant_name instead of id/subtitle. Normalize."""
+    if 'id' not in s and 'variant_id' in s:
+        s['id'] = s['variant_id']
+    if 'subtitle' not in s and 'variant_name' in s:
+        s['subtitle'] = s['variant_name']
+    return s
 
 
-def load_factcheck():
-    path = os.path.join(DATA_DIR, 'factcheck.json')
+def load_slide_data(slide_id):
+    """Load per-slide combined JSON. Returns (hormozi, garyvee, factcheck) tuple or (None, None, {})."""
+    path = os.path.join(DATA_DIR, slide_id, 'full.json')
     if not os.path.exists(path):
-        return {}
+        return None, None, {}
     try:
-        return json.load(open(path))
+        d = json.load(open(path))
+        h = d.get('hormozi') or {}
+        g = d.get('garyvee') or {}
+        if h.get('scripts'):
+            h['scripts'] = [_normalize_script(s) for s in h['scripts']]
+        if g.get('scripts'):
+            g['scripts'] = [_normalize_script(s) for s in g['scripts']]
+        return h or None, g or None, d.get('factcheck', {})
     except Exception:
-        return {}
+        return None, None, {}
 
 
 # My ratings on the iterated (brand-polished) versions
@@ -199,46 +206,37 @@ def render_combined_section(hormozi, garyvee, factcheck):
 </section>'''
 
 
-# Slideshow config — one entry per produced idea
-# Currently only P2-A3 has voice variants; others are placeholders pending generation
-SLIDES = [
-    {
-        'id': 'P2-A3',
-        'title': 'Bank wire vs WorldFirst on the same $50K payment',
-        'pillar': 'P2',
-        'topic': '02',
-        'format_spec': 'Short-form 60s · comparison',
-        'has_data': True,
-    },
-    {
-        'id': 'P1-A8',
-        'title': 'The 3-letter code that decides if your wire is same-day',
-        'pillar': 'P1',
-        'topic': '01',
-        'format_spec': 'Short-form 60s · bilingual · curiosity-led',
-        'has_data': False,
-    },
-    {
-        'id': 'P2-A18',
-        'title': 'Personal vs business FX rate: the spread',
-        'pillar': 'P2',
-        'topic': '04',
-        'format_spec': 'Short-form 60s · reframe',
-        'has_data': False,
-    },
-]
+# Slideshow config — one entry per produced idea from the SEA brand channel batch
+# Loaded from slides.json (generated from picks_v3_enriched.json)
+SLIDES_PATH = os.path.join(os.path.dirname(__file__), 'slides.json')
+try:
+    SLIDES_RAW = json.load(open(SLIDES_PATH))
+except Exception:
+    SLIDES_RAW = []
 
-hormozi = load_skill('hormozi.json')
-garyvee = load_skill('garyvee.json')
-factcheck = load_factcheck()
+# Normalize keys to match what the rendering loop expects
+SLIDES = []
+for s in SLIDES_RAW:
+    slide_id = s['slide_id']
+    has_data = os.path.exists(os.path.join(DATA_DIR, slide_id, 'full.json'))
+    SLIDES.append({
+        'id': slide_id,
+        'card_id': s['card_id'],
+        'title': s['video_title'],
+        'card_title': s.get('card_title', ''),
+        'approach': s.get('approach', ''),
+        'pillar': s.get('pillar', ''),
+        'topic': s.get('topic', ''),
+        'format_spec': s.get('format_spec', ''),
+        'has_data': has_data,
+    })
 
-total_scripts = 0
-if hormozi: total_scripts += len(hormozi.get('scripts', []))
-if garyvee: total_scripts += len(garyvee.get('scripts', []))
+slides_with_data = sum(1 for s in SLIDES if s['has_data'])
+total_scripts = slides_with_data * 10
 
 pending_banner = ''
-if total_scripts < 10:
-    pending_banner = f'<div class="pending-banner"><strong>Producing…</strong> {total_scripts} of 10 scripts ready. Page rebuilds as each agent lands.</div>'
+if slides_with_data < len(SLIDES):
+    pending_banner = f'<div class="pending-banner"><strong>Producing…</strong> {slides_with_data} of {len(SLIDES)} slides ready ({total_scripts} scripts so far). Page rebuilds as each agent lands.</div>'
 
 import json as _json_mod
 json_slide_meta = _json_mod.dumps([{'id': s['id'], 'title': s['title']} for s in SLIDES])
@@ -480,9 +478,9 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 <div class="slides-container">
   {chr(10).join(
     f'<div class="slide" data-slide-id="{esc(s["id"])}" data-slide-idx="{i}" style="display:{ "block" if i == 0 else "none"};">'
+    + f'<div class="slide-meta"><span class="sm-card">Card {esc(s["card_id"])}</span><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span><span class="sm-approach">{esc(s["approach"])}</span></div>'
     + (
-        f'<div class="slide-meta"><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span></div>'
-        + (render_combined_section(hormozi, garyvee, factcheck) if s['has_data'] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Fire /spark_script agents to populate this slide. Currently only the reference slide ({SLIDES[0]["id"]}) has full voice variant data. The slideshow structure is ready — data fills in slide-by-slide as generation runs.</p></div>')
+        (lambda data: render_combined_section(data[0], data[1], data[2]) if data[0] and data[1] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Agent for {esc(s["id"])} is still running. Page rebuilds as each lands.</p></div>')(load_slide_data(s['id']))
     )
     + '</div>'
     for i, s in enumerate(SLIDES)
@@ -633,5 +631,5 @@ with open(OUT, 'w') as f:
     f.write(HTML_PAGE)
 
 print(f"Built: {OUT}")
-print(f"Hormozi scripts: {len(hormozi.get('scripts', [])) if hormozi else 0} · Gary Vee: {len(garyvee.get('scripts', [])) if garyvee else 0}")
-print(f"Fact-check entries: {len(factcheck)}")
+print(f"Slides with data: {slides_with_data} of {len(SLIDES)}")
+print(f"Total scripts: {total_scripts}")
