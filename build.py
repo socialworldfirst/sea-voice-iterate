@@ -41,6 +41,43 @@ def _normalize_script(s):
     return s
 
 
+def load_hooks(slide_id):
+    """Load the 5 trigger-distinct hooks for a slide. Returns list or []."""
+    path = os.path.join(os.path.dirname(__file__), 'hooks', f'{slide_id}.json')
+    if not os.path.exists(path):
+        return []
+    try:
+        return json.load(open(path)).get('hooks', [])
+    except Exception:
+        return []
+
+
+def render_hook_palette(slide_id):
+    hooks = load_hooks(slide_id)
+    if not hooks:
+        return ''
+    opts = []
+    for h in hooks:
+        trig = h.get('trigger', '')
+        txt = h.get('text', '')
+        label = trig.replace('_', ' ').title()
+        opts.append(
+            f'<label class="hook-opt">'
+            f'<input type="radio" name="hookpick-{esc(slide_id)}" class="hkp" '
+            f'data-slide="{esc(slide_id)}" data-trigger="{esc(trig)}" data-text="{esc(txt)}">'
+            f'<span class="hk-mark"></span>'
+            f'<span class="hk-body"><span class="hk-trigger">{esc(label)}</span>'
+            f'<span class="hk-text">{esc(txt)}</span></span></label>'
+        )
+    return (
+        '<details class="hook-palette" open>'
+        '<summary>Hook palette · 5 scroll-stop alternates for this idea '
+        '<span class="hk-hint">(if a variant\'s own hook doesn\'t land, pick one of these)</span></summary>'
+        '<div class="hook-opts">' + ''.join(opts) + '</div>'
+        '</details>'
+    )
+
+
 def load_slide_data(slide_id):
     """Load per-slide combined JSON. Returns (hormozi, garyvee, factcheck) tuple or (None, None, {})."""
     path = os.path.join(DATA_DIR, slide_id, 'full.json')
@@ -306,6 +343,34 @@ html, body {{ background: var(--bg); color: var(--ink);
 .slide-pending p {{ font-size: 13px; color: var(--ink-soft); max-width: 520px;
   margin: 0 auto; line-height: 1.55; }}
 
+/* Hook palette */
+.hook-palette {{ border: 1px solid var(--pick); border-radius: 10px;
+  background: rgba(10,109,47,0.035); margin-bottom: 26px; overflow: hidden; }}
+.hook-palette > summary {{ cursor: pointer; padding: 14px 20px; font-weight: 600;
+  font-size: 14px; color: var(--ink); user-select: none; list-style: none; }}
+.hook-palette > summary::-webkit-details-marker {{ display: none; }}
+.hook-palette > summary::before {{ content: '▸ '; color: var(--pick); }}
+.hook-palette[open] > summary::before {{ content: '▾ '; }}
+.hk-hint {{ font-weight: 400; font-size: 12px; color: var(--ink-mute); font-style: italic; }}
+.hook-opts {{ padding: 4px 16px 16px; display: flex; flex-direction: column; gap: 6px; }}
+.hook-opt {{ display: grid; grid-template-columns: 20px 1fr; gap: 12px;
+  align-items: start; padding: 11px 14px; border: 1px solid var(--line);
+  border-radius: 8px; cursor: pointer; background: var(--bg); transition: all 0.12s; }}
+.hook-opt:hover {{ border-color: var(--pick); }}
+.hook-opt input {{ position: absolute; opacity: 0; }}
+.hk-mark {{ width: 16px; height: 16px; border: 2px solid var(--line);
+  border-radius: 50%; margin-top: 3px; position: relative; transition: all 0.12s; }}
+.hook-opt input:checked ~ .hk-mark {{ border-color: var(--pick); }}
+.hook-opt input:checked ~ .hk-mark::after {{ content: ''; width: 8px; height: 8px;
+  border-radius: 50%; background: var(--pick); position: absolute; top: 2px; left: 2px; }}
+.hook-opt input:checked ~ .hk-body {{ }}
+.hook-opt:has(input:checked) {{ border-color: var(--pick); background: rgba(10,109,47,0.05); }}
+.hk-body {{ display: flex; flex-direction: column; gap: 3px; }}
+.hk-trigger {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--pick); font-weight: 700; }}
+.hk-text {{ font-size: 14.5px; line-height: 1.5; color: var(--ink);
+  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif; }}
+
 .hero {{ padding-bottom: 28px; border-bottom: 1px solid var(--line); margin-bottom: 40px; }}
 .kicker {{ font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em;
   text-transform: uppercase; color: var(--ink-mute); margin-bottom: 12px; }}
@@ -480,6 +545,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   {chr(10).join(
     f'<div class="slide" data-slide-id="{esc(s["id"])}" data-slide-idx="{i}" style="display:{ "block" if i == 0 else "none"};">'
     + f'<div class="slide-meta"><span class="sm-card">Card {esc(s["card_id"])}</span><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span><span class="sm-approach">{esc(s["approach"])}</span></div>'
+    + render_hook_palette(s['id'])
     + (
         (lambda data: render_combined_section(data[0], data[1], data[2], slide_id=s['id']) if data[0] and data[1] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Agent for {esc(s["id"])} is still running. Page rebuilds as each lands.</p></div>')(load_slide_data(s['id']))
     )
@@ -547,6 +613,17 @@ document.querySelectorAll('.script-comment').forEach(ta => {{
     saveState(state); updatePanel();
   }});
 }});
+// Hook palette picks (state.hookpick = {{ slideId: {{trigger, text}} }})
+if (!state.hookpick) state.hookpick = {{}};
+document.querySelectorAll('.hkp').forEach(rb => {{
+  const slide = rb.getAttribute('data-slide');
+  const trig = rb.getAttribute('data-trigger');
+  if (state.hookpick[slide] && state.hookpick[slide].trigger === trig) rb.checked = true;
+  rb.addEventListener('change', () => {{
+    state.hookpick[slide] = {{ trigger: trig, text: rb.getAttribute('data-text') }};
+    saveState(state); updatePanel();
+  }});
+}});
 document.querySelectorAll('.copy-btn').forEach(btn => {{
   btn.addEventListener('click', async (e) => {{
     e.stopPropagation();
@@ -563,10 +640,15 @@ function buildPrompt() {{
   const pickEntries = Object.entries(state.picks).filter(([k, v]) => v);
   lines.push(`PICKS (${{pickEntries.length}} of ${{TOTAL_SLIDES}} slides):`);
   if (pickEntries.length === 0) lines.push('  (none yet)');
-  // Order picks by slide order in the DOM
+  // Order picks by slide order in the DOM, append chosen hook if swapped
   document.querySelectorAll('.slide').forEach(sl => {{
     const sid = sl.getAttribute('data-slide-id');
-    if (state.picks[sid]) lines.push(`  ${{sid}} -> ${{state.picks[sid]}}`);
+    if (state.picks[sid]) {{
+      let line = `  ${{sid}} -> ${{state.picks[sid]}}`;
+      const hp = state.hookpick && state.hookpick[sid];
+      if (hp) line += ` · HOOK[${{hp.trigger}}]: "${{hp.text}}"`;
+      lines.push(line);
+    }}
   }});
   const commentEntries = Object.entries(state.comments).filter(([k, v]) => (v || '').trim());
   lines.push('');

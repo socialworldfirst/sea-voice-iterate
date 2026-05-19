@@ -39,3 +39,29 @@ with open('_final_scripts.md', 'w') as f:
 subprocess.run(['/opt/homebrew/bin/pandoc', '_final_scripts.md', '-o',
                 'SEA_Batch1_Final_Scripts.docx', '--from', 'markdown', '--to', 'docx'], check=True)
 print(f"Built docx: {len(entries)} scripts")
+
+
+# --- Auto upload + convert to Google Doc (stable: delete old, recreate, save new id) ---
+import urllib.request, time
+cfg = json.loads(subprocess.run(['/opt/homebrew/bin/rclone','config','dump'],capture_output=True,text=True).stdout)
+tok = json.loads(cfg['gdrive']['token'])['access_token']
+DEST = "gdrive:Video Scripts/SEA Brand Channel/Batch 1 FINAL/"
+ts = str(int(time.time()))
+tmp = f"SEA_Batch1_tmp_{ts}.docx"
+subprocess.run(['cp','SEA_Batch1_Final_Scripts.docx',tmp],check=True)
+subprocess.run(['/opt/homebrew/bin/rclone','copy',tmp,DEST,'--no-traverse'],check=True)
+docx_id = json.loads(subprocess.run(['/opt/homebrew/bin/rclone','lsjson',DEST+tmp],capture_output=True,text=True).stdout)[0]['ID']
+body = json.dumps({"name":"SEA_Batch1_Final_Scripts","mimeType":"application/vnd.google-apps.document"}).encode()
+res = json.load(urllib.request.urlopen(urllib.request.Request(
+    f"https://www.googleapis.com/drive/v3/files/{docx_id}/copy", data=body,
+    headers={"Authorization":f"Bearer {tok}","Content-Type":"application/json"}, method="POST")))
+new_doc = res['id']
+old = open('.final_doc_id').read().strip() if os.path.exists('.final_doc_id') else ''
+for fid in [x for x in (docx_id, old) if x]:
+    try: urllib.request.urlopen(urllib.request.Request(f"https://www.googleapis.com/drive/v3/files/{fid}",headers={"Authorization":f"Bearer {tok}"},method="DELETE"))
+    except Exception: pass
+open('.final_doc_id','w').write(new_doc)
+url = f"https://docs.google.com/document/d/{new_doc}/edit"
+open('/tmp/sea_final_doc_url.txt','w').write(url)
+subprocess.run(['rm','-f',tmp])
+print(f"Doc: {url}")

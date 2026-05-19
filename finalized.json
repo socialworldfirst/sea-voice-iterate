@@ -19,6 +19,33 @@
       "rework_note": "As-is. Steven: 'PH1 is great.' Using the brand-polished iterated version unchanged.",
       "final_vo": "If you're a business owner wiring money to Chinese suppliers, your bank has two ways to charge you. One you see. One you don't. Here's the deal. The wire fee is visible. 25 bucks. 40 bucks. Whatever your bank charges. That's the number you stare at. The rate margin is invisible. 1 to 3 percent of the wire amount. Buried inside the FX rate itself. On a 10K wire at 3 percent, that's 300 dollars gone. No line item. No receipt. Nobody itemises it because they don't have to. Your confirmation says fee waived while the rate is 3 percent off Google's mid-market. Both facts coexist legally. Worth checking the rate, not just the fee line. WorldFirst gives you near mid-market rates. Same rate Google shows you. If you're sending money to China and you're still reading the fee line, you're missing where the cost actually lives. Search WorldFirst.",
       "word_count": 149
+    },
+    {
+      "slide_id": "P1-A14-1",
+      "card_id": "P1-A14",
+      "video_title": "Three operators, same wire, three amounts",
+      "base_pick": "PH2 (Hormozi — Cold open + compounding math)",
+      "rework_note": "As-is (brand-polished iterated version). No rework requested.",
+      "final_vo": "Watch this. Three business owners sent 50K to the same Chinese supplier on the same day. Supplier received three different amounts. 49,250. 49,700. 49,850. A 600 dollar spread on identical wires. Now compound it. 12 wires a year at 50K each. 600 thousand dollars in sourcing volume. The business owner who used the bank lost around 9,000 dollars. The business owner who used the specialist lost around 1,800. That's a 7,200 dollar gap in one year. On the same business. Run it across three years. 21,600 dollars. That's an employee. That's a container of inventory. That's the next product line. And it's not a fee. It's the exchange rate margin. Banks bake 1 to 2% into the rate so you never see the line item. WorldFirst sits closer to 0.3% on the same wires. Same day to Chinese bank accounts. Search WorldFirst.",
+      "word_count": 142
+    },
+    {
+      "slide_id": "P1-A2-1",
+      "card_id": "P1-A2",
+      "video_title": "The 3 paths your CNY takes to China (most operators only know one)",
+      "base_pick": "PG5 (Gary Vee — Real talk + escalating personal energy)",
+      "rework_note": "As-is (brand-polished iterated version). No rework requested.",
+      "final_vo": "For every business owner sourcing from China. You wire on Monday. Supplier says nothing's arrived. Tuesday, nothing. Wednesday, nothing. Thursday, you call your bank. They say it's with the correspondent. You call the correspondent. They say it's with the next correspondent. By Friday it lands. Production starts Monday. You just lost a week. Why? Because your wire is on the longest path. SWIFT through three correspondent banks. There are two faster paths. CIPS, one to two days. A dedicated CNY rail, same-day. Same money. Same destination. Different rails. Worth knowing which one your bank picked. WorldFirst routes you on the fastest available rail. Same-day. Search WorldFirst.",
+      "word_count": 106
+    },
+    {
+      "slide_id": "P1-A4-1",
+      "card_id": "P1-A4",
+      "video_title": "Your supplier just asked for the $200 they did not get",
+      "base_pick": "PG5 (Gary Vee — Real talk + escalating personal energy)",
+      "rework_note": "As-is (brand-polished iterated version). No rework requested.",
+      "final_vo": "For every business owner sourcing from China. You think your bank is moving your money. They're not. They're just sending a message through SWIFT. Real correspondent banks in the middle are moving it. 1, 2, 3 of them. Each one takes a $15 to $50 cut. You wire $50,000, supplier sees $49,800. You call the bank. They blame the intermediary. The intermediary blames the receiving bank in China. Nobody takes responsibility. Meanwhile your supplier won't ship until the gap is topped up. You're losing days. Your customer is waiting. Your margin is bleeding. And you're on the phone with a teller who's never heard the word correspondent before. This happens every week. Every single week. WorldFirst. Direct rail to Chinese accounts. Same-day. Full $50,000 lands. Supplier ships. You sleep. Search WorldFirst.",
+      "word_count": 131
     }
   ]
 }

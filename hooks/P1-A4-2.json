@@ -1,0 +1,7 @@
+{"slide_id":"P1-A4-2","hooks":[
+  {"trigger":"cognitive_dissonance","text":"Your wire was supposed to clear in two days and arrive in full. It showed up on day five, and one hundred fifty dollars short. Both true."},
+  {"trigger":"curiosity_gap","text":"Your supplier is still chasing the wire on day five, and when it lands it is short. One thing between you and them explains both problems."},
+  {"trigger":"data_surprise","text":"A wire to a Chinese supplier passes one to three banks you never see. Each one costs a full business day and skims fifteen to fifty dollars."},
+  {"trigger":"narrative_tension","text":"A business owner wired the deposit on Monday. Day five, the supplier is still asking where it is, and saying it landed one hundred fifty dollars light."},
+  {"trigger":"loss_aversion","text":"Every middle bank your wire passes through costs you a day and skims a fee. Three days late and one hundred fifty dollars gone, and nobody warned you."}
+]}

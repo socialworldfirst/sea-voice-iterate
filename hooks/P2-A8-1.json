@@ -1,0 +1,7 @@
+{"slide_id":"P2-A8-1","hooks":[
+  {"trigger":"cognitive_dissonance","text":"Your bank says wire transfers to your supplier are free. The same confirmation hides a foreign exchange margin, FX, that quietly took eleven hundred dollars off one payment."},
+  {"trigger":"curiosity_gap","text":"There is one number on your last supplier wire confirmation your bank hopes you never compare to Google. Find it in thirty seconds and you see exactly what they took."},
+  {"trigger":"data_surprise","text":"Applied rate 7.05 on your confirmation. The real rate that morning was 7.22. On a fifty thousand dollar supplier wire, that gap is eleven hundred seventy five dollars, gone silently."},
+  {"trigger":"narrative_tension","text":"A business owner opened an old wire confirmation, googled the rate for that exact day, and did one quick sum. The number staring back was money the bank never mentioned."},
+  {"trigger":"loss_aversion","text":"Every wire confirmation hides one rate the bank never shows beside it. Skip this thirty second check and you keep paying a foreign exchange, FX, margin on every supplier payment."}
+]}

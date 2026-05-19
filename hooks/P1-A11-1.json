@@ -1,0 +1,7 @@
+{"slide_id":"P1-A11-1","hooks":[
+  {"trigger":"cognitive_dissonance","text":"You paid your supplier in Yuan. They never received Yuan. Somewhere between you and them, your money switched to US dollars."},
+  {"trigger":"curiosity_gap","text":"There are exactly three spots where your Yuan payment can quietly flip into US dollars before it reaches your supplier. Most people never find them."},
+  {"trigger":"data_surprise","text":"You sent Yuan once. But it can get converted three separate times before your supplier sees it. Three hidden currency cuts on one payment."},
+  {"trigger":"narrative_tension","text":"A business owner pays a factory in Yuan. The factory opens its account and sees US dollars. Now they have to convert it back, and pay for it."},
+  {"trigger":"loss_aversion","text":"Every time you pay a Chinese supplier in Yuan, you might be funding two currency swaps you can't see. That cost comes off your margin, quietly."}
+]}
