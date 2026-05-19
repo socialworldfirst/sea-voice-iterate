@@ -77,7 +77,7 @@ RATINGS = {
 }
 
 
-def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None):
+def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None, slide_id=''):
     diff_html = render_diff(diff_markup) if diff_markup else esc(iterated_vo)
 
     heat_pill = ''
@@ -156,18 +156,18 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
 
   <div class="actions">
     <label class="winner-radio">
-      <input type="radio" name="winner-pick" class="wr" data-vid="{esc(script_id)}">
+      <input type="radio" name="winner-{esc(slide_id)}" class="wr" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}">
       <span class="winner-mark"></span>
-      <span class="winner-label">Best overall</span>
+      <span class="winner-label">Pick this for {esc(slide_id)}</span>
     </label>
     <button class="copy-btn" data-vo="{esc(iterated_vo)}" type="button">Copy polished</button>
   </div>
 
-  <textarea class="script-comment" data-vid="{esc(script_id)}" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
+  <textarea class="script-comment" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" placeholder="Comment on this variant. What's working? What needs to change?"></textarea>
 </article>'''
 
 
-def render_combined_section(hormozi, garyvee, factcheck):
+def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
     """Merge all scripts, sort by Claude overall desc, render single list."""
     all_scripts = []
     if hormozi:
@@ -195,6 +195,7 @@ def render_combined_section(hormozi, garyvee, factcheck):
             factcheck=factcheck.get(s['id']),
             rating=RATINGS.get(s['id']),
             rank=i + 1,
+            slide_id=slide_id,
         )
         for i, (s, skill) in enumerate(all_scripts)
     )
@@ -480,7 +481,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
     f'<div class="slide" data-slide-id="{esc(s["id"])}" data-slide-idx="{i}" style="display:{ "block" if i == 0 else "none"};">'
     + f'<div class="slide-meta"><span class="sm-card">Card {esc(s["card_id"])}</span><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span><span class="sm-approach">{esc(s["approach"])}</span></div>'
     + (
-        (lambda data: render_combined_section(data[0], data[1], data[2]) if data[0] and data[1] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Agent for {esc(s["id"])} is still running. Page rebuilds as each lands.</p></div>')(load_slide_data(s['id']))
+        (lambda data: render_combined_section(data[0], data[1], data[2], slide_id=s['id']) if data[0] and data[1] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Agent for {esc(s["id"])} is still running. Page rebuilds as each lands.</p></div>')(load_slide_data(s['id']))
     )
     + '</div>'
     for i, s in enumerate(SLIDES)
@@ -504,37 +505,45 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 </div>
 
 <script>
-const STORAGE_KEY = 'sea_voice_iterate_v1';
+const STORAGE_KEY = 'sea_voice_iterate_v2';
+const TOTAL_SLIDES = {len(SLIDES)};
 function loadState() {{
-  try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{{"winner":null,"comments":{{}}}}'); }}
-  catch (e) {{ return {{winner: null, comments: {{}}}}; }}
+  try {{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{{"picks":{{}},"comments":{{}}}}'); }}
+  catch (e) {{ return {{picks: {{}}, comments: {{}}}}; }}
 }}
 function saveState(s) {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }}
 let state = loadState();
+if (!state.picks) state.picks = {{}};
 if (!state.comments) state.comments = {{}};
 
+// Hydrate per-slide picks (state.picks = {{ slideId: scriptId }})
 document.querySelectorAll('.wr').forEach(rb => {{
+  const slide = rb.getAttribute('data-slide');
   const vid = rb.getAttribute('data-vid');
-  if (state.winner === vid) {{ rb.checked = true; rb.closest('.script-card').classList.add('winner'); }}
+  if (state.picks[slide] === vid) {{ rb.checked = true; rb.closest('.script-card').classList.add('winner'); }}
 }});
+// Hydrate per-slide comments (key = slide::scriptId)
 document.querySelectorAll('.script-comment').forEach(ta => {{
-  const vid = ta.getAttribute('data-vid');
-  if (state.comments[vid]) ta.value = state.comments[vid];
+  const key = ta.getAttribute('data-slide') + '::' + ta.getAttribute('data-vid');
+  if (state.comments[key]) ta.value = state.comments[key];
 }});
 
 document.querySelectorAll('.wr').forEach(rb => {{
   rb.addEventListener('change', () => {{
+    const slide = rb.getAttribute('data-slide');
     const vid = rb.getAttribute('data-vid');
-    state.winner = vid;
-    document.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
+    state.picks[slide] = vid;
+    // Clear winner class only within THIS slide, then mark the chosen card
+    const slideEl = rb.closest('.slide');
+    if (slideEl) slideEl.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
     rb.closest('.script-card').classList.add('winner');
     saveState(state); updatePanel();
   }});
 }});
 document.querySelectorAll('.script-comment').forEach(ta => {{
   ta.addEventListener('input', () => {{
-    const vid = ta.getAttribute('data-vid');
-    if (ta.value.trim()) state.comments[vid] = ta.value; else delete state.comments[vid];
+    const key = ta.getAttribute('data-slide') + '::' + ta.getAttribute('data-vid');
+    if (ta.value.trim()) state.comments[key] = ta.value; else delete state.comments[key];
     saveState(state); updatePanel();
   }});
 }});
@@ -551,22 +560,29 @@ document.querySelectorAll('.copy-btn').forEach(btn => {{
 function buildPrompt() {{
   const lines = ['== SEA Voice Iterate paste-back =='];
   lines.push('');
-  if (state.winner) {{ lines.push(`WINNER: ${{state.winner}}`); }} else {{ lines.push('WINNER: (none)'); }}
+  const pickEntries = Object.entries(state.picks).filter(([k, v]) => v);
+  lines.push(`PICKS (${{pickEntries.length}} of ${{TOTAL_SLIDES}} slides):`);
+  if (pickEntries.length === 0) lines.push('  (none yet)');
+  // Order picks by slide order in the DOM
+  document.querySelectorAll('.slide').forEach(sl => {{
+    const sid = sl.getAttribute('data-slide-id');
+    if (state.picks[sid]) lines.push(`  ${{sid}} -> ${{state.picks[sid]}}`);
+  }});
   const commentEntries = Object.entries(state.comments).filter(([k, v]) => (v || '').trim());
   lines.push('');
   lines.push(`COMMENTS (${{commentEntries.length}}):`);
   if (commentEntries.length === 0) lines.push('  (none)');
-  commentEntries.forEach(([vid, c]) => {{ lines.push(`  ${{vid}}: "${{c.trim()}}"`); }});
+  commentEntries.forEach(([key, c]) => {{ lines.push(`  ${{key}}: "${{c.trim()}}"`); }});
   lines.push('');
-  lines.push('Action: scale the winner voice + comment notes to other angles in this batch.');
+  lines.push('Action: each picked variant per slide = the final script for that produced idea. Comments = rework notes.');
   return lines.join('\\n');
 }}
 function updatePanel() {{
-  const w = state.winner ? 1 : 0;
+  const p = Object.keys(state.picks).filter(k => state.picks[k]).length;
   const c = Object.values(state.comments).filter(v => (v || '').trim()).length;
   const ctx = document.getElementById('panelCount');
-  if (w === 0 && c === 0) {{ ctx.innerHTML = '<span class="count-zero">0 picked · 0 comments</span>'; }}
-  else {{ ctx.textContent = `${{w}} picked · ${{c}} comments`; }}
+  if (p === 0 && c === 0) {{ ctx.innerHTML = '<span class="count-zero">0 of ' + TOTAL_SLIDES + ' slides picked · 0 comments</span>'; }}
+  else {{ ctx.textContent = `${{p}} of ${{TOTAL_SLIDES}} slides picked · ${{c}} comments`; }}
   document.getElementById('panelPrompt').value = buildPrompt();
 }}
 const panel = document.getElementById('panel');
