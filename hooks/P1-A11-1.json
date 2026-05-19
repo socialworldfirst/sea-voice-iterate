@@ -1,7 +1,7 @@
 {"slide_id":"P1-A11-1","hooks":[
-  {"trigger":"cognitive_dissonance","text":"You paid your supplier in Yuan. They never received Yuan. Somewhere between you and them, your money switched to US dollars."},
-  {"trigger":"curiosity_gap","text":"There are exactly three spots where your Yuan payment can quietly flip into US dollars before it reaches your supplier. Most people never find them."},
-  {"trigger":"data_surprise","text":"You sent Yuan once. But it can get converted three separate times before your supplier sees it. Three hidden currency cuts on one payment."},
-  {"trigger":"narrative_tension","text":"A business owner pays a factory in Yuan. The factory opens its account and sees US dollars. Now they have to convert it back, and pay for it."},
-  {"trigger":"loss_aversion","text":"Every time you pay a Chinese supplier in Yuan, you might be funding two currency swaps you can't see. That cost comes off your margin, quietly."}
+ {"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using your bank to send Yuan to China. It doesn't carry Yuan.","recommended":true},
+ {"category":"Educational Hooks","template":"Here’s exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how much you lose to send Yuan through your bank.","recommended":false},
+ {"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner sent Yuan to China. His supplier got US dollars instead.","recommended":false},
+ {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"WorldFirst users send Yuan straight to China without three hidden conversions.","recommended":false},
+ {"category":"Random Hooks","template":"(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.","text":"Your bank won't tell you this. So here's what they're hiding on Yuan payments.","recommended":false}
 ]}

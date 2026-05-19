@@ -41,8 +41,11 @@ def _normalize_script(s):
     return s
 
 
+import re as _re
+
+
 def load_hooks(slide_id):
-    """Load the 5 trigger-distinct hooks for a slide. Returns list or []."""
+    """Load the 5 hook-library hooks for a slide. New schema: [{category,template,text,recommended}]."""
     path = os.path.join(os.path.dirname(__file__), 'hooks', f'{slide_id}.json')
     if not os.path.exists(path):
         return []
@@ -52,30 +55,14 @@ def load_hooks(slide_id):
         return []
 
 
-def render_hook_palette(slide_id):
-    hooks = load_hooks(slide_id)
-    if not hooks:
+def body_core(vo):
+    """Strip the first sentence (the original embedded hook) so a library hook can lead instead."""
+    if not vo:
         return ''
-    opts = []
-    for h in hooks:
-        trig = h.get('trigger', '')
-        txt = h.get('text', '')
-        label = trig.replace('_', ' ').title()
-        opts.append(
-            f'<label class="hook-opt">'
-            f'<input type="radio" name="hookpick-{esc(slide_id)}" class="hkp" '
-            f'data-slide="{esc(slide_id)}" data-trigger="{esc(trig)}" data-text="{esc(txt)}">'
-            f'<span class="hk-mark"></span>'
-            f'<span class="hk-body"><span class="hk-trigger">{esc(label)}</span>'
-            f'<span class="hk-text">{esc(txt)}</span></span></label>'
-        )
-    return (
-        '<details class="hook-palette" open>'
-        '<summary>Hook palette · 5 scroll-stop alternates for this idea '
-        '<span class="hk-hint">(if a variant\'s own hook doesn\'t land, pick one of these)</span></summary>'
-        '<div class="hook-opts">' + ''.join(opts) + '</div>'
-        '</details>'
-    )
+    m = _re.search(r'[.!?]\s', vo)
+    if not m:
+        return vo
+    return vo[m.end():].strip()
 
 
 def load_slide_data(slide_id):
@@ -114,8 +101,35 @@ RATINGS = {
 }
 
 
-def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None, slide_id=''):
+def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None, slide_id='', slide_hooks=None):
     diff_html = render_diff(diff_markup) if diff_markup else esc(iterated_vo)
+    slide_hooks = slide_hooks or []
+    core = body_core(iterated_vo)
+    # Hook options: library hooks (recommended first) + the variant's own original hook as last option
+    opts = []
+    rec_idx = 0
+    for i, h in enumerate(slide_hooks):
+        if h.get('recommended'):
+            rec_idx = i
+    ordered = ([slide_hooks[rec_idx]] + [h for i, h in enumerate(slide_hooks) if i != rec_idx]) if slide_hooks else []
+    for i, h in enumerate(ordered):
+        cat = h.get('category', '').replace(' Hooks', '')
+        htext = h.get('text', '')
+        star = '★ ' if i == 0 else ''
+        sel = ' selected' if i == 0 else ''
+        label = f"{star}{esc(cat)} — {esc(htext)}"
+        opts.append(f'<option value="{i}" data-hook="{esc(htext)}"{sel}>{label}</option>')
+    # original hook = the iterated_vo's own first sentence
+    m = _re.search(r'[.!?]\s', iterated_vo or '')
+    orig_hook = iterated_vo[:m.end()].strip() if m else (iterated_vo or '')
+    opts.append(f'<option value="orig" data-hook="{esc(orig_hook)}">Original (variant\'s own hook) — {esc(orig_hook[:70])}</option>')
+    default_hook = ordered[0]['text'] if ordered else orig_hook
+    hook_block = f'''
+  <div class="hook-ctl">
+    <div class="block-label">Hook · library-driven · swap freely</div>
+    <select class="hook-select" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" data-core="{esc(core)}">{''.join(opts)}</select>
+    <div class="final-vo" data-vid="{esc(script_id)}"><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core">{esc(core)}</span></div>
+  </div>'''
 
     heat_pill = ''
     fc_note_text = ''
@@ -189,6 +203,8 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     </div>
   </div>
 
+  {hook_block}
+
   {factcheck_block}
 
   <div class="actions">
@@ -220,6 +236,7 @@ def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
         return r['overall'] if r else 0
 
     all_scripts.sort(key=overall_score, reverse=True)
+    slide_hooks = load_hooks(slide_id)
 
     scripts_html = '\n'.join(
         render_script(
@@ -233,6 +250,7 @@ def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
             rating=RATINGS.get(s['id']),
             rank=i + 1,
             slide_id=slide_id,
+            slide_hooks=slide_hooks,
         )
         for i, (s, skill) in enumerate(all_scripts)
     )
@@ -343,33 +361,19 @@ html, body {{ background: var(--bg); color: var(--ink);
 .slide-pending p {{ font-size: 13px; color: var(--ink-soft); max-width: 520px;
   margin: 0 auto; line-height: 1.55; }}
 
-/* Hook palette */
-.hook-palette {{ border: 1px solid var(--pick); border-radius: 10px;
-  background: rgba(10,109,47,0.035); margin-bottom: 26px; overflow: hidden; }}
-.hook-palette > summary {{ cursor: pointer; padding: 14px 20px; font-weight: 600;
-  font-size: 14px; color: var(--ink); user-select: none; list-style: none; }}
-.hook-palette > summary::-webkit-details-marker {{ display: none; }}
-.hook-palette > summary::before {{ content: '▸ '; color: var(--pick); }}
-.hook-palette[open] > summary::before {{ content: '▾ '; }}
-.hk-hint {{ font-weight: 400; font-size: 12px; color: var(--ink-mute); font-style: italic; }}
-.hook-opts {{ padding: 4px 16px 16px; display: flex; flex-direction: column; gap: 6px; }}
-.hook-opt {{ display: grid; grid-template-columns: 20px 1fr; gap: 12px;
-  align-items: start; padding: 11px 14px; border: 1px solid var(--line);
-  border-radius: 8px; cursor: pointer; background: var(--bg); transition: all 0.12s; }}
-.hook-opt:hover {{ border-color: var(--pick); }}
-.hook-opt input {{ position: absolute; opacity: 0; }}
-.hk-mark {{ width: 16px; height: 16px; border: 2px solid var(--line);
-  border-radius: 50%; margin-top: 3px; position: relative; transition: all 0.12s; }}
-.hook-opt input:checked ~ .hk-mark {{ border-color: var(--pick); }}
-.hook-opt input:checked ~ .hk-mark::after {{ content: ''; width: 8px; height: 8px;
-  border-radius: 50%; background: var(--pick); position: absolute; top: 2px; left: 2px; }}
-.hook-opt input:checked ~ .hk-body {{ }}
-.hook-opt:has(input:checked) {{ border-color: var(--pick); background: rgba(10,109,47,0.05); }}
-.hk-body {{ display: flex; flex-direction: column; gap: 3px; }}
-.hk-trigger {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--pick); font-weight: 700; }}
-.hk-text {{ font-size: 14.5px; line-height: 1.5; color: var(--ink);
-  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif; }}
+/* Per-card hook control */
+.hook-ctl {{ padding: 14px 20px; border-top: 1px solid var(--line-s);
+  background: rgba(10,109,47,0.035); }}
+.hook-select {{ width: 100%; padding: 10px 12px; border: 1px solid var(--pick);
+  border-radius: 8px; background: var(--bg); color: var(--ink); font-size: 13px;
+  font-family: inherit; cursor: pointer; margin-bottom: 12px; }}
+.hook-select:focus {{ outline: 2px solid rgba(10,109,47,0.25); }}
+.final-vo {{ font-size: 15px; line-height: 1.65; color: var(--ink);
+  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
+  padding: 14px 16px; }}
+.fv-hook {{ font-weight: 700; color: var(--pick); }}
+.fv-core {{ color: var(--ink); }}
 
 .hero {{ padding-bottom: 28px; border-bottom: 1px solid var(--line); margin-bottom: 40px; }}
 .kicker {{ font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em;
@@ -516,8 +520,29 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   .col.original {{ border-right: none; border-bottom: 1px solid var(--line-soft); }}
 }}
 @media (max-width: 700px) {{
-  .wrap {{ padding: 32px 18px 200px; }}
+  .wrap {{ padding: 28px 14px 210px; }}
   h1 {{ font-size: 22px; }}
+  .slide-nav {{ grid-template-columns: 40px 1fr 40px; gap: 8px; padding: 12px 12px; }}
+  .nav-btn {{ width: 38px; height: 38px; font-size: 16px; }}
+  .slide-info {{ gap: 6px; }}
+  .slide-title {{ font-size: 12px; }}
+  .script-card {{ border-radius: 8px; }}
+  .script-head, .hook-ctl, .factcheck-block, .actions {{ padding-left: 14px; padding-right: 14px; }}
+  .cols .col {{ padding: 14px; }}
+  .rating-row {{ gap: 4px; }}
+  .rp, .overall, .heat-pill {{ font-size: 9px; padding: 2px 6px; }}
+  .hook-select {{ font-size: 14px; padding: 11px 12px; }}
+  .final-vo {{ font-size: 15px; padding: 13px 14px; }}
+  .script-comment {{ width: calc(100% - 28px); margin: 0 14px 16px; font-size: 14px; }}
+  .vo, .vo-iterated, .vo-original {{ font-size: 14.5px; }}
+  .skeptic-comments li {{ grid-template-columns: 12px 1fr; font-size: 13px; }}
+  .panel-bar {{ padding: 13px 14px; }}
+  .panel-body {{ padding: 6px 14px 16px; }}
+  .bottom-panel textarea {{ font-size: 12px; }}
+}}
+@media (max-width: 420px) {{
+  .slide-info {{ flex-wrap: wrap; }}
+  .skill-tag {{ display: none; }}
 }}
 </style>
 </head>
@@ -545,7 +570,6 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   {chr(10).join(
     f'<div class="slide" data-slide-id="{esc(s["id"])}" data-slide-idx="{i}" style="display:{ "block" if i == 0 else "none"};">'
     + f'<div class="slide-meta"><span class="sm-card">Card {esc(s["card_id"])}</span><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span><span class="sm-approach">{esc(s["approach"])}</span></div>'
-    + render_hook_palette(s['id'])
     + (
         (lambda data: render_combined_section(data[0], data[1], data[2], slide_id=s['id']) if data[0] and data[1] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Agent for {esc(s["id"])} is still running. Page rebuilds as each lands.</p></div>')(load_slide_data(s['id']))
     )
@@ -613,16 +637,32 @@ document.querySelectorAll('.script-comment').forEach(ta => {{
     saveState(state); updatePanel();
   }});
 }});
-// Hook palette picks (state.hookpick = {{ slideId: {{trigger, text}} }})
+// Per-card hook select (state.hookpick = {{ "slide::vid": {{label,text}} }})
 if (!state.hookpick) state.hookpick = {{}};
-document.querySelectorAll('.hkp').forEach(rb => {{
-  const slide = rb.getAttribute('data-slide');
-  const trig = rb.getAttribute('data-trigger');
-  if (state.hookpick[slide] && state.hookpick[slide].trigger === trig) rb.checked = true;
-  rb.addEventListener('change', () => {{
-    state.hookpick[slide] = {{ trigger: trig, text: rb.getAttribute('data-text') }};
+document.querySelectorAll('.hook-select').forEach(sel => {{
+  const slide = sel.getAttribute('data-slide');
+  const vid = sel.getAttribute('data-vid');
+  const key = slide + '::' + vid;
+  const core = sel.getAttribute('data-core');
+  const fv = document.querySelector('.final-vo[data-vid="' + vid + '"]');
+  // restore prior choice
+  if (state.hookpick[key]) {{
+    for (const o of sel.options) {{
+      if (o.getAttribute('data-hook') === state.hookpick[key].text) {{ o.selected = true; break; }}
+    }}
+  }}
+  function apply() {{
+    const opt = sel.options[sel.selectedIndex];
+    const hook = opt.getAttribute('data-hook') || '';
+    if (fv) {{ fv.querySelector('.fv-hook').textContent = hook; }}
+    const isOrig = sel.value === 'orig';
+    if (isOrig) delete state.hookpick[key];
+    else state.hookpick[key] = {{ label: opt.textContent.split(' — ')[0].replace('★ ','').trim(), text: hook }};
     saveState(state); updatePanel();
-  }});
+  }}
+  sel.addEventListener('change', apply);
+  // initialize final-vo to current selection on load
+  if (fv) {{ fv.querySelector('.fv-hook').textContent = sel.options[sel.selectedIndex].getAttribute('data-hook') || ''; }}
 }});
 document.querySelectorAll('.copy-btn').forEach(btn => {{
   btn.addEventListener('click', async (e) => {{
@@ -644,9 +684,10 @@ function buildPrompt() {{
   document.querySelectorAll('.slide').forEach(sl => {{
     const sid = sl.getAttribute('data-slide-id');
     if (state.picks[sid]) {{
-      let line = `  ${{sid}} -> ${{state.picks[sid]}}`;
-      const hp = state.hookpick && state.hookpick[sid];
-      if (hp) line += ` · HOOK[${{hp.trigger}}]: "${{hp.text}}"`;
+      const vid = state.picks[sid];
+      let line = `  ${{sid}} -> ${{vid}}`;
+      const hp = state.hookpick && state.hookpick[sid + '::' + vid];
+      if (hp) line += ` · HOOK[${{hp.label}}]: "${{hp.text}}"`;
       lines.push(line);
     }}
   }});
