@@ -16091,7 +16091,7 @@ document.querySelectorAll('.script-comment').forEach(ta => {
 });
 // Per-card hook radios (state.hookpick = { "slide::vid": {label, text} })
 if (!state.hookpick) state.hookpick = {};
-// Restore + bind
+// Restore saved picks if present
 document.querySelectorAll('.hook-radio').forEach(rb => {
   const slide = rb.getAttribute('data-slide');
   const vid = rb.getAttribute('data-vid');
@@ -16099,6 +16099,27 @@ document.querySelectorAll('.hook-radio').forEach(rb => {
   const hookText = rb.getAttribute('data-hook');
   if (state.hookpick[key] && state.hookpick[key].text === hookText) rb.checked = true;
 });
+// Seed defaults from currently-checked radios so paste-back reflects what's visible on screen
+document.querySelectorAll('.hook-radio:checked').forEach(rb => {
+  const slide = rb.getAttribute('data-slide');
+  const vid = rb.getAttribute('data-vid');
+  const key = slide + '::' + vid;
+  if (!state.hookpick[key]) {
+    state.hookpick[key] = {
+      label: rb.getAttribute('data-label') || '',
+      text: rb.getAttribute('data-hook') || ''
+    };
+  }
+});
+// Sync visible Final VO with current checked radio (each slide) so reloads show the right hook
+document.querySelectorAll('.slide').forEach(sl => {
+  sl.querySelectorAll('.hook-radio:checked').forEach(rb => {
+    const vid = rb.getAttribute('data-vid');
+    const fv = sl.querySelector('.final-vo[data-vid="' + vid + '"]');
+    if (fv) fv.querySelector('.fv-hook').textContent = rb.getAttribute('data-hook') || '';
+  });
+});
+saveState(state);
 document.querySelectorAll('.hook-radio').forEach(rb => {
   rb.addEventListener('change', () => {
     const slide = rb.getAttribute('data-slide');
@@ -16107,10 +16128,12 @@ document.querySelectorAll('.hook-radio').forEach(rb => {
     const hook = rb.getAttribute('data-hook') || '';
     const label = rb.getAttribute('data-label') || '';
     const val = rb.getAttribute('data-val');
-    const fv = document.querySelector('.final-vo[data-vid="' + vid + '"]');
+    // SCOPED to this slide — global selector was hitting wrong card when vids repeated across slides
+    const slideEl = rb.closest('.slide');
+    const fv = slideEl ? slideEl.querySelector('.final-vo[data-vid="' + vid + '"]') : null;
     if (fv) fv.querySelector('.fv-hook').textContent = hook;
-    if (val === 'orig') delete state.hookpick[key];
-    else state.hookpick[key] = { label: label, text: hook };
+    // Always record the active hook (including 'orig') so paste-back captures the current choice
+    state.hookpick[key] = { label: label, text: hook };
     saveState(state); updatePanel();
   });
 });
