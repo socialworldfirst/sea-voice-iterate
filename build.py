@@ -108,10 +108,14 @@ RATINGS = {
 }
 
 
-def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None, slide_id='', slide_hooks=None):
+def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, skill_name='', factcheck=None, rating=None, rank=None, slide_id='', slide_hooks=None, iterated_vo_clarity='', ship_version_default='final'):
     diff_html = render_diff(diff_markup) if diff_markup else esc(iterated_vo)
     slide_hooks = slide_hooks or []
     core = body_core(iterated_vo)
+    # Clarity body — graceful fallback to iterated_vo when not yet generated
+    has_clarity_body = bool(iterated_vo_clarity and iterated_vo_clarity.strip())
+    clarity_text = iterated_vo_clarity if has_clarity_body else iterated_vo
+    core_clarity = body_core(clarity_text)
     # Hook options: library hooks (recommended first) + the variant's own original hook as last option
     opts = []
     rec_idx = 0
@@ -123,11 +127,15 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     for i, h in enumerate(ordered):
         cat = h.get('category', '').replace(' Hooks', '')
         htext = h.get('text', '')
-        star = '<span class="ho-star">★</span>' if i == 0 else '<span class="ho-num">' + str(i+1) + '</span>'
+        # Ultra Clarity is the explicit 7th hook genre — distinct visual class, special marker
+        is_ultra = cat.lower().startswith('ultra clarity') or cat.lower() == 'ultra-clarity'
+        ultra_class = ' hook-opt-ultra' if is_ultra else ''
+        ultra_marker = '<span class="ho-ultra">✦</span>' if is_ultra else ''
+        star = '<span class="ho-star">★</span>' if i == 0 else (ultra_marker or '<span class="ho-num">' + str(i+1) + '</span>')
         checked = ' checked' if i == 0 else ''
         rec_badge = '<span class="ho-rec">recommended</span>' if i == 0 else ''
         opts.append(
-            f'<label class="hook-opt">'
+            f'<label class="hook-opt{ultra_class}">'
             f'<input type="radio" name="{radio_name}" class="hook-radio" '
             f'data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" '
             f'data-hook="{esc(htext)}" data-label="{esc(cat)}" data-val="{i}"{checked}>'
@@ -160,7 +168,21 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     <div class="hook-opts" data-core="{esc(core)}">{''.join(opts)}</div>
   </div>'''
 
-    # Tabbed VO view: Pure original → Brand polish → Final VO (default Final)
+    # Tabbed VO view: Pure original → Brand polish → Final VO → Final VO (Clarity)
+    # Default active tab = whichever version is the ship default (final or clarity)
+    is_clarity_default = ship_version_default == 'clarity'
+    final_tab_active = '' if is_clarity_default else ' active'
+    clarity_tab_active = ' active' if is_clarity_default else ''
+    final_pane_hidden = ' hidden' if is_clarity_default else ''
+    clarity_pane_hidden = '' if is_clarity_default else ' hidden'
+    # Ship-version radios: which version flows to the paste-back
+    ship_name = f"ship-{esc(slide_id)}-{esc(script_id)}"
+    final_ship_checked = '' if is_clarity_default else ' checked'
+    clarity_ship_checked = ' checked' if is_clarity_default else ''
+    final_rec_badge = '' if is_clarity_default else '<span class="sv-rec">★ recommended</span>'
+    clarity_rec_badge = '<span class="sv-rec">★ recommended</span>' if is_clarity_default else ''
+    clarity_word_count = len(clarity_text.split()) if has_clarity_body else 0
+    clarity_pending_note = '' if has_clarity_body else '<div class="vo-pending">Clarity version pending generation. Showing Final VO as fallback.</div>'
     vo_tabs_block = f'''
   <div class="vo-tabs">
     <div class="vo-tab-nav">
@@ -168,7 +190,9 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
       <span class="vo-arrow">→</span>
       <button class="vo-tab" data-tab="polish" type="button">Brand polish</button>
       <span class="vo-arrow">→</span>
-      <button class="vo-tab active" data-tab="final" type="button">Final VO</button>
+      <button class="vo-tab{final_tab_active}" data-tab="final" type="button">Final VO</button>
+      <span class="vo-arrow">→</span>
+      <button class="vo-tab{clarity_tab_active}" data-tab="final-clarity" type="button">Final VO (Clarity)</button>
     </div>
     <div class="vo-pane" data-pane="original" hidden>
       <p class="vo vo-original">{esc(original_vo)}</p>
@@ -177,8 +201,28 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
       <p class="vo vo-iterated">{diff_html}</p>
       <div class="diff-legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></div>
     </div>
-    <div class="vo-pane final-vo" data-pane="final" data-vid="{esc(script_id)}">
+    <div class="vo-pane final-vo" data-pane="final" data-vid="{esc(script_id)}"{final_pane_hidden}>
       <p class="vo vo-final"><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core">{esc(core)}</span></p>
+    </div>
+    <div class="vo-pane final-vo-clarity" data-pane="final-clarity" data-vid="{esc(script_id)}"{clarity_pane_hidden}>
+      {clarity_pending_note}
+      <p class="vo vo-final"><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core-clarity">{esc(core_clarity)}</span></p>
+      <div class="vo-clarity-meta">{clarity_word_count} words {"(longer, 5th-6th grade English, story-mode)" if has_clarity_body else ""}</div>
+    </div>
+    <div class="ship-version" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}">
+      <span class="sv-label">Ship version:</span>
+      <label class="sv-opt">
+        <input type="radio" name="{ship_name}" class="sv-radio" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" data-version="final"{final_ship_checked}>
+        <span class="sv-mark"></span>
+        <span class="sv-text">Final VO</span>
+        {final_rec_badge}
+      </label>
+      <label class="sv-opt">
+        <input type="radio" name="{ship_name}" class="sv-radio" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" data-version="clarity"{clarity_ship_checked}>
+        <span class="sv-mark"></span>
+        <span class="sv-text">Final VO (Clarity)</span>
+        {clarity_rec_badge}
+      </label>
     </div>
   </div>'''
 
@@ -311,6 +355,8 @@ def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
             rank=i + 1,
             slide_id=slide_id,
             slide_hooks=hooks_for(s['id']),
+            iterated_vo_clarity=s.get('iterated_vo_clarity', ''),
+            ship_version_default=s.get('ship_version_default', 'final'),
         )
         for i, (s, skill) in enumerate(all_scripts)
     )
@@ -542,6 +588,46 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   color: var(--ink-mute); margin-top: 8px; }}
 .diff-legend .diff-del, .diff-legend .diff-ins {{ padding: 0 4px; border-radius: 3px; }}
 
+/* Final VO (Clarity) pane meta + pending banner */
+.vo-pane.final-vo-clarity {{ background: rgba(10,109,47,0.045); }}
+.vo-pane.final-vo-clarity .fv-core-clarity {{ color: var(--ink); }}
+.vo-clarity-meta {{ margin-top: 10px; font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.06em; color: var(--ink-mute); }}
+.vo-pending {{ font-family: var(--mono); font-size: 11px; color: var(--ink-mute);
+  padding: 8px 12px; background: rgba(0,0,0,0.04); border-radius: 6px; margin-bottom: 10px;
+  border-left: 3px solid var(--ink-mute); }}
+
+/* Ship-version selector */
+.ship-version {{ display: flex; gap: 14px; align-items: center; padding: 10px 22px;
+  background: var(--tint); border-top: 1px solid var(--line-soft); flex-wrap: wrap; }}
+.sv-label {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600; }}
+.sv-opt {{ position: relative; display: inline-flex; align-items: center; gap: 8px;
+  cursor: pointer; font-size: 12px; color: var(--ink-soft); padding: 4px 10px;
+  border: 1px solid var(--line); border-radius: 100px; background: var(--bg); transition: all 0.15s; }}
+.sv-opt:hover {{ border-color: var(--ink-soft); color: var(--ink); }}
+.sv-opt input {{ position: absolute; opacity: 0; }}
+.sv-mark {{ width: 12px; height: 12px; border: 2px solid var(--line); border-radius: 50%;
+  background: var(--bg); position: relative; transition: all 0.15s; }}
+.sv-opt input:checked ~ .sv-mark {{ border-color: var(--pick); }}
+.sv-opt input:checked ~ .sv-mark::after {{ content: ''; display: block; width: 6px; height: 6px;
+  border-radius: 50%; background: var(--pick); position: absolute; top: 1px; left: 1px; }}
+.sv-opt:has(input:checked) {{ border-color: var(--pick); color: var(--pick);
+  background: rgba(10,109,47,0.06); font-weight: 600; }}
+.sv-rec {{ font-family: var(--mono); font-size: 8px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--pick); font-weight: 700;
+  padding: 1px 6px; border-radius: 100px; background: rgba(10,109,47,0.10); }}
+
+/* Ultra Clarity hook — distinct visual */
+.hook-opt-ultra {{ border-color: rgba(148,97,0,0.30); background: rgba(148,97,0,0.04); }}
+.hook-opt-ultra:hover {{ border-color: rgba(148,97,0,0.55); }}
+.hook-opt-ultra:has(input:checked) {{ border-color: rgba(148,97,0,0.85);
+  background: rgba(148,97,0,0.10); }}
+.hook-opt-ultra .ho-text {{ color: rgba(80,53,0,0.95); }}
+.hook-opt-ultra:has(input:checked) .ho-text {{ color: rgba(80,53,0,1); font-weight: 500; }}
+.ho-ultra {{ color: rgba(148,97,0,0.90); font-size: 11px; }}
+.hook-opt-ultra .ho-cat {{ color: rgba(148,97,0,0.95); font-weight: 700; }}
+
 .block-label {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-mute); font-weight: 600; margin-bottom: 10px;
   display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }}
@@ -728,6 +814,8 @@ function saveState(s) {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
 let state = loadState();
 if (!state.picks) state.picks = {{}};
 if (!state.comments) state.comments = {{}};
+if (!state.hookpick) state.hookpick = {{}};
+if (!state.versionpick) state.versionpick = {{}};
 // Migrate legacy single-string picks to array form (state.picks[slide] = [vid, ...])
 Object.keys(state.picks).forEach(k => {{
   if (typeof state.picks[k] === 'string') state.picks[k] = [state.picks[k]];
@@ -796,12 +884,17 @@ document.querySelectorAll('.hook-radio:checked').forEach(rb => {{
     }};
   }}
 }});
-// Sync visible Final VO with current checked radio (each slide) so reloads show the right hook
+// Sync visible Final + Clarity panes with current checked hook radio (each slide)
+function syncFinalPanes(slideEl, vid, hookText) {{
+  if (!slideEl) return;
+  slideEl.querySelectorAll('.vo-pane[data-vid="' + vid + '"]').forEach(p => {{
+    const h = p.querySelector('.fv-hook');
+    if (h) h.textContent = hookText;
+  }});
+}}
 document.querySelectorAll('.slide').forEach(sl => {{
   sl.querySelectorAll('.hook-radio:checked').forEach(rb => {{
-    const vid = rb.getAttribute('data-vid');
-    const fv = sl.querySelector('.final-vo[data-vid="' + vid + '"]');
-    if (fv) fv.querySelector('.fv-hook').textContent = rb.getAttribute('data-hook') || '';
+    syncFinalPanes(sl, rb.getAttribute('data-vid'), rb.getAttribute('data-hook') || '');
   }});
 }});
 saveState(state);
@@ -812,13 +905,38 @@ document.querySelectorAll('.hook-radio').forEach(rb => {{
     const key = slide + '::' + vid;
     const hook = rb.getAttribute('data-hook') || '';
     const label = rb.getAttribute('data-label') || '';
-    const val = rb.getAttribute('data-val');
-    // SCOPED to this slide — global selector was hitting wrong card when vids repeated across slides
-    const slideEl = rb.closest('.slide');
-    const fv = slideEl ? slideEl.querySelector('.final-vo[data-vid="' + vid + '"]') : null;
-    if (fv) fv.querySelector('.fv-hook').textContent = hook;
+    // Update BOTH Final + Final (Clarity) panes inside this slide
+    syncFinalPanes(rb.closest('.slide'), vid, hook);
     // Always record the active hook (including 'orig') so paste-back captures the current choice
     state.hookpick[key] = {{ label: label, text: hook }};
+    saveState(state); updatePanel();
+  }});
+}});
+
+// Ship-version radios — which body version (Final / Clarity) flows to paste-back
+if (!state.versionpick) state.versionpick = {{}};
+// Hydrate saved version picks
+document.querySelectorAll('.sv-radio').forEach(rb => {{
+  const slide = rb.getAttribute('data-slide');
+  const vid = rb.getAttribute('data-vid');
+  const ver = rb.getAttribute('data-version');
+  const key = slide + '::' + vid;
+  if (state.versionpick[key] === ver) rb.checked = true;
+}});
+// Seed default from currently-checked (server-rendered) so paste-back has it even before user clicks
+document.querySelectorAll('.sv-radio:checked').forEach(rb => {{
+  const slide = rb.getAttribute('data-slide');
+  const vid = rb.getAttribute('data-vid');
+  const key = slide + '::' + vid;
+  if (!state.versionpick[key]) state.versionpick[key] = rb.getAttribute('data-version');
+}});
+saveState(state);
+document.querySelectorAll('.sv-radio').forEach(rb => {{
+  rb.addEventListener('change', () => {{
+    const slide = rb.getAttribute('data-slide');
+    const vid = rb.getAttribute('data-vid');
+    const key = slide + '::' + vid;
+    state.versionpick[key] = rb.getAttribute('data-version');
     saveState(state); updatePanel();
   }});
 }});
@@ -866,13 +984,17 @@ function buildPrompt() {{
   const totalPicks = slidesWithPicks.reduce((acc, [k, v]) => acc + v.length, 0);
   lines.push(`PICKS (${{totalPicks}} scripts across ${{slidesWithPicks.length}} of ${{TOTAL_SLIDES}} ideas):`);
   if (slidesWithPicks.length === 0) lines.push('  (none yet)');
-  // Order by DOM slide order; list every picked vid per slide with its chosen hook
+  // Order by DOM slide order; list every picked vid per slide with its chosen hook + version
   document.querySelectorAll('.slide').forEach(sl => {{
     const sid = sl.getAttribute('data-slide-id');
     const arr = state.picks[sid] || [];
     arr.forEach(vid => {{
       let line = `  ${{sid}} -> ${{vid}}`;
-      const hp = state.hookpick && state.hookpick[sid + '::' + vid];
+      const key = sid + '::' + vid;
+      const ver = (state.versionpick && state.versionpick[key]) || 'final';
+      const verLabel = ver === 'clarity' ? 'Final VO (Clarity)' : 'Final VO';
+      line += ` · VERSION[${{verLabel}}]`;
+      const hp = state.hookpick && state.hookpick[key];
       if (hp) line += ` · HOOK[${{hp.label}}]: "${{hp.text}}"`;
       lines.push(line);
     }});
