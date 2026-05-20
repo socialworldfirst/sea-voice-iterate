@@ -158,7 +158,28 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
   <div class="hook-ctl">
     <div class="block-label">Hook · library-driven · click any to swap (★ = recommended default)</div>
     <div class="hook-opts" data-core="{esc(core)}">{''.join(opts)}</div>
-    <div class="final-vo" data-vid="{esc(script_id)}"><span class="fv-label">Final VO</span><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core">{esc(core)}</span></div>
+  </div>'''
+
+    # Tabbed VO view: Pure original → Brand polish → Final VO (default Final)
+    vo_tabs_block = f'''
+  <div class="vo-tabs">
+    <div class="vo-tab-nav">
+      <button class="vo-tab" data-tab="original" type="button">Pure original</button>
+      <span class="vo-arrow">→</span>
+      <button class="vo-tab" data-tab="polish" type="button">Brand polish</button>
+      <span class="vo-arrow">→</span>
+      <button class="vo-tab active" data-tab="final" type="button">Final VO</button>
+    </div>
+    <div class="vo-pane" data-pane="original" hidden>
+      <p class="vo vo-original">{esc(original_vo)}</p>
+    </div>
+    <div class="vo-pane" data-pane="polish" hidden>
+      <p class="vo vo-iterated">{diff_html}</p>
+      <div class="diff-legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></div>
+    </div>
+    <div class="vo-pane final-vo" data-pane="final" data-vid="{esc(script_id)}">
+      <p class="vo vo-final"><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core">{esc(core)}</span></p>
+    </div>
   </div>'''
 
     heat_pill = ''
@@ -186,6 +207,7 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     if factcheck:
         comments = factcheck.get('skeptic_comments', [])
         comment_items = []
+        hidden_count = 0
         for c in comments:
             # Handle both old string format and new {text, severity} format
             if isinstance(c, str):
@@ -194,16 +216,24 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
             else:
                 text = c.get('text', '')
                 severity = c.get('severity', 'mid')
-            comment_items.append(f'<li class="sc-{severity}"><span class="sc-mark"></span><span class="sc-text">{esc(text)}</span></li>')
+            hide = severity != 'high'
+            hidden_class = ' sc-hidden' if hide else ''
+            if hide:
+                hidden_count += 1
+            comment_items.append(f'<li class="sc-{severity}{hidden_class}"><span class="sc-mark"></span><span class="sc-text">{esc(text)}</span></li>')
         comments_html = '\n'.join(comment_items)
+        toggle_html = ''
+        if hidden_count > 0:
+            toggle_html = f'<button class="sc-toggle" type="button" data-collapsed-label="Show {hidden_count} more" data-expanded-label="Hide lower-severity">Show {hidden_count} more</button>'
         factcheck_block = f'''
   <div class="factcheck-block">
     <div class="fc-head">
       <span class="block-label">Skeptic test · what a Malaysian SMB might push back on</span>
     </div>
     <p class="fc-note">{esc(fc_note_text)}</p>
-    <div class="skeptic-comments">
+    <div class="skeptic-comments" data-collapsed="true">
       <ul>{comments_html}</ul>
+      {toggle_html}
     </div>
   </div>'''
 
@@ -222,18 +252,9 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     {rating_row}
   </header>
 
-  <div class="cols">
-    <div class="col original">
-      <div class="block-label">Pure original</div>
-      <p class="vo vo-original">{esc(original_vo)}</p>
-    </div>
-    <div class="col iterated">
-      <div class="block-label">Brand-polish iteration <span class="legend"><span class="diff-del">deleted</span> / <span class="diff-ins">added</span></span></div>
-      <p class="vo vo-iterated">{diff_html}</p>
-    </div>
-  </div>
-
   {hook_block}
+
+  {vo_tabs_block}
 
   {factcheck_block}
 
@@ -451,13 +472,6 @@ html, body {{ background: var(--bg); color: var(--ink);
   .ho-text {{ font-size: 12.5px; }}
 }}
 
-.final-vo {{ font-size: 15px; line-height: 1.65; color: var(--ink);
-  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
-  background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
-  padding: 14px 16px; position: relative; }}
-.fv-label {{ position: absolute; top: -8px; left: 12px; background: var(--bg);
-  padding: 0 6px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--ink-mute); font-weight: 600; }}
 .fv-hook {{ font-weight: 700; color: var(--pick); }}
 .fv-core {{ color: var(--ink); }}
 
@@ -505,10 +519,28 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .heat-medium {{ color: var(--flag-medium); background: rgba(148,97,0,0.08); }}
 .heat-high {{ color: var(--flag-high); background: rgba(176,48,96,0.08); }}
 
-.cols {{ display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-bottom: 1px solid var(--line-soft); }}
-.col {{ padding: 18px 22px; }}
-.col.original {{ border-right: 1px solid var(--line-soft); background: rgba(0,0,0,0.012); }}
-.col.iterated {{ background: rgba(10,109,47,0.025); }}
+/* Tabbed VO view: Pure original → Brand polish → Final VO */
+.vo-tabs {{ border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft); }}
+.vo-tab-nav {{ display: flex; align-items: center; gap: 6px; padding: 10px 22px;
+  background: var(--tint); border-bottom: 1px solid var(--line-soft); flex-wrap: wrap; }}
+.vo-tab {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600;
+  padding: 5px 11px; border: 1px solid var(--line); border-radius: 100px;
+  background: var(--bg); cursor: pointer; transition: all 0.15s; }}
+.vo-tab:hover {{ color: var(--ink); border-color: var(--ink-soft); }}
+.vo-tab.active {{ color: var(--pick); border-color: var(--pick);
+  background: rgba(10,109,47,0.08); }}
+.vo-arrow {{ font-family: var(--mono); font-size: 12px; color: var(--ink-mute); user-select: none; }}
+.vo-pane {{ padding: 18px 22px; }}
+.vo-pane[hidden] {{ display: none; }}
+.vo-pane.final-vo {{ background: rgba(10,109,47,0.025); border-top: 0;
+  border: 0; border-radius: 0; }}
+.vo-pane.final-vo .vo-final {{ font-size: 15px; line-height: 1.65; }}
+.vo-pane[data-pane="original"] {{ background: rgba(0,0,0,0.012); }}
+.vo-pane[data-pane="polish"] {{ background: rgba(10,109,47,0.015); }}
+.diff-legend {{ font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em;
+  color: var(--ink-mute); margin-top: 8px; }}
+.diff-legend .diff-del, .diff-legend .diff-ins {{ padding: 0 4px; border-radius: 3px; }}
 
 .block-label {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-mute); font-weight: 600; margin-bottom: 10px;
@@ -559,6 +591,14 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .skeptic-comments li.sc-mid .sc-mark {{ background: var(--flag-medium); opacity: 0.6; }}
 .skeptic-comments li.sc-low {{ border-left-color: var(--line); color: var(--ink-mute); }}
 .skeptic-comments li.sc-low .sc-mark {{ background: var(--ink-mute); opacity: 0.4; }}
+.skeptic-comments[data-collapsed="true"] li.sc-hidden {{ display: none; }}
+.sc-toggle {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600;
+  background: none; border: 0; padding: 8px 0 2px; cursor: pointer;
+  transition: color 0.15s; }}
+.sc-toggle:hover {{ color: var(--ink); }}
+.sc-toggle::before {{ content: '▾ '; }}
+.skeptic-comments[data-collapsed="false"] .sc-toggle::before {{ content: '▴ '; }}
 
 .actions {{ padding: 14px 22px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }}
 .winner-radio {{ position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 12px; color: var(--ink-soft); font-family: var(--mono); letter-spacing: 0.04em; }}
@@ -601,10 +641,6 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .btn-copy {{ background: #fff; color: #111; }}
 .btn-copy.copied {{ background: var(--pick); color: #fff; }}
 
-@media (max-width: 1000px) {{
-  .cols {{ grid-template-columns: 1fr; }}
-  .col.original {{ border-right: none; border-bottom: 1px solid var(--line-soft); }}
-}}
 @media (max-width: 700px) {{
   .wrap {{ padding: 28px 14px 210px; }}
   h1 {{ font-size: 22px; }}
@@ -613,14 +649,15 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   .slide-info {{ gap: 6px; }}
   .slide-title {{ font-size: 12px; }}
   .script-card {{ border-radius: 8px; }}
-  .script-head, .hook-ctl, .factcheck-block, .actions {{ padding-left: 14px; padding-right: 14px; }}
-  .cols .col {{ padding: 14px; }}
+  .script-head, .hook-ctl, .factcheck-block, .actions, .vo-pane, .vo-tab-nav {{ padding-left: 14px; padding-right: 14px; }}
   .rating-row {{ gap: 4px; }}
   .rp, .overall, .heat-pill {{ font-size: 9px; padding: 2px 6px; }}
   .hook-select {{ font-size: 14px; padding: 11px 12px; }}
-  .final-vo {{ font-size: 15px; padding: 13px 14px; }}
+  .vo-tab {{ font-size: 9px; padding: 4px 9px; }}
+  .vo-arrow {{ font-size: 11px; }}
+  .vo-pane.final-vo .vo-final {{ font-size: 15px; }}
   .script-comment {{ width: calc(100% - 28px); margin: 0 14px 16px; font-size: 14px; }}
-  .vo, .vo-iterated, .vo-original {{ font-size: 14.5px; }}
+  .vo, .vo-iterated, .vo-original, .vo-final {{ font-size: 14.5px; }}
   .skeptic-comments li {{ grid-template-columns: 12px 1fr; font-size: 13px; }}
   .panel-bar {{ padding: 13px 14px; }}
   .panel-body {{ padding: 6px 14px 16px; }}
@@ -792,6 +829,32 @@ document.querySelectorAll('.copy-btn').forEach(btn => {{
     try {{ await navigator.clipboard.writeText(vo); btn.textContent = 'Copied'; btn.classList.add('copied');
       setTimeout(() => {{ btn.textContent = 'Copy polished'; btn.classList.remove('copied'); }}, 1500);
     }} catch (e) {{ console.error(e); }}
+  }});
+}});
+
+// Tabbed VO view (Pure original → Brand polish → Final VO)
+document.querySelectorAll('.vo-tab').forEach(btn => {{
+  btn.addEventListener('click', () => {{
+    const wrap = btn.closest('.vo-tabs');
+    if (!wrap) return;
+    const target = btn.getAttribute('data-tab');
+    wrap.querySelectorAll('.vo-tab').forEach(t => t.classList.toggle('active', t === btn));
+    wrap.querySelectorAll('.vo-pane').forEach(p => {{
+      p.hidden = p.getAttribute('data-pane') !== target;
+    }});
+  }});
+}});
+
+// Skeptic comments toggle — show only high-severity by default, expand to all
+document.querySelectorAll('.sc-toggle').forEach(btn => {{
+  btn.addEventListener('click', () => {{
+    const wrap = btn.closest('.skeptic-comments');
+    if (!wrap) return;
+    const collapsed = wrap.getAttribute('data-collapsed') === 'true';
+    wrap.setAttribute('data-collapsed', collapsed ? 'false' : 'true');
+    btn.textContent = collapsed
+      ? btn.getAttribute('data-expanded-label')
+      : btn.getAttribute('data-collapsed-label');
   }});
 }});
 
