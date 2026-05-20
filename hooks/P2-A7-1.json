@@ -29,7 +29,7 @@
       {
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
-        "text": "More business owners need to hear this. Negotiating the PI will not stop the 4% leak.",
+        "text": "More business owners need to hear this. Squeezing the PI won't plug the leak.",
         "recommended": false
       }
     ],
@@ -37,7 +37,7 @@
       {
         "category": "Educational Hooks",
         "template": "This is what (insert #) of (insert item) looks like.",
-        "text": "This is what three years of a 4% bank leak looks like on 500K of sourcing.",
+        "text": "This is what three years of a 4% leak looks like on 500K sourcing.",
         "recommended": false
       },
       {
@@ -75,7 +75,7 @@
       {
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
-        "text": "This is why a business owner blames the supplier deal. It was never the supplier.",
+        "text": "This is why a business owner blames the supplier. It was never the supplier.",
         "recommended": true
       },
       {
@@ -113,13 +113,13 @@
       {
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
-        "text": "More business owners need to hear this. A 2% PI win will not fix a 4% bank leak.",
+        "text": "More business owners need to hear this. A 2% PI win can't fix a 4% leak.",
         "recommended": true
       },
       {
         "category": "Educational Hooks",
         "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
-        "text": "Here is how a business owner reframes the leak so they stop blaming the factory.",
+        "text": "Here is how a business owner reframes the leak and stops blaming factories.",
         "recommended": false
       },
       {
@@ -139,7 +139,7 @@
       {
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
-        "text": "If you source from China and want to stop year four of this leak, listen.",
+        "text": "Sourcing from China and want year four of this leak stopped? Listen.",
         "recommended": false
       },
       {
@@ -157,7 +157,7 @@
       {
         "category": "Educational Hooks",
         "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
-        "text": "Took years for business owners to spot this leak. Here it is in 60 seconds.",
+        "text": "Business owners took years to spot this leak. Here it is in 60 seconds.",
         "recommended": false
       }
     ],
@@ -165,7 +165,7 @@
       {
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
-        "text": "More business owners need to hear this. Squeezing MOQ will not plug a 4% leak.",
+        "text": "More business owners need to hear this. Squeezing MOQ won't plug a 4% leak.",
         "recommended": true
       },
       {
@@ -177,7 +177,7 @@
       {
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
-        "text": "This is why chasing 1% on the PI keeps a business owner stuck on margin.",
+        "text": "This is why chasing 1% on the PI keeps a business owner stuck.",
         "recommended": false
       },
       {
@@ -209,7 +209,7 @@
       {
         "category": "Authority Hooks",
         "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
-        "text": "Over three years, that bank vendor cost a business owner a hire and a warehouse rack.",
+        "text": "Over three years, that bank vendor cost a business owner a full hire.",
         "recommended": false
       },
       {
@@ -253,7 +253,7 @@
       {
         "category": "Random Hooks",
         "template": "What (insert title) says vs what they mean.",
-        "text": "What a business owner thinks they save on the PI vs what they lose on the wire.",
+        "text": "What a business owner saves on the PI vs loses on the wire.",
         "recommended": false
       }
     ],
@@ -285,7 +285,7 @@
       {
         "category": "Authority Hooks",
         "template": "10 years it took me from (insert before state) to (insert after state).",
-        "text": "Took years for business owners to see the rate is the cost, not the fee.",
+        "text": "Business owners took years to see the rate is the cost, not the fee.",
         "recommended": false
       }
     ],
@@ -305,7 +305,7 @@
       {
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
-        "text": "More business owners need to hear this. Scale is feeding the bank, not the brand.",
+        "text": "More business owners need to hear this. Scale feeds the bank, not them.",
         "recommended": false
       },
       {

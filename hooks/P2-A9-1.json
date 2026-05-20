@@ -1,1 +1,325 @@
-{"slide_id":"P2-A9-1","hooks":[{"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"Your bank said we'll give you a good rate. Good for who? That's a lie.","recommended":true},{"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Every bank says good rate. Nobody shows the real number. Here's the 10-second check.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner got the real rate his bank hid inside the word good.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner read his bank's good rate and missed something costing 2 percent.","recommended":false},{"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank says: a good rate. What they mean: good for the bank.","recommended":false}]}
+{
+  "slide_id": "P2-A9-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "Banks say \"good rate.\" Good for them, not the business owner.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much a 2.4% rate gap costs on a 100K wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "240 dollars lost on a 10K wire. Here's the math banks hide.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says check your FX rate. Nobody shows the 10-second tab test.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting \"good rate\" quietly drains every supplier wire.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "I'm going to tell you how to get (insert result), (insert mind-blowing method).",
+        "text": "Here's how to translate \"we'll give you a good rate\" into the actual number.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Let me de-influence you from (insert action).",
+        "text": "Let me de-influence any business owner from accepting adjectives on a wire.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Slightly unethical bank trick every importer should know about \"good rate.\"",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What the bank says vs what the bank actually means by \"good rate.\"",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop accepting an adjective for a price on supplier wires.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Educational Hooks",
+        "template": "Money can buy you (insert item) but it cannot buy you (insert result).",
+        "text": "The word \"good\" cost a business owner a hire and Q3 inventory.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why one word on a bank call quietly eats yearly margin.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner can't see interbank, open XE before confirming the wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "One adjective took a business owner from healthy margin to missed hire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. \"Good\" will not protect margin.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly what \"good rate\" hides on every supplier wire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "\"Good\" is not a rate. It's a relative word with no number behind it.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are 3 people who will make you a better (insert title).",
+        "text": "Three free tabs that make any business owner a sharper FX checker.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn \"good rate\" into a real number in one tab.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't confirm a supplier wire until comparing one free quote.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much hidden margin sits inside a \"good rate\" wire.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner wants honest FX, this two-column test takes 10 seconds.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a bank quote into a verified rate in two columns.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says check FX. Here's the 10-second two-column test to save.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't wire to China until running the two-column rate test.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. \"Good rate\" is marketing, not a number.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "It all started when (insert person) (insert action).",
+        "text": "It all started when a friend's bank called the 7.05 rate \"good.\"",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting the word \"good\" cost a friend 1,200 dollars.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Just found the biggest cheat code for any business owner paying China.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What \"good rate\" sounds like vs what the bank actually means by it.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "\"We'll give you a good rate.\" The most successful banking line ever written.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "A thousand dollars hidden in one 50K wire. The fix takes one tab.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Money can buy you (insert item) but it cannot buy you (insert result).",
+        "text": "Good marketing sells a business owner a feeling, not a real number.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using \"good\" as a price on supplier wires.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Slightly unethical bank tactic every business owner paying China should know.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "Time for business owners to throw away the adjective and ask for the number.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "\"Good rate\" is an adjective. A real rate is a number.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).",
+        "text": "This is the rate when a business owner checks. And when they don't.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What \"best rate, special rate, preferred rate\" actually mean to a bank.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't send 80K to a supplier until comparing the bank quote to Google.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
+        "text": "Here's the FX habit that makes business owners physically check before confirming.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why the comparison trick behind \"good rate\" quietly eats margin.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Just spotted the comparison cheat code banks use on every supplier wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a vague \"good rate\" into a hard number in 5 seconds.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. \"Good\" compared to what exactly.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner has ever heard \"good rate\" from a bank, watch this.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When the RM calls a business owner, the word \"good\" does the lifting.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "\"Good\" is a feeling. A rate is a number. Don't confuse them.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says trust the rate. Here's the 5-second Google check to save.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using a feeling to price supplier wires. Use the number.",
+        "recommended": false
+      }
+    ]
+  }
+}
