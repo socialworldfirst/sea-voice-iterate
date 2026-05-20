@@ -385,6 +385,12 @@ html, body {{ background: var(--bg); color: var(--ink);
 .slide-counter {{ font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-mute); font-weight: 600;
   padding: 4px 10px; border: 1px solid var(--line); border-radius: 100px; }}
+.picks-counter {{ font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600;
+  padding: 4px 10px; border: 1px solid var(--line); border-radius: 100px;
+  transition: color 0.15s, border-color 0.15s, background 0.15s; }}
+.picks-counter.has-picks {{ color: var(--pick); border-color: var(--pick);
+  background: rgba(10,109,47,0.06); }}
 .slide-id {{ font-family: var(--mono); font-size: 13px; font-weight: 700;
   letter-spacing: 0.04em; color: var(--ink); }}
 .slide-title {{ font-size: 14px; color: var(--ink-soft); font-weight: 500; }}
@@ -632,7 +638,6 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 <div class="hero">
   <div class="kicker">Sparkloop · /spark_script · per-idea slideshow</div>
   <h1>Pick one voice per produced idea</h1>
-  <p class="lede">Each produced idea from /spark_produce becomes a slide. Inside the slide: 10 voice variants (Hormozi PAS ×5 + Gary Vee ×5, each with brand-polish iteration showing surgical strikethrough + insertion), Claude rating, Heat metric, and severity-tagged skeptic comments. Pick one variant per slide. Last pick wraps Sparkloop.</p>
 </div>
 
 <!-- Slideshow nav -->
@@ -640,6 +645,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   <button class="nav-btn" id="prevBtn" title="Previous idea (←)">←</button>
   <div class="slide-info">
     <span class="slide-counter" id="slideCounter">Idea 1 of {len(SLIDES)}</span>
+    <span class="picks-counter" id="picksCounter">0 / {len(SLIDES)} picked</span>
     <span class="slide-id" id="slideId">{esc(SLIDES[0]['id'])}</span>
     <span class="slide-title" id="slideTitle">{esc(SLIDES[0]['title'])}</span>
   </div>
@@ -819,6 +825,12 @@ function updatePanel() {{
   if (p === 0 && c === 0) {{ ctx.innerHTML = '<span class="count-zero">0 of ' + TOTAL_SLIDES + ' slides picked · 0 comments</span>'; }}
   else {{ ctx.textContent = `${{p}} of ${{TOTAL_SLIDES}} slides picked · ${{c}} comments`; }}
   document.getElementById('panelPrompt').value = buildPrompt();
+  // Reactive picks counter in the idea bar
+  const pc = document.getElementById('picksCounter');
+  if (pc) {{
+    pc.textContent = p + ' / ' + TOTAL_SLIDES + ' picked';
+    pc.classList.toggle('has-picks', p > 0);
+  }}
 }}
 const panel = document.getElementById('panel');
 document.getElementById('panelBar').addEventListener('click', () => {{
