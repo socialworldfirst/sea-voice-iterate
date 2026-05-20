@@ -31,6 +31,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why trusting \"good rate\" quietly drains every supplier wire.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about what \"good rate\" really means.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop accepting an adjective for a price on supplier wires.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert action), explained simply.",
+        "text": "In this video: how to decode \"we'll give you a good rate,\" explained simply.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. \"Good\" will not protect margin.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about one word on a bank call.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -108,7 +126,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
         "text": "\"Good\" is not a rate. It's a relative word with no number behind it.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -127,6 +145,12 @@
         "template": "Don't (insert action) until you've done this one thing.",
         "text": "Don't confirm a supplier wire until comparing one free quote.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained simply.",
+        "text": "In this video: what \"good rate\" really means, explained simply. Interbank = the rate banks use with each other.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -158,6 +182,12 @@
         "category": "Myth-Busting Hooks",
         "template": "Don't (insert action) until you've done this one thing.",
         "text": "Don't wire to China until running the two-column rate test.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic), explained simply.",
+        "text": "Here's what every business owner needs to know about checking a bank rate, explained simply.",
         "recommended": false
       }
     ],
@@ -191,6 +221,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What \"good rate\" sounds like vs what the bank actually means by it.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about what \"good rate\" actually is.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -222,6 +258,12 @@
         "category": "Educational Hooks",
         "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
         "text": "Slightly unethical bank tactic every business owner paying China should know.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained simply.",
+        "text": "In this video: why \"we'll give you a good rate\" works on every business owner, explained simply.",
         "recommended": false
       }
     ],
@@ -255,6 +297,12 @@
         "template": "Don't (insert action) until you've done this one thing.",
         "text": "Don't send 80K to a supplier until comparing the bank quote to Google.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about \"good, best, preferred, special\" bank rates.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -287,6 +335,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. \"Good\" compared to what exactly.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert mechanism) works, explained simply.",
+        "text": "In this video: how the comparison trick behind \"good rate\" works, explained simply.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -318,6 +372,12 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using a feeling to price supplier wires. Use the number.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic), explained simply.",
+        "text": "Here's what every business owner needs to know about the word \"good\" on a bank call, explained simply.",
         "recommended": false
       }
     ]

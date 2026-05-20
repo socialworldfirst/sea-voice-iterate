@@ -31,6 +31,12 @@
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "Cards win in three places only. Here's the three-step rule.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about paying Chinese suppliers by card.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Myth-Busting Hooks",
         "template": "Don't (insert action) until you've done this one thing.",
         "text": "Don't run a production order on a card until reading this.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained.",
+        "text": "In this video: the 12K card ceiling on Chinese supplier payments, explained.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What a Chinese supplier says vs what the refused card actually means.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what (insert audience) needs to understand about (insert topic).",
+        "text": "Here's what every importer needs to understand about why factories refuse cards.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -126,6 +144,12 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why paying a factory by card scares the supplier.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: the real reason (insert action) (insert outcome), explained.",
+        "text": "In this video: the real reason Chinese factories say no to card payments, explained.",
         "recommended": false
       }
     ],
@@ -159,6 +183,12 @@
         "template": "If you don't have (insert item/action), do (insert item/action).",
         "text": "If a card won't work for production, use a CNY rail.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the three jobs a card can do in China.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -190,6 +220,12 @@
         "category": "Storytelling Hooks",
         "template": "When I (insert action), people said (insert feedback).",
         "text": "When importers pay by card on production, suppliers say one word: no.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: when (insert action) works and when it doesn't, explained.",
+        "text": "In this video: when card payments to Chinese suppliers work and when they don't, explained.",
         "recommended": false
       }
     ],
@@ -223,6 +259,12 @@
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If a business owner sources from China, the card has three jobs.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about where credit cards fit in Chinese supplier payments.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -254,6 +296,12 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "Same-day CNY to the factory. Here's how the rail beats Visa.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: the narrow conditions where (insert action) succeed, explained.",
+        "text": "In this video: the narrow conditions where card payments to Chinese suppliers succeed, explained.",
         "recommended": false
       }
     ],
@@ -287,6 +335,12 @@
         "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).",
         "text": "This is the payment from the supplier side. And from the buyer side.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what (insert audience) needs to understand about (insert topic).",
+        "text": "Here's what every business owner needs to understand about the chargeback risk Chinese suppliers carry.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -318,6 +372,12 @@
         "category": "Storytelling Hooks",
         "template": "If you are anything like me, you take your (insert event/item) very seriously.",
         "text": "If a business owner takes supplier payments seriously, this conversation lands.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: what (insert audience) actually mean when (insert action), explained.",
+        "text": "In this video: what Chinese suppliers actually mean when they refuse a card on WhatsApp, explained.",
         "recommended": false
       }
     ]

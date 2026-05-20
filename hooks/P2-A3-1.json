@@ -6,7 +6,7 @@
         "category": "Educational Hooks",
         "template": "Here's exactly how much (insert action/item) you need to (insert result)",
         "text": "Here's exactly how much a business owner loses wiring 50K to China.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -31,6 +31,12 @@
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "Full 50K landing in China same-day. Here's how business owners do it.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (audience) needs to know about (topic).",
+        "text": "Here's what every importer needs to know about why 50K becomes 48K.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Random Hooks",
         "template": "This is (insert large number) of (insert item)",
         "text": "This is 144,000 dollars of supplier wires, gone to bank margin.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: a breakdown of (topic) over (timeframe).",
+        "text": "In this video: how a 2.5% bank margin compounds to 144K over five years.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "Not to flex, but I'm pretty f*cking good at (insert skill/niche)",
         "text": "Not a flex, but business owners on WorldFirst skip the bank's hidden 2.5%.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (audience) should know about (topic).",
+        "text": "Here's what every importer should know about the 1,200 their bank quietly takes.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -127,6 +145,12 @@
         "template": "How to turn this into this in X simple steps",
         "text": "How to turn a 48K supplier shortfall into a full 50K payment.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: the difference between (a) and (b).",
+        "text": "In this video: the difference between the wire fee and the real cost.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -134,7 +158,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video",
         "text": "If a business owner wires to China, three things happen and they see one.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -159,6 +183,12 @@
         "template": "Here's exactly how you're gonna lock in if you want to (insert dream result)",
         "text": "Here's exactly how a business owner gets the full amount to a Chinese supplier.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (audience) needs to know about (topic).",
+        "text": "Here's what every importer needs to know about the three hits on a China wire.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video",
         "text": "If a business owner pays Chinese suppliers, this hidden 2.5% margin matters.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -191,6 +221,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result)",
         "text": "More business owners need to hear this: bank wires aren't the cheap option.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: where (amount) goes between (a) and (b).",
+        "text": "In this video: where 2,000 goes between a business owner and a Chinese supplier.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -223,6 +259,12 @@
         "template": "This is (insert large number) of (insert item)",
         "text": "This is 100,000 dollars of margin business owners hand banks every year.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (audience) needs to know about (topic).",
+        "text": "Here's what every importer needs to know about the true cost of a bank wire.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result)",
         "text": "Stop using a domestic bank to send international supplier payments to China.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -255,6 +297,12 @@
         "template": "If you don't have (insert item), do (insert item/action)",
         "text": "If a business owner doesn't have WorldFirst, the bank is taking a slice.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: a head-to-head look at (a) vs (b).",
+        "text": "In this video: a head-to-head look at sending 50K through a bank vs a specialist rail.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -287,6 +335,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result)",
         "text": "More business owners need to hear this: the wire fee isn't where banks earn.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (audience) needs to know about (topic).",
+        "text": "Here's what every importer needs to know about how banks actually earn on wires.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Storytelling Hooks",
         "template": "When I (insert action), people said (insert feedback)",
         "text": "When a business owner calls the bank, everyone blames someone else.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -319,6 +373,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point)",
         "text": "Business owners getting suppliers paid in full, without the blame-game phone calls.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (audience) needs to know about (topic).",
+        "text": "Here's what every importer needs to know about the bank blame-game phone call.",
+        "recommended": true
       }
     ]
   }

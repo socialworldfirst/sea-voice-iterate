@@ -18,7 +18,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If a business owner sources from China and wants 18K back, listen up.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Authority Hooks",
@@ -31,6 +31,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. Squeezing the PI won't plug the leak.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here is what every business owner needs to know about the 4% leaving their sourcing budget.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Random Hooks",
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 66 thousand dollars of margin a bank kept and nobody saw it.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained.",
+        "text": "In this video: how a 4% bank leak compounds into 66K over three years, explained.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
         "text": "They said \"negotiate harder with the supplier.\" The supplier never touched the money.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here is what every importer should know about where 4% of supplier wires actually goes.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -126,6 +144,12 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "17K back from switching the rail, not the factory. Three steps below.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained.",
+        "text": "In this video: why a business owner is negotiating with the wrong person, explained.",
         "recommended": false
       }
     ],
@@ -159,6 +183,12 @@
         "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
         "text": "Business owners took years to spot this leak. Here it is in 60 seconds.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here is what every China importer needs to know about the rate on every wire.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -191,6 +221,12 @@
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If a business owner wants 4% of their budget back, hear this out.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained.",
+        "text": "In this video: where 4 percent of every supplier payment quietly goes, explained.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. Their biggest vendor is the bank.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -223,6 +259,12 @@
         "template": "After X years of (insert action) I realized one thing: (insert statement).",
         "text": "After years of importing, business owners realise one thing. The vendor is the bank.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here is what every business owner needs to know about their most expensive vendor.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -254,6 +296,12 @@
         "category": "Random Hooks",
         "template": "What (insert title) says vs what they mean.",
         "text": "What a business owner saves on the PI vs loses on the wire.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained.",
+        "text": "In this video: why the supplier is not the leak and the rail is, explained.",
         "recommended": false
       }
     ],
@@ -287,6 +335,12 @@
         "template": "10 years it took me from (insert before state) to (insert after state).",
         "text": "Business owners took years to see the rate is the cost, not the fee.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here is what every business owner needs to know about the rate hidden in every wire.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why a business owner works harder every year and keeps less.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -319,6 +373,12 @@
         "template": "After X years of (insert action) I realized one thing: (insert statement).",
         "text": "After years of importing, a business owner realises growth is feeding the bank.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here is what every growing importer needs to know about why scale feeds the bank.",
+        "recommended": true
       }
     ]
   }
