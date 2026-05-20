@@ -175,24 +175,21 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     clarity_tab_active = ' active' if is_clarity_default else ''
     final_pane_hidden = ' hidden' if is_clarity_default else ''
     clarity_pane_hidden = '' if is_clarity_default else ' hidden'
-    # Ship-version radios: which version flows to the paste-back
-    ship_name = f"ship-{esc(slide_id)}-{esc(script_id)}"
-    final_ship_checked = '' if is_clarity_default else ' checked'
-    clarity_ship_checked = ' checked' if is_clarity_default else ''
-    final_rec_badge = '' if is_clarity_default else '<span class="sv-rec">★ recommended</span>'
-    clarity_rec_badge = '<span class="sv-rec">★ recommended</span>' if is_clarity_default else ''
+    final_rec_badge = '' if is_clarity_default else '<span class="vo-rec">★</span>'
+    clarity_rec_badge = '<span class="vo-rec">★</span>' if is_clarity_default else ''
     clarity_word_count = len(clarity_text.split()) if has_clarity_body else 0
     clarity_pending_note = '' if has_clarity_body else '<div class="vo-pending">Clarity version pending generation. Showing Final VO as fallback.</div>'
+    # Tabs ARE the ship-version selector. Clicking a tab = picking that version. Active tab = picked version.
     vo_tabs_block = f'''
-  <div class="vo-tabs">
+  <div class="vo-tabs" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}">
     <div class="vo-tab-nav">
-      <button class="vo-tab" data-tab="original" type="button">Pure original</button>
+      <button class="vo-tab" data-tab="original" data-version="Pure original" type="button">Pure original</button>
       <span class="vo-arrow">→</span>
-      <button class="vo-tab" data-tab="polish" type="button">Brand polish</button>
+      <button class="vo-tab" data-tab="polish" data-version="Brand polish" type="button">Brand polish</button>
       <span class="vo-arrow">→</span>
-      <button class="vo-tab{final_tab_active}" data-tab="final" type="button">Final VO</button>
+      <button class="vo-tab{final_tab_active}" data-tab="final" data-version="Final VO" type="button">Final VO {final_rec_badge}</button>
       <span class="vo-arrow">→</span>
-      <button class="vo-tab{clarity_tab_active}" data-tab="final-clarity" type="button">Final VO (Clarity)</button>
+      <button class="vo-tab{clarity_tab_active}" data-tab="final-clarity" data-version="Final VO (Clarity)" type="button">Final VO (Clarity) {clarity_rec_badge}</button>
     </div>
     <div class="vo-pane" data-pane="original" hidden>
       <p class="vo vo-original">{esc(original_vo)}</p>
@@ -208,21 +205,6 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
       {clarity_pending_note}
       <p class="vo vo-final"><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core-clarity">{esc(core_clarity)}</span></p>
       <div class="vo-clarity-meta">{clarity_word_count} words {"(longer, 5th-6th grade English, story-mode)" if has_clarity_body else ""}</div>
-    </div>
-    <div class="ship-version" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}">
-      <span class="sv-label">Ship version:</span>
-      <label class="sv-opt">
-        <input type="radio" name="{ship_name}" class="sv-radio" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" data-version="final"{final_ship_checked}>
-        <span class="sv-mark"></span>
-        <span class="sv-text">Final VO</span>
-        {final_rec_badge}
-      </label>
-      <label class="sv-opt">
-        <input type="radio" name="{ship_name}" class="sv-radio" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" data-version="clarity"{clarity_ship_checked}>
-        <span class="sv-mark"></span>
-        <span class="sv-text">Final VO (Clarity)</span>
-        {clarity_rec_badge}
-      </label>
     </div>
   </div>'''
 
@@ -274,7 +256,6 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
     <div class="fc-head">
       <span class="block-label">Skeptic test · what a Malaysian SMB might push back on</span>
     </div>
-    <p class="fc-note">{esc(fc_note_text)}</p>
     <div class="skeptic-comments" data-collapsed="true">
       <ul>{comments_html}</ul>
       {toggle_html}
@@ -597,26 +578,9 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   padding: 8px 12px; background: rgba(0,0,0,0.04); border-radius: 6px; margin-bottom: 10px;
   border-left: 3px solid var(--ink-mute); }}
 
-/* Ship-version selector */
-.ship-version {{ display: flex; gap: 14px; align-items: center; padding: 10px 22px;
-  background: var(--tint); border-top: 1px solid var(--line-soft); flex-wrap: wrap; }}
-.sv-label {{ font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--ink-mute); font-weight: 600; }}
-.sv-opt {{ position: relative; display: inline-flex; align-items: center; gap: 8px;
-  cursor: pointer; font-size: 12px; color: var(--ink-soft); padding: 4px 10px;
-  border: 1px solid var(--line); border-radius: 100px; background: var(--bg); transition: all 0.15s; }}
-.sv-opt:hover {{ border-color: var(--ink-soft); color: var(--ink); }}
-.sv-opt input {{ position: absolute; opacity: 0; }}
-.sv-mark {{ width: 12px; height: 12px; border: 2px solid var(--line); border-radius: 50%;
-  background: var(--bg); position: relative; transition: all 0.15s; }}
-.sv-opt input:checked ~ .sv-mark {{ border-color: var(--pick); }}
-.sv-opt input:checked ~ .sv-mark::after {{ content: ''; display: block; width: 6px; height: 6px;
-  border-radius: 50%; background: var(--pick); position: absolute; top: 1px; left: 1px; }}
-.sv-opt:has(input:checked) {{ border-color: var(--pick); color: var(--pick);
-  background: rgba(10,109,47,0.06); font-weight: 600; }}
-.sv-rec {{ font-family: var(--mono); font-size: 8px; letter-spacing: 0.06em;
-  text-transform: uppercase; color: var(--pick); font-weight: 700;
-  padding: 1px 6px; border-radius: 100px; background: rgba(10,109,47,0.10); }}
+/* Recommended marker on a tab (★ = Claude's default ship version) */
+.vo-rec {{ display: inline-block; margin-left: 4px; color: var(--pick); font-size: 11px; font-weight: 700; }}
+.vo-tab.active .vo-rec {{ color: var(--pick); }}
 
 /* Ultra Clarity hook — distinct visual */
 .hook-opt-ultra {{ border-color: rgba(148,97,0,0.30); background: rgba(148,97,0,0.04); }}
@@ -913,33 +877,29 @@ document.querySelectorAll('.hook-radio').forEach(rb => {{
   }});
 }});
 
-// Ship-version radios — which body version (Final / Clarity) flows to paste-back
+// VO tabs ARE the ship-version selector. Active tab = picked version. No separate radio.
 if (!state.versionpick) state.versionpick = {{}};
-// Hydrate saved version picks
-document.querySelectorAll('.sv-radio').forEach(rb => {{
-  const slide = rb.getAttribute('data-slide');
-  const vid = rb.getAttribute('data-vid');
-  const ver = rb.getAttribute('data-version');
+// Restore saved tab from state, OR seed default from server-rendered active tab
+document.querySelectorAll('.vo-tabs').forEach(wrap => {{
+  const slide = wrap.getAttribute('data-slide');
+  const vid = wrap.getAttribute('data-vid');
   const key = slide + '::' + vid;
-  if (state.versionpick[key] === ver) rb.checked = true;
-}});
-// Seed default from currently-checked (server-rendered) so paste-back has it even before user clicks
-document.querySelectorAll('.sv-radio:checked').forEach(rb => {{
-  const slide = rb.getAttribute('data-slide');
-  const vid = rb.getAttribute('data-vid');
-  const key = slide + '::' + vid;
-  if (!state.versionpick[key]) state.versionpick[key] = rb.getAttribute('data-version');
+  const saved = state.versionpick[key];
+  if (saved) {{
+    // Find tab whose data-version matches the saved label
+    const match = wrap.querySelector('.vo-tab[data-version="' + saved + '"]');
+    if (match) {{
+      wrap.querySelectorAll('.vo-tab').forEach(t => t.classList.toggle('active', t === match));
+      const target = match.getAttribute('data-tab');
+      wrap.querySelectorAll('.vo-pane').forEach(p => {{ p.hidden = p.getAttribute('data-pane') !== target; }});
+    }}
+  }} else {{
+    // Seed from server-rendered active tab so paste-back has it even before user clicks
+    const active = wrap.querySelector('.vo-tab.active');
+    if (active) state.versionpick[key] = active.getAttribute('data-version');
+  }}
 }});
 saveState(state);
-document.querySelectorAll('.sv-radio').forEach(rb => {{
-  rb.addEventListener('change', () => {{
-    const slide = rb.getAttribute('data-slide');
-    const vid = rb.getAttribute('data-vid');
-    const key = slide + '::' + vid;
-    state.versionpick[key] = rb.getAttribute('data-version');
-    saveState(state); updatePanel();
-  }});
-}});
 document.querySelectorAll('.copy-btn').forEach(btn => {{
   btn.addEventListener('click', async (e) => {{
     e.stopPropagation();
@@ -950,16 +910,23 @@ document.querySelectorAll('.copy-btn').forEach(btn => {{
   }});
 }});
 
-// Tabbed VO view (Pure original → Brand polish → Final VO)
+// VO tabs — clicking a tab BOTH switches view AND records that as the ship version
 document.querySelectorAll('.vo-tab').forEach(btn => {{
   btn.addEventListener('click', () => {{
     const wrap = btn.closest('.vo-tabs');
     if (!wrap) return;
     const target = btn.getAttribute('data-tab');
+    const version = btn.getAttribute('data-version');
     wrap.querySelectorAll('.vo-tab').forEach(t => t.classList.toggle('active', t === btn));
     wrap.querySelectorAll('.vo-pane').forEach(p => {{
       p.hidden = p.getAttribute('data-pane') !== target;
     }});
+    const slide = wrap.getAttribute('data-slide');
+    const vid = wrap.getAttribute('data-vid');
+    if (slide && vid) {{
+      state.versionpick[slide + '::' + vid] = version;
+      saveState(state); updatePanel();
+    }}
   }});
 }});
 
@@ -991,9 +958,8 @@ function buildPrompt() {{
     arr.forEach(vid => {{
       let line = `  ${{sid}} -> ${{vid}}`;
       const key = sid + '::' + vid;
-      const ver = (state.versionpick && state.versionpick[key]) || 'final';
-      const verLabel = ver === 'clarity' ? 'Final VO (Clarity)' : 'Final VO';
-      line += ` · VERSION[${{verLabel}}]`;
+      const ver = (state.versionpick && state.versionpick[key]) || 'Final VO';
+      line += ` · VERSION[${{ver}}]`;
       const hp = state.hookpick && state.hookpick[key];
       if (hp) line += ` · HOOK[${{hp.label}}]: "${{hp.text}}"`;
       lines.push(line);

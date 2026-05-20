@@ -37,6 +37,12 @@
         "template": "Here's what every (audience) needs to know about (topic)",
         "text": "Here's what every business owner needs to know about the 10K leaving silently each year.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You spent 500,000 dollars sending money to Chinese suppliers this year. Your bank quietly kept 10,000 of it inside the exchange rate. You never saw it. Let us walk you through how.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: (plain summary of what gets explained)",
         "text": "In this video: where 50,000 dollars of sourcing money goes over five years, explained.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let us tell you a quiet story about your money. This year, you sent 500K to China. Next year, you'll do it again. Over five years, 50,000 dollars slowly disappears into the bank's pocket. Here's how it happens.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's what every (audience) needs to know about (topic)",
         "text": "Here's what every business owner needs to know about the gap between wire fees and rates.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a story most business owners never hear. This year, your bank took 10,000 dollars from your business. And you agreed to it. Every single time. Let us walk you through how that happened.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: (plain summary of what gets explained)",
         "text": "In this video: why the real cost of a China wire lives in the rate, not the fee.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let us share something most business owners get wrong about their books. When you wire money to China, you see a 25 dollar fee and you think that's the cost. We're sorry to tell you. That's not the cost.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what every (audience) needs to know about (topic)",
         "text": "Here's what every business owner needs to know about the three charges on each China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you wire money to China, please listen. Three things happen on every payment. You only see one of them. We want to walk you through all three, so the other two stop quietly costing you 10,000 dollars a year.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "In this video: (plain summary of what gets explained)",
         "text": "In this video: where 10,000 dollars goes silently every year on China sourcing, explained.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Hey, this is for every business owner sourcing from China. We want to share something quiet that's happening to your money. This year, the bank kept 10,000 dollars from your sourcing budget. You never saw it. Let us explain.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "Here's what every (audience) needs to know about (topic)",
         "text": "Here's what every business owner needs to know about the P&L line their bank never prints.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let us paint a picture for you. Your bank is one of the biggest costs in your sourcing budget. And the strange part is, you can't even see it. We want to show you exactly where it hides.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "In this video: (plain summary of what gets explained)",
         "text": "In this video: why a domestic bank is the wrong rail for China supplier payments.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let us share a thought with you. Your bank is not the right tool for paying Chinese suppliers. You wouldn't use a hammer to cut a piece of wood. So why use a local bank for a 500K-a-year sourcing wire? Let us show you.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "Here's what every (audience) needs to know about (topic)",
         "text": "Here's what every business owner needs to know about how banks really earn on a wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something nobody's telling you about your sourcing budget. Your bank doesn't really make money on the wire fee. They make it on the rate. And we want to walk you through exactly how.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "In this video: (plain summary of what gets explained)",
         "text": "In this video: the quiet 10K-a-year tax sitting on a 500K sourcing budget, explained.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a quiet story for every business owner sourcing from China. You think your sourcing budget is your sourcing budget. It isn't. Your bank is running a 10,000-dollar tax on your supply chain. Let us show you.",
+        "recommended": false
       }
     ]
   }

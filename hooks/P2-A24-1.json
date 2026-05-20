@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about paying Chinese suppliers by card.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay, real quick. If you buy stuff from China, you probably think your credit card is useless. We've been there. The truth is your card is fine, it just got sold to you the wrong way. Let us walk through it.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: (insert topic), explained.",
         "text": "In this video: the 12K card ceiling on Chinese supplier payments, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a story we hear all the time. A buyer pays a Chinese factory by card. It works once. They try a bigger order. The card gets refused. Same factory. Same card. So what changed? There's a wall.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what (insert audience) needs to understand about (insert topic).",
         "text": "Here's what every importer needs to understand about why factories refuse cards.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Quick story. Your factory in China keeps refusing your card. You're getting annoyed at them. We get it. But you might be aiming your frustration at the wrong place. Here's what's really going on.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -150,6 +168,12 @@
         "category": "Clarity",
         "template": "In this video: the real reason (insert action) (insert outcome), explained.",
         "text": "In this video: the real reason Chinese factories say no to card payments, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let us tell you the part of this story most buyers miss. When you pay a Chinese factory by card, the problem is not the fee. The problem is the risk. Stay with us for a second.",
         "recommended": false
       }
     ],
@@ -189,6 +213,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the three jobs a card can do in China.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay, if you buy from Chinese suppliers, this one's for you. Pull up a chair. Your credit card has three jobs. Just three. And most buyers we talk to are using it for the wrong things.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -226,6 +256,12 @@
         "category": "Clarity",
         "template": "In this video: when (insert action) works and when it doesn't, explained.",
         "text": "In this video: when card payments to Chinese suppliers work and when they don't, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay, story time. If you buy from China, we've all been here. You keep trying to pay your supplier with your credit card. They keep saying no. You think they're just being difficult. They're not.",
         "recommended": false
       }
     ],
@@ -265,6 +301,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about where credit cards fit in Chinese supplier payments.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something we want to share. We think the credit card is the most over-hyped payment method in the whole cross-border buying world. Hear us out for a second. Most buyers are using it for the wrong job.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -302,6 +344,12 @@
         "category": "Clarity",
         "template": "In this video: the narrow conditions where (insert action) succeed, explained.",
         "text": "In this video: the narrow conditions where card payments to Chinese suppliers succeed, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay, picture this. You're in your garage. You have a nail to drive in. Would you grab a screwdriver to hit it? No. You'd grab a hammer. Same with paying Chinese suppliers. The card is just the wrong tool here.",
         "recommended": false
       }
     ],
@@ -341,6 +389,12 @@
         "template": "Here's what (insert audience) needs to understand about (insert topic).",
         "text": "Here's what every business owner needs to understand about the chargeback risk Chinese suppliers carry.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something most buyers don't get told about credit cards and Chinese suppliers. Lean in for a second. The reason your factory keeps saying no isn't the 3% card fee. It's something else entirely.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -378,6 +432,12 @@
         "category": "Clarity",
         "template": "In this video: what (insert audience) actually mean when (insert action), explained.",
         "text": "In this video: what Chinese suppliers actually mean when they refuse a card on WhatsApp, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. We see it every week. You're sourcing from China. You message your supplier on WhatsApp. Hey, can I pay by Visa? They say no. You ask another supplier. Same answer. You're getting suspicious.",
         "recommended": false
       }
     ]

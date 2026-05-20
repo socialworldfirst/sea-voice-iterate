@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about what \"good rate\" really means.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You are sending 10,000 dollars to your supplier in China. Your bank says, do not worry, we will give you a good rate. Sounds nice, right? But here is what that word good actually costs you.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: (insert action), explained simply.",
         "text": "In this video: how to decode \"we'll give you a good rate,\" explained simply.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your bank just told you, we will give you a good rate. Sounds friendly. But let us translate that one sentence into plain English. What did they really just promise you? Stick with us for 30 seconds.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about one word on a bank call.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here is a true story. A business owner heard the word good on a bank call. Just one word. By the end of the year, that one word had quietly eaten enough money to cover a new hire. Let us show you how.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: (insert topic), explained simply.",
         "text": "In this video: what \"good rate\" really means, explained simply. Interbank = the rate banks use with each other.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Quick question. When your bank says good rate, good compared to what? That tiny question is the one your bank hopes you never ask out loud. Let us walk through what the answer actually looks like.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -188,6 +212,12 @@
         "category": "Clarity",
         "template": "Here's what every (insert audience) needs to know about (insert topic), explained simply.",
         "text": "Here's what every business owner needs to know about checking a bank rate, explained simply.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Grab a piece of paper. Draw two columns. On the left, write down what your bank just quoted you. On the right, what the real rate was at that exact minute. We are about to show you why those two numbers almost never match.",
         "recommended": false
       }
     ],
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about what \"good rate\" actually is.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A friend of ours runs a small import business. His bank called last Tuesday and said, we have a good rate for you today. He said okay, sent the wire, and lost 1,200 dollars he never saw. Here is how it happened.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -264,6 +300,12 @@
         "category": "Clarity",
         "template": "In this video: (insert topic), explained simply.",
         "text": "In this video: why \"we'll give you a good rate\" works on every business owner, explained simply.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "We want to tell you about a sentence that has quietly made banks billions of dollars. Six little words. We will give you a good rate. Sounds harmless, right? Let us show you why it is the most expensive sentence in banking.",
         "recommended": false
       }
     ],
@@ -303,6 +345,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about \"good, best, preferred, special\" bank rates.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Good rate. Best rate. Preferred rate. Special rate. Notice anything about those four words? Not one of them is a number. Your bank uses them every day, and we are about to show you why that should bother you.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: how (insert mechanism) works, explained simply.",
         "text": "In this video: how the comparison trick behind \"good rate\" works, explained simply.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here is a little trick most banks will never explain to you. When they say good rate, they are quietly comparing it to a worse rate they could have given you. Not to the real one. Let us show you what that comparison actually looks like.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -378,6 +432,12 @@
         "category": "Clarity",
         "template": "Here's what every (insert audience) needs to know about (insert topic), explained simply.",
         "text": "Here's what every business owner needs to know about the word \"good\" on a bank call, explained simply.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture the scene. Your relationship manager calls. Hey, we have a good rate for you today. You feel valued. You send the wire. Your supplier receives less than you expected. And nobody ever joins the dots. Let us join them for you.",
         "recommended": false
       }
     ]

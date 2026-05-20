@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
         "text": "Here's what every business owner needs to know about the true cost of a 20K PayPal supplier payment.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Say you run a small business and you owe your factory in China twenty thousand dollars. You open PayPal, hit send, and the screen says twenty thousand. Done, right? Not really. Let us walk you through what really happened.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: (insert specific topic), explained.",
         "text": "In this video: how PayPal supplier payments compound to 85K over three years, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You pay your Chinese supplier twenty thousand dollars through PayPal once a month. The receipt says twenty thousand. But over three years, that quiet habit grows into eighty five thousand dollars going out the back door. Here is how.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
         "text": "Here's what every business owner needs to know about reading a PayPal receipt for supplier payments.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your PayPal receipt is not wrong. It just does not tell the full story. Say you sent twenty thousand dollars to your factory in China. The receipt looks clean. But behind that screen, three quiet fees are stacking up. Let us show you.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -150,6 +168,12 @@
         "category": "Clarity",
         "template": "In this video: (insert specific topic), explained.",
         "text": "In this video: the three fee layers behind a 20K PayPal supplier payment, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "When you pay a Chinese supplier through PayPal, the fee you see is not the only fee. There are actually three layers stacked on one invoice, and most business owners only ever notice the first one. Let us walk you through all three.",
         "recommended": false
       }
     ],
@@ -189,6 +213,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
         "text": "Here's what every business owner needs to know about the three hidden costs in a PayPal supplier payment.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "On your last twenty thousand dollar order to China through PayPal, three things actually happened. Your receipt only showed you one of them. Let us walk you through the two hidden fees you never saw on the screen.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "In this video: (insert specific topic), explained.",
         "text": "In this video: the full cost of a 20K PayPal payment to a Chinese factory, explained.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Say you just sent twenty thousand dollars to your factory in China through PayPal. The app shows the payment went through. Looks fine, right? But three fees are stacking up behind that confirmation screen. Let us walk you through each one.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -264,6 +300,12 @@
         "category": "Clarity",
         "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
         "text": "Here's what every business owner needs to know about how PayPal fees compound on supplier payments.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You pay your Chinese supplier twenty thousand dollars through PayPal every month. Feels easy. But stretched over three years, that habit quietly costs you over eighty five thousand dollars in fees. Let us show you how it compounds.",
         "recommended": false
       }
     ],
@@ -303,6 +345,12 @@
         "template": "In this video: (insert specific topic), explained.",
         "text": "In this video: why PayPal is the wrong tool for 20K Chinese supplier payments, explained.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You would not use a credit card to buy a house. So picture this. You are about to send twenty thousand dollars to your factory in China, but you are using a payment app built for everyday shopping. Let us walk through what that really costs.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
         "text": "Here's what every business owner needs to know about the gap between a PayPal receipt and the real supplier cost.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You send twenty thousand dollars to your factory in China through PayPal. The receipt confirms twenty thousand. Job done, right? Not quite. Three quiet fees just happened, and only one of them is on that receipt. Let us show you.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -378,6 +432,12 @@
         "category": "Clarity",
         "template": "In this video: (insert specific topic), explained.",
         "text": "In this video: the all-in cost of a 20K PayPal supplier payment, including the 21-day hold, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You send twenty thousand dollars to your supplier through PayPal. Feels easy. But on top of the fees, PayPal also holds your supplier's money for twenty one days, so they quietly price that delay back into your next invoice. Let us walk through the full cost.",
         "recommended": false
       }
     ]

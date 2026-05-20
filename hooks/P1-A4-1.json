@@ -37,6 +37,12 @@
         "template": "In this video: (insert plain expectation of what's covered).",
         "text": "In this video: why your China supplier receives less than you wire, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A business owner sent fifty thousand dollars to China. Her supplier said only forty nine thousand eight hundred landed. She thought it was a scam. It was not. Three middle banks each took a small cut on the way through. Here is the full story.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "Here's what every (insert audience) should know about (insert topic).",
         "text": "Here's what every business owner should know about the real cost of wiring China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Every wire to China loses about two hundred dollars to middle banks. Do that twice a month for five years and you have quietly lost twenty four thousand dollars. That is one hire, one trade show, three months of stock. Here is where it all goes.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "This video explains (insert plain topic) for (insert audience).",
         "text": "This video explains where the missing 200 on your China wire actually went.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A business owner wired fifty thousand to China. Two hundred went missing. He thought it was a bank fee. It was not. Three middle banks he had never even heard of each took a slice on the way through. Here is exactly what happened.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "Here's what (insert audience) need to know about how (insert thing) actually works.",
         "text": "Here's what business owners need to know about how SWIFT wires to China actually work.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Most business owners think SWIFT moves their money to China. It does not. SWIFT just passes a message. The real banks in the middle move the money and each one takes a small cut. Here is how the whole chain actually works.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "In this video: the (insert number) things that happen when (insert action), explained simply.",
         "text": "In this video: the four things that happen when you wire China, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "When you wire fifty thousand to China, four things happen and you only see one. A wire fee. Then three middle banks each take a slice and stay invisible. Your supplier sees a smaller number land. Here is the full picture.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert plain topic).",
         "text": "Here's what every business owner needs to know about why China wires arrive short.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A business owner wired fifty thousand to her factory in China. The supplier said only forty nine thousand eight hundred landed. She thought the supplier was lying. The supplier was not. Middle banks took the cut. Here is the full story.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "This video: the (insert plain topic) every (insert audience) should understand.",
         "text": "This video: the hidden bank costs every business owner paying China should understand.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A business owner sent fifty thousand to her supplier in China. Two hundred dollars vanished. One wire. Now do that twice a month for five years. That is twenty four thousand dollars quietly gone to banks she has never met. Here is the whole math.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's a plain explanation of why (insert plain topic) for (insert audience).",
         "text": "Here's a plain explanation of why SWIFT is the wrong tool for paying China suppliers.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Imagine sending a contract by fax in twenty twenty six. Sounds silly, right. That is what using SWIFT to pay a Chinese supplier looks like today. A fifty year old messaging chain with middle banks taking cuts. Here is the simpler way to do it.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: how (insert plain topic) really works, for (insert audience).",
         "text": "In this video: how SWIFT wires to China really work, for any business owner.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "SWIFT is not one bank moving your money to China. It is a chain of two, three, sometimes four banks passing a message. Each one takes a cut. Your supplier sees a smaller number land. Here is exactly how the chain works.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's what happens when (insert plain scenario), explained for (insert audience).",
         "text": "Here's what happens when a China wire lands short, explained for any business owner.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A business owner called her bank about a short wire to China. The bank blamed the middle bank. The middle bank blamed the Chinese bank. Nobody took responsibility. Meanwhile her supplier waited. Here is what is really happening every time.",
+        "recommended": false
       }
     ]
   }

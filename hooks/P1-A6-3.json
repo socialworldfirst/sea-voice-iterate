@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the math of paying suppliers in USD.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Say you run a small business and you buy things from a factory in China. Every month you send them money. Let me walk through what's really happening to that money on the way over.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: (insert topic), explained simply.",
         "text": "In this video: the 5-year cost of paying Chinese suppliers in USD, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You send a wire to China every month for 5 years. Let's add up what those wires really cost you, dollar by dollar, when you pay in US dollars instead of Chinese yuan.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's what every (insert audience) should understand about (insert topic).",
         "text": "Here's what every business owner should understand about where the wire fees actually go.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let me tell you a story about your last big order to China. You sent 20,000 dollars in US dollars. The bank quietly took 280. You didn't see it on any statement. Here's exactly how it happened.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: how (insert mechanism) actually works.",
         "text": "In this video: how a USD wire to China actually works, two conversions in plain English.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You think a wire is one payment. One cost. It's actually two separate currency conversions stacked together. Let me walk you through what really happens to your 20,000 dollar invoice on the way to China.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the 4 hidden costs on a USD wire to China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your last 20,000 dollar order to China had four hidden costs in it. You probably saw none of them on your statement. Let me walk through all four, in plain English, before you send the next wire.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "In this video: (insert topic), explained simply.",
         "text": "In this video: what two banks actually take from a 20K USD wire to China, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You wire 20,000 US dollars to your supplier in China. But the amount that actually lands in their account is a little smaller. Two banks took a slice in the middle. Let me show you exactly how.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the line item you've never seen on a statement.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "The most expensive line item in your sourcing budget is one you've never actually seen on a statement. Let me explain what I mean with a single 20,000 dollar order to your supplier in China.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "In this video: why (insert topic), explained simply.",
         "text": "In this video: why paying a Chinese supplier in CNY beats USD, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Imagine you live in Singapore and rent a flat in London. You wouldn't pay your London landlord in Japanese yen. Same logic. Your supplier in Shenzhen lives in Chinese yuan, so why are you sending them US dollars?",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about how two banks earn on a USD wire to China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your payment to China passes through two banks on the way over. Both banks make money on the currency conversion. Let me walk you through one 20,000 dollar order and show you exactly where each piece of the money goes.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "In this video: what really happens when (insert scenario), explained simply.",
         "text": "In this video: what really happens when a USD wire to China goes wrong, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You wire 20,000 in US dollars to China. The order lands 4 days late, short by 360 dollars on the math. You call the bank. They blame the next bank. Nobody owns it. Sound familiar? Let me explain.",
+        "recommended": false
       }
     ]
   }

@@ -7,7 +7,8 @@
       {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why paying suppliers by card kills production deals.", "recommended": false},
       {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone says pay Alibaba by card. Nobody mentions the 12K wall.", "recommended": true},
       {"category": "Storytelling Hooks", "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).", "text": "A business owner hits checkout on Alibaba, card declines, here's why.", "recommended": false},
-      {"category": "Clarity", "template": "Here's what every (audience) needs to know about (specific topic).", "text": "Here's what every business owner needs to know about the 12K Alibaba card cap.", "recommended": false}
+      {"category": "Clarity", "template": "Here's what every (audience) needs to know about (specific topic).", "text": "Here's what every business owner needs to know about the 12K Alibaba card cap.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Okay, so picture this. You buy stuff from China for your business. One day your card stops working on Alibaba. You did nothing wrong. There is a wall, and we will explain where it sits.", "recommended": false}
     ],
     "PH2": [
       {"category": "Storytelling Hooks", "template": "So I did (insert action) last week.", "text": "So a business owner tried to pay 15K to a factory last week.", "recommended": false},
@@ -15,7 +16,8 @@
       {"category": "Myth-Busting Hooks", "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).", "text": "Cards work below 12K. T/T wire works above. No exceptions.", "recommended": false},
       {"category": "Authority Hooks", "template": "My customer/client got (insert dream result) without (insert pain point).", "text": "A business owner paid 15K to China same-day without touching a card.", "recommended": false},
       {"category": "Educational Hooks", "template": "When you get (insert item/result), here are the # things you got to do right away.", "text": "When orders cross 12K, here's the rail every business owner needs.", "recommended": false},
-      {"category": "Clarity", "template": "In this video: (specific outcome/topic), explained simply.", "text": "In this video: the hard cap that kills card payments to suppliers, explained simply.", "recommended": false}
+      {"category": "Clarity", "template": "In this video: (specific outcome/topic), explained simply.", "text": "In this video: the hard cap that kills card payments to suppliers, explained simply.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Picture this with us. You owe your factory 15,000 dollars. You hit pay on Alibaba. Card declined. You try again. Declined. The card is fine. So what is going on? Let us tell you.", "recommended": false}
     ],
     "PH3": [
       {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.", "text": "They said Alibaba accepts any card. Try sending 15K and see.", "recommended": false},
@@ -23,7 +25,8 @@
       {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone says use your card on Alibaba. Nobody mentions the ceiling.", "recommended": false},
       {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why a 100K credit limit can't pay a 15K deposit.", "recommended": false},
       {"category": "Authority Hooks", "template": "How to turn this into this in X simple steps.", "text": "How a blocked card becomes a same-day T/T to China in minutes.", "recommended": false},
-      {"category": "Clarity", "template": "A simple explanation of (specific topic) for (audience).", "text": "A simple explanation of why Alibaba blocks big card payments to suppliers.", "recommended": false}
+      {"category": "Clarity", "template": "A simple explanation of (specific topic) for (audience).", "text": "A simple explanation of why Alibaba blocks big card payments to suppliers.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Friday afternoon. A business owner owes the factory a 15,000 dollar deposit. They hit pay. Card declined. The bank says nothing is wrong. So what just happened? We will walk you through it.", "recommended": false}
     ],
     "PH4": [
       {"category": "Educational Hooks", "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.", "text": "It took 10 years to understand Alibaba's 12K wall. Here in a minute.", "recommended": false},
@@ -31,7 +34,8 @@
       {"category": "Educational Hooks", "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).", "text": "Here's the chargeback math Alibaba hides behind the 12K cap.", "recommended": false},
       {"category": "Educational Hooks", "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).", "text": "Here's how the 12K wall works once a business owner understands escrow.", "recommended": false},
       {"category": "Authority Hooks", "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).", "text": "Over the past year, business owners moved millions past the 12K wall.", "recommended": false},
-      {"category": "Clarity", "template": "Here's the reason behind (specific rule/limit), explained for (audience).", "text": "Here's the reason behind Alibaba's 12K card cap, explained for business owners.", "recommended": false}
+      {"category": "Clarity", "template": "Here's the reason behind (specific rule/limit), explained for (audience).", "text": "Here's the reason behind Alibaba's 12K card cap, explained for business owners.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Most business owners think Alibaba's 12K card wall is random. It is not. It is math. Real math. Let us walk you through the reason behind it, in plain words, in one short story.", "recommended": false}
     ],
     "PH5": [
       {"category": "Storytelling Hooks", "template": "In (insert time), I went from (insert before state) to (insert after state).", "text": "In three orders, a business owner went from 800 dollars to declined.", "recommended": true},
@@ -39,7 +43,8 @@
       {"category": "Educational Hooks", "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.", "text": "If you're a business owner running first production in China, listen.", "recommended": false},
       {"category": "Storytelling Hooks", "template": "X years ago I was (insert action) because I (insert pain point).", "text": "Last week a business owner tried 18K on a card. Hit the wall.", "recommended": false},
       {"category": "Myth-Busting Hooks", "template": "(insert item) (insert fact), (insert item) (insert similar fact), (insert complete opposite item) (insert similar fact).", "text": "Sample works. Re-order works. Production declines. Welcome to the wall.", "recommended": false},
-      {"category": "Clarity", "template": "What (audience) need to know about (specific moment/threshold).", "text": "What every business owner needs to know about the moment a card stops working on Alibaba.", "recommended": false}
+      {"category": "Clarity", "template": "What (audience) need to know about (specific moment/threshold).", "text": "What every business owner needs to know about the moment a card stops working on Alibaba.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "A business owner buys an 800 dollar sample. Card works. Buys a 4,000 dollar re-order. Card works. Then a 18,000 dollar production run. Card declined. They just hit the wall. Here is what happened.", "recommended": false}
     ],
     "PG1": [
       {"category": "Educational Hooks", "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.", "text": "If you're a business owner sourcing from China, this saves a deal.", "recommended": false},
@@ -47,7 +52,8 @@
       {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone says cards work on Alibaba. Nobody explains where they stop.", "recommended": false},
       {"category": "Educational Hooks", "template": "Here's exactly how much (insert action/item) you need to (insert result)", "text": "Here's exactly when card payments quit on Alibaba: 12,000 dollars.", "recommended": false},
       {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why a 50K card limit still gets a business owner declined.", "recommended": false},
-      {"category": "Clarity", "template": "Here's what every (audience) needs to know about (specific topic).", "text": "Here's what every business owner needs to know about the 12K ceiling on Alibaba card payments.", "recommended": false}
+      {"category": "Clarity", "template": "Here's what every (audience) needs to know about (specific topic).", "text": "Here's what every business owner needs to know about the 12K ceiling on Alibaba card payments.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "If you buy from China for your business, hear us out. There is a 12,000 dollar ceiling on Alibaba card payments and most owners do not know it exists. We will explain where it sits and why.", "recommended": false}
     ],
     "PG2": [
       {"category": "Myth-Busting Hooks", "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).", "text": "Cards are a sample tool. T/T is a production tool. Different jobs.", "recommended": true},
@@ -55,7 +61,8 @@
       {"category": "Educational Hooks", "template": "If you don't have (insert item/action), do (insert item/action).", "text": "If a business owner has cards only, set up a T/T rail next.", "recommended": false},
       {"category": "Myth-Busting Hooks", "template": "Let me de-influence you from (insert action).", "text": "Let's de-influence every business owner from pushing cards past 12K.", "recommended": false},
       {"category": "Educational Hooks", "template": "Here are 3 people who will make you a better (insert title).", "text": "Here are three reasons cards quit working at 12K on Alibaba.", "recommended": false},
-      {"category": "Clarity", "template": "In this video: when to use (tool A) and when to use (tool B) for (task).", "text": "In this video: when to use cards and when to use T/T for paying Chinese suppliers.", "recommended": false}
+      {"category": "Clarity", "template": "In this video: when to use (tool A) and when to use (tool B) for (task).", "text": "In this video: when to use cards and when to use T/T for paying Chinese suppliers.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Here is our honest take, in plain English. A credit card is a sample tool. A bank wire is a production tool. They have different jobs. We will tell you which one to use when, and why it matters.", "recommended": false}
     ],
     "PG3": [
       {"category": "Myth-Busting Hooks", "template": "Stop using (insert item) for (insert result).", "text": "Stop using a sample rail to send a production deposit.", "recommended": true},
@@ -63,7 +70,8 @@
       {"category": "Educational Hooks", "template": "(insert trait) Guy vs (insert trait) Guy.", "text": "Sample Card Guy vs Production T/T Guy. Different rails.", "recommended": false},
       {"category": "Myth-Busting Hooks", "template": "It's time to throw away your (insert item), you don't need it anymore.", "text": "It's time to retire the card for any order above 12K.", "recommended": false},
       {"category": "Educational Hooks", "template": "Here's exactly how much (insert action/item) you need to (insert result)", "text": "Here's exactly when cards stop being the right tool: 12,000 dollars.", "recommended": false},
-      {"category": "Clarity", "template": "A simple guide to (specific decision) for (audience).", "text": "A simple guide to picking the right payment rail for any Alibaba order size.", "recommended": false}
+      {"category": "Clarity", "template": "A simple guide to (specific decision) for (audience).", "text": "A simple guide to picking the right payment rail for any Alibaba order size.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Think about it this way. You would not use a tiny sample order to test a 50,000 dollar production run. So why use a sample sized payment rail to send a production sized deposit? Let us show you.", "recommended": false}
     ],
     "PG4": [
       {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this: Alibaba caps card escrow at 12K.", "recommended": false},
@@ -71,7 +79,8 @@
       {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.", "text": "They said Trade Assurance accepts any card payment. The cap says no.", "recommended": false},
       {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone mentions Trade Assurance. Nobody mentions the 12K escrow ceiling.", "recommended": false},
       {"category": "Educational Hooks", "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).", "text": "Here's how chargeback math sets the wall a business owner can't push past.", "recommended": false},
-      {"category": "Clarity", "template": "Here's what (audience) needs to know about (specific limit) on (platform).", "text": "Here's what every business owner needs to know about the 12K card limit on Alibaba Trade Assurance.", "recommended": false}
+      {"category": "Clarity", "template": "Here's what (audience) needs to know about (specific limit) on (platform).", "text": "Here's what every business owner needs to know about the 12K card limit on Alibaba Trade Assurance.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Here is something nobody tells you about paying Chinese suppliers by card. There is a ceiling. It is not on the homepage. It is not in the sales pitch. You usually find it at checkout, the day your card gets declined.", "recommended": false}
     ],
     "PG5": [
       {"category": "Storytelling Hooks", "template": "In (insert time), I went from (insert before state) to (insert after state).", "text": "In three orders, a business owner goes from card-fine to card-declined.", "recommended": true},
@@ -79,7 +88,8 @@
       {"category": "Storytelling Hooks", "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).", "text": "Last Friday a business owner tried 18K to a factory. Card declined.", "recommended": false},
       {"category": "Educational Hooks", "template": "When you get (insert item/result), here are the # things you got to do right away.", "text": "When a business owner crosses 12K, set up the T/T rail first.", "recommended": false},
       {"category": "Myth-Busting Hooks", "template": "Don't (insert action) until you've done this one thing.", "text": "Don't quote a production batch until a T/T rail is ready.", "recommended": false},
-      {"category": "Clarity", "template": "In this video: what happens when (audience) hits (specific threshold), explained simply.", "text": "In this video: what happens when a business owner crosses 12K on Alibaba, explained simply.", "recommended": false}
+      {"category": "Clarity", "template": "In this video: what happens when (audience) hits (specific threshold), explained simply.", "text": "In this video: what happens when a business owner crosses 12K on Alibaba, explained simply.", "recommended": false},
+      {"category": "Ultra Clarity", "template": "ultra-clarity story-mode opener", "text": "Same business owner, three orders. The sample works. The re-order works. Then the first real production batch, the card just stops working. We see this story all the time. Let us walk you through it.", "recommended": false}
     ]
   }
 }

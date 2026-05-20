@@ -37,6 +37,12 @@
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every business owner needs to know about the three paths CNY can take to China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay let me explain something most business owners get wrong about paying China. When you send CNY, it does not just go one way. It takes one of three paths. Today we walk through all three so you know which one your money is on.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: (plain description of what's covered).",
         "text": "In this video: how slow CNY wires quietly cost a business almost ten weeks a year.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something wild. If you pay China twelve times a year and each wire takes four days, you lose forty-eight working days a year just waiting. That's ten weeks gone. Today we walk through why this happens and what to do about it.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's a plain look at (topic) and why it matters.",
         "text": "Here's a plain look at why your bank picks one CNY path and not the others.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your bank picked the slowest path to send your CNY to China. There are three paths and they chose the longest one. Today we walk through why that happens, what the other two paths look like, and what you can do about it.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: the three (mechanisms/paths/options) for (topic), explained simply.",
         "text": "In this video: the three mechanisms a CNY payment can use, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "When you pay China, your money does not move one way. It moves on one of three systems. Different speeds, different costs, different stops along the way. Today we walk through each one so you know what your wire is actually doing.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what (audience) need to know about (topic).",
         "text": "Here's what anyone paying Chinese suppliers needs to know about the three CNY paths.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you pay suppliers in China, here's something every business owner needs to know. Your CNY takes one of three paths to get there. Most people only know one. Today we walk through all three and why picking the right one matters.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "In this video: (plain description of what's covered).",
         "text": "In this video: the three ways CNY can move to a Chinese supplier, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Most business owners think there's one way to send CNY to China. There are actually three different paths and only one lands same day. Today we walk through what each one looks like and why your bank only uses the slowest one.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "Here's what (audience) need to know about (topic).",
         "text": "Here's what every business owner needs to know about how the CNY path adds up over a year.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "The path your CNY takes to China is the most overlooked decision in your supply chain. Send a wire Monday, supplier sees it Friday. Over a year, that adds up to a hundred lost days. Today we walk through why and how to fix it.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "In this video: why (default) is the wrong tool for (job), explained simply.",
         "text": "In this video: why SWIFT is the wrong tool for paying China, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "SWIFT is a tool but it's the wrong tool for paying China. It was built to move money between banks that don't know each other. Today we walk through why China has its own faster system and what your wire could be using instead.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every business owner needs to know about the three paths a CNY wire can take.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something nobody is telling you about paying China. There isn't one path your money takes. There are three. And your bank is only using the slowest one. Today we walk through all three so you can see why.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "In this video: a plain walkthrough of (scenario) and (alternative).",
         "text": "In this video: a plain walkthrough of why a CNY wire takes a week and what runs faster.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You wire CNY Monday. By Friday your supplier still has not received it. You lost a full week of production. Today we walk through why this happens and the two faster paths your bank never told you about.",
+        "recommended": false
       }
     ]
   }

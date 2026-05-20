@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every importer needs to know about paying Chinese suppliers in USD.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You wire dollars to your Chinese supplier. The money sits at their bank for 7 to 10 days. The bank takes a fee. Your supplier carries the rate risk. So they quietly add a buffer to your quote. Here's how to make it stop.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: the (insert topic) and what it costs you over time.",
         "text": "In this video: the hidden padding inside USD supplier quotes and the 5-year cost.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a 20,000 dollar order. About 600 dollars of it is padding you never see. Now picture ten of those a year. Then five years. That's 30,000 dollars walking out the door. Let us show you where it went.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's what (insert audience) should know about (insert topic).",
         "text": "Here's what every importer should know about the padding inside a USD supplier quote.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture your supplier sitting in their factory office. They quote you 20,000 dollars. But in their head, the price they actually wanted is 19,400. The extra 600? That's a buffer. Let us walk you through why it's there.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: how (insert mechanism) actually works on (insert side).",
         "text": "In this video: how a USD wire actually works on the Chinese supplier's side.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture your 20,000 dollar wire showing up at your supplier's Chinese bank. The bank holds it for 7 to 10 days. The bank takes a small fee. The rate moves while it's in flight. Let us show you what really happens to that money.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what happens on (insert side) every time you (insert action).",
         "text": "Here's what happens on your supplier's side every time you wire USD.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture three things happening on your supplier's side every time you wire USD. They wait 7 to 10 days. They pay a small bank fee. They carry the rate risk. You only ever see one number on the invoice. Let us show you the other two.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert audience) should understand about (insert topic).",
         "text": "Here's what every business owner sourcing from China should understand about USD quotes.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture your supplier reading your USD quote request. They don't actually want it. They tolerate it. Then they quietly add 2 to 5% to cover the wait, the fee, and the rate risk. Let us walk you through a simple way to change the conversation.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "In this video: how much (insert hidden cost) adds up to over a year.",
         "text": "In this video: how much invisible padding adds up to across a year of supplier invoices.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture 20 supplier invoices spread across the year. Now picture 600 dollars of padding inside each one. That's 12,000 dollars walking out of your business quietly. Let us show you where it's been hiding the whole time.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert default).",
         "text": "Here's what every importer needs to know about the USD-default supplier quote.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture every quote you've ever sent in US dollars. Each one was easy for you, expensive for your supplier. So they quietly built that cost back into your invoice. Let us walk you through the one question that changes the price.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: how (insert audience) actually views (insert topic).",
         "text": "In this video: how Chinese suppliers actually view your USD invoice on their side.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture your supplier sitting at their desk in China. Your USD invoice lands. They see three problems and a margin to protect. You see one number on the PI. Let us show you what they see that you don't.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's where (insert audience) quietly lose (insert thing) every quarter.",
         "text": "Here's where importers buying from China quietly lose margin every quarter.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. Your supplier isn't your enemy. They're also not in the business of protecting your margin. So they quietly add a buffer to every USD invoice. Let us walk you through where your margin keeps leaking, quarter after quarter.",
+        "recommended": false
       }
     ]
   }

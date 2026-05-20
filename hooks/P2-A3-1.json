@@ -37,6 +37,12 @@
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every importer needs to know about why 50K becomes 48K.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Say you run a small import shop. You wire 50,000 dollars to your factory in China. Days later your supplier says only 48,000 arrived. Here is the quiet reason why, and what we built to fix it.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: a breakdown of (topic) over (timeframe).",
         "text": "In this video: how a 2.5% bank margin compounds to 144K over five years.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Imagine you wire 50K to your Chinese supplier twice a month. Every time, around 1,200 dollars goes quietly to your bank. We did the math over five years. The number will sit you down.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what every (audience) should know about (topic).",
         "text": "Here's what every importer should know about the 1,200 their bank quietly takes.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Think back to your last wire to a supplier in China. You sent 50K. They got 48K. You probably called it a fee. It was not. Let us walk through what your bank really did with that 2,000 dollars.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -150,6 +168,12 @@
         "category": "Clarity",
         "template": "In this video: the difference between (a) and (b).",
         "text": "In this video: the difference between the wire fee and the real cost.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture you are about to wire 50K to a factory in Guangzhou. Your bank shows you a 25 dollar fee. You think that is the cost. Let us show you the much bigger number hidden inside the exchange rate.",
         "recommended": false
       }
     ],
@@ -189,6 +213,12 @@
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every importer needs to know about the three hits on a China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture your last 50K wire to a supplier in China. Three different things happened to that money on the way. You only saw one of them. Let us walk through the two hidden ones together.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "In this video: where (amount) goes between (a) and (b).",
         "text": "In this video: where 2,000 goes between a business owner and a Chinese supplier.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You wire 50K to your factory in China. A few days later, your supplier calls. They only got 48K. Two thousand dollars went somewhere. Let us walk you through where it really went.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -264,6 +300,12 @@
         "category": "Clarity",
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every importer needs to know about the true cost of a bank wire.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Think about your supply chain. Factory, freight, customs, all of it. Now picture your bank in that line. We will show you why your bank might quietly be the most expensive part, and you have never even noticed.",
         "recommended": false
       }
     ],
@@ -303,6 +345,12 @@
         "template": "In this video: a head-to-head look at (a) vs (b).",
         "text": "In this video: a head-to-head look at sending 50K through a bank vs a specialist rail.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You would not use a hammer to cut a piece of wood. So why use a local bank to pay your Chinese supplier? Let us walk through the 50K wire your bank just sent, and show you the better tool we built.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -340,6 +388,12 @@
         "category": "Clarity",
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every importer needs to know about how banks actually earn on wires.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here is something almost nobody tells you about international wires. Your bank does not really make money on the 25 dollar fee. They make it somewhere else, quietly. Let us walk through where that money really comes from.",
         "recommended": false
       }
     ],
@@ -379,6 +433,12 @@
         "template": "Here's what every (audience) needs to know about (topic).",
         "text": "Here's what every importer needs to know about the bank blame-game phone call.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this phone call. You wired 50K to China. Your supplier got 48K. You call the bank. They blame the middle bank. The middle bank blames the receiving bank. Nobody owns it. We have all been on that call. Let us walk through how to skip it.",
+        "recommended": false
       }
     ]
   }

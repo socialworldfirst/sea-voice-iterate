@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about how a small FX gap adds up.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You run a small business. You buy stuff from China. You send your supplier fifty grand at a time, twelve times a year. There's something hidden in that wire you never see.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: how (insert small number/action) compounds into (insert outcome), explained simply.",
         "text": "In this video: how a 2% gap on each wire compounds into $60K over five years.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let me tell you a story. One wire goes to China. Two percent quietly disappears. You shrug. Then you do it again. And again. Five years later you look up and sixty thousand dollars is gone.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's what every (insert audience) should understand about (insert topic), in plain terms.",
         "text": "Here's what every importer should understand about how banks earn on supplier wires.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You signed twelve wires to your supplier this year. Each one looked normal. But inside each one, your bank quietly kept a thousand dollars. By December, twelve grand of your business money was gone, and you never saw it leave.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: why (insert mechanism), explained simply for every (insert audience).",
         "text": "In this video: why the rate, not the fee, is the real cost on every supplier wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Imagine you're paying your supplier in China. You check the wire fee like always. But the fee was never the real cost. Hidden in the exchange rate is the part nobody told you about, and it's bigger.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what every (insert audience) should know about (insert topic), in (insert number) numbers.",
         "text": "Here's what every importer should know about supplier-wire costs, in three numbers.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a business owner sitting at her desk, sending a wire to her supplier in China. She does this every month. She's never noticed the three numbers that decide whether she keeps her margin or hands it to the bank.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert audience) needs to understand about (insert topic).",
         "text": "Here's what every business owner needs to understand about the rate behind supplier wires.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a business owner paying a Chinese supplier every month. The bank looks normal, the fee looks normal, the receipt looks normal. But inside that normal wire, twelve grand a year is quietly slipping away.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "In this video: how (insert action) shifts (insert outcome), explained simply.",
         "text": "In this video: how switching rails moves $9K a year back to the business, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Imagine a small business owner sending the exact same supplier wires for a year. Same supplier, same amounts, same dates. One version costs her twelve grand. The other costs three. Same wires, different rail.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's what every (insert audience) should know about picking the right (insert tool).",
         "text": "Here's what every importer should know about picking the right tool for supplier wires.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Think about how you pay your team. You use the right tool. Now think about how you pay your Chinese supplier. You probably use the bank. That's the wrong tool for the job, and it's costing you twelve grand a year.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "Here's what every (insert audience) needs to understand about how (insert party) earns on (insert action).",
         "text": "Here's what every importer needs to understand about how banks earn on supplier wires.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a bank. You think it earns on the wire fee you see every month. It doesn't. The fee is the decoy. The real money is hiding in the exchange rate, and it's a thousand dollars per wire.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "In this video: why (insert small number) on (insert action) is worth auditing, in plain terms.",
         "text": "In this video: why 2% on every supplier wire is worth auditing, in plain terms.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a business owner on the phone, renegotiating her supplier over a 2% price hike. She'd switch a freight forwarder over 2%. But there's another 2% she's never even looked at, and it's bigger.",
+        "recommended": false
       }
     ]
   }
