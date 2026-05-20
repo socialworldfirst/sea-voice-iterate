@@ -12,7 +12,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
         "text": "Personal tier sits 1.5 percent off mid-market. Business tier sits 0.3 percent off.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -31,6 +31,12 @@
         "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
         "text": "One tier change took a business owner from 1.5 percent FX spread to 0.3 percent.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert target audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about personal vs business foreign exchange tiers.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "14,400 a year recovered from one foreign exchange tier change. Here's the math.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain explanation of topic).",
+        "text": "In this video: how a single supplier wire quietly leaks 300 dollars inside the foreign exchange rate.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "The biggest cheat code for any business owner paying suppliers in CNY.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what (insert target audience) need to know about (insert topic), explained simply.",
+        "text": "Here's what business owners paying Chinese suppliers need to know about FX margin, explained simply.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -108,7 +126,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert item) (insert similar fact), (insert complete opposite item) (insert similar fact).",
         "text": "Personal tier 1.5 percent off. Business tier 0.3 percent off. Same provider, same day.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -127,6 +145,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. One foreign exchange rate is a myth.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert observable thing) actually (insert plain explanation).",
+        "text": "In this video: why the same currency pair has two different prices on the same day, explained simply.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -158,6 +182,12 @@
         "category": "Educational Hooks",
         "template": "If I were starting over in my (insert age range) with no (insert item), here are the top # things I would do to (insert dream result).",
         "text": "Starting a sourcing business over, the first thing a business owner would fix is the FX tier.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert target audience) should know about (insert topic), in plain English.",
+        "text": "Here's what every business owner paying suppliers in China should know about FX tiers, in plain English.",
         "recommended": false
       }
     ],
@@ -191,6 +221,12 @@
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "Any business owner wiring CNY weekly wants this 60-second foreign exchange tutorial.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert target audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner wiring CNY needs to know about personal vs business foreign exchange rates.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -204,7 +240,7 @@
         "category": "Educational Hooks",
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "Biggest cheat code for a business owner paying suppliers in CNY: ask for the business rate.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -223,6 +259,12 @@
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone tells a business owner to negotiate foreign exchange. Nobody says: ask which tier.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert observable thing), explained simply.",
+        "text": "In this video: why the same currency has two different prices on the same day, explained simply.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using a personal wallet for business volume to a Chinese supplier.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -255,6 +297,12 @@
         "template": "If you don't have (insert item/action), do (insert item/action).",
         "text": "If a business owner doesn't have a business foreign exchange account, open one before the next wire.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert target audience) needs to know about (insert topic), plain and simple.",
+        "text": "Here's what every business owner paying factories needs to know about personal vs business wallets, plain and simple.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Educational Hooks",
         "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
         "text": "Here's the quiet foreign exchange tiering every business owner paying suppliers should know.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -287,6 +335,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. The app rate is the personal rate, not the only rate.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert observed result) actually (insert plain reason), explained simply.",
+        "text": "In this video: why supplier-end CNY lands lower than the rate on Google, explained simply.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -318,6 +372,12 @@
         "category": "Educational Hooks",
         "template": "If I were starting over in my (insert age range) with no (insert item), here are the top # things I would do to (insert dream result).",
         "text": "Starting a sourcing business over, a business owner would fix the foreign exchange tier first.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert target audience) should know about (insert topic), in plain English.",
+        "text": "Here's what every business owner who started with a personal wallet should know about FX tiers, in plain English.",
         "recommended": false
       }
     ]
