@@ -645,7 +645,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
   <button class="nav-btn" id="prevBtn" title="Previous idea (←)">←</button>
   <div class="slide-info">
     <span class="slide-counter" id="slideCounter">Idea 1 of {len(SLIDES)}</span>
-    <span class="picks-counter" id="picksCounter">0 / {len(SLIDES)} picked</span>
+    <span class="picks-counter" id="picksCounter">— picked</span>
     <span class="slide-id" id="slideId">{esc(SLIDES[0]['id'])}</span>
     <span class="slide-title" id="slideTitle">{esc(SLIDES[0]['title'])}</span>
   </div>
@@ -834,11 +834,15 @@ function updatePanel() {{
   updateIdeaPicksCounter();
 }}
 // Show "X / N picked" for the CURRENT idea only — X = picks in this slide, N = scripts in this slide
+// Finds the visible slide directly (not via currentSlide index) so it works before the slideshow init runs
 function updateIdeaPicksCounter() {{
   const pc = document.getElementById('picksCounter');
   if (!pc) return;
-  const slideEls = document.querySelectorAll('.slide');
-  const cur = slideEls[currentSlide];
+  let cur = null;
+  document.querySelectorAll('.slide').forEach(sl => {{
+    if (sl.style.display !== 'none' && !cur) cur = sl;
+  }});
+  if (!cur) cur = document.querySelector('.slide');
   if (!cur) return;
   const sid = cur.getAttribute('data-slide-id');
   const cards = cur.querySelectorAll('.script-card');
