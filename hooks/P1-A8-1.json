@@ -37,6 +37,12 @@
         "template": "Here's what every (target audience) needs to know about (specific item).",
         "text": "Here is what every business owner needs to know about the code on every China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You wire fifty grand to your China supplier. A few days later they message saying the money came short. Two hundred dollars missing. We will tell you exactly where it went.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: (specific topic explained plainly).",
         "text": "In this video: the three letters on every China wire that decide who eats the fees.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "S. H. A. Three little letters. You have probably never noticed them. But they sit quietly on every wire you send to China, and they decide who loses money. Let us walk you through it.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's what (target audience) should know about (specific thing).",
         "text": "Here is what every China-wiring business owner should know about SHA, OUR, and BEN.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here is a small story. Your bank quietly tagged every China wire you ever sent with three letters. SHA. They never told you. Today we are going to show you what those letters cost you.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: (specific mechanism explained plainly).",
         "text": "In this video: the tiny field on the wire form that decides who pays the bank chain.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Imagine this. You tell your bank to send fifty thousand to China. Behind the scenes they fill out a tiny form with a hidden box. We will show you the box, and why what is inside it costs you money.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what every (target audience) needs to know about (specific cost).",
         "text": "Here is what every China-wiring business owner needs to know about the SHA default.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Try this with us. Pull up your last wire to China. Look for a row called 71A. We bet it says SHA. That tiny word has quietly leaked three hundred dollars from every wire you sent.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "Here's what every (target audience) needs to know about (specific thing).",
         "text": "Here is what every business owner needs to know about the three letters on every China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Hey. Stop for a second. If you wire money to China and you do not know what SHA, OUR, and BEN mean, your bank is winning a game you did not know existed. We will show you the game.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "In this video: (specific mechanism explained plainly).",
         "text": "In this video: the field on every wire form that decides who pays the middleman banks.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay we will say it out loud. Your bank has been quietly hiding something from you. Not in a dramatic way. In a slow, quiet, expensive way. We are about to show you the tiny box where it lives.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's what every (target audience) needs to know about (specific code).",
         "text": "Here is what every business owner needs to know about SHA on a China wire form.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Stop using SHA on your China wires. We are serious. Pull up your last wire confirmation right now. Find the row called 71A. We bet it says SHA. We will show you why that one word leaked your money.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: (specific question business owners should ask).",
         "text": "In this video: the one question every business owner should ask the bank before the next China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Try this small experiment with us. Walk into your bank next week. Say one sentence. Watch what happens to the teller's face. We will tell you what they did not want you to ask.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's what every (target audience) needs to know about (specific hidden cost).",
         "text": "Here is what every business owner needs to know about the three percent hidden in China quotes.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Real talk. If you have paid suppliers in China for years and you do not know what SHA, OUR, and BEN mean, you have been quietly losing money the whole time. Let us walk you through the story.",
+        "recommended": false
       }
     ]
   }

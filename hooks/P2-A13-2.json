@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about PayPal's real cost on supplier wires.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You own a small business. You buy from a factory in China. The PayPal button feels easy and safe. But there's a story under that button, and we want to walk you through it.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: (insert scope) explained.",
         "text": "In this video: the scale at which PayPal stops making sense for supplier payments, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "We want to show you a small story about scale. Watch what happens when you open the same app and tap the same button, but the number on the screen gets a lot bigger.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why an 880-dollar PayPal fee is normal.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a quiet story you might know. You sent a payment to your supplier last month. PayPal took 880 dollars from you. And you barely felt it. We want to explain why.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -150,6 +168,12 @@
         "category": "Clarity",
         "template": "In this video: (insert scope) explained.",
         "text": "In this video: why a PayPal habit silently scales the cost of every supplier wire, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "We want to share a problem most business owners can't see at first. The fees grow in a straight line. But the pain doesn't. It hides. Let us walk you through where it hides.",
         "recommended": false
       }
     ],
@@ -189,6 +213,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the three hidden costs in a PayPal wire.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you pay Chinese suppliers through PayPal, we want to walk you through a story. Three things happen as your orders grow. And most business owners only ever feel one of them.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -226,6 +256,12 @@
         "category": "Clarity",
         "template": "In this video: (insert scope) explained.",
         "text": "In this video: why PayPal works at 200 dollars but breaks at 20K, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "For every business owner using PayPal to pay Chinese suppliers, we want to share a small story. The 200 dollar payment feels free. The 20 thousand payment is a different animal.",
         "recommended": false
       }
     ],
@@ -265,6 +301,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the annual cost of a PayPal habit.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "We're going to say something nobody wants to say out loud. For many business owners, PayPal is the most expensive part of the whole supply chain. Let us show you the year-long math.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -302,6 +344,12 @@
         "category": "Clarity",
         "template": "In this video: (insert scope) explained.",
         "text": "In this video: why PayPal is the wrong tool for factory-scale supplier payments, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "We want to make a simple point with a small story. PayPal is a tool. But it's the wrong tool for paying a factory. You wouldn't use a calculator app to do your taxes. So why use a shopper wallet for a 20 thousand dollar order?",
         "recommended": false
       }
     ],
@@ -341,6 +389,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why PayPal's percentage never shrinks.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something nobody bothers to tell you about PayPal. The fixed fee is not the part that hurts you. The percent is. And we want to walk you through why that percent never shrinks.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -378,6 +432,12 @@
         "category": "Clarity",
         "template": "In this video: (insert scope) explained.",
         "text": "In this video: how PayPal's 21-day hold delays a supplier's production run, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "For every business owner sourcing from China through PayPal, we want to tell you a story. You think PayPal is the easy way. Then a 21 day hold lands on your supplier's side and the whole production run stops cold.",
         "recommended": false
       }
     ]

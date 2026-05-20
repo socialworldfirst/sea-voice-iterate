@@ -37,6 +37,12 @@
         "template": "In this video: (insert plain topic), explained simply.",
         "text": "In this video: why a China wire lands late and short, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Okay picture this. You run a business. You sent a wire to your Chinese supplier 5 days ago. Your bank said 2 days. Your supplier is texting you. Here's what's happening behind the scenes.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about the true cost of SWIFT wires to China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Let me show you something most business owners never spot. Every China wire quietly loses about 150 dollars to banks you've never heard of. Now stretch that over 5 years of running your business.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "In this video: (insert plain topic), explained simply.",
         "text": "In this video: why the bank's 2-day quote rarely matches reality, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your bank told you 2 days. It's been 5. Let me walk you through exactly what your money has been doing this whole time, and which three banks have been quietly holding it.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about what SWIFT actually is.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something most business owners never get told. SWIFT is not a bank. It's a messaging system, like a chat app for banks. The real money moves through other banks in the middle, and they each take a cut.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "In this video: (insert plain topic), explained simply.",
         "text": "In this video: how one late China wire creates four downstream problems, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Last week you sent 50,000 dollars to Shenzhen. Four things went wrong with that one wire and you only spotted one of them. Let me show you the other three, and the one root cause behind all of them.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why suppliers chase them after a wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your supplier in Shenzhen is asking where the money is. Your bank quoted 2 days, it's day 5. Here's the story of where your wire has actually been sitting, and why it lost 150 dollars on the way.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "In this video: (insert plain topic), explained simply.",
         "text": "In this video: what SWIFT really costs business owners over 5 years, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "SWIFT was built back in the 1970s for banks talking to each other. It was never built for you paying a factory in China. Let me show you what that mismatch quietly costs you every single year.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why SWIFT is the wrong tool for China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You wouldn't send a contract by fax in 2026. So why are you running your China supplier payments on a network designed in 1973? Let me walk you through why the tool doesn't fit the job.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: (insert plain topic), explained simply.",
         "text": "In this video: the invisible fees on every SWIFT wire to China, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a story most business owners never get told. SWIFT does not actually move money. It just sends instructions. The real banks in the middle do the moving, and each one quietly takes a cut.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about who owns a missing China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your supplier is texting you at 2am asking where the money is. You call your bank. They blame the next bank. That bank blames compliance. Nobody owns it. Let me walk you through the blame-shuffle.",
+        "recommended": false
       }
     ]
   }

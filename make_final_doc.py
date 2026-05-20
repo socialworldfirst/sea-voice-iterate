@@ -3,13 +3,14 @@ import json, subprocess, os, datetime
 
 fz = json.load(open('finalized.json'))
 entries = fz['finalized']
+needs_update = fz.get('needs_update', [])
 
 md = [
     f"# SEA Brand Channel Batch 1 — Final Scripts",
     "",
     f"**Updated:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}",
     f"**Source:** Sparkloop /spark_script · {fz['source']}",
-    f"**Status:** {len(entries)} of 24 wrapped",
+    f"**Status:** {len(entries)} scripts finalized",
     f"**Voice:** WorldFirst brand channel · no em-dashes · brand-search CTA",
     "",
     "---",
@@ -17,18 +18,33 @@ md = [
 ]
 
 for i, e in enumerate(entries, 1):
-    md.append(f"## {i}. {e['video_title']}")
+    md.append(f"## {i}. {e['slide_id']} — {e.get('subtitle','')}")
     md.append("")
-    md.append(f"`{e['slide_id']}` · `{e['card_id']}` · base: {e['base_pick']} · {e['word_count']} words (~{round(e['word_count']/2.5)}s)")
+    meta = [
+        f"`{e['slide_id']}::{e['variant_id']}`",
+        f"version: **{e['version']}**",
+        f"hook: **{e['hook_label']}**",
+        f"{e['word_count']} words (~{round(e['word_count']/2.5)}s)",
+    ]
+    md.append(" · ".join(meta))
     md.append("")
     if e.get('rework_note'):
-        md.append(f"*Note: {e['rework_note']}*")
+        md.append(f"> **Rework note:** {e['rework_note']}")
         md.append("")
     md.append("**VO:**")
     md.append("")
     md.append(e['final_vo'])
     md.append("")
     md.append("---")
+    md.append("")
+
+if needs_update:
+    md.append("## Needs update — regenerate variants")
+    md.append("")
+    md.append("Ideas where Steven flagged that none of the 10 variants fit. Next stage: regenerate fresh variants (new hooks + bodies).")
+    md.append("")
+    for sid in needs_update:
+        md.append(f"- `{sid}`")
     md.append("")
 
 md_text = "\n".join(md)
@@ -38,10 +54,10 @@ with open('_final_scripts.md', 'w') as f:
 # Convert to docx
 subprocess.run(['/opt/homebrew/bin/pandoc', '_final_scripts.md', '-o',
                 'SEA_Batch1_Final_Scripts.docx', '--from', 'markdown', '--to', 'docx'], check=True)
-print(f"Built docx: {len(entries)} scripts")
+print(f"Built docx: {len(entries)} scripts + {len(needs_update)} needs-update")
 
 
-# --- Auto upload + convert to Google Doc (stable: delete old, recreate, save new id) ---
+# --- Auto upload + convert to Google Doc ---
 import urllib.request, time
 cfg = json.loads(subprocess.run(['/opt/homebrew/bin/rclone','config','dump'],capture_output=True,text=True).stdout)
 tok = json.loads(cfg['gdrive']['token'])['access_token']

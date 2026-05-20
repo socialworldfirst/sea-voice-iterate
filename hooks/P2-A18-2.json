@@ -37,6 +37,12 @@
         "template": "Here's what every (insert target audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about personal vs business foreign exchange tiers.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture this. You and your neighbour both send money to China today. Same currency, same day, same bank. But you pay different prices. Here's the secret nobody tells you about the rate.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: (insert plain explanation of topic).",
         "text": "In this video: how a single supplier wire quietly leaks 300 dollars inside the foreign exchange rate.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a normal Tuesday. You open your bank app. You send twenty thousand to your supplier. The rate looks okay. You hit send. But three hundred dollars just vanished, and you'll never see it on a bill.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what (insert target audience) need to know about (insert topic), explained simply.",
         "text": "Here's what business owners paying Chinese suppliers need to know about FX margin, explained simply.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your payment app might be taking nine thousand dollars from your business every year. And you can't see it on any bill. Here's the story of how it hides inside the rate.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: why (insert observable thing) actually (insert plain explanation).",
         "text": "In this video: why the same currency pair has two different prices on the same day, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Most business owners don't know the rate they use has two prices. Not one, two. There's a personal price and a business price. Let us tell you the simple story of why.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -188,6 +212,12 @@
         "category": "Clarity",
         "template": "Here's what every (insert target audience) should know about (insert topic), in plain English.",
         "text": "Here's what every business owner paying suppliers in China should know about FX tiers, in plain English.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you pay suppliers in China from a regular payment app, please listen to this story. Most owners are using the wrong kind of account, and nobody told them when to switch.",
         "recommended": false
       }
     ],
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert target audience) needs to know about (insert topic).",
         "text": "Here's what every business owner wiring CNY needs to know about personal vs business foreign exchange rates.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "The rate on your phone isn't the only rate out there. There's a hidden one most owners never see. Let us tell you the simple story of the two prices for the same dollar.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "In this video: why (insert observable thing), explained simply.",
         "text": "In this video: why the same currency has two different prices on the same day, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture two price tags on the same shelf for the same item. One says fifty dollars, the other says ten. Your bank hands you the fifty and hopes you don't ask. Here's the story.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's what every (insert target audience) needs to know about (insert topic), plain and simple.",
         "text": "Here's what every business owner paying factories needs to know about personal vs business wallets, plain and simple.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Business money doesn't belong in a personal wallet. The wallet on your phone was built for splitting dinner bills, not for sending twenty thousand to a factory. Here's the simple story of why it matters.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: why (insert observed result) actually (insert plain reason), explained simply.",
         "text": "In this video: why supplier-end CNY lands lower than the rate on Google, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Most people think there's one rate per day for sending money to China. There isn't. There are two, and the better one is hidden. Here's the simple story of how it works.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -378,6 +432,12 @@
         "category": "Clarity",
         "template": "Here's what every (insert target audience) should know about (insert topic), in plain English.",
         "text": "Here's what every business owner who started with a personal wallet should know about FX tiers, in plain English.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Five years ago you opened a wallet to send two hundred dollar samples. Today you wire twenty thousand a week to the same factory. Same app. Same kind of rate. But here's what changed without you noticing.",
         "recommended": false
       }
     ]

@@ -1,0 +1,132 @@
+# SEA Brand Channel Batch 1 — Final Scripts
+
+**Updated:** 2026-05-20 18:25
+**Source:** Sparkloop /spark_script · https://socialworldfirst.github.io/sea-voice-iterate/
+**Status:** 11 scripts finalized
+**Voice:** WorldFirst brand channel · no em-dashes · brand-search CTA
+
+---
+
+## 1. P1-A13-1 — Real talk + escalating personal energy
+
+`P1-A13-1::PG5` · version: **Final VO (Clarity)** · hook: **Clarity** · 175 words (~70s)
+
+**VO:**
+
+Here's why "fee waived" on your wire receipt doesn't mean the wire was free. Your bank isn't really your friend on cross-border wires. They send you a wire confirmation that says fee waived. You think they're doing you a favour. They're often not. Here's why. The bank may have already added a 3 percent markup into the FX rate they used. FX means foreign exchange, the rate that turns one currency into another. That 3 percent more than covers the wire fee they waived. On a 10,000 dollar wire, that 3 percent markup is around 300 dollars. You call the bank. They show you the receipt. Fee waived. They're not lying. The money came out of the rate, not the fee. They never have to call it a fee. Every wire. Same pattern. This happens to business owners every week. We built WorldFirst to skip that markup. Near mid-market rates. The rate Google shows when you search USD to CNY. Same supplier. Same 10,000 dollar wire. The 300 dollars stays in your business. Search WorldFirst.
+
+---
+
+## 2. P1-A14-1 — Cold open + compounding math
+
+`P1-A14-1::PH2` · version: **Final VO** · hook: **Clarity** · 157 words (~63s)
+
+**VO:**
+
+Here's what every business owner needs to know about how wire rate margin compounds across a year. Three business owners sent 50K to the same Chinese supplier on the same day. Supplier received three different amounts. 49,250. 49,700. 49,850. A 600 dollar spread on identical wires. Now compound it. 12 wires a year at 50K each. 600 thousand dollars in sourcing volume. The business owner who used the bank lost around 9,000 dollars. The business owner who used the specialist lost around 1,800. That's a 7,200 dollar gap in one year. On the same business. Run it across three years. 21,600 dollars. That's an employee. That's a container of inventory. That's the next product line. And it's not a fee. It's the exchange rate margin. Banks bake 1 to 2% into the rate so you never see the line item. WorldFirst sits closer to 0.3% on the same wires. Same day to Chinese bank accounts. Search WorldFirst.
+
+---
+
+## 3. P1-A6-3 — Classic PAS opener
+
+`P1-A6-3::PH1` · version: **Final VO** · hook: **Clarity** · 130 words (~52s)
+
+**VO:**
+
+Here's what every business owner needs to know about the math of paying suppliers in USD. Here's the math on a 20,000 dollar payment. Your bank converts your local currency to USD. That's a 1% margin. 200 dollars gone. Your supplier's Chinese bank then converts that USD to CNY. Another 0.5%. 100 dollars gone. SWIFT and intermediary fees, another 60 dollars. Total leakage, 360 dollars. Plus 4 days of waiting. Now pay the same 20K in CNY directly. One conversion at 0.4%. That's 80 dollars total. Settles same day. The difference is 280 dollars on one order. Run 12 orders a year and that's 3,360 dollars. This is not a fee problem. This is a routing problem. WorldFirst sends CNY direct to Chinese suppliers same-day. Worth a look. Search WorldFirst.
+
+---
+
+## 4. P1-A9-1 — Cold open + compounding stakes
+
+`P1-A9-1::PH2` · version: **Final VO** · hook: **Storytelling** · 147 words (~59s)
+
+**VO:**
+
+Is it possible to lose a container in five days without losing the money? Your bank app shows sent. Your supplier's WhatsApp shows nothing. You haven't lost the money. You've lost the day. Then the week. Then the order. Because your supplier won't load raw materials until the CNY hits their account. So every hour the wire sits at an intermediary bank, your delivery date slips. Three intermediaries, two days of conversion windows, one AML hold above a threshold nobody told you about, plus a Friday public holiday in Shenzhen. That's a five-day silence. On a Q4 order, five days is your container. On a launch SKU, five days is your competitor beating you to the shelf. The wire isn't lost. The visibility is. WorldFirst removes the correspondent chain entirely. CNY straight to Chinese bank accounts, same-day, with a tracking reference your supplier can match. Search WorldFirst.
+
+---
+
+## 5. P2-A13-1 — Real talk + escalating personal energy
+
+`P2-A13-1::PG5` · version: **Final VO** · hook: **Original** · 124 words (~50s)
+
+**VO:**
+
+For every business owner sourcing from China with PayPal. You think PayPal is convenient. It is. It's also expensive. You send $20,000 to your supplier. PayPal takes $880 on the cross-border fee. Then $700 more on the FX margin nobody warned you about. Then your supplier hands you a PI with another 4 to 5% padded in because PayPal charges them too. By the time the goods ship, that $20K order cost you $22,380. Plus a 21-day fund hold on the supplier side that they price in next time. This happens every single week. SMEs paying retail prices for B2B volume because the app is familiar. WorldFirst. Specialist FX. Direct CNY to Chinese accounts. Full $20K lands. Supplier doesn't pad. You sleep. Search WorldFirst.
+
+---
+
+## 6. P2-A14-1 — Real talk + supplier's view
+
+`P2-A14-1::PG5` · version: **Final VO** · hook: **Clarity** · 134 words (~54s)
+
+> **Rework note:** remove wechat
+
+**VO:**
+
+Here's what every business owner needs to know about who really pays the card fee on China orders. You're treating the credit card like a payment method. Your supplier is treating it like a liability. You see 2.95% as a fee you'll happily eat. Your supplier sees 2.95% coming out of their margin because the merchant pays card fees, not the cardholder. You see chargeback protection. Your supplier sees 180 days of their bank reversing the money on goods they already shipped. You see Visa. Your supplier sees a system 95% of their factory peers don't even use. The card isn't bad. It's just not for this. This happens every week. Every single week. WorldFirst pays Chinese suppliers in CNY on Alipay, WeChat, and local bank rails. The systems they actually use. Search WorldFirst.
+
+---
+
+## 7. P2-A18-1 — Classic PAS opener
+
+`P2-A18-1::PH1` · version: **Final VO** · hook: **Clarity** · 139 words (~56s)
+
+**VO:**
+
+Here's what every business owner needs to know about the Google FX rate. Type THB to CNY. Whatever number it shows you, that rate does not exist for your wallet. That's the mid-market rate. It's the rate banks use among themselves. The rate you actually get is a different number, a worse number, and the difference is called the spread. On a personal tool, that spread is usually 2 to 4 percent. On a business platform, it's 0.3 to 1 percent. Same currency pair. Same day. Same minute. Two different rates. On a 20,000 dollar supplier wire, 2 percent is 400 dollars. 0.5 percent is 100 dollars. That's 300 dollars that disappeared inside the rate. No line item. No fee notification. Just a worse number than Google showed you. WorldFirst quotes business-tier rates direct to business owners. Search WorldFirst.
+
+---
+
+## 8. P2-A24-1 — Real talk + the WhatsApp scenario
+
+`P2-A24-1::PG5` · version: **Final VO** · hook: **Storytelling** · 150 words (~60s)
+
+> **Rework note:** remove" Pay by Visa? You message your supplier on WhatsApp. "
+
+**VO:**
+
+A business owner messages a Chinese supplier on WhatsApp. Pay by Visa? You message your supplier on WhatsApp. Can I pay by Visa? They say no. You ask why. They give you some answer about fees. You don't believe them. You ask another supplier. Same answer. You think the whole supply chain is gaslighting you. They're not. Only 3 to 5% of Chinese factories accept cards. The other 95% never set up a card terminal because they run on Alipay and WeChat Pay domestically. And the 180-day chargeback window scares every single one of them on any order above sample size. The card has three jobs. Samples under 1,000 dollars. Trade Assurance up to 12K. Sourcing agents. That's the whole list. This happens every week. Operators forcing cards on production runs, suppliers refusing, two days lost. WorldFirst. CNY direct. Same-day to Chinese accounts. No card surcharge. No chargeback. Search WorldFirst.
+
+---
+
+## 9. P2-A3-1 — Real talk + escalating personal energy
+
+`P2-A3-1::PG5` · version: **Final VO** · hook: **Storytelling** · 102 words (~41s)
+
+> **Rework note:** not Full $50,000 lands. think of best rate for business kind of thing
+
+**VO:**
+
+When a business owner calls the bank, everyone blames someone else. You think your bank is helping you. They're not. You wire $50,000 to your supplier. They get $48,000. You call the bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody takes responsibility. Meanwhile your supplier won't start production. You're losing days. Your customers are waiting. Your margin is bleeding. And you're on the phone with a teller who has no idea what you're talking about. This happens every week. Every single week. WorldFirst. Near-interbank rate. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts. You sleep. Search WorldFirst.
+
+---
+
+## 10. P2-A7-1 — Real talk + frustration escalation
+
+`P2-A7-1::PG5` · version: **Final VO (Clarity)** · hook: **Clarity** · 202 words (~81s)
+
+**VO:**
+
+Here is what every growing importer needs to know about why scale feeds the bank. They're working harder every year and somehow keeping less. Sound familiar? Picture this. The owner added two new product lines. They doubled the marketing budget. They even found a better factory in Guangzhou. And the gross margin still dropped. Here's what nobody told them. The bank takes 4% of the sourcing budget every year through the exchange rate margin, the hidden gap inside the swap from ringgit or USD into Chinese yuan. The bigger the business grows, the bigger the bank's cut. Walk through it. On 500,000 dollars of sourcing, the bank takes 20,000 dollars a year. Scale up to one million dollars in sourcing, the bank takes 40,000 dollars. Double the work, double their take. The business is effectively subsidising the bank's growth with its own. Meanwhile, the owner is losing sleep over a 50 cent difference on a unit price. The leak is not the factory. The leak is the payment route. WorldFirst, the international payment service, sits at 0.3 to 0.5% on the same kind of payments. The 4% stops bleeding. The scale starts compounding for the business, not for the bank. Search WorldFirst.
+
+---
+
+## 11. P2-A8-1 — 30-second timer + brutal specificity
+
+`P2-A8-1::PH2` · version: **Final VO** · hook: **Educational** · 157 words (~63s)
+
+> **Rework note:** you should also mention our fx rate advantage, but in a non-explict way
+
+**VO:**
+
+Can a business owner find a hidden foreign exchange fee in 30 seconds? Watch. That's all it takes to find the foreign exchange margin your bank hid in your last wire to China. Watch. Step one. Pull up your wire confirmation. Five seconds. Find the field that says applied rate or exchange rate used. Got it. Step two. Open a new tab. Google USD to CNY. Look at the rate. Note the time. Ten seconds. Step three. The math. Interbank minus applied. Divide by interbank. Times 100. Ten seconds. That's the foreign exchange margin percent. Five seconds to multiply by your wire amount. That's the dollar amount they took. Real example. Applied 7.05. Interbank that morning 7.22. Margin 2.35 percent. On 50,000 dollars, you paid 1,175 dollars in invisible foreign exchange spread. The wire fee on the receipt? Forty bucks. The real cost? Thirty times that. WorldFirst shows you the rate before you click send. Search WorldFirst.
+
+---
+
+## Needs update — regenerate variants
+
+Ideas where Steven flagged that none of the 10 variants fit. Next stage: regenerate fresh variants (new hooks + bodies).
+
+- `P1-A6-1`
