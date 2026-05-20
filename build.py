@@ -393,36 +393,46 @@ html, body {{ background: var(--bg); color: var(--ink);
 /* Per-card hook control */
 .hook-ctl {{ padding: 14px 20px; border-top: 1px solid var(--line-s);
   background: rgba(10,109,47,0.035); }}
-.hook-opts {{ display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; }}
-.hook-opt {{ display: grid; grid-template-columns: 20px 1fr; gap: 10px;
-  align-items: start; padding: 9px 12px; border: 1px solid var(--line);
-  border-radius: 7px; background: var(--bg); cursor: pointer; position: relative;
-  transition: border-color 0.12s, background 0.12s; }}
+.hook-opts {{ display: flex; flex-direction: column; gap: 2px; margin-bottom: 14px; }}
+.hook-opt {{ display: grid; grid-template-columns: 16px 1fr; gap: 8px;
+  align-items: center; padding: 4px 10px; border: 1px solid var(--line);
+  border-radius: 5px; background: var(--bg); cursor: pointer; position: relative;
+  transition: border-color 0.12s, background 0.12s; min-height: 28px; }}
 .hook-opt:hover {{ border-color: var(--pick); }}
 .hook-opt input {{ position: absolute; opacity: 0; }}
-.ho-mark {{ width: 14px; height: 14px; border: 2px solid var(--line);
-  border-radius: 50%; margin-top: 4px; position: relative; transition: all 0.12s; }}
+.ho-mark {{ width: 12px; height: 12px; border: 2px solid var(--line);
+  border-radius: 50%; position: relative; transition: all 0.12s; flex-shrink: 0; }}
 .hook-opt input:checked ~ .ho-mark {{ border-color: var(--pick); }}
 .hook-opt input:checked ~ .ho-mark::after {{ content: ''; display: block;
-  width: 6px; height: 6px; border-radius: 50%; background: var(--pick);
+  width: 4px; height: 4px; border-radius: 50%; background: var(--pick);
   position: absolute; top: 2px; left: 2px; }}
 .hook-opt:has(input:checked) {{ border-color: var(--pick);
   background: rgba(10,109,47,0.06); }}
-.ho-body {{ display: flex; flex-direction: column; gap: 3px; min-width: 0; }}
-.ho-meta {{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-  font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em;
-  text-transform: uppercase; color: var(--ink-mute); }}
-.ho-star {{ color: var(--pick); font-size: 12px; }}
-.ho-num {{ color: var(--ink-mute); font-size: 10px; }}
+.ho-body {{ display: flex; flex-direction: row; align-items: baseline; gap: 10px;
+  min-width: 0; flex-wrap: nowrap; }}
+.ho-meta {{ display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--ink-mute); flex-shrink: 0; }}
+.ho-star {{ color: var(--pick); font-size: 11px; }}
+.ho-num {{ color: var(--ink-mute); font-size: 9px; }}
 .ho-cat {{ color: var(--ink-mute); font-weight: 600; }}
 .hook-opt input:checked ~ .ho-body .ho-cat {{ color: var(--pick); }}
-.ho-rec {{ font-size: 9px; letter-spacing: 0.08em; color: var(--pick);
-  background: rgba(10,109,47,0.10); padding: 1px 6px; border-radius: 100px;
+.ho-rec {{ font-size: 8px; letter-spacing: 0.06em; color: var(--pick);
+  background: rgba(10,109,47,0.10); padding: 1px 5px; border-radius: 100px;
   font-weight: 700; }}
-.ho-text {{ font-size: 14px; line-height: 1.5; color: var(--ink);
-  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif; }}
+.ho-text {{ font-size: 13px; line-height: 1.35; color: var(--ink);
+  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+  flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+  white-space: nowrap; }}
+.hook-opt:has(input:checked) .ho-text {{ white-space: normal; }}
 .hook-opt-orig {{ border-style: dashed; }}
 .hook-opt-orig .ho-text {{ color: var(--ink-soft); }}
+@media (max-width: 700px) {{
+  .hook-opt {{ padding: 5px 8px; min-height: 30px; }}
+  .ho-body {{ flex-direction: row; gap: 8px; }}
+  .ho-meta {{ font-size: 8px; }}
+  .ho-text {{ font-size: 12.5px; }}
+}}
 
 .final-vo {{ font-size: 15px; line-height: 1.65; color: var(--ink);
   font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
