@@ -7,7 +7,8 @@
       {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How a 50,000 dollar wire turns into 47,000 in three quiet steps.","recommended":false},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank says vs what your supplier actually receives.","recommended":false},
       {"category":"Storytelling Hooks","template":"When I (insert action), people said (insert feedback).","text":"When a business owner wired 50K, the supplier said: we got 47.","recommended":false},
-      {"category":"Clarity","template":"Here's what every business owner paying suppliers in [region] needs to know about [topic].","text":"Here's what every business owner paying suppliers in China needs to know about wire conversions.","recommended":true}
+      {"category":"Clarity","template":"Here's what every business owner paying suppliers in [region] needs to know about [topic].","text":"Here's what every business owner paying suppliers in China needs to know about wire conversions.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"If you pay Chinese suppliers in CNY, here is something most banks will not tell you. Your CNY can quietly get swapped to USD up to three times on the way over, and your supplier ends up short. In this video we walk through exactly where it happens.","recommended":false}
     ],
     "PH2": [
       {"category":"Authority Hooks","template":"Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).","text":"Over five years, banks quietly took 180,000 dollars from this importer.","recommended":false},
@@ -15,7 +16,8 @@
       {"category":"Myth-Busting Hooks","template":"This is how you (insert dream result) while (insert guilty pleasure).","text":"This is how a 1% spread becomes 36,000 a year while you sleep.","recommended":false},
       {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After five years of CNY wires, business owners realise one thing: the spread compounds.","recommended":false},
       {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 180,000 dollars of currency hops nobody told you existed.","recommended":false},
-      {"category":"Clarity","template":"In this video: how [small thing] quietly adds up over [time].","text":"In this video: how a small wire fee quietly adds up over five years.","recommended":true}
+      {"category":"Clarity","template":"In this video: how [small thing] quietly adds up over [time].","text":"In this video: how a small wire fee quietly adds up over five years.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"Every time you wire CNY to a Chinese factory, your money may get swapped between currencies three times, each with a hidden spread. Stretch that over five years of orders and it can quietly drain six figures from your business. Here is the math.","recommended":false}
     ],
     "PH3": [
       {"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"Last week a business owner sent 50K to Shenzhen. Supplier got 47.","recommended":false},
@@ -23,7 +25,8 @@
       {"category":"Educational Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is your wire with three correspondent hops. This is it without.","recommended":false},
       {"category":"Authority Hooks","template":"(insert big result) from (insert item/thing). Here's how you can do it in X steps.","text":"1,500 dollars vanished from one wire. Here's how, in three steps.","recommended":false},
       {"category":"Educational Hooks","template":"Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).","text":"Here are the quiet bank tricks every business owner paying China should know.","recommended":true},
-      {"category":"Clarity","template":"Here's where [amount] can quietly disappear when you [action].","text":"Here's where 1,500 dollars can quietly disappear when you wire money to China.","recommended":false}
+      {"category":"Clarity","template":"Here's where [amount] can quietly disappear when you [action].","text":"Here's where 1,500 dollars can quietly disappear when you wire money to China.","recommended":false},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"When you send a 50K CNY wire to China, your supplier can end up receiving the equivalent of 47K and nobody can tell you where the 3K went. That is because three different banks each take a quiet slice on the way. Here is the trail.","recommended":false}
     ],
     "PH4": [
       {"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone says send CNY. Nobody explains the three hops. 30 seconds, save this.","recommended":false},
@@ -31,7 +34,8 @@
       {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How a CNY payment becomes USD then CNY again in three steps.","recommended":false},
       {"category":"Educational Hooks","template":"It took me 10 years to learn this but I'll teach it to you in less than 1 minute.","text":"Most business owners take years to spot this. Here it is in 60 seconds.","recommended":false},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What a wire form says vs what its underlying rails actually carry.","recommended":false},
-      {"category":"Clarity","template":"In this video: what actually happens when you [action].","text":"In this video: what actually happens when you wire CNY to a supplier in China.","recommended":true}
+      {"category":"Clarity","template":"In this video: what actually happens when you [action].","text":"In this video: what actually happens when you wire CNY to a supplier in China.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"You think your bank sends CNY straight to your Chinese supplier. It does not. It runs on USD rails, so your money is swapped to USD, routed through a middle bank, then swapped back to CNY at the other end. Here is why each hop costs you.","recommended":false}
     ],
     "PH5": [
       {"category":"Educational Hooks","template":"If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.","text":"If you wire money to China and want every dollar to land, watch this.","recommended":true},
@@ -39,7 +43,8 @@
       {"category":"Educational Hooks","template":"If you're (insert age range), these are the # things you need to do so you don't end up (insert pain point) by (insert age).","text":"If you import from China, these are the three spreads to watch for.","recommended":false},
       {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"A business owner sent CNY to Shenzhen and skipped all three spreads.","recommended":false},
       {"category":"Storytelling Hooks","template":"When I (insert action), people said (insert feedback).","text":"When a business owner wired CNY, the supplier said: we received USD.","recommended":false},
-      {"category":"Clarity","template":"Here's what every [audience] needs to know about [topic].","text":"Here's what every business owner wiring money to China needs to know about hidden spreads.","recommended":false}
+      {"category":"Clarity","template":"Here's what every [audience] needs to know about [topic].","text":"Here's what every business owner wiring money to China needs to know about hidden spreads.","recommended":false},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"If you wire money to China, there are three points where your CNY can quietly become USD and back again, each with a small currency spread taken from your margin. Stack those and your supplier lands short, or worse, sitting on USD. Here is what to watch for.","recommended":false}
     ],
     "PG1": [
       {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said you sent CNY. You didn't. The bank routed USD.","recommended":false},
@@ -47,7 +52,8 @@
       {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"WorldFirst users send real CNY without three correspondent hops.","recommended":false},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank says vs what three correspondent banks actually do.","recommended":false},
       {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, business owners realise one thing: banks don't carry CNY.","recommended":false},
-      {"category":"Clarity","template":"Here's what really happens when you [action].","text":"Here's what really happens when you send a CNY wire from your bank.","recommended":true}
+      {"category":"Clarity","template":"Here's what really happens when you [action].","text":"Here's what really happens when you send a CNY wire from your bank.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"Your bank app says CNY on the screen, but behind the scenes most banks swap that into USD before it leaves, route it through a middle bank, then swap it back at your supplier's end. Three swaps. Three spreads. Here is what really moves.","recommended":false}
     ],
     "PG2": [
       {"category":"Myth-Busting Hooks","template":"It's time to throw away your (insert item), you don't need it anymore.","text":"It's time to ditch the bank wire for CNY supplier payments.","recommended":false},
@@ -55,7 +61,8 @@
       {"category":"Myth-Busting Hooks","template":"More (insert target audience) need to hear this, (insert common belief) will not (insert result).","text":"More business owners need to hear this. Most banks don't actually send CNY.","recommended":false},
       {"category":"Authority Hooks","template":"Just # (insert item/action) took my client from (insert before) to (insert after).","text":"One switch took an importer from 30,000 a year lost to zero.","recommended":false},
       {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 30,000 dollars a year quietly hopping through three banks.","recommended":false},
-      {"category":"Clarity","template":"In this video: why most banks don't actually [action], even when you ask them to.","text":"In this video: why most banks don't actually send CNY, even when you ask them to.","recommended":true}
+      {"category":"Clarity","template":"In this video: why most banks don't actually [action], even when you ask them to.","text":"In this video: why most banks don't actually send CNY, even when you ask them to.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"Most banks do not actually send CNY when you ask them to, even though your screen says so. They send USD and let a swap happen down the line, with about 1% taken at each of three banks. On regular supplier payments, that drains thousands a year from your margin.","recommended":false}
     ],
     "PG3": [
       {"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using a USD-rail bank to send CNY to suppliers.","recommended":false},
@@ -63,7 +70,8 @@
       {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How to turn a leaky USD-rail wire into one direct CNY hop.","recommended":false},
       {"category":"Educational Hooks","template":"Here's exactly how you're gonna lock in if you want to (insert dream result).","text":"Here's exactly how to lock in real CNY rails for every supplier payment.","recommended":false},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank's wire form says vs what its rails actually carry.","recommended":false},
-      {"category":"Clarity","template":"Here's why your [tool] might be the wrong tool for [task].","text":"Here's why your bank might be the wrong tool for paying Chinese suppliers.","recommended":true}
+      {"category":"Clarity","template":"Here's why your [tool] might be the wrong tool for [task].","text":"Here's why your bank might be the wrong tool for paying Chinese suppliers.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"Banks move international money on pipes called rails, and most banks have USD rails, not CNY rails. So when you ask your bank to send CNY to China, it cannot do it end to end. Here is why that costs you a spread at every hop.","recommended":false}
     ],
     "PG4": [
       {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said the wire goes CNY to CNY. Actually it hits three banks.","recommended":false},
@@ -71,7 +79,8 @@
       {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of CNY wires, business owners realise one thing: the conversion isn't where they thought.","recommended":false},
       {"category":"Educational Hooks","template":"Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).","text":"Here are the silent FX moves banks pull on every China wire. Worth knowing.","recommended":true},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What a wire statement shows vs what three banks really did to your money.","recommended":false},
-      {"category":"Clarity","template":"In this video: where the FX conversion really happens on [thing].","text":"In this video: where the FX conversion really happens on your China wire.","recommended":false}
+      {"category":"Clarity","template":"In this video: where the FX conversion really happens on [thing].","text":"In this video: where the FX conversion really happens on your China wire.","recommended":false},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"You probably think your bank does the currency swap once at the start of a China wire. It does not. Three different banks can each book their own rate and take their own spread, and you will never see it on your statement. Here is where it really happens.","recommended":false}
     ],
     "PG5": [
       {"category":"Storytelling Hooks","template":"So I recently started feeling \"the pressure\" everyone talks about.","text":"So a business owner just had the supplier-called-asking-where-the-CNY-went day.","recommended":false},
@@ -79,7 +88,8 @@
       {"category":"Educational Hooks","template":"Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).","text":"Still phone-tagging your bank about a missing CNY wire? There's a quieter way.","recommended":false},
       {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why every China wire ends in three banks pointing fingers.","recommended":false},
       {"category":"Day In The Life Hooks","template":"So okay, being an (insert target audience), my days vary quite a lot from one another.","text":"So okay, being a business owner paying China, your wire day varies a lot.","recommended":false},
-      {"category":"Clarity","template":"Here's why no one can tell you where [thing happened].","text":"Here's why no one can tell you where your CNY became USD.","recommended":true}
+      {"category":"Clarity","template":"Here's why no one can tell you where [thing happened].","text":"Here's why no one can tell you where your CNY became USD.","recommended":true},
+      {"category":"Ultra Clarity","template":"ultra-clarity story-mode opener","text":"When a China wire goes wrong, every bank in the chain points at the other and nobody can tell you where the swap happened. That is because there are three possible places it can happen, all hidden from your statement. Here is why the phone-tag never ends.","recommended":false}
     ]
   }
 }

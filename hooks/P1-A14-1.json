@@ -37,6 +37,12 @@
         "template": "In this video: why (insert situation) lands as (insert outcome).",
         "text": "In this video: why three identical 50K wires to one supplier land as three different amounts.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Three business owners sent the same 50,000 dollar wire to the same Chinese supplier on the same day. The supplier got three different amounts. All three receipts said no fee. We'll walk you through exactly why this happens, and where the money quietly went.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about how wire rate margin compounds across a year.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you send 12 wires a year to Chinese suppliers, the rate margin baked into your bank's exchange rate could be costing you 7,200 dollars a year. That's an employee you didn't hire. We'll show you the simple math.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "In this video: how (insert mechanism) explains (insert outcome).",
         "text": "In this video: how the rate margin on a wire takes 600 dollars your receipt never shows.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your last wire to China said wire fee zero on the receipt. So you thought it was free. It wasn't. Your bank can still take a margin of around 1.5 percent through the exchange rate. We'll show you exactly where the 600 dollars went.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why the wire fee is not the real cost.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Two wires to the same supplier on the same day can land at different amounts. That sounds strange, but here's why. Your bank picks the exchange rate, and they don't show you the gap between their rate and the real market rate. We'll explain it step by step.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "In this video: why (insert situation) lands as (insert outcome).",
         "text": "In this video: why three identical wires to China can land as three different supplier amounts.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you pay Chinese suppliers and the receipt always says no fee, here's what your bank isn't showing you. The real cost isn't the wire fee. It's the exchange rate margin. We'll walk you through three real wires and where the 600 dollars went.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner sourcing from China needs to know about the rate hidden in their wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Three business owners sent 50,000 dollar wires this morning to the same supplier. Three different amounts arrived. You and your friend probably aren't getting the same rate either, even if your receipts both say no fee. We'll show you why.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "In this video: how (insert small number) becomes (insert large number) over (insert time).",
         "text": "In this video: how a 600 dollar wire gap turns into 7,200 a year on a normal sourcing schedule.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "If you run a sourcing business doing 600,000 dollars a year across three Chinese factories, your bank might be quietly costing you around 20,000 dollars in hidden exchange rate margin. That's a salary. We'll walk you through the math.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why a domestic bank is the wrong tool for a China wire.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your domestic bank was built for local payments, not cross-border yuan wires to Chinese suppliers. That's why three identical 50,000 dollar wires can land at three different amounts depending on the tool used. We'll explain which tool fits the job.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "In this video: how (insert mechanism) explains (insert outcome).",
         "text": "In this video: how banks earn on the rate rather than the wire fee on cross-border payments.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Most business owners don't realise this about international wires. Banks don't earn most of their money on the wire fee. They earn it quietly on the exchange rate margin, around 1 to 2 percent, baked into every wire. We'll show you where to look.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here's what every business owner needs to know about why two people sending the same wire get different rates.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You and your friend both wired 50,000 dollars to Chinese suppliers this week. Your receipts both said no fee. But your friend's supplier got 600 dollars more than yours. Different banks, different hidden rate margins. We'll explain why this happens every week.",
+        "recommended": false
       }
     ]
   }

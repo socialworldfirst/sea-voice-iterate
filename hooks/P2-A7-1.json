@@ -37,6 +37,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here is what every business owner needs to know about the 4% leaving their sourcing budget.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a business owner in Malaysia who just paid a Chinese supplier. The factory got the goods ready. Everyone's happy. But the bank quietly took 4% of that payment, hidden inside the exchange rate.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -74,6 +80,12 @@
         "category": "Clarity",
         "template": "In this video: (insert topic), explained.",
         "text": "In this video: how a 4% bank leak compounds into 66K over three years, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a story most business owners in Malaysia never get told. Every year, 4% slips out of the sourcing budget. Not a fee. Not a charge. It's hidden inside the exchange rate the bank uses to swap money into Chinese yuan.",
         "recommended": false
       }
     ],
@@ -113,6 +125,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here is what every importer should know about where 4% of supplier wires actually goes.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "A business owner just lost 20,000 dollars to their bank this year and never noticed. Let's walk through how. Every payment to a Chinese supplier carried a 4% margin tucked into the exchange rate, hidden inside the swap.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -150,6 +168,12 @@
         "category": "Clarity",
         "template": "In this video: (insert topic), explained.",
         "text": "In this video: why a business owner is negotiating with the wrong person, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Picture a Malaysian importer who just spent three weeks pushing a Chinese supplier on price. They knocked 2% off the quote and felt great. Meanwhile, the bank was taking 4% on every payment, hidden in the rate.",
         "recommended": false
       }
     ],
@@ -189,6 +213,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here is what every China importer needs to know about the rate on every wire.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Any business owner sourcing from China needs to hear this. The sourcing budget is leaking 4% a year, and most owners are looking in the wrong place to fix it. Let's walk through what really happens every time a payment goes out.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -226,6 +256,12 @@
         "category": "Clarity",
         "template": "In this video: (insert topic), explained.",
         "text": "In this video: where 4 percent of every supplier payment quietly goes, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something for every business owner in Malaysia who buys from China. The sourcing budget is shrinking by 4% every year, and most owners can't even see it. It's hidden inside the swap from ringgit into Chinese yuan.",
         "recommended": false
       }
     ],
@@ -265,6 +301,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here is what every business owner needs to know about their most expensive vendor.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's an idea worth sitting with. The most expensive vendor in a business is the bank handling supplier payments to China. Picture a 500,000 dollar sourcing budget, and 20,000 dollars quietly walks out every year inside the exchange rate.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -302,6 +344,12 @@
         "category": "Clarity",
         "template": "In this video: (insert topic), explained.",
         "text": "In this video: why the supplier is not the leak and the rail is, explained.",
+        "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's a quiet suggestion. Try negotiating with the bank this quarter instead of the supplier. A business owner just spent three weeks pushing the factory for 2% off, while the bank was taking 4% on every payment, hidden in the rate.",
         "recommended": false
       }
     ],
@@ -341,6 +389,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here is what every business owner needs to know about the rate hidden in every wire.",
         "recommended": false
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something nobody's telling business owners about paying suppliers overseas. The bank's biggest revenue line on the account is not the wire fee. It's the exchange rate they use when swapping money into Chinese yuan.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's what every (insert audience) needs to know about (insert topic).",
         "text": "Here is what every growing importer needs to know about why scale feeds the bank.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Here's something for every business owner in Malaysia sourcing from China. They're working harder every year and somehow keeping less. The bank takes 4% of the sourcing budget through the exchange rate, and the bigger the business grows, the bigger the bank's cut.",
+        "recommended": false
       }
     ]
   }

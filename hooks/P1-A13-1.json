@@ -37,6 +37,12 @@
         "template": "Here's what every (audience) needs to know about (topic), explained simply.",
         "text": "Here's what every business owner sending money to China needs to know about hidden bank fees.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "When you wire money to your supplier in China, your bank can charge you in two ways at the same time. One shows up on the receipt. The other hides inside the exchange rate. Most business owners only ever see the first one. We'll walk you through both.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -75,6 +81,12 @@
         "template": "In this video: how (small number) becomes (big number) over time, explained simply.",
         "text": "In this video: how a 300 dollar wire margin becomes 54,000 over five years.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "You wire 10,000 dollars to your supplier in China. The receipt says fee waived. You move on. But here's what most business owners miss. A small markup hides inside the exchange rate, and over a few years it can quietly add up to tens of thousands. We'll walk through the math.",
+        "recommended": false
       }
     ],
     "PH3": [
@@ -113,6 +125,12 @@
         "template": "Here's how (label) can still cost you (amount), explained simply.",
         "text": "Here's how a wire that says fee waived can still cost you 300 dollars.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your last wire to China had fee waived on the receipt. That's true. But the rate the bank used to convert your money was a few percent off the real rate Google shows. On a 10,000 dollar wire, that gap can be 300 dollars. We'll show you exactly where it hides.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -151,6 +169,12 @@
         "template": "In this video: the two ways (entity) charges you on (action), explained simply.",
         "text": "In this video: the two ways banks charge you when wiring money to China.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "When you pay a supplier in China, your bank runs two charging mechanisms side by side. One is the wire fee you can see on the receipt. The other is a small markup baked into the exchange rate, which never shows up as a fee. We'll walk through both, step by step.",
+        "recommended": false
       }
     ],
     "PH5": [
@@ -189,6 +213,12 @@
         "template": "Here's what to check before (action) so (outcome), explained simply.",
         "text": "Here's what to check before your next wire to China so it doesn't cost you 300 dollars.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Before you send your next wire to China, there are two numbers worth checking. The wire fee on the receipt is the obvious one. The exchange rate the bank quotes you is the one most business owners skip. On a 10,000 dollar wire, that rate alone can quietly cost 300 dollars.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -227,6 +257,12 @@
         "template": "In this video: how (label) can still cost you (amount), explained simply.",
         "text": "In this video: how \"no transfer fee\" can still cost you 300 dollars, explained simply.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your bank says no transfer fee on the wire to your Chinese supplier. That part is true. But here's what most business owners miss. The exchange rate the bank uses can be a few percent off the real one, and on a 10,000 dollar wire that gap is around 300 dollars. We'll show you where it lives.",
+        "recommended": false
       }
     ],
     "PG2": [
@@ -265,6 +301,12 @@
         "template": "Here's the math on how (small amount) adds up to (big amount), explained simply.",
         "text": "Here's the math on how 300 dollars per wire adds up to 36,000 over five years.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Say you send two wires a month to your supplier in China. The fee column on each receipt shows zero. Feels free. It usually isn't. A small markup hides inside the exchange rate, and over five years that quiet markup can add up to tens of thousands of dollars. We'll walk through the math.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -303,6 +345,12 @@
         "template": "Here's where the real cost of (action) lives, explained simply.",
         "text": "Here's where the real cost of a wire to China lives, and it's not the fee column.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "When you wire money to your supplier in China, the fee column on the receipt is the part most business owners watch. But the real cost usually lives somewhere else, inside the exchange rate the bank quotes you. On a 10,000 dollar wire, that hidden gap can be 300 dollars. We'll show you exactly where.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -341,6 +389,12 @@
         "template": "Here's what every (audience) needs to know about (topic), explained simply.",
         "text": "Here's what every business owner needs to know about how cross-border wire pricing actually works.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Cross-border wires to China are priced in two layers. The first layer is the wire fee, the visible number on top. The second layer is the markup baked into the exchange rate, which is rarely listed anywhere on the receipt. We'll walk through both so you know what you're actually paying.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -379,6 +433,12 @@
         "template": "Here's why a (label) on your (document) doesn't mean (assumption), explained simply.",
         "text": "Here's why \"fee waived\" on your wire receipt doesn't mean the wire was free.",
         "recommended": true
+      },
+      {
+        "category": "Ultra Clarity",
+        "template": "ultra-clarity story-mode opener",
+        "text": "Your wire receipt says fee waived. You feel good. But here's what business owners often miss. The exchange rate the bank used to convert your dollars can be a few percent off the real rate, and that gap is where the actual cost lives. On a 10,000 dollar wire, that gap is roughly 300 dollars.",
+        "recommended": false
       }
     ]
   }
