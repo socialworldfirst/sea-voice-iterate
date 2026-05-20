@@ -126,8 +126,8 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
             f'data-hook="{esc(htext)}" data-label="{esc(cat)}" data-val="{i}"{checked}>'
             f'<span class="ho-mark"></span>'
             f'<span class="ho-body">'
-            f'<span class="ho-meta">{star} <span class="ho-cat">{esc(cat)}</span> {rec_badge}</span>'
             f'<span class="ho-text">{esc(htext)}</span>'
+            f'<span class="ho-meta">{star} <span class="ho-cat">{esc(cat)}</span> {rec_badge}</span>'
             f'</span>'
             f'</label>'
         )
@@ -141,8 +141,8 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
         f'data-hook="{esc(orig_hook)}" data-label="Original" data-val="orig">'
         f'<span class="ho-mark"></span>'
         f'<span class="ho-body">'
-        f'<span class="ho-meta"><span class="ho-num">·</span> <span class="ho-cat">Original</span></span>'
         f'<span class="ho-text">{esc(orig_hook)}</span>'
+        f'<span class="ho-meta"><span class="ho-num">·</span> <span class="ho-cat">Original</span></span>'
         f'</span>'
         f'</label>'
     )
@@ -408,11 +408,12 @@ html, body {{ background: var(--bg); color: var(--ink);
   position: absolute; top: 2px; left: 2px; }}
 .hook-opt:has(input:checked) {{ border-color: var(--pick);
   background: rgba(10,109,47,0.06); }}
-.ho-body {{ display: flex; flex-direction: row; align-items: baseline; gap: 10px;
-  min-width: 0; flex-wrap: nowrap; }}
+.ho-body {{ display: flex; flex-direction: row; align-items: baseline; gap: 12px;
+  min-width: 0; flex-wrap: nowrap; justify-content: space-between; }}
 .ho-meta {{ display: inline-flex; align-items: center; gap: 6px;
   font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em;
-  text-transform: uppercase; color: var(--ink-mute); flex-shrink: 0; }}
+  text-transform: uppercase; color: var(--ink-mute); flex-shrink: 0;
+  margin-left: auto; }}
 .ho-star {{ color: var(--pick); font-size: 11px; }}
 .ho-num {{ color: var(--ink-mute); font-size: 9px; }}
 .ho-cat {{ color: var(--ink-mute); font-weight: 600; }}
