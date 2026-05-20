@@ -1,1 +1,325 @@
-{"slide_id":"P2-A13-1","hooks":[{"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how much a 20K PayPal supplier payment really costs a business owner.","recommended":true},{"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"The receipt says 20K. The real cost says something else entirely.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner checked one PayPal receipt and noticed something off.","recommended":false},{"category":"Authority Hooks","template":"(insert big result) from (insert item/thing). Here's how you can do it in X steps.","text":"2,000 dollars saved on one 20K supplier payment. Here's the math.","recommended":false},{"category":"Random Hooks","template":"(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.","text":"PayPal won't show a business owner this math on a 20K supplier payment.","recommended":false}]}
+{
+  "slide_id": "P2-A13-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much a 20K PayPal supplier payment really costs.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why paying Chinese suppliers through PayPal quietly burns 11% per order.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner pays Chinese suppliers via PayPal, watch this before the next wire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using PayPal for 20K supplier payments to China.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says PayPal is fine for suppliers. Nobody shows the 60-second math.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what three years of PayPal supplier payments actually looks like.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over three years, a PayPal habit quietly grows from 2K to 85K in leakage.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. PayPal will not protect a 20K supplier margin.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If I were starting over in my (insert age range) with no (insert item), here are the top # things I would do to (insert dream result).",
+        "text": "If a business owner started sourcing today, here's the one payment habit to drop early.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 85,000 dollars of PayPal fees on one supplier relationship.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "PayPal said the receipt was 20K. The actual cost was 22K.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).",
+        "text": "This is the PayPal receipt. This is what the supplier actually charged behind it.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "PayPal shows 20K. The supplier quietly charged 22K.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
+        "text": "Here's how to read a PayPal receipt so carefully a business owner can't unsee the gap.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What a PayPal receipt says vs what a 20K supplier order actually costs.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Most business owners take years to spot this. Here it is in 60 seconds.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't send the next 20K to a Chinese supplier until you've checked these three layers.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I'm going to tell you how to get (insert result), (insert mind-blowing method).",
+        "text": "Here's the real cost of a 20K PayPal order. Three layers, one invoice.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why using PayPal for supplier payments quietly compresses a business owner's margin.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a 2,380 dollar PayPal leak into hundreds, in three simple steps.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "On the next 20K supplier order, here are three things to check right away.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert item) (insert similar fact), (insert complete opposite item) (insert similar fact).",
+        "text": "PayPal charged 880. PayPal also took 700. The supplier added 800 more.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner pays China and wants the real cost, watch the next 60 seconds.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).",
+        "text": "This is what a 20K order looks like on PayPal. This is what it looks like on specialist FX.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. A PayPal receipt is not the full cost.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using PayPal for 20K payments to Chinese factories.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner sources from China and uses PayPal, the math here matters.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Your life is boring because you don't (insert action).",
+        "text": "A business owner's margin is shrinking because PayPal isn't priced for 20K orders.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how you're gonna lock in if you want to (insert dream result).",
+        "text": "Here's exactly how a business owner locks in supplier margin without the PayPal leak.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Let me de-influence you from (insert action).",
+        "text": "Let me de-influence any business owner using PayPal for Chinese supplier payments.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "PayPal is cheap and easy. Not when a business owner pays China 20K at a time.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're (insert age range), these are the # things you need to do so you don't end up (insert pain point) by (insert age).",
+        "text": "If a business owner sources now, here are the moves so margin doesn't compound away.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what 36 months of PayPal supplier payments looks like compounded.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. PayPal will not stay cheap at supplier volume.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 85,000 dollars of leakage on one Chinese supplier in three years.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time for business owners to stop paying 20K suppliers with a retail app.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner doesn't have a specialist supplier rail, PayPal is the wrong tool.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using a retail payment app to send 20K to a Chinese factory.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "(insert trait) Guy vs (insert trait) Guy.",
+        "text": "PayPal Business Owner vs Specialist FX Business Owner. Same 20K order.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner wants margin back on 20K supplier orders, this is the swap.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "The receipt says 20K. The real cost says 22K. Two different numbers.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting a PayPal receipt quietly compresses a business owner's margin.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone trusts the PayPal receipt. Nobody breaks down the three hidden layers. Here they are.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. A PayPal receipt will not show the full damage.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
+        "text": "Here's how a business owner learns to read past a PayPal receipt for good.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much a 20K PayPal order costs once supplier-side fees stack.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why every PayPal supplier payment quietly funds a 21-day cash hold.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner sources from China weekly, this is the cost nobody flagged.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using a retail payment app for B2B-volume supplier orders.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Business owners who switched got the full 20K to the supplier without the 21-day hold.",
+        "recommended": false
+      }
+    ]
+  }
+}

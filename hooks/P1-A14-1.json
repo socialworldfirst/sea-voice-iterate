@@ -1,1 +1,325 @@
-{"slide_id":"P1-A14-1","hooks":[{"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why wiring 50K through your bank quietly loses you 600 dollars.","recommended":true},{"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result).","text":"Here's exactly how much a hidden bank rate costs on one 50K China wire.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"Three business owners sent the same 50K wire and noticed something strange.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner's supplier got the full 50K without losing 600 to the bank.","recommended":false},{"category":"Random Hooks","template":"(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.","text":"Your bank won't tell you this, so here's what they hide on every China wire.","recommended":false}]}
+{
+  "slide_id": "P1-A14-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much three business owners lost wiring 50K to the same supplier.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliche or quote)\" — that's a lie.",
+        "text": "They said wire fees are the cost. That's not the cost.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "One business owner's supplier got the full wire without losing 600 to the rate.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "Yesterday three business owners wired 50K to the same factory. Three amounts arrived.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is a 600 dollar spread on three identical 50K wires.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "Just 12 wires a year took one business owner from 9K lost to 1,800 lost.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what 21,600 dollars of hidden FX margin looks like over three years.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. A zero wire fee is not a free wire.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "In (insert time), I went from (insert before state) to (insert after state).",
+        "text": "In one year, three business owners went from same wire to a 7,200 dollar gap.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 600,000 in sourcing volume and a 7,200 dollar leak nobody sees.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why wiring 50K through your bank leaves your supplier 600 short.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says compare wire fees. Nobody tells you the rate is the real cost.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When three business owners checked their receipts, all three said no fee.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What your wire receipt says vs what your bank actually took.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How I got my (insert item/thing) from this to this.",
+        "text": "How one business owner went from 49,250 landed to 49,850 landed on the same wire.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone tells you to compare wire fees. Here's the part most business owners miss.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using wire fees to compare cross-border payments to China.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn 49,250 landed into 49,850 landed in one switch.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "So I did (insert action) last week.",
+        "text": "So three business owners ran the same 50K wire last week. Different amounts landed.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What the wire fee line says vs what the exchange rate quietly takes.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you wire money to Chinese suppliers and want the full amount to land, watch this.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "One business owner's supplier got 49,850 on a 50K wire. Receipt said no fee.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time to stop comparing wire fees. The fee line is not the full cost.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "So I did (insert action) last week.",
+        "text": "Three business owners ran identical 50K wires last week. Three different outcomes.",
+        "recommended": false
+      },
+      {
+        "category": "Day In The Life Hooks",
+        "template": "So okay, being an (insert target audience), my days vary quite a lot from one another.",
+        "text": "Being a business owner sourcing from China, every wire lands a different amount.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you source from China and want the full wire to land, listen up.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Wire fee says zero. Rate margin still takes 600 dollars.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "So I did (insert action) last week.",
+        "text": "So three business owners sent 50K wires this morning. Three different amounts landed.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What your bank says about your wire vs what the supplier actually receives.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How I got my (insert item/thing) from this to this.",
+        "text": "How one business owner got their supplier from 49,250 landed to 49,850 landed.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Your bank is the most expensive part of sourcing.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "Just one rate margin took three business owners from same wire to 7,200 apart.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what 20K a year of hidden rate margin looks like across three factories.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After three years of wiring to China, one business owner realised the rate is the cost.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 20K a year of margin sitting quietly in your bank's pocket.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using your domestic bank for cross-border CNY wires to suppliers.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If you don't have a specialist for China wires, you're paying 600 per 50K.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn 49,250 landed into 49,850 landed by changing the tool, not the wire.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When three business owners wired the same day, the right tool won by 600.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What your domestic bank says it can do vs what cross-border CNY actually needs.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone checks the wire fee. Nobody checks the rate margin where banks really earn.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Wire fee waived. Rate margin charged. Same receipt, different reality.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "Yesterday three business owners wired 50K to the same supplier. Three amounts arrived.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What the receipt says: no fee. What the rate took: 1 to 2 percent.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "One business owner's supplier got 49,850 landed without paying any wire fee.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you pay Chinese suppliers, you and your friend are not getting the same rate.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Receipt says wire complete. Supplier says 600 short.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When three business owners compared receipts, all said no fee. All landed different amounts.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How I got my (insert item/thing) from this to this.",
+        "text": "How one business owner got their wire from 49,250 landed to 49,850 landed.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 7,200 dollars a year leaking from one business owner's P&L.",
+        "recommended": false
+      }
+    ]
+  }
+}

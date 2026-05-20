@@ -1,1 +1,325 @@
-{"slide_id":"P2-A7-1","hooks":[{"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why fighting your supplier on price loses a business owner four percent a year.","recommended":true},{"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result).","text":"Here is exactly how much a business owner loses to bank FX on half a million in sourcing.","recommended":false},{"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After a full year of supplier payments, one business owner saw it: four percent just gone.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"A business owner kept twenty thousand dollars a year without changing one supplier.","recommended":false},{"category":"Day In The Life Hooks","template":"So okay, being an (insert target audience), my days vary quite a lot from one another.","text":"So okay, a business owner sourcing from China loses four percent every single payment, quietly.","recommended":false}]}
+{
+  "slide_id": "P2-A7-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here is exactly how much a bank quietly takes from a 500K sourcing budget.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why pushing the PI harder still leaves a business owner 20K short.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner sources from China and wants 18K back, listen up.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "20K back into the business from one wire change. Here is the math.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Negotiating the PI will not stop the 4% leak.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what three years of a 4% bank leak looks like on 500K of sourcing.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why growing 10% a year makes a business owner poorer, not richer.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over three years, this leak grows from 20K to 66K. Same business, same wires.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone tells a business owner to scale. Nobody mentions the leak scales too.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 66 thousand dollars of margin a bank kept and nobody saw it.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Educational Hooks",
+        "template": "I see you doing nothing but (insert action) after (insert event), so follow this agenda to avoid that.",
+        "text": "Watching a business owner squeeze the PI while their bank takes 4%. Read this.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why a business owner blames the supplier deal. It was never the supplier.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Importers get 20K back a year without renegotiating a single PI.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Still chasing pennies on unit price? 4% of the whole budget walks out anyway.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "They said \"negotiate harder with the supplier.\" The supplier never touched the money.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is how you (insert dream result) while (insert guilty pleasure).",
+        "text": "This is how a business owner saves 17K a year without touching one supplier.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Just found the biggest sourcing cheat code business owners keep sleeping on.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. A 2% PI win will not fix a 4% bank leak.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
+        "text": "Here is how a business owner reframes the leak so they stop blaming the factory.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "17K back from switching the rail, not the factory. Three steps below.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "When a business owner wires China, three things happen on every payment.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you source from China and want to stop year four of this leak, listen.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't wire another supplier until a business owner checks one thing on the rate.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a 20K annual leak into a sub-3K one in three steps.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Took years for business owners to spot this leak. Here it is in 60 seconds.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Squeezing MOQ will not plug a 4% leak.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here is exactly how much a bank skims when a business owner wires China.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why chasing 1% on the PI keeps a business owner stuck on margin.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Don't believe in squeezing the supplier. Believe in switching the rail.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner wants 4% of their budget back, hear this out.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Their biggest vendor is the bank.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Found the most expensive vendor a business owner has and never sees.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over three years, that bank vendor cost a business owner a hire and a warehouse rack.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Don't believe the wire fee is the bank's revenue line. The rate is.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of importing, business owners realise one thing. The vendor is the bank.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using the supplier negotiation to save 4% on a sourcing budget.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone tells a business owner to push the factory. Nobody mentions the rail.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why a three-week PI fight barely moves a business owner's margin.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "Spending over 250K on Chinese suppliers? Highest ROI hour starts here.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What a business owner thinks they save on the PI vs what they lose on the wire.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "They said \"the wire fee is what banks make.\" Nope. It is the rate.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here is a quiet sourcing truth a business owner is not told about wires.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop checking the wire fee. Check the rate against the live market.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
+        "text": "Your bank didn't want this explained. Here is what they bake into every wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "10 years it took me from (insert before state) to (insert after state).",
+        "text": "Took years for business owners to see the rate is the cost, not the fee.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why a business owner works harder every year and keeps less.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Still adding SKUs while gross margin drops? The leak scaled with the business.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Scale is feeding the bank, not the brand.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My (insert before state) used to look like this and now they look like this.",
+        "text": "A business owner's margin used to look like this. Now it looks like this.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of importing, a business owner realises growth is feeding the bank.",
+        "recommended": false
+      }
+    ]
+  }
+}

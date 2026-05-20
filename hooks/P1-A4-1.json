@@ -1,1 +1,325 @@
-{"slide_id":"P1-A4-1","hooks":[{"category":"Myth-Busting Hooks","template":"(insert item) (insert fact), (insert complete opposite item) (insert similar fact).","text":"Supplier got 200 dollars less. Not a scam. Middle banks took a cut.","recommended":true},{"category":"Educational Hooks","template":"If you don't have (insert item/action), do (insert item/action).","text":"If your supplier says the money landed short, blame the middle banks.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner paid in full. Days later the supplier asked for 200 more.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"Some business owners get the full amount to China without topping up later.","recommended":false},{"category":"Random Hooks","template":"(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.","text":"Your bank won't tell you this. Here is where the missing 200 went.","recommended":false}]}
+{
+  "slide_id": "P1-A4-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Supplier says 49,800 landed. Not a scam. Middle banks took the cut.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much your wire to China loses before it lands.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "A business owner sent 50K to China. Supplier saw 49,800. Weird.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Smart business owners get the full amount to China without topping up.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What your bank says vs what the wire actually does to your 50K.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what 24,000 dollars of silent wire fees looks like over five years.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why wiring 50K to China twice a month bleeds 4,800 a year.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much a SWIFT default setting costs a business owner yearly.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over five years, three banks quietly drained 24K from one business owner.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 24,000 dollars of wire deductions nobody warned the business owner about.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Storytelling Hooks",
+        "template": "It all started when (insert person) (insert action).",
+        "text": "It all started when three banks nobody named pulled 200 from one wire.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are 3 people who will make you a better (insert title).",
+        "text": "Here are three banks the business owner never met who shaved his wire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "Your bank said it was a fee. That's a lie. It was three middle banks.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn 49,800 back into 50,000 landing in China in one switch.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
+        "text": "Your bank won't tell you this. Three banks just trimmed your last wire.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says SWIFT moves money. Nobody tells you SWIFT is just messaging.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using SWIFT for China payments. It's a messaging chain, not a rail.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "10 years it took me from (insert before state) to (insert after state).",
+        "text": "Years it took a business owner to learn SWIFT is just messaging, not money.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of wiring China, the business owner realised SWIFT is just messaging.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Don't believe SWIFT moves money. Real banks in the middle do, and skim.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Four invisible cuts hit every China wire. Every business owner should know.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "When the business owner wires 50K to China, four things happen unseen.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't wire 50K to China until you check field 71A on your form.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of wiring China, the business owner realised one thing. Four invisible cuts.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What the wire receipt says vs what actually reaches the China supplier.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Your supplier is not lying.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner paying China and want the full amount to land, listen.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting SWIFT defaults makes the business owner lose a week.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Some business owners get China payments landing same-day without short amounts.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When the business owner asked the bank, they said it was the supplier's bank.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "Just one default setting took a business owner from 50K sent to 49,800 landed.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Freight is expensive. The middle banks the business owner has never heard of are worse.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what 24,000 dollars of disappeared wire deductions looks like.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "In (insert time), I went from (insert before state) to (insert after state).",
+        "text": "In five years, a business owner went from full wires to 24K silently gone.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
+        "text": "Your bank won't tell the business owner this. Three banks bleed every wire.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using SWIFT for China supplier payments. Wrong tool for the job.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time to throw away SWIFT for China wires. The business owner deserves better.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "(insert trait) Guy vs (insert trait) Guy.",
+        "text": "Fax-machine business owner vs direct-rail business owner. Same payment, different week.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years wiring China, the business owner realised SWIFT is the wrong tool.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What your bank says vs what the 50-year-old SWIFT chain actually does.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Found the biggest import cheat code. SWIFT is a chat group, not a rail.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "Banks said the wire moves your money. That's a lie. SWIFT just passes a message.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone tells the business owner to wire SWIFT. Nobody explains the chain.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a short wire into a full one. Skip the SWIFT chain entirely.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of China wires, the business owner realised SWIFT is just messaging.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Storytelling Hooks",
+        "template": "So I did (insert action) last week.",
+        "text": "A business owner called the bank last week. Got blamed back and forth.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When the business owner asked the teller, they'd never heard of correspondents.",
+        "recommended": false
+      },
+      {
+        "category": "Day In The Life Hooks",
+        "template": "Day in the life of a (insert adjective) person.",
+        "text": "Day in the life of a business owner chasing a short 200 wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "A business owner got 50K landing same-day in China without a top-up call.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner sourcing from China and want clean wires, listen.",
+        "recommended": false
+      }
+    ]
+  }
+}

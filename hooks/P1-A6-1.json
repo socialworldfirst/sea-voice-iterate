@@ -1,1 +1,75 @@
-{"slide_id":"P1-A6-1","hooks":[{"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said \"pay in US dollars, it's safer.\" That's a lie. It costs 2% more.","recommended":true},{"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone pays suppliers in US dollars. Nobody tells you it gets converted twice. Save this.","recommended":false},{"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why paying your China supplier in US dollars quietly costs you 2% extra.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner cut supplier costs by 2% just by paying in yuan, not dollars.","recommended":false},{"category":"Random Hooks","template":"(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.","text":"Your bank won't tell business owners this: US dollar payments to China cost 2% more.","recommended":false}]}
+{
+  "slide_id": "P1-A6-1",
+  "per_card": {
+    "PH1": [
+      {"category": "Educational Hooks", "template": "Here's exactly how much (insert action/item) you need to (insert result)", "text": "Here's exactly how much extra a business owner pays for the comfort of USD.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why paying suppliers in USD quietly costs a business owner 2% more.", "recommended": true},
+      {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone wires USD to China. Nobody breaks down what it actually costs.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliche or quote)\" — that's a lie.", "text": "They said USD feels safer. That feeling costs a business owner 2%.", "recommended": false},
+      {"category": "Educational Hooks", "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.", "text": "Business owner paying Chinese suppliers in USD? Watch this before the next PI.", "recommended": false}
+    ],
+    "PH2": [
+      {"category": "Authority Hooks", "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.", "text": "27,500 dollars hiding in the rate. Here's how a business owner gets it back.", "recommended": false},
+      {"category": "Educational Hooks", "template": "This is what (insert #) of (insert item) looks like.", "text": "This is what 5 years of USD wires to China costs in lost margin.", "recommended": true},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why a 20K USD wire quietly costs 460 dollars extra.", "recommended": false},
+      {"category": "Educational Hooks", "template": "Here's exactly how much (insert action/item) you need to (insert result)", "text": "Here's exactly how much one USD habit costs across 12 supplier orders.", "recommended": false},
+      {"category": "Storytelling Hooks", "template": "In (insert time), I went from (insert before state) to (insert after state).", "text": "In 5 years, a business owner can hand banks 27,500 dollars unnoticed.", "recommended": false}
+    ],
+    "PH3": [
+      {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this. USD protects the bank, not you.", "recommended": true},
+      {"category": "Myth-Busting Hooks", "template": "Let me de-influence you from (insert action).", "text": "Let me de-influence a business owner from paying Chinese suppliers in USD.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliche or quote)\" — that's a lie.", "text": "They said USD is safer abroad. Sending it to China, that's a lie.", "recommended": false},
+      {"category": "Educational Hooks", "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).", "text": "This is a USD wire to China. This is what it should cost.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why USD feels safer and quietly drains margin every order.", "recommended": false}
+    ],
+    "PH4": [
+      {"category": "Educational Hooks", "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).", "text": "Here's the part of the USD wire business owners never see on a PI.", "recommended": false},
+      {"category": "Educational Hooks", "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.", "text": "Business owners take years to spot this hidden cost on every USD wire.", "recommended": false},
+      {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone wires USD to China. Nobody explains the two hidden conversions.", "recommended": true},
+      {"category": "Authority Hooks", "template": "How to turn this into this in X simple steps.", "text": "How a business owner turns a 460 dollar hidden cost into 60.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why the USD price on the PI is never the real price.", "recommended": false}
+    ],
+    "PH5": [
+      {"category": "Educational Hooks", "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.", "text": "Business owner paying Chinese suppliers in USD? You need to hear this.", "recommended": true},
+      {"category": "Educational Hooks", "template": "When you get (insert item/result), here are the # things you got to do right away.", "text": "When a business owner wires USD to China, 4 costs stack on one payment.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why one USD wire can cost a business owner 1,160 dollars.", "recommended": false},
+      {"category": "Educational Hooks", "template": "This is what (insert #) of (insert item) looks like.", "text": "This is what 4 hidden costs on a single USD wire look like.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this. The PI price is not real.", "recommended": false}
+    ],
+    "PG1": [
+      {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this. USD isn't safer when China runs CNY.", "recommended": true},
+      {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliche or quote)\" — that's a lie.", "text": "They said USD is the safe way to pay China. Every wire costs 2%.", "recommended": false},
+      {"category": "Educational Hooks", "template": "Here's exactly how much (insert action/item) you need to (insert result)", "text": "Here's exactly what a business owner gives up sending USD to Shenzhen.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "Let me de-influence you from (insert action).", "text": "Let me de-influence a business owner from defaulting to USD on China payments.", "recommended": false},
+      {"category": "Educational Hooks", "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.", "text": "Business owner sending USD to China because it feels safer? Watch this.", "recommended": false}
+    ],
+    "PG2": [
+      {"category": "Educational Hooks", "template": "I think I just found the biggest (insert niche/industry) cheat code.", "text": "The most expensive habit hiding in a business owner's supply chain.", "recommended": true},
+      {"category": "Educational Hooks", "template": "This is what (insert #) of (insert item) looks like.", "text": "This is what 5 years of USD wires to China compounds into.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why 300 dollars per wire becomes 18,000 over 5 years.", "recommended": false},
+      {"category": "Authority Hooks", "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.", "text": "18,000 dollars from one currency switch. Here's the math business owners miss.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this. The USD price is not locked in.", "recommended": false}
+    ],
+    "PG3": [
+      {"category": "Myth-Busting Hooks", "template": "Stop using (insert item) for (insert result).", "text": "Stop using USD for Chinese suppliers. Wrong tool for a country on CNY.", "recommended": true},
+      {"category": "Myth-Busting Hooks", "template": "It's time to throw away your (insert item), you don't need it anymore.", "text": "It's time business owners threw away the USD-only PI. China runs on CNY.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "Don't (insert action) until you've done this one thing.", "text": "Don't send another USD wire to a Shenzhen factory until you watch this.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "Let me de-influence you from (insert action).", "text": "Let me de-influence a business owner from quoting Chinese suppliers in USD.", "recommended": false},
+      {"category": "Educational Hooks", "template": "If you don't have (insert item/action), do (insert item/action).", "text": "Without a CNY-direct rail to China, the bank takes 2% per wire.", "recommended": false}
+    ],
+    "PG4": [
+      {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliche or quote)\" — that's a lie.", "text": "They said the USD price is the price. China wire, that's a lie.", "recommended": false},
+      {"category": "Educational Hooks", "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.", "text": "Everyone wires USD to China. Nobody tells business owners where the money goes.", "recommended": true},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why the USD price doesn't protect a business owner. It hides cost.", "recommended": false},
+      {"category": "Educational Hooks", "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).", "text": "How banks quietly take 2% on every USD wire to China.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this. Two banks convert your USD, not one.", "recommended": false}
+    ],
+    "PG5": [
+      {"category": "Myth-Busting Hooks", "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).", "text": "More business owners need to hear this. Quoting in USD feels pro, costs 2%.", "recommended": true},
+      {"category": "Myth-Busting Hooks", "template": "This is why doing (insert action) makes you (insert pain point).", "text": "This is why USD feels safer and shows up nowhere in the savings.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "They said, \"(insert famous cliche or quote)\" — that's a lie.", "text": "They said USD is the professional currency. For paying China, it costs margin.", "recommended": false},
+      {"category": "Educational Hooks", "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.", "text": "Business owner quoting in USD because it feels professional? Watch this.", "recommended": false},
+      {"category": "Myth-Busting Hooks", "template": "Let me de-influence you from (insert action).", "text": "Let me de-influence a business owner from quoting USD because it sounds professional.", "recommended": false}
+    ]
+  }
+}

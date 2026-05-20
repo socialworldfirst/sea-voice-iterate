@@ -1,1 +1,325 @@
-{"slide_id":"P1-A2-1","hooks":[{"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using slow bank wires to pay your China supplier. There are three roads.","recommended":true},{"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone tells business owners to wire China fast. Nobody shows the three roads. Save this.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"Two business owners paid the same factory same day. One waited five days. One didn't.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"This business owner got same-day China payment without the five-day bank wait.","recommended":false},{"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank says: payment sent. What it means: stuck in three middle banks.","recommended":false}]}
+{
+  "slide_id": "P1-A2-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner paying Chinese suppliers and you want same-day CNY, listen.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how many paths your CNY takes to reach a Chinese supplier.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. One wire does not mean one path.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "A business owner wired CNY Monday. Supplier saw nothing until Friday.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a five-day CNY wire into a same-day arrival.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what forty-eight working days lost to slow CNY wires looks like.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why wiring CNY on SWIFT costs business owners ten weeks a year.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "In (insert time), I went from (insert before state) to (insert after state).",
+        "text": "In one year of SWIFT wires, business owners lose forty-eight working days.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is twenty-four trillion CNY moving through CIPS in 2024.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over 2024, CIPS volume grew forty-two percent. Most business owners still don't use it.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using SWIFT for CNY payments to China.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" - that's a lie.",
+        "text": "Banks say SWIFT is the only way to pay China. That's a lie.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here are some slightly shady banking defaults a business owner paying China should know.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of slow wires, business owners realize one thing. The path is a choice.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What a bank says about your CNY wire vs what they actually picked.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone tells business owners to pay China fast. Nobody explains the three mechanisms.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I'm going to tell you how to get (insert result), (insert mind-blowing method).",
+        "text": "Here's how a CNY wire lands same-day. Three mechanisms, one fast.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Most business owners never learn this. Three CNY mechanisms in under a minute.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time to throw out the SWIFT default for CNY. There are two better mechanisms.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "Same-day CNY landing from one routing choice. Here's how in three steps.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you pay suppliers in China and want same-day landing, listen to this.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner doesn't have same-day CNY, pick a different path.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't wire another CNY payment until you know which of three paths it's on.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When a business owner wires Monday, the supplier says nothing arrived till Friday.",
+        "recommended": false
+      },
+      {
+        "category": "Day In The Life Hooks",
+        "template": "So okay, being an (insert target audience), my days vary quite a lot from one another.",
+        "text": "Being a business owner paying China, every wire day looks different.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner paying China and want same-day landing, watch this.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "SWIFT takes five days. A dedicated CNY rail lands same-day.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Want to be the first (insert dream result) in your family?",
+        "text": "Want to be the first business owner in your circle with same-day CNY?",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. One path will not give you same-day CNY.",
+        "recommended": true
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Smart business owners don't believe in one wire path. They pick from three.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why SWIFT wires cost business owners a hundred lost days a year.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how many days CNY wires cost a business owner every year.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what twenty-four trillion CNY through CIPS in 2024 looks like.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Your life is boring because you don't (insert action).",
+        "text": "A business owner's supply chain stalls because they never pick the CNY path.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "One routing choice took a business owner from five-day wires to same-day.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using SWIFT for CNY payments to Chinese suppliers.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time to throw away the SWIFT default. China has its own clearing system.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how you're gonna lock in if you want to (insert dream result).",
+        "text": "Here's exactly how a business owner locks in same-day CNY to China.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "(insert trait) Guy vs (insert trait) Guy.",
+        "text": "SWIFT-default business owner vs CIPS-routed business owner.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a five-day SWIFT wire into a same-day CNY landing.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" - that's a lie.",
+        "text": "They said there's one way to pay China. There are three.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "A business owner just found the biggest CNY payment cheat code.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Smart business owners don't believe in the SWIFT default. They believe in fast rails.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of slow wires a business owner realizes one thing. There are three paths.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here are some slightly shady banking defaults every business owner paying China should know.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Storytelling Hooks",
+        "template": "When is it time to do (insert action)?",
+        "text": "When is it time to stop letting your bank pick the slowest CNY path?",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "A business owner wired Monday. By Friday the supplier still saw nothing.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Are you still chasing CNY wires on Friday afternoon? Same-day rails exist.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "SWIFT takes a week. A dedicated CNY rail lands the same business day.",
+        "recommended": false
+      },
+      {
+        "category": "Day In The Life Hooks",
+        "template": "Day in the life of a (insert adjective) person.",
+        "text": "Day in the life of a business owner chasing a SWIFT wire to China.",
+        "recommended": false
+      }
+    ]
+  }
+}

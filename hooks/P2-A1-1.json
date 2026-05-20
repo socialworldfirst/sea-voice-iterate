@@ -1,1 +1,325 @@
-{"slide_id":"P2-A1-1","hooks":[{"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why wiring to China through your bank quietly costs you $12,000 a year.","recommended":true},{"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how much one 2% wire gap costs over a year of sourcing.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner checked twelve supplier wires and noticed something disturbing.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"Smart business owners pay the same China suppliers without the 2% rate skim.","recommended":false},{"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is $12,000 a year, hidden inside a rate you never check.","recommended":false}]}
+{
+  "slide_id": "P2-A1-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner wiring to Chinese suppliers, here's why a 2% gap matters.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result).",
+        "text": "Here's exactly how much a 2% rate gap costs on $600K of sourcing.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Wire fees aren't the real cost.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says compare wire fees. Nobody tells business owners to audit the rate.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why wiring through a regular bank quietly costs business owners $12K a year.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what twelve wires to China actually cost a business owner in spread.",
+        "recommended": true
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is $60,000 of margin a sourcing business loses to FX spread over five years.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over five years a 2% rate gap takes a business owner from $0 to $60K lost.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).",
+        "text": "This is sourcing math when business owners audit the rate. And when they don't.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After three years of identical wires, a business owner realised the rate was the cost.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't sign another supplier wire until a business owner checks the rate, not the fee.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why wiring through a bank quietly keeps $12K from a sourcing business each year.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here's the FX trick on supplier wires every Chinese-sourcing business owner should know.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner isn't auditing the FX rate, the bank is keeping the spread.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "They said the wire fee is the cost of paying suppliers. That's the decoy.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using the wire fee as the cost of paying Chinese suppliers.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says shop wire fees. Nobody explains the mechanism business owners actually pay.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Most business owners learn this after years of wiring. Here it is in 60 seconds.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result).",
+        "text": "Here's exactly how much rate margin a bank packs into a $50K supplier wire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is what (insert number) of (insert item) looks like.",
+        "text": "This is what 1.7 percentage points per wire looks like on a year of sourcing.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner wires to China every month, three numbers matter.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are 3 people who will make you a better (insert title).",
+        "text": "Here are three numbers that make any business owner a sharper sourcing operator.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "When a business owner starts wiring to China, three numbers to audit right away.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "Three numbers took a sourcing business from $12K leaked to $12K kept.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Can you tell us how to (insert result) in 60 seconds?",
+        "text": "Can a business owner save $12K on sourcing in 60 seconds? Three numbers.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners sourcing from China need to hear this. The fee isn't the cost.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time business owners stopped using a regular bank for Chinese supplier wires.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here's the FX margin a bank quietly takes on every business owner's supplier wire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why wiring through a regular bank costs a sourcing business its margin.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner isn't auditing the rate, the spread is the cost.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why the FX rate is the most expensive line a business owner never audits.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How a business owner turns $12K of bank spread into $3K on a specialist rail.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Looks like the biggest cheat code in supplier payments is auditing the FX rate.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result).",
+        "text": "Here's exactly how much a business owner saves by flipping bank rate to specialist rate.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop letting the bank quote the rate on supplier wires.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using a regular bank to pay Chinese suppliers.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner doesn't have a specialist FX rail, that's the gap.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time a sourcing business retired the regular bank for cross-border supplier payments.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says lower wire fees. Nobody tells a business owner to switch rails.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How a business owner turns $12K of bank spread into $12K back in the business.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "They said the wire fee is the cost. The fee isn't the cost, the rate is.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here's the FX rail trick every business owner paying Chinese suppliers should know.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is how you (insert dream result) while (insert guilty pleasure).",
+        "text": "This is how a business owner keeps $12K of margin while paying the same suppliers.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Don't send another supplier wire until a business owner checks the rate behind it.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Most business owners learn how banks earn on supplier wires too late. Here it is.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "If you're really a (insert dream result), why aren't you doing (insert common belief)?",
+        "text": "If a business owner renegotiates suppliers over 2%, why isn't the bank getting audited?",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Is a business owner still ignoring the rate? That's $12K a year, every year.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a sourcing business won't audit the FX rate, the spread is the price.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why ignoring the supplier-wire rate costs a business owner the Q4 bonus.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone tells business owners to squeeze suppliers. Nobody says audit the bank rate.",
+        "recommended": false
+      }
+    ]
+  }
+}

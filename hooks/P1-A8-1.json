@@ -1,1 +1,325 @@
-{"slide_id":"P1-A8-1","hooks":[{"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using SHA on wires to China. That one default code shorts your supplier every time.","recommended":true},{"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone says pay suppliers fast. Nobody tells you one wire code quietly steals from them.","recommended":false},{"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank means by shared on a China wire: your supplier pays, not you.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner checked an old wire receipt and found three letters that cost his supplier money.","recommended":false},{"category":"Educational Hooks","template":"If you are (insert age group or range), do not do (insert action).","text":"If you send money to China, do not let the bank pick that code for you.","recommended":false}]}
+{
+  "slide_id": "P1-A8-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone wires money to China but nobody tells business owners about field 71A.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why letting the bank pick SHA makes the supplier short on every wire.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here is exactly how much a business owner loses per China wire on the default tag.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a short wire into a full payment in one three-letter swap.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of wiring China, business owners realise the bank default is a tax.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what two grand a year in silent wire deductions looks like.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "SHA sounds shared, OUR actually shares nothing because the sender pays it all.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner does not know field 71A, money is leaking quietly.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "Just three letters take a business owner from two grand lost to zero.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is two thousand dollars a year in invisible China wire deductions.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" - that's a lie.",
+        "text": "The bank said wire fees are just like that. That is a lie.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "When a business owner asks for OUR, the bank suddenly remembers a cheaper option.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this: SHA is not the only option.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you are (insert action) just once per (month/day/year), then you are f*cked.",
+        "text": "If a business owner sends one China wire a month on SHA, the bank wins.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Business owners who switched to OUR stopped getting top-up emails from suppliers.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here is exactly which field on the bank wire form decides who pays the chain.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Most business owners take years to learn field 71A. Here it is in sixty seconds.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn the default SHA tag into OUR in one bank instruction.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Do not send the next China wire until checking field 71A on the form.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
+        "text": "Here is how a business owner reads the wire message the bank generates every send.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Slightly unethical China wire hacks every Southeast Asia business owner should know.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is what (insert number) of (insert item) looks like.",
+        "text": "This is what three and a half grand of silent annual wire leakage looks like.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Is it possible for (insert description) to make (insert $) a month?",
+        "text": "Is it possible for a business owner to lose three hundred per wire and not notice?",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "Any Southeast Asia business owner wiring China should listen for sixty seconds.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It is time to throw away the default SHA tag, the supplier does not need it.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. SHA is not shared, it is outsourced.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Want to be the first (insert dream result) in your family?",
+        "text": "Want to be the first business owner in the group chat who knows field 71A?",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Real business owners do not believe in SHA, they believe in OUR.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Your life is boring because you don't (insert action).",
+        "text": "A business owner's wire is short because nobody ever asked about field 71A.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner does not know SHA OUR BEN, ask the bank today.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" - that's a lie.",
+        "text": "The bank said wire fees are just like that. It is a lie.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Let me de-influence you from (insert action).",
+        "text": "Let us de-influence every business owner from accepting the default SHA tag.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
+        "text": "The bank did not want this video made. Here is what they are hiding.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of China wires, business owners realise SHA was always a choice.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using the default SHA tag for any China supplier wire.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using SHA on China wires. It outsources the fees, it does not share them.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It is time to throw away the default SHA tag, a business owner does not need it.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "Any business owner who wants the supplier to land full amount, listen up.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a short wire into a full wire in one word swap.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why leaving the wire form on SHA makes the supplier short.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "If you're really a (insert dream result), why aren't you doing (insert common belief)?",
+        "text": "If a business owner really wants a full payment, why default to SHA?",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Is a business owner still defaulting to SHA? There is a question to ask the bank.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Don't (insert action) until you've done this one thing.",
+        "text": "Do not wire China again until walking into the bank with one question.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "A business owner walks into the bank and asks for OUR. Watch what happens.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Slightly uncomfortable banking questions every China-wiring business owner should ask.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. The three percent supplier markup is the wire.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Is a business owner still paying SHA? The supplier has been pricing it in for years.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is how you (insert dream result) while (insert guilty pleasure).",
+        "text": "This is how a business owner stops getting clipped on every China wire.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of China wires, the truth: the supplier added three percent and stayed quiet.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Business owners who switched to OUR stopped seeing the three percent quote creep.",
+        "recommended": false
+      }
+    ]
+  }
+}

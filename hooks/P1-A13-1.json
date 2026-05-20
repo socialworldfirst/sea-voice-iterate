@@ -1,1 +1,325 @@
-{"slide_id":"P1-A13-1","hooks":[{"category":"Myth-Busting Hooks","template":"If you're really a (insert dream result), why aren't you doing (insert common belief)?","text":"If your bank wire is really free, why did 300 dollars vanish on a 10K payment?","recommended":true},{"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone checks the fee line. Nobody tells you the real cost is hidden in the rate.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner checked his wire receipt and noticed something strange. Fee waived, 300 dollars gone.","recommended":false},{"category":"Myth-Busting Hooks","template":"They said, “(insert famous cliché or quote)” — that's a lie.","text":"The bank said “no transfer fee”. On a 10K wire that line still costs 300 dollars.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"Smart business owners keep that 300 on every 10K wire, no hidden margin in the rate.","recommended":false}]}
+{
+  "slide_id": "P1-A13-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how your bank charges you twice on one wire to China.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop trusting the fee line on your wire confirmation.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner wiring to China, this one's for you.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to spot the 300 dollars your bank hid in one screen.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What the wire confirmation says vs what it actually means.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like.",
+        "text": "This is what 54,000 dollars of hidden wire margin looks like.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over five years, banks quietly grew one wire margin from 300 to 54K.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Fee column says zero, FX rate says 300 dollars.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 54,000 dollars of wires your bank quietly kept.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Most business owners just found their bank's biggest wire cheat code.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Storytelling Hooks",
+        "template": "When I (insert action), people said (insert feedback).",
+        "text": "Your bank charged you 300 dollars and called it fee waived.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "They said \"fee waived,\" and the rate took 300 anyway.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Still reading the fee column? It hides 300 a wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Business owners kept that 300 without ever switching suppliers.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What \"fee waived\" says vs what your bank actually did.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says check the rate, nobody shows you the two mechanisms behind it.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why reading only the fee line costs 300 a wire.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Took years to spot this dual charge, takes one minute to explain.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a hidden 300 dollar margin into 300 saved in two steps.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What \"fee waived\" says vs what the FX rate is doing.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you wire money to China and want to stop losing 300, watch this.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "Just two checks took a business owner from losing 300 to keeping it.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this, fee waived doesn't mean free.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "When you wire to China, here are the two things to check first.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Smart business owners don't believe the fee line, they read the rate.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this, \"no transfer fee\" isn't free.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you wire money to China, 60 seconds here saves 300 dollars.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What \"no transfer fee\" says vs what the rate is doing.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point).",
+        "text": "Business owners kept 300 a wire without changing supplier or process.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Most business owners just found the cheat code on bank wires to China.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Your bank's most profitable product is the rate, not the fee.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
+        "text": "Over five years, one business quietly handed 36K to its bank in margin.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how 600 a month becomes 36K in five years.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "This is (insert large number) of (insert item).",
+        "text": "This is 36,000 dollars of FX margin from one business.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using the fee line as the cost of a wire.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time to throw away the fee column on your wire confirmation.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using the fee column to judge what a wire costs.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If you don't check the FX rate, you're paying 300 a wire.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "What (insert title) says vs what they mean.",
+        "text": "What the fee column says vs what the rate is hiding.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says fee waived is a win, nobody shows the rate beside it.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "They said \"no transfer fee,\" that's the decoration.",
+        "recommended": true
+      },
+      {
+        "category": "Random Hooks",
+        "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
+        "text": "Banks won't sponsor this, so here's exactly what they're hiding.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
+        "text": "Here are some legal-but-quiet wire tricks every business owner should know.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Fee line is the decoration, FX rate is the actual business.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I think I just found the biggest (insert niche/industry) cheat code.",
+        "text": "Found the biggest cross-border wire cheat code hiding in plain sight.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this, your bank isn't a friend on wires.",
+        "recommended": true
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement).",
+        "text": "After years of watching wires, one thing's clear: the rate is the fee.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting \"fee waived\" costs 300 dollars every wire.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
+        "text": "Still trusting the fee line? Business owners lose 300 a wire that way.",
+        "recommended": false
+      },
+      {
+        "category": "Random Hooks",
+        "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
+        "text": "Don't believe the fee line, believe the FX rate next to it.",
+        "recommended": false
+      }
+    ]
+  }
+}

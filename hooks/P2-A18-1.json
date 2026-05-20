@@ -1,1 +1,72 @@
-{"slide_id":"P2-A18-1","hooks":[{"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said the rate on Google is the rate you get. That's a lie.","recommended":true},{"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it.","text":"Everyone tells you to check the rate. Nobody tells you it's not the real one.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner paid his supplier and noticed the rate looked worse than Google's.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner saved 300 dollars on one wire without changing anything but the rate tier.","recommended":false},{"category":"Random Hooks","template":"I do not believe in (insert common belief), I believe in (insert your belief).","text":"Don't believe the rate on your bank app. Believe the rate banks use with each other.","recommended":false}]}
+{"slide_id":"P2-A18-1","per_card":{
+  "PH1":[
+    {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly what the Google rate hides from a business owner.","recommended":false},
+    {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said the Google rate is the rate. For wallets, that's wrong.","recommended":true},
+    {"category":"Storytelling Hooks","template":"So I did (insert action) last week.","text":"So a business owner checked Google's rate. The wire used a different number.","recommended":false},
+    {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner kept 300 dollars on a 20K wire by changing tier.","recommended":false},
+    {"category":"Random Hooks","template":"I do not believe in (insert common belief), I believe in (insert your belief).","text":"Don't trust the Google rate. Trust the rate banks quote each other.","recommended":false}
+  ],
+  "PH2":[
+    {"category":"Authority Hooks","template":"Just # (insert item/action) took my client from (insert before) to (insert after).","text":"One tier change took a business owner from 9,000 lost to 9,000 saved.","recommended":false},
+    {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how 1.5 percent costs a business owner sending 50K monthly.","recommended":true},
+    {"category":"Storytelling Hooks","template":"In (insert time), I went from (insert before state) to (insert after state).","text":"In one year a business owner lost 9,000 dollars inside a worse rate.","recommended":false},
+    {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why a personal transfer tool quietly drains five-figure supplier margin.","recommended":false},
+    {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 45,000 dollars of spread vanished over five years of wires.","recommended":false}
+  ],
+  "PH3":[
+    {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why a 20K wire quietly costs a business owner 300 extra dollars.","recommended":true},
+    {"category":"Educational Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is a retail-tier wire. This is the same wire on business tier.","recommended":false},
+    {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, a business owner realised the receipt was hiding 300 dollars.","recommended":false},
+    {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner kept 300 dollars on a 20K wire without changing banks.","recommended":false},
+    {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 300 dollars hidden inside one supplier wire receipt.","recommended":false}
+  ],
+  "PH4":[
+    {"category":"Educational Hooks","template":"It took me 10 years to learn this but I'll teach it to you in less than 1 minute.","text":"Most business owners never learn this about FX. Here it is in 60 seconds.","recommended":false},
+    {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how two FX rates run in parallel every minute.","recommended":true},
+    {"category":"Myth-Busting Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is the wholesale rate. This is the retail rate a business owner sees.","recommended":false},
+    {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, business owners realise two FX rates run side by side.","recommended":false},
+    {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How a business owner turns a retail-tier rate into a business-tier one.","recommended":false}
+  ],
+  "PH5":[
+    {"category":"Educational Hooks","template":"If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.","text":"If a business owner pays Chinese suppliers, this rate gap hits their margin.","recommended":true},
+    {"category":"Authority Hooks","template":"Just # (insert item/action) took my client from (insert before) to (insert after).","text":"One tier change saves a business owner 9,000 dollars on supplier wires.","recommended":false},
+    {"category":"Myth-Busting Hooks","template":"(insert item) (insert fact), (insert complete opposite item) (insert similar fact).","text":"The bank rate costs 2 percent. The business tier costs 0.5.","recommended":false},
+    {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of paying factories, business owners realise the spread is the leak.","recommended":false},
+    {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What the bank app says vs what a business owner actually gets.","recommended":false}
+  ],
+  "PG1":[
+    {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said the Google rate is the real rate. For business wallets, wrong.","recommended":true},
+    {"category":"Educational Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is a 2 percent personal quote. This is 0.5 on business tier.","recommended":false},
+    {"category":"Storytelling Hooks","template":"So I did (insert action) last week.","text":"So a business owner compared two rate quotes on the same pair. Different numbers.","recommended":false},
+    {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner kept 300 dollars per 20K wire without switching banks.","recommended":false},
+    {"category":"Random Hooks","template":"I do not believe in (insert common belief), I believe in (insert your belief).","text":"Don't believe the bank app rate. Believe the rate banks use among themselves.","recommended":false}
+  ],
+  "PG2":[
+    {"category":"Authority Hooks","template":"Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).","text":"Over a year, one business owner pushed 9,000 dollars back into their business.","recommended":false},
+    {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why consumer tools quietly cost business owners 750 dollars each month.","recommended":true},
+    {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how 1.5 percent eats 50K a month in supplier wires.","recommended":false},
+    {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, business owners realise wholesale rates were never their tier.","recommended":false},
+    {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 9,000 dollars a year disappearing inside one rate quote.","recommended":false}
+  ],
+  "PG3":[
+    {"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using personal banking apps for business supplier payments. Wrong tier.","recommended":true},
+    {"category":"Educational Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is a personal-tier quote. This is the business-tier version. Same minute.","recommended":false},
+    {"category":"Storytelling Hooks","template":"So I did (insert action) last week.","text":"So a business owner asked their bank for the business-tier rate. Different price.","recommended":false},
+    {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner moved tier and kept 1.5 percent on every wire.","recommended":false},
+    {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What the bank app quotes vs what the business desk would quote.","recommended":false}
+  ],
+  "PG4":[
+    {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly what most business owners don't realise about two FX rates.","recommended":true},
+    {"category":"Myth-Busting Hooks","template":"(insert item) (insert fact), (insert complete opposite item) (insert similar fact).","text":"Google rate is wholesale. The wallet rate is always a worse one.","recommended":false},
+    {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, business owners realise two rates run side by side.","recommended":false},
+    {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How a business owner turns a retail rate quote into a wholesale one.","recommended":false},
+    {"category":"Random Hooks","template":"I do not believe in (insert common belief), I believe in (insert your belief).","text":"Don't believe the visible rate. Believe the one banks trade among themselves.","recommended":false}
+  ],
+  "PG5":[
+    {"category":"Storytelling Hooks","template":"If you are anything like me, you take your (insert event/item) very seriously.","text":"If a business owner has ever stared at a wire receipt thinking it felt off.","recommended":true},
+    {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly why receipts never match the rate Google quoted.","recommended":false},
+    {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why the wire receipt looked off. The spread was baked in.","recommended":false},
+    {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"One business owner kept 9,000 a year by switching tier, not banks.","recommended":false},
+    {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What the bank receipt says vs what the wire actually cost.","recommended":false}
+  ]
+}}

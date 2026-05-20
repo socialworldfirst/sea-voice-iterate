@@ -1,1 +1,325 @@
-{"slide_id":"P1-A9-1","hooks":[{"category":"Myth-Busting Hooks","template":"(insert item) (insert fact), (insert complete opposite item) (insert similar fact).","text":"The bank says the wire is sent. The supplier says nothing arrived. Both true.","recommended":true},{"category":"Educational Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is what \"sent\" means to a bank. And this is what it means to a supplier.","recommended":false},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner checked the bank app. Said sent. The supplier saw nothing.","recommended":false},{"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"This business owner's supplier saw the money land same day. No bank chain.","recommended":false},{"category":"Random Hooks","template":"(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.","text":"The bank told this business owner \"sent\". It never said the money stopped halfway.","recommended":false}]}
+{
+  "slide_id": "P1-A9-1",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how many correspondent banks sit between a wire and a Chinese supplier.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using the word sent as proof a supplier got paid.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says track the wire. Nobody tells a business owner how. Save this.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting sent makes a business owner look like the problem.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner wiring to China, watch this once.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Storytelling Hooks",
+        "template": "Is it possible to (insert action) while (insert action) in X days?",
+        "text": "Is it possible to lose a container in five days without losing the money?",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).",
+        "text": "This is a Q4 wire silent. And this is the same wire cleared.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why one Friday holiday in Shenzhen costs a business owner a container.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "Yesterday a business owner watched five days of silence eat his launch SKU.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "Five days of silence from one wire. Here's how it stacks step by step.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "The bank said sent. Sent does not mean arrived. Read the fine print.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Every bank says sent. Nobody tells a business owner what sent actually means.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Sent will not load raw materials.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn four days of silence into one same-day status.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting sent makes a business owner miss the Q4 number.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly what sent means on a bank app. Spoiler. Not arrived.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
+        "text": "Banks call sent a status. Sent is a ticket-closer, not a status.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Took business owners ten years to learn this. Sixty seconds, here it is.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a business owner can't see arrived, sent is not a status.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn sent and arrived into one word for a business owner.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "When a wire goes silent, four things happened. The bank told you one.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner wiring to China, four things every wire.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Sent left the bank. Arrived hit the supplier. Four steps between.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
+        "text": "A lost week from one wire. Here's how it happens in four steps.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how many steps a wire takes after the word sent.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If you're a business owner paying Chinese suppliers, hear this once.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Bank says sent. Supplier says nothing. Nobody is lying.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "When is it time to do (insert action)?",
+        "text": "When is it time to stop blaming the supplier for a silent wire?",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says wire your supplier. Nobody explains the gap between sent and landed.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why trusting the bank app keeps a business owner stuck mid-week.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
+        "text": "Took business owners years to learn one word costs the most. Here it is.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Sent left the system. Arrived hit the account. Same word, different meaning.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly which word on a bank app costs business owners the most.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop reading sent as arrived. It costs a business owner a week.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn sent into arrived for a business owner. One rail.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result).",
+        "text": "Stop using a bank app to track wires. Wrong tool for the job.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action).",
+        "text": "If a bank app only says sent, that's not a tracking tool.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore.",
+        "text": "It's time to stop chasing correspondent banks with a tool built for tellers.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
+        "text": "Everyone says check the bank app. Nobody says it only shows one word.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps.",
+        "text": "How to turn a one-word status into one that actually says arrived.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
+        "text": "More business owners need to hear this. Sent will not start production.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly who owns the gap between sent and arrived. Nobody.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
+        "text": "Sent left the bank. Arrived hit the supplier. Nobody owns between.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
+        "text": "If a business owner wires to China, nobody owns the silent gap.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why the gap between sent and arrived eats a business owner's week.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Storytelling Hooks",
+        "template": "So I did (insert action) last week.",
+        "text": "A business owner wired $30K last week. Bank app still says sent.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away.",
+        "text": "When a $30K wire goes silent, here's the blame chain a business owner hits.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
+        "text": "One $30K wire took a business owner from delivery slot to gone.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "Yesterday I was at (insert location) when I noticed something (insert adjective).",
+        "text": "Yesterday a business owner called the bank seven times. Still says sent.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point).",
+        "text": "This is why $30K wired to China leaves a business owner sleepless.",
+        "recommended": false
+      }
+    ]
+  }
+}

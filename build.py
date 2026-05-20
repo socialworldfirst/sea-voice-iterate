@@ -45,14 +45,21 @@ import re as _re
 
 
 def load_hooks(slide_id):
-    """Load the 5 hook-library hooks for a slide. New schema: [{category,template,text,recommended}]."""
+    """Load per-card hooks for a slide.
+    Returns a dict: {script_id: [hook,...]} for the new per_card schema.
+    Falls back to {'_all': [...]} when only flat slide-level hooks are available."""
     path = os.path.join(os.path.dirname(__file__), 'hooks', f'{slide_id}.json')
     if not os.path.exists(path):
-        return []
+        return {}
     try:
-        return json.load(open(path)).get('hooks', [])
+        data = json.load(open(path))
+        if 'per_card' in data and isinstance(data['per_card'], dict):
+            return data['per_card']
+        if 'hooks' in data and isinstance(data['hooks'], list):
+            return {'_all': data['hooks']}
+        return {}
     except Exception:
-        return []
+        return {}
 
 
 def body_core(vo):
@@ -265,7 +272,10 @@ def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
         return (-ov, HEAT_RANK.get(heat, 99))
 
     all_scripts.sort(key=sort_key)
-    slide_hooks = load_hooks(slide_id)
+    slide_hooks_map = load_hooks(slide_id)  # dict: {script_id: [...]} or {'_all': [...]} fallback
+
+    def hooks_for(script_id):
+        return slide_hooks_map.get(script_id) or slide_hooks_map.get('_all') or []
 
     scripts_html = '\n'.join(
         render_script(
@@ -279,7 +289,7 @@ def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
             rating=RATINGS.get(s['id']),
             rank=i + 1,
             slide_id=slide_id,
-            slide_hooks=slide_hooks,
+            slide_hooks=hooks_for(s['id']),
         )
         for i, (s, skill) in enumerate(all_scripts)
     )

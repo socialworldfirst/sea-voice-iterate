@@ -1,1 +1,325 @@
-{"slide_id":"P2-A1-2","hooks":[{"category":"Educational Hooks","template":"This represents your X before, during, and after X","text":"This is a business owner's sourcing budget before the bank, during the wire, and after.","recommended":false},{"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why wiring to China through your bank quietly costs you 10,000 dollars a year.","recommended":true},{"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"A business owner opened his books and noticed something strange in every China wire.","recommended":false},{"category":"Authority Hooks","template":"(insert big result) from (insert item/thing). Here's how you can do it in X steps.","text":"10,000 dollars a year, hiding in one exchange rate. Here is how a business owner finds it.","recommended":false},{"category":"Random Hooks","template":"I do not believe in (insert common belief), I believe in (insert your belief).","text":"Most business owners think the wire fee is the cost. The real cost is the rate.","recommended":false}]}
+{
+  "slide_id": "P2-A1-2",
+  "per_card": {
+    "PH1": [
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much a business owner lost to their bank sourcing from China.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why wiring through a bank quietly costs business owners 10K a year.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video",
+        "text": "If you're a business owner sourcing from China, this 2% problem is yours.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "How to turn this into this in X simple steps",
+        "text": "How to turn a 2% bank skim into kept margin in one switch.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is what (insert number) of (insert item) looks like",
+        "text": "This is what 10,000 dollars of silent bank skim looks like on paper.",
+        "recommended": false
+      }
+    ],
+    "PH2": [
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like",
+        "text": "This is what 50,000 dollars of bank skim looks like over five years.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why repeating last year's sourcing setup costs another 10K next year.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "In (insert time), I went from (insert before state) to (insert after state)",
+        "text": "In five years, a business owner can go from 500K spent to 50K skimmed.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after)",
+        "text": "Over five years, the bank quietly grows its take to 50K of kept margin.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly how much a 2% margin compounds across five years of sourcing.",
+        "recommended": false
+      }
+    ],
+    "PH3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result)",
+        "text": "More business owners need to hear this. The wire fee is not the cost.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it",
+        "text": "Everyone tells business owners to watch fees. Nobody tells them to read the rate.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "They said, \"(insert famous cliché or quote)\" — that's a lie",
+        "text": "Banks say it's just a wire fee. The 2% margin in the rate says otherwise.",
+        "recommended": true
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point)",
+        "text": "A business owner kept 10K this year without negotiating a single rate.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Your life is boring because you don't (insert action)",
+        "text": "Your sourcing P&L is wrong because nobody pulled out a calculator.",
+        "recommended": false
+      }
+    ],
+    "PH4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result)",
+        "text": "Stop reading the fee column. The real cost lives inside the exchange rate.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it",
+        "text": "Everyone tells business owners to watch fees. Nobody shows them the rate markup.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why checking the wire fee makes business owners miss the 2% real cost.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I'm going to tell you how to get (insert result), (insert mind-blowing method)",
+        "text": "Here's how a business owner cuts FX cost by 75% without changing supplier.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action)",
+        "text": "This is a P&L when the bank skims 2%. This is one when it doesn't.",
+        "recommended": false
+      }
+    ],
+    "PH5": [
+      {
+        "category": "Educational Hooks",
+        "template": "When you get (insert item/result), here are the # things you got to do right away",
+        "text": "When a business owner wires to China, three things happen on every payment.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video",
+        "text": "If you're a business owner wiring to China, this three-step breakdown is for you.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why seeing the wire fee makes business owners miss the bigger cost.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience)",
+        "text": "Here are three things banks do on every China wire that business owners miss.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Here's exactly how much (insert action/item) you need to (insert result)",
+        "text": "Here's exactly what a business owner pays beyond the wire fee on China sourcing.",
+        "recommended": false
+      }
+    ],
+    "PG1": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result)",
+        "text": "More business owners need to hear this. The sourcing cost is not the sourcing cost.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video",
+        "text": "If you're a business owner sourcing from China, this 10K leak is yours.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why trusting the bank rate quietly drains margin from every China wire.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "My customer/client got (insert dream result) without (insert pain point)",
+        "text": "A business owner kept 10K this year without changing a single supplier.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it",
+        "text": "Everyone tells business owners to lower costs. Nobody points to the FX margin.",
+        "recommended": false
+      }
+    ],
+    "PG2": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result)",
+        "text": "More business owners need to hear this. The bank is a hidden P&L line.",
+        "recommended": false
+      },
+      {
+        "category": "Authority Hooks",
+        "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after)",
+        "text": "Over five years a bank can quietly grow its skim from 10K to 50K.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why ignoring the FX margin quietly turns 500K of sourcing into 510K.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action)",
+        "text": "This is what five years of bank skim looks like next to kept margin.",
+        "recommended": false
+      },
+      {
+        "category": "Storytelling Hooks",
+        "template": "After X years of (insert action) I realized one thing: (insert statement)",
+        "text": "After five years of wiring to China, a business owner realises 50K is gone.",
+        "recommended": false
+      }
+    ],
+    "PG3": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result)",
+        "text": "Stop using a domestic bank to send 500K a year to Chinese suppliers.",
+        "recommended": true
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "It's time to throw away your (insert item), you don't need it anymore",
+        "text": "It's time for business owners to stop routing China sourcing through a domestic bank.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you don't have (insert item/action), do (insert item/action)",
+        "text": "If a business owner doesn't have a specialist FX rail, the bank keeps the margin.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why using a domestic bank for China wires quietly costs business owners 10K.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "I'm going to tell you how to get (insert result), (insert mind-blowing method)",
+        "text": "Here's how a business owner pays Chinese suppliers at near-interbank rate instead.",
+        "recommended": false
+      }
+    ],
+    "PG4": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact)",
+        "text": "Banks make money on the rate, not the fee. The fee is the distraction.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute",
+        "text": "Most business owners never learn this. Banks earn on the rate, not the fee.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why checking the wire fee blinds business owners to the real cost.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it",
+        "text": "Everyone tells business owners to compare fees. Nobody tells them to compare rates.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action)",
+        "text": "This is the rate a bank gives. This is the rate banks give each other.",
+        "recommended": false
+      }
+    ],
+    "PG5": [
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "This is why doing (insert action) makes you (insert pain point)",
+        "text": "This is why the bank quietly runs a 10K-a-year tax on a sourcing P&L.",
+        "recommended": true
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "This is what (insert #) of (insert item) looks like",
+        "text": "This is what a 10K-a-year bank tax looks like on a 500K sourcing budget.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result)",
+        "text": "More business owners need to hear this. A healthy margin can still hide a tax.",
+        "recommended": false
+      },
+      {
+        "category": "Educational Hooks",
+        "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video",
+        "text": "If you're a business owner sourcing from China, the bank is taking a slice.",
+        "recommended": false
+      },
+      {
+        "category": "Myth-Busting Hooks",
+        "template": "Stop using (insert item) for (insert result)",
+        "text": "Stop letting the bank run a quiet 10K-a-year tax on China supplier payments.",
+        "recommended": false
+      }
+    ]
+  }
+}
