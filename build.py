@@ -698,15 +698,26 @@ document.querySelectorAll('.script-comment').forEach(ta => {{
   if (state.comments[key]) ta.value = state.comments[key];
 }});
 
+// Allow click-to-unselect on the "Pick this" radio.
+// Radios don't natively un-toggle, so we capture pre-click state on mousedown,
+// then on click decide: same-as-already-picked => clear; otherwise => set.
 document.querySelectorAll('.wr').forEach(rb => {{
-  rb.addEventListener('change', () => {{
+  let wasChecked = false;
+  rb.addEventListener('mousedown', () => {{ wasChecked = rb.checked; }});
+  rb.addEventListener('click', (e) => {{
     const slide = rb.getAttribute('data-slide');
     const vid = rb.getAttribute('data-vid');
-    state.picks[slide] = vid;
-    // Clear winner class only within THIS slide, then mark the chosen card
     const slideEl = rb.closest('.slide');
-    if (slideEl) slideEl.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
-    rb.closest('.script-card').classList.add('winner');
+    if (wasChecked) {{
+      // Toggle off
+      rb.checked = false;
+      delete state.picks[slide];
+      if (slideEl) slideEl.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
+    }} else {{
+      state.picks[slide] = vid;
+      if (slideEl) slideEl.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
+      rb.closest('.script-card').classList.add('winner');
+    }}
     saveState(state); updatePanel();
   }});
 }});
