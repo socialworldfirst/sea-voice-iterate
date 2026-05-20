@@ -239,7 +239,7 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
 
   <div class="actions">
     <label class="winner-radio">
-      <input type="radio" name="winner-{esc(slide_id)}" class="wr" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}">
+      <input type="checkbox" class="wr" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}">
       <span class="winner-mark"></span>
       <span class="winner-label">Pick this for {esc(slide_id)}</span>
     </label>
@@ -563,9 +563,9 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 .actions {{ padding: 14px 22px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }}
 .winner-radio {{ position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 12px; color: var(--ink-soft); font-family: var(--mono); letter-spacing: 0.04em; }}
 .winner-radio input {{ position: absolute; opacity: 0; }}
-.winner-mark {{ width: 18px; height: 18px; border: 2px solid var(--line); border-radius: 50%; background: var(--bg); position: relative; transition: all 0.15s; }}
-.winner-radio input:checked ~ .winner-mark {{ border-color: var(--pick); }}
-.winner-radio input:checked ~ .winner-mark::after {{ content: ''; display: block; width: 10px; height: 10px; border-radius: 50%; background: var(--pick); position: absolute; top: 2px; left: 2px; }}
+.winner-mark {{ width: 18px; height: 18px; border: 2px solid var(--line); border-radius: 4px; background: var(--bg); position: relative; transition: all 0.15s; }}
+.winner-radio input:checked ~ .winner-mark {{ border-color: var(--pick); background: var(--pick); }}
+.winner-radio input:checked ~ .winner-mark::after {{ content: ''; display: block; width: 5px; height: 9px; border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(45deg); position: absolute; top: 1px; left: 5px; }}
 .winner-radio input:checked ~ .winner-label {{ color: var(--pick); font-weight: 600; }}
 .copy-btn {{ padding: 7px 14px; background: var(--bg); border: 1px solid var(--line); border-radius: 100px;
   font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
@@ -691,12 +691,18 @@ function saveState(s) {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
 let state = loadState();
 if (!state.picks) state.picks = {{}};
 if (!state.comments) state.comments = {{}};
+// Migrate legacy single-string picks to array form (state.picks[slide] = [vid, ...])
+Object.keys(state.picks).forEach(k => {{
+  if (typeof state.picks[k] === 'string') state.picks[k] = [state.picks[k]];
+  else if (!Array.isArray(state.picks[k])) state.picks[k] = [];
+}});
 
-// Hydrate per-slide picks (state.picks = {{ slideId: scriptId }})
-document.querySelectorAll('.wr').forEach(rb => {{
-  const slide = rb.getAttribute('data-slide');
-  const vid = rb.getAttribute('data-vid');
-  if (state.picks[slide] === vid) {{ rb.checked = true; rb.closest('.script-card').classList.add('winner'); }}
+// Hydrate per-slide picks (state.picks = {{ slideId: [scriptId, ...] }} — multi-pick)
+document.querySelectorAll('.wr').forEach(cb => {{
+  const slide = cb.getAttribute('data-slide');
+  const vid = cb.getAttribute('data-vid');
+  const arr = state.picks[slide] || [];
+  if (arr.includes(vid)) {{ cb.checked = true; cb.closest('.script-card').classList.add('winner'); }}
 }});
 // Hydrate per-slide comments (key = slide::scriptId)
 document.querySelectorAll('.script-comment').forEach(ta => {{
@@ -704,25 +710,22 @@ document.querySelectorAll('.script-comment').forEach(ta => {{
   if (state.comments[key]) ta.value = state.comments[key];
 }});
 
-// Allow click-to-unselect on the "Pick this" radio.
-// Radios don't natively un-toggle, so we capture pre-click state on mousedown,
-// then on click decide: same-as-already-picked => clear; otherwise => set.
-document.querySelectorAll('.wr').forEach(rb => {{
-  let wasChecked = false;
-  rb.addEventListener('mousedown', () => {{ wasChecked = rb.checked; }});
-  rb.addEventListener('click', (e) => {{
-    const slide = rb.getAttribute('data-slide');
-    const vid = rb.getAttribute('data-vid');
-    const slideEl = rb.closest('.slide');
-    if (wasChecked) {{
-      // Toggle off
-      rb.checked = false;
-      delete state.picks[slide];
-      if (slideEl) slideEl.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
+// Multi-pick checkboxes: native toggle, multiple scripts per idea allowed
+document.querySelectorAll('.wr').forEach(cb => {{
+  cb.addEventListener('change', () => {{
+    const slide = cb.getAttribute('data-slide');
+    const vid = cb.getAttribute('data-vid');
+    const card = cb.closest('.script-card');
+    if (!state.picks[slide]) state.picks[slide] = [];
+    const arr = state.picks[slide];
+    if (cb.checked) {{
+      if (!arr.includes(vid)) arr.push(vid);
+      if (card) card.classList.add('winner');
     }} else {{
-      state.picks[slide] = vid;
-      if (slideEl) slideEl.querySelectorAll('.script-card').forEach(c => c.classList.remove('winner'));
-      rb.closest('.script-card').classList.add('winner');
+      const i = arr.indexOf(vid);
+      if (i >= 0) arr.splice(i, 1);
+      if (card) card.classList.remove('winner');
+      if (arr.length === 0) delete state.picks[slide];
     }}
     saveState(state); updatePanel();
   }});
@@ -795,19 +798,21 @@ document.querySelectorAll('.copy-btn').forEach(btn => {{
 function buildPrompt() {{
   const lines = ['== SEA Voice Iterate paste-back =='];
   lines.push('');
-  const pickEntries = Object.entries(state.picks).filter(([k, v]) => v);
-  lines.push(`PICKS (${{pickEntries.length}} of ${{TOTAL_SLIDES}} slides):`);
-  if (pickEntries.length === 0) lines.push('  (none yet)');
-  // Order picks by slide order in the DOM, append chosen hook if swapped
+  // Slides that have at least one pick
+  const slidesWithPicks = Object.entries(state.picks).filter(([k, v]) => Array.isArray(v) && v.length > 0);
+  const totalPicks = slidesWithPicks.reduce((acc, [k, v]) => acc + v.length, 0);
+  lines.push(`PICKS (${{totalPicks}} scripts across ${{slidesWithPicks.length}} of ${{TOTAL_SLIDES}} ideas):`);
+  if (slidesWithPicks.length === 0) lines.push('  (none yet)');
+  // Order by DOM slide order; list every picked vid per slide with its chosen hook
   document.querySelectorAll('.slide').forEach(sl => {{
     const sid = sl.getAttribute('data-slide-id');
-    if (state.picks[sid]) {{
-      const vid = state.picks[sid];
+    const arr = state.picks[sid] || [];
+    arr.forEach(vid => {{
       let line = `  ${{sid}} -> ${{vid}}`;
       const hp = state.hookpick && state.hookpick[sid + '::' + vid];
       if (hp) line += ` · HOOK[${{hp.label}}]: "${{hp.text}}"`;
       lines.push(line);
-    }}
+    }});
   }});
   const commentEntries = Object.entries(state.comments).filter(([k, v]) => (v || '').trim());
   lines.push('');
@@ -815,15 +820,16 @@ function buildPrompt() {{
   if (commentEntries.length === 0) lines.push('  (none)');
   commentEntries.forEach(([key, c]) => {{ lines.push(`  ${{key}}: "${{c.trim()}}"`); }});
   lines.push('');
-  lines.push('Action: each picked variant per slide = the final script for that produced idea. Comments = rework notes.');
+  lines.push('Action: each picked script = a final variant to ship for that idea. Multiple picks per idea = ship multiple. Comments = rework notes.');
   return lines.join('\\n');
 }}
 function updatePanel() {{
-  const p = Object.keys(state.picks).filter(k => state.picks[k]).length;
+  const slidesWithPicks = Object.entries(state.picks).filter(([k, v]) => Array.isArray(v) && v.length > 0).length;
+  const totalPicks = Object.values(state.picks).reduce((acc, v) => acc + (Array.isArray(v) ? v.length : 0), 0);
   const c = Object.values(state.comments).filter(v => (v || '').trim()).length;
   const ctx = document.getElementById('panelCount');
-  if (p === 0 && c === 0) {{ ctx.innerHTML = '<span class="count-zero">0 of ' + TOTAL_SLIDES + ' slides picked · 0 comments</span>'; }}
-  else {{ ctx.textContent = `${{p}} of ${{TOTAL_SLIDES}} slides picked · ${{c}} comments`; }}
+  if (totalPicks === 0 && c === 0) {{ ctx.innerHTML = '<span class="count-zero">0 scripts picked · 0 comments</span>'; }}
+  else {{ ctx.textContent = `${{totalPicks}} scripts picked across ${{slidesWithPicks}} ideas · ${{c}} comments`; }}
   document.getElementById('panelPrompt').value = buildPrompt();
   updateIdeaPicksCounter();
 }}
@@ -837,7 +843,8 @@ function updateIdeaPicksCounter() {{
   const sid = cur.getAttribute('data-slide-id');
   const cards = cur.querySelectorAll('.script-card');
   const N = cards.length;
-  const X = state.picks && state.picks[sid] ? 1 : 0;
+  const arr = state.picks && state.picks[sid];
+  const X = Array.isArray(arr) ? arr.length : 0;
   pc.textContent = X + ' / ' + N + ' picked';
   pc.classList.toggle('has-picks', X > 0);
 }}
