@@ -845,6 +845,18 @@ document.querySelectorAll('.script-comment').forEach(ta => {{
 }});
 // Per-card hook radios (state.hookpick = {{ "slide::vid": {{label, text}} }})
 if (!state.hookpick) state.hookpick = {{}};
+// Drop stale hookpicks where the saved text no longer matches ANY current hook for that card.
+// Without this, regenerated hooks render fresh but paste-back leaks the old text from localStorage.
+const currentHookTexts = {{}};
+document.querySelectorAll('.hook-radio').forEach(rb => {{
+  const key = rb.getAttribute('data-slide') + '::' + rb.getAttribute('data-vid');
+  if (!currentHookTexts[key]) currentHookTexts[key] = new Set();
+  currentHookTexts[key].add(rb.getAttribute('data-hook'));
+}});
+Object.keys(state.hookpick).forEach(k => {{
+  const set = currentHookTexts[k];
+  if (!set || !set.has(state.hookpick[k].text)) delete state.hookpick[k];
+}});
 // Restore saved picks if present
 document.querySelectorAll('.hook-radio').forEach(rb => {{
   const slide = rb.getAttribute('data-slide');
