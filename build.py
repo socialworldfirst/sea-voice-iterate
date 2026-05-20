@@ -253,12 +253,18 @@ def render_combined_section(hormozi, garyvee, factcheck, slide_id=''):
         for s in garyvee.get('scripts', []):
             all_scripts.append((s, garyvee['skill']))
 
-    def overall_score(item):
+    HEAT_RANK = {'low': 0, 'medium': 1, 'med': 1, 'high': 2}
+
+    def sort_key(item):
         s, _ = item
         r = RATINGS.get(s['id'])
-        return r['overall'] if r else 0
+        ov = r['overall'] if r else 0
+        fc = factcheck.get(s['id']) or {}
+        heat = (fc.get('red_flag') or 'High').lower()
+        # higher overall first; tie-break: lower heat first
+        return (-ov, HEAT_RANK.get(heat, 99))
 
-    all_scripts.sort(key=overall_score, reverse=True)
+    all_scripts.sort(key=sort_key)
     slide_hooks = load_hooks(slide_id)
 
     scripts_html = '\n'.join(
