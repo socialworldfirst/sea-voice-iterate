@@ -6,7 +6,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you're a business owner paying Chinese suppliers in USD, listen up.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -31,6 +31,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why paying suppliers in USD quietly costs business owners 2 to 5% every order.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every importer needs to know about paying Chinese suppliers in USD.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -38,7 +44,7 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "30,000 dollars lost over 5 years from one currency choice. Here's the math.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -63,6 +69,12 @@
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "Just found the biggest importer cheat code hiding in your supplier quote.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: the (insert topic) and what it costs you over time.",
+        "text": "In this video: the hidden padding inside USD supplier quotes and the 5-year cost.",
+        "recommended": true
       }
     ],
     "PH3": [
@@ -70,7 +82,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. Your supplier's USD quote isn't their real price.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -95,6 +107,12 @@
         "template": "Want to be the first (insert dream result) in your family?",
         "text": "Want to be the first importer in your circle to stop paying invisible padding?",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what (insert audience) should know about (insert topic).",
+        "text": "Here's what every importer should know about the padding inside a USD supplier quote.",
+        "recommended": true
       }
     ],
     "PH4": [
@@ -102,7 +120,7 @@
         "category": "Educational Hooks",
         "template": "Here's exactly how much (insert action/item) you need to (insert result)",
         "text": "Here's exactly what your USD wire does to a Chinese supplier's bank account.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -127,6 +145,12 @@
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone says pay suppliers cheaper. Nobody shows the mechanism. Save this.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert mechanism) actually works on (insert side).",
+        "text": "In this video: how a USD wire actually works on the Chinese supplier's side.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -134,7 +158,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you're paying Chinese suppliers in USD and want cleaner quotes, watch this.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -159,6 +183,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "Business owners cut 1 to 3% off quotes without renegotiating, just by changing currency.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what happens on (insert side) every time you (insert action).",
+        "text": "Here's what happens on your supplier's side every time you wire USD.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. Your supplier never wanted USD.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -191,6 +221,12 @@
         "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
         "text": "One slightly underused sourcing move for any business owner paying suppliers in USD.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) should understand about (insert topic).",
+        "text": "Here's what every business owner sourcing from China should understand about USD quotes.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "Roughly 12,000 dollars a year hides in your supplier invoices. Here's where.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -223,6 +259,12 @@
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "Just found the biggest importer cheat code, and it's the currency on your invoice.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how much (insert hidden cost) adds up to over a year.",
+        "text": "In this video: how much invisible padding adds up to across a year of supplier invoices.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop defaulting to USD when quoting Chinese suppliers.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -255,6 +297,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why quoting in USD with Chinese suppliers quietly drains margin.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert default).",
+        "text": "Here's what every importer needs to know about the USD-default supplier quote.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More importers need to hear this. Your supplier tolerates USD, doesn't prefer it.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -287,6 +335,12 @@
         "template": "When you get (insert item/result), here are the # things you got to do right away.",
         "text": "When you send your next supplier wire, here are 3 things their bank does to it.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert audience) actually views (insert topic).",
+        "text": "In this video: how Chinese suppliers actually view your USD invoice on their side.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you're a business owner buying from China, here's where your margin leaks.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -319,6 +373,12 @@
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone says protect your margin. Nobody says check the currency. Save this.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's where (insert audience) quietly lose (insert thing) every quarter.",
+        "text": "Here's where importers buying from China quietly lose margin every quarter.",
+        "recommended": true
       }
     ]
   }

@@ -2,74 +2,84 @@
   "slide_id": "P1-A11-1",
   "per_card": {
     "PH1": [
-      {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how many places your CNY can become USD before landing.","recommended":true},
+      {"category":"Educational Hooks","template":"Here's exactly how much (insert action/item) you need to (insert result)","text":"Here's exactly how many places your CNY can become USD before landing.","recommended":false},
       {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why sending CNY to China leaves your supplier short.","recommended":false},
       {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How a 50,000 dollar wire turns into 47,000 in three quiet steps.","recommended":false},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank says vs what your supplier actually receives.","recommended":false},
-      {"category":"Storytelling Hooks","template":"When I (insert action), people said (insert feedback).","text":"When a business owner wired 50K, the supplier said: we got 47.","recommended":false}
+      {"category":"Storytelling Hooks","template":"When I (insert action), people said (insert feedback).","text":"When a business owner wired 50K, the supplier said: we got 47.","recommended":false},
+      {"category":"Clarity","template":"Here's what every business owner paying suppliers in [region] needs to know about [topic].","text":"Here's what every business owner paying suppliers in China needs to know about wire conversions.","recommended":true}
     ],
     "PH2": [
       {"category":"Authority Hooks","template":"Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).","text":"Over five years, banks quietly took 180,000 dollars from this importer.","recommended":false},
-      {"category":"Educational Hooks","template":"This is what (insert #) of (insert item) looks like.","text":"This is what 1,500 dollars of invisible spread looks like on one wire.","recommended":true},
+      {"category":"Educational Hooks","template":"This is what (insert #) of (insert item) looks like.","text":"This is what 1,500 dollars of invisible spread looks like on one wire.","recommended":false},
       {"category":"Myth-Busting Hooks","template":"This is how you (insert dream result) while (insert guilty pleasure).","text":"This is how a 1% spread becomes 36,000 a year while you sleep.","recommended":false},
       {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After five years of CNY wires, business owners realise one thing: the spread compounds.","recommended":false},
-      {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 180,000 dollars of currency hops nobody told you existed.","recommended":false}
+      {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 180,000 dollars of currency hops nobody told you existed.","recommended":false},
+      {"category":"Clarity","template":"In this video: how [small thing] quietly adds up over [time].","text":"In this video: how a small wire fee quietly adds up over five years.","recommended":true}
     ],
     "PH3": [
       {"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"Last week a business owner sent 50K to Shenzhen. Supplier got 47.","recommended":false},
       {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said your bank sent CNY. That's not what really happened.","recommended":false},
       {"category":"Educational Hooks","template":"This is what (insert thing) looks like when you're (insert action). And this is what they look like when you're not (insert action).","text":"This is your wire with three correspondent hops. This is it without.","recommended":false},
       {"category":"Authority Hooks","template":"(insert big result) from (insert item/thing). Here's how you can do it in X steps.","text":"1,500 dollars vanished from one wire. Here's how, in three steps.","recommended":false},
-      {"category":"Educational Hooks","template":"Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).","text":"Here are the quiet bank tricks every business owner paying China should know.","recommended":true}
+      {"category":"Educational Hooks","template":"Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).","text":"Here are the quiet bank tricks every business owner paying China should know.","recommended":true},
+      {"category":"Clarity","template":"Here's where [amount] can quietly disappear when you [action].","text":"Here's where 1,500 dollars can quietly disappear when you wire money to China.","recommended":false}
     ],
     "PH4": [
-      {"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone says send CNY. Nobody explains the three hops. 30 seconds, save this.","recommended":true},
+      {"category":"Educational Hooks","template":"Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.","text":"Everyone says send CNY. Nobody explains the three hops. 30 seconds, save this.","recommended":false},
       {"category":"Myth-Busting Hooks","template":"(insert item) (insert fact), (insert complete opposite item) (insert similar fact).","text":"Banks route on USD rails. WorldFirst routes on CNY rails.","recommended":false},
       {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How a CNY payment becomes USD then CNY again in three steps.","recommended":false},
       {"category":"Educational Hooks","template":"It took me 10 years to learn this but I'll teach it to you in less than 1 minute.","text":"Most business owners take years to spot this. Here it is in 60 seconds.","recommended":false},
-      {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What a wire form says vs what its underlying rails actually carry.","recommended":false}
+      {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What a wire form says vs what its underlying rails actually carry.","recommended":false},
+      {"category":"Clarity","template":"In this video: what actually happens when you [action].","text":"In this video: what actually happens when you wire CNY to a supplier in China.","recommended":true}
     ],
     "PH5": [
       {"category":"Educational Hooks","template":"If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.","text":"If you wire money to China and want every dollar to land, watch this.","recommended":true},
       {"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using a USD-rail bank for CNY payments to suppliers.","recommended":false},
       {"category":"Educational Hooks","template":"If you're (insert age range), these are the # things you need to do so you don't end up (insert pain point) by (insert age).","text":"If you import from China, these are the three spreads to watch for.","recommended":false},
       {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"A business owner sent CNY to Shenzhen and skipped all three spreads.","recommended":false},
-      {"category":"Storytelling Hooks","template":"When I (insert action), people said (insert feedback).","text":"When a business owner wired CNY, the supplier said: we received USD.","recommended":false}
+      {"category":"Storytelling Hooks","template":"When I (insert action), people said (insert feedback).","text":"When a business owner wired CNY, the supplier said: we received USD.","recommended":false},
+      {"category":"Clarity","template":"Here's what every [audience] needs to know about [topic].","text":"Here's what every business owner wiring money to China needs to know about hidden spreads.","recommended":false}
     ],
     "PG1": [
-      {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said you sent CNY. You didn't. The bank routed USD.","recommended":true},
+      {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said you sent CNY. You didn't. The bank routed USD.","recommended":false},
       {"category":"Educational Hooks","template":"Not to flex, but I'm pretty f*cking good at (insert skill/niche).","text":"Not a flex, but most business owners don't know their CNY wire isn't CNY.","recommended":false},
       {"category":"Authority Hooks","template":"My customer/client got (insert dream result) without (insert pain point).","text":"WorldFirst users send real CNY without three correspondent hops.","recommended":false},
       {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank says vs what three correspondent banks actually do.","recommended":false},
-      {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, business owners realise one thing: banks don't carry CNY.","recommended":false}
+      {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of wires, business owners realise one thing: banks don't carry CNY.","recommended":false},
+      {"category":"Clarity","template":"Here's what really happens when you [action].","text":"Here's what really happens when you send a CNY wire from your bank.","recommended":true}
     ],
     "PG2": [
       {"category":"Myth-Busting Hooks","template":"It's time to throw away your (insert item), you don't need it anymore.","text":"It's time to ditch the bank wire for CNY supplier payments.","recommended":false},
       {"category":"Educational Hooks","template":"This is what (insert #) of (insert item) looks like.","text":"This is what 2.5% in stacked spreads looks like on a 50K wire.","recommended":false},
-      {"category":"Myth-Busting Hooks","template":"More (insert target audience) need to hear this, (insert common belief) will not (insert result).","text":"More business owners need to hear this. Most banks don't actually send CNY.","recommended":true},
+      {"category":"Myth-Busting Hooks","template":"More (insert target audience) need to hear this, (insert common belief) will not (insert result).","text":"More business owners need to hear this. Most banks don't actually send CNY.","recommended":false},
       {"category":"Authority Hooks","template":"Just # (insert item/action) took my client from (insert before) to (insert after).","text":"One switch took an importer from 30,000 a year lost to zero.","recommended":false},
-      {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 30,000 dollars a year quietly hopping through three banks.","recommended":false}
+      {"category":"Random Hooks","template":"This is (insert large number) of (insert item).","text":"This is 30,000 dollars a year quietly hopping through three banks.","recommended":false},
+      {"category":"Clarity","template":"In this video: why most banks don't actually [action], even when you ask them to.","text":"In this video: why most banks don't actually send CNY, even when you ask them to.","recommended":true}
     ],
     "PG3": [
-      {"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using a USD-rail bank to send CNY to suppliers.","recommended":true},
+      {"category":"Myth-Busting Hooks","template":"Stop using (insert item) for (insert result).","text":"Stop using a USD-rail bank to send CNY to suppliers.","recommended":false},
       {"category":"Educational Hooks","template":"If you don't have (insert item/action), do (insert item/action).","text":"If your bank carries USD rails, don't ask it to send CNY.","recommended":false},
       {"category":"Authority Hooks","template":"How to turn this into this in X simple steps.","text":"How to turn a leaky USD-rail wire into one direct CNY hop.","recommended":false},
       {"category":"Educational Hooks","template":"Here's exactly how you're gonna lock in if you want to (insert dream result).","text":"Here's exactly how to lock in real CNY rails for every supplier payment.","recommended":false},
-      {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank's wire form says vs what its rails actually carry.","recommended":false}
+      {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What your bank's wire form says vs what its rails actually carry.","recommended":false},
+      {"category":"Clarity","template":"Here's why your [tool] might be the wrong tool for [task].","text":"Here's why your bank might be the wrong tool for paying Chinese suppliers.","recommended":true}
     ],
     "PG4": [
       {"category":"Myth-Busting Hooks","template":"They said, \"(insert famous cliché or quote)\" — that's a lie.","text":"They said the wire goes CNY to CNY. Actually it hits three banks.","recommended":false},
       {"category":"Educational Hooks","template":"I think I just found the biggest (insert niche/industry) cheat code.","text":"This might be the biggest supplier-payment cheat code in cross-border.","recommended":false},
       {"category":"Storytelling Hooks","template":"After X years of (insert action) I realized one thing: (insert statement).","text":"After years of CNY wires, business owners realise one thing: the conversion isn't where they thought.","recommended":false},
       {"category":"Educational Hooks","template":"Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).","text":"Here are the silent FX moves banks pull on every China wire. Worth knowing.","recommended":true},
-      {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What a wire statement shows vs what three banks really did to your money.","recommended":false}
+      {"category":"Random Hooks","template":"What (insert title) says vs what they mean.","text":"What a wire statement shows vs what three banks really did to your money.","recommended":false},
+      {"category":"Clarity","template":"In this video: where the FX conversion really happens on [thing].","text":"In this video: where the FX conversion really happens on your China wire.","recommended":false}
     ],
     "PG5": [
       {"category":"Storytelling Hooks","template":"So I recently started feeling \"the pressure\" everyone talks about.","text":"So a business owner just had the supplier-called-asking-where-the-CNY-went day.","recommended":false},
-      {"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"Yesterday a business owner spent two hours phone-tagging three banks. Familiar?","recommended":true},
+      {"category":"Storytelling Hooks","template":"Yesterday I was at (insert location) when I noticed something (insert adjective).","text":"Yesterday a business owner spent two hours phone-tagging three banks. Familiar?","recommended":false},
       {"category":"Educational Hooks","template":"Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).","text":"Still phone-tagging your bank about a missing CNY wire? There's a quieter way.","recommended":false},
       {"category":"Myth-Busting Hooks","template":"This is why doing (insert action) makes you (insert pain point).","text":"This is why every China wire ends in three banks pointing fingers.","recommended":false},
-      {"category":"Day In The Life Hooks","template":"So okay, being an (insert target audience), my days vary quite a lot from one another.","text":"So okay, being a business owner paying China, your wire day varies a lot.","recommended":false}
+      {"category":"Day In The Life Hooks","template":"So okay, being an (insert target audience), my days vary quite a lot from one another.","text":"So okay, being a business owner paying China, your wire day varies a lot.","recommended":false},
+      {"category":"Clarity","template":"Here's why no one can tell you where [thing happened].","text":"Here's why no one can tell you where your CNY became USD.","recommended":true}
     ]
   }
 }

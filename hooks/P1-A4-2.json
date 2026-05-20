@@ -12,7 +12,7 @@
         "category": "Educational Hooks",
         "template": "Here's exactly how much (insert action/item) you need to (insert result).",
         "text": "Here's exactly why a 2-day China wire turns into 5 and arrives short.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -31,6 +31,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "Business owners on CIPS rails get same-day China wires without the SWIFT chain.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain topic), explained simply.",
+        "text": "In this video: why a China wire lands late and short, explained simply.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -38,7 +44,7 @@
         "category": "Educational Hooks",
         "template": "This is what (insert #) of (insert item) looks like.",
         "text": "This is what 18,000 dollars of invisible SWIFT fees over 5 years looks like.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -63,6 +69,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 3,600 dollars a year a business owner doesn't see leaving their account.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the true cost of SWIFT wires to China.",
+        "recommended": true
       }
     ],
     "PH3": [
@@ -70,7 +82,7 @@
         "category": "Myth-Busting Hooks",
         "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
         "text": "The bank said \"2 business days to Shenzhen.\" That's not what business owners actually get.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -95,6 +107,12 @@
         "template": "My (insert before state) used to look like this and now they look like this.",
         "text": "Business owners' China wires used to take 5 days. On CIPS rails, same-day.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain topic), explained simply.",
+        "text": "In this video: why the bank's 2-day quote rarely matches reality, explained simply.",
+        "recommended": true
       }
     ],
     "PH4": [
@@ -108,7 +126,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
         "text": "SWIFT is a messaging network, not a bank. Real banks move the money, real banks take fees.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -127,6 +145,12 @@
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop assuming SWIFT moves money. It just tells other banks to move money.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about what SWIFT actually is.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -140,7 +164,7 @@
         "category": "Educational Hooks",
         "template": "When you get (insert item/result), here are the # things you got to do right away.",
         "text": "When a wire to China lands late, here are 4 things business owners blame the wrong thing for.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Storytelling Hooks",
@@ -159,6 +183,12 @@
         "template": "Are you still (insert action)? I've got (insert result) in (insert time frame) and I have never (insert action).",
         "text": "Business owners still on SWIFT for China are blaming the wrong link in the chain.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain topic), explained simply.",
+        "text": "In this video: how one late China wire creates four downstream problems, explained simply.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If a business owner pays Chinese suppliers on SWIFT, here's why supplier trust is leaking.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -191,6 +221,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "Business owners on CIPS rails got same-day Chinese supplier payments without SWIFT delays.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why suppliers chase them after a wire.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
         "text": "SWIFT was built for banks talking to each other. CIPS was built for paying Chinese factories.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -223,6 +259,12 @@
         "template": "Let me de-influence you from (insert action).",
         "text": "Let me de-influence business owners from defaulting to SWIFT for Chinese supplier payments.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain topic), explained simply.",
+        "text": "In this video: what SWIFT really costs business owners over 5 years, explained simply.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using SWIFT to pay Chinese suppliers. It's a 1973 network on a 2026 job.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -255,6 +297,12 @@
         "template": "How to turn this into this in X simple steps.",
         "text": "How a business owner turns a 7-day SWIFT wire into a same-day China payment.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why SWIFT is the wrong tool for China.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -268,7 +316,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
         "text": "SWIFT moves messages, not money. Correspondent banks move money and take a cut.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -287,6 +335,12 @@
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "Biggest cheat code for business owners paying China: SWIFT isn't even a bank.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain topic), explained simply.",
+        "text": "In this video: the invisible fees on every SWIFT wire to China, explained simply.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -300,7 +354,7 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why a business owner's bank, the correspondent, and compliance all blame each other.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Storytelling Hooks",
@@ -319,6 +373,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "Business owners on one platform get one accountability line, not four banks blaming each other.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about who owns a missing China wire.",
+        "recommended": true
       }
     ]
   }

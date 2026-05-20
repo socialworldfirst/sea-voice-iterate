@@ -31,6 +31,12 @@
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "2,300 dollars vanished from one supplier wire. Here's how it happens in three steps.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about PayPal's real cost on supplier wires.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Authority Hooks",
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn an 880-dollar fee into near-interbank in two simple steps.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert scope) explained.",
+        "text": "In this video: the scale at which PayPal stops making sense for supplier payments, explained.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "A 2,300-dollar loss hiding inside one PayPal wire. Here's how it stacks in three layers.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why an 880-dollar PayPal fee is normal.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -126,6 +144,12 @@
         "category": "Authority Hooks",
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn an 880-dollar PayPal fee into a near-interbank wire in two steps.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert scope) explained.",
+        "text": "In this video: why a PayPal habit silently scales the cost of every supplier wire, explained.",
         "recommended": false
       }
     ],
@@ -159,6 +183,12 @@
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "2,300 dollars gone from one 20K wire. Here's how the stack works in three layers.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the three hidden costs in a PayPal wire.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -190,6 +220,12 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "2 grand vanished into one supplier wire. Here's the three-layer breakdown.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert scope) explained.",
+        "text": "In this video: why PayPal works at 200 dollars but breaks at 20K, explained.",
         "recommended": false
       }
     ],
@@ -223,6 +259,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 19 grand a year of supplier-payment fees, gone.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the annual cost of a PayPal habit.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -254,6 +296,12 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "From 22K real cost down to near-interbank. Here's how a business owner switches rails.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert scope) explained.",
+        "text": "In this video: why PayPal is the wrong tool for factory-scale supplier payments, explained.",
         "recommended": false
       }
     ],
@@ -287,6 +335,12 @@
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "Here's the supplier-payment cheat code most business owners miss until 20K wires.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why PayPal's percentage never shrinks.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -318,6 +372,12 @@
         "category": "Educational Hooks",
         "template": "When you get (insert item/result), here are the # things you got to do right away.",
         "text": "When a 20K PayPal hold lands, here are three things a business owner has to do.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert scope) explained.",
+        "text": "In this video: how PayPal's 21-day hold delays a supplier's production run, explained.",
         "recommended": false
       }
     ]

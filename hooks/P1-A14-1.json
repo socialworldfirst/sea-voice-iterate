@@ -6,7 +6,7 @@
         "category": "Educational Hooks",
         "template": "Here's exactly how much (insert action/item) you need to (insert result)",
         "text": "Here's exactly how much three business owners lost wiring 50K to the same supplier.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -31,6 +31,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is a 600 dollar spread on three identical 50K wires.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert situation) lands as (insert outcome).",
+        "text": "In this video: why three identical 50K wires to one supplier land as three different amounts.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -38,7 +44,7 @@
         "category": "Authority Hooks",
         "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
         "text": "Just 12 wires a year took one business owner from 9K lost to 1,800 lost.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -63,6 +69,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 600,000 in sourcing volume and a 7,200 dollar leak nobody sees.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about how wire rate margin compounds across a year.",
+        "recommended": true
       }
     ],
     "PH3": [
@@ -70,7 +82,7 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why wiring 50K through your bank leaves your supplier 600 short.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -95,6 +107,12 @@
         "template": "How I got my (insert item/thing) from this to this.",
         "text": "How one business owner went from 49,250 landed to 49,850 landed on the same wire.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert mechanism) explains (insert outcome).",
+        "text": "In this video: how the rate margin on a wire takes 600 dollars your receipt never shows.",
+        "recommended": true
       }
     ],
     "PH4": [
@@ -102,7 +120,7 @@
         "category": "Educational Hooks",
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone tells you to compare wire fees. Here's the part most business owners miss.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -127,6 +145,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What the wire fee line says vs what the exchange rate quietly takes.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why the wire fee is not the real cost.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -134,7 +158,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you wire money to Chinese suppliers and want the full amount to land, watch this.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Authority Hooks",
@@ -159,6 +183,12 @@
         "template": "So okay, being an (insert target audience), my days vary quite a lot from one another.",
         "text": "Being a business owner sourcing from China, every wire lands a different amount.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert situation) lands as (insert outcome).",
+        "text": "In this video: why three identical wires to China can land as three different supplier amounts.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you source from China and want the full wire to land, listen up.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -191,6 +221,12 @@
         "template": "How I got my (insert item/thing) from this to this.",
         "text": "How one business owner got their supplier from 49,250 landed to 49,850 landed.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner sourcing from China needs to know about the rate hidden in their wire.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. Your bank is the most expensive part of sourcing.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Authority Hooks",
@@ -223,6 +259,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 20K a year of margin sitting quietly in your bank's pocket.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert small number) becomes (insert large number) over (insert time).",
+        "text": "In this video: how a 600 dollar wire gap turns into 7,200 a year on a normal sourcing schedule.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using your domestic bank for cross-border CNY wires to suppliers.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -255,6 +297,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What your domestic bank says it can do vs what cross-border CNY actually needs.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why a domestic bank is the wrong tool for a China wire.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Educational Hooks",
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone checks the wire fee. Nobody checks the rate margin where banks really earn.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -287,6 +335,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "One business owner's supplier got 49,850 landed without paying any wire fee.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert mechanism) explains (insert outcome).",
+        "text": "In this video: how banks earn on the rate rather than the wire fee on cross-border payments.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you pay Chinese suppliers, you and your friend are not getting the same rate.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -319,6 +373,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 7,200 dollars a year leaking from one business owner's P&L.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about why two people sending the same wire get different rates.",
+        "recommended": true
       }
     ]
   }

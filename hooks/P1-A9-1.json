@@ -31,6 +31,12 @@
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you're a business owner wiring to China, watch this once.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every business owner needs to know about (insert thing) that say (insert claim) but aren't (insert reality).",
+        "text": "Here's what every business owner needs to know about wires that say sent but aren't arrived.",
+        "recommended": false
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Authority Hooks",
         "template": "(insert big result) from (insert item/thing). Here's how you can do it in X steps.",
         "text": "Five days of silence from one wire. Here's how it stacks step by step.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert small thing) turns into (insert big consequence) for (insert audience).",
+        "text": "In this video: how one silent wire turns into a lost container for a business owner.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why trusting sent makes a business owner miss the Q4 number.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every business owner needs to know about (insert claim) versus (insert reality).",
+        "text": "Here's what every business owner needs to know about what sent means versus what arrived means.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -126,6 +144,12 @@
         "category": "Authority Hooks",
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn sent and arrived into one word for a business owner.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert claim) is not the same as (insert reality).",
+        "text": "In this video: why sent is a closed ticket, not the moment money lands.",
         "recommended": false
       }
     ],
@@ -159,6 +183,12 @@
         "template": "Here's exactly how much (insert action/item) you need to (insert result)",
         "text": "Here's exactly how many steps a wire takes after the word sent.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every business owner needs to know about (insert thing): (insert plain breakdown).",
+        "text": "Here's what every business owner needs to know about a silent wire: four steps happened, the bank reported one.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -190,6 +220,12 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why trusting the bank app keeps a business owner stuck mid-week.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: where (insert thing) sits when both (insert party A) and (insert party B) are right.",
+        "text": "In this video: where the money sits when both the bank and the supplier are right.",
         "recommended": false
       }
     ],
@@ -223,6 +259,12 @@
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn sent into arrived for a business owner. One rail.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every business owner needs to know about (insert thing) that costs (insert price).",
+        "text": "Here's what every business owner needs to know about the one bank word that costs a week.",
+        "recommended": false
       }
     ],
     "PG3": [
@@ -254,6 +296,12 @@
         "category": "Authority Hooks",
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn a one-word status into one that actually says arrived.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert tool) was built for (insert role), not for (insert audience).",
+        "text": "In this video: why the bank app was built for tellers, not for a business owner tracking a wire.",
         "recommended": false
       }
     ],
@@ -287,6 +335,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why the gap between sent and arrived eats a business owner's week.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every business owner needs to know about (insert thing) that (insert party) owns.",
+        "text": "Here's what every business owner needs to know about the gap between sent and arrived that nobody owns.",
+        "recommended": false
       }
     ],
     "PG5": [
@@ -318,6 +372,12 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why $30K wired to China leaves a business owner sleepless.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: what happens to (insert amount) after (insert event), step by step.",
+        "text": "In this video: what happens to a $30K wire after the bank app says sent, step by step.",
         "recommended": false
       }
     ]

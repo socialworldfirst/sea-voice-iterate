@@ -6,7 +6,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you're a business owner wiring to Chinese suppliers, here's why a 2% gap matters.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -31,6 +31,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why wiring through a regular bank quietly costs business owners $12K a year.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about how a small FX gap adds up.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -38,7 +44,7 @@
         "category": "Educational Hooks",
         "template": "This is what (insert #) of (insert item) looks like.",
         "text": "This is what twelve wires to China actually cost a business owner in spread.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Random Hooks",
@@ -63,6 +69,12 @@
         "template": "After X years of (insert action) I realized one thing: (insert statement).",
         "text": "After three years of identical wires, a business owner realised the rate was the cost.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert small number/action) compounds into (insert outcome), explained simply.",
+        "text": "In this video: how a 2% gap on each wire compounds into $60K over five years.",
+        "recommended": true
       }
     ],
     "PH3": [
@@ -70,7 +82,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Don't (insert action) until you've done this one thing.",
         "text": "Don't sign another supplier wire until a business owner checks the rate, not the fee.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -95,6 +107,12 @@
         "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
         "text": "They said the wire fee is the cost of paying suppliers. That's the decoy.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) should understand about (insert topic), in plain terms.",
+        "text": "Here's what every importer should understand about how banks earn on supplier wires.",
+        "recommended": true
       }
     ],
     "PH4": [
@@ -102,7 +120,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using the wire fee as the cost of paying Chinese suppliers.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -127,6 +145,12 @@
         "template": "This is what (insert number) of (insert item) looks like.",
         "text": "This is what 1.7 percentage points per wire looks like on a year of sourcing.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert mechanism), explained simply for every (insert audience).",
+        "text": "In this video: why the rate, not the fee, is the real cost on every supplier wire.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -134,7 +158,7 @@
         "category": "Educational Hooks",
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If a business owner wires to China every month, three numbers matter.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -159,6 +183,12 @@
         "template": "Can you tell us how to (insert result) in 60 seconds?",
         "text": "Can a business owner save $12K on sourcing in 60 seconds? Three numbers.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) should know about (insert topic), in (insert number) numbers.",
+        "text": "Here's what every importer should know about supplier-wire costs, in three numbers.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners sourcing from China need to hear this. The fee isn't the cost.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -191,6 +221,12 @@
         "template": "If you don't have (insert item/action), do (insert item/action).",
         "text": "If a business owner isn't auditing the rate, the spread is the cost.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to understand about (insert topic).",
+        "text": "Here's what every business owner needs to understand about the rate behind supplier wires.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Myth-Busting Hooks",
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why the FX rate is the most expensive line a business owner never audits.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Authority Hooks",
@@ -223,6 +259,12 @@
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop letting the bank quote the rate on supplier wires.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert action) shifts (insert outcome), explained simply.",
+        "text": "In this video: how switching rails moves $9K a year back to the business, explained simply.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using a regular bank to pay Chinese suppliers.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -255,6 +297,12 @@
         "template": "How to turn this into this in X simple steps.",
         "text": "How a business owner turns $12K of bank spread into $12K back in the business.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) should know about picking the right (insert tool).",
+        "text": "Here's what every importer should know about picking the right tool for supplier wires.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Myth-Busting Hooks",
         "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
         "text": "They said the wire fee is the cost. The fee isn't the cost, the rate is.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -287,6 +335,12 @@
         "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
         "text": "Most business owners learn how banks earn on supplier wires too late. Here it is.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to understand about how (insert party) earns on (insert action).",
+        "text": "Here's what every importer needs to understand about how banks earn on supplier wires.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Myth-Busting Hooks",
         "template": "If you're really a (insert dream result), why aren't you doing (insert common belief)?",
         "text": "If a business owner renegotiates suppliers over 2%, why isn't the bank getting audited?",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -319,6 +373,12 @@
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone tells business owners to squeeze suppliers. Nobody says audit the bank rate.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert small number) on (insert action) is worth auditing, in plain terms.",
+        "text": "In this video: why 2% on every supplier wire is worth auditing, in plain terms.",
+        "recommended": true
       }
     ]
   }

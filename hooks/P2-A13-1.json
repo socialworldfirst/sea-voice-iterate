@@ -6,7 +6,7 @@
         "category": "Educational Hooks",
         "template": "Here's exactly how much (insert action/item) you need to (insert result)",
         "text": "Here's exactly how much a 20K PayPal supplier payment really costs.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -31,6 +31,12 @@
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone says PayPal is fine for suppliers. Nobody shows the 60-second math.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
+        "text": "Here's what every business owner needs to know about the true cost of a 20K PayPal supplier payment.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -62,6 +68,12 @@
         "category": "Random Hooks",
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 85,000 dollars of PayPal fees on one supplier relationship.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert specific topic), explained.",
+        "text": "In this video: how PayPal supplier payments compound to 85K over three years, explained.",
         "recommended": false
       }
     ],
@@ -95,6 +107,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What a PayPal receipt says vs what a 20K supplier order actually costs.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
+        "text": "Here's what every business owner needs to know about reading a PayPal receipt for supplier payments.",
+        "recommended": false
       }
     ],
     "PH4": [
@@ -126,6 +144,12 @@
         "category": "Authority Hooks",
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn a 2,380 dollar PayPal leak into hundreds, in three simple steps.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert specific topic), explained.",
+        "text": "In this video: the three fee layers behind a 20K PayPal supplier payment, explained.",
         "recommended": false
       }
     ],
@@ -159,6 +183,12 @@
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. A PayPal receipt is not the full cost.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
+        "text": "Here's what every business owner needs to know about the three hidden costs in a PayPal supplier payment.",
+        "recommended": false
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using PayPal for 20K payments to Chinese factories.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -191,6 +221,12 @@
         "template": "Let me de-influence you from (insert action).",
         "text": "Let me de-influence any business owner using PayPal for Chinese supplier payments.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert specific topic), explained.",
+        "text": "In this video: the full cost of a 20K PayPal payment to a Chinese factory, explained.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -222,6 +258,12 @@
         "category": "Random Hooks",
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 85,000 dollars of leakage on one Chinese supplier in three years.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
+        "text": "Here's what every business owner needs to know about how PayPal fees compound on supplier payments.",
         "recommended": false
       }
     ],
@@ -255,6 +297,12 @@
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If a business owner wants margin back on 20K supplier orders, this is the swap.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert specific topic), explained.",
+        "text": "In this video: why PayPal is the wrong tool for 20K Chinese supplier payments, explained.",
+        "recommended": false
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Myth-Busting Hooks",
         "template": "They said, \"(insert famous cliché or quote)\" — that's a lie.",
         "text": "The receipt says 20K. The real cost says 22K. Two different numbers.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -287,6 +335,12 @@
         "template": "Here's how to develop a (insert skill) so strong that you physically can't stop (doing skill).",
         "text": "Here's how a business owner learns to read past a PayPal receipt for good.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert specific topic).",
+        "text": "Here's what every business owner needs to know about the gap between a PayPal receipt and the real supplier cost.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -318,6 +372,12 @@
         "category": "Authority Hooks",
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "Business owners who switched got the full 20K to the supplier without the 21-day hold.",
+        "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert specific topic), explained.",
+        "text": "In this video: the all-in cost of a 20K PayPal supplier payment, including the 21-day hold, explained.",
         "recommended": false
       }
     ]

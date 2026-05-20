@@ -6,7 +6,7 @@
         "category": "Educational Hooks",
         "template": "Here's exactly how much (insert action/item) you need to (insert result)",
         "text": "Here's exactly how much a business owner loses on a 20K USD wire to China.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -31,6 +31,12 @@
         "template": "I'm going to tell you how to get (insert result), (insert mind-blowing method).",
         "text": "Here is how a business owner saves 3,360 a year, by sending CNY direct.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the math of paying suppliers in USD.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -38,7 +44,7 @@
         "category": "Educational Hooks",
         "template": "This is what (insert #) of (insert item) looks like.",
         "text": "This is what 5 years of USD wires to China actually costs a business owner.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -63,6 +69,12 @@
         "template": "After X years of (insert action) I realized one thing: (insert statement).",
         "text": "After 5 years of USD wires, a business owner realised one thing about routing.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained simply.",
+        "text": "In this video: the 5-year cost of paying Chinese suppliers in USD, explained simply.",
+        "recommended": true
       }
     ],
     "PH3": [
@@ -70,7 +82,7 @@
         "category": "Educational Hooks",
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone tells a business owner to wire USD, nobody explains the double-bank dip.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -95,6 +107,12 @@
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn a 360 dollar bank dip into 80 dollars total, one switch.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) should understand about (insert topic).",
+        "text": "Here's what every business owner should understand about where the wire fees actually go.",
+        "recommended": true
       }
     ],
     "PH4": [
@@ -102,7 +120,7 @@
         "category": "Educational Hooks",
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone says wire USD to your supplier. Nobody breaks down the two conversions.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -127,6 +145,12 @@
         "template": "It took me 10 years to learn this but I'll teach it to you in less than 1 minute.",
         "text": "Took most importers 10 years to spot the two-conversion trap. 60 seconds here.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert mechanism) actually works.",
+        "text": "In this video: how a USD wire to China actually works, two conversions in plain English.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -134,7 +158,7 @@
         "category": "Educational Hooks",
         "template": "When you get (insert item/result), here are the # things you got to do right away.",
         "text": "When a business owner sends a 20K wire to China, here are 4 hidden costs to know.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -159,6 +183,12 @@
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn 360 dollars in hidden fees into 80 dollars, on a single wire.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the 4 hidden costs on a USD wire to China.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. USD wires won't reach a CNY account intact.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -191,6 +221,12 @@
         "template": "Over the past (insert time), I've grown my (insert thing) from (insert before) to (insert after).",
         "text": "Over a year a business owner can shrink wire costs from 4,320 to 960 dollars.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert topic), explained simply.",
+        "text": "In this video: what two banks actually take from a 20K USD wire to China, explained simply.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Educational Hooks",
         "template": "This is what (insert #) of (insert item) looks like.",
         "text": "This is what 5 years of two-bank FX margins looks like on a P and L.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -223,6 +259,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why wiring USD costs a business owner a hire over 5 years.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about the line item you've never seen on a statement.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using USD to pay for an invoice that ends inside a CNY account.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -255,6 +297,12 @@
         "template": "How to turn this into this in X simple steps.",
         "text": "How to turn a 360 dollar wire into 80 dollars, in one currency switch.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: why (insert topic), explained simply.",
+        "text": "In this video: why paying a Chinese supplier in CNY beats USD, explained simply.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Educational Hooks",
         "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
         "text": "Here are slightly unethical bank tricks every business owner sourcing China should know.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -287,6 +335,12 @@
         "template": "This is why doing (insert action) makes you (insert pain point).",
         "text": "This is why a USD wire to China lands 360 dollars lighter, every single time.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert topic).",
+        "text": "Here's what every business owner needs to know about how two banks earn on a USD wire to China.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Educational Hooks",
         "template": "When you get (insert item/result), here are the # things you got to do right away.",
         "text": "When a business owner wires USD to China, here's the chain of leaks that follows.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Storytelling Hooks",
@@ -319,6 +373,12 @@
         "template": "My customer/client got (insert dream result) without (insert pain point).",
         "text": "A business owner kept 280 dollars per order without changing supplier, terms, or volume.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: what really happens when (insert scenario), explained simply.",
+        "text": "In this video: what really happens when a USD wire to China goes wrong, explained simply.",
+        "recommended": true
       }
     ]
   }

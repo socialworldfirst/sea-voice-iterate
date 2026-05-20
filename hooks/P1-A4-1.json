@@ -6,7 +6,7 @@
         "category": "Myth-Busting Hooks",
         "template": "(insert item) (insert fact), (insert complete opposite item) (insert similar fact).",
         "text": "Supplier says 49,800 landed. Not a scam. Middle banks took the cut.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -31,6 +31,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What your bank says vs what the wire actually does to your 50K.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: (insert plain expectation of what's covered).",
+        "text": "In this video: why your China supplier receives less than you wire, explained simply.",
+        "recommended": true
       }
     ],
     "PH2": [
@@ -38,7 +44,7 @@
         "category": "Educational Hooks",
         "template": "This is what (insert #) of (insert item) looks like.",
         "text": "This is what 24,000 dollars of silent wire fees looks like over five years.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -63,6 +69,12 @@
         "template": "This is (insert large number) of (insert item).",
         "text": "This is 24,000 dollars of wire deductions nobody warned the business owner about.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) should know about (insert topic).",
+        "text": "Here's what every business owner should know about the real cost of wiring China.",
+        "recommended": true
       }
     ],
     "PH3": [
@@ -70,7 +82,7 @@
         "category": "Storytelling Hooks",
         "template": "It all started when (insert person) (insert action).",
         "text": "It all started when three banks nobody named pulled 200 from one wire.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -95,6 +107,12 @@
         "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
         "text": "Your bank won't tell you this. Three banks just trimmed your last wire.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "This video explains (insert plain topic) for (insert audience).",
+        "text": "This video explains where the missing 200 on your China wire actually went.",
+        "recommended": true
       }
     ],
     "PH4": [
@@ -102,7 +120,7 @@
         "category": "Educational Hooks",
         "template": "Everyone tells you to (insert action) but nobody actually tells you how to do it. Here is a #-second step-by-step tutorial that you can save.",
         "text": "Everyone says SWIFT moves money. Nobody tells you SWIFT is just messaging.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -127,6 +145,12 @@
         "template": "I do not believe in (insert common belief), I believe in (insert your belief).",
         "text": "Don't believe SWIFT moves money. Real banks in the middle do, and skim.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what (insert audience) need to know about how (insert thing) actually works.",
+        "text": "Here's what business owners need to know about how SWIFT wires to China actually work.",
+        "recommended": true
       }
     ],
     "PH5": [
@@ -134,7 +158,7 @@
         "category": "Educational Hooks",
         "template": "Here are some slightly unethical (insert industry/niche) hacks that you should know if you're (insert target audience).",
         "text": "Four invisible cuts hit every China wire. Every business owner should know.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -159,6 +183,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What the wire receipt says vs what actually reaches the China supplier.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: the (insert number) things that happen when (insert action), explained simply.",
+        "text": "In this video: the four things that happen when you wire China, explained simply.",
+        "recommended": true
       }
     ],
     "PG1": [
@@ -166,7 +196,7 @@
         "category": "Myth-Busting Hooks",
         "template": "More (insert target audience) need to hear this, (insert common belief) will not (insert result).",
         "text": "More business owners need to hear this. Your supplier is not lying.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Educational Hooks",
@@ -191,6 +221,12 @@
         "template": "When I (insert action), people said (insert feedback).",
         "text": "When the business owner asked the bank, they said it was the supplier's bank.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what every (insert audience) needs to know about (insert plain topic).",
+        "text": "Here's what every business owner needs to know about why China wires arrive short.",
+        "recommended": true
       }
     ],
     "PG2": [
@@ -198,7 +234,7 @@
         "category": "Authority Hooks",
         "template": "Just # (insert item/action) took my client from (insert before) to (insert after).",
         "text": "Just one default setting took a business owner from 50K sent to 49,800 landed.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -223,6 +259,12 @@
         "template": "(insert big brand) didn't want to sponsor this video, let me show you what they're missing out on.",
         "text": "Your bank won't tell the business owner this. Three banks bleed every wire.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "This video: the (insert plain topic) every (insert audience) should understand.",
+        "text": "This video: the hidden bank costs every business owner paying China should understand.",
+        "recommended": true
       }
     ],
     "PG3": [
@@ -230,7 +272,7 @@
         "category": "Myth-Busting Hooks",
         "template": "Stop using (insert item) for (insert result).",
         "text": "Stop using SWIFT for China supplier payments. Wrong tool for the job.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -255,6 +297,12 @@
         "template": "What (insert title) says vs what they mean.",
         "text": "What your bank says vs what the 50-year-old SWIFT chain actually does.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's a plain explanation of why (insert plain topic) for (insert audience).",
+        "text": "Here's a plain explanation of why SWIFT is the wrong tool for paying China suppliers.",
+        "recommended": true
       }
     ],
     "PG4": [
@@ -262,7 +310,7 @@
         "category": "Educational Hooks",
         "template": "I think I just found the biggest (insert niche/industry) cheat code.",
         "text": "Found the biggest import cheat code. SWIFT is a chat group, not a rail.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Myth-Busting Hooks",
@@ -287,6 +335,12 @@
         "template": "After X years of (insert action) I realized one thing: (insert statement).",
         "text": "After years of China wires, the business owner realised SWIFT is just messaging.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "In this video: how (insert plain topic) really works, for (insert audience).",
+        "text": "In this video: how SWIFT wires to China really work, for any business owner.",
+        "recommended": true
       }
     ],
     "PG5": [
@@ -294,7 +348,7 @@
         "category": "Storytelling Hooks",
         "template": "So I did (insert action) last week.",
         "text": "A business owner called the bank last week. Got blamed back and forth.",
-        "recommended": true
+        "recommended": false
       },
       {
         "category": "Storytelling Hooks",
@@ -319,6 +373,12 @@
         "template": "If you're a (insert target audience) and you want (insert dream result) by (insert avenue), then listen to this video.",
         "text": "If you're a business owner sourcing from China and want clean wires, listen.",
         "recommended": false
+      },
+      {
+        "category": "Clarity",
+        "template": "Here's what happens when (insert plain scenario), explained for (insert audience).",
+        "text": "Here's what happens when a China wire lands short, explained for any business owner.",
+        "recommended": true
       }
     ]
   }
