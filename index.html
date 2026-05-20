@@ -16197,12 +16197,21 @@ function updatePanel() {
   if (p === 0 && c === 0) { ctx.innerHTML = '<span class="count-zero">0 of ' + TOTAL_SLIDES + ' slides picked · 0 comments</span>'; }
   else { ctx.textContent = `${p} of ${TOTAL_SLIDES} slides picked · ${c} comments`; }
   document.getElementById('panelPrompt').value = buildPrompt();
-  // Reactive picks counter in the idea bar
+  updateIdeaPicksCounter();
+}
+// Show "X / N picked" for the CURRENT idea only — X = picks in this slide, N = scripts in this slide
+function updateIdeaPicksCounter() {
   const pc = document.getElementById('picksCounter');
-  if (pc) {
-    pc.textContent = p + ' / ' + TOTAL_SLIDES + ' picked';
-    pc.classList.toggle('has-picks', p > 0);
-  }
+  if (!pc) return;
+  const slideEls = document.querySelectorAll('.slide');
+  const cur = slideEls[currentSlide];
+  if (!cur) return;
+  const sid = cur.getAttribute('data-slide-id');
+  const cards = cur.querySelectorAll('.script-card');
+  const N = cards.length;
+  const X = state.picks && state.picks[sid] ? 1 : 0;
+  pc.textContent = X + ' / ' + N + ' picked';
+  pc.classList.toggle('has-picks', X > 0);
 }
 const panel = document.getElementById('panel');
 document.getElementById('panelBar').addEventListener('click', () => {
@@ -16243,6 +16252,7 @@ function showSlide(idx) {
   }
   prevBtn.disabled = idx === 0;
   nextBtn.disabled = idx === totalSlides - 1;
+  updateIdeaPicksCounter();
   window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
