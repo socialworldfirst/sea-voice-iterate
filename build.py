@@ -112,23 +112,46 @@ def render_script(script_id, subtitle, original_vo, iterated_vo, diff_markup, sk
         if h.get('recommended'):
             rec_idx = i
     ordered = ([slide_hooks[rec_idx]] + [h for i, h in enumerate(slide_hooks) if i != rec_idx]) if slide_hooks else []
+    radio_name = f"hook-{esc(slide_id)}-{esc(script_id)}"
     for i, h in enumerate(ordered):
         cat = h.get('category', '').replace(' Hooks', '')
         htext = h.get('text', '')
-        star = '★ ' if i == 0 else ''
-        sel = ' selected' if i == 0 else ''
-        label = f"{star}{esc(cat)} — {esc(htext)}"
-        opts.append(f'<option value="{i}" data-hook="{esc(htext)}"{sel}>{label}</option>')
+        star = '<span class="ho-star">★</span>' if i == 0 else '<span class="ho-num">' + str(i+1) + '</span>'
+        checked = ' checked' if i == 0 else ''
+        rec_badge = '<span class="ho-rec">recommended</span>' if i == 0 else ''
+        opts.append(
+            f'<label class="hook-opt">'
+            f'<input type="radio" name="{radio_name}" class="hook-radio" '
+            f'data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" '
+            f'data-hook="{esc(htext)}" data-label="{esc(cat)}" data-val="{i}"{checked}>'
+            f'<span class="ho-mark"></span>'
+            f'<span class="ho-body">'
+            f'<span class="ho-meta">{star} <span class="ho-cat">{esc(cat)}</span> {rec_badge}</span>'
+            f'<span class="ho-text">{esc(htext)}</span>'
+            f'</span>'
+            f'</label>'
+        )
     # original hook = the iterated_vo's own first sentence
     m = _re.search(r'[.!?]\s', iterated_vo or '')
     orig_hook = iterated_vo[:m.end()].strip() if m else (iterated_vo or '')
-    opts.append(f'<option value="orig" data-hook="{esc(orig_hook)}">Original (variant\'s own hook) — {esc(orig_hook[:70])}</option>')
+    opts.append(
+        f'<label class="hook-opt hook-opt-orig">'
+        f'<input type="radio" name="{radio_name}" class="hook-radio" '
+        f'data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" '
+        f'data-hook="{esc(orig_hook)}" data-label="Original" data-val="orig">'
+        f'<span class="ho-mark"></span>'
+        f'<span class="ho-body">'
+        f'<span class="ho-meta"><span class="ho-num">·</span> <span class="ho-cat">Original</span></span>'
+        f'<span class="ho-text">{esc(orig_hook)}</span>'
+        f'</span>'
+        f'</label>'
+    )
     default_hook = ordered[0]['text'] if ordered else orig_hook
     hook_block = f'''
   <div class="hook-ctl">
-    <div class="block-label">Hook · library-driven · swap freely</div>
-    <select class="hook-select" data-slide="{esc(slide_id)}" data-vid="{esc(script_id)}" data-core="{esc(core)}">{''.join(opts)}</select>
-    <div class="final-vo" data-vid="{esc(script_id)}"><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core">{esc(core)}</span></div>
+    <div class="block-label">Hook · library-driven · click any to swap (★ = recommended default)</div>
+    <div class="hook-opts" data-core="{esc(core)}">{''.join(opts)}</div>
+    <div class="final-vo" data-vid="{esc(script_id)}"><span class="fv-label">Final VO</span><span class="fv-hook">{esc(default_hook)}</span> <span class="fv-core">{esc(core)}</span></div>
   </div>'''
 
     heat_pill = ''
@@ -364,14 +387,44 @@ html, body {{ background: var(--bg); color: var(--ink);
 /* Per-card hook control */
 .hook-ctl {{ padding: 14px 20px; border-top: 1px solid var(--line-s);
   background: rgba(10,109,47,0.035); }}
-.hook-select {{ width: 100%; padding: 10px 12px; border: 1px solid var(--pick);
-  border-radius: 8px; background: var(--bg); color: var(--ink); font-size: 13px;
-  font-family: inherit; cursor: pointer; margin-bottom: 12px; }}
-.hook-select:focus {{ outline: 2px solid rgba(10,109,47,0.25); }}
+.hook-opts {{ display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; }}
+.hook-opt {{ display: grid; grid-template-columns: 20px 1fr; gap: 10px;
+  align-items: start; padding: 9px 12px; border: 1px solid var(--line);
+  border-radius: 7px; background: var(--bg); cursor: pointer; position: relative;
+  transition: border-color 0.12s, background 0.12s; }}
+.hook-opt:hover {{ border-color: var(--pick); }}
+.hook-opt input {{ position: absolute; opacity: 0; }}
+.ho-mark {{ width: 14px; height: 14px; border: 2px solid var(--line);
+  border-radius: 50%; margin-top: 4px; position: relative; transition: all 0.12s; }}
+.hook-opt input:checked ~ .ho-mark {{ border-color: var(--pick); }}
+.hook-opt input:checked ~ .ho-mark::after {{ content: ''; display: block;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--pick);
+  position: absolute; top: 2px; left: 2px; }}
+.hook-opt:has(input:checked) {{ border-color: var(--pick);
+  background: rgba(10,109,47,0.06); }}
+.ho-body {{ display: flex; flex-direction: column; gap: 3px; min-width: 0; }}
+.ho-meta {{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--ink-mute); }}
+.ho-star {{ color: var(--pick); font-size: 12px; }}
+.ho-num {{ color: var(--ink-mute); font-size: 10px; }}
+.ho-cat {{ color: var(--ink-mute); font-weight: 600; }}
+.hook-opt input:checked ~ .ho-body .ho-cat {{ color: var(--pick); }}
+.ho-rec {{ font-size: 9px; letter-spacing: 0.08em; color: var(--pick);
+  background: rgba(10,109,47,0.10); padding: 1px 6px; border-radius: 100px;
+  font-weight: 700; }}
+.ho-text {{ font-size: 14px; line-height: 1.5; color: var(--ink);
+  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif; }}
+.hook-opt-orig {{ border-style: dashed; }}
+.hook-opt-orig .ho-text {{ color: var(--ink-soft); }}
+
 .final-vo {{ font-size: 15px; line-height: 1.65; color: var(--ink);
   font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
   background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
-  padding: 14px 16px; }}
+  padding: 14px 16px; position: relative; }}
+.fv-label {{ position: absolute; top: -8px; left: 12px; background: var(--bg);
+  padding: 0 6px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-mute); font-weight: 600; }}
 .fv-hook {{ font-weight: 700; color: var(--pick); }}
 .fv-core {{ color: var(--ink); }}
 
@@ -637,32 +690,30 @@ document.querySelectorAll('.script-comment').forEach(ta => {{
     saveState(state); updatePanel();
   }});
 }});
-// Per-card hook select (state.hookpick = {{ "slide::vid": {{label,text}} }})
+// Per-card hook radios (state.hookpick = {{ "slide::vid": {{label, text}} }})
 if (!state.hookpick) state.hookpick = {{}};
-document.querySelectorAll('.hook-select').forEach(sel => {{
-  const slide = sel.getAttribute('data-slide');
-  const vid = sel.getAttribute('data-vid');
+// Restore + bind
+document.querySelectorAll('.hook-radio').forEach(rb => {{
+  const slide = rb.getAttribute('data-slide');
+  const vid = rb.getAttribute('data-vid');
   const key = slide + '::' + vid;
-  const core = sel.getAttribute('data-core');
-  const fv = document.querySelector('.final-vo[data-vid="' + vid + '"]');
-  // restore prior choice
-  if (state.hookpick[key]) {{
-    for (const o of sel.options) {{
-      if (o.getAttribute('data-hook') === state.hookpick[key].text) {{ o.selected = true; break; }}
-    }}
-  }}
-  function apply() {{
-    const opt = sel.options[sel.selectedIndex];
-    const hook = opt.getAttribute('data-hook') || '';
-    if (fv) {{ fv.querySelector('.fv-hook').textContent = hook; }}
-    const isOrig = sel.value === 'orig';
-    if (isOrig) delete state.hookpick[key];
-    else state.hookpick[key] = {{ label: opt.textContent.split(' — ')[0].replace('★ ','').trim(), text: hook }};
+  const hookText = rb.getAttribute('data-hook');
+  if (state.hookpick[key] && state.hookpick[key].text === hookText) rb.checked = true;
+}});
+document.querySelectorAll('.hook-radio').forEach(rb => {{
+  rb.addEventListener('change', () => {{
+    const slide = rb.getAttribute('data-slide');
+    const vid = rb.getAttribute('data-vid');
+    const key = slide + '::' + vid;
+    const hook = rb.getAttribute('data-hook') || '';
+    const label = rb.getAttribute('data-label') || '';
+    const val = rb.getAttribute('data-val');
+    const fv = document.querySelector('.final-vo[data-vid="' + vid + '"]');
+    if (fv) fv.querySelector('.fv-hook').textContent = hook;
+    if (val === 'orig') delete state.hookpick[key];
+    else state.hookpick[key] = {{ label: label, text: hook }};
     saveState(state); updatePanel();
-  }}
-  sel.addEventListener('change', apply);
-  // initialize final-vo to current selection on load
-  if (fv) {{ fv.querySelector('.fv-hook').textContent = sel.options[sel.selectedIndex].getAttribute('data-hook') || ''; }}
+  }});
 }});
 document.querySelectorAll('.copy-btn').forEach(btn => {{
   btn.addEventListener('click', async (e) => {{
