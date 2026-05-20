@@ -2,7 +2,10 @@
 import json, subprocess, os, datetime
 
 fz = json.load(open('finalized.json'))
-entries = fz['finalized']
+all_entries = fz['finalized']
+# Only CLEAN picks (no rework note) go into the Google Doc. Picks with notes + needs-update flags go to pending.html.
+entries = [e for e in all_entries if not e.get('rework_note')]
+pending_count = len(all_entries) - len(entries)
 needs_update = fz.get('needs_update', [])
 
 md = [
@@ -10,7 +13,7 @@ md = [
     "",
     f"**Updated:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}",
     f"**Source:** Sparkloop /spark_script · {fz['source']}",
-    f"**Status:** {len(entries)} scripts finalized",
+    f"**Status:** {len(entries)} scripts finalized · {pending_count + len(needs_update)} pending review (see pending.html)",
     f"**Voice:** WorldFirst brand channel · no em-dashes · brand-search CTA",
     "",
     "---",
@@ -18,7 +21,7 @@ md = [
 ]
 
 for i, e in enumerate(entries, 1):
-    md.append(f"## {i}. {e['slide_id']} — {e.get('subtitle','')}")
+    md.append(f"## {i}. {e['slide_id']} - {e.get('subtitle','')}")
     md.append("")
     meta = [
         f"`{e['slide_id']}::{e['variant_id']}`",
@@ -38,14 +41,7 @@ for i, e in enumerate(entries, 1):
     md.append("---")
     md.append("")
 
-if needs_update:
-    md.append("## Needs update — regenerate variants")
-    md.append("")
-    md.append("Ideas where Steven flagged that none of the 10 variants fit. Next stage: regenerate fresh variants (new hooks + bodies).")
-    md.append("")
-    for sid in needs_update:
-        md.append(f"- `{sid}`")
-    md.append("")
+# Needs-update + rework-note picks moved to pending.html. Don't include them here.
 
 md_text = "\n".join(md)
 with open('_final_scripts.md', 'w') as f:

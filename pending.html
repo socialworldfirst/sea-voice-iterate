@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>SEA Batch 1 — Pending Review</title>
+<style>
+:root {
+  --ink: #0a0a0a;
+  --ink-soft: #3a3a3a;
+  --ink-mute: #6a6a6a;
+  --line: #d8d8d8;
+  --line-s: #ececec;
+  --bg: #fff;
+  --tint: #f7f7f5;
+  --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+.layout { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; max-width: 1400px; margin: 0 auto; }
+
+.sidebar { position: sticky; top: 0; height: 100vh; border-right: 1px solid var(--line); padding: 28px 20px 28px 32px; overflow-y: auto; }
+.sb-kicker { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-mute); margin-bottom: 6px; }
+.sb-title { font-size: 17px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 4px; }
+.sb-meta { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); margin-bottom: 24px; }
+.sb-nav { display: flex; flex-direction: column; gap: 1px; }
+.nav-item { display: grid; grid-template-columns: 28px 1fr; gap: 8px; padding: 8px 10px;
+  border: 1px solid transparent; border-radius: 5px; text-decoration: none; color: var(--ink-soft);
+  font-size: 12px; transition: all 0.15s; align-items: baseline; }
+.nav-item:hover { border-color: var(--line); background: var(--tint); color: var(--ink); }
+.nav-num { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); }
+.nav-id { font-family: var(--mono); font-size: 11px; font-weight: 600; color: var(--ink); }
+.nav-label { font-size: 10px; color: var(--ink-mute); font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.04em; grid-column: 2; }
+.nav-rework .nav-id { color: var(--ink); }
+.nav-flag .nav-id { color: var(--ink); }
+
+.main { padding: 60px 56px 120px; }
+.hero { padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 48px; }
+.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-mute); margin-bottom: 14px; }
+h1 { font-size: 36px; line-height: 1.15; letter-spacing: -0.022em; font-weight: 600; margin: 0 0 12px; }
+.lede { font-size: 16px; color: var(--ink-soft); line-height: 1.55; max-width: 720px; }
+.stats { display: flex; gap: 36px; margin-top: 28px; }
+.stat-block { display: flex; flex-direction: column; gap: 4px; }
+.stat-num { font-family: var(--serif); font-size: 32px; font-weight: 500; letter-spacing: -0.01em; }
+.stat-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mute); }
+
+.panel { display: grid; grid-template-columns: 60px 1fr; gap: 24px; padding: 36px 0; border-bottom: 1px solid var(--line-s); }
+.panel:last-child { border-bottom: none; }
+.panel-num { font-family: var(--mono); font-size: 12px; color: var(--ink-mute); letter-spacing: 0.04em; padding-top: 6px; }
+.panel-body { min-width: 0; }
+
+.meta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: baseline; margin-bottom: 10px; }
+.tag { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mute); font-weight: 700;
+  padding: 3px 8px; border: 1px solid var(--ink-mute); border-radius: 100px; }
+.tag-flag { color: var(--ink); border-color: var(--ink); }
+.meta-id { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--ink); letter-spacing: 0.04em; }
+.meta-version, .meta-hook { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.04em; text-transform: uppercase; }
+
+h2 { font-size: 22px; line-height: 1.25; letter-spacing: -0.012em; font-weight: 600; margin: 0 0 4px; }
+.subtitle { font-size: 13px; color: var(--ink-soft); font-style: italic; margin-bottom: 22px; line-height: 1.5; }
+
+.block { margin-bottom: 20px; }
+.block-label { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mute); font-weight: 700; margin-bottom: 8px; }
+.rework-note { font-family: var(--serif); font-size: 15px; line-height: 1.55; color: var(--ink);
+  padding: 14px 18px; background: var(--tint); border-left: 3px solid var(--ink); border-radius: 0 6px 6px 0; }
+.vo { font-family: var(--serif); font-size: 15px; line-height: 1.65; color: var(--ink-soft); margin: 0;
+  padding: 14px 18px; border: 1px solid var(--line-s); border-radius: 6px; background: var(--bg); }
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 24px; }
+  .main { padding: 32px 24px 80px; }
+  .panel { grid-template-columns: 1fr; gap: 12px; }
+  .panel-num { padding-top: 0; }
+  h1 { font-size: 26px; }
+  .stats { gap: 24px; }
+  .stat-num { font-size: 26px; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sb-kicker">/spark_script · pending</div>
+    <div class="sb-title">SEA Batch 1 — Pending Review</div>
+    <div class="sb-meta">2026-05-20 18:52</div>
+    <div class="sb-nav"><a href="#p1" class="nav-item nav-rework"><span class="nav-num">1</span><span class="nav-id">P2-A14-1</span><span class="nav-label">PG5 · rework</span></a><a href="#p2" class="nav-item nav-rework"><span class="nav-num">2</span><span class="nav-id">P2-A24-1</span><span class="nav-label">PG5 · rework</span></a><a href="#p3" class="nav-item nav-rework"><span class="nav-num">3</span><span class="nav-id">P2-A3-1</span><span class="nav-label">PG5 · rework</span></a><a href="#p4" class="nav-item nav-rework"><span class="nav-num">4</span><span class="nav-id">P2-A8-1</span><span class="nav-label">PH2 · rework</span></a><a href="#p5" class="nav-item nav-flag"><span class="nav-num">5</span><span class="nav-id">P1-A6-1</span><span class="nav-label">full regen</span></a></div>
+  </nav>
+  <main class="main">
+    <div class="hero">
+      <div class="kicker">Sparkloop · /spark_script · review queue</div>
+      <h1>Pending review</h1>
+      <p class="lede">Picks with rework notes and ideas flagged for full regeneration. Finalized scripts (no notes, no flags) live in the Google Doc.</p>
+      <div class="stats">
+        <div class="stat-block"><div class="stat-num">4</div><div class="stat-label">Rework notes</div></div>
+        <div class="stat-block"><div class="stat-num">1</div><div class="stat-label">Full regen</div></div>
+        <div class="stat-block"><div class="stat-num">5</div><div class="stat-label">Total pending</div></div>
+      </div>
+    </div>
+    
+<section id="p1" class="panel">
+  <div class="panel-num">01</div>
+  <div class="panel-body">
+    <div class="meta-row">
+      <span class="tag">REWORK</span>
+      <span class="meta-id">P2-A14-1 · PG5</span>
+      <span class="meta-version">Final VO</span>
+      <span class="meta-hook">hook: Clarity</span>
+    </div>
+    <h2>Why your supplier said no to the card</h2>
+    <div class="subtitle">Real talk + supplier&#x27;s view</div>
+
+    <div class="block">
+      <div class="block-label">Steven's note</div>
+      <div class="rework-note">remove wechat</div>
+    </div>
+
+    <div class="block">
+      <div class="block-label">Current draft (134 words)</div>
+      <p class="vo">Here&#x27;s what every business owner needs to know about who really pays the card fee on China orders. You&#x27;re treating the credit card like a payment method. Your supplier is treating it like a liability. You see 2.95% as a fee you&#x27;ll happily eat. Your supplier sees 2.95% coming out of their margin because the merchant pays card fees, not the cardholder. You see chargeback protection. Your supplier sees 180 days of their bank reversing the money on goods they already shipped. You see Visa. Your supplier sees a system 95% of their factory peers don&#x27;t even use. The card isn&#x27;t bad. It&#x27;s just not for this. This happens every week. Every single week. WorldFirst pays Chinese suppliers in CNY on Alipay, WeChat, and local bank rails. The systems they actually use. Search WorldFirst.</p>
+    </div>
+  </div>
+</section>
+<section id="p2" class="panel">
+  <div class="panel-num">02</div>
+  <div class="panel-body">
+    <div class="meta-row">
+      <span class="tag">REWORK</span>
+      <span class="meta-id">P2-A24-1 · PG5</span>
+      <span class="meta-version">Final VO</span>
+      <span class="meta-hook">hook: Storytelling</span>
+    </div>
+    <h2>When CAN you pay a Chinese supplier by card?</h2>
+    <div class="subtitle">Real talk + the WhatsApp scenario</div>
+
+    <div class="block">
+      <div class="block-label">Steven's note</div>
+      <div class="rework-note">remove&quot; Pay by Visa? You message your supplier on WhatsApp. &quot;</div>
+    </div>
+
+    <div class="block">
+      <div class="block-label">Current draft (150 words)</div>
+      <p class="vo">A business owner messages a Chinese supplier on WhatsApp. Pay by Visa? You message your supplier on WhatsApp. Can I pay by Visa? They say no. You ask why. They give you some answer about fees. You don&#x27;t believe them. You ask another supplier. Same answer. You think the whole supply chain is gaslighting you. They&#x27;re not. Only 3 to 5% of Chinese factories accept cards. The other 95% never set up a card terminal because they run on Alipay and WeChat Pay domestically. And the 180-day chargeback window scares every single one of them on any order above sample size. The card has three jobs. Samples under 1,000 dollars. Trade Assurance up to 12K. Sourcing agents. That&#x27;s the whole list. This happens every week. Operators forcing cards on production runs, suppliers refusing, two days lost. WorldFirst. CNY direct. Same-day to Chinese accounts. No card surcharge. No chargeback. Search WorldFirst.</p>
+    </div>
+  </div>
+</section>
+<section id="p3" class="panel">
+  <div class="panel-num">03</div>
+  <div class="panel-body">
+    <div class="meta-row">
+      <span class="tag">REWORK</span>
+      <span class="meta-id">P2-A3-1 · PG5</span>
+      <span class="meta-version">Final VO</span>
+      <span class="meta-hook">hook: Storytelling</span>
+    </div>
+    <h2>I sent $50K. My supplier got $48,500. Here is why.</h2>
+    <div class="subtitle">Real talk + escalating personal energy</div>
+
+    <div class="block">
+      <div class="block-label">Steven's note</div>
+      <div class="rework-note">not Full $50,000 lands. think of best rate for business kind of thing</div>
+    </div>
+
+    <div class="block">
+      <div class="block-label">Current draft (102 words)</div>
+      <p class="vo">When a business owner calls the bank, everyone blames someone else. You think your bank is helping you. They&#x27;re not. You wire $50,000 to your supplier. They get $48,000. You call the bank. They blame the intermediary. The intermediary blames the receiving bank. Nobody takes responsibility. Meanwhile your supplier won&#x27;t start production. You&#x27;re losing days. Your customers are waiting. Your margin is bleeding. And you&#x27;re on the phone with a teller who has no idea what you&#x27;re talking about. This happens every week. Every single week. WorldFirst. Near-interbank rate. Same-day to Chinese accounts. Full $50,000 lands. Supplier starts. You sleep. Search WorldFirst.</p>
+    </div>
+  </div>
+</section>
+<section id="p4" class="panel">
+  <div class="panel-num">04</div>
+  <div class="panel-body">
+    <div class="meta-row">
+      <span class="tag">REWORK</span>
+      <span class="meta-id">P2-A8-1 · PH2</span>
+      <span class="meta-version">Final VO</span>
+      <span class="meta-hook">hook: Educational</span>
+    </div>
+    <h2>Find the hidden FX margin in 30 seconds</h2>
+    <div class="subtitle">30-second timer + brutal specificity</div>
+
+    <div class="block">
+      <div class="block-label">Steven's note</div>
+      <div class="rework-note">you should also mention our fx rate advantage, but in a non-explict way</div>
+    </div>
+
+    <div class="block">
+      <div class="block-label">Current draft (157 words)</div>
+      <p class="vo">Can a business owner find a hidden foreign exchange fee in 30 seconds? Watch. That&#x27;s all it takes to find the foreign exchange margin your bank hid in your last wire to China. Watch. Step one. Pull up your wire confirmation. Five seconds. Find the field that says applied rate or exchange rate used. Got it. Step two. Open a new tab. Google USD to CNY. Look at the rate. Note the time. Ten seconds. Step three. The math. Interbank minus applied. Divide by interbank. Times 100. Ten seconds. That&#x27;s the foreign exchange margin percent. Five seconds to multiply by your wire amount. That&#x27;s the dollar amount they took. Real example. Applied 7.05. Interbank that morning 7.22. Margin 2.35 percent. On 50,000 dollars, you paid 1,175 dollars in invisible foreign exchange spread. The wire fee on the receipt? Forty bucks. The real cost? Thirty times that. WorldFirst shows you the rate before you click send. Search WorldFirst.</p>
+    </div>
+  </div>
+</section>
+<section id="p5" class="panel">
+  <div class="panel-num">05</div>
+  <div class="panel-body">
+    <div class="meta-row">
+      <span class="tag tag-flag">FULL REGEN</span>
+      <span class="meta-id">P1-A6-1</span>
+      <span class="meta-version">all 10 variants</span>
+    </div>
+    <h2>USD feels safer. It costs you 2% more.</h2>
+    <div class="subtitle">Steven flagged this idea — none of the 10 variants fit. Generate a fresh set with different hooks and bodies.</div>
+
+    <div class="block">
+      <div class="block-label">Action</div>
+      <p class="vo">Re-run hormozi + garyvee voice generation for this idea. New hooks (avoid the angles already attempted). New iterated_vo. Same factcheck topic.</p>
+    </div>
+  </div>
+</section>
+  </main>
+</div>
+</body>
+</html>
