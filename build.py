@@ -443,10 +443,20 @@ html, body {{ background: var(--bg); color: var(--ink);
   letter-spacing: 0.04em; color: var(--ink); }}
 .slide-title {{ font-size: 14px; color: var(--ink-soft); font-weight: 500; }}
 
-.slide-meta {{ display: flex; gap: 14px; flex-wrap: wrap;
+.slide-meta {{ display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
   font-family: var(--mono); font-size: 11px; color: var(--ink-mute);
   letter-spacing: 0.04em; margin-bottom: 24px; padding-bottom: 16px;
   border-bottom: 1px solid var(--line-soft); }}
+
+/* Needs-update flag — sends signal to next stage that this idea needs new variants */
+.needs-update-btn {{ margin-left: auto; padding: 5px 12px; border: 1px solid var(--line);
+  border-radius: 100px; background: var(--bg); color: var(--ink-mute);
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  cursor: pointer; transition: all 0.15s; font-weight: 600; }}
+.needs-update-btn:hover {{ border-color: var(--flag-medium); color: var(--flag-medium); }}
+.needs-update-btn.flagged {{ background: rgba(148,97,0,0.08); border-color: var(--flag-medium);
+  color: var(--flag-medium); font-weight: 700; }}
+.needs-update-btn.flagged::before {{ content: '✦ '; }}
 
 .slide-pending {{ padding: 40px 30px; border: 1px dashed var(--line); border-radius: 8px;
   background: var(--tint); text-align: center; }}
@@ -742,7 +752,7 @@ h1 {{ font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 
 <div class="slides-container">
   {chr(10).join(
     f'<div class="slide" data-slide-id="{esc(s["id"])}" data-slide-idx="{i}" style="display:{ "block" if i == 0 else "none"};">'
-    + f'<div class="slide-meta"><span class="sm-card">Card {esc(s["card_id"])}</span><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span><span class="sm-approach">{esc(s["approach"])}</span></div>'
+    + f'<div class="slide-meta"><span class="sm-card">Card {esc(s["card_id"])}</span><span class="sm-pillar">Pillar {esc(s["pillar"])}</span><span class="sm-format">{esc(s["format_spec"])}</span><span class="sm-topic">Topic {esc(s["topic"])}</span><span class="sm-approach">{esc(s["approach"])}</span><button type="button" class="needs-update-btn" data-slide="{esc(s["id"])}">Needs update</button></div>'
     + (
         (lambda data: render_combined_section(data[0], data[1], data[2], slide_id=s['id']) if data[0] and data[1] else f'<div class="slide-pending"><strong>Voice variants pending generation.</strong><p>Agent for {esc(s["id"])} is still running. Page rebuilds as each lands.</p></div>')(load_slide_data(s['id']))
     )
@@ -780,6 +790,13 @@ if (!state.picks) state.picks = {{}};
 if (!state.comments) state.comments = {{}};
 if (!state.hookpick) state.hookpick = {{}};
 if (!state.versionpick) state.versionpick = {{}};
+if (!state.needsUpdate) state.needsUpdate = {{}};
+// Migrate legacy lowercase version labels to the new 4-tab labels
+const VER_MIGRATE = {{ 'final': 'Final VO', 'clarity': 'Final VO (Clarity)' }};
+Object.keys(state.versionpick).forEach(k => {{
+  const v = state.versionpick[k];
+  if (VER_MIGRATE[v]) state.versionpick[k] = VER_MIGRATE[v];
+}});
 // Migrate legacy single-string picks to array form (state.picks[slide] = [vid, ...])
 Object.keys(state.picks).forEach(k => {{
   if (typeof state.picks[k] === 'string') state.picks[k] = [state.picks[k]];
@@ -943,6 +960,18 @@ document.querySelectorAll('.sc-toggle').forEach(btn => {{
   }});
 }});
 
+// Needs-update flag per slide — signal to regenerate variants for this idea
+document.querySelectorAll('.needs-update-btn').forEach(btn => {{
+  const slide = btn.getAttribute('data-slide');
+  if (state.needsUpdate[slide]) btn.classList.add('flagged');
+  btn.addEventListener('click', () => {{
+    const flagged = btn.classList.toggle('flagged');
+    if (flagged) state.needsUpdate[slide] = true;
+    else delete state.needsUpdate[slide];
+    saveState(state); updatePanel();
+  }});
+}});
+
 function buildPrompt() {{
   const lines = ['== SEA Voice Iterate paste-back =='];
   lines.push('');
@@ -970,8 +999,18 @@ function buildPrompt() {{
   lines.push(`COMMENTS (${{commentEntries.length}}):`);
   if (commentEntries.length === 0) lines.push('  (none)');
   commentEntries.forEach(([key, c]) => {{ lines.push(`  ${{key}}: "${{c.trim()}}"`); }});
+  // Needs-update flags — slides that need fresh variants generated
+  const needsUpdateIds = Object.keys(state.needsUpdate || {{}}).filter(k => state.needsUpdate[k]);
   lines.push('');
-  lines.push('Action: each picked script = a final variant to ship for that idea. Multiple picks per idea = ship multiple. Comments = rework notes.');
+  lines.push(`NEEDS UPDATE (${{needsUpdateIds.length}}) — regenerate variants for these ideas:`);
+  if (needsUpdateIds.length === 0) lines.push('  (none)');
+  // Order by DOM
+  document.querySelectorAll('.slide').forEach(sl => {{
+    const sid = sl.getAttribute('data-slide-id');
+    if (state.needsUpdate[sid]) lines.push(`  ${{sid}}`);
+  }});
+  lines.push('');
+  lines.push('Action: each picked script = a final variant to ship for that idea. Multiple picks per idea = ship multiple. Comments = rework notes. NEEDS UPDATE = regenerate the 10 variants for that idea (fresh hook + body).');
   return lines.join('\\n');
 }}
 function updatePanel() {{

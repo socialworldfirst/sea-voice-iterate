@@ -56,10 +56,20 @@ html, body { background: var(--bg); color: var(--ink);
   letter-spacing: 0.04em; color: var(--ink); }
 .slide-title { font-size: 14px; color: var(--ink-soft); font-weight: 500; }
 
-.slide-meta { display: flex; gap: 14px; flex-wrap: wrap;
+.slide-meta { display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
   font-family: var(--mono); font-size: 11px; color: var(--ink-mute);
   letter-spacing: 0.04em; margin-bottom: 24px; padding-bottom: 16px;
   border-bottom: 1px solid var(--line-soft); }
+
+/* Needs-update flag — sends signal to next stage that this idea needs new variants */
+.needs-update-btn { margin-left: auto; padding: 5px 12px; border: 1px solid var(--line);
+  border-radius: 100px; background: var(--bg); color: var(--ink-mute);
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  cursor: pointer; transition: all 0.15s; font-weight: 600; }
+.needs-update-btn:hover { border-color: var(--flag-medium); color: var(--flag-medium); }
+.needs-update-btn.flagged { background: rgba(148,97,0,0.08); border-color: var(--flag-medium);
+  color: var(--flag-medium); font-weight: 700; }
+.needs-update-btn.flagged::before { content: '✦ '; }
 
 .slide-pending { padding: 40px 30px; border: 1px dashed var(--line); border-radius: 8px;
   background: var(--tint); text-align: center; }
@@ -353,7 +363,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </div>
 
 <div class="slides-container">
-  <div class="slide" data-slide-id="P1-A11-1" data-slide-idx="0" style="display:block;"><div class="slide-meta"><span class="sm-card">Card P1-A11</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Mechanism-led</span></div>
+  <div class="slide" data-slide-id="P1-A11-1" data-slide-idx="0" style="display:block;"><div class="slide-meta"><span class="sm-card">Card P1-A11</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Mechanism-led</span><button type="button" class="needs-update-btn" data-slide="P1-A11-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -1168,7 +1178,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A13-1" data-slide-idx="1" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A13</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 30s · bilingual</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Tutorial</span></div>
+<div class="slide" data-slide-id="P1-A13-1" data-slide-idx="1" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A13</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 30s · bilingual</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Tutorial</span><button type="button" class="needs-update-btn" data-slide="P1-A13-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -1983,7 +1993,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A14-1" data-slide-idx="2" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A14</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Comparison</span></div>
+<div class="slide" data-slide-id="P1-A14-1" data-slide-idx="2" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A14</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Comparison</span><button type="button" class="needs-update-btn" data-slide="P1-A14-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -2798,7 +2808,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A2-1" data-slide-idx="3" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A2</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Curiosity-led</span></div>
+<div class="slide" data-slide-id="P1-A2-1" data-slide-idx="3" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A2</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Curiosity-led</span><button type="button" class="needs-update-btn" data-slide="P1-A2-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -3613,7 +3623,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A4-1" data-slide-idx="4" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A4</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 06</span><span class="sm-approach">Pain-led</span></div>
+<div class="slide" data-slide-id="P1-A4-1" data-slide-idx="4" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A4</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 06</span><span class="sm-approach">Pain-led</span><button type="button" class="needs-update-btn" data-slide="P1-A4-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -4428,7 +4438,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A4-2" data-slide-idx="5" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A4</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 06</span><span class="sm-approach">Pain-led</span></div>
+<div class="slide" data-slide-id="P1-A4-2" data-slide-idx="5" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A4</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 06</span><span class="sm-approach">Pain-led</span><button type="button" class="needs-update-btn" data-slide="P1-A4-2">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -5243,7 +5253,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A6-1" data-slide-idx="6" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A6</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 05</span><span class="sm-approach">Reframe</span></div>
+<div class="slide" data-slide-id="P1-A6-1" data-slide-idx="6" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A6</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 05</span><span class="sm-approach">Reframe</span><button type="button" class="needs-update-btn" data-slide="P1-A6-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -6058,7 +6068,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A6-2" data-slide-idx="7" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A6</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 05</span><span class="sm-approach">Supplier-perspective</span></div>
+<div class="slide" data-slide-id="P1-A6-2" data-slide-idx="7" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A6</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 05</span><span class="sm-approach">Supplier-perspective</span><button type="button" class="needs-update-btn" data-slide="P1-A6-2">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -6873,7 +6883,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A6-3" data-slide-idx="8" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A6</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 05</span><span class="sm-approach">Math-led</span></div>
+<div class="slide" data-slide-id="P1-A6-3" data-slide-idx="8" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A6</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 05</span><span class="sm-approach">Math-led</span><button type="button" class="needs-update-btn" data-slide="P1-A6-3">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -7688,7 +7698,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A8-1" data-slide-idx="9" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A8</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 45s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Curiosity-led</span></div>
+<div class="slide" data-slide-id="P1-A8-1" data-slide-idx="9" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A8</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 45s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Curiosity-led</span><button type="button" class="needs-update-btn" data-slide="P1-A8-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -8503,7 +8513,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P1-A9-1" data-slide-idx="10" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A9</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Pain-first</span></div>
+<div class="slide" data-slide-id="P1-A9-1" data-slide-idx="10" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P1-A9</span><span class="sm-pillar">Pillar P1</span><span class="sm-format">Short-form 60s · bilingual</span><span class="sm-topic">Topic 01</span><span class="sm-approach">Pain-first</span><button type="button" class="needs-update-btn" data-slide="P1-A9-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -9318,7 +9328,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A1-1" data-slide-idx="11" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A1</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Math-led</span></div>
+<div class="slide" data-slide-id="P2-A1-1" data-slide-idx="11" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A1</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Math-led</span><button type="button" class="needs-update-btn" data-slide="P2-A1-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -10133,7 +10143,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A1-2" data-slide-idx="12" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A1</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Pain-led</span></div>
+<div class="slide" data-slide-id="P2-A1-2" data-slide-idx="12" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A1</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Pain-led</span><button type="button" class="needs-update-btn" data-slide="P2-A1-2">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -10948,7 +10958,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A13-1" data-slide-idx="13" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A13</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Math-led</span></div>
+<div class="slide" data-slide-id="P2-A13-1" data-slide-idx="13" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A13</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Math-led</span><button type="button" class="needs-update-btn" data-slide="P2-A13-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -11763,7 +11773,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A13-2" data-slide-idx="14" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A13</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Comparison</span></div>
+<div class="slide" data-slide-id="P2-A13-2" data-slide-idx="14" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A13</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Comparison</span><button type="button" class="needs-update-btn" data-slide="P2-A13-2">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -12578,7 +12588,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A14-1" data-slide-idx="15" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A14</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Category</span></div>
+<div class="slide" data-slide-id="P2-A14-1" data-slide-idx="15" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A14</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Category</span><button type="button" class="needs-update-btn" data-slide="P2-A14-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -13393,7 +13403,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A18-1" data-slide-idx="16" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A18</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Math-led</span></div>
+<div class="slide" data-slide-id="P2-A18-1" data-slide-idx="16" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A18</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Math-led</span><button type="button" class="needs-update-btn" data-slide="P2-A18-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -14208,7 +14218,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A18-2" data-slide-idx="17" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A18</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Comparison</span></div>
+<div class="slide" data-slide-id="P2-A18-2" data-slide-idx="17" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A18</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Comparison</span><button type="button" class="needs-update-btn" data-slide="P2-A18-2">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -15023,7 +15033,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A24-1" data-slide-idx="18" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A24</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Tutorial</span></div>
+<div class="slide" data-slide-id="P2-A24-1" data-slide-idx="18" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A24</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Tutorial</span><button type="button" class="needs-update-btn" data-slide="P2-A24-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -15838,7 +15848,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A24-2" data-slide-idx="19" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A24</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Math-led</span></div>
+<div class="slide" data-slide-id="P2-A24-2" data-slide-idx="19" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A24</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 04</span><span class="sm-approach">Math-led</span><button type="button" class="needs-update-btn" data-slide="P2-A24-2">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -16653,7 +16663,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A3-1" data-slide-idx="20" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A3</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s comparison</span><span class="sm-topic">Topic 03</span><span class="sm-approach">Story</span></div>
+<div class="slide" data-slide-id="P2-A3-1" data-slide-idx="20" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A3</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s comparison</span><span class="sm-topic">Topic 03</span><span class="sm-approach">Story</span><button type="button" class="needs-update-btn" data-slide="P2-A3-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -17468,7 +17478,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A7-1" data-slide-idx="21" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A7</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Pain-led</span></div>
+<div class="slide" data-slide-id="P2-A7-1" data-slide-idx="21" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A7</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Pain-led</span><button type="button" class="needs-update-btn" data-slide="P2-A7-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -18283,7 +18293,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A8-1" data-slide-idx="22" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A8</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s tutorial</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Tutorial</span></div>
+<div class="slide" data-slide-id="P2-A8-1" data-slide-idx="22" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A8</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 60s tutorial</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Tutorial</span><button type="button" class="needs-update-btn" data-slide="P2-A8-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -19098,7 +19108,7 @@ h1 { font-size: 30px; line-height: 1.18; letter-spacing: -0.02em; font-weight: 6
 </article>
   </div>
 </section></div>
-<div class="slide" data-slide-id="P2-A9-1" data-slide-idx="23" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A9</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 45s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Curiosity-led</span></div>
+<div class="slide" data-slide-id="P2-A9-1" data-slide-idx="23" style="display:none;"><div class="slide-meta"><span class="sm-card">Card P2-A9</span><span class="sm-pillar">Pillar P2</span><span class="sm-format">Short-form 45s</span><span class="sm-topic">Topic 02</span><span class="sm-approach">Curiosity-led</span><button type="button" class="needs-update-btn" data-slide="P2-A9-1">Needs update</button></div>
 <section class="combined-section">
   <div class="scripts-stack">
     
@@ -19944,6 +19954,13 @@ if (!state.picks) state.picks = {};
 if (!state.comments) state.comments = {};
 if (!state.hookpick) state.hookpick = {};
 if (!state.versionpick) state.versionpick = {};
+if (!state.needsUpdate) state.needsUpdate = {};
+// Migrate legacy lowercase version labels to the new 4-tab labels
+const VER_MIGRATE = { 'final': 'Final VO', 'clarity': 'Final VO (Clarity)' };
+Object.keys(state.versionpick).forEach(k => {
+  const v = state.versionpick[k];
+  if (VER_MIGRATE[v]) state.versionpick[k] = VER_MIGRATE[v];
+});
 // Migrate legacy single-string picks to array form (state.picks[slide] = [vid, ...])
 Object.keys(state.picks).forEach(k => {
   if (typeof state.picks[k] === 'string') state.picks[k] = [state.picks[k]];
@@ -20107,6 +20124,18 @@ document.querySelectorAll('.sc-toggle').forEach(btn => {
   });
 });
 
+// Needs-update flag per slide — signal to regenerate variants for this idea
+document.querySelectorAll('.needs-update-btn').forEach(btn => {
+  const slide = btn.getAttribute('data-slide');
+  if (state.needsUpdate[slide]) btn.classList.add('flagged');
+  btn.addEventListener('click', () => {
+    const flagged = btn.classList.toggle('flagged');
+    if (flagged) state.needsUpdate[slide] = true;
+    else delete state.needsUpdate[slide];
+    saveState(state); updatePanel();
+  });
+});
+
 function buildPrompt() {
   const lines = ['== SEA Voice Iterate paste-back =='];
   lines.push('');
@@ -20134,8 +20163,18 @@ function buildPrompt() {
   lines.push(`COMMENTS (${commentEntries.length}):`);
   if (commentEntries.length === 0) lines.push('  (none)');
   commentEntries.forEach(([key, c]) => { lines.push(`  ${key}: "${c.trim()}"`); });
+  // Needs-update flags — slides that need fresh variants generated
+  const needsUpdateIds = Object.keys(state.needsUpdate || {}).filter(k => state.needsUpdate[k]);
   lines.push('');
-  lines.push('Action: each picked script = a final variant to ship for that idea. Multiple picks per idea = ship multiple. Comments = rework notes.');
+  lines.push(`NEEDS UPDATE (${needsUpdateIds.length}) — regenerate variants for these ideas:`);
+  if (needsUpdateIds.length === 0) lines.push('  (none)');
+  // Order by DOM
+  document.querySelectorAll('.slide').forEach(sl => {
+    const sid = sl.getAttribute('data-slide-id');
+    if (state.needsUpdate[sid]) lines.push(`  ${sid}`);
+  });
+  lines.push('');
+  lines.push('Action: each picked script = a final variant to ship for that idea. Multiple picks per idea = ship multiple. Comments = rework notes. NEEDS UPDATE = regenerate the 10 variants for that idea (fresh hook + body).');
   return lines.join('\n');
 }
 function updatePanel() {
